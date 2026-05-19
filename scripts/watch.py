@@ -53,6 +53,7 @@ import extract_opportunity
 import resume_fr
 import score_opportunity
 import organisme_manager
+import pdf_processor
 
 # ── Chemins ────────────────────────────────────────────────────────────────────
 CONFIG_PATH    = ROOT / "config" / "sources.yml"
@@ -82,9 +83,52 @@ def url_uid(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()[:8]
 
 
-PDF_EXTENSIONS = (".pdf", ".doc", ".docx", ".epub", ".zip")
+PDF_EXTENSIONS = (".pdf",)
+BINARY_EXTENSIONS = (".doc", ".docx", ".epub", ".zip", ".rar", ".jpg", ".png", ".mp4")
 CACHE_DIR = ROOT / ".cache" / "pages"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
+PDFS_DIR = ROOT / "pdfs"
+PDFS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def fetch_pdf_body(url: str) -> str:
+    """
+    Télécharge un PDF (avec cache disque + magic bytes validation), extrait
+    le texte via pdf_processor. Retourne '' si échec.
+    """
+    url_hash = hashlib.md5(url.encode()).hexdigest()
+    pdf_path = PDFS_DIR / f"{url_hash}.pdf"
+    cache_txt = CACHE_DIR / f"{url_hash}.pdf.txt"
+
+    if cache_txt.exists():
+        return cache_txt.read_text(encoding="utf-8")
+
+    if not pdf_path.exists():
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; ResidenceBot/1.0)"}
+        try:
+            r = requests.get(url, headers=headers, timeout=60, stream=True)
+            r.raise_for_status()
+            with open(pdf_path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    f.write(chunk)
+        except Exception:
+            cache_txt.write_text("", encoding="utf-8")
+            return ""
+
+        # Validation magic bytes + retry bypass anti-bot si besoin
+        if not pdf_processor.validate_pdf(pdf_path):
+            ok, _ = pdf_processor.redownload_with_bypass(url, pdf_path)
+            if not ok or not pdf_processor.validate_pdf(pdf_path):
+                pdf_path.unlink(missing_ok=True)
+                cache_txt.write_text("", encoding="utf-8")
+                return ""
+
+    try:
+        text = pdf_processor.extract_text(pdf_path, max_chars=15000)
+    except Exception:
+        text = ""
+    cache_txt.write_text(text or "", encoding="utf-8")
+    return text or ""
 
 
 def fetch_page_body(url: str, timeout: int = 30) -> str:
@@ -147,17 +191,24 @@ def process_item(item: dict, source_label: str) -> dict | None:
 
     print(f"    · {title[:80]}")
 
-    # 0. Skipper les PDFs/binaires (extraction par pdf_processor en V2)
-    if url.lower().rstrip("/").endswith(PDF_EXTENSIONS):
-        print(f"      ↳ skip : extension binaire (PDF traité en V2)")
-        return {"url": url, "status": "skipped", "reason": "binary_extension"}
+    url_low = url.lower().rstrip("/")
 
-    # 0bis. Enrichir le body si trop court (fetch la page de l'item)
+    # 0. Skip vrais binaires non-PDF (DOC, ZIP, images, vidéos)
+    if url_low.endswith(BINARY_EXTENSIONS):
+        print(f"      ↳ skip : binaire non-PDF")
+        return {"url": url, "status": "skipped", "reason": "binary_non_pdf"}
+
+    # 0bis. Enrichir le body
     if len(body) < 500:
-        fetched = fetch_page_body(url)
+        if url_low.endswith(PDF_EXTENSIONS):
+            fetched = fetch_pdf_body(url)
+            tag = "PDF"
+        else:
+            fetched = fetch_page_body(url)
+            tag = "HTML"
         if fetched and len(fetched) > len(body):
             body = fetched
-            print(f"      ↳ body enrichi : {len(body)} chars depuis fetch")
+            print(f"      ↳ body enrichi : {len(body)} chars ({tag})")
         elif len(body) < 50:
             print(f"      ↳ skip : body trop court ({len(body)}) et fetch vide")
             return {"url": url, "status": "skipped", "reason": "empty_body"}

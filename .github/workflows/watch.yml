@@ -44,7 +44,7 @@ jobs:
           node-version: "22"
 
       - name: Installation des dépendances Python
-        run: pip install requests beautifulsoup4 pyyaml playwright
+        run: pip install requests beautifulsoup4 pyyaml playwright pymupdf
 
       - name: Installation de Chromium pour Playwright (différé)
         if: ${{ false }}
