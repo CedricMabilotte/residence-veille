@@ -200,23 +200,93 @@ def process_item(item: dict, source_label: str) -> dict | None:
 def main():
     config = load_config()
     sources = config.get("sources", []) or []
+    run_start = _dt.datetime.now(_dt.timezone.utc)
 
     print(f"→ {len(sources)} source(s) à traiter (DRY_RUN={DRY_RUN})")
+    print(f"✓ concepts.yml : {len(load_concepts().get('opportunity_types', []))} types")
+    print()
 
-    # NOTE : la phase scrape (parser_dispatch + throttle) est désactivée tant que
-    # bootstrap_copy.sh n'a pas copié les modules BIBLIO. Pour l'instant, watch.py
-    # se contente de valider que la config charge et que les modules locaux
-    # importent correctement.
+    all_logs: list[dict] = []
+    sources_stats: list[dict] = []
 
-    print("⚠  Phase scrape pas encore connectée — voir bootstrap_copy.sh.")
-    print(f"✓ concepts.yml chargé ({len(load_concepts().get('opportunity_types', []))} types)")
-    print(f"✓ {len(sources)} sources définies dans sources.yml")
-    print(f"✓ modules locaux : detect_type, extract_opportunity, resume_fr, score_opportunity, organisme_manager")
+    # State throttle (chemin propre au fork — pas synopsis/ qui n'existe pas ici)
+    throttle_state_path = ROOT / "discovery" / "throttle_state.json"
+    throttle_state_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Smoke test : on vérifie qu'on peut créer un organisme
+    for src in sources:
+        label = src.get("label", src.get("url", "?"))
+        print(f"━━ {label} ━━")
+
+        # Throttle check (TTL + robots + cooldown erreurs)
+        ok, reason = throttle.should_fetch(src, state_path=throttle_state_path)
+        if not ok:
+            print(f"  ⏸  Throttle : {reason}")
+            continue
+
+        # Scrape via parser dispatcher
+        try:
+            items = parser_dispatch(src)
+        except Exception as e:
+            print(f"  ✗ Scrape erreur : {e}")
+            sources_stats.append({"label": label, "items": 0, "error": str(e)})
+            throttle.record_fetch(src, success=False, doc_count=0, status_code=500, state_path=throttle_state_path)
+            continue
+
+        print(f"  ↳ {len(items)} item(s) détecté(s)")
+
+        n_promoted = 0
+        for item in items:
+            try:
+                log = process_item(item, label)
+            except Exception as e:
+                print(f"    ✗ process_item erreur : {e}")
+                continue
+            if log is None:
+                continue
+            all_logs.append(log)
+            if log.get("status") == "promoted":
+                n_promoted += 1
+
+        throttle.record_fetch(src, success=True, doc_count=n_promoted, status_code=200, state_path=throttle_state_path)
+
+        sources_stats.append({
+            "label": label,
+            "items": len(items),
+            "promoted": n_promoted,
+        })
+        print(f"  ✓ {n_promoted} promu(s) sur {len(items)} item(s)")
+        print()
+
+    # Rapport de run
+    run_end = _dt.datetime.now(_dt.timezone.utc)
+    duration = (run_end - run_start).total_seconds()
+    report = {
+        "started_at": run_start.isoformat(),
+        "ended_at": run_end.isoformat(),
+        "duration_sec": duration,
+        "dry_run": DRY_RUN,
+        "n_sources": len(sources),
+        "n_items_total": sum(s.get("items", 0) for s in sources_stats),
+        "n_promoted_total": sum(s.get("promoted", 0) for s in sources_stats),
+        "sources_stats": sources_stats,
+        "logs": all_logs,
+    }
+
+    reports_dir = ROOT / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    report_path = reports_dir / f"run_{run_start.strftime('%Y-%m-%d_%H-%M')}.json"
     if not DRY_RUN:
-        test_org = organisme_manager.get_or_create("Test Bootstrap", "FR")
-        print(f"✓ Smoke test organisme : {test_org['uid']}")
+        report_path.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+
+    print("─" * 50)
+    print(f"Total items détectés  : {report['n_items_total']}")
+    print(f"Total fiches promues  : {report['n_promoted_total']}")
+    print(f"Durée                 : {duration:.1f}s")
+    if not DRY_RUN:
+        print(f"Rapport               : {report_path.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
