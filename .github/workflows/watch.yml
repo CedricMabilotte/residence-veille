@@ -106,9 +106,27 @@ jobs:
       - name: Commit reports + appels + organismes + discovery + archive
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
+          echo "── État du filesystem avant commit ──"
+          ls -la appels/ 2>&1 | head -20
+          echo "── Contenu appels/residence/ ──"
+          ls -la appels/residence/ 2>&1 | head -20
+          echo "── Contenu organismes/ ──"
+          ls -la organismes/ 2>&1 | head -20
+          echo "── Contenu reports/ ──"
+          ls -la reports/ 2>&1 | head -10
+          echo "──────────────────────────────────────"
+
           git config --global user.name  "Residence Bot"
           git config --global user.email "bot@residence.local"
+
+          # Voir explicitement ce qui est nouveau
+          git status --short
+          echo "──────────────────────────────────────"
+
           git add reports/ appels/ archive/ organismes/ discovery/ alertes/ feedback.json 2>/dev/null || true
+          git status --short --cached | head -20
+          echo "──────────────────────────────────────"
+
           git diff --staged --quiet || git commit -m "veille: $(date '+%Y-%m-%d %H:%M') — opportunités + organismes + discoveries"
           git push
 
