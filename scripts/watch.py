@@ -229,6 +229,7 @@ def process_item(item: dict, source_label: str) -> dict | None:
     try:
         det = detect_type.detect_type(title, body, url)
     except Exception as e:
+        print(f"      ↳ ✗ detect_type erreur : {str(e)[:120]}")
         return {"url": url, "status": "error", "step": "detect_type", "error": str(e)}
 
     if det["confidence"] < 0.7:
@@ -241,6 +242,7 @@ def process_item(item: dict, source_label: str) -> dict | None:
             title, body, url, det["type"], lang,
         )
     except Exception as e:
+        print(f"      ↳ ✗ extract erreur : {str(e)[:120]}")
         return {"url": url, "status": "error", "step": "extract", "error": str(e)}
 
     # Affichage bilingue du titre
