@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données locales (pas committées)
+docs/                  # PDFs téléchargés (volume)
+pdfs/                  # PDFs d'appels téléchargés
+*.log
+.cache/
+
+# Secrets locaux (jamais committés)
+.env
+.env.local
+secrets.yml
+
+# Fichiers temporaires
+tmp/
+*.tmp
+*.bak
+
+# Reports lourds — gardés en git mais pas en double
+# reports/                ← gardés
+# discovery/reports/      ← gardés

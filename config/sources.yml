@@ -1,0 +1,110 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# sources.yml — Sources surveillées pour le fork « Résidence »
+# ─────────────────────────────────────────────────────────────────────────────
+# Sources de démarrage (à valider via scripts/probe_source.py avant intégration
+# définitive). Voir INSTRUCTION-DEMARRAGE.md §4 pour la liste complète prévue.
+#
+# Champ `type` : html | deep_html | rss | jsonld_event
+# Champ `peak_months` (optionnel) : modulation saisonnière (voir §12.4/I)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Seuil global (peut être surchargé par run via env SCORE_THRESHOLD)
+threshold: 6
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Sources de démarrage (≈ 12 sources pour le premier run de validation)
+# ─────────────────────────────────────────────────────────────────────────────
+sources:
+
+  # ── A. Agrégateurs internationaux ──────────────────────────────────────────
+
+  - label: "TransArtists — Air listings (EN)"
+    url: "https://www.transartists.org/en/air"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 7
+    peak_months: [1, 2, 3, 9, 10, 11]
+
+  - label: "Res Artis — Listings (EN)"
+    url: "https://resartis.org/listings/"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 7
+    peak_months: [1, 2, 3, 9, 10, 11]
+
+  - label: "On-the-Move — Funding (EN/FR/ES)"
+    url: "https://on-the-move.org/funding/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 7
+
+  - label: "e-flux — Announcements (EN)"
+    url: "https://www.e-flux.com/announcements/"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 3
+
+  # ── B. Institutionnels FR ──────────────────────────────────────────────────
+
+  - label: "CNAP — appels et résidences"
+    url: "https://www.cnap.fr/appels-projets"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 7
+    peak_months: [1, 2, 3, 9, 10, 11]
+
+  - label: "Institut français — résidences internationales"
+    url: "https://www.institutfrancais.com/fr/programmes"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  # ── C. Prix et concours ────────────────────────────────────────────────────
+
+  - label: "Salon de Montrouge — Candidatures"
+    url: "https://salondemontrouge.com/candidater/"
+    type: html
+    min_interval_days: 14
+    peak_months: [10, 11, 12, 1]
+
+  # ── D. Lieux et fondations ─────────────────────────────────────────────────
+
+  - label: "Cité internationale des arts — résidences"
+    url: "https://www.citedesartsparis.net/fr/residences"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 14
+
+  - label: "Pollen — résidence (Monflanquin)"
+    url: "https://www.pollen-monflanquin.com/residences/"
+    type: html
+    min_interval_days: 14
+
+  # ── E. Hispanophones ───────────────────────────────────────────────────────
+
+  - label: "Hangar Barcelona — convocatorias"
+    url: "https://hangar.org/es/convocatorias/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 7
+
+  - label: "MATADERO Madrid — convocatorias"
+    url: "https://www.mataderomadrid.org/convocatorias"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 7
+
+  # ── F. Sources de validation pilote ────────────────────────────────────────
+  # À probe avant activation. Décommenter après validation manuelle.
+
+  # - label: "Documents d'Artistes PACA"
+  #   url: "https://www.dda-paca.net/"
+  #   type: deep_html
+  #   max_pages: 15
+  #   min_interval_days: 14
+
+  # - label: "FRAC Île-de-France"
+  #   url: "https://www.fraciledefrance.com/"
+  #   type: deep_html
+  #   max_pages: 10
+  #   min_interval_days: 14
