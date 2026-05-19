@@ -47,7 +47,7 @@ sources:
   # ── B. Institutionnels FR ──────────────────────────────────────────────────
 
   - label: "CNAP — appels et résidences"
-    url: "https://www.cnap.fr/appels-projets"
+    url: "https://www.cnap.fr/appels-en-cours"
     type: deep_html
     max_pages: 10
     min_interval_days: 7
@@ -61,9 +61,10 @@ sources:
 
   # ── C. Prix et concours ────────────────────────────────────────────────────
 
-  - label: "Salon de Montrouge — Candidatures"
-    url: "https://salondemontrouge.com/candidater/"
-    type: html
+  - label: "Salon de Montrouge — accueil"
+    url: "https://salondemontrouge.com/"
+    type: deep_html
+    max_pages: 5
     min_interval_days: 14
     peak_months: [10, 11, 12, 1]
 
@@ -83,7 +84,7 @@ sources:
   # ── E. Hispanophones ───────────────────────────────────────────────────────
 
   - label: "Hangar Barcelona — convocatorias"
-    url: "https://hangar.org/es/convocatorias/"
+    url: "https://hangar.org/es/convocatorias"
     type: deep_html
     max_pages: 10
     min_interval_days: 7
