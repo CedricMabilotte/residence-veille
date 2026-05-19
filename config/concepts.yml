@@ -168,7 +168,7 @@ editorial:
 # Scoring
 # ─────────────────────────────────────────────────────────────────────────────
 scoring:
-  threshold: 6
+  threshold: 5            # V0 exploratoire (cible : 6 une fois calibré)
   strict_mode: true
 
   rules:
@@ -183,7 +183,7 @@ scoring:
 
   # Confidence-based auto-promotion (voir §12.5 de l'instruction)
   auto_promote:
-    min_confidence: 0.85
+    min_confidence: 0.70       # V0 exploratoire (cible : 0.85 une fois calibré)
     require_future_deadline: true
     require_compatible_discipline: true
     log_path: "discovery/promote-log.jsonl"

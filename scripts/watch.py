@@ -96,6 +96,8 @@ def process_item(item: dict, source_label: str) -> dict | None:
     if not url or not title:
         return None
 
+    print(f"    · {title[:80]}")
+
     # 1. Langue
     lang = detect_lang(body or title)
 
@@ -115,6 +117,7 @@ def process_item(item: dict, source_label: str) -> dict | None:
         return {"url": url, "status": "error", "step": "detect_type", "error": str(e)}
 
     if det["confidence"] < 0.7:
+        print(f"      ↳ skip : type {det['type']} conf {det['confidence']:.2f} < 0.7")
         return {"url": url, "status": "skipped", "reason": "confidence type < 0.7", "detection": det}
 
     # 4. Extraction
@@ -156,7 +159,18 @@ def process_item(item: dict, source_label: str) -> dict | None:
         and det["confidence"] >= min_conf
     )
 
+    if not auto_ok:
+        reasons = []
+        if not sc["hard_filter_pass"]:
+            reasons.append(f"hard_filter:{sc['hard_filter_reason']}")
+        if sc["score"] < threshold:
+            reasons.append(f"score {sc['score']} < {threshold}")
+        if det["confidence"] < min_conf:
+            reasons.append(f"conf {det['confidence']:.2f} < {min_conf}")
+        print(f"      ↳ {det['type']:11s} score {sc['score']:2d} conf {det['confidence']:.2f} — rejet: {'; '.join(reasons)}")
+
     if auto_ok and not DRY_RUN:
+        print(f"      ✓ PROMU — {det['type']} score {sc['score']} conf {det['confidence']:.2f}")
         # 7. Persistance + maj organisme
         slug = url_uid(url)
         type_id = fiche["type"]
