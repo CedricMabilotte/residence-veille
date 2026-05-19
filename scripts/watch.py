@@ -26,10 +26,18 @@ import datetime as _dt
 import hashlib
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
+import requests
 import yaml
+
+try:
+    from bs4 import BeautifulSoup
+    _HAS_BS4 = True
+except ImportError:
+    _HAS_BS4 = False
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -74,6 +82,47 @@ def url_uid(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()[:8]
 
 
+PDF_EXTENSIONS = (".pdf", ".doc", ".docx", ".epub", ".zip")
+CACHE_DIR = ROOT / ".cache" / "pages"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def fetch_page_body(url: str, timeout: int = 30) -> str:
+    """
+    Fetch et nettoie une page HTML. Cache disque par hash d'URL pour éviter
+    les re-fetch dans le même run et entre runs proches.
+    """
+    url_hash = hashlib.md5(url.encode()).hexdigest()
+    cache_file = CACHE_DIR / f"{url_hash}.txt"
+    if cache_file.exists():
+        return cache_file.read_text(encoding="utf-8")
+
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; ResidenceBot/1.0)"}
+    try:
+        r = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
+        r.raise_for_status()
+    except Exception as e:
+        cache_file.write_text("", encoding="utf-8")  # marquer comme tenté
+        return ""
+
+    if "text/html" not in (r.headers.get("Content-Type") or ""):
+        cache_file.write_text("", encoding="utf-8")
+        return ""
+
+    if _HAS_BS4:
+        soup = BeautifulSoup(r.text, "html.parser")
+        for tag in soup(["script", "style", "nav", "footer", "header"]):
+            tag.decompose()
+        text = soup.get_text(separator=" ", strip=True)
+    else:
+        text = re.sub(r"<[^>]+>", " ", r.text)
+        text = re.sub(r"\s+", " ", text).strip()
+
+    text = text[:15000]  # cap raisonnable
+    cache_file.write_text(text, encoding="utf-8")
+    return text
+
+
 def detect_lang(text: str) -> str:
     """Heuristique très simple. Idéalement : langdetect ou Claude."""
     t = text.lower()
@@ -97,6 +146,21 @@ def process_item(item: dict, source_label: str) -> dict | None:
         return None
 
     print(f"    · {title[:80]}")
+
+    # 0. Skipper les PDFs/binaires (extraction par pdf_processor en V2)
+    if url.lower().rstrip("/").endswith(PDF_EXTENSIONS):
+        print(f"      ↳ skip : extension binaire (PDF traité en V2)")
+        return {"url": url, "status": "skipped", "reason": "binary_extension"}
+
+    # 0bis. Enrichir le body si trop court (fetch la page de l'item)
+    if len(body) < 500:
+        fetched = fetch_page_body(url)
+        if fetched and len(fetched) > len(body):
+            body = fetched
+            print(f"      ↳ body enrichi : {len(body)} chars depuis fetch")
+        elif len(body) < 50:
+            print(f"      ↳ skip : body trop court ({len(body)}) et fetch vide")
+            return {"url": url, "status": "skipped", "reason": "empty_body"}
 
     # 1. Langue
     lang = detect_lang(body or title)
@@ -246,7 +310,13 @@ def main():
             throttle.record_fetch(src, success=False, doc_count=0, status_code=500, state_path=throttle_state_path)
             continue
 
-        print(f"  ↳ {len(items)} item(s) détecté(s)")
+        # Cap par source pour limiter le temps de run (V0)
+        max_items_per_source = src.get("max_items_per_run", 12)
+        if len(items) > max_items_per_source:
+            print(f"  ↳ {len(items)} item(s) détecté(s) → cap à {max_items_per_source}")
+            items = items[:max_items_per_source]
+        else:
+            print(f"  ↳ {len(items)} item(s) détecté(s)")
 
         n_promoted = 0
         for item in items:
