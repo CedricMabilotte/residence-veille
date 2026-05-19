@@ -1,0 +1,189 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# concepts.yml — Ontologie du fork « Résidence »
+# ─────────────────────────────────────────────────────────────────────────────
+# Veille des opportunités arts plastiques : résidences, bourses, prix, expos.
+# Sources scrapées : FR / EN / ES. Interface publique : FR uniquement.
+# Calibrage interne sur le profil de Lucile Leloup (textile, ruralité,
+# collectif) — INVISIBLE côté public.
+# Voir INSTRUCTION-DEMARRAGE.md §5 pour le détail.
+# ─────────────────────────────────────────────────────────────────────────────
+
+project:
+  name: "opportunites-arts-plastiques"
+  display_name: "Résidence — opportunités arts plastiques"
+  tagline: "Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes."
+  description: >
+    Agrégation et tri des opportunités ouvertes aux plasticien·nes dans le monde :
+    résidences, bourses, prix et appels à exposition. Extraction structurée
+    des conditions, des critères d'éligibilité et des dates limites.
+    Interface en français, sources multilingues (FR, EN, ES).
+  languages_sources: [fr, en, es]
+  language_interface: fr
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 4 types d'opportunités, agrégés dans une même base
+# ─────────────────────────────────────────────────────────────────────────────
+opportunity_types:
+
+  - id: "residence"
+    label_fr: "Résidence"
+    definition: >
+      Dispositif d'accueil temporaire d'un·e artiste dans un lieu qui met
+      à disposition un espace de travail, parfois un hébergement et une
+      rémunération, en vue d'une production, d'une recherche ou d'une
+      restitution.
+    required_signals:
+      - dispositif d'accueil physique sur place
+      - durée définie (jours / semaines / mois)
+      - date limite de candidature future
+      - candidature ouverte (pas d'invitation uniquement)
+    equivalents:
+      fr: ["résidence d'artiste", "résidence de création", "résidence de recherche"]
+      en: ["artist residency", "artist-in-residence", "AIR", "residency program"]
+      es: ["residencia artística", "residencia de artistas"]
+
+  - id: "bourse"
+    label_fr: "Bourse"
+    definition: >
+      Soutien financier accordé à un·e artiste pour développer un projet,
+      une recherche, une production ou une formation, sans nécessairement
+      impliquer une présence physique dans un lieu.
+    required_signals:
+      - dotation monétaire
+      - candidature ouverte
+      - date limite future
+    equivalents:
+      fr: ["bourse", "aide à la création", "aide à la recherche", "soutien à la production", "aide individuelle"]
+      en: ["grant", "fellowship", "stipend", "production grant", "research grant"]
+      es: ["beca", "ayuda económica", "subvención"]
+
+  - id: "prix"
+    label_fr: "Prix"
+    definition: >
+      Distinction attribuée à un·e artiste à l'issue d'un processus de
+      sélection (jury, vote), comprenant généralement une dotation
+      monétaire, une exposition, ou une publication.
+    required_signals:
+      - processus de sélection compétitif
+      - dotation (monétaire, exposition, édition, achat)
+      - candidature ouverte (≠ prix sur nomination uniquement)
+      - date limite future
+    equivalents:
+      fr: ["prix", "concours", "lauréat·e", "récompense"]
+      en: ["prize", "award", "competition", "open competition"]
+      es: ["premio", "concurso", "certamen"]
+
+  - id: "exposition"
+    label_fr: "Appel à exposition"
+    definition: >
+      Appel à candidatures pour participer à une exposition collective ou
+      personnelle dans un lieu d'art, festival, biennale, salon ou espace
+      alternatif. Inclut les appels à projets curatoriaux portés par des
+      artistes.
+    required_signals:
+      - exposition publique programmée
+      - sélection par dossier ou jury
+      - date limite future
+    equivalents:
+      fr: ["appel à candidature exposition", "appel à projets exposition", "open call exposition", "appel à artistes"]
+      en: ["open call exhibition", "call for artists", "call for proposals", "submissions"]
+      es: ["convocatoria de exposición", "convocatoria artistas"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Disciplines acceptées (commun aux 4 types)
+# ─────────────────────────────────────────────────────────────────────────────
+disciplines_acceptees:
+  - installation
+  - sculpture
+  - textile / feutre / fibres
+  - dessin
+  - peinture
+  - photographie
+  - vidéo / film d'artiste
+  - performance
+  - édition / livre d'artiste
+  - écriture (uniquement si volet plastique)
+  - art sonore (uniquement si volet plastique)
+  - art et écologie / land art
+  - art textile / craft contemporain
+  - art et agriculture / art paysan
+  - pratiques transdisciplinaires (si volet plastique explicite)
+
+disciplines_exclues:
+  - musique pure (composition, interprétation classique)
+  - danse pure
+  - théâtre, dramaturgie
+  - cinéma narratif / fiction longue
+  - écriture littéraire / romanesque pure
+  - journalisme
+  - recherche académique sans production plastique
+
+# ─────────────────────────────────────────────────────────────────────────────
+# BIAS INTERNE — JAMAIS affiché côté site public
+# ─────────────────────────────────────────────────────────────────────────────
+affinites_profil_interne:
+  description: >
+    Bonus de scoring (+1) appliqué silencieusement quand l'opportunité
+    résonne avec la pratique calibrée (Lucile Leloup). AUCUN affichage
+    côté site public — le profil reste invisible aux usagers.
+  signaux:
+    - territoire rural / paysan
+    - matériaux locaux / sourcés (laine, bois, chanvre, lin)
+    - lien artisanat / art contemporain
+    - dimension collective ou participative
+    - mémoire / patrimoine immatériel
+    - écriture / poésie comme outil
+    - durée longue (≥ 4 semaines) pour résidences
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Anti-concepts — rejets francs
+# ─────────────────────────────────────────────────────────────────────────────
+anti_concepts:
+  - "opportunité sur invitation uniquement (pas d'open call)"
+  - "opportunité réservée aux disciplines strictement non-plastiques"
+  - "formations payantes déguisées (artiste paye > il reçoit)"
+  - "vente d'espace atelier déguisée en résidence"
+  - "workshops / masterclass < 1 semaine"
+  - "« résidences » / « prix » NFT / metavers / blockchain"
+  - "prix / appels avec fee > 100 € sans dotation proportionnée"
+  - "appels prédateurs (vanity galleries, pay-to-show abusif)"
+  - "opportunités destinées à des mineurs (< 18 ans)"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Choix éditoriaux
+# ─────────────────────────────────────────────────────────────────────────────
+editorial:
+  voice: "factuel + utile, sobre"
+  language_public: fr
+  audience: >
+    Artistes plasticien·nes francophones qui cherchent un flux fiable
+    d'opportunités internationales triées par date limite.
+  tone_examples:
+    - "Résidence — 8 semaines au Limousin, hébergement et atelier compris, per diem 600€/semaine. Date limite : 15 juillet."
+    - "Bourse — aide à la production 5000€, ouvert aux plasticien·nes émergent·es, dossier en français. Date limite : 30 juin."
+    - "Prix — dotation 10 000€ + exposition au lauréat, jury international. Date limite : 1er octobre."
+    - "Appel à exposition — biennale internationale photographie + installation, prise en charge transport, vernissage automne 2027. Date limite : 12 août."
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Scoring
+# ─────────────────────────────────────────────────────────────────────────────
+scoring:
+  threshold: 6
+  strict_mode: true
+
+  rules:
+    - "Si la date limite est passée → score 0 (exclu)."
+    - "Si l'opportunité ne correspond à aucun des 4 types → score 0."
+    - "Si la discipline acceptée est exclusivement non-plastique → score 0."
+    - "Si payant pour l'artiste et dotation < frais → score 1."
+    - "Si open call international, conditions correctes, ouvert aux plasticien·nes → score 7+."
+    - "Si bonus profil interne (ruralité, textile, collectif…) → +1 silencieux."
+    - "Critères d'éligibilité absents → score max 5 (instruire manuellement)."
+    - "Source non FR/EN/ES → résumer en FR avant extraction."
+
+  # Confidence-based auto-promotion (voir §12.5 de l'instruction)
+  auto_promote:
+    min_confidence: 0.85
+    require_future_deadline: true
+    require_compatible_discipline: true
+    log_path: "discovery/promote-log.jsonl"

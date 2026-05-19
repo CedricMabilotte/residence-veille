@@ -1,0 +1,132 @@
+name: Veille opportunités
+
+on:
+  workflow_dispatch:
+    inputs:
+      score_threshold:
+        description: "Seuil de pertinence (0–10, défaut : 6)"
+        default: "6"
+        required: false
+      dry_run:
+        description: "Simulation sans persistance (true/false)"
+        default: "false"
+        required: false
+      do_discovery_weekly:
+        description: "Lance les discoveries hebdo (Mastodon, network_pages)"
+        default: "false"
+        required: false
+      do_discovery_monthly:
+        description: "Lance les discoveries mensuelles (LLM suggest, blind spots, enrich organismes)"
+        default: "false"
+        required: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout du repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Installation des dépendances Python
+        run: pip install requests beautifulsoup4 pyyaml playwright
+
+      - name: Installation de Chromium pour Playwright (différé)
+        if: ${{ false }}
+        run: python -m playwright install --with-deps chromium
+
+      - name: Installation de Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Veille principale
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          SCORE_THRESHOLD:         ${{ github.event.inputs.score_threshold }}
+          DRY_RUN:                 ${{ github.event.inputs.dry_run }}
+        run: python scripts/watch.py
+
+      - name: Tri par échéance (deadline_tracker)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: python scripts/deadline_tracker.py
+
+      - name: Détection des cycles annuels
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: python scripts/discovery_cycles.py || echo "  cycles skipped"
+
+      - name: Graphe partenariats
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: python scripts/discovery_partnerships.py || echo "  partnerships skipped"
+
+      - name: Patterns d'archive (laureat·es éditions précédentes)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: python scripts/discovery_editions_archive.py || echo "  editions_archive skipped"
+
+      - name: Audit auto-promotion (garde-fou drift)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python scripts/discovery_audit.py || echo "  audit skipped"
+
+      - name: "Discovery hebdo (Mastodon, network_pages)"
+        if: ${{ github.event.inputs.do_discovery_weekly == 'true' }}
+        run: |
+          python scripts/discovery_mastodon.py       || echo "  mastodon skipped"
+          python scripts/discovery_network_pages.py  || echo "  network_pages skipped"
+
+      - name: "Discovery mensuelle (LLM suggest, blind spots, enrich organismes)"
+        if: ${{ github.event.inputs.do_discovery_monthly == 'true' }}
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          python scripts/discovery_llm_suggest.py  || echo "  llm_suggest skipped"
+          python scripts/discovery_blind_spots.py  || echo "  blind_spots skipped"
+          python scripts/enrich_organismes.py      || echo "  enrich_organismes skipped"
+
+      - name: Review Issues GitHub (suggestions communautaires)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.RESIDENCE_PUBLISH_TOKEN }}
+        run: python scripts/review_issues.py || echo "  review_issues skipped"
+
+      - name: Commit reports + appels + organismes + discovery + archive
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config --global user.name  "Residence Bot"
+          git config --global user.email "bot@residence.local"
+          git add reports/ appels/ archive/ organismes/ discovery/ alertes/ feedback.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "veille: $(date '+%Y-%m-%d %H:%M') — opportunités + organismes + discoveries"
+          git push
+
+      - name: Publier vers residence.actitude.org (repo public)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          PUBLISH_TOKEN: ${{ secrets.RESIDENCE_PUBLISH_TOKEN }}
+        run: |
+          if [ -d site/ ]; then
+            git clone "https://x-access-token:${PUBLISH_TOKEN}@github.com/CedricMabilotte/residence-actitude-org.git" /tmp/residence
+            rsync -a --delete --exclude='.git' site/ /tmp/residence/
+            cd /tmp/residence
+            git config user.name  "Residence Bot"
+            git config user.email "bot@residence.local"
+            git add -A
+            git diff --staged --quiet || git commit -m "publish: veille $(date '+%Y-%m-%d %H:%M')"
+            git push origin main
+            echo "→ Publié sur residence.actitude.org (en attente DNS)"
+          else
+            echo "→ site/ vide — publication différée"
+          fi
