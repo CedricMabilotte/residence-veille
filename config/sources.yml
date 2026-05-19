@@ -70,7 +70,7 @@ sources:
   # ── D. Lieux et fondations ─────────────────────────────────────────────────
 
   - label: "Cité internationale des arts — résidences"
-    url: "https://www.citedesartsparis.net/fr/residences"
+    url: "https://www.citeinternationaledesarts.fr/fr/residences"
     type: deep_html
     max_pages: 10
     min_interval_days: 14

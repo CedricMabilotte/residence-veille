@@ -1,0 +1,74 @@
+{
+  "sources": {
+    "TransArtists — Air listings (EN)": {
+      "url": "https://www.transartists.org/en/air",
+      "domain": "www.transartists.org",
+      "last_fetch": "2026-05-19T21:54:31Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 0,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "Pollen — résidence (Monflanquin)": {
+      "url": "https://www.pollen-monflanquin.com/residences/",
+      "domain": "www.pollen-monflanquin.com",
+      "last_fetch": "2026-05-19T21:55:31Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 0,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "Cité internationale des arts — résidences": {
+      "url": "https://www.citedesartsparis.net/fr/residences",
+      "domain": "www.citedesartsparis.net",
+      "last_fetch": "2026-05-19T21:55:35Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 0,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    }
+  },
+  "domains": {
+    "www.transartists.org": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-05-19T21:54:30Z",
+      "robots_disallow": [],
+      "robots_crawl_delay": null
+    },
+    "www.pollen-monflanquin.com": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-05-19T21:55:01Z",
+      "robots_disallow": [],
+      "robots_crawl_delay": null
+    },
+    "www.citedesartsparis.net": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-05-19T21:55:31Z",
+      "robots_disallow": [
+        "/wp/wp-admin/"
+      ],
+      "robots_crawl_delay": null
+    }
+  }
+}
