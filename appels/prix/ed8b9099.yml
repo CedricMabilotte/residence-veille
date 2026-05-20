@@ -1,11 +1,12 @@
 uid: ed8b9099
 type: prix
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf
-fetched_at: '2026-05-20T00:33:56+00:00'
-score: 7
+fetched_at: '2026-05-20T01:03:23+00:00'
+score: 6
 status: indetermine
 opportunite:
-  nom: LAB 5 The Mechanics of Truth Collaborative Prototyping Laboratory
+  nom: OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH
+    COLLABORATIVE PROTOTYPING LABORATORY
   organisme: Medialab Matadero
   lieu:
     ville: Madrid
@@ -53,29 +54,26 @@ conditions_prix:
     edition_catalogue: false
   jury_public: []
   nb_laureats: 5
-  editions_precedentes:
-  - LAB 1
-  - LAB 2
-  - LAB 3
-  - LAB 4
+  editions_precedentes: []
 partenaires: []
 _meta:
-  extracted_confidence: 0.4
-  extracted_notes: 'Document incomplete (ends mid-sentence). No application deadline
-    explicitly stated. No monetary prize. Intensive collaborative prototyping laboratory:
-    12-25 November 2026, public presentation 26-28 November 2026 at Matadero Madrid.
-    Selection: maximum 5 projects and 20 collaborators. Q&A session: 28 May 2026,
-    6pm. Requires medium-high English level. Open-source framework, Creative Commons
-    licensing.'
+  extracted_confidence: 0.35
+  extracted_notes: 'Document is regulatory framework only. Missing: application deadline,
+    registration fees, required application materials, prize/award details. Laboratory:
+    12-25 November 2026. Q&A session: 28 May 2026. Public event: 26-28 November 2026.
+    Prior editions (LAB 1-4) existed since 2022 but names not provided. Requirement:
+    medium-high English level for communication.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:33:56+00:00'
+  extracted_at: '2026-05-20T01:03:23+00:00'
   source_lang: en
-  resume_fr: LAB 5 The Mechanics of Truth est un appel international ouvert aux projets
-    artistiques et collaborateurs intéressés par la technologie et la construction
-    de la réalité. L'appel vise à sélectionner 5 projets et un maximum de 20 collaborateurs
-    (jusqu'à 4 par projet). Le laboratoire de prototypage collaboratif, session intensive
-    de 2 semaines, se tiendra du lundi 12 au samedi 25 novembre 2026 au Medialab Matadero
-    Madrid, avec présentation publique du 26 au 28 novembre 2026.
+  resume_fr: LAB 5 The Mechanics of Truth est le cinquième laboratoire de la série
+    lancée par Medialab Matadero en 2022. Cet appel international cherche à recruter
+    5 projets et un maximum de 20 collaborateurs pour participer au séminaire intensif
+    de 2 semaines. Le laboratoire aura lieu du lundi au samedi, du 12 au 25 novembre
+    2026 à Medialab Matadero à Madrid, avec une présentation publique du 26 au 28
+    novembre 2026. Une session de questions-réponses en ligne est programmée le jeudi
+    28 mai 2026 à 18h. Le thème central porte sur les mécanismes technologiques utilisés
+    pour définir et contester la réalité partagée.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias

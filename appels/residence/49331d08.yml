@@ -1,33 +1,32 @@
 uid: 49331d08
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_ES.pdf
-fetched_at: '2026-05-20T00:24:02+00:00'
+fetched_at: '2026-05-20T00:50:29+00:00'
 score: 7
 status: indetermine
 opportunite:
-  nom: LAB 5 La mecánica de la verdad
+  nom: Convocatoria de proyectos y colaboradores/as para el Laboratorio de Prototipado
+    Colaborativo del LAB 5 La mecánica de la verdad
   organisme: Medialab Matadero
   lieu:
     ville: Madrid
     pays: España
-    territoire: Matadero Madrid
-  nom_fr: BASES DE L'APPEL À CANDIDATURES
-  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURES]
+    territorio: null
+  nom_fr: BASES DE L'APPEL À CANDIDATURE
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURE]
 candidature:
   date_limite: null
   date_limite_precision: null
   langue_dossier:
   - es
   - en
-  frais_inscription:
-    montant: null
-    devise: null
+  frais_inscription: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://www.medialab-matadero.es
 eligibilite:
   disciplines:
-  - diseño
   - arte
+  - diseño
   - arquitectura
   - urbanismo
   - economía
@@ -42,46 +41,34 @@ eligibilite:
   - ciencias políticas
   - programación
   - ciencia de los materiales
-  niveau_carriere: tous
+  nivel_carriere: tous
   age_max: null
-  nationalite: sans restriction
+  nacionalite: sans restriction
   residence_administrative: sans restriction
 conditions_residence:
   duree:
-    semaines: 2
-    dates: 2026-11-12 à 2026-11-25
+    semanas: 2
+    dates: 2026-11-12 to 2026-11-25
   hebergement: null
   atelier: Laboratorio de Prototipado Colaborativo
-  remuneration:
-    montant: null
-    devise: null
-    periodicite: null
-  voyage:
-    pris_en_charge: null
-    plafond: null
-    devise: null
-  restitution: Presentación pública de los proyectos desarrollados en el evento OpenLAB
-    (2026-11-26 à 2026-11-28)
-partenaires:
-- Medialab Matadero
+  remuneration: null
+  voyage: null
+  restitution: Presentación pública de los proyectos en el OpenLAB (26-28 de noviembre
+    de 2026). Los resultados estarán disponibles bajo licencias Creative Commons.
+partenaires: []
 _meta:
   extracted_confidence: 0.65
-  extracted_notes: 'Document spécifie objectifs, fonctionnement, thématique et calendrier.
-    Informations critiques manquantes : date limite de candidature, hébergement, rémunération,
-    prise en charge du voyage, frais d''inscription, pièces requises. Document mentionne
-    disciplines comme ejemplos (convocatoria accepte cualquier disciplina).'
+  extracted_notes: 'Documento incompleto: fecha límite de candidatura no especificada.
+    Información sobre alojamiento, remuneración y gastos de inscripción ausente.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:24:02+00:00'
+  extracted_at: '2026-05-20T00:50:29+00:00'
   source_lang: es
-  resume_fr: Cet appel à candidatures international sélectionne 5 projets et jusqu'à
-    20 collaborateurs pour le LAB 5 « La mecánica de la verdad », un laboratoire de
-    prototipado colaborativo d'une durée de 2 semaines. Le laboratoire se déroulera
-    du 12 au 25 novembre 2026 à Medialab Matadero Madrid, avec une présentation publique
-    des projets du 26 au 28 novembre 2026 lors de l'événement OpenLAB. L'appel est
-    ouvert aux participants du monde entier de toute discipline pour développer des
-    projets expérimentaux autour de la thématique du questionnement technologique
-    de la réalité. Une session de questions-réponses en ligne est organisée le 28
-    mai 2026 à 18h pour les candidats intéressés.
+  resume_fr: Cet appel à candidatures international vise à sélectionner 5 projets
+    et jusqu'à 20 collaborateurs/collaboratrices pour un laboratoire de prototipado
+    colaborativo d'une durée de 2 semaines, dédié au thème « La mécanique de la vérité
+    ». Le laboratoire se déroulera du 12 au 25 novembre 2026 à Medialab, Matadero
+    Madrid. Les projets seront présentés publiquement entre le 26 et le 28 novembre
+    2026 lors de l'événement OpenLAB.
   detection_confidence: 0.95
   detection_method: claude
   source_label: MATADERO Madrid — convocatorias

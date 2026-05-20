@@ -1,78 +1,69 @@
 uid: 0b83d4e8
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf
-fetched_at: '2026-05-20T00:25:43+00:00'
-score: 9
+fetched_at: '2026-05-20T00:53:05+00:00'
+score: 7
 status: indetermine
 opportunite:
   nom: VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
     LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)
-  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
+  organisme: Madrid Destino
   lieu:
-    ciudad: Madrid
-    pais: España
-    territorio: Comunidad de Madrid
-  nom_fr: BASES DE LA CONVOCATION
-  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE LA CONVOCATION]
-candidatura:
+    ville: Madrid
+    pays: España
+    territoire: Comunidad de Madrid
+  nom_fr: BASES DE L'APPEL À CANDIDATURES
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURES]
+candidature:
   date_limite: null
   date_limite_precision: null
-  lingua_dossier:
-  - es
+  langue_dossier: null
   frais_inscription: null
-  pieces_demandees:
-  - documentación
-  - biografía
-  - trayectoria
-  url_candidatura: null
+  pieces_demandees: null
+  url_candidature: https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf
 eligibilite:
   disciplines:
   - arte
   - educación
   - mediación
-  nivel_carrera: todos
+  niveau_carriere: todos
   age_max: null
-  nacionalite: sin restriction
+  nationalite: sans restriction
   residence_administrative: Comunidad de Madrid
 conditions_residence:
   duree:
-    semaines: 39
-    dates: 2026-10-01 / 2027-06-30
+    semaines: null
+    dates: 2026-10-01/2027-06-30
   hebergement: null
-  atelier: El Taller y espacios del Centro de residencias artísticas de Matadero Madrid
+  atelier: null
   remuneration: null
-  voyage:
-    pris_en_charge: null
-    plafond: null
-    devise: null
+  voyage: null
   restitution: Programa público de 6 a 10 sesiones públicas
-partenaires:
-- Matadero Madrid
+partenaires: []
 _meta:
-  extracted_confidence: 0.65
-  extracted_notes: Document partiellement fourni (texte coupé en fin p.3). Date limite
-    candidature non visible. Absence d'infos sur rémunération, hébergement, frais,
-    et URL de candidature.
+  extracted_confidence: 0.6
+  extracted_notes: Documento incompleto (página 3 cortada). Faltan fecha límite, idiomas
+    aceptados y frais de inscripción; duración, período y restitución pública claramente
+    definidos.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:25:43+00:00'
+  extracted_at: '2026-05-20T00:53:05+00:00'
   source_lang: es
-  resume_fr: 'Matadero Madrid lance une résidence de 9 mois, du 1er octobre 2026 au
-    30 juin 2027, pour une (1) résidence en art et éducation, ouverte aux créateurs,
-    collectifs et agents culturels. Les projets doivent être cohérents avec la trajectoire
-    du candidat et contribuer aux discours actuels de la médiation, l''art et l''éducation,
-    avec une valorisation des approches expérimentales. Deux axes de recherche sont
-    possibles: réflexion sur les urgences contemporaines (dissidences du corps, activisme
-    antirraciste, urgence climatique, santé mentale) ou recherche sur la médiation
-    et les croisements entre art et éducation. Sont exclus les projets destinés exclusivement
-    à la médiation d''expositions, au travail avec centres éducatifs, aux arts scéniques
-    ou à la création cinématographique.'
+  resume_fr: 'Matadero Madrid ouvre 1 résidence artistique de 9 mois (1er octobre
+    2026 - 30 juin 2027) destinée à un créateur, collectif ou agent culturel travaillant
+    sur l''art et l''éducation. Deux lignes de recherche sont proposées : l''une abordant
+    les enjeux contemporains (dissidences corporelles/affectivo-sexuelles, activismes
+    antirracistes, urgence climatique, transformations productivistes du travail,
+    santé mentale) par la médiation et l''art-éducation, l''autre portant sur la médiation
+    elle-même et ses croisements avec l''art-éducation. Les projets à caractère expérimental
+    sont favorisés. Sont exclus les projets limités à la médiation d''expositions,
+    au travail avec des établissements éducatifs, aux arts de la scène ou à la création
+    cinématographique.'
   detection_confidence: 0.8611111111111112
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
 _interne_affinite:
-  match: true
+  match: false
   signaux:
   - collectif
-  - long séjour
-  bonus_score: 1
+  bonus_score: 0

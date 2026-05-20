@@ -1,7 +1,7 @@
 uid: c9b469ac
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_6m_mad_def.pdf
-fetched_at: '2026-05-20T00:31:35+00:00'
+fetched_at: '2026-05-20T01:01:03+00:00'
 score: 8
 status: indetermine
 opportunite:
@@ -10,77 +10,55 @@ opportunite:
     ARTÍSTICA DESTINADAS A ARTISTAS VISUALES DE LA COMUNIDAD DE MADRID 2026
   organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
   lieu:
-    ciudad: Madrid
-    pais: España
-    territorio: Comunidad de Madrid
-  nom_fr: BASES RÉGULATRICES DE L'APPEL À CANDIDATURES DU CENTRE DE RÉSIDENCES ARTISTIQUES
-    DE MATADERO MADRID POUR L'ATTRIBUTION DE 4 RÉSIDENCES SEMESTRIELLES DE PRODUCTION
-    ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS DE LA COMMUNAUTÉ DE MADRID 2026
-  affichage_titre: BASES [BASES RÉGULATRICES DE L'APPEL À CANDIDATURES DU CENTRE DE
-    RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE 4 RÉSIDENCES SEMESTRIELLES
-    DE PRODUCTION ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS DE LA COMMUNAUTÉ DE MADRID
-    2026]
-candidatura:
+    ville: Madrid
+    pays: España
+    territoire: Comunidad de Madrid
+  nom_fr: BASES
+  affichage_titre: BASES [BASES]
+candidature:
   date_limite: null
   date_limite_precision: null
-  langue_dossier:
-  - es
-  frais_inscription:
-    montant: null
-    devise: null
-  pieces_demandees:
-  - documentación acreditando residencia en la Comunidad de Madrid
-  - formulario de inscripción con información y documentación requerida
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
   url_candidature: null
 eligibilite:
   disciplines:
   - artes visuales
-  nivel_carrera: todos
+  niveau_carriere: tous
   age_max: null
-  nacionalidad: residencia legal en España
-  residence_administrative: residencia o ámbito principal de acción en la Comunidad
-    de Madrid
+  nationalite: sans restriction
+  residence_administrative: Comunidad de Madrid
 conditions_residence:
   duree:
-    semanas: 26
-    dates: 13 de enero - 10 de julio de 2026
+    semaines: null
+    dates: 2026-01-13/2026-07-10
   hebergement: null
-  atelier: espacios en el Centro de residencias artísticas de Matadero Madrid
-  remuneration:
-    montant: null
-    devise: EUR
-    periodicite: null
-  voyage:
-    pris_en_charge: null
-    plafond: null
-    devise: EUR
-  restitution: acompañamiento curatorial y de producción, seguimiento profesional,
-    visibilidad institucional
+  atelier: Centro de residencias artísticas de Matadero Madrid
+  remuneration: null
+  voyage: null
+  restitution: null
 partenaires:
 - Matadero Madrid
-- Madrid Destino, Cultura, Turismo y Negocio S.A.
-- Ayuntamiento de Madrid
 _meta:
-  extracted_confidence: 0.65
-  extracted_notes: documento de bases reguladoras incompleto (corte en el punto 4.b);
-    fecha límite de candidatura no especificada en el texto; montants de rémunération
-    et détails de transport non fournis
+  extracted_confidence: 0.55
+  extracted_notes: Documento incompleto (se corta a mitad de p.3); faltan fecha límite
+    de candidatura, detalles de alojamiento, remuneración específica y restitución.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:31:35+00:00'
+  extracted_at: '2026-05-20T01:01:03+00:00'
   source_lang: es
-  resume_fr: Matadero Madrid lance un appel à candidatures pour l'attribution de 4
-    résidences semestrielles de production artistique destinées aux artistes visuels
-    résidant dans la Communauté de Madrid. La durée de chaque résidence est de 6 mois,
-    du 13 janvier au 10 juillet 2026. Les artistes sélectionnés bénéficieront d'espaces,
-    de ressources économiques, d'un suivi professionnel et d'une visibilité institutionnelle.
-    Les candidatures sont ouvertes aux artistes individuels ou collectifs majeurs
-    ayant une résidence légale en Espagne.
+  resume_fr: Appel à 4 résidences semestrales de production artistique pour les artistes
+    visuels de la Communauté de Madrid, organisé par Matadero Madrid. La résidence
+    dure 6 mois, du 13 janvier au 10 juillet 2026. Les candidats doivent être des
+    créateurs d'arts visuels ayant leur résidence ou champ principal d'action en Communauté
+    de Madrid, personnes physiques majeures avec résidence légale en Espagne. Les
+    résidences offrent des espaces, des ressources économiques, un suivi professionnel
+    et un accompagnement institutionnel.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
 _interne_affinite:
   match: false
-  signaux:
-  - collectif
+  signaux: []
   bonus_score: 0

@@ -1,69 +1,67 @@
 uid: 56d7154d
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resolucio%CC%81n%20RESIDENCIA%20MEDIOAMBIENTE%202026.pdf
-fetched_at: '2026-05-20T00:29:09+00:00'
+fetched_at: '2026-05-20T00:58:01+00:00'
 score: 8
 status: indetermine
 opportunite:
-  nom: Convocatoria Residencias trimestrales para proyectos sobre el medioambiente
-    2026
+  nom: III Convocatoria del Centro de residencias artísticas de Matadero Madrid para
+    la asignación de ocho residencias trimestrales de producción artística sobre Medioambiente
   organisme: Madrid Destino Cultura Turismo y Negocio, S.A.
   lieu:
     ville: Madrid
-    pays: Espagne
+    pays: España
     territorio: Comunidad de Madrid
-  nom_fr: Résolution Appel à candidature Résidences trimestrielles pour projets sur
-    l'environnement 2026
+  nom_fr: Résolution Appel à candidature Résidences trimestrielles pour projets environnementaux
+    2026
   affichage_titre: Resolucíón Convocatoria Residencias trimestrales para proyectos
     sobre el medioambiente 2026 [Résolution Appel à candidature Résidences trimestrielles
-    pour projets sur l'environnement 2026]
-candidatura:
+    pour projets environnementaux 2026]
+candidature:
   date_limite: null
   date_limite_precision: null
-  langue_dossier:
-  - es
+  langue_dossier: null
   frais_inscription: null
   pieces_demandees: null
-  url_candidatura: null
+  url_candidature: null
 eligibilite:
   disciplines:
   - artistas visuales
   niveau_carriere: null
   age_max: null
-  nationalite: sin restricción
-  residence_administrative: Comunidad de Madrid o residentes en España
+  nationalite: sans restriction
+  residence_administrative: Comunidad de Madrid|España
 conditions_residence:
   duree:
-    semaines: 12
+    semaines: null
     dates: null
   hebergement: null
   atelier: null
   remuneration: null
   voyage: null
   restitution: null
-partenaires:
-- Matadero Madrid
+partenaires: []
 _meta:
   extracted_confidence: 0.35
-  extracted_notes: Documento es una resolución de selección, no la convocatoria original.
-    Información limitada sobre fechas límite de candidatura, requisitos detallados
-    y condiciones económicas.
+  extracted_notes: 'Document de résolution de sélection, non l''appel original. Informations
+    manquantes : dates limite, frais, pièces, URL, logement, rémunération, voyage,
+    durée précise.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:29:09+00:00'
+  extracted_at: '2026-05-20T00:58:01+00:00'
   source_lang: es
-  resume_fr: 'Le 12 de mayo 2026, Madrid Destino Cultura Turismo y Negocio annonce
-    les résultats de la III Convocatoria pour l''attribution de 8 résidences trimestrielles
-    de production artistique sur l''environnement destinées à des artistes visuels.
-    La Commission de valorisation, réunie le 08 de mayo 2026, a sélectionné les candidats
-    parmi 86 candidatures reçues. Les 8 résidences sont réparties en deux catégories
-    : 5 artistes résidents dans la Communauté de Madrid (plus 2 suppléants) et 3 artistes
-    résidents en Espagne (plus 2 suppléants), chacun porteur d''un projet d''art visuel.'
+  resume_fr: La IIIe Convocation du Centro de residencias artísticas de Matadero Madrid
+    propose 8 résidences trimestrielles de production artistique sur l'environnement
+    destinées à artistes visuels pour 2026. Une commission de valorisation a sélectionné
+    les lauréats parmi 86 candidatures le 08 mai 2026. 5 artistes visuels résidant
+    en Communauté de Madrid et 3 artistes résidant en Espagne ont été retenus, avec
+    des remplaçants pour chaque catégorie. Les projets sélectionnés abordent des thèmes
+    variés liés à l'environnement, du paysage au travail en passant par l'eau et la
+    nature.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
 _interne_affinite:
   match: false
-  signaux:
-  - long séjour
+  signaux: []
   bonus_score: 0

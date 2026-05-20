@@ -1,75 +1,81 @@
 uid: 96722c2c
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf
-fetched_at: '2026-05-20T00:28:12+00:00'
-score: 8
+fetched_at: '2026-05-20T00:56:51+00:00'
+score: 9
 status: indetermine
 opportunite:
   nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
     LA ASIGNACIÓN DE OCHO (8) RESIDENCIAS DE PRODUCCIÓN ARTÍSTICA DE TRES MESES SOBRE
-    MEDIOAMBIENTE
+    MEDIOAMBIENTE DIRIGIDAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA
   organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
   lieu:
-    ciudad: Madrid
-    país: España
+    ville: Madrid
+    pays: España
     territorio: Comunidad de Madrid
   nom_fr: BASES DE L'APPEL À CANDIDATURES
   affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURES]
-candidatura:
+candidature:
   date_limite: null
   date_limite_precision: null
-  langue_dossier: null
-  frais_inscription: null
-  pieces_demandees: null
+  langue_dossier:
+  - es
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees:
+  - Certificado de empadronamiento
   url_candidature: null
 eligibilite:
   disciplines:
   - artes visuales
-  niveau_carriere: todos
+  niveau_carriere: tous
   age_max: null
   nationalite: española, estado miembro de la Unión Europea, o extracomunitaria con
     residencia legal en España
-  residence_administrative: España, con al menos 4 de los 8 proyectos seleccionados
-    de la Comunidad de Madrid
+  residence_administrative: España (mínimo 4 proyectos de artistas residentes en Comunidad
+    de Madrid, máximo 4 del resto de España)
 conditions_residence:
   duree:
-    mois: 3
+    semaines: null
     dates: 2026-09-15 / 2026-12-15
   hebergement: null
-  atelier: espacios de creación, recursos económicos, herramientas, seguimiento profesional,
-    acompañamiento institucional
+  atelier: Espacios de creación en el Centro de residencias artísticas de Matadero
+    Madrid, con acompañamiento curatorial y de producción
   remuneration:
     montant: null
     devise: EUR
-    periodicite: null
+    periodicita: null
   voyage:
     pris_en_charge: null
     plafond: null
     devise: EUR
   restitution: null
-partenaires: null
+partenaires: []
 _meta:
-  extracted_confidence: 0.4
-  extracted_notes: 'Document incomplet (p.1-4 seulement, texte coupé en fin de page
-    4). Nombreuses informations manquantes: date limite candidature, montant rémunération,
-    hébergement, frais, URL, pièces demandées. Seules les conditions d''éligibilité
-    et durée sont clairement établies.'
+  extracted_confidence: 0.38
+  extracted_notes: 'Documento incompleto (páginas 1-4 de un total desconocido). Información
+    crítica ausente: fecha límite candidatura, alojamiento, remuneración, cuotas inscripción,
+    URL candidatura, lista completa piezas requeridas, restitución. Solo bases generales
+    y elegibilidad parcialmente extraídas.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:28:12+00:00'
+  extracted_at: '2026-05-20T00:56:51+00:00'
   source_lang: es
-  resume_fr: Matadero Madrid, par le biais de Madrid Destino, lance son troisième
-    appel à candidatures pour l'attribution de huit (8) résidences de production artistique
-    de trois (3) mois consacrées à l'environnement. Ces résidences s'adressent aux
-    artistes visuels résidant en Espagne et se dérouleront du 15 septembre au 15 décembre
-    2026. L'appel vise à soutenir les créateurs visuels traitant l'environnement (contaminación,
-    changement climatique, exploitation des ressources naturelles, etc.) en leur fournissant
-    des espaces de création, des ressources économiques, un accompagnement professionnel
-    et une visibilité institutionnelle.
+  resume_fr: Matadero Madrid, centre culturel géré par Madrid Destino, lance sa 3e
+    convocation pour 8 résidences de production artistique d'une durée de 3 mois sur
+    l'environnement, destinées aux artistes visuels résidant en Espagne. Les résidences
+    se dérouleront du 15 septembre au 15 décembre 2026. L'appel vise à soutenir le
+    développement professionnel des créateurs, leur fournir des ressources spatiales,
+    économiques et institutionnelles, et placer la question environnementale au cœur
+    des débats artistiques. Le programme s'adresse aux créateurs d'arts visuels individuels
+    ou collectifs travaillant sur des questions liées à l'environnement et résidant
+    dans la Communauté de Madrid et/ou en Espagne.
   detection_confidence: 0.896551724137931
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - collectif
   bonus_score: 0

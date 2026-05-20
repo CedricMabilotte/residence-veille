@@ -14,7 +14,16 @@ opportunites_liees:
   type: residence
   nom: Charter of the VILLAS and residency programmes of France's cultural network abroad
 track_record: {}
-partenaires_mentionnes: []
+partenaires_mentionnes:
+- organisme_uid: institut-francais
+  occurrences: 1
+  nom_brut: Institut français
+- organisme_uid: ministry-for-europe-and-foreign-affairs
+  occurrences: 1
+  nom_brut: Ministry for Europe and Foreign Affairs
+- organisme_uid: ministry-of-culture
+  occurrences: 1
+  nom_brut: Ministry of Culture
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
