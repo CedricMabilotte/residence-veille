@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-20T01:16:53.090102+00:00",
-  "n_ouvertes": 9,
+  "generated_at": "2026-05-20T02:01:38.549427+00:00",
+  "n_ouvertes": 13,
   "n_archive": 0,
   "opportunites": [
     {
       "uid": "0144555c",
       "type": "residence",
       "source_url": "https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf",
-      "fetched_at": "2026-05-20T00:48:12+00:00",
+      "fetched_at": "2026-05-20T01:34:05+00:00",
       "score": 8,
       "status": "indetermine",
       "opportunite": {
         "nom": "Charter of the VILLAS and residency programmes of France's cultural network abroad",
-        "organisme": "Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture",
+        "organisme": "Institut français",
         "lieu": {
           "ville": null,
           "pays": null,
           "territoire": null
         },
-        "nom_fr": "Charte des Villas et programmes de résidences du réseau culturel de la France à l'étranger",
-        "affichage_titre": "Charte des Villas et programmes de résidences du réseau culturel de la France à l’étranger(.pdf, 2.78 Mo) [Charte des Villas et programmes de résidences du réseau culturel de la France à l'étranger]"
+        "nom_fr": "Charte des VILLAS et des programmes de résidences du réseau culturel de la France à l'étranger",
+        "affichage_titre": "Charte des Villas et programmes de résidences du réseau culturel de la France à l’étranger(.pdf, 2.78 Mo) [Charte des VILLAS et des programmes de résidences du réseau culturel de la France à l'étranger]"
       },
       "candidature": {
         "date_limite": null,
@@ -29,36 +29,96 @@
         ],
         "frais_inscription": {
           "montant": null,
-          "devise": "EUR"
+          "devise": null
         },
         "pieces_demandees": null,
-        "url_candidature": "https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
-          "literary and theatrical",
-          "musical and choreographic",
-          "audiovisual and cinematographic",
-          "visual and plastic arts",
-          "photographic works",
-          "exhibition curation",
-          "literary translation",
+          "arts littéraires",
+          "théâtre",
+          "musique",
+          "chorégraphie",
+          "audiovisuel",
+          "cinéma",
+          "arts visuels",
+          "arts plastiques",
+          "photographie",
+          "commissariat d'exposition",
+          "traduction littéraire",
           "performance",
-          "crafts",
-          "research"
+          "artisanat",
+          "recherche"
         ],
         "niveau_carriere": "tous",
         "age_max": null,
-        "nationalite": "French artists or artists professionally established in France; open to local and international artists",
-        "residence_administrative": null
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
       },
       "conditions_residence": {
         "duree": {
-          "semaines": null,
-          "dates": "minimum one month"
+          "semaines": 4,
+          "dates": null
         },
         "hebergement": true,
-        "atelier": null,
+        "atelier": "workspace provided",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": null
+    },
+    {
+      "uid": "065462bb",
+      "type": "residence",
+      "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_mad_def.pdf",
+      "fetched_at": "2026-05-20T01:51:36+00:00",
+      "score": 8,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE DOS (2) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN LA COMUNIDAD DE MADRID 2026",
+        "organisme": "Madrid Destino, Cultura, Turismo y Negocio S.A.",
+        "lieu": {
+          "ville": "Madrid",
+          "pays": "España",
+          "territorio": "Comunidad de Madrid"
+        },
+        "nom_fr": "BASES",
+        "affichage_titre": "BASES [BASES]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://www.mataderomadrid.org"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "artes visuales"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "Comunidad de Madrid"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": "14 de abril - 10 de julio de 2026"
+        },
+        "hebergement": null,
+        "atelier": "Espacios del Centro de residencias artísticas de Matadero Madrid",
         "remuneration": {
           "montant": null,
           "devise": "EUR",
@@ -72,28 +132,27 @@
         "restitution": null
       },
       "partenaires": [
-        "Institut français",
-        "Ministry for Europe and Foreign Affairs",
-        "Ministry of Culture"
+        "Madrid Destino",
+        "Matadero Madrid"
       ]
     },
     {
       "uid": "0b83d4e8",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf",
-      "fetched_at": "2026-05-20T00:53:05+00:00",
-      "score": 7,
+      "fetched_at": "2026-05-20T01:39:15+00:00",
+      "score": 8,
       "status": "indetermine",
       "opportunite": {
         "nom": "VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)",
-        "organisme": "Madrid Destino",
+        "organisme": "Madrid Destino, Cultura, Turismo y Negocio S.A.",
         "lieu": {
           "ville": "Madrid",
           "pays": "España",
-          "territoire": "Comunidad de Madrid"
+          "territorio": "Comunidad de Madrid"
         },
-        "nom_fr": "BASES DE L'APPEL À CANDIDATURES",
-        "affichage_titre": "BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURES]"
+        "nom_fr": "BASES DE L'APPEL À CANDIDATURE",
+        "affichage_titre": "BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURE]"
       },
       "candidature": {
         "date_limite": null,
@@ -101,45 +160,46 @@
         "langue_dossier": null,
         "frais_inscription": null,
         "pieces_demandees": null,
-        "url_candidature": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
-          "arte",
-          "educación",
-          "mediación"
+          "arte y la educación"
         ],
-        "niveau_carriere": "todos",
+        "niveau_carriere": "tous",
         "age_max": null,
         "nationalite": "sans restriction",
         "residence_administrative": "Comunidad de Madrid"
       },
       "conditions_residence": {
         "duree": {
-          "semaines": null,
-          "dates": "2026-10-01/2027-06-30"
+          "semaines": 39,
+          "dates": "1 de octubre de 2026 - 30 de junio de 2027"
         },
         "hebergement": null,
-        "atelier": null,
+        "atelier": "Centro de residencias artísticas y El Taller",
         "remuneration": null,
         "voyage": null,
-        "restitution": "Programa público de 6 a 10 sesiones públicas"
+        "restitution": "6 a 10 sesiones públicas"
       },
-      "partenaires": []
+      "partenaires": [
+        "Matadero Madrid",
+        "Ayuntamiento de Madrid"
+      ]
     },
     {
       "uid": "2e73fa76",
       "type": "residence",
       "source_url": "https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf",
-      "fetched_at": "2026-05-20T00:43:26+00:00",
+      "fetched_at": "2026-05-20T01:29:30+00:00",
       "score": 7,
       "status": "indetermine",
       "opportunite": {
-        "nom": "Guide des financements de la mobilité culturelle - Focus sur l'Afrique du Nord",
+        "nom": "Guide des financements de la mobilité culturelle – Focus sur l'Afrique du Nord",
         "organisme": "On the Move",
         "lieu": {
           "ville": null,
-          "pays": "Algérie, Maroc, Tunisie",
+          "pays": null,
           "territoire": "Afrique du Nord"
         }
       },
@@ -154,23 +214,23 @@
           "devise": null
         },
         "pieces_demandees": null,
-        "url_candidature": null
+        "url_candidature": "https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf"
       },
       "eligibilite": {
         "disciplines": [
           "arts du spectacle",
           "arts visuels",
-          "arts numériques",
+          "arts numériques et nouveaux médias",
           "musique",
           "littérature",
           "patrimoine",
           "arts pluridisciplinaires",
-          "recherche culturelle"
+          "recherche et administration culturelle"
         ],
         "niveau_carriere": "tous",
         "age_max": null,
-        "nationalite": "ressortissant·e·s et résident·e·s de l'Algérie, Maroc, Tunisie",
-        "residence_administrative": null
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
       },
       "conditions_residence": {
         "duree": {
@@ -192,27 +252,26 @@
         "restitution": null
       },
       "partenaires": [
-        "Union européenne",
-        "ministère de la Culture"
+        "On the Move"
       ]
     },
     {
       "uid": "49331d08",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_ES.pdf",
-      "fetched_at": "2026-05-20T00:50:29+00:00",
+      "fetched_at": "2026-05-20T01:36:34+00:00",
       "score": 7,
       "status": "indetermine",
       "opportunite": {
-        "nom": "Convocatoria de proyectos y colaboradores/as para el Laboratorio de Prototipado Colaborativo del LAB 5 La mecánica de la verdad",
+        "nom": "CONVOCATORIA DE PROYECTOS Y COLABORADORES/AS PARA EL LABORATORIO DE PROTOTIPADO COLABORATIVO DEL LAB 5 LA MECÁNICA DE LA VERDAD",
         "organisme": "Medialab Matadero",
         "lieu": {
           "ville": "Madrid",
           "pays": "España",
           "territorio": null
         },
-        "nom_fr": "BASES DE L'APPEL À CANDIDATURE",
-        "affichage_titre": "BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURE]"
+        "nom_fr": "CONDITIONS DE L'APPEL À CANDIDATURES",
+        "affichage_titre": "BASES DE LA CONVOCATORIA [CONDITIONS DE L'APPEL À CANDIDATURES]"
       },
       "candidature": {
         "date_limite": null,
@@ -223,12 +282,12 @@
         ],
         "frais_inscription": null,
         "pieces_demandees": null,
-        "url_candidature": "https://www.medialab-matadero.es"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
-          "arte",
           "diseño",
+          "arte",
           "arquitectura",
           "urbanismo",
           "economía",
@@ -244,41 +303,43 @@
           "programación",
           "ciencia de los materiales"
         ],
-        "nivel_carriere": "tous",
+        "nivel_carriere": "todos",
         "age_max": null,
-        "nacionalite": "sans restriction",
-        "residence_administrative": "sans restriction"
+        "nacionalite": "sin restriction",
+        "residence_administrativa": "sin restriction"
       },
       "conditions_residence": {
         "duree": {
           "semanas": 2,
-          "dates": "2026-11-12 to 2026-11-25"
+          "dates": "12-25 de noviembre de 2026"
         },
         "hebergement": null,
-        "atelier": "Laboratorio de Prototipado Colaborativo",
+        "atelier": "Laboratorio de Prototipado Colaborativo (LPC): taller intensivo de dos semanas para desarrollar cinco proyectos experimentales colaborativos",
         "remuneration": null,
         "voyage": null,
-        "restitution": "Presentación pública de los proyectos en el OpenLAB (26-28 de noviembre de 2026). Los resultados estarán disponibles bajo licencias Creative Commons."
+        "restitution": "presentación pública de los proyectos en el festival OpenLAB entre el 26 y 28 de noviembre de 2026"
       },
-      "partenaires": []
+      "partenaires": [
+        "Medialab Matadero"
+      ]
     },
     {
       "uid": "56d7154d",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resolucio%CC%81n%20RESIDENCIA%20MEDIOAMBIENTE%202026.pdf",
-      "fetched_at": "2026-05-20T00:58:01+00:00",
+      "fetched_at": "2026-05-20T01:43:04+00:00",
       "score": 8,
       "status": "indetermine",
       "opportunite": {
-        "nom": "III Convocatoria del Centro de residencias artísticas de Matadero Madrid para la asignación de ocho residencias trimestrales de producción artística sobre Medioambiente",
+        "nom": "III Convocatoria del Centro de residencias artísticas de Matadero Madrid para residencias trimestrales de producción artística sobre Medioambiente para 2026",
         "organisme": "Madrid Destino Cultura Turismo y Negocio, S.A.",
         "lieu": {
           "ville": "Madrid",
-          "pays": "España",
-          "territorio": "Comunidad de Madrid"
+          "pays": "Espagne",
+          "territoire": "Comunidad de Madrid"
         },
-        "nom_fr": "Résolution Appel à candidature Résidences trimestrielles pour projets environnementaux 2026",
-        "affichage_titre": "Resolucíón Convocatoria Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résolution Appel à candidature Résidences trimestrielles pour projets environnementaux 2026]"
+        "nom_fr": "Résolution - Appel à candidatures pour Résidences trimestrielles sur l'environnement 2026",
+        "affichage_titre": "Resolucíón Convocatoria Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résolution - Appel à candidatures pour Résidences trimestrielles sur l'environnement 2026]"
       },
       "candidature": {
         "date_limite": null,
@@ -290,16 +351,16 @@
       },
       "eligibilite": {
         "disciplines": [
-          "artistas visuales"
+          "arts visuels"
         ],
         "niveau_carriere": null,
         "age_max": null,
-        "nationalite": "sans restriction",
-        "residence_administrative": "Comunidad de Madrid|España"
+        "nationalite": null,
+        "residence_administrative": "Résidents de la Communauté de Madrid ou Résidents d'Espagne"
       },
       "conditions_residence": {
         "duree": {
-          "semaines": null,
+          "semaines": 12,
           "dates": null
         },
         "hebergement": null,
@@ -314,67 +375,62 @@
       "uid": "6ba8743c",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf",
-      "fetched_at": "2026-05-20T01:02:24+00:00",
-      "score": 8,
+      "fetched_at": "2026-05-20T01:47:44+00:00",
+      "score": 9,
       "status": "indetermine",
       "opportunite": {
-        "nom": "Bases de la Convocatoria de asignación de cuatro residencias semestrales destinadas a artistas visuales de la Comunidad de Madrid, cuatro residencias trimestrales de producción artística destinadas a artistas visuales residentes en España y dos trimestrales destinadas a artistas visuales de la Comunidad de Madrid 2026",
-        "organisme": "Madrid Destino Cultura Turismo y Negocio, S.A.",
+        "nom": "Convocatoria de asignación de cuatro residencias semestrales destinadas a artistas visuales de la Comunidad de Madrid, cuatro residencias trimestrales de producción artística destinadas a artistas visuales residentes en España y dos trimestrales destinadas a artistas visuales de la Comunidad de Madrid 2026",
+        "organisme": "Centro de residencias artísticas de Matadero Madrid",
         "lieu": {
           "ville": "Madrid",
-          "pays": "Espagne",
-          "territoire": "Communauté de Madrid"
+          "pays": "España",
+          "territoire": "Comunidad de Madrid"
         },
-        "nom_fr": "Résolution Appel à Candidatures Résidences Artistes Visuels 2026",
-        "affichage_titre": "Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution Appel à Candidatures Résidences Artistes Visuels 2026]"
+        "nom_fr": "Résolution Appel à Candidature Résidences Artistes Visuels 2026",
+        "affichage_titre": "Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution Appel à Candidature Résidences Artistes Visuels 2026]"
       },
       "candidature": {
         "date_limite": null,
         "date_limite_precision": null,
         "langue_dossier": null,
-        "frais_inscription": {
-          "montant": null,
-          "devise": "EUR"
-        },
+        "frais_inscription": null,
         "pieces_demandees": null,
         "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
-          "arts visuels"
+          "artes visuales"
         ],
-        "niveau_carriere": "tous",
+        "niveau_carriere": null,
         "age_max": null,
-        "nationalite": "sans restriction",
-        "residence_administrative": null
+        "nationalite": "España",
+        "residence_administrative": "Comunidad de Madrid / residentes en España"
       },
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": null
+          "dates": "semestrales (6 meses) o trimestrales (3 meses)"
         },
         "hebergement": null,
         "atelier": null,
-        "remuneration": {
-          "montant": null,
-          "devise": "EUR",
-          "periodicite": null
-        },
+        "remuneration": null,
         "voyage": {
           "pris_en_charge": null,
           "plafond": null,
-          "devise": "EUR"
+          "devise": null
         },
         "restitution": null
       },
-      "partenaires": []
+      "partenaires": [
+        "Madrid Destino Cultura Turismo y Negocio, S.A."
+      ]
     },
     {
       "uid": "96722c2c",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf",
-      "fetched_at": "2026-05-20T00:56:51+00:00",
-      "score": 9,
+      "fetched_at": "2026-05-20T01:41:39+00:00",
+      "score": 8,
       "status": "indetermine",
       "opportunite": {
         "nom": "III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE OCHO (8) RESIDENCIAS DE PRODUCCIÓN ARTÍSTICA DE TRES MESES SOBRE MEDIOAMBIENTE DIRIGIDAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA",
@@ -390,16 +446,9 @@
       "candidature": {
         "date_limite": null,
         "date_limite_precision": null,
-        "langue_dossier": [
-          "es"
-        ],
-        "frais_inscription": {
-          "montant": null,
-          "devise": "EUR"
-        },
-        "pieces_demandees": [
-          "Certificado de empadronamiento"
-        ],
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
         "url_candidature": null
       },
       "eligibilite": {
@@ -408,25 +457,25 @@
         ],
         "niveau_carriere": "tous",
         "age_max": null,
-        "nationalite": "española, estado miembro de la Unión Europea, o extracomunitaria con residencia legal en España",
-        "residence_administrative": "España (mínimo 4 proyectos de artistas residentes en Comunidad de Madrid, máximo 4 del resto de España)"
+        "nationalite": "española|UE|extracomunitaria con residencia legal en España",
+        "residence_administrative": "España"
       },
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "2026-09-15 / 2026-12-15"
+          "dates": "15 de septiembre - 15 de diciembre 2026"
         },
         "hebergement": null,
-        "atelier": "Espacios de creación en el Centro de residencias artísticas de Matadero Madrid, con acompañamiento curatorial y de producción",
+        "atelier": null,
         "remuneration": {
           "montant": null,
-          "devise": "EUR",
-          "periodicita": null
+          "devise": null,
+          "periodicite": null
         },
         "voyage": {
           "pris_en_charge": null,
           "plafond": null,
-          "devise": "EUR"
+          "devise": null
         },
         "restitution": null
       },
@@ -436,8 +485,8 @@
       "uid": "c9b469ac",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_6m_mad_def.pdf",
-      "fetched_at": "2026-05-20T01:01:03+00:00",
-      "score": 8,
+      "fetched_at": "2026-05-20T01:46:21+00:00",
+      "score": 9,
       "status": "indetermine",
       "opportunite": {
         "nom": "BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE 4 RESIDENCIAS SEMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES DE LA COMUNIDAD DE MADRID 2026",
@@ -445,7 +494,7 @@
         "lieu": {
           "ville": "Madrid",
           "pays": "España",
-          "territoire": "Comunidad de Madrid"
+          "territorio": "Comunidad de Madrid"
         },
         "nom_fr": "BASES",
         "affichage_titre": "BASES [BASES]"
@@ -469,25 +518,143 @@
       },
       "conditions_residence": {
         "duree": {
-          "semaines": null,
-          "dates": "2026-01-13/2026-07-10"
+          "semaines": 26,
+          "dates": "13 de enero - 10 de julio de 2026"
         },
-        "hebergement": null,
+        "hebergement": true,
         "atelier": "Centro de residencias artísticas de Matadero Madrid",
         "remuneration": null,
         "voyage": null,
         "restitution": null
       },
       "partenaires": [
-        "Matadero Madrid"
+        "Matadero Madrid",
+        "Madrid Destino"
+      ]
+    },
+    {
+      "uid": "e3eef2e1",
+      "type": "residence",
+      "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_def.pdf",
+      "fetched_at": "2026-05-20T01:50:20+00:00",
+      "score": 10,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026",
+        "organisme": "Matadero Madrid",
+        "lieu": {
+          "ville": "Madrid",
+          "pays": "España",
+          "territoire": "Comunidad de Madrid"
+        },
+        "nom_fr": "BASES",
+        "affichage_titre": "BASES [BASES]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "formulario de inscripción",
+          "acreditación de residencia legal en España fuera de la Comunidad de Madrid"
+        ],
+        "url_candidature": "https://www.mataderomadrid.org"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "artes visuales"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": "residencia legal en España, fuera de la Comunidad de Madrid"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 13,
+          "dates": "2026-01-13 a 2026-04-10"
+        },
+        "hebergement": true,
+        "atelier": "Centro de residencias artísticas de Matadero Madrid",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": []
+    },
+    {
+      "uid": "ea63cf12",
+      "type": "residence",
+      "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/Bases%20convocatoria%20proyectos%20audiovisuales%20CINETECA.pdf",
+      "fetched_at": "2026-05-20T01:37:18+00:00",
+      "score": 6,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "IV CONVOCATORIA CONJUNTA ENTRE CINETECA Y EL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE TRES (3) RESIDENCIAS PARA PROYECTOS AUDIOVISUALES EN FASE DE DESARROLLO",
+        "organisme": "Madrid Destino",
+        "lieu": {
+          "ville": "Madrid",
+          "pays": "España",
+          "territorio": "Comunidad de Madrid"
+        },
+        "nom_fr": "BASES RÉGULATRICES DE LA IVe CONVOCATION CONJOINTE ENTRE LA CINÉMATHÈQUE ET LE CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE TROIS (3) RÉSIDENCES POUR PROJETS AUDIOVISUELS EN PHASE DE DÉVELOPPEMENT",
+        "affichage_titre": "BASES DE LA CONVOCATORIA [BASES RÉGULATRICES DE LA IVe CONVOCATION CONJOINTE ENTRE LA CINÉMATHÈQUE ET LE CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE TROIS (3) RÉSIDENCES POUR PROJETS AUDIOVISUELS EN PHASE DE DÉVELOPPEMENT]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "cine independiente",
+          "cine experimental",
+          "cine de lo real",
+          "audiovisual"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "española, estado miembro de la Unión Europea, o extracomunitaria con residencia legal en España",
+        "residence_administrative": "Comunidad de Madrid"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 8,
+          "dates": "2026-10-01 / 2026-11-30"
+        },
+        "hebergement": null,
+        "atelier": "espacios de trabajo en el Centro de residencias artísticas",
+        "remuneration": null,
+        "voyage": null,
+        "restitution": null
+      },
+      "partenaires": [
+        "Cineteca Madrid",
+        "Centro de residencias artísticas de Matadero Madrid",
+        "Madrid Destino"
       ]
     },
     {
       "uid": "ed8b9099",
       "type": "prix",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf",
-      "fetched_at": "2026-05-20T01:03:23+00:00",
-      "score": 6,
+      "fetched_at": "2026-05-20T01:48:57+00:00",
+      "score": 8,
       "status": "indetermine",
       "opportunite": {
         "nom": "OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH COLLABORATIVE PROTOTYPING LABORATORY",
@@ -502,8 +669,8 @@
       "candidature": {
         "date_limite": null,
         "langue_dossier": [
-          "English",
-          "Spanish"
+          "en",
+          "es"
         ],
         "frais_inscription": null,
         "pieces_demandees": null,
@@ -529,7 +696,7 @@
           "materials science",
           "activism"
         ],
-        "niveau_carriere": null,
+        "niveau_carriere": "any level of qualification",
         "age_max": null,
         "nationalite": null,
         "residence_administrative": null
@@ -547,6 +714,74 @@
         "jury_public": [],
         "nb_laureats": 5,
         "editions_precedentes": []
+      },
+      "partenaires": []
+    },
+    {
+      "uid": "f52a745f",
+      "type": "prix",
+      "source_url": "https://www.medialab-matadero.es/sites/default/files/2025-07/BASES%20PROY%20INVESTIGACION%2025-26_EN.pdf",
+      "fetched_at": "2026-05-20T01:56:28+00:00",
+      "score": 6,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "IV INVITATION TO PARTICIPATE IN THE SELECTION OF THREE SITUATED RESEARCH PROJECTS AS PART OF THE ANNUAL MEDIALAB MATADERO PROGRAM AT MATADERO MADRID 2025-2026",
+        "organisme": "Madrid Destino, Cultura, Turismo y Negocio S.A.",
+        "lieu": {
+          "ville": "Madrid",
+          "pays": "Spain"
+        },
+        "nom_fr": "INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS DE RECHERCHE SITUÉS DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO MADRID 2025-2026",
+        "affichage_titre": "BASES [INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS DE RECHERCHE SITUÉS DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO MADRID 2025-2026]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": [
+          "Spanish",
+          "English"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "design",
+          "art",
+          "architecture",
+          "urban planning",
+          "economics",
+          "film",
+          "photography",
+          "journalism",
+          "digital media",
+          "environmental sciences",
+          "philosophy",
+          "engineering",
+          "social studies",
+          "political science",
+          "digital tool programming",
+          "material sciences",
+          "activism"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": {
+            "montant": null,
+            "devise": "EUR"
+          },
+          "exposition": true,
+          "achat_oeuvre": false,
+          "edition_catalogue": false
+        },
+        "jury_public": [],
+        "nb_laureats": 3,
+        "editions_precedentes": null
       },
       "partenaires": []
     }

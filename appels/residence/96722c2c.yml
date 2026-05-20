@@ -1,8 +1,8 @@
 uid: 96722c2c
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf
-fetched_at: '2026-05-20T00:56:51+00:00'
-score: 9
+fetched_at: '2026-05-20T01:41:39+00:00'
+score: 8
 status: indetermine
 opportunite:
   nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
@@ -18,58 +18,50 @@ opportunite:
 candidature:
   date_limite: null
   date_limite_precision: null
-  langue_dossier:
-  - es
-  frais_inscription:
-    montant: null
-    devise: EUR
-  pieces_demandees:
-  - Certificado de empadronamiento
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
   url_candidature: null
 eligibilite:
   disciplines:
   - artes visuales
   niveau_carriere: tous
   age_max: null
-  nationalite: española, estado miembro de la Unión Europea, o extracomunitaria con
-    residencia legal en España
-  residence_administrative: España (mínimo 4 proyectos de artistas residentes en Comunidad
-    de Madrid, máximo 4 del resto de España)
+  nationalite: española|UE|extracomunitaria con residencia legal en España
+  residence_administrative: España
 conditions_residence:
   duree:
     semaines: null
-    dates: 2026-09-15 / 2026-12-15
+    dates: 15 de septiembre - 15 de diciembre 2026
   hebergement: null
-  atelier: Espacios de creación en el Centro de residencias artísticas de Matadero
-    Madrid, con acompañamiento curatorial y de producción
+  atelier: null
   remuneration:
     montant: null
-    devise: EUR
-    periodicita: null
+    devise: null
+    periodicite: null
   voyage:
     pris_en_charge: null
     plafond: null
-    devise: EUR
+    devise: null
   restitution: null
 partenaires: []
 _meta:
-  extracted_confidence: 0.38
-  extracted_notes: 'Documento incompleto (páginas 1-4 de un total desconocido). Información
-    crítica ausente: fecha límite candidatura, alojamiento, remuneración, cuotas inscripción,
-    URL candidatura, lista completa piezas requeridas, restitución. Solo bases generales
-    y elegibilidad parcialmente extraídas.'
+  extracted_confidence: 0.35
+  extracted_notes: 'Document fragmenté : pages 1-4 incomplètes et page 4 coupée au
+    milieu. Date limite de candidature non trouvée dans le texte fourni. Frais, URL,
+    langue(s) acceptée(s), logistique (hébergement), rémunération et détails de voyage
+    absents.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:56:51+00:00'
+  extracted_at: '2026-05-20T01:41:39+00:00'
   source_lang: es
-  resume_fr: Matadero Madrid, centre culturel géré par Madrid Destino, lance sa 3e
-    convocation pour 8 résidences de production artistique d'une durée de 3 mois sur
-    l'environnement, destinées aux artistes visuels résidant en Espagne. Les résidences
-    se dérouleront du 15 septembre au 15 décembre 2026. L'appel vise à soutenir le
-    développement professionnel des créateurs, leur fournir des ressources spatiales,
-    économiques et institutionnelles, et placer la question environnementale au cœur
-    des débats artistiques. Le programme s'adresse aux créateurs d'arts visuels individuels
-    ou collectifs travaillant sur des questions liées à l'environnement et résidant
-    dans la Communauté de Madrid et/ou en Espagne.
+  resume_fr: 'Matadero Madrid ouvre un appel à candidatures pour 8 résidences de production
+    artistique sur l''environnement, d''une durée de 3 mois du 15 septembre au 15
+    décembre 2026, destinées à des artistes visuels résidant en Espagne. Le programme
+    offre des espaces, des ressources économiques et un accompagnement professionnel
+    pour développer des projets abordant des enjeux environnementaux : pollution,
+    changement climatique, exploitation des ressources naturelles, ruralité et industrie
+    alimentaire. La sélection se fait en régime de concurrence compétitive selon les
+    principes de publicité, transparence, objectivité et égalité.'
   detection_confidence: 0.896551724137931
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
@@ -77,5 +69,5 @@ _meta:
 _interne_affinite:
   match: false
   signaux:
-  - collectif
+  - rural
   bonus_score: 0

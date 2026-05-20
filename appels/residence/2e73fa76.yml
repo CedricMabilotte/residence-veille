@@ -1,15 +1,15 @@
 uid: 2e73fa76
 type: residence
 source_url: https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf
-fetched_at: '2026-05-20T00:43:26+00:00'
+fetched_at: '2026-05-20T01:29:30+00:00'
 score: 7
 status: indetermine
 opportunite:
-  nom: Guide des financements de la mobilité culturelle - Focus sur l'Afrique du Nord
+  nom: Guide des financements de la mobilité culturelle – Focus sur l'Afrique du Nord
   organisme: On the Move
   lieu:
     ville: null
-    pays: Algérie, Maroc, Tunisie
+    pays: null
     territoire: Afrique du Nord
 candidature:
   date_limite: null
@@ -20,21 +20,21 @@ candidature:
     montant: null
     devise: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf
 eligibilite:
   disciplines:
   - arts du spectacle
   - arts visuels
-  - arts numériques
+  - arts numériques et nouveaux médias
   - musique
   - littérature
   - patrimoine
   - arts pluridisciplinaires
-  - recherche culturelle
+  - recherche et administration culturelle
   niveau_carriere: tous
   age_max: null
-  nationalite: ressortissant·e·s et résident·e·s de l'Algérie, Maroc, Tunisie
-  residence_administrative: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
 conditions_residence:
   duree:
     semaines: null
@@ -51,14 +51,16 @@ conditions_residence:
     devise: null
   restitution: null
 partenaires:
-- Union européenne
-- ministère de la Culture
+- On the Move
 _meta:
-  extracted_confidence: 0.1
-  extracted_notes: Document guide informatif, non appel à candidature spécifique.
-    Aucune opportunité de résidence artistique identifiée ; contenu incomplet au p.4.
+  extracted_confidence: 0.05
+  extracted_notes: Document introductif d'un guide répertoriant plusieurs opportunités
+    de financement, non une opportunité d'appel à candidature spécifique. Pages 1-4
+    fournies sont des pages préliminaires (couverture, présentation, introduction).
+    Les opportunités individuelles et leurs détails ne figurent pas dans le contenu
+    fourni.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T00:43:26+00:00'
+  extracted_at: '2026-05-20T01:29:30+00:00'
   source_lang: fr
   detection_confidence: 0.7777777777777778
   detection_method: heuristic
