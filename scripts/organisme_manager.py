@@ -25,6 +25,7 @@ import hashlib
 import re
 import sys
 import unicodedata
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Optional
 
@@ -32,6 +33,15 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 ORGANISMES_DIR = ROOT / "organismes"
+
+# Suffixes juridiques / mentions à retirer pour comparer deux noms d'organismes.
+_LEGAL_NOISE = re.compile(
+    r"\b(s\.?a\.?s?\.?|s\.?l\.?|s\.?r\.?l\.?|gmbh|ltd|inc|llc|asbl|e\.?v\.?|"
+    r"co\.?|company|corporation|foundation|fondation|fundacion|stiftung|"
+    r"association|asociacion|cultura|turismo|negocio|y)\b",
+    re.IGNORECASE,
+)
+_FUZZY_THRESHOLD = 0.86
 
 # ── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -41,6 +51,38 @@ def _slugify(text: str) -> str:
     ascii_text = nfkd.encode("ASCII", "ignore").decode("ASCII").lower()
     s = re.sub(r"[^a-z0-9]+", "-", ascii_text).strip("-")
     return s[:60] or "unknown"
+
+
+def _normalize_name(nom: str) -> str:
+    """Forme canonique d'un nom d'organisme pour la comparaison (dédup)."""
+    nfkd = unicodedata.normalize("NFKD", nom or "")
+    s = nfkd.encode("ASCII", "ignore").decode("ASCII").lower()
+    s = _LEGAL_NOISE.sub(" ", s)
+    s = re.sub(r"[^a-z0-9 ]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _find_similar(nom: str) -> Optional[dict]:
+    """Cherche une fiche organisme existante au nom suffisamment proche."""
+    norm = _normalize_name(nom)
+    if not norm:
+        return None
+    best, best_ratio = None, 0.0
+    for p in ORGANISMES_DIR.glob("*.yml"):
+        try:
+            d = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        except Exception:
+            continue
+        cand_norm = _normalize_name(d.get("nom_canonique", ""))
+        if not cand_norm:
+            continue
+        # Inclusion stricte (un nom contient l'autre) OU similarité élevée
+        if norm == cand_norm or norm in cand_norm or cand_norm in norm:
+            return d
+        ratio = SequenceMatcher(None, norm, cand_norm).ratio()
+        if ratio > best_ratio:
+            best, best_ratio = d, ratio
+    return best if best_ratio >= _FUZZY_THRESHOLD else None
 
 
 def _uid(slug: str, pays: str | None = None) -> str:
@@ -73,12 +115,24 @@ def _save(data: dict) -> None:
 # ── API publique ────────────────────────────────────────────────────────────
 
 def get_or_create(nom: str, pays: str | None = None, url: str | None = None) -> dict:
-    """Récupère la fiche organisme par slug. Crée si absente."""
+    """Récupère la fiche organisme. Crée si absente, après dédup fuzzy."""
     slug = _slugify(nom)
     uid = _uid(slug, pays)
     existing = _load(uid)
     if existing:
         return existing
+
+    # Dédup : un organisme au nom proche existe-t-il déjà ?
+    similar = _find_similar(nom)
+    if similar:
+        # On garde le nom le plus court comme canonique (souvent le plus propre)
+        if len(nom) < len(similar.get("nom_canonique", "")):
+            similar["nom_canonique"] = nom
+        aliases = similar.setdefault("noms_alternatifs", [])
+        if nom != similar.get("nom_canonique") and nom not in aliases:
+            aliases.append(nom)
+        _save(similar)
+        return similar
 
     today = _dt.date.today().isoformat()
     fiche = {
