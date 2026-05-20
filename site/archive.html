@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Archive — Résidence</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root { --text:#1a1a1a; --muted:#666; --bg:#fafaf7; --border:#ddd; --accent:#bc4c3a; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, system-ui, sans-serif; color: var(--text); background: var(--bg);
+       max-width: 1100px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+h1 { font-size: 1.8rem; margin: 0 0 .3rem; }
+h2 { font-size: 1.2rem; margin: 2rem 0 .8rem; border-bottom: 1px solid var(--border); padding-bottom: .3rem; }
+.tagline { color: var(--muted); margin-bottom: 1.5rem; }
+nav { margin: 1rem 0; }
+nav a { margin-right: 1rem; color: var(--accent); text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.filters { background: white; border: 1px solid var(--border); padding: 1rem; border-radius: 6px;
+           margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+.filters label { font-size: .9rem; color: var(--muted); }
+.filters select, .filters input { padding: .3rem .5rem; border: 1px solid var(--border); border-radius: 3px; font-size: .9rem; }
+ul.opps { list-style: none; padding: 0; margin: 0; }
+li.opp { background: white; border: 1px solid var(--border); border-radius: 6px;
+         padding: 1rem; margin-bottom: .8rem; }
+li.opp .type-tag { display: inline-block; background: var(--accent); color: white; font-size: .75rem;
+                   padding: .15rem .5rem; border-radius: 3px; text-transform: uppercase; letter-spacing: .05em; }
+li.opp h3 { margin: .5rem 0 .3rem; font-size: 1.05rem; }
+li.opp h3 a { color: var(--text); text-decoration: none; }
+li.opp h3 a:hover { color: var(--accent); }
+li.opp .meta { color: var(--muted); font-size: .85rem; }
+li.opp .deadline { color: var(--accent); font-weight: 600; }
+li.opp.indetermine .deadline { color: var(--muted); font-weight: normal; font-style: italic; }
+.summary { color: #555; font-size: .9rem; margin: .5rem 0 0; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: .85rem; color: var(--muted); }
+.empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<h1>Archive</h1>
+<p class="tagline">Opportunités expirées (gardées pour mémoire, track record et préparation des candidatures futures).</p>
+<nav><a href="/">← Retour aux opportunités ouvertes</a></nav>
+<ul class="opps"><div class="empty">Aucune opportunité archivée.</div></ul>
+</body>
+</html>

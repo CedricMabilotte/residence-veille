@@ -1,0 +1,281 @@
+{
+  "started_at": "2026-05-20T00:16:22.905873+00:00",
+  "ended_at": "2026-05-20T00:34:05.804417+00:00",
+  "duration_sec": 1062.898544,
+  "dry_run": false,
+  "n_sources": 11,
+  "n_items_total": 28,
+  "n_promoted_total": 9,
+  "sources_stats": [
+    {
+      "label": "TransArtists — Air listings (EN)",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Res Artis — Listings (EN)",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "On-the-Move — Funding (EN/FR/ES)",
+      "items": 12,
+      "promoted": 1
+    },
+    {
+      "label": "e-flux — Announcements (EN)",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "CNAP — appels et résidences",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Institut français — résidences internationales",
+      "items": 3,
+      "promoted": 1
+    },
+    {
+      "label": "Salon de Montrouge — accueil",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Cité internationale des arts — résidences",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Pollen — résidence (Monflanquin)",
+      "items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "Hangar Barcelona — convocatorias",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "MATADERO Madrid — convocatorias",
+      "items": 12,
+      "promoted": 7
+    }
+  ],
+  "logs": [
+    {
+      "url": "https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.7777777777777778,
+      "dry_run": false
+    },
+    {
+      "url": "https://projetcoal.org/wp-content/uploads/2017/02/ArtCOP21-Rapport-ressources-FR.pdf",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "N/A",
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Ce document n'est pas un appel à candidature artistique. C'est un rapport et des ressources compilés d'un atelier professionnel déjà réalisé (décembre 2015), non un dispositif d'accueil, de financement, de compétition ou d'exposition cherchant à recruter des artistes.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/sites/default/files/library/2022-04/EDN_danse-et-mobilite%CC%81_2022-FR.pdf",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://on-the-move.org/sites/default/files/library/2023-05/OTM_time-act-2-executive-summary_FR.pdf",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.15,
+        "method": "claude",
+        "reasoning": "Document de recherche sur le projet Europe Beyond Access qui aide les artistes handicapés - ce n'est pas un appel à candidature mais un rapport d'analyse du projet existant",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/sites/default/files/our-news/2022-10/POE_Hettie-Judah-transcript_FR.pdf",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Ce document n'est pas un appel à candidature artistique. Il s'agit d'une transcription d'entretien/podcast éducatif avec Hettie Judah sur l'inclusion des artistes parents. Aucune des catégories (résidence, bourse, prix, exposition) ne s'applique.",
+        "scores": {
+          "residence": 0.14285714285714285,
+          "bourse": 0.0,
+          "prix": 0.2857142857142857,
+          "exposition": 0.5714285714285714
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/sites/default/files/2024-09/OTM_Members%20Guidelines_2024.pdf",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.15,
+        "method": "claude",
+        "reasoning": "Document de lignes directrices institutionnelles, non un appel à candidature. Mentionne 'funding' et 'mobility opportunities' mais décrit une organisation informative, pas une opportunité de candidature spécifique.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://site.cdn.institutfrancais.com/files/fichiers/IF_administrateurs_13mars2026.pdf",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Document administratif listant les membres du conseil d'administration de l'Institut français, datée 13/03/2026 — aucun appel à candidature artistique détecté",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.7752808988764045,
+      "dry_run": false
+    },
+    {
+      "url": "https://new.pollen-monflanquin.com/wp-content/uploads/2026/03/appel-a-candidature-printemps-2027.pdf",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.7333333333333333,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_ES.pdf",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/Bases%20convocatoria%20proyectos%20audiovisuales%20CINETECA.pdf",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.9322033898305084,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf",
+      "status": "promoted",
+      "score": 9,
+      "type": "residence",
+      "confidence": 0.8611111111111112,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20Convocatoria%20electr%C3%B3nica%20experimental%202026.pdf",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.875,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resoluci%C3%B3n%20M%C3%BAsica%20electr%C3%B3nica%20experimental%20-%20LEV%205.pdf",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.896551724137931,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resolucio%CC%81n%20RESIDENCIA%20MEDIOAMBIENTE%202026.pdf",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_convocatoria_bandas.pdf",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.9454545454545454,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/12/resolucion_residencia_bandas_2026.pdf",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_6m_mad_def.pdf",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.9166666666666666,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf",
+      "status": "promoted",
+      "score": 7,
+      "type": "prix",
+      "confidence": 0.95,
+      "dry_run": false
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+uid: ed8b9099
+type: prix
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf
+fetched_at: '2026-05-20T00:33:56+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: LAB 5 The Mechanics of Truth Collaborative Prototyping Laboratory
+  organisme: Medialab Matadero
+  lieu:
+    ville: Madrid
+    pays: Spain
+  nom_fr: CADRE RÉGLEMENTAIRE
+  affichage_titre: REGULATORY FRAMEWORK [CADRE RÉGLEMENTAIRE]
+candidature:
+  date_limite: null
+  langue_dossier:
+  - English
+  - Spanish
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - design
+  - art
+  - architecture
+  - urban planning
+  - economics
+  - film
+  - photography
+  - journalism
+  - digital media
+  - environmental sciences
+  - philosophy
+  - engineering
+  - social studies
+  - political science
+  - programming
+  - materials science
+  - activism
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant:
+      montant: null
+      devise: EUR
+    exposition: false
+    achat_oeuvre: false
+    edition_catalogue: false
+  jury_public: []
+  nb_laureats: 5
+  editions_precedentes:
+  - LAB 1
+  - LAB 2
+  - LAB 3
+  - LAB 4
+partenaires: []
+_meta:
+  extracted_confidence: 0.4
+  extracted_notes: 'Document incomplete (ends mid-sentence). No application deadline
+    explicitly stated. No monetary prize. Intensive collaborative prototyping laboratory:
+    12-25 November 2026, public presentation 26-28 November 2026 at Matadero Madrid.
+    Selection: maximum 5 projects and 20 collaborators. Q&A session: 28 May 2026,
+    6pm. Requires medium-high English level. Open-source framework, Creative Commons
+    licensing.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T00:33:56+00:00'
+  source_lang: en
+  resume_fr: LAB 5 The Mechanics of Truth est un appel international ouvert aux projets
+    artistiques et collaborateurs intéressés par la technologie et la construction
+    de la réalité. L'appel vise à sélectionner 5 projets et un maximum de 20 collaborateurs
+    (jusqu'à 4 par projet). Le laboratoire de prototypage collaboratif, session intensive
+    de 2 semaines, se tiendra du lundi 12 au samedi 25 novembre 2026 au Medialab Matadero
+    Madrid, avec présentation publique du 26 au 28 novembre 2026.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0
