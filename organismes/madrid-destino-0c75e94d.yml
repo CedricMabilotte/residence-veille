@@ -1,5 +1,5 @@
-uid: on-the-move-92ce1dd2
-nom_canonique: On the Move
+uid: madrid-destino-0c75e94d
+nom_canonique: Madrid Destino
 acronymes: []
 pays: null
 type_organisme: null
@@ -10,17 +10,12 @@ disciplines_proposees: []
 types_opportunites_habituels:
 - residence
 opportunites_liees:
-- uid: 2e73fa76
+- uid: 0b83d4e8
   type: residence
-  nom: Guide des financements de la mobilité culturelle - Focus sur l'Afrique du Nord
+  nom: VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN
+    TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)
 track_record: {}
-partenaires_mentionnes:
-- organisme_uid: union-europeenne
-  occurrences: 2
-  nom_brut: Union européenne
-- organisme_uid: ministere-de-la-culture
-  occurrences: 2
-  nom_brut: Ministère de la Culture
+partenaires_mentionnes: []
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'

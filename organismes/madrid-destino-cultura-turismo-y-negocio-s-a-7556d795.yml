@@ -25,10 +25,15 @@ opportunites_liees:
   type: residence
   nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE
     4 RESIDENCIAS SEMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES DE LA COMUNIDAD DE MADRID 2026
+- uid: 6ba8743c
+  type: residence
+  nom: Bases de la Convocatoria de asignación de cuatro residencias semestrales destinadas a artistas visuales de la Comunidad
+    de Madrid, cuatro residencias trimestrales de producción artística destinadas a artistas visuales residentes en España
+    y dos trimestrales destinadas a artistas visuales de la Comunidad de Madrid 2026
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: matadero-madrid
-  occurrences: 3
+  occurrences: 4
   nom_brut: Matadero Madrid
 - organisme_uid: ayuntamiento-de-madrid
   occurrences: 1
