@@ -1,0 +1,59 @@
+uid: madrid-destino-cultura-turismo-y-negocio-s-a-7556d795
+nom_canonique: Madrid Destino
+acronymes: []
+pays: null
+type_organisme: centre_art
+url_canonique: https://www.mataderomadrid.org
+urls_secondaires: []
+description_courte: Centre d'art contemporain et de création dans un ancien abattoir réhabilité.
+disciplines_proposees:
+- arts visuels
+- performance
+- design
+- vidéo
+- installation
+- photographie
+types_opportunites_habituels:
+- residence
+- prix
+opportunites_liees:
+- uid: ea63cf12
+  type: residence
+  nom: IV CONVOCATORIA CONJUNTA ENTRE CINETECA Y EL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN
+    DE TRES (3) RESIDENCIAS PARA PROYECTOS AUDIOVISUALES EN FASE DE DESARROLLO
+- uid: 96722c2c
+  type: residence
+  nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE OCHO (8) RESIDENCIAS
+    DE PRODUCCIÓN ARTÍSTICA DE TRES MESES SOBRE MEDIOAMBIENTE DIRIGIDAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA
+- uid: 56d7154d
+  type: residence
+  nom: III Convocatoria del Centro de residencias artísticas de Matadero Madrid - Residencias trimestrales de producción artística
+    sobre Medioambiente 2026
+- uid: c9b469ac
+  type: residence
+  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE
+    4 RESIDENCIAS SEMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES DE LA COMUNIDAD DE MADRID 2026
+- uid: f52a745f
+  type: prix
+  nom: IV INVITATION TO PARTICIPATE IN THE SELECTION OF THREE SITUATED RESEARCH PROJECTS AS PART OF THE ANNUAL MEDIALAB MATADERO
+    PROGRAM AT MATADERO MADRID 2025-2026
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: cineteca-madrid
+  occurrences: 1
+  nom_brut: Cineteca Madrid
+- organisme_uid: centro-de-residencias-artisticas-de-matadero-madrid
+  occurrences: 1
+  nom_brut: Centro de residencias artísticas de Matadero Madrid
+- organisme_uid: ayuntamiento-de-madrid
+  occurrences: 1
+  nom_brut: Ayuntamiento de Madrid
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-20'
+  last_updated: '2026-05-20'
+  status: actif
+  nouveaux_entrants: true
+adresse: calle Conde Duque 9-11, 28015 Madrid
+ville: Madrid
+noms_alternatifs: []

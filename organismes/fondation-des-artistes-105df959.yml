@@ -1,0 +1,27 @@
+uid: fondation-des-artistes-105df959
+nom_canonique: Fondation des Artistes
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.fondationdesartistes.fr
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- prix
+opportunites_liees:
+- uid: 13cffca0
+  type: prix
+  nom: Aides à la production d'œuvres d'art - Commission mécénat de la Fondation des Artistes
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: ministere-de-la-culture
+  occurrences: 1
+  nom_brut: Ministère de la Culture
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-20'
+  last_updated: '2026-05-20'
+  status: actif
+  nouveaux_entrants: true
+ville: Nogent-sur-Marne

@@ -1,0 +1,30 @@
+uid: institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713
+nom_canonique: Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture
+acronymes: []
+pays: null
+type_organisme: institution_publique
+url_canonique: https://www.institutfrancais.com
+urls_secondaires: []
+description_courte: Institution publique française promouvant la culture et la langue françaises à l'international.
+disciplines_proposees:
+- arts plastiques
+- photographie
+- design
+- cinéma
+- musique
+- danse
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 0144555c
+  type: residence
+  nom: Charter of the VILLAS and residency programmes of France's cultural network abroad
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-20'
+  last_updated: '2026-05-20'
+  status: actif
+  nouveaux_entrants: true
+ville: Paris

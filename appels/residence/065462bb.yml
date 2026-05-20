@@ -1,0 +1,116 @@
+uid: 065462bb
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_mad_def.pdf
+fetched_at: '2026-05-20T11:23:19+00:00'
+score: 10
+status: indetermine
+opportunite:
+  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE
+    MATADERO MADRID PARA LA ASIGNACIÓN DE DOS (2) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN
+    ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN LA COMUNIDAD DE MADRID
+    2026
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territoire: Comunidad de Madrid
+  nom_fr: BASES
+  affichage_titre: BASES [BASES]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - es
+  - en
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: https://www.mataderomadrid.org
+eligibilite:
+  disciplines:
+  - artes visuales
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sin restriction
+  residence_administrative: Comunidad de Madrid
+conditions_residence:
+  duree:
+    semaines: 13
+    dates: 14 de abril al 10 de julio de 2026
+  hebergement: null
+  atelier: Espacios de producción del Centro de residencias artísticas de Matadero
+    Madrid
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Document partiellement fourni (pages 1-3 seulement). Date limite
+    de candidature manquante. Détails des pièces demandées et montants exacts de rémunération
+    non visibles dans l'extrait fourni.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T11:23:19+00:00'
+  source_lang: es
+  resume_fr: Matadero Madrid lance un appel à candidature pour l'attribution de 2
+    résidences trimestrales de production artistique destinées aux artistes visuels.
+    Seuls peuvent postuler les créateurs résidents dans la Communauté de Madrid, majeurs
+    et avec une résidence légale en Espagne. La résidence durera 3 mois, du 14 avril
+    au 10 juillet 2026. Le programme offre des espaces, des ressources économiques,
+    un accompagnement professionnel et une visibilité aux artistes sélectionnés. Les
+    candidats peuvent être individuels ou collectifs et doivent désigner un représentant
+    s'ils postulent en groupe.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+analyse:
+  synthese: Résidence trimestrale de production artística de 3 mois (14 avril - 10
+    juillet 2026) proposée par Matadero Madrid pour 2 artistes visuales résidant en
+    Comunidad de Madrid. Programme offrant espaces de production, ressources économiques,
+    accompagnement curatorial et professionnel, ainsi que visibilité institutionnelle.
+    Sélection par Commission de Valoración selon critères de qualité, originalité,
+    intérêt de la trajectoire artistique et viabilité du projet dans les espaces du
+    centre.
+  pour_qui: Artistes visuales individuels ou collectifs ayant leur résidence principale
+    ou domaine d'action en Comunidad de Madrid, majeurs avec résidence légale en Espagne.
+a_savoir:
+- Date limite de candidature non mentionnée dans le document fourni
+- Candidature strictement restreinte à la Comunidad de Madrid
+- Dossier exigé en espagnol castillan ou anglais ; cohabitation obligatoire avec artistes
+  et agents culturels internationaux
+- Montant et modalités précises de la dotation économique non spécifiés
+- Conditions d'hébergement non explicitement mentionnées
+organisme_details:
+  site_web: https://www.mataderomadrid.org
+  adresse: Calle Conde Duque 9-11, 28015 Madrid
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: Mention de « recursos económicos » pour faciliter la production artística,
+    mais montant et modalités non spécifiés dans l'extrait
+- id: hebergement
+  rempli: inconnu
+  justification: Non mentionné explicitement. Document mentionne cohabitation ('Los
+    residentes convivirán') sans préciser si logement fourni
+- id: atelier
+  rempli: oui
+  justification: « proporcionando espacios, facilitando la producción » et « proporcionar
+    espacios para realizar la residencia »
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge de frais de voyage, transport ou
+    matériel
+_interne_affinite:
+  match: true
+  signaux:
+  - collectif
+  - long séjour
+  bonus_score: 1

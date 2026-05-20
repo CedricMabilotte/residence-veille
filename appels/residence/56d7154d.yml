@@ -1,0 +1,109 @@
+uid: 56d7154d
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resolucio%CC%81n%20RESIDENCIA%20MEDIOAMBIENTE%202026.pdf
+fetched_at: '2026-05-20T11:13:13+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: III Convocatoria del Centro de residencias artísticas de Matadero Madrid -
+    Residencias trimestrales de producción artística sobre Medioambiente 2026
+  organisme: Madrid Destino Cultura Turismo y Negocio, S.A.
+  lieu:
+    ville: Madrid
+    pays: España
+    territorio: Comunidad de Madrid
+  nom_fr: Résolution Appel à candidature Résidences trimestrielles pour projets sur
+    l'environnement 2026
+  affichage_titre: Resolucíón Convocatoria Residencias trimestrales para proyectos
+    sobre el medioambiente 2026 [Résolution Appel à candidature Résidences trimestrielles
+    pour projets sur l'environnement 2026]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - artes visuales
+  niveau_carriere: tous
+  age_max: null
+  nationalite: España
+  residence_administrative: Comunidad de Madrid o España
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: Document de résolution annonçant les résultats d'une convocatoria
+    fermée. Peu d'informations sur les conditions du programme disponibles.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T11:13:13+00:00'
+  source_lang: es
+  resume_fr: Le Centre de résidences artistiques de Matadero Madrid annonce la résolution
+    de sa troisième convocation. 8 résidences trimestrales de production artistique
+    sur l'environnement sont attribuées à des artistes visuels. Sur 86 candidatures
+    reçues, 5 artistes résidant en Communauté de Madrid et 3 artistes résidant en
+    Espagne ont été sélectionnés, avec 2 suppléants pour chaque catégorie. L'annonce
+    a été faite le 12 mai 2026.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+analyse:
+  synthese: 'Cette résolution annonce les 8 lauréats sélectionnés (plus des suppléants)
+    pour la III Convocatoria del Centro de residencias artísticas de Matadero Madrid,
+    concernant des résidences trimestrales de production artistique basées sur des
+    projets environnementaux. Le programme s''adresse aux artistes visuels résidents
+    en Espagne, dans deux catégories : Comunidad de Madrid et reste de l''Espagne.
+    Aucune information sur la remunération, le logement, l''espace de travail, ou
+    les conditions de restitution n''est fournie dans ce document.'
+  pour_qui: Artistes visuels résidents en Espagne (Comunidad de Madrid ou reste du
+    pays) développant des projets artistiques basés sur l'environnement.
+a_savoir:
+- Ceci est une résolution de résultats annonçant les lauréats ; la convocatoria est
+  fermée et n'accepte plus de candidatures.
+- Date limite originale de candidature non mentionnée.
+- 'Informations manquantes : frais d''inscription, conditions de remunération, logement
+  fourni, espace de travail, prise en charge des frais de voyage, restitution attendue.'
+- Consulter les Bases de la III Convocatoria pour les conditions complètes du programme.
+organisme_details:
+  site_web: null
+  adresse: Calle Conde Duque, 9-11, 28015 Madrid
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de remunération, bourse ou allocation financière dans
+    ce document de résolution.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention de logement fourni aux résidents.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de travail, studio ou équipements mis à disposition.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage, transport
+    ou production.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

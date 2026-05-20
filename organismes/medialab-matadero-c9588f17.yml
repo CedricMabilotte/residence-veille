@@ -1,0 +1,34 @@
+uid: medialab-matadero-c9588f17
+nom_canonique: Medialab Matadero
+acronymes: []
+pays: null
+type_organisme: centre_art
+url_canonique: https://www.medialab-matadero.es
+urls_secondaires: []
+description_courte: Centre d'art contemporain dédié aux arts plastiques, au media art et à l'expérimentation numérique.
+disciplines_proposees:
+- arts plastiques
+- media art
+- art vidéo
+- art numérique
+- photographie
+- sculpture
+types_opportunites_habituels:
+- residence
+- prix
+opportunites_liees:
+- uid: 49331d08
+  type: residence
+  nom: Laboratorio de Prototipado Colaborativo del LAB 5 La mecánica de la verdad
+- uid: ed8b9099
+  type: prix
+  nom: Open Call for Projects and Collaborators for LAB 5 The Mechanics of Truth Collaborative Prototyping Laboratory
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-20'
+  last_updated: '2026-05-20'
+  status: actif
+  nouveaux_entrants: true
+ville: Madrid
