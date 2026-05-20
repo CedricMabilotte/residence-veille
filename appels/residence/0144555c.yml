@@ -1,0 +1,91 @@
+uid: 0144555c
+type: residence
+source_url: https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf
+fetched_at: '2026-05-20T00:20:57+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Charter of the VILLAS and residency programmes of France's cultural network
+    abroad
+  organisme: Institut français, Ministry for Europe and Foreign Affairs, Ministry
+    of Culture
+  lieu:
+    ville: null
+    pays: null
+    territoire: France's cultural network abroad
+  nom_fr: Charte des Villas et programmes de résidences du réseau culturel de la France
+    à l'étranger
+  affichage_titre: Charte des Villas et programmes de résidences du réseau culturel
+    de la France à l’étranger(.pdf, 2.78 Mo) [Charte des Villas et programmes de résidences
+    du réseau culturel de la France à l'étranger]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - literary and theatrical
+  - musical and choreographic
+  - audiovisual and cinematographic
+  - visual and plastic arts
+  - photographic
+  - exhibition curators
+  - literary translators
+  - performers
+  - freelance artists
+  - craftspeople
+  - researchers
+  niveau_carriere: tous
+  age_max: null
+  nationalite: French artists or artists professionally established in France; local
+    artists or artists from other countries also eligible
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: minimum one month
+  hebergement: true
+  atelier: true
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires: null
+_meta:
+  extracted_confidence: 0.3
+  extracted_notes: Document cadre/charte normative, non une opportunité concrète.
+    Établit les règles standards pour les résidences du réseau culturel français à
+    l'étranger. Majorité des données spécifiques manquantes (dates, montants, lieux,
+    URL candidature).
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T00:20:57+00:00'
+  source_lang: en
+  resume_fr: Cette charte, établie par l'Institut français, le Ministère de l'Europe
+    et des Affaires étrangères et le Ministère de la Culture, définit un cadre commun
+    pour les programmes de résidences du réseau culturel français à l'étranger, s'appuyant
+    sur la circulaire du 8 juin 2016 et la direction ministérielle du 12 janvier 2023.
+    Une résidence doit offrir un logement et un espace de travail, avoir une durée
+    minimale d'un mois, fournir un soutien administratif et artistique, avec au moins
+    70% du temps dédié au projet artistique, et inclure une bourse. Les résidences
+    ciblent la création, la recherche ou l'expérimentation, et s'adressent aux artistes
+    français ou établis en France, avec possibilité d'accueillir des artistes locaux
+    ou étrangers.
+  detection_confidence: 0.7752808988764045
+  detection_method: heuristic
+  source_label: Institut français — résidences internationales
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

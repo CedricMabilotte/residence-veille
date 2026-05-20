@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Résidence — opportunités arts plastiques</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
+<style>
+:root { --text:#1a1a1a; --muted:#666; --bg:#fafaf7; --border:#ddd; --accent:#bc4c3a; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, system-ui, sans-serif; color: var(--text); background: var(--bg);
+       max-width: 1100px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+h1 { font-size: 1.8rem; margin: 0 0 .3rem; }
+h2 { font-size: 1.2rem; margin: 2rem 0 .8rem; border-bottom: 1px solid var(--border); padding-bottom: .3rem; }
+.tagline { color: var(--muted); margin-bottom: 1.5rem; }
+nav { margin: 1rem 0; }
+nav a { margin-right: 1rem; color: var(--accent); text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.filters { background: white; border: 1px solid var(--border); padding: 1rem; border-radius: 6px;
+           margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+.filters label { font-size: .9rem; color: var(--muted); }
+.filters select, .filters input { padding: .3rem .5rem; border: 1px solid var(--border); border-radius: 3px; font-size: .9rem; }
+ul.opps { list-style: none; padding: 0; margin: 0; }
+li.opp { background: white; border: 1px solid var(--border); border-radius: 6px;
+         padding: 1rem; margin-bottom: .8rem; }
+li.opp .type-tag { display: inline-block; background: var(--accent); color: white; font-size: .75rem;
+                   padding: .15rem .5rem; border-radius: 3px; text-transform: uppercase; letter-spacing: .05em; }
+li.opp h3 { margin: .5rem 0 .3rem; font-size: 1.05rem; }
+li.opp h3 a { color: var(--text); text-decoration: none; }
+li.opp h3 a:hover { color: var(--accent); }
+li.opp .meta { color: var(--muted); font-size: .85rem; }
+li.opp .deadline { color: var(--accent); font-weight: 600; }
+li.opp.indetermine .deadline { color: var(--muted); font-weight: normal; font-style: italic; }
+.summary { color: #555; font-size: .9rem; margin: .5rem 0 0; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: .85rem; color: var(--muted); }
+.empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<h1>Résidence</h1>
+<p class="tagline">Opportunités arts plastiques — résidences, bourses, prix, appels à exposition.</p>
+
+<nav>
+  <a href="/">Ouvertes</a>
+  <a href="/archive.html">Archive</a>
+  <a href="/calendar.ics">Calendrier (.ics)</a>
+  <a href="/feed/all.xml">RSS</a>
+</nav>
+
+<div class="filters">
+  <label>Type
+    <select id="f-type">
+      <option value="">tous</option>
+      <option value="residence">Résidence</option>
+      <option value="bourse">Bourse</option>
+      <option value="prix">Prix</option>
+      <option value="exposition">Exposition</option>
+    </select>
+  </label>
+  <label>Pays
+    <select id="f-pays">
+      <option value="">tous</option>
+      <option value="algérie, maroc, tunisie">Algérie, Maroc, Tunisie</option>
+<option value="espagne">Espagne</option>
+<option value="españa">España</option>
+<option value="spain">Spain</option>
+    </select>
+  </label>
+  <label>Discipline
+    <input type="search" id="f-disc" placeholder="ex. textile, photo…" style="width: 12em">
+  </label>
+  <span id="f-count" style="margin-left: auto; color: var(--muted); font-size: .85rem;"></span>
+</div>
+
+<ul class="opps">
+<li class="opp indetermine" data-type="residence"
+       data-pays=""
+       data-disc="literary and theatrical, musical and choreographic, audiovisual and cinematographic">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf" target="_blank" rel="noopener">Charte des Villas et programmes de résidences du réseau culturel de la France à l’étranger(.pdf, 2.78 Mo) [Charte des Villas et programmes de résidences du réseau culturel de la France à l&#x27;étranger]</a></h3>
+  <div class="meta">
+    Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture
+     · literary and theatrical, musical and choreographic, audiovisual and cinematographic
+  </div>
+</li>
+<li class="opp indetermine" data-type="residence"
+       data-pays=""
+       data-disc="arte, educación, mediación">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf" target="_blank" rel="noopener">BASES DE LA CONVOCATORIA [BASES DE LA CONVOCATION]</a></h3>
+  <div class="meta">
+    Madrid Destino, Cultura, Turismo y Negocio S.A.
+     · arte, educación, mediación
+  </div>
+</li>
+<li class="opp indetermine" data-type="residence"
+       data-pays="algérie, maroc, tunisie"
+       data-disc="arts du spectacle, arts visuels, arts numériques et nouveaux médias">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf" target="_blank" rel="noopener">Guide des financements de la mobilité culturelle - Focus sur l&#x27;Afrique du Nord</a></h3>
+  <div class="meta">
+    On the Move — Algérie, Maroc, Tunisie
+     · arts du spectacle, arts visuels, arts numériques et nouveaux médias
+  </div>
+</li>
+<li class="opp indetermine" data-type="residence"
+       data-pays="españa"
+       data-disc="diseño, arte, arquitectura">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_ES.pdf" target="_blank" rel="noopener">BASES DE LA CONVOCATORIA [BASES DE L&#x27;APPEL À CANDIDATURES]</a></h3>
+  <div class="meta">
+    Medialab Matadero — Madrid, España
+     · diseño, arte, arquitectura
+  </div>
+</li>
+<li class="opp indetermine" data-type="residence"
+       data-pays="espagne"
+       data-disc="artistas visuales">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resolucio%CC%81n%20RESIDENCIA%20MEDIOAMBIENTE%202026.pdf" target="_blank" rel="noopener">Resolucíón Convocatoria Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résolution Appel à candidature Résidences trimestrielles pour projets sur l&#x27;environnement 2026]</a></h3>
+  <div class="meta">
+    Madrid Destino Cultura Turismo y Negocio, S.A. — Madrid, Espagne
+     · artistas visuales
+  </div>
+</li>
+<li class="opp indetermine" data-type="residence"
+       data-pays="españa"
+       data-disc="artistas visuales">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf" target="_blank" rel="noopener">Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution Appel à candidatures Résidences Artistes Visuels 2026]</a></h3>
+  <div class="meta">
+    Matadero Madrid — Madrid, España
+     · artistas visuales
+  </div>
+</li>
+<li class="opp indetermine" data-type="residence"
+       data-pays=""
+       data-disc="artes visuales">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf" target="_blank" rel="noopener">BASES DE LA CONVOCATORIA [BASES DE L&#x27;APPEL À CANDIDATURES]</a></h3>
+  <div class="meta">
+    Madrid Destino, Cultura, Turismo y Negocio S.A.
+     · artes visuales
+  </div>
+</li>
+<li class="opp indetermine" data-type="residence"
+       data-pays=""
+       data-disc="artes visuales">
+  <span class="type-tag">Résidence</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_6m_mad_def.pdf" target="_blank" rel="noopener">BASES [BASES RÉGULATRICES DE L&#x27;APPEL À CANDIDATURES DU CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L&#x27;ATTRIBUTION DE 4 RÉSIDENCES SEMESTRIELLES DE PRODUCTION ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS DE LA COMMUNAUTÉ DE MADRID 2026]</a></h3>
+  <div class="meta">
+    Madrid Destino, Cultura, Turismo y Negocio S.A.
+     · artes visuales
+  </div>
+</li>
+<li class="opp indetermine" data-type="prix"
+       data-pays="spain"
+       data-disc="design, art, architecture">
+  <span class="type-tag">Prix</span>
+  <span class="deadline">date à confirmer</span>
+  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf" target="_blank" rel="noopener">REGULATORY FRAMEWORK [CADRE RÉGLEMENTAIRE]</a></h3>
+  <div class="meta">
+    Medialab Matadero — Madrid, Spain
+     · design, art, architecture
+  </div>
+</li>
+</ul>
+
+<footer>
+  <p>Mise à jour automatique — sources FR/EN/ES, interface FR. Voir aussi :
+     <a href="/feed/residences.xml">RSS résidences</a> ·
+     <a href="/feed/bourses.xml">bourses</a> ·
+     <a href="/feed/prix.xml">prix</a> ·
+     <a href="/feed/expositions.xml">expositions</a>.</p>
+</footer>
+
+<script>
+(function() {
+  const opps = document.querySelectorAll('li.opp');
+  const fType = document.getElementById('f-type');
+  const fPays = document.getElementById('f-pays');
+  const fDisc = document.getElementById('f-disc');
+  const fCount = document.getElementById('f-count');
+
+  function apply() {
+    const t = fType.value, p = fPays.value, d = (fDisc.value || '').toLowerCase().trim();
+    let visible = 0;
+    opps.forEach(li => {
+      const okT = !t || li.dataset.type === t;
+      const okP = !p || li.dataset.pays === p;
+      const okD = !d || (li.dataset.disc || '').includes(d);
+      const show = okT && okP && okD;
+      li.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    fCount.textContent = visible + ' / ' + opps.length;
+  }
+  [fType, fPays, fDisc].forEach(el => el.addEventListener('input', apply));
+  apply();
+})();
+</script>
+
+</body>
+</html>

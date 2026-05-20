@@ -1,0 +1,65 @@
+uid: 6ba8743c
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf
+fetched_at: '2026-05-20T00:32:46+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Resolucion Convocatoria Residencias Artistas Visuales 2026
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territorio: Comunidad de Madrid
+  nom_fr: Résolution Appel à candidatures Résidences Artistes Visuels 2026
+  affichage_titre: Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution
+    Appel à candidatures Résidences Artistes Visuels 2026]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - artistas visuales
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- Madrid Destino Cultura Turismo y Negocio, S.A.
+_meta:
+  extracted_confidence: 0.25
+  extracted_notes: 'Document est la résolution des résultats de sélection (27/11/2025),
+    non l''appel original. Comporte 4 résidences semestrales (Communauté Madrid) +
+    4 trimestrales (résidents Espagne) + 2 trimestrales (Communauté Madrid). Informations
+    critiques manquantes: date limite candidature, frais, conditions résidence détaillées.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T00:32:46+00:00'
+  source_lang: es
+  resume_fr: Cette résolution annonce les résultats de sélection pour les résidences
+    d'artistes visuels 2026 à Madrid. Quatre résidences semestrales ont été retenues
+    parmi 152 candidatures pour artistes de la Communauté de Madrid, quatre résidences
+    trimestrales parmi 121 candidatures pour artistes résidents en Espagne, et deux
+    résidences trimestrales parmi 35 candidatures pour artistes de la Communauté de
+    Madrid. La Commission de Valoración réunie le 21 novembre 2026 a procédé à ces
+    sélections. En cas de refus d'un projet lauréat, le poste sera déclaré vacant.
+  detection_confidence: 0.9166666666666666
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

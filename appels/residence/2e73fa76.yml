@@ -1,0 +1,70 @@
+uid: 2e73fa76
+type: residence
+source_url: https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf
+fetched_at: '2026-05-20T00:16:56+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Guide des financements de la mobilité culturelle - Focus sur l'Afrique du Nord
+  organisme: On the Move
+  lieu:
+    ville: null
+    pays: Algérie, Maroc, Tunisie
+    territoire: Afrique du Nord
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: https://on-the-move.org/resources
+eligibilite:
+  disciplines:
+  - arts du spectacle
+  - arts visuels
+  - arts numériques et nouveaux médias
+  - musique
+  - littérature
+  - patrimoine
+  - arts pluridisciplinaires
+  - recherche et administration culturelle
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Union européenne
+- Ministère de la Culture
+_meta:
+  extracted_confidence: 0.2
+  extracted_notes: Document est un guide de financement répertoriant plusieurs opportunités,
+    non une candidature spécifique. Seules les métadonnées du guide ont pu être extraites.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T00:16:56+00:00'
+  source_lang: fr
+  detection_confidence: 0.7777777777777778
+  detection_method: heuristic
+  source_label: On-the-Move — Funding (EN/FR/ES)
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

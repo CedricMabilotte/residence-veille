@@ -1,0 +1,41 @@
+uid: madrid-destino-cultura-turismo-y-negocio-s-a-7556d795
+nom_canonique: Madrid Destino, Cultura, Turismo y Negocio S.A.
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 0b83d4e8
+  type: residence
+  nom: VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN
+    TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)
+- uid: 96722c2c
+  type: residence
+  nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE OCHO (8) RESIDENCIAS
+    DE PRODUCCIÓN ARTÍSTICA DE TRES MESES SOBRE MEDIOAMBIENTE
+- uid: 56d7154d
+  type: residence
+  nom: Convocatoria Residencias trimestrales para proyectos sobre el medioambiente 2026
+- uid: c9b469ac
+  type: residence
+  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE
+    4 RESIDENCIAS SEMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES DE LA COMUNIDAD DE MADRID 2026
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: matadero-madrid
+  occurrences: 3
+  nom_brut: Matadero Madrid
+- organisme_uid: ayuntamiento-de-madrid
+  occurrences: 1
+  nom_brut: Ayuntamiento de Madrid
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-20'
+  last_updated: '2026-05-20'
+  status: actif
+  nouveaux_entrants: true
