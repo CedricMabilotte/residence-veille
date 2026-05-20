@@ -2,11 +2,11 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Archive — Résidence</title>
+<title>Suggérer une source — Résidence</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
-<meta property="og:title" content="Archive — Résidence">
+<meta property="og:title" content="Suggérer une source — Résidence">
 <meta property="og:type" content="website">
 <link rel="alternate" type="application/rss+xml" title="Toutes opportunités" href="/feed/all.xml">
 <style>
@@ -153,18 +153,35 @@ footer { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line
   <nav class="topnav">
     <a href="/">Catalogue</a>
     <a href="/organismes.html">Organismes</a>
-    <a href="/archive.html" class="active">Archive</a>
+    <a href="/archive.html">Archive</a>
     <a href="/calendar.ics">Calendrier</a>
     <a href="/feed/all.xml">RSS</a>
-    <a href="/suggerer.html">Suggérer une source</a>
+    <a href="/suggerer.html" class="active">Suggérer une source</a>
     <a href="/a-propos.html">À propos</a>
   </nav>
 </header>
 
 <a class="backlink" href="/">← Catalogue</a>
-<h2 class="sec">Archive — opportunités expirées</h2>
-<p style="color:var(--muted);font-style:italic">Conservées pour mémoire, suivi des cycles annuels et préparation des candidatures futures.</p>
-<ul class="cards"><div class="empty">Aucune opportunité archivée.</div></ul>
+<h2 class="sec">Suggérer une source</h2>
+<div class="prose">
+<p>Vous connaissez un site qui publie des appels à résidences, bourses, prix ou
+   expositions pour plasticien·nes ? Proposez-le — il sera instruit automatiquement
+   au prochain passage de la veille.</p>
+</div>
+<p style="color:var(--accent)"><strong>Formulaire à activer :</strong> créer un endpoint sur formspree.io et renseigner l'ID dans generate_site.py. En attendant, écrire à <a href="mailto:cedric.mabilotte@gmail.com?subject=Suggestion%20de%20source">cedric.mabilotte@gmail.com</a>.</p>
+<form class="suggest" onsubmit="return false">
+  <label for="url">URL de la source *</label>
+  <input type="url" id="url" name="url" placeholder="https://…" required>
+  <label for="type">Type d'opportunités</label>
+  <select id="type" name="type">
+    <option value="">Indifférent / plusieurs</option>
+    <option>Résidences</option><option>Bourses</option>
+    <option>Prix</option><option>Expositions</option>
+  </select>
+  <label for="note">Remarque (facultatif)</label>
+  <textarea id="note" name="note" rows="3" placeholder="Pays, discipline, langue…"></textarea>
+  <p style="margin-top:1rem"><button class="cta" type="submit">Envoyer la suggestion</button></p>
+</form>
 
 <footer>
   <p>Mise à jour automatique — sources FR / EN / ES, interface FR.

@@ -1,0 +1,71 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# criteres.yml — Barème commun des critères de qualité d'une opportunité
+# ─────────────────────────────────────────────────────────────────────────────
+# Chaque fiche-item est lue par Claude contre ce barème : pour chaque critère,
+# Claude indique si le programme le remplit (oui / non / partiel / inconnu) et
+# cite le passage qui le justifie.
+#
+# Ce fichier est ÉDITABLE : ajouter / retirer / repondérer des critères ici
+# suffit — aucun code à toucher. Le score affiché et la section « Critères
+# recherchés » des fiches en découlent directement.
+#
+# NB : le barème est PUBLIC et factuel. Il ne contient AUCUN critère lié au
+# profil interne (Lucile Leloup) — celui-ci reste un bonus de tri silencieux,
+# géré séparément dans concepts.yml, jamais affiché.
+# ─────────────────────────────────────────────────────────────────────────────
+
+bareme:
+  version: 1
+  date: 2026-05-20
+
+  # ── Famille retenue : Conditions matérielles ───────────────────────────────
+  # Démarrage volontairement resserré. Pour étendre : ajouter d'autres familles
+  # (accessibilite, qualite_temps, debouche) sur le même modèle.
+  familles:
+
+    - id: conditions_materielles
+      label: "Conditions matérielles"
+      description: >
+        Ce qui rend une opportunité concrètement viable pour l'artiste :
+        rémunération, accueil, prise en charge des frais.
+      criteres:
+
+        - id: retribution
+          label: "Rétribution de l'artiste"
+          poids: 3
+          definition: >
+            Le programme verse à l'artiste une rémunération, une bourse,
+            un per diem ou une dotation monétaire.
+
+        - id: hebergement
+          label: "Hébergement fourni"
+          poids: 2
+          definition: >
+            Un logement est mis à disposition pendant la durée du programme.
+
+        - id: atelier
+          label: "Atelier / espace de travail"
+          poids: 2
+          definition: >
+            Un espace de production (atelier, studio, équipements) est fourni.
+
+        - id: frais_pris_en_charge
+          label: "Prise en charge des frais"
+          poids: 2
+          definition: >
+            Voyage, production, transport d'œuvres ou matériel sont couverts,
+            en tout ou partie, par l'organisme.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Calcul du score public (transparent, explicable)
+# ─────────────────────────────────────────────────────────────────────────────
+score_public:
+  # Le score affiché = pertinence de base (Claude) + bonus track record.
+  # Les critères du barème ci-dessus pondèrent la composante « qualité ».
+  # Le bonus profil interne n'entre JAMAIS dans ce score.
+  formule: >
+    score_public = base_pertinence (0-7)
+                 + qualite_criteres (0-2, dérivé du barème pondéré)
+                 + bonus_track_record (0-1)
+  max: 10
+  note_affichee: true
