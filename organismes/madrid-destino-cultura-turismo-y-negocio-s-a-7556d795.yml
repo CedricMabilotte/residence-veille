@@ -40,16 +40,20 @@ opportunites_liees:
   type: prix
   nom: IV INVITATION TO PARTICIPATE IN THE SELECTION OF THREE SITUATED RESEARCH PROJECTS AS PART OF THE ANNUAL MEDIALAB MATADERO
     PROGRAM AT MATADERO MADRID 2025-2026
+- uid: e3eef2e1
+  type: residence
+  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE
+    CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: matadero-madrid
-  occurrences: 7
+  occurrences: 9
   nom_brut: Matadero Madrid
 - organisme_uid: ayuntamiento-de-madrid
   occurrences: 2
   nom_brut: Ayuntamiento de Madrid
 - organisme_uid: madrid-destino
-  occurrences: 2
+  occurrences: 4
   nom_brut: Madrid Destino
 pages_surveillees: []
 _meta:

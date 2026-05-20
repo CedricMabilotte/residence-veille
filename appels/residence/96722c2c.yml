@@ -1,8 +1,8 @@
 uid: 96722c2c
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf
-fetched_at: '2026-05-20T01:41:39+00:00'
-score: 8
+fetched_at: '2026-05-20T07:58:05+00:00'
+score: 10
 status: indetermine
 opportunite:
   nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
@@ -20,54 +20,76 @@ candidature:
   date_limite_precision: null
   langue_dossier: null
   frais_inscription: null
-  pieces_demandees: null
+  pieces_demandees: []
   url_candidature: null
 eligibilite:
   disciplines:
   - artes visuales
   niveau_carriere: tous
   age_max: null
-  nationalite: española|UE|extracomunitaria con residencia legal en España
-  residence_administrative: España
+  nationalite: Nacionalidad española, de Estado miembro de la UE, o extranjero con
+    residencia legal en España
+  residence_administrative: España, con mínimo 4 de Comunidad de Madrid
 conditions_residence:
   duree:
     semaines: null
-    dates: 15 de septiembre - 15 de diciembre 2026
+    dates: 2026-09-15 - 2026-12-15
   hebergement: null
-  atelier: null
-  remuneration:
-    montant: null
-    devise: null
-    periodicite: null
-  voyage:
-    pris_en_charge: null
-    plafond: null
-    devise: null
+  atelier: Espacios de creación y recursos de producción
+  remuneration: null
+  voyage: null
   restitution: null
 partenaires: []
 _meta:
-  extracted_confidence: 0.35
-  extracted_notes: 'Document fragmenté : pages 1-4 incomplètes et page 4 coupée au
-    milieu. Date limite de candidature non trouvée dans le texte fourni. Frais, URL,
-    langue(s) acceptée(s), logistique (hébergement), rémunération et détails de voyage
-    absents.'
+  extracted_confidence: 0.65
+  extracted_notes: Fecha límite de candidatura no especificada; remuneración y alojamiento
+    no detallados; documento incompleto en sección 5.1.1
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:41:39+00:00'
+  extracted_at: '2026-05-20T07:58:05+00:00'
   source_lang: es
-  resume_fr: 'Matadero Madrid ouvre un appel à candidatures pour 8 résidences de production
-    artistique sur l''environnement, d''une durée de 3 mois du 15 septembre au 15
-    décembre 2026, destinées à des artistes visuels résidant en Espagne. Le programme
-    offre des espaces, des ressources économiques et un accompagnement professionnel
-    pour développer des projets abordant des enjeux environnementaux : pollution,
-    changement climatique, exploitation des ressources naturelles, ruralité et industrie
-    alimentaire. La sélection se fait en régime de concurrence compétitive selon les
-    principes de publicité, transparence, objectivité et égalité.'
+  resume_fr: Madrid Destino lance un appel à candidatures pour huit (8) résidences
+    de production artistique destinées aux artistes visuels résidents en Espagne,
+    portant sur la thématique de l'environnement. Les résidences, d'une durée de trois
+    (3) mois, se dérouleront du 15 septembre au 15 décembre 2026 au Centre de Résidences
+    Artistiques de Matadero Madrid. L'objectif est de fournir aux créateurs des espaces,
+    des ressources économiques, un accompagnement curatorial et institutionnel, ainsi
+    qu'une visibilité publique.
   detection_confidence: 0.896551724137931
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
+analyse:
+  synthese: Matadero Madrid propone ocho residencias de 3 meses (15 septiembre - 15
+    diciembre 2026) para artistas visuales trabajando sobre medioambiente. El programa
+    proporciona espacios de creación, recursos económicos, acompañamiento profesional
+    e institucional. Se seleccionarán mínimo 4 artistas de la Comunidad de Madrid
+    y hasta 4 de otras regiones españolas.
+  pour_qui: Artistas visuales individuales o colectivos residentes en España cuyo
+    trabajo aborde cuestiones de medioambiente como contaminación, cambio climático,
+    explotación de recursos naturales, lo rural o industria alimentaria.
+a_savoir:
+- Fecha límite de candidatura no mencionada en el documento
+- Detalles de remuneración y alojamiento no especificados
+- El documento aparentemente está incompleto (corte en sección 5.1.1)
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: Se menciona provisión de 'recursos económicos' pero sin especificar
+    montos, formato o periodicidad
+- id: hebergement
+  rempli: inconnu
+  justification: No mencionado explícitamente en el documento
+- id: atelier
+  rempli: oui
+  justification: Se proporcionan 'espacios de creación' y 'recursos espaciales' para
+    la producción artística
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Los 'recursos económicos' se mencionan genéricamente sin especificar
+    si cubren viajes, producción o transporte
 _interne_affinite:
-  match: false
+  match: true
   signaux:
   - rural
-  bonus_score: 0
+  - collectif
+  bonus_score: 1

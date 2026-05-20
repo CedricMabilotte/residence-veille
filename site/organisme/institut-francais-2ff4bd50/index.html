@@ -5,94 +5,185 @@
 <title>Institut français — Résidence</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
+<meta property="og:title" content="Institut français — Résidence">
+<meta property="og:type" content="website">
+<link rel="alternate" type="application/rss+xml" title="Toutes opportunités" href="/feed/all.xml">
 <style>
 :root {
-  --text: #1a1a1a; --muted: #666; --bg: #f7f6f1; --card: #ffffff;
-  --border: #e0ddd6; --accent: #bc4c3a; --accent-dark: #8f3829;
+  --ink: #211d18; --muted: #6b6256; --faint: #978c7d;
+  --paper: #f4f1e8; --card: #fffdf8; --line: #ddd5c4;
+  --accent: #bc4c3a; --accent-dk: #8f3829; --gold: #b08431;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  color: var(--text); background: var(--bg); line-height: 1.55;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  color: var(--ink); background: var(--paper); line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.2rem 4rem; }
-.header { margin-bottom: 2rem; }
-h1 { font-size: 2rem; margin: 0 0 .3rem; letter-spacing: -0.02em; }
-h2 { font-size: 1.15rem; margin: 2.2rem 0 .8rem; padding-bottom: .4rem; border-bottom: 1px solid var(--border); }
-.tagline { color: var(--muted); margin: 0 0 1.5rem; font-size: 1.05rem; }
-nav { display: flex; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); font-size: .92rem; flex-wrap: wrap; }
-nav a { color: var(--accent); text-decoration: none; }
-nav a:hover { color: var(--accent-dark); text-decoration: underline; }
-.filters {
-  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-  padding: 1rem 1.2rem; margin-bottom: 1.8rem;
-  display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center;
+.wrap { max-width: 1060px; margin: 0 auto; padding: 0 1.3rem 5rem; }
+a { color: var(--accent-dk); }
+a:hover { color: var(--accent); }
+
+/* En-tête / masthead */
+.masthead { border-bottom: 2px solid var(--ink); margin-bottom: .2rem; padding: 1.6rem 0 1rem; }
+.masthead .brand { display: flex; align-items: baseline; gap: .8rem; text-decoration: none; color: var(--ink); }
+.logo-mark {
+  font-size: 1.9rem; font-weight: 700; letter-spacing: -.02em;
+  border: 2px solid var(--accent); color: var(--accent);
+  padding: .05rem .5rem; border-radius: 4px; line-height: 1;
 }
-.filters label { font-size: .85rem; color: var(--muted); display: flex; align-items: center; gap: .4rem; }
-.filters select, .filters input {
-  padding: .35rem .55rem; border: 1px solid var(--border); border-radius: 4px;
-  font-size: .9rem; background: white; color: var(--text);
+.brand h1 { font-size: 1.75rem; margin: 0; font-weight: 700; letter-spacing: -.01em; }
+.brand .baseline { font-size: .9rem; color: var(--muted); font-style: italic; }
+.topnav { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: .92rem;
+          font-family: -apple-system, system-ui, sans-serif; padding: .7rem 0 0; }
+.topnav a { text-decoration: none; color: var(--muted); }
+.topnav a:hover, .topnav a.active { color: var(--accent); }
+
+/* Titres de section */
+h2.sec { font-size: 1.05rem; font-family: -apple-system, system-ui, sans-serif;
+         text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+         border-bottom: 1px solid var(--line); padding-bottom: .35rem; margin: 2.4rem 0 1rem; }
+h3 { font-size: 1.15rem; margin: 1.4rem 0 .5rem; }
+
+/* Barre de filtres */
+.toolbar { display: flex; gap: .8rem; flex-wrap: wrap; align-items: center;
+           margin: 1.4rem 0; font-family: -apple-system, system-ui, sans-serif; }
+.toolbar input, .toolbar select {
+  font: inherit; font-size: .9rem; padding: .45rem .6rem;
+  border: 1px solid var(--line); border-radius: 5px; background: var(--card); color: var(--ink);
 }
-.filters #f-count { margin-left: auto; color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
-ul.opps { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .7rem; }
-li.opp {
-  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-  padding: 1rem 1.2rem; transition: border-color .15s, box-shadow .15s;
-}
-li.opp:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(188,76,58,0.08); }
-li.opp .badges { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-bottom: .4rem; }
-li.opp .type-tag {
-  display: inline-block; background: var(--accent); color: white;
-  font-size: .72rem; padding: .2rem .55rem; border-radius: 3px;
-  text-transform: uppercase; letter-spacing: .06em; font-weight: 600;
-}
-li.opp h3 { margin: .15rem 0 .3rem; font-size: 1.08rem; font-weight: 600; line-height: 1.35; }
-li.opp h3 a { color: var(--text); text-decoration: none; }
-li.opp h3 a:hover { color: var(--accent); }
-li.opp .meta { color: var(--muted); font-size: .87rem; }
-.deadline { color: var(--accent); font-weight: 600; font-size: .9rem; font-variant-numeric: tabular-nums; }
-li.opp.indetermine .deadline { color: var(--muted); font-weight: normal; font-style: italic; }
-.summary { color: #555; font-size: .9rem; margin: .5rem 0 0; }
-footer {
-  margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
-  font-size: .85rem; color: var(--muted); line-height: 1.7;
-}
-footer a { color: var(--muted); }
-footer a:hover { color: var(--accent); }
-.empty { text-align: center; padding: 4rem 1rem; color: var(--muted); background: var(--card); border: 1px dashed var(--border); border-radius: 8px; }
-@media (max-width: 600px) {
-  .wrap { padding: 1.5rem .8rem 3rem; }
-  h1 { font-size: 1.6rem; }
-  .filters { flex-direction: column; align-items: stretch; gap: .7rem; }
-  .filters #f-count { margin-left: 0; text-align: right; }
+.toolbar input[type=search] { flex: 1; min-width: 200px; }
+.toolbar .count { color: var(--faint); font-size: .85rem; margin-left: auto; }
+
+/* Catalogue : cartes */
+.cards { list-style: none; padding: 0; margin: 0; display: grid; gap: .9rem; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+        padding: 1.1rem 1.3rem; transition: box-shadow .15s, border-color .15s; }
+.card:hover { border-color: var(--accent); box-shadow: 0 3px 14px rgba(33,29,24,.07); }
+.card .row1 { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap;
+              font-family: -apple-system, system-ui, sans-serif; }
+.tag { font-size: .7rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 600;
+       padding: .18rem .55rem; border-radius: 3px; background: var(--ink); color: var(--paper); }
+.tag.residence { background: #3b5b6b; }
+.tag.bourse    { background: #6b5b3b; }
+.tag.prix      { background: var(--accent); }
+.tag.exposition{ background: #5b3b5b; }
+.deadline { font-size: .85rem; color: var(--accent); font-weight: 600;
+            font-family: -apple-system, system-ui, sans-serif; }
+.card.indetermine .deadline { color: var(--faint); font-weight: normal; font-style: italic; }
+.card h3 { margin: .5rem 0 .3rem; font-size: 1.18rem; line-height: 1.3; }
+.card h3 a { text-decoration: none; color: var(--ink); }
+.card h3 a:hover { color: var(--accent); }
+.card .meta { font-size: .9rem; color: var(--muted);
+              font-family: -apple-system, system-ui, sans-serif; }
+.card .meta a { color: var(--muted); }
+.score-pill { font-family: -apple-system, system-ui, sans-serif; font-size: .78rem;
+              font-weight: 700; color: var(--gold); border: 1px solid var(--gold);
+              border-radius: 20px; padding: .1rem .5rem; }
+
+/* Fiche-item */
+.fiche-head { margin: 1.5rem 0 1rem; }
+.fiche-head h2 { font-size: 1.9rem; margin: .5rem 0 .4rem; line-height: 1.25; }
+.fiche-head .sub { color: var(--muted); font-family: -apple-system, system-ui, sans-serif; font-size: .95rem; }
+.enbref { background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+          padding: 1rem 1.3rem; margin: 1.2rem 0;
+          font-family: -apple-system, system-ui, sans-serif; font-size: .92rem; }
+.enbref dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem 1.2rem; margin: 0; }
+.enbref dt { color: var(--faint); }
+.enbref dd { margin: 0; }
+.prose p { margin: .6rem 0; }
+table.crit { width: 100%; border-collapse: collapse; font-size: .92rem;
+             font-family: -apple-system, system-ui, sans-serif; }
+table.crit td, table.crit th { border-bottom: 1px solid var(--line); padding: .5rem .4rem; text-align: left; vertical-align: top; }
+table.crit th { color: var(--faint); font-weight: 600; font-size: .82rem; text-transform: uppercase; letter-spacing: .05em; }
+.crit-oui { color: #4a7a3a; font-weight: 600; }
+.crit-non { color: var(--faint); }
+.crit-partiel { color: var(--gold); font-weight: 600; }
+.crit-inconnu { color: var(--faint); font-style: italic; }
+.asavoir { background: #fbf3e7; border-left: 3px solid var(--gold); border-radius: 4px;
+           padding: .8rem 1.1rem; margin: 1rem 0; font-family: -apple-system, system-ui, sans-serif; font-size: .9rem; }
+.asavoir ul { margin: .3rem 0; padding-left: 1.2rem; }
+.cta { display: inline-block; background: var(--accent); color: var(--paper);
+       text-decoration: none; padding: .6rem 1.2rem; border-radius: 5px; font-weight: 600;
+       font-family: -apple-system, system-ui, sans-serif; font-size: .92rem; }
+.cta:hover { background: var(--accent-dk); color: var(--paper); }
+.backlink { font-family: -apple-system, system-ui, sans-serif; font-size: .88rem; }
+
+/* Annuaire organismes */
+.org-grid { list-style: none; padding: 0; margin: 1rem 0; display: grid;
+            gap: .7rem; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.org-card { background: var(--card); border: 1px solid var(--line); border-radius: 7px; padding: .9rem 1.1rem; }
+.org-card a { text-decoration: none; }
+.org-card .org-name { font-weight: 700; font-size: 1.05rem; }
+.org-card .org-meta { font-size: .85rem; color: var(--muted);
+                      font-family: -apple-system, system-ui, sans-serif; }
+
+/* Formulaire */
+form.suggest { background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+               padding: 1.3rem; max-width: 540px; font-family: -apple-system, system-ui, sans-serif; }
+form.suggest label { display: block; font-size: .88rem; color: var(--muted); margin: .8rem 0 .25rem; }
+form.suggest input, form.suggest textarea, form.suggest select {
+  width: 100%; font: inherit; padding: .5rem .6rem; border: 1px solid var(--line);
+  border-radius: 5px; background: var(--paper); }
+
+footer { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
+         font-size: .85rem; color: var(--muted); line-height: 1.7;
+         font-family: -apple-system, system-ui, sans-serif; }
+.empty { text-align: center; padding: 4rem 1rem; color: var(--faint);
+         background: var(--card); border: 1px dashed var(--line); border-radius: 7px; }
+@media (max-width: 620px) {
+  .brand h1 { font-size: 1.35rem; }
+  .fiche-head h2 { font-size: 1.45rem; }
+  .enbref dl { grid-template-columns: 1fr; }
 }
 </style>
 </head>
 <body>
 <div class="wrap">
-<nav><a href="/">← Toutes les opportunités</a></nav>
-<div class="header">
-  <h1>Institut français</h1>
-  <p class="tagline">
-   
-  </p>
-</div>
-<h2>Opportunités</h2>
-<ul class="opps"><li class="opp indetermine" data-type="residence"
-       data-pays=""
-       data-disc="arts littéraires, théâtre, musique">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
-  </div>
-  <h3><a href="https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf" target="_blank" rel="noopener">Charte des Villas et programmes de résidences du réseau culturel de la France à l’étranger(.pdf, 2.78 Mo) [Charte des VILLAS et des programmes de résidences du réseau culturel de la France à l&#x27;étranger]</a></h3>
-  <div class="meta">
-    Institut français
-     · arts littéraires, théâtre, musique
-  </div>
-</li></ul>
+<header class="masthead">
+  <a class="brand" href="/">
+    <span class="logo-mark">R</span>
+    <span>
+      <h1>Résidence</h1>
+      <div class="baseline">la veille des opportunités pour artistes plasticien·nes</div>
+    </span>
+  </a>
+  <nav class="topnav">
+    <a href="/">Catalogue</a>
+    <a href="/organismes.html" class="active">Organismes</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/calendar.ics">Calendrier</a>
+    <a href="/feed/all.xml">RSS</a>
+    <a href="/suggerer.html">Suggérer une source</a>
+    <a href="/a-propos.html">À propos</a>
+  </nav>
+</header>
 
+<a class="backlink" href="/organismes.html">← Annuaire</a>
+<div class="fiche-head">
+  <h2>Institut français</h2>
+  <div class="sub">
+    </div>
+</div>
+
+
+<h2 class="sec">Opportunités</h2>
+<ul class="cards"><div class="empty">Aucune opportunité enregistrée.</div></ul>
+
+
+
+<footer>
+  <p>Mise à jour automatique — sources FR / EN / ES, interface FR.
+     Flux : <a href="/feed/residences.xml">résidences</a> ·
+     <a href="/feed/bourses.xml">bourses</a> ·
+     <a href="/feed/prix.xml">prix</a> ·
+     <a href="/feed/expositions.xml">expositions</a> ·
+     <a href="/data.json">données (JSON)</a></p>
+  <p>Vérifiez toujours les informations sur le site de l'organisme avant de candidater.
+     Code : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
+</footer>
 </div>
 </body>
 </html>

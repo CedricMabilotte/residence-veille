@@ -1,22 +1,21 @@
 uid: 49331d08
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_ES.pdf
-fetched_at: '2026-05-20T01:36:34+00:00'
+fetched_at: '2026-05-20T07:50:35+00:00'
 score: 7
 status: indetermine
 opportunite:
-  nom: CONVOCATORIA DE PROYECTOS Y COLABORADORES/AS PARA EL LABORATORIO DE PROTOTIPADO
-    COLABORATIVO DEL LAB 5 LA MECÁNICA DE LA VERDAD
+  nom: LABORATORIO DE PROTOTIPADO COLABORATIVO DEL LAB 5 LA MECÁNICA DE LA VERDAD
   organisme: Medialab Matadero
   lieu:
     ville: Madrid
     pays: España
     territorio: null
-  nom_fr: CONDITIONS DE L'APPEL À CANDIDATURES
-  affichage_titre: BASES DE LA CONVOCATORIA [CONDITIONS DE L'APPEL À CANDIDATURES]
+  nom_fr: BASES DE L'APPEL À CANDIDATURES
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURES]
 candidature:
   date_limite: null
-  date_limite_precision: null
+  date_limite_precision: day
   langue_dossier:
   - es
   - en
@@ -41,45 +40,82 @@ eligibilite:
   - ciencias políticas
   - programación
   - ciencia de los materiales
-  nivel_carriere: todos
+  nivel_carriere: tous
   age_max: null
-  nacionalite: sin restriction
-  residence_administrativa: sin restriction
+  nationalite: sans restriction
+  residence_administrative: sans restriction
 conditions_residence:
   duree:
     semanas: 2
-    dates: 12-25 de noviembre de 2026
-  hebergement: null
-  atelier: 'Laboratorio de Prototipado Colaborativo (LPC): taller intensivo de dos
-    semanas para desarrollar cinco proyectos experimentales colaborativos'
-  remuneration: null
-  voyage: null
-  restitution: presentación pública de los proyectos en el festival OpenLAB entre
-    el 26 y 28 de noviembre de 2026
-partenaires:
-- Medialab Matadero
+    dates: 2026-11-12 à 2026-11-25
+  hebergement: false
+  atelier: Espacio de trabajo dedicado para el desarrollo de cada proyecto, con apoyo
+    de mentores expertos
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Presentación pública de los proyectos en el festival OpenLAB (26-28
+    de noviembre de 2026)
+partenaires: []
 _meta:
   extracted_confidence: 0.65
-  extracted_notes: Documento incompleto, fecha límite de candidatura no explícita
-    en el texto proporcionado. Información sobre alojamiento, remuneración y viajes
-    no mencionada. Fin del documento cortado.
+  extracted_notes: 'Informations principales présentes : nom, lieu, dates, durée,
+    disciplines. Absences significatives : date limite de candidature, rémunération,
+    hébergement, couverture des frais. Document source incomplet (texte coupé).'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:36:34+00:00'
+  extracted_at: '2026-05-20T07:50:35+00:00'
   source_lang: es
-  resume_fr: LAB 5 La mecánica de la verdad est un appel international lancé par Medialab
-    Matadero pour sélectionner 5 projets et jusqu'à 20 collaborateurs afin de développer
-    collectivement des projets expérimentaux sur les technologies qui façonnent la
-    perception de la réalité. Le laboratoire intensif de 2 semaines se déroulera du
-    12 au 25 novembre 2026 à Medialab Matadero Madrid, avec une présentation publique
-    du 26 au 28 novembre 2026. Une session de questions-réponses en ligne est organisée
-    le 28 mai 2026 à 18h. Cet appel est ouvert à tous les participants du monde et
-    de toute discipline.
-  detection_confidence: 0.98
+  resume_fr: Cet appel à candidatures international sélectionne cinq (5) projets et
+    jusqu'à vingt (20) collaborateurs/as pour le Laboratoire de Prototipado Colaborativo
+    (LPC) du LAB 5 « La mecánica de la verdad » de Medialab Matadero. Le LPC est un
+    atelier intensif de deux (2) semaines qui se déroulera de lundi à samedi entre
+    le 12 et le 25 novembre 2026, suivi d'une présentation publique entre le 26 et
+    le 28 novembre 2026. Les propositions doivent être ouvertes à la participation
+    de collaborateurs/as sélectionnés selon leurs compétences et capacité à contribuer
+    au développement des projets. L'appel est ouvert aux participants de toute discipline
+    et de tout pays du monde.
+  detection_confidence: 0.95
   detection_method: claude
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
+analyse:
+  synthese: LAB 5 La mecánica de la verdad est un laboratorio intensivo de deux semaines
+    organisé par Medialab Matadero à Madrid du 12 au 25 novembre 2026, sélectionnant
+    cinq projets et jusqu'à vingt collaborateurs pour développer des projets expérimentaux
+    collaboratifs sur les enjeux technologiques contemporains. Les participants reçoivent
+    un espace de travail et le soutien de mentors experts, travaillant en groupes
+    interdisciplinaires. Les résultats sont présentés publiquement au festival OpenLAB
+    du 26 au 28 novembre 2026. Aucune rémunération, hébergement ou couverture de frais
+    n'est mentionnée.
+  pour_qui: Artistes, designers, chercheurs et créateurs de toutes disciplines intéressés
+    par la création collaborative et les phénomènes technologiques contemporains,
+    sans restriction de nationalité ni de niveau de carrière.
+a_savoir:
+- Date limite de candidature non spécifiée dans le document fourni
+- Aucune rémunération, bourse ou allocation financière mentionnée
+- Aucun hébergement fourni par l'organisme
+- Aucune prise en charge des frais de voyage ou de déplacement
+- 'Restitution obligatoire : présentation publique des projets'
+- Document source incomplet (texte coupé à la fin)
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation monétaire mentionnée
+- id: hebergement
+  rempli: non
+  justification: Aucun logement fourni
+- id: atelier
+  rempli: oui
+  justification: contarán con un espacio de trabajo para el desarrollo de cada proyecto
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune couverture de voyage, production ou déplacement mentionnée
 _interne_affinite:
   match: false
-  signaux:
-  - collectif
+  signaux: []
   bonus_score: 0

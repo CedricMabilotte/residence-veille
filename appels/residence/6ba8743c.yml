@@ -1,7 +1,7 @@
 uid: 6ba8743c
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf
-fetched_at: '2026-05-20T01:47:44+00:00'
+fetched_at: '2026-05-20T08:05:52+00:00'
 score: 9
 status: indetermine
 opportunite:
@@ -9,63 +9,96 @@ opportunite:
     visuales de la Comunidad de Madrid, cuatro residencias trimestrales de producción
     artística destinadas a artistas visuales residentes en España y dos trimestrales
     destinadas a artistas visuales de la Comunidad de Madrid 2026
-  organisme: Centro de residencias artísticas de Matadero Madrid
+  organisme: Matadero Madrid (Madrid Destino Cultura Turismo y Negocio, S.A.)
   lieu:
     ville: Madrid
     pays: España
     territoire: Comunidad de Madrid
-  nom_fr: Résolution Appel à Candidature Résidences Artistes Visuels 2026
+  nom_fr: Résolution Appel à candidature Résidences Artistes Visuels 2026
   affichage_titre: Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution
-    Appel à Candidature Résidences Artistes Visuels 2026]
-candidature:
+    Appel à candidature Résidences Artistes Visuels 2026]
+candidatura:
   date_limite: null
   date_limite_precision: null
   langue_dossier: null
-  frais_inscription: null
+  frais_inscription:
+    montant: null
+    devise: null
   pieces_demandees: null
   url_candidature: null
 eligibilite:
   disciplines:
-  - artes visuales
+  - Artistas Visuales
   niveau_carriere: null
   age_max: null
-  nationalite: España
-  residence_administrative: Comunidad de Madrid / residentes en España
+  nationalite: null
+  residence_administrative: null
 conditions_residence:
   duree:
     semaines: null
-    dates: semestrales (6 meses) o trimestrales (3 meses)
+    dates: null
   hebergement: null
   atelier: null
-  remuneration: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
   voyage:
     pris_en_charge: null
     plafond: null
     devise: null
   restitution: null
-partenaires:
-- Madrid Destino Cultura Turismo y Negocio, S.A.
+partenaires: []
 _meta:
-  extracted_confidence: 0.2
-  extracted_notes: Este documento es una resolución anunciando resultados de selección
-    (27 de noviembre de 2025), no un llamado abierto de candidaturas. Los detalles
-    sobre condiciones operativas, fechas límite y procedimientos no están disponibles
-    en este documento.
+  extracted_confidence: 0.1
+  extracted_notes: Document de résolution/résultats de sélection (du 27 novembre 2025),
+    non appel à candidatures original. Aucune information sur conditions, dates limites,
+    rémunération, hébergement, etc.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:47:44+00:00'
+  extracted_at: '2026-05-20T08:05:52+00:00'
   source_lang: es
-  resume_fr: 'Cette résolution publie les résultats de sélection pour les résidences
-    d''artistes visuels 2026 organisées par Madrid Destino. Sont concernés : 4 résidences
-    semestrales pour artistes visuels résidents en Communauté de Madrid (152 candidatures
-    examinées), 4 résidences trimestrales pour artistes visuels résidents en Espagne
-    (121 candidatures) et 2 résidences trimestrales pour artistes visuels résidents
-    en Communauté de Madrid (35 candidatures). Une commission de valorisation a sélectionné
-    les artistes lauréats et leurs projets, avec des suppléants désignés pour chaque
-    catégorie.'
+  resume_fr: Madrid Destino Cultura Turismo y Negocio communique les résultats de
+    la sélection pour les résidences artistiques 2026. La Commission d'évaluation
+    a choisi 4 résidences semestrales pour artistes visuels de la Communauté de Madrid
+    parmi 152 candidatures, 4 résidences trimestrales pour artistes visuels résidant
+    en Espagne parmi 121 candidatures, et 2 résidences trimestrales pour artistes
+    visuels de la Communauté de Madrid parmi 35 candidatures. Les candidats retenus
+    et leurs suppléants sont énumérés par catégorie.
   detection_confidence: 0.9166666666666666
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
+analyse:
+  synthese: 'Ce document est une résolution annonçant les résultats de sélection pour
+    les résidences artistiques 2026 au Centre de Matadero Madrid. Il confirme la sélection
+    de 10 artistes plasticiens répartis en trois catégories : 4 résidences semestrales
+    réservées aux résidents de la Communauté de Madrid (parmi 152 candidatures), 4
+    résidences trimestrales pour les résidents d''Espagne (parmi 121 candidatures),
+    et 2 résidences trimestrales pour la Communauté de Madrid (parmi 35 candidatures).
+    Les informations détaillées sur les conditions de résidence (hébergement, rémunération,
+    durée précise) ne figurent pas dans ce document.'
+  pour_qui: Artistes plasticiens et visuels, résidant en Espagne ou dans la Communauté
+    de Madrid selon la catégorie de résidence.
+a_savoir:
+- Document de résolution de sélection, non l'appel original
+- Les conditions précises de la résidence (hébergement, rémunération, atelier, durée
+  en semaines) ne sont pas décrites
+- Aucune date limite de candidature mentionnée
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou per diem dans ce document
+    de résultats
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention d'hébergement fourni dans ce document
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'atelier ou espace de travail fourni dans ce document
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage ou production
+    dans ce document
 _interne_affinite:
   match: false
   signaux: []
