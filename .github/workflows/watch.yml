@@ -124,7 +124,14 @@ jobs:
             echo "→ Aucun changement à committer."
           else
             git commit -m "veille: $(date '+%Y-%m-%d %H:%M') — opportunités + organismes + discoveries"
-            git push
+            # Robustesse : si push diverge (push manuel concurrent), pull rebase puis re-push
+            for i in 1 2 3; do
+              if git push 2>&1; then
+                break
+              fi
+              echo "→ push échoué, rebase puis retry ($i/3)"
+              git pull --rebase origin main || true
+            done
           fi
 
       - name: Publier vers residence.actitude.org (repo public)
@@ -149,6 +156,12 @@ jobs:
             echo "→ Aucun changement à publier."
           else
             git commit -m "publish: veille $(date '+%Y-%m-%d %H:%M')"
-            git push origin main
-            echo "→ Publié sur residence.actitude.org"
+            for i in 1 2 3; do
+              if git push origin main 2>&1; then
+                echo "→ Publié sur residence.actitude.org"
+                break
+              fi
+              echo "→ push public échoué, rebase puis retry ($i/3)"
+              git pull --rebase origin main || true
+            done
           fi
