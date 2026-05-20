@@ -1,12 +1,12 @@
 uid: ed8b9099
 type: prix
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf
-fetched_at: '2026-05-20T01:48:57+00:00'
+fetched_at: '2026-05-20T08:07:36+00:00'
 score: 8
 status: indetermine
 opportunite:
-  nom: OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH
-    COLLABORATIVE PROTOTYPING LABORATORY
+  nom: Open Call for Projects and Collaborators for the LAB 5 The Mechanics of Truth
+    Collaborative Prototyping Laboratory
   organisme: Medialab Matadero
   lieu:
     ville: Madrid
@@ -16,8 +16,8 @@ opportunite:
 candidature:
   date_limite: null
   langue_dossier:
-  - en
-  - es
+  - English
+  - Spanish
   frais_inscription: null
   pieces_demandees: null
   url_candidature: null
@@ -42,42 +42,72 @@ eligibilite:
   - activism
   niveau_carriere: any level of qualification
   age_max: null
-  nationalite: null
+  nationalite: any
   residence_administrative: null
 conditions_prix:
   dotation:
     montant:
       montant: null
-      devise: EUR
+      devise: null
     exposition: false
     achat_oeuvre: false
     edition_catalogue: false
-  jury_public: []
+  jury_public: null
   nb_laureats: 5
-  editions_precedentes: []
-partenaires: []
+  editions_precedentes: null
+partenaires: null
 _meta:
-  extracted_confidence: 0.35
-  extracted_notes: 'Document is regulatory framework only. Missing critical application
-    details: submission deadline, registration fees, required documents, jury composition.
-    Laboratory dates: 12-25 November 2026. Public presentation (OpenLAB): 26-28 November
-    2026. Q&A session: Thursday 28 May 2026. Selection: 5 projects and up to 20 collaborators
-    (maximum 4 per project). Language requirement: medium-high level English for fluent
-    communication.'
+  extracted_confidence: 0.4
+  extracted_notes: 'Document fourni est incomplet (coupé à la page 4). Informations
+    essentielles manquantes : date limite de candidature, frais d''inscription, pièces
+    demandées, conditions d''hébergement.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:48:57+00:00'
+  extracted_at: '2026-05-20T08:07:36+00:00'
   source_lang: en
-  resume_fr: LAB 5 The Mechanics of Truth est le cinquième laboratoire créé par Medialab
-    Matadero depuis 2022. Cet appel public vise à sélectionner 5 projets et un maximum
-    de 20 collaborateurs pour participer à un laboratoire de prototypage collaboratif.
-    L'événement principal se déroule du 12 au 25 novembre 2026 (lundi à samedi). Une
-    session de questions-réponses se tiendra jeudi 28 mai 2026 à 18h. La présentation
-    publique des projets développés est prévue du 26 au 28 novembre 2026 lors de l'événement
-    OpenLAB.
+  resume_fr: LAB 5 The Mechanics of Truth est un appel international lancé par Medialab
+    Matadero pour sélectionner 5 projets et un maximum de 20 collaborateurs. Le laboratoire
+    de prototypage collaboratif se déroulera du 12 au 25 novembre 2026 (lundi à samedi
+    inclus) au Medialab Matadero Madrid, avec une présentation publique entre le 26
+    et 28 novembre 2026. Une session de questions-réponses en ligne est programmée
+    jeudi 28 mai 2026 à 18h pour les candidats potentiels. L'appel est ouvert aux
+    participants du monde entier de toute discipline.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
+analyse:
+  synthese: Le LAB 5 The Mechanics of Truth est un laboratoire de prototypage collaboratif
+    de deux semaines organisé par Medialab Matadero, accueillant jusqu'à cinq (5)
+    projets et un maximum de vingt (20) collaborateurs de toute discipline et niveau
+    de qualification. Le programme se déroulera du 12 au 25 novembre 2026 à Madrid,
+    avec une présentation publique les 26-28 novembre 2026. Les participants travaillent
+    en équipes interdisciplinaires avec le soutien de mentors experts, dans un espace
+    de travail fourni. Le programme ne mentionne aucune rémunération financière ou
+    dotation.
+  pour_qui: Artistes, designers, chercheurs et professionnels de toute discipline
+    ayant un niveau moyen-élevé d'anglais et intéressés par la collaboration interdisciplinaire
+    autour des technologies de représentation de la vérité.
+a_savoir:
+- Pas de date limite de candidature explicitement mentionnée dans le document fourni
+- Aucune rémunération, bourse ou dotation financière prévue
+- Nécessite une participation en personne à Madrid du 12 au 25 novembre 2026
+- Exige un niveau moyen-élevé d'anglais et une aisance avec le travail collaboratif
+- Document fourni est incomplet (coupé) — informations additionnelles disponibles
+  dans la version complète
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse, per diem ou dotation monétaire mentionnée
+- id: hebergement
+  rempli: non
+  justification: Aucun logement ou hébergement mentionné
+- id: atelier
+  rempli: oui
+  justification: « a workspace in which to develop each project » est fourni
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge des frais de voyage, production
+    ou matériel
 _interne_affinite:
   match: false
   signaux: []

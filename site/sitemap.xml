@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://residence.actitude.org/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://residence.actitude.org/archive.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://residence.actitude.org/feed/all.xml</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/centro-de-residencias-artisticas-de-matadero-madrid-a1b10e27/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/institut-francais-2ff4bd50/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/madrid-destino-0c75e94d/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/matadero-madrid-197c412c/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/medialab-matadero-c9588f17/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://residence.actitude.org/organisme/on-the-move-92ce1dd2/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://residence.actitude.org/</loc></url>
+<url><loc>https://residence.actitude.org/organismes.html</loc></url>
+<url><loc>https://residence.actitude.org/archive.html</loc></url>
+<url><loc>https://residence.actitude.org/a-propos.html</loc></url>
+<url><loc>https://residence.actitude.org/suggerer.html</loc></url>
+<url><loc>https://residence.actitude.org/o/0144555c.html</loc></url>
+<url><loc>https://residence.actitude.org/o/065462bb.html</loc></url>
+<url><loc>https://residence.actitude.org/o/0b83d4e8.html</loc></url>
+<url><loc>https://residence.actitude.org/o/2e73fa76.html</loc></url>
+<url><loc>https://residence.actitude.org/o/49331d08.html</loc></url>
+<url><loc>https://residence.actitude.org/o/56d7154d.html</loc></url>
+<url><loc>https://residence.actitude.org/o/6ba8743c.html</loc></url>
+<url><loc>https://residence.actitude.org/o/96722c2c.html</loc></url>
+<url><loc>https://residence.actitude.org/o/c9b469ac.html</loc></url>
+<url><loc>https://residence.actitude.org/o/e3eef2e1.html</loc></url>
+<url><loc>https://residence.actitude.org/o/ea63cf12.html</loc></url>
+<url><loc>https://residence.actitude.org/o/ed8b9099.html</loc></url>
+<url><loc>https://residence.actitude.org/o/f52a745f.html</loc></url>
+<url><loc>https://residence.actitude.org/o/fb7d0178.html</loc></url>
+<url><loc>https://residence.actitude.org/organisme/centro-de-residencias-artisticas-de-matadero-madrid-a1b10e27/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/institut-francais-2ff4bd50/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/madrid-destino-0c75e94d/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/matadero-madrid-197c412c/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/matadero-madrid-cineteca-y-centro-de-residencias-artisticas-db4a441d/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/matadero-madrid-madrid-destino-cultura-turismo-y-negocio-s-a-a175b224/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/medialab-matadero-c9588f17/</loc></url>
+<url><loc>https://residence.actitude.org/organisme/on-the-move-92ce1dd2/</loc></url>
 </urlset>

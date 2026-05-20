@@ -1,13 +1,13 @@
 uid: f52a745f
 type: prix
 source_url: https://www.medialab-matadero.es/sites/default/files/2025-07/BASES%20PROY%20INVESTIGACION%2025-26_EN.pdf
-fetched_at: '2026-05-20T01:56:28+00:00'
-score: 6
+fetched_at: '2026-05-20T08:15:25+00:00'
+score: 8
 status: indetermine
 opportunite:
   nom: IV INVITATION TO PARTICIPATE IN THE SELECTION OF THREE SITUATED RESEARCH PROJECTS
     AS PART OF THE ANNUAL MEDIALAB MATADERO PROGRAM AT MATADERO MADRID 2025-2026
-  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
+  organisme: Madrid Destino
   lieu:
     ville: Madrid
     pays: Spain
@@ -19,10 +19,10 @@ opportunite:
 candidature:
   date_limite: null
   langue_dossier:
-  - Spanish
-  - English
+  - es
+  - en
   frais_inscription: null
-  pieces_demandees: null
+  pieces_demandees: []
   url_candidature: null
 eligibilite:
   disciplines:
@@ -46,41 +46,79 @@ eligibilite:
   niveau_carriere: null
   age_max: null
   nationalite: null
-  residence_administrative: null
+  residence_administrative: Must be in possession of necessary administrative authorizations
+    to stay in Spain during the research project
 conditions_prix:
   dotation:
     montant:
       montant: null
-      devise: EUR
+      devise: null
     exposition: true
-    achat_oeuvre: false
-    edition_catalogue: false
-  jury_public: []
+    achat_oeuvre: null
+    edition_catalogue: null
+  jury_public:
+  - curator of the situated research programme
+  - member of the Medialab Matadero team
+  - member of the Matadero Centre for Artists in Residence team
+  - two professionals from outside the institution
   nb_laureats: 3
-  editions_precedentes: null
+  editions_precedentes: []
 partenaires: []
 _meta:
-  extracted_confidence: 0.55
-  extracted_notes: Document incomplet. Date limite de candidature non trouvée. URL
-    de candidature absent. Montant de dotation non spécifié (couverture des coûts
-    de dissémination mentionnée sans montant). Pièces demandées non énumérées (formulaire
-    mentionné sans détails). Comité de sélection interne uniquement, pas de jury public.
-    Éditions précédentes non identifiées par nom.
+  extracted_confidence: 0.65
+  extracted_notes: Source document appears incomplete (ends abruptly mid-section at
+    page 3). Date limite de candidature not found in provided excerpt.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:56:28+00:00'
+  extracted_at: '2026-05-20T08:15:25+00:00'
   source_lang: en
-  resume_fr: 'Matadero Madrid sélectionne trois projets de recherche pour la période
-    2025-2026, sur une durée maximale d''un an. Les projets doivent explorer les relations
-    entre l''art contemporain, le design, la science, la technologie et la société.
-    L''appel s''adresse aux individus ou groupes menant des recherches dans divers
-    domaines : design, art, architecture, urbanisme, économie, cinéma, photographie,
-    journalisme, médias numériques, sciences de l''environnement, philosophie, ingénierie,
-    études sociales et autres. Les langues de travail sont l''espagnol et l''anglais.'
+  resume_fr: Matadero Madrid lance une invitation internationale pour sélectionner
+    trois projets de recherche dans le cadre du programme Medialab Matadero 2025-2026.
+    Les projets doivent explorer les relations entre art contemporain, design, science,
+    technologie et société de manière innovante. La durée maximale de développement
+    est d'un an, et les candidats peuvent provenir de disciplines diverses (art, design,
+    architecture, sciences, etc.). Les projets doivent être collaboratifs, expérimentaux
+    et rigoureux, avec l'espagnol et l'anglais comme langues de travail.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
+analyse:
+  synthese: Appel à sélectionner trois projets de recherche situés pour 2025-2026
+    à Matadero Madrid. Les projets doivent explorer les intersections entre art, design,
+    science, technologie et société, alignés avec les thématiques Sentient Media,
+    The Metabolic Sublime, Synthetic Minds et Weird Futures. Madrid Destino prend
+    en charge les frais de dissémination, d'apprentissage et de retours publics approuvés.
+    Une présentation publique des résultats doit être organisée à Matadero.
+  pour_qui: Chercheurs, artistes et créatifs individuels ou collectifs issus de domaines
+    variés souhaitant développer un projet de recherche innovant explorant les croisements
+    entre art, design, science, technologie et société.
+a_savoir:
+- Les candidats ne peuvent pas avoir de relation d'emploi ou autre lien actuel avec
+  Madrid Destino
+- Les dossiers doivent être présentés en espagnol ou en anglais
+- Seuls les frais de dissémination et de retours publics sont couverts par Madrid
+  Destino
+- Aucune dotation monétaire directe pour les artistes sélectionnés
+- 'Durée maximale : un an'
+- Date limite de candidature absente du document fourni
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation monétaire n'est versée aux
+    artistes participants.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention d'hébergement fourni dans le texte.
+- id: atelier
+  rempli: oui
+  justification: Un espace approprié pour le développement des projets de recherche
+    est fourni à Matadero.
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Madrid Destino couvre les frais des activités de dissémination et
+    retours publics approuvées, conformément au budget de Medialab.
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - collectif
   bonus_score: 0

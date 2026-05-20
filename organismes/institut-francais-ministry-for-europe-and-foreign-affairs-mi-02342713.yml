@@ -24,6 +24,15 @@ partenaires_mentionnes:
 - organisme_uid: ministry-of-culture
   occurrences: 1
   nom_brut: Ministry of Culture
+- organisme_uid: posts-embassies-consulates-scac-bi-national-centres-french-i
+  occurrences: 1
+  nom_brut: posts (embassies, consulates, SCAC, bi-national centres, French institutes)
+- organisme_uid: alliances-francaises
+  occurrences: 1
+  nom_brut: Alliances Françaises
+- organisme_uid: local-or-french-partner-structures
+  occurrences: 1
+  nom_brut: local or French partner structures
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'

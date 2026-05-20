@@ -1,73 +1,108 @@
 uid: e3eef2e1
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_def.pdf
-fetched_at: '2026-05-20T01:50:20+00:00'
+fetched_at: '2026-05-20T08:09:22+00:00'
 score: 10
 status: indetermine
 opportunite:
   nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE
     MATADERO MADRID PARA LA ASIGNACIÓN DE CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN
     ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026
-  organisme: Matadero Madrid
+  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
   lieu:
     ville: Madrid
     pays: España
-    territoire: Comunidad de Madrid
+    territorio: null
   nom_fr: BASES
   affichage_titre: BASES [BASES]
 candidature:
   date_limite: null
   date_limite_precision: null
   langue_dossier: null
-  frais_inscription:
-    montant: null
-    devise: EUR
-  pieces_demandees:
-  - formulario de inscripción
-  - acreditación de residencia legal en España fuera de la Comunidad de Madrid
+  frais_inscription: null
+  pieces_demandees: null
   url_candidature: https://www.mataderomadrid.org
 eligibilite:
   disciplines:
   - artes visuales
-  niveau_carriere: null
+  niveau_carriere: tous
   age_max: null
-  nationalite: null
-  residence_administrative: residencia legal en España, fuera de la Comunidad de Madrid
+  nationalite: sans restriction
+  residence_administrative: residentes en España, fuera de la Comunidad de Madrid
 conditions_residence:
   duree:
     semaines: 13
-    dates: 2026-01-13 a 2026-04-10
-  hebergement: true
-  atelier: Centro de residencias artísticas de Matadero Madrid
+    dates: 2026-01-13 au 2026-04-10
+  hebergement: null
+  atelier: espacios del Centro de residencias artísticas para realizar la producción
+    artística
   remuneration:
     montant: null
-    devise: EUR
+    devise: null
     periodicite: null
   voyage:
     pris_en_charge: false
     plafond: null
-    devise: EUR
+    devise: null
   restitution: null
 partenaires: []
 _meta:
-  extracted_confidence: 0.65
-  extracted_notes: Date limite de candidature absente du contenu fourni (document
-    coupe). Montant remuneration non specifie. Langue dossier inferred null, document
-    ne precise pas formellement.
+  extracted_confidence: 0.32
+  extracted_notes: 'Document fourni incomplet : texte s''arrête au milieu d''une phrase
+    (p.3), sections critiques manquantes (critères de valoration complets, formation
+    du dossier, date limite de candidature, section 7 sur les pièces demandées). Nombreuses
+    données essentielles impossibles à confirmer.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:50:20+00:00'
+  extracted_at: '2026-05-20T08:09:22+00:00'
   source_lang: es
-  resume_fr: Appel à candidatures pour 4 résidences trimestrielles de production artistique
-    au centre Matadero Madrid, destinées aux artistes visuels résidant en Espagne
-    hors de la Communauté de Madrid. Les résidences s'étendent du 13 janvier au 10
-    avril 2026, pour une durée de trois mois. Les candidats recevront des espaces,
-    des ressources économiques, un suivi professionnel et une visibilité. Peuvent
-    postuler les personnes physiques individuelles majeurs ou les collectifs d'artistes,
-    avec résidence légale en Espagne et capacité juridique.
+  resume_fr: Matadero Madrid, centre de créations contemporaines géré par Madrid Destino,
+    lance un appel à candidatures pour quatre (4) résidences trimestrales de production
+    artistique réservées aux artistes visuels résidents en Espagne (hors Communauté
+    de Madrid). Les résidences durent trois mois, du 13 janvier au 10 avril 2026.
+    Le programme offre des espaces de travail, des ressources économiques, un accompagnement
+    professionnel et une visibilité. Les candidats peuvent être des artistes individuels
+    ou des collectifs d'artistes majeurs légalement résidents en Espagne.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
+analyse:
+  synthese: Matadero Madrid propose 4 résidences artistiques trimestrales de 3 mois
+    (du 13 janvier au 10 avril 2026) destinées aux artistes visuels résidant en Espagne
+    hors de la Communauté de Madrid. Le programme fournit des espacios de création,
+    un accompagnement curatorial et professionnel, ainsi que des recursos económicos.
+    Les résidents cohabiteront avec d'autres artistes et agents culturels dans un
+    contexte d'hospitalité et d'échanges multilingues (espagnol et anglais).
+  pour_qui: Créateurs individuels ou collectifs d'artes visuales majeurs, résidant
+    légalement en Espagne hors de Madrid, capable de s'intégrer dans un environnement
+    collaboratif et multilingue.
+a_savoir:
+- 'Document fourni est incomplet : texte s''arrête au milieu d''une section, informations
+  essentielles manquantes'
+- Date limite de candidature absente du texte fourni
+- 'Restriction géographique stricte : résidence obligatoire en Espagne, exclusion
+  explicite de la Communauté de Madrid'
+- Anglais requis ou fortement recommandé pour cohabitation et communications avec
+  autres résidents
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: Mention de 'recursos económicos' pour les résidents, mais aucun montant,
+    modalité ou périodicité spécifiés dans le texte fourni.
+- id: hebergement
+  rempli: inconnu
+  justification: Le logement n'est pas explicitement mentionné. Le texte indique que
+    les résidents 'convivirán' avec d'autres artistes, mais ne confirme pas la fourniture
+    d'un hébergement.
+- id: atelier
+  rempli: oui
+  justification: Le programme fournit 'espacios del Centro de residencias artísticas'
+    et 'espacios para realizar la residencia', ressources spatiales pour la production
+    artística.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage, transport
+    d'œuvres ou production dans le texte fourni.
 _interne_affinite:
   match: true
   signaux:

@@ -2,331 +2,435 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Résidence — opportunités arts plastiques</title>
+<title>Résidence — catalogue des opportunités</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes. Mise à jour automatique. Sources FR/EN/ES.">
-<meta property="og:title" content="Résidence — opportunités arts plastiques">
-<meta property="og:description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
+<meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
+<meta property="og:title" content="Résidence — catalogue des opportunités">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://residence.actitude.org/">
 <link rel="alternate" type="application/rss+xml" title="Toutes opportunités" href="/feed/all.xml">
-<link rel="alternate" type="application/rss+xml" title="Résidences" href="/feed/residences.xml">
-<link rel="alternate" type="application/rss+xml" title="Bourses" href="/feed/bourses.xml">
-<link rel="alternate" type="application/rss+xml" title="Prix" href="/feed/prix.xml">
-<link rel="alternate" type="application/rss+xml" title="Expositions" href="/feed/expositions.xml">
 <style>
 :root {
-  --text: #1a1a1a; --muted: #666; --bg: #f7f6f1; --card: #ffffff;
-  --border: #e0ddd6; --accent: #bc4c3a; --accent-dark: #8f3829;
+  --ink: #211d18; --muted: #6b6256; --faint: #978c7d;
+  --paper: #f4f1e8; --card: #fffdf8; --line: #ddd5c4;
+  --accent: #bc4c3a; --accent-dk: #8f3829; --gold: #b08431;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  color: var(--text); background: var(--bg); line-height: 1.55;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  color: var(--ink); background: var(--paper); line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.2rem 4rem; }
-.header { margin-bottom: 2rem; }
-h1 { font-size: 2rem; margin: 0 0 .3rem; letter-spacing: -0.02em; }
-h2 { font-size: 1.15rem; margin: 2.2rem 0 .8rem; padding-bottom: .4rem; border-bottom: 1px solid var(--border); }
-.tagline { color: var(--muted); margin: 0 0 1.5rem; font-size: 1.05rem; }
-nav { display: flex; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); font-size: .92rem; flex-wrap: wrap; }
-nav a { color: var(--accent); text-decoration: none; }
-nav a:hover { color: var(--accent-dark); text-decoration: underline; }
-.filters {
-  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-  padding: 1rem 1.2rem; margin-bottom: 1.8rem;
-  display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center;
+.wrap { max-width: 1060px; margin: 0 auto; padding: 0 1.3rem 5rem; }
+a { color: var(--accent-dk); }
+a:hover { color: var(--accent); }
+
+/* En-tête / masthead */
+.masthead { border-bottom: 2px solid var(--ink); margin-bottom: .2rem; padding: 1.6rem 0 1rem; }
+.masthead .brand { display: flex; align-items: baseline; gap: .8rem; text-decoration: none; color: var(--ink); }
+.logo-mark {
+  font-size: 1.9rem; font-weight: 700; letter-spacing: -.02em;
+  border: 2px solid var(--accent); color: var(--accent);
+  padding: .05rem .5rem; border-radius: 4px; line-height: 1;
 }
-.filters label { font-size: .85rem; color: var(--muted); display: flex; align-items: center; gap: .4rem; }
-.filters select, .filters input {
-  padding: .35rem .55rem; border: 1px solid var(--border); border-radius: 4px;
-  font-size: .9rem; background: white; color: var(--text);
+.brand h1 { font-size: 1.75rem; margin: 0; font-weight: 700; letter-spacing: -.01em; }
+.brand .baseline { font-size: .9rem; color: var(--muted); font-style: italic; }
+.topnav { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: .92rem;
+          font-family: -apple-system, system-ui, sans-serif; padding: .7rem 0 0; }
+.topnav a { text-decoration: none; color: var(--muted); }
+.topnav a:hover, .topnav a.active { color: var(--accent); }
+
+/* Titres de section */
+h2.sec { font-size: 1.05rem; font-family: -apple-system, system-ui, sans-serif;
+         text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+         border-bottom: 1px solid var(--line); padding-bottom: .35rem; margin: 2.4rem 0 1rem; }
+h3 { font-size: 1.15rem; margin: 1.4rem 0 .5rem; }
+
+/* Barre de filtres */
+.toolbar { display: flex; gap: .8rem; flex-wrap: wrap; align-items: center;
+           margin: 1.4rem 0; font-family: -apple-system, system-ui, sans-serif; }
+.toolbar input, .toolbar select {
+  font: inherit; font-size: .9rem; padding: .45rem .6rem;
+  border: 1px solid var(--line); border-radius: 5px; background: var(--card); color: var(--ink);
 }
-.filters #f-count { margin-left: auto; color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
-ul.opps { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .7rem; }
-li.opp {
-  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-  padding: 1rem 1.2rem; transition: border-color .15s, box-shadow .15s;
-}
-li.opp:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(188,76,58,0.08); }
-li.opp .badges { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-bottom: .4rem; }
-li.opp .type-tag {
-  display: inline-block; background: var(--accent); color: white;
-  font-size: .72rem; padding: .2rem .55rem; border-radius: 3px;
-  text-transform: uppercase; letter-spacing: .06em; font-weight: 600;
-}
-li.opp h3 { margin: .15rem 0 .3rem; font-size: 1.08rem; font-weight: 600; line-height: 1.35; }
-li.opp h3 a { color: var(--text); text-decoration: none; }
-li.opp h3 a:hover { color: var(--accent); }
-li.opp .meta { color: var(--muted); font-size: .87rem; }
-.deadline { color: var(--accent); font-weight: 600; font-size: .9rem; font-variant-numeric: tabular-nums; }
-li.opp.indetermine .deadline { color: var(--muted); font-weight: normal; font-style: italic; }
-.summary { color: #555; font-size: .9rem; margin: .5rem 0 0; }
-footer {
-  margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
-  font-size: .85rem; color: var(--muted); line-height: 1.7;
-}
-footer a { color: var(--muted); }
-footer a:hover { color: var(--accent); }
-.empty { text-align: center; padding: 4rem 1rem; color: var(--muted); background: var(--card); border: 1px dashed var(--border); border-radius: 8px; }
-@media (max-width: 600px) {
-  .wrap { padding: 1.5rem .8rem 3rem; }
-  h1 { font-size: 1.6rem; }
-  .filters { flex-direction: column; align-items: stretch; gap: .7rem; }
-  .filters #f-count { margin-left: 0; text-align: right; }
+.toolbar input[type=search] { flex: 1; min-width: 200px; }
+.toolbar .count { color: var(--faint); font-size: .85rem; margin-left: auto; }
+
+/* Catalogue : cartes */
+.cards { list-style: none; padding: 0; margin: 0; display: grid; gap: .9rem; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+        padding: 1.1rem 1.3rem; transition: box-shadow .15s, border-color .15s; }
+.card:hover { border-color: var(--accent); box-shadow: 0 3px 14px rgba(33,29,24,.07); }
+.card .row1 { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap;
+              font-family: -apple-system, system-ui, sans-serif; }
+.tag { font-size: .7rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 600;
+       padding: .18rem .55rem; border-radius: 3px; background: var(--ink); color: var(--paper); }
+.tag.residence { background: #3b5b6b; }
+.tag.bourse    { background: #6b5b3b; }
+.tag.prix      { background: var(--accent); }
+.tag.exposition{ background: #5b3b5b; }
+.deadline { font-size: .85rem; color: var(--accent); font-weight: 600;
+            font-family: -apple-system, system-ui, sans-serif; }
+.card.indetermine .deadline { color: var(--faint); font-weight: normal; font-style: italic; }
+.card h3 { margin: .5rem 0 .3rem; font-size: 1.18rem; line-height: 1.3; }
+.card h3 a { text-decoration: none; color: var(--ink); }
+.card h3 a:hover { color: var(--accent); }
+.card .meta { font-size: .9rem; color: var(--muted);
+              font-family: -apple-system, system-ui, sans-serif; }
+.card .meta a { color: var(--muted); }
+.score-pill { font-family: -apple-system, system-ui, sans-serif; font-size: .78rem;
+              font-weight: 700; color: var(--gold); border: 1px solid var(--gold);
+              border-radius: 20px; padding: .1rem .5rem; }
+
+/* Fiche-item */
+.fiche-head { margin: 1.5rem 0 1rem; }
+.fiche-head h2 { font-size: 1.9rem; margin: .5rem 0 .4rem; line-height: 1.25; }
+.fiche-head .sub { color: var(--muted); font-family: -apple-system, system-ui, sans-serif; font-size: .95rem; }
+.enbref { background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+          padding: 1rem 1.3rem; margin: 1.2rem 0;
+          font-family: -apple-system, system-ui, sans-serif; font-size: .92rem; }
+.enbref dl { display: grid; grid-template-columns: max-content 1fr; gap: .35rem 1.2rem; margin: 0; }
+.enbref dt { color: var(--faint); }
+.enbref dd { margin: 0; }
+.prose p { margin: .6rem 0; }
+table.crit { width: 100%; border-collapse: collapse; font-size: .92rem;
+             font-family: -apple-system, system-ui, sans-serif; }
+table.crit td, table.crit th { border-bottom: 1px solid var(--line); padding: .5rem .4rem; text-align: left; vertical-align: top; }
+table.crit th { color: var(--faint); font-weight: 600; font-size: .82rem; text-transform: uppercase; letter-spacing: .05em; }
+.crit-oui { color: #4a7a3a; font-weight: 600; }
+.crit-non { color: var(--faint); }
+.crit-partiel { color: var(--gold); font-weight: 600; }
+.crit-inconnu { color: var(--faint); font-style: italic; }
+.asavoir { background: #fbf3e7; border-left: 3px solid var(--gold); border-radius: 4px;
+           padding: .8rem 1.1rem; margin: 1rem 0; font-family: -apple-system, system-ui, sans-serif; font-size: .9rem; }
+.asavoir ul { margin: .3rem 0; padding-left: 1.2rem; }
+.cta { display: inline-block; background: var(--accent); color: var(--paper);
+       text-decoration: none; padding: .6rem 1.2rem; border-radius: 5px; font-weight: 600;
+       font-family: -apple-system, system-ui, sans-serif; font-size: .92rem; }
+.cta:hover { background: var(--accent-dk); color: var(--paper); }
+.backlink { font-family: -apple-system, system-ui, sans-serif; font-size: .88rem; }
+
+/* Annuaire organismes */
+.org-grid { list-style: none; padding: 0; margin: 1rem 0; display: grid;
+            gap: .7rem; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.org-card { background: var(--card); border: 1px solid var(--line); border-radius: 7px; padding: .9rem 1.1rem; }
+.org-card a { text-decoration: none; }
+.org-card .org-name { font-weight: 700; font-size: 1.05rem; }
+.org-card .org-meta { font-size: .85rem; color: var(--muted);
+                      font-family: -apple-system, system-ui, sans-serif; }
+
+/* Formulaire */
+form.suggest { background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+               padding: 1.3rem; max-width: 540px; font-family: -apple-system, system-ui, sans-serif; }
+form.suggest label { display: block; font-size: .88rem; color: var(--muted); margin: .8rem 0 .25rem; }
+form.suggest input, form.suggest textarea, form.suggest select {
+  width: 100%; font: inherit; padding: .5rem .6rem; border: 1px solid var(--line);
+  border-radius: 5px; background: var(--paper); }
+
+footer { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
+         font-size: .85rem; color: var(--muted); line-height: 1.7;
+         font-family: -apple-system, system-ui, sans-serif; }
+.empty { text-align: center; padding: 4rem 1rem; color: var(--faint);
+         background: var(--card); border: 1px dashed var(--line); border-radius: 7px; }
+@media (max-width: 620px) {
+  .brand h1 { font-size: 1.35rem; }
+  .fiche-head h2 { font-size: 1.45rem; }
+  .enbref dl { grid-template-columns: 1fr; }
 }
 </style>
 </head>
 <body>
 <div class="wrap">
+<header class="masthead">
+  <a class="brand" href="/">
+    <span class="logo-mark">R</span>
+    <span>
+      <h1>Résidence</h1>
+      <div class="baseline">la veille des opportunités pour artistes plasticien·nes</div>
+    </span>
+  </a>
+  <nav class="topnav">
+    <a href="/" class="active">Catalogue</a>
+    <a href="/organismes.html">Organismes</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/calendar.ics">Calendrier</a>
+    <a href="/feed/all.xml">RSS</a>
+    <a href="/suggerer.html">Suggérer une source</a>
+    <a href="/a-propos.html">À propos</a>
+  </nav>
+</header>
 
-<div class="header">
-  <h1>Résidence</h1>
-  <p class="tagline">Opportunités arts plastiques — résidences, bourses, prix, appels à exposition. <strong>13</strong> ouvertes aujourd'hui.</p>
+<p style="font-size:1.05rem;color:var(--muted);font-style:italic;margin:1.2rem 0">
+  14 opportunités ouvertes — résidences, bourses, prix et appels à exposition,
+  recensées en français, anglais et espagnol.</p>
+
+<div class="toolbar">
+  <input type="search" id="q" placeholder="Rechercher (titre, organisme, lieu, analyse…)">
+  <select id="f-type">
+    <option value="">Tous les types</option>
+    <option value="residence">Résidences</option>
+    <option value="bourse">Bourses</option>
+    <option value="prix">Prix</option>
+    <option value="exposition">Expositions</option>
+  </select>
+  <select id="f-pays"><option value="">Tous les pays</option><option value="españa">España</option><option value="réseau international (france&#x27;s cultural network abroad)">Réseau international (France&#x27;s cultural network abroad)</option><option value="spain">Spain</option></select>
+  <input type="search" id="f-disc" placeholder="Discipline…" style="max-width:11em">
+  <select id="f-deadline">
+    <option value="">Toute échéance</option>
+    <option value="30">Dans 30 jours</option>
+    <option value="90">Dans 90 jours</option>
+  </select>
+  <span class="count" id="count"></span>
 </div>
 
-<nav>
-  <a href="/">Ouvertes</a>
-  <a href="/archive.html">Archive</a>
-  <a href="/calendar.ics">Calendrier (.ics)</a>
-  <a href="/feed/all.xml">RSS</a>
-  <a href="/a-propos.html">À propos</a>
-</nav>
-
-<div class="filters">
-  <label>Type
-    <select id="f-type">
-      <option value="">tous</option>
-      <option value="residence">Résidence</option>
-      <option value="bourse">Bourse</option>
-      <option value="prix">Prix</option>
-      <option value="exposition">Exposition</option>
-    </select>
-  </label>
-  <label>Pays
-    <select id="f-pays">
-      <option value="">tous</option>
-      <option value="espagne">Espagne</option>
-<option value="españa">España</option>
-<option value="spain">Spain</option>
-    </select>
-  </label>
-  <label>Discipline
-    <input type="search" id="f-disc" placeholder="ex. textile, photo…" style="width: 12em">
-  </label>
-  <span id="f-count"></span>
-</div>
-
-<ul class="opps">
-<li class="opp indetermine" data-type="residence"
-       data-pays=""
-       data-disc="arts littéraires, théâtre, musique">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<ul class="cards" id="cards">
+<li class="card indetermine" data-type="residence"
+    data-pays="réseau international (france&#x27;s cultural network abroad)"
+    data-disc="visual arts, literary arts, theatrical arts"
+    data-deadline=""
+    data-search="charte des villas et programmes de résidences du réseau culturel de la france à l’étranger(.pdf, 2.78 mo) [charte des villas et programmes de résidences du réseau culturel de la france à l&#x27;étranger] institut français, ministry for europe and foreign affairs, ministry of culture réseau international (france&#x27;s cultural network abroad) visual arts, literary arts, theatrical arts ce document est une charte établissant les standards communs pour les programmes de résidences artistiques du réseau culturel français à l&#x27;étranger. il s&#x27;adresse aux postes diplomatiques (ambassades, instituts français, etc.) et définit les critères pour les artistes. les conditions principales incluent: un minimum de un mois de durée, la fourniture d&#x27;un logement et d&#x27;un espace de travail, une bourse de résidence, un soutien administratif et artistique, et au moins 70% du temps dédié au projet artistique.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">9/10</span>
   </div>
-  <h3><a href="https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf" target="_blank" rel="noopener">Charte des Villas et programmes de résidences du réseau culturel de la France à l’étranger(.pdf, 2.78 Mo) [Charte des VILLAS et des programmes de résidences du réseau culturel de la France à l&#x27;étranger]</a></h3>
-  <div class="meta">
-    Institut français
-     · arts littéraires, théâtre, musique
-  </div>
+  <h3><a href="/o/0144555c.html">Charte des Villas et programmes de résidences du réseau culturel de la France à l’étranger(.pdf, 2.78 Mo) [Charte des Villas et programmes de résidences du réseau culturel de la France à l&#x27;étranger]</a></h3>
+  <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture</a> — Réseau international (France&#x27;s cultural network abroad)
+     · visual arts, literary arts, theatrical arts</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="artes visuales">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="artes visuales"
+    data-deadline=""
+    data-search="bases [bases] madrid destino, cultura, turismo y negocio s.a. madrid, españa artes visuales programme de 2 résidences trimestrales de 3 mois (14 avril - 10 juillet 2026) destiné aux artistes visuels résidant dans la comunidad de madrid. les résidents bénéficient d&#x27;espaces de travail, de ressources économiques (montant non précisé), d&#x27;un accompagnement curatorial et professionnel, ainsi que d&#x27;une visibilité institutionnelle. l&#x27;évaluation des candidatures porte sur la qualité et la cohérence du projet, son originalité, la trajectoire artistique et la viabilité dans les espaces du centre.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">8/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_mad_def.pdf" target="_blank" rel="noopener">BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE DOS (2) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN LA COMUNIDAD DE MADRID 2026</a></h3>
-  <div class="meta">
-    Madrid Destino, Cultura, Turismo y Negocio S.A. — Madrid, España
-     · artes visuales
-  </div>
+  <h3><a href="/o/065462bb.html">BASES [BASES]</a></h3>
+  <div class="meta"><a href="/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/">Madrid Destino, Cultura, Turismo y Negocio S.A.</a> — Madrid, España
+     · artes visuales</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="arte y la educación">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="arte y la educación, mediación, investigación"
+    data-deadline=""
+    data-search="bases de la convocatoria [bases réglementaires de la vie convocation du centre de résidences artistiques de matadero madrid pour l&#x27;attribution d&#x27;une (1) résidence autour de l&#x27;art et de l&#x27;éducation (2026-2027)] madrid destino, cultura, turismo y negocio s.a. madrid, españa arte y la educación, mediación, investigación matadero madrid convoca una residencia artística de 9 meses (octubre 2026-junio 2027) dedicada a investigación y mediación en torno al arte y la educación. se dirige a creadores, colectivos y agentes culturales con enfoque en pedagogías críticas, radicales o subalternas. los residentes contarán con espacios de trabajo en el centro de residencias artísticas y el taller, y deberán desarrollar un programa público de 6 a 10 sesiones. es requisito tener residencia o ámbito principal de acción en la comunidad de madrid.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">9/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf" target="_blank" rel="noopener">VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)</a></h3>
-  <div class="meta">
-    Madrid Destino, Cultura, Turismo y Negocio S.A. — Madrid, España
-     · arte y la educación
-  </div>
+  <h3><a href="/o/0b83d4e8.html">BASES DE LA CONVOCATORIA [BASES RÉGLEMENTAIRES DE LA VIe CONVOCATION DU CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L&#x27;ATTRIBUTION D&#x27;UNE (1) RÉSIDENCE AUTOUR DE L&#x27;ART ET DE L&#x27;ÉDUCATION (2026-2027)]</a></h3>
+  <div class="meta"><a href="/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/">Madrid Destino, Cultura, Turismo y Negocio S.A.</a> — Madrid, España
+     · arte y la educación, mediación, investigación</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays=""
-       data-disc="arts du spectacle, arts visuels, arts numériques et nouveaux médias">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays=""
+    data-disc="arts du spectacle, arts visuels, arts numériques et nouveaux médias"
+    data-deadline=""
+    data-search="guide des financements de la mobilité culturelle – focus sur l&#x27;afrique du nord on the move  arts du spectacle, arts visuels, arts numériques et nouveaux médias ">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">7/10</span>
   </div>
-  <h3><a href="https://on-the-move.org/sites/default/files/funding-guides/OTM_MFG_South-Mediterranean-Region_FR.pdf" target="_blank" rel="noopener">Guide des financements de la mobilité culturelle – Focus sur l&#x27;Afrique du Nord</a></h3>
-  <div class="meta">
-    On the Move
-     · arts du spectacle, arts visuels, arts numériques et nouveaux médias
-  </div>
+  <h3><a href="/o/2e73fa76.html">Guide des financements de la mobilité culturelle – Focus sur l&#x27;Afrique du Nord</a></h3>
+  <div class="meta"><a href="/organisme/on-the-move-92ce1dd2/">On the Move</a>
+     · arts du spectacle, arts visuels, arts numériques et nouveaux médias</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="diseño, arte, arquitectura">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="diseño, arte, arquitectura"
+    data-deadline=""
+    data-search="bases de la convocatoria [bases de l&#x27;appel à candidatures] medialab matadero madrid, españa diseño, arte, arquitectura lab 5 la mecánica de la verdad est un laboratorio intensivo de deux semaines organisé par medialab matadero à madrid du 12 au 25 novembre 2026, sélectionnant cinq projets et jusqu&#x27;à vingt collaborateurs pour développer des projets expérimentaux collaboratifs sur les enjeux technologiques contemporains. les participants reçoivent un espace de travail et le soutien de mentors experts, travaillant en groupes interdisciplinaires. les résultats sont présentés publiquement au festival openlab du 26 au 28 novembre 2026. aucune rémunération, hébergement ou couverture de frais n&#x27;est mentionnée.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">7/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_ES.pdf" target="_blank" rel="noopener">CONVOCATORIA DE PROYECTOS Y COLABORADORES/AS PARA EL LABORATORIO DE PROTOTIPADO COLABORATIVO DEL LAB 5 LA MECÁNICA DE LA VERDAD</a></h3>
-  <div class="meta">
-    Medialab Matadero — Madrid, España
-     · diseño, arte, arquitectura
-  </div>
+  <h3><a href="/o/49331d08.html">BASES DE LA CONVOCATORIA [BASES DE L&#x27;APPEL À CANDIDATURES]</a></h3>
+  <div class="meta"><a href="/organisme/medialab-matadero-c9588f17/">Medialab Matadero</a> — Madrid, España
+     · diseño, arte, arquitectura</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="espagne"
-       data-disc="arts visuels">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="artes visuales"
+    data-deadline=""
+    data-search="resolucíón convocatoria residencias trimestrales para proyectos sobre el medioambiente 2026 [résolution appel à candidatures résidences trimestrielles pour les projets d&#x27;environnement 2026] centro de residencias artísticas de matadero madrid madrid, españa artes visuales le centre de résidences artistiques de matadero madrid propose 8 residencias trimestrales (3 mois) de production artistique sur l&#x27;environnement, destinées à des artistes visuels. le programme comprend deux catégories selon la résidence : 5 places pour les artistes de la communauté de madrid et 3 pour ceux d&#x27;espagne. 86 candidatures ont été reçues et évaluées par une commission le 8 mai 2026. les 8 lauréats ont été sélectionnés, avec 4 artistes désignés comme suppléants.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">9/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resolucio%CC%81n%20RESIDENCIA%20MEDIOAMBIENTE%202026.pdf" target="_blank" rel="noopener">Resolucíón Convocatoria Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résolution - Appel à candidatures pour Résidences trimestrielles sur l&#x27;environnement 2026]</a></h3>
-  <div class="meta">
-    Madrid Destino Cultura Turismo y Negocio, S.A. — Madrid, Espagne
-     · arts visuels
-  </div>
+  <h3><a href="/o/56d7154d.html">Resolucíón Convocatoria Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résolution Appel à candidatures Résidences trimestrielles pour les projets d&#x27;environnement 2026]</a></h3>
+  <div class="meta"><a href="/organisme/centro-de-residencias-artisticas-de-matadero-madrid-a1b10e27/">Centro de residencias artísticas de Matadero Madrid</a> — Madrid, España
+     · artes visuales</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="artes visuales">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="artistas visuales"
+    data-deadline=""
+    data-search="resolucion convocatoria residencias artistas visuales 2026 [résolution appel à candidature résidences artistes visuels 2026] matadero madrid (madrid destino cultura turismo y negocio, s.a.) madrid, españa artistas visuales ce document est une résolution annonçant les résultats de sélection pour les résidences artistiques 2026 au centre de matadero madrid. il confirme la sélection de 10 artistes plasticiens répartis en trois catégories : 4 résidences semestrales réservées aux résidents de la communauté de madrid (parmi 152 candidatures), 4 résidences trimestrales pour les résidents d&#x27;espagne (parmi 121 candidatures), et 2 résidences trimestrales pour la communauté de madrid (parmi 35 candidatures). les informations détaillées sur les conditions de résidence (hébergement, rémunération, durée précise) ne figurent pas dans ce document.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">9/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf" target="_blank" rel="noopener">Convocatoria de asignación de cuatro residencias semestrales destinadas a artistas visuales de la Comunidad de Madrid, cuatro residencias trimestrales de producción artística destinadas a artistas visuales residentes en España y dos trimestrales destinadas a artistas visuales de la Comunidad de Madrid 2026</a></h3>
-  <div class="meta">
-    Centro de residencias artísticas de Matadero Madrid — Madrid, España
-     · artes visuales
-  </div>
+  <h3><a href="/o/6ba8743c.html">Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution Appel à candidature Résidences Artistes Visuels 2026]</a></h3>
+  <div class="meta"><a href="/organisme/matadero-madrid-madrid-destino-cultura-turismo-y-negocio-s-a-a175b224/">Matadero Madrid (Madrid Destino Cultura Turismo y Negocio, S.A.)</a> — Madrid, España
+     · Artistas Visuales</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="artes visuales">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="artes visuales"
+    data-deadline=""
+    data-search="bases de la convocatoria [bases de l&#x27;appel à candidatures] madrid destino, cultura, turismo y negocio s.a. madrid, españa artes visuales matadero madrid propone ocho residencias de 3 meses (15 septiembre - 15 diciembre 2026) para artistas visuales trabajando sobre medioambiente. el programa proporciona espacios de creación, recursos económicos, acompañamiento profesional e institucional. se seleccionarán mínimo 4 artistas de la comunidad de madrid y hasta 4 de otras regiones españolas.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">10/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf" target="_blank" rel="noopener">III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE OCHO (8) RESIDENCIAS DE PRODUCCIÓN ARTÍSTICA DE TRES MESES SOBRE MEDIOAMBIENTE DIRIGIDAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA</a></h3>
-  <div class="meta">
-    Madrid Destino, Cultura, Turismo y Negocio S.A. — Madrid, España
-     · artes visuales
-  </div>
+  <h3><a href="/o/96722c2c.html">BASES DE LA CONVOCATORIA [BASES DE L&#x27;APPEL À CANDIDATURES]</a></h3>
+  <div class="meta"><a href="/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/">Madrid Destino, Cultura, Turismo y Negocio S.A.</a> — Madrid, España
+     · artes visuales</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="artes visuales">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="artes visuales"
+    data-deadline=""
+    data-search="bases [bases] matadero madrid madrid, españa artes visuales cette convocation offre 4 résidences semestrales de 6 mois (13 janvier - 10 juillet 2026) à matadero madrid pour des artistes visuels de la comunidad de madrid. le programme fournit des espaces de production, des ressources économiques, un accompagnement curatorial et de production, ainsi que de la visibilité. s&#x27;adresse à des artistes visuels individuels ou collectifs majeurs avec résidence légale en espagne et domaine d&#x27;action principal à madrid. les candidatures seront évaluées sur la qualité, l&#x27;originalité, la trajectoire artistique et la viabilité. résultats en novembre 2025.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">10/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_6m_mad_def.pdf" target="_blank" rel="noopener">BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE 4 RESIDENCIAS SEMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES DE LA COMUNIDAD DE MADRID 2026</a></h3>
-  <div class="meta">
-    Madrid Destino, Cultura, Turismo y Negocio S.A. — Madrid, España
-     · artes visuales
-  </div>
+  <h3><a href="/o/c9b469ac.html">BASES [BASES]</a></h3>
+  <div class="meta"><a href="/organisme/matadero-madrid-197c412c/">Matadero Madrid</a> — Madrid, España
+     · artes visuales</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="artes visuales">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="artes visuales"
+    data-deadline=""
+    data-search="bases [bases] madrid destino, cultura, turismo y negocio s.a. madrid, españa artes visuales matadero madrid propose 4 résidences artistiques trimestrales de 3 mois (du 13 janvier au 10 avril 2026) destinées aux artistes visuels résidant en espagne hors de la communauté de madrid. le programme fournit des espacios de création, un accompagnement curatorial et professionnel, ainsi que des recursos económicos. les résidents cohabiteront avec d&#x27;autres artistes et agents culturels dans un contexte d&#x27;hospitalité et d&#x27;échanges multilingues (espagnol et anglais).">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">10/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_def.pdf" target="_blank" rel="noopener">BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026</a></h3>
-  <div class="meta">
-    Matadero Madrid — Madrid, España
-     · artes visuales
-  </div>
+  <h3><a href="/o/e3eef2e1.html">BASES [BASES]</a></h3>
+  <div class="meta"><a href="/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/">Madrid Destino, Cultura, Turismo y Negocio S.A.</a> — Madrid, España
+     · artes visuales</div>
 </li>
-<li class="opp indetermine" data-type="residence"
-       data-pays="españa"
-       data-disc="cine independiente, cine experimental, cine de lo real">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="residence"
+    data-pays="españa"
+    data-disc="cine independiente, cine experimental, cine de lo real"
+    data-deadline=""
+    data-search="bases de la convocatoria [bases de l&#x27;appel à candidatures] matadero madrid (cineteca y centro de residencias artísticas) madrid, españa cine independiente, cine experimental, cine de lo real cette résidence audiovisuelle de 2 mois (1er octobre - 30 novembre 2026) à matadero madrid offre des espaces de travail à 3 créateurs audiovisuels indépendants en phase initiale de développement. s&#x27;adresse aux résidents de communauté de madrid avec nationalité espagnole, européenne ou résidence légale en espagne. le programme soutient la création, promeut la culture cinématographique et renforce le tissu créatif audiovisuel focalisé sur cinéma indépendant, expérimental et documentaire. les résidents collaboreront avec d&#x27;autres artistes et agents culturels pour un échange professionnel et curatorial.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">5/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/Bases%20convocatoria%20proyectos%20audiovisuales%20CINETECA.pdf" target="_blank" rel="noopener">BASES DE LA CONVOCATORIA [BASES RÉGULATRICES DE LA IVe CONVOCATION CONJOINTE ENTRE LA CINÉMATHÈQUE ET LE CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L&#x27;ATTRIBUTION DE TROIS (3) RÉSIDENCES POUR PROJETS AUDIOVISUELS EN PHASE DE DÉVELOPPEMENT]</a></h3>
-  <div class="meta">
-    Madrid Destino — Madrid, España
-     · cine independiente, cine experimental, cine de lo real
-  </div>
+  <h3><a href="/o/ea63cf12.html">BASES DE LA CONVOCATORIA [BASES DE L&#x27;APPEL À CANDIDATURES]</a></h3>
+  <div class="meta"><a href="/organisme/matadero-madrid-cineteca-y-centro-de-residencias-artisticas-db4a441d/">Matadero Madrid (Cineteca y Centro de Residencias Artísticas)</a> — Madrid, España
+     · cine independiente, cine experimental, cine de lo real</div>
 </li>
-<li class="opp indetermine" data-type="prix"
-       data-pays="spain"
-       data-disc="design, art, architecture">
-  <div class="badges">
-    <span class="type-tag">Prix</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="prix"
+    data-pays="spain"
+    data-disc="design, art, architecture"
+    data-deadline=""
+    data-search="regulatory framework [cadre réglementaire] medialab matadero madrid, spain design, art, architecture le lab 5 the mechanics of truth est un laboratoire de prototypage collaboratif de deux semaines organisé par medialab matadero, accueillant jusqu&#x27;à cinq (5) projets et un maximum de vingt (20) collaborateurs de toute discipline et niveau de qualification. le programme se déroulera du 12 au 25 novembre 2026 à madrid, avec une présentation publique les 26-28 novembre 2026. les participants travaillent en équipes interdisciplinaires avec le soutien de mentors experts, dans un espace de travail fourni. le programme ne mentionne aucune rémunération financière ou dotation.">
+  <div class="row1">
+    <span class="tag prix">Prix</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">8/10</span>
   </div>
-  <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf" target="_blank" rel="noopener">OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH COLLABORATIVE PROTOTYPING LABORATORY</a></h3>
-  <div class="meta">
-    Medialab Matadero — Madrid, Spain
-     · design, art, architecture
-  </div>
+  <h3><a href="/o/ed8b9099.html">REGULATORY FRAMEWORK [CADRE RÉGLEMENTAIRE]</a></h3>
+  <div class="meta"><a href="/organisme/medialab-matadero-c9588f17/">Medialab Matadero</a> — Madrid, Spain
+     · design, art, architecture</div>
 </li>
-<li class="opp indetermine" data-type="prix"
-       data-pays="spain"
-       data-disc="design, art, architecture">
-  <div class="badges">
-    <span class="type-tag">Prix</span>
-    <span class="deadline">date à confirmer</span>
+<li class="card indetermine" data-type="prix"
+    data-pays="spain"
+    data-disc="design, art, architecture"
+    data-deadline=""
+    data-search="bases [invitation à participer à la sélection de trois projets de recherche situés dans le cadre du programme annuel medialab matadero à matadero madrid 2025-2026] madrid destino madrid, spain design, art, architecture appel à sélectionner trois projets de recherche situés pour 2025-2026 à matadero madrid. les projets doivent explorer les intersections entre art, design, science, technologie et société, alignés avec les thématiques sentient media, the metabolic sublime, synthetic minds et weird futures. madrid destino prend en charge les frais de dissémination, d&#x27;apprentissage et de retours publics approuvés. une présentation publique des résultats doit être organisée à matadero.">
+  <div class="row1">
+    <span class="tag prix">Prix</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">8/10</span>
   </div>
-  <h3><a href="https://www.medialab-matadero.es/sites/default/files/2025-07/BASES%20PROY%20INVESTIGACION%2025-26_EN.pdf" target="_blank" rel="noopener">BASES [INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS DE RECHERCHE SITUÉS DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO MADRID 2025-2026]</a></h3>
-  <div class="meta">
-    Madrid Destino, Cultura, Turismo y Negocio S.A. — Madrid, Spain
-     · design, art, architecture
+  <h3><a href="/o/f52a745f.html">BASES [INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS DE RECHERCHE SITUÉS DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO MADRID 2025-2026]</a></h3>
+  <div class="meta"><a href="/organisme/madrid-destino-0c75e94d/">Madrid Destino</a> — Madrid, Spain
+     · design, art, architecture</div>
+</li>
+<li class="card indetermine" data-type="prix"
+    data-pays="spain"
+    data-disc="art, technology, experimental design"
+    data-deadline=""
+    data-search="terms and regulations [conditions et règlements] medialab matadero madrid, spain art, technology, experimental design lab 4 weird futures is a multidisciplinary collaborative prototyping laboratory running throughout 2025, culminating in a three-day openlab festival in november. the core activity consists of a two-week mentored laboratory where 5 collaborative projects are developed by mentors including renowned international artists. the program invites artists, technologists, designers, critical thinkers, students and experts to explore contemporary technological futures and instability through the concept of &quot;teslaforming&quot;. recruitment occurs through a two-stage call: first selecting collaborative projects, then recruiting collaborators.">
+  <div class="row1">
+    <span class="tag prix">Prix</span>
+    <span class="deadline">échéance à confirmer</span>
+    <span class="score-pill">7/10</span>
   </div>
+  <h3><a href="/o/fb7d0178.html">TERMS AND REGULATIONS [CONDITIONS ET RÈGLEMENTS]</a></h3>
+  <div class="meta"><a href="/organisme/medialab-matadero-c9588f17/">Medialab Matadero</a> — Madrid, Spain
+     · art, technology, experimental design</div>
 </li>
 </ul>
 
-<footer>
-  <p>Mise à jour automatique — sources FR/EN/ES, interface FR. Voir aussi :
-     <a href="/feed/residences.xml">RSS résidences</a> ·
-     <a href="/feed/bourses.xml">bourses</a> ·
-     <a href="/feed/prix.xml">prix</a> ·
-     <a href="/feed/expositions.xml">expositions</a>.</p>
-  <p>Code source : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
-</footer>
-
-</div>
-
 <script>
 (function() {
-  const opps = document.querySelectorAll('li.opp');
-  const fType = document.getElementById('f-type');
-  const fPays = document.getElementById('f-pays');
-  const fDisc = document.getElementById('f-disc');
-  const fCount = document.getElementById('f-count');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  var q = document.getElementById('q'), fT = document.getElementById('f-type'),
+      fP = document.getElementById('f-pays'), fD = document.getElementById('f-disc'),
+      fDl = document.getElementById('f-deadline'), count = document.getElementById('count');
 
-  function apply() {
-    const t = fType.value, p = fPays.value, d = (fDisc.value || '').toLowerCase().trim();
-    let visible = 0;
-    opps.forEach(li => {
-      const okT = !t || li.dataset.type === t;
-      const okP = !p || li.dataset.pays === p;
-      const okD = !d || (li.dataset.disc || '').includes(d);
-      const show = okT && okP && okD;
-      li.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-    fCount.textContent = visible + ' / ' + opps.length;
+  // Pré-remplir depuis l'URL (?pays=, ?type=)
+  var params = new URLSearchParams(location.search);
+  if (params.get('pays')) fP.value = params.get('pays');
+  if (params.get('type')) fT.value = params.get('type');
+
+  function daysTo(d) {
+    if (!d) return Infinity;
+    var t = new Date(d) - new Date();
+    return t / 86400000;
   }
-  [fType, fPays, fDisc].forEach(el => el.addEventListener('input', apply));
+  function apply() {
+    var qq = (q.value||'').toLowerCase().trim();
+    var t = fT.value, p = fP.value, dd = (fD.value||'').toLowerCase().trim(), dl = fDl.value;
+    var vis = 0;
+    cards.forEach(function(c) {
+      var okQ = !qq || (c.dataset.search||'').indexOf(qq) > -1;
+      var okT = !t || c.dataset.type === t;
+      var okP = !p || c.dataset.pays === p;
+      var okD = !dd || (c.dataset.disc||'').indexOf(dd) > -1;
+      var okDl = !dl || daysTo(c.dataset.deadline) <= parseInt(dl);
+      var show = okQ && okT && okP && okD && okDl;
+      c.style.display = show ? '' : 'none';
+      if (show) vis++;
+    });
+    count.textContent = vis + ' / ' + cards.length;
+  }
+  [q, fT, fP, fD, fDl].forEach(function(el) { el.addEventListener('input', apply); });
   apply();
 })();
 </script>
 
+<footer>
+  <p>Mise à jour automatique — sources FR / EN / ES, interface FR.
+     Flux : <a href="/feed/residences.xml">résidences</a> ·
+     <a href="/feed/bourses.xml">bourses</a> ·
+     <a href="/feed/prix.xml">prix</a> ·
+     <a href="/feed/expositions.xml">expositions</a> ·
+     <a href="/data.json">données (JSON)</a></p>
+  <p>Vérifiez toujours les informations sur le site de l'organisme avant de candidater.
+     Code : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
+</footer>
+</div>
 </body>
 </html>

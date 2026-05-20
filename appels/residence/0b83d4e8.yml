@@ -1,8 +1,8 @@
 uid: 0b83d4e8
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf
-fetched_at: '2026-05-20T01:39:15+00:00'
-score: 8
+fetched_at: '2026-05-20T07:53:27+00:00'
+score: 9
 status: indetermine
 opportunite:
   nom: VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
@@ -12,8 +12,12 @@ opportunite:
     ville: Madrid
     pays: España
     territorio: Comunidad de Madrid
-  nom_fr: BASES DE L'APPEL À CANDIDATURE
-  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURE]
+  nom_fr: BASES RÉGLEMENTAIRES DE LA VIe CONVOCATION DU CENTRE DE RÉSIDENCES ARTISTIQUES
+    DE MATADERO MADRID POUR L'ATTRIBUTION D'UNE (1) RÉSIDENCE AUTOUR DE L'ART ET DE
+    L'ÉDUCATION (2026-2027)
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES RÉGLEMENTAIRES DE LA VIe CONVOCATION
+    DU CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION D'UNE
+    (1) RÉSIDENCE AUTOUR DE L'ART ET DE L'ÉDUCATION (2026-2027)]
 candidature:
   date_limite: null
   date_limite_precision: null
@@ -24,45 +28,79 @@ candidature:
 eligibilite:
   disciplines:
   - arte y la educación
-  niveau_carriere: tous
+  - mediación
+  - investigación
+  nivel_carriere: todos
   age_max: null
-  nationalite: sans restriction
+  nationalite: sin restricción
   residence_administrative: Comunidad de Madrid
 conditions_residence:
   duree:
     semaines: 39
-    dates: 1 de octubre de 2026 - 30 de junio de 2027
+    dates: 2026-10-01 al 2027-06-30
   hebergement: null
-  atelier: Centro de residencias artísticas y El Taller
+  atelier: espacios del Centro de residencias artísticas y el Taller
   remuneration: null
   voyage: null
-  restitution: 6 a 10 sesiones públicas
+  restitution: programa público con 6 a 10 sesiones públicas obligatorias
 partenaires:
 - Matadero Madrid
-- Ayuntamiento de Madrid
+- Madrid Destino
 _meta:
-  extracted_confidence: 0.5
-  extracted_notes: 'Documento incompleto (texto cortado al final de la página 3).
-    Información clara: duración 9 meses, ubicación Madrid, disciplinas arte y educación,
-    residencia restringida a Comunidad de Madrid. Datos faltantes: fecha límite de
-    candidatura, tarifas de inscripción, detalles de alojamiento, idiomas aceptados,
-    URL de candidatura.'
+  extracted_confidence: 0.55
+  extracted_notes: 'Documento incompleto: páginas 1-3 de una convocatoria más larga.
+    Faltan secciones críticas (fecha límite, piezas solicitadas, cuotas, etc.). Se
+    extrajo información disponible únicamente.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:39:15+00:00'
+  extracted_at: '2026-05-20T07:53:27+00:00'
   source_lang: es
-  resume_fr: 'Madrid Destino organise un appel à candidatures pour une (1) résidence
-    au Centre de Résidences Artistiques de Matadero Madrid, destinée à des créateurs,
-    collectifs ou agents culturels travaillant sur l''art et l''éducation. La résidence
-    dure 9 mois, du 1er octobre 2026 au 30 juin 2027. Les projets doivent s''inscrire
-    dans l''une de deux lignes de recherche : aborder les urgences contemporaines
-    ou développer une recherche sur la médiation et les croisements entre l''art et
-    l''éducation. Les projets expérimentaux sont valorisés ; sont exclus ceux exclusivement
-    consacrés à la médiation d''expositions, au travail avec des centres éducatifs,
-    ou aux arts de la scène et création cinématographique.'
+  resume_fr: 'Madrid Destino lance un appel à candidatures pour l''attribution d''une
+    (1) résidence au Centre de résidences artistiques de Matadero Madrid, destinée
+    à des créateurs, collectifs ou agents culturels travaillant en art et éducation.
+    La résidence dure 9 mois, du 1er octobre 2026 au 30 juin 2027, et combine recherche,
+    médiation et création dans les locaux du centre. Deux lignes de recherche sont
+    proposées : les émergences contemporaines (disidences, activisme antirraciste,
+    crise climatique, santé mentale, etc.) ou la médiation et les croisements art-éducation.
+    Les projets doivent être innovants et cohérents avec le parcours du candidat,
+    excluant la simple médiation d''expositions ou le travail scolaire traditionnel.'
   detection_confidence: 0.8611111111111112
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-05-20'
+analyse:
+  synthese: Matadero Madrid convoca una residencia artística de 9 meses (octubre 2026-junio
+    2027) dedicada a investigación y mediación en torno al arte y la educación. Se
+    dirige a creadores, colectivos y agentes culturales con enfoque en pedagogías
+    críticas, radicales o subalternas. Los residentes contarán con espacios de trabajo
+    en el Centro de residencias artísticas y El Taller, y deberán desarrollar un programa
+    público de 6 a 10 sesiones. Es requisito tener residencia o ámbito principal de
+    acción en la Comunidad de Madrid.
+  para_quien: Artistas, investigadores, pensadores, colectivos y agentes culturales
+    trabajando en arte, educación y mediación crítica, con obligatoria residencia
+    administrativa en la Comunidad de Madrid.
+a_savoir:
+- 'Documento fuente incompleto: información crítica sobre fecha límite, costos, requerimientos
+  de suscripción y alojamiento está ausente'
+- 'Restricción geográfica estricta: candidatos deben tener residencia o ámbito principal
+  de acción en la Comunidad de Madrid'
+- Una sola plaza disponible (concurso competitivo)
+- 'Restitución importante: obligación de desarrollar 6-10 sesiones públicas durante
+  la residencia'
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Document coupé - sections sur compensation/rémunération non visibles
+- id: hebergement
+  rempli: inconnu
+  justification: Document coupé - conditions de logement non mentionnées dans le texte
+    fourni
+- id: atelier
+  rempli: oui
+  justification: espacios del Centro de residencias artísticas y el Taller
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Document coupé - prise en charge des frais de voyage/production non
+    visible
 _interne_affinite:
   match: true
   signaux:

@@ -1,22 +1,23 @@
 uid: 0144555c
 type: residence
 source_url: https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf
-fetched_at: '2026-05-20T01:34:05+00:00'
-score: 8
+fetched_at: '2026-05-20T07:46:52+00:00'
+score: 9
 status: indetermine
 opportunite:
   nom: Charter of the VILLAS and residency programmes of France's cultural network
     abroad
-  organisme: Institut français
+  organisme: Institut français, Ministry for Europe and Foreign Affairs, Ministry
+    of Culture
   lieu:
     ville: null
-    pays: null
+    pays: Réseau international (France's cultural network abroad)
     territoire: null
-  nom_fr: Charte des VILLAS et des programmes de résidences du réseau culturel de
-    la France à l'étranger
+  nom_fr: Charte des Villas et programmes de résidences du réseau culturel de la France
+    à l'étranger
   affichage_titre: Charte des Villas et programmes de résidences du réseau culturel
-    de la France à l’étranger(.pdf, 2.78 Mo) [Charte des VILLAS et des programmes
-    de résidences du réseau culturel de la France à l'étranger]
+    de la France à l’étranger(.pdf, 2.78 Mo) [Charte des Villas et programmes de résidences
+    du réseau culturel de la France à l'étranger]
 candidature:
   date_limite: null
   date_limite_precision: null
@@ -29,61 +30,101 @@ candidature:
   url_candidature: null
 eligibilite:
   disciplines:
-  - arts littéraires
-  - théâtre
-  - musique
-  - chorégraphie
-  - audiovisuel
-  - cinéma
-  - arts visuels
-  - arts plastiques
-  - photographie
-  - commissariat d'exposition
-  - traduction littéraire
-  - performance
-  - artisanat
-  - recherche
-  niveau_carriere: tous
+  - visual arts
+  - literary arts
+  - theatrical arts
+  - musical arts
+  - choreographic arts
+  - audiovisual arts
+  - cinematographic arts
+  - photographic arts
+  - curation
+  - translation
+  - performing arts
+  - craftspeople
+  niveau_carriere: professionnels établis
   age_max: null
-  nationalite: sans restriction
+  nationalite: French or professionally established in France; local artists and artists
+    from other countries may also be eligible
   residence_administrative: sans restriction
 conditions_residence:
   duree:
     semaines: 4
-    dates: null
+    dates: minimum one month
   hebergement: true
   atelier: workspace provided
   remuneration:
     montant: null
     devise: null
-    periodicite: null
+    periodicite: residency grant
   voyage:
     pris_en_charge: null
     plafond: null
     devise: null
-  restitution: null
-partenaires: null
+  restitution: A minimum of 70% of the residency time is devoted to the artist's project
+partenaires:
+- posts (embassies, consulates, SCAC, bi-national centres, French institutes)
+- Alliances Françaises
+- local or French partner structures
 _meta:
   extracted_confidence: 0.25
-  extracted_notes: Document is a charter/policy framework, not a specific call for
-    applications. General principles extracted where available; most specific opportunity
-    details unavailable.
+  extracted_notes: Document-cadre définissant les standards généraux, pas un appel
+    à candidature spécifique. La plupart des détails pratiques (dates limites, montants,
+    URL) sont absents. Ce document énonce les principes que tous les programmes du
+    réseau doivent respecter.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T01:34:05+00:00'
+  extracted_at: '2026-05-20T07:46:52+00:00'
   source_lang: en
-  resume_fr: Cette charte, établie par l'Institut français, le Ministère de l'Europe
-    et des Affaires étrangères, et le Ministère de la Culture, définit un cadre commun
-    et des normes pour les programmes de résidence du réseau culturel français à l'étranger.
-    Une résidence doit comprendre un logement et un espace de travail, une durée minimale
-    d'un mois, un soutien administratif et artistique, et au minimum 70% du temps
-    consacré au projet de l'artiste, avec allocation de résidence. Ces programmes
-    ciblent principalement la création, la recherche ou l'expérimentation, et s'adressent
-    aux artistes français ou professionnellement établis en France, tout en pouvant
-    accueillir des artistes locaux ou d'autres pays pour favoriser la collaboration.
+  resume_fr: La charte a été élaborée par l'Institut français, le Ministère de l'Europe
+    et des Affaires étrangères et le Ministère de la Culture pour établir un cadre
+    commun pour les programmes de résidences du réseau culturel français à l'étranger.
+    Une résidance doit offrir logement et espace de travail pour une durée minimale
+    d'un mois, avec au minimum 70% du temps consacré au projet artistique. Les programmes
+    ciblent les artistes français ou établis professionnellement en France et se concentrent
+    sur la création, la recherche ou l'expérimentation, non la distribution ou la
+    formation.
   detection_confidence: 0.7752808988764045
   detection_method: heuristic
   source_label: Institut français — résidences internationales
   last_status_check: '2026-05-20'
+analyse:
+  synthese: 'Ce document est une charte établissant les standards communs pour les
+    programmes de résidences artistiques du réseau culturel français à l''étranger.
+    Il s''adresse aux postes diplomatiques (ambassades, instituts français, etc.)
+    et définit les critères pour les artistes. Les conditions principales incluent:
+    un minimum de un mois de durée, la fourniture d''un logement et d''un espace de
+    travail, une bourse de résidence, un soutien administratif et artistique, et au
+    moins 70% du temps dédié au projet artistique.'
+  pour_qui: 'Artistes français ou professionnellement établis en France, ainsi que
+    les artistes locaux et internationaux, dans les disciplines suivantes: arts visuels,
+    littérature, théâtre, musique, danse, audiovisuel, cinéma, photographie, commissariat
+    d''exposition, traduction littéraire, et métiers d''art.'
+a_savoir:
+- Ceci est un document-cadre (charte), non un appel à candidature spécifique; pas
+  de date limite, pas de détails pratiques d'application
+- Les résidences ne sont pas destinées aux programmes de distribution, circulation,
+  formations ou commandes artistiques
+- Les artistes doivent être français ou professionnellement établis en France; les
+  artistes locaux et internationaux peuvent également postuler, pour encourager la
+  collaboration
+- 'Durée minimale requise: un mois'
+- Au moins 70% du temps dédié au projet de l'artiste
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'Article 1, point 5: ''The awarding of a residency grant to the artist.'''
+- id: hebergement
+  rempli: oui
+  justification: 'Article 1, point 1: ''The provision of accommodation and a workspace
+    for the artist.'''
+- id: atelier
+  rempli: oui
+  justification: 'Article 1, point 1: ''The provision of accommodation and a workspace
+    for the artist.'''
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention spécifique de la prise en charge des frais de voyage
+    ou de production dans ce document-cadre
 _interne_affinite:
   match: false
   signaux:
