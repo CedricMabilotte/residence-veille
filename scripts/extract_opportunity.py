@@ -38,6 +38,25 @@ CLAUDE_FLAGS = [
 ]
 
 ROOT = Path(__file__).resolve().parent.parent
+CRITERES_PATH = ROOT / "config" / "criteres.yml"
+
+
+def _load_bareme() -> list[dict]:
+    """Charge la liste à plat des critères du barème (config/criteres.yml)."""
+    if not CRITERES_PATH.exists():
+        return []
+    data = yaml.safe_load(CRITERES_PATH.read_text(encoding="utf-8")) or {}
+    criteres = []
+    for famille in (data.get("bareme") or {}).get("familles", []):
+        for c in famille.get("criteres", []):
+            criteres.append({
+                "id": c["id"],
+                "label": c["label"],
+                "definition": (c.get("definition") or "").strip(),
+                "poids": c.get("poids", 1),
+                "famille": famille.get("label", ""),
+            })
+    return criteres
 
 
 def _call_claude(prompt: str, timeout: int = CLAUDE_TIMEOUT_SEC) -> str:
@@ -200,6 +219,44 @@ SCHEMAS = {
 }
 
 
+def _build_analyse_block(bareme: list[dict]) -> str:
+    """Bloc de prompt : analyse rédigée + rubrique à savoir + lecture du barème."""
+    criteres_lignes = "\n".join(
+        f'    - id "{c["id"]}" — {c["label"]} : {c["definition"]}'
+        for c in bareme
+    )
+    return f'''
+
+EN PLUS du schéma ci-dessus, ajoute ces trois champs au MÊME niveau (racine du JSON) :
+
+"analyse": {{
+  "synthese": "3 à 5 phrases factuelles : ce que propose ce programme, à qui il
+               s'adresse, ses conditions principales. Aucun jugement de valeur,
+               aucune emphase. Cite les chiffres littéralement.",
+  "pour_qui": "1 phrase : le profil d'artiste visé par ce programme."
+}},
+
+"a_savoir": [
+  "Liste de signaux d'attention factuels, le cas échéant. Exemples : frais
+   d'inscription élevés, première édition (organisme sans historique), dossier
+   exigé dans une langue étrangère, durée très courte, restitution lourde
+   attendue. Si rien à signaler, liste vide []."
+],
+
+"criteres_programme": [
+  // Pour CHAQUE critère du barème ci-dessous, un objet :
+  {{ "id": "<id du critère>", "rempli": "oui|non|partiel|inconnu",
+     "justification": "courte citation ou paraphrase du texte source" }}
+],
+
+BARÈME (lis le programme contre chacun de ces critères) :
+{criteres_lignes}
+'''
+
+
+_BAREME = _load_bareme()
+
+
 def extract_opportunity(
     title: str,
     body: str,
@@ -212,9 +269,11 @@ def extract_opportunity(
         raise ValueError(f"type_id inconnu : {type_id!r}")
 
     schema_prompt = SCHEMAS[type_id]
+    analyse_block = _build_analyse_block(_BAREME) if _BAREME else ""
     prompt = (
         PROMPT_COMMON_HEADER
         + schema_prompt
+        + analyse_block
         + f"\n\nURL source : {url}\nLangue détectée : {lang}\nTitre : {title}\n\nContenu :\n{body[:8000]}"
     )
 
