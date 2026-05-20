@@ -49,12 +49,14 @@ def _call_claude(prompt: str) -> str:
     return raw.strip()
 
 
+_ENRICH_FIELDS = [
+    "description_courte", "type_organisme", "disciplines_proposees",
+    "url_canonique", "adresse", "ville",
+]
+
+
 def needs_enrichment(fiche: dict) -> bool:
-    return (
-        not fiche.get("description_courte")
-        or not fiche.get("type_organisme")
-        or not fiche.get("disciplines_proposees")
-    )
+    return any(not fiche.get(k) for k in _ENRICH_FIELDS)
 
 
 def enrich(fiche: dict) -> dict:
@@ -62,19 +64,24 @@ def enrich(fiche: dict) -> dict:
 ou des arts plastiques. Tu réponds uniquement en JSON, sans markdown.
 
 Organisme : {fiche.get('nom_canonique')}
-URL : {fiche.get('url_canonique') or 'non fournie'}
+URL connue : {fiche.get('url_canonique') or 'non fournie'}
 Pays : {fiche.get('pays') or 'non précisé'}
 
 Champs à proposer :
 - description_courte (1 phrase factuelle, ≤ 30 mots)
 - type_organisme parmi : institution_publique, fondation, centre_art, ecole, reseau, autre
 - disciplines_proposees : liste de 3-6 disciplines plastiques
+- url_canonique : URL du site officiel (https://…) UNIQUEMENT si tu la connais
+  avec certitude. En cas de doute → null. N'invente JAMAIS une URL.
+- adresse : adresse postale du siège si tu la connais avec certitude, sinon null
+- ville : ville du siège si tu la connais avec certitude, sinon null
 
 Si tu ne connais pas l'organisme avec certitude, mets `null` partout.
-Pas d'invention.
+Pas d'invention — une URL ou une adresse inventée est une faute grave.
 
 Réponds :
-{{"description_courte": "...", "type_organisme": "...", "disciplines_proposees": [...]}}
+{{"description_courte": "...", "type_organisme": "...", "disciplines_proposees": [...],
+  "url_canonique": "...", "adresse": "...", "ville": "..."}}
 """
     try:
         raw = _call_claude(prompt)
@@ -94,12 +101,14 @@ def main():
         suggestions = enrich(fiche)
         if "_error" in suggestions:
             continue
-        if suggestions.get("description_courte") and not fiche.get("description_courte"):
-            fiche["description_courte"] = suggestions["description_courte"]
-        if suggestions.get("type_organisme") and not fiche.get("type_organisme"):
-            fiche["type_organisme"] = suggestions["type_organisme"]
-        if suggestions.get("disciplines_proposees") and not fiche.get("disciplines_proposees"):
-            fiche["disciplines_proposees"] = suggestions["disciplines_proposees"]
+        changed = False
+        for k in _ENRICH_FIELDS:
+            val = suggestions.get(k)
+            if val and not fiche.get(k):
+                fiche[k] = val
+                changed = True
+        if not changed:
+            continue
         f.write_text(
             yaml.safe_dump(fiche, allow_unicode=True, sort_keys=False, width=120),
             encoding="utf-8",

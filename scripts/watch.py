@@ -303,6 +303,16 @@ def process_item(item: dict, source_label: str) -> dict | None:
             organisme_manager.attach_opportunity(
                 org["uid"], fiche["uid"], type_id, fiche["opportunite"]["nom"],
             )
+            # Coordonnées de l'organisme extraites de l'appel
+            od = fiche.get("organisme_details") or {}
+            if od:
+                organisme_manager.set_details(
+                    org["uid"],
+                    site_web=od.get("site_web"),
+                    adresse=od.get("adresse"),
+                    ville=od.get("ville"),
+                    contact_email=od.get("contact_email"),
+                )
             for p in fiche.get("partenaires", []) or []:
                 if p and p != org_nom:
                     organisme_manager.record_partnership(org["uid"], p)

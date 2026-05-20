@@ -166,6 +166,22 @@ form.suggest input, form.suggest textarea, form.suggest select {
   width: 100%; font: inherit; padding: .5rem .6rem; border: 1px solid var(--line);
   border-radius: 5px; background: var(--paper); }
 
+/* Calendrier */
+.cal-month { margin: 2rem 0 1rem; }
+.cal-month h3 { font-size: 1.3rem; margin: 0 0 .6rem; padding-bottom: .3rem;
+                border-bottom: 2px solid var(--ink); text-transform: capitalize; }
+.cal-list { list-style: none; padding: 0; margin: 0; }
+.cal-item { display: flex; gap: .9rem; align-items: baseline; padding: .55rem 0;
+            border-bottom: 1px solid var(--line); font-family: -apple-system, system-ui, sans-serif; }
+.cal-date { flex: 0 0 3.4rem; font-weight: 700; color: var(--accent); font-size: .9rem; text-align: right; }
+.cal-body { flex: 1; }
+.cal-body a { text-decoration: none; color: var(--ink); font-weight: 600; }
+.cal-body a:hover { color: var(--accent); }
+.cal-body .cal-meta { color: var(--muted); font-size: .85rem; }
+.cal-undated { margin-top: 2.5rem; }
+.icslink { font-family: -apple-system, system-ui, sans-serif; font-size: .85rem;
+           color: var(--muted); margin-top: 2rem; }
+
 footer { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
          font-size: .85rem; color: var(--muted); line-height: 1.7;
          font-family: -apple-system, system-ui, sans-serif; }
@@ -309,9 +325,9 @@ def page_shell(title: str, body: str, active: str = "") -> str:
   </a>
   <nav class="topnav">
     <a href="/"{na('catalogue')}>Catalogue</a>
+    <a href="/calendrier.html"{na('calendrier')}>Calendrier</a>
     <a href="/organismes.html"{na('organismes')}>Organismes</a>
     <a href="/archive.html"{na('archive')}>Archive</a>
-    <a href="/calendar.ics">Calendrier</a>
     <a href="/feed/all.xml">RSS</a>
     <a href="/suggerer.html"{na('suggerer')}>Suggérer une source</a>
     <a href="/a-propos.html"{na('apropos')}>À propos</a>
@@ -593,6 +609,69 @@ def render_archive(fiches: list[dict]) -> str:
     return page_shell("Archive — Résidence", body, active="archive")
 
 
+_MOIS_FR = ["", "janvier", "février", "mars", "avril", "mai", "juin", "juillet",
+            "août", "septembre", "octobre", "novembre", "décembre"]
+
+
+def render_calendar(fiches: list[dict]) -> str:
+    """Page calendrier HTML : opportunités groupées par mois d'échéance, cliquables."""
+    ffs = [fiche_fields(f) for f in fiches]
+    dated, undated = [], []
+    for ff in ffs:
+        d = None
+        if ff["date_limite"]:
+            try:
+                d = _dt.date.fromisoformat(ff["date_limite"][:10])
+            except Exception:
+                d = None
+        (dated if d else undated).append((d, ff))
+    dated.sort(key=lambda x: x[0])
+
+    # Regroupement par mois
+    from itertools import groupby
+    months_html = ""
+    for (yr, mo), grp in groupby(dated, key=lambda x: (x[0].year, x[0].month)):
+        rows = ""
+        for d, ff in grp:
+            lieu = ", ".join(v for v in [ff["ville"], ff["pays"]] if v)
+            rows += f'''<li class="cal-item">
+  <span class="cal-date">{d.day:02d}</span>
+  <span class="cal-body">
+    <a href="/o/{_esc(ff['uid'])}.html">{_esc(ff['affichage'])}</a>
+    <div class="cal-meta"><span class="tag {_esc(ff['type'])}">{_esc(TYPE_LABEL_FR.get(ff['type'], ff['type']))}</span>
+      &nbsp;{_esc(ff['organisme'])}{' — ' if ff['organisme'] and lieu else ''}{_esc(lieu)}</div>
+  </span>
+</li>'''
+        months_html += (f'<div class="cal-month"><h3>{_MOIS_FR[mo]} {yr}</h3>'
+                        f'<ul class="cal-list">{rows}</ul></div>')
+
+    undated_html = ""
+    if undated:
+        rows = ""
+        for _, ff in undated:
+            lieu = ", ".join(v for v in [ff["ville"], ff["pays"]] if v)
+            rows += f'''<li class="cal-item">
+  <span class="cal-date">—</span>
+  <span class="cal-body">
+    <a href="/o/{_esc(ff['uid'])}.html">{_esc(ff['affichage'])}</a>
+    <div class="cal-meta"><span class="tag {_esc(ff['type'])}">{_esc(TYPE_LABEL_FR.get(ff['type'], ff['type']))}</span>
+      &nbsp;{_esc(ff['organisme'])}{' — ' if ff['organisme'] and lieu else ''}{_esc(lieu)}</div>
+  </span>
+</li>'''
+        undated_html = (f'<div class="cal-month cal-undated"><h3>Échéance à confirmer</h3>'
+                        f'<ul class="cal-list">{rows}</ul></div>')
+
+    inner = (months_html + undated_html) or '<div class="empty">Aucune opportunité au calendrier.</div>'
+    body = f'''
+<a class="backlink" href="/">← Catalogue</a>
+<h2 class="sec">Calendrier des échéances</h2>
+<p style="color:var(--muted);font-style:italic">Les dates limites de candidature, mois par mois. Chaque entrée mène à sa fiche détaillée.</p>
+{inner}
+<p class="icslink">↓ <a href="/calendar.ics">Télécharger le calendrier au format .ics</a> (à importer dans votre agenda)</p>
+'''
+    return page_shell("Calendrier — Résidence", body, active="calendrier")
+
+
 def render_annuaire(orgs: list[dict], by_org: dict) -> str:
     items = ""
     for org in sorted(orgs, key=lambda o: (o.get("nom_canonique") or "").lower()):
@@ -621,8 +700,34 @@ def render_organisme(org: dict, related: list[dict]) -> str:
     pays = org.get("pays") or ""
     desc = org.get("description_courte") or ""
     url = org.get("url_canonique") or ""
+    adresse = org.get("adresse") or ""
+    ville = org.get("ville") or ""
+    type_org = (org.get("type_organisme") or "").replace("_", " ")
+    acronymes = org.get("acronymes") or []
+    disciplines = org.get("disciplines_proposees") or []
     ffs = [fiche_fields(f) for f in related]
     cards = "\n".join(render_card(ff) for ff in ffs) or '<div class="empty">Aucune opportunité enregistrée.</div>'
+
+    # Carte d'identité de l'organisme
+    ident_rows = []
+    if type_org:
+        ident_rows.append(("Type", type_org))
+    if acronymes:
+        ident_rows.append(("Sigle", ", ".join(acronymes)))
+    loc = ", ".join(v for v in [adresse, ville, pays] if v)
+    if loc:
+        ident_rows.append(("Adresse", loc))
+    if url:
+        ident_rows.append(("Site web", f'<a href="{_esc(url)}" target="_blank" rel="noopener">{_esc(url)}</a>'))
+    if disciplines:
+        ident_rows.append(("Disciplines accueillies", ", ".join(disciplines)))
+    n_opp = len(ffs)
+    ident_rows.append(("Opportunités recensées", str(n_opp)))
+    ident_html = ""
+    if ident_rows:
+        dl = "".join(f"<dt>{_esc(k)}</dt><dd>{v if k in ('Site web',) else _esc(v)}</dd>"
+                     for k, v in ident_rows)
+        ident_html = f'<div class="enbref"><dl>{dl}</dl></div>'
 
     # Historique des éditions (track record)
     track = org.get("track_record") or {}
@@ -658,10 +763,11 @@ def render_organisme(org: dict, related: list[dict]) -> str:
 <a class="backlink" href="/organismes.html">← Annuaire</a>
 <div class="fiche-head">
   <h2>{_esc(nom)}</h2>
-  <div class="sub">{_esc(pays)}
+  <div class="sub">{_esc(", ".join(v for v in [ville, pays] if v))}
     {f' · <a href="{_esc(url)}" target="_blank" rel="noopener">site officiel</a>' if url else ''}</div>
 </div>
 {f'<p class="prose">{_esc(desc)}</p>' if desc else ''}
+{ident_html}
 
 <h2 class="sec">Opportunités</h2>
 <ul class="cards">{cards}</ul>
@@ -787,6 +893,7 @@ def main():
 
     # Pages principales
     (SITE_DIR / "index.html").write_text(render_catalogue(ouvertes), encoding="utf-8")
+    (SITE_DIR / "calendrier.html").write_text(render_calendar(ouvertes), encoding="utf-8")
     (SITE_DIR / "archive.html").write_text(render_archive(archivees), encoding="utf-8")
     (SITE_DIR / "a-propos.html").write_text(render_about(), encoding="utf-8")
     (SITE_DIR / "suggerer.html").write_text(render_suggest(), encoding="utf-8")
@@ -839,7 +946,7 @@ def main():
     (SITE_DIR / "robots.txt").write_text(
         "User-agent: *\nAllow: /\nSitemap: https://residence.actitude.org/sitemap.xml\n",
         encoding="utf-8")
-    urls = ["", "organismes.html", "archive.html", "a-propos.html", "suggerer.html"]
+    urls = ["", "calendrier.html", "organismes.html", "archive.html", "a-propos.html", "suggerer.html"]
     urls += [f"o/{fiche_fields(f)['uid']}.html" for f in ouvertes if fiche_fields(f)["uid"]]
     urls += [f"organisme/{o.get('uid')}/" for o in orgs if o.get("uid")]
     sm = "".join(f"<url><loc>https://residence.actitude.org/{u}</loc></url>\n" for u in urls)
