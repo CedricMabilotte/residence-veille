@@ -38,3 +38,7 @@ tmp/
 # Reports lourds — gardés en git mais pas en double
 # reports/                ← gardés
 # discovery/reports/      ← gardés
+
+# État du throttle : propre à chaque environnement (local vs GH Actions).
+# Ne pas committer pour que chaque run GH Actions parte fresh.
+discovery/throttle_state.json
