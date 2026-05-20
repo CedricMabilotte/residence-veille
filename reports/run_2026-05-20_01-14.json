@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-05-20T01:14:21.734262+00:00",
+  "ended_at": "2026-05-20T01:14:21.747209+00:00",
+  "duration_sec": 0.012947,
+  "dry_run": false,
+  "n_sources": 11,
+  "n_items_total": 0,
+  "n_promoted_total": 0,
+  "sources_stats": [],
+  "logs": []
+}

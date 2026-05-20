@@ -6,48 +6,86 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <style>
-:root { --text:#1a1a1a; --muted:#666; --bg:#fafaf7; --border:#ddd; --accent:#bc4c3a; }
+:root {
+  --text: #1a1a1a; --muted: #666; --bg: #f7f6f1; --card: #ffffff;
+  --border: #e0ddd6; --accent: #bc4c3a; --accent-dark: #8f3829;
+}
 * { box-sizing: border-box; }
-body { font-family: -apple-system, system-ui, sans-serif; color: var(--text); background: var(--bg);
-       max-width: 1100px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-h1 { font-size: 1.8rem; margin: 0 0 .3rem; }
-h2 { font-size: 1.2rem; margin: 2rem 0 .8rem; border-bottom: 1px solid var(--border); padding-bottom: .3rem; }
-.tagline { color: var(--muted); margin-bottom: 1.5rem; }
-nav { margin: 1rem 0; }
-nav a { margin-right: 1rem; color: var(--accent); text-decoration: none; }
-nav a:hover { text-decoration: underline; }
-.filters { background: white; border: 1px solid var(--border); padding: 1rem; border-radius: 6px;
-           margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
-.filters label { font-size: .9rem; color: var(--muted); }
-.filters select, .filters input { padding: .3rem .5rem; border: 1px solid var(--border); border-radius: 3px; font-size: .9rem; }
-ul.opps { list-style: none; padding: 0; margin: 0; }
-li.opp { background: white; border: 1px solid var(--border); border-radius: 6px;
-         padding: 1rem; margin-bottom: .8rem; }
-li.opp .type-tag { display: inline-block; background: var(--accent); color: white; font-size: .75rem;
-                   padding: .15rem .5rem; border-radius: 3px; text-transform: uppercase; letter-spacing: .05em; }
-li.opp h3 { margin: .5rem 0 .3rem; font-size: 1.05rem; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  color: var(--text); background: var(--bg); line-height: 1.55;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.2rem 4rem; }
+.header { margin-bottom: 2rem; }
+h1 { font-size: 2rem; margin: 0 0 .3rem; letter-spacing: -0.02em; }
+h2 { font-size: 1.15rem; margin: 2.2rem 0 .8rem; padding-bottom: .4rem; border-bottom: 1px solid var(--border); }
+.tagline { color: var(--muted); margin: 0 0 1.5rem; font-size: 1.05rem; }
+nav { display: flex; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); font-size: .92rem; flex-wrap: wrap; }
+nav a { color: var(--accent); text-decoration: none; }
+nav a:hover { color: var(--accent-dark); text-decoration: underline; }
+.filters {
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 1rem 1.2rem; margin-bottom: 1.8rem;
+  display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center;
+}
+.filters label { font-size: .85rem; color: var(--muted); display: flex; align-items: center; gap: .4rem; }
+.filters select, .filters input {
+  padding: .35rem .55rem; border: 1px solid var(--border); border-radius: 4px;
+  font-size: .9rem; background: white; color: var(--text);
+}
+.filters #f-count { margin-left: auto; color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+ul.opps { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .7rem; }
+li.opp {
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 1rem 1.2rem; transition: border-color .15s, box-shadow .15s;
+}
+li.opp:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(188,76,58,0.08); }
+li.opp .badges { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-bottom: .4rem; }
+li.opp .type-tag {
+  display: inline-block; background: var(--accent); color: white;
+  font-size: .72rem; padding: .2rem .55rem; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: .06em; font-weight: 600;
+}
+li.opp h3 { margin: .15rem 0 .3rem; font-size: 1.08rem; font-weight: 600; line-height: 1.35; }
 li.opp h3 a { color: var(--text); text-decoration: none; }
 li.opp h3 a:hover { color: var(--accent); }
-li.opp .meta { color: var(--muted); font-size: .85rem; }
-li.opp .deadline { color: var(--accent); font-weight: 600; }
+li.opp .meta { color: var(--muted); font-size: .87rem; }
+.deadline { color: var(--accent); font-weight: 600; font-size: .9rem; font-variant-numeric: tabular-nums; }
 li.opp.indetermine .deadline { color: var(--muted); font-weight: normal; font-style: italic; }
 .summary { color: #555; font-size: .9rem; margin: .5rem 0 0; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: .85rem; color: var(--muted); }
-.empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+footer {
+  margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
+  font-size: .85rem; color: var(--muted); line-height: 1.7;
+}
+footer a { color: var(--muted); }
+footer a:hover { color: var(--accent); }
+.empty { text-align: center; padding: 4rem 1rem; color: var(--muted); background: var(--card); border: 1px dashed var(--border); border-radius: 8px; }
+@media (max-width: 600px) {
+  .wrap { padding: 1.5rem .8rem 3rem; }
+  h1 { font-size: 1.6rem; }
+  .filters { flex-direction: column; align-items: stretch; gap: .7rem; }
+  .filters #f-count { margin-left: 0; text-align: right; }
+}
 </style>
 </head>
 <body>
+<div class="wrap">
 <nav><a href="/">← Toutes les opportunités</a></nav>
-<h1>Madrid Destino</h1>
-<p class="tagline">
+<div class="header">
+  <h1>Madrid Destino</h1>
+  <p class="tagline">
    
-</p>
+  </p>
+</div>
 <h2>Opportunités</h2>
 <ul class="opps"><li class="opp indetermine" data-type="residence"
        data-pays="españa"
        data-disc="arte, educación, mediación">
-  <span class="type-tag">Résidence</span>
-  <span class="deadline">date à confirmer</span>
+  <div class="badges">
+    <span class="type-tag">Résidence</span>
+    <span class="deadline">date à confirmer</span>
+  </div>
   <h3><a href="https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf" target="_blank" rel="noopener">VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)</a></h3>
   <div class="meta">
     Madrid Destino — Madrid, España
@@ -55,5 +93,6 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border
   </div>
 </li></ul>
 
+</div>
 </body>
 </html>
