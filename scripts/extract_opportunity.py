@@ -243,6 +243,14 @@ EN PLUS du schéma ci-dessus, ajoute ces trois champs au MÊME niveau (racine du
    attendue. Si rien à signaler, liste vide []."
 ],
 
+"organisme_details": {{
+  "site_web": "URL du site officiel de l'organisme porteur, si elle figure
+               dans le texte (sinon null)",
+  "adresse": "adresse postale de l'organisme si mentionnée (sinon null)",
+  "ville": "ville de l'organisme si mentionnée (sinon null)",
+  "contact_email": "email de contact si mentionné (sinon null)"
+}},
+
 "criteres_programme": [
   // Pour CHAQUE critère du barème ci-dessous, un objet :
   {{ "id": "<id du critère>", "rempli": "oui|non|partiel|inconnu",

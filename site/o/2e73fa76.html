@@ -128,6 +128,22 @@ form.suggest input, form.suggest textarea, form.suggest select {
   width: 100%; font: inherit; padding: .5rem .6rem; border: 1px solid var(--line);
   border-radius: 5px; background: var(--paper); }
 
+/* Calendrier */
+.cal-month { margin: 2rem 0 1rem; }
+.cal-month h3 { font-size: 1.3rem; margin: 0 0 .6rem; padding-bottom: .3rem;
+                border-bottom: 2px solid var(--ink); text-transform: capitalize; }
+.cal-list { list-style: none; padding: 0; margin: 0; }
+.cal-item { display: flex; gap: .9rem; align-items: baseline; padding: .55rem 0;
+            border-bottom: 1px solid var(--line); font-family: -apple-system, system-ui, sans-serif; }
+.cal-date { flex: 0 0 3.4rem; font-weight: 700; color: var(--accent); font-size: .9rem; text-align: right; }
+.cal-body { flex: 1; }
+.cal-body a { text-decoration: none; color: var(--ink); font-weight: 600; }
+.cal-body a:hover { color: var(--accent); }
+.cal-body .cal-meta { color: var(--muted); font-size: .85rem; }
+.cal-undated { margin-top: 2.5rem; }
+.icslink { font-family: -apple-system, system-ui, sans-serif; font-size: .85rem;
+           color: var(--muted); margin-top: 2rem; }
+
 footer { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
          font-size: .85rem; color: var(--muted); line-height: 1.7;
          font-family: -apple-system, system-ui, sans-serif; }
@@ -152,9 +168,9 @@ footer { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line
   </a>
   <nav class="topnav">
     <a href="/" class="active">Catalogue</a>
+    <a href="/calendrier.html">Calendrier</a>
     <a href="/organismes.html">Organismes</a>
     <a href="/archive.html">Archive</a>
-    <a href="/calendar.ics">Calendrier</a>
     <a href="/feed/all.xml">RSS</a>
     <a href="/suggerer.html">Suggérer une source</a>
     <a href="/a-propos.html">À propos</a>

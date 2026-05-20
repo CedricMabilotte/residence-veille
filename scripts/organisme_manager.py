@@ -127,6 +127,34 @@ def attach_opportunity(
     _save(fiche)
 
 
+def set_details(
+    organisme_uid: str,
+    site_web: str | None = None,
+    adresse: str | None = None,
+    ville: str | None = None,
+    contact_email: str | None = None,
+) -> None:
+    """Complète les coordonnées de l'organisme (ne remplace pas une valeur existante)."""
+    fiche = _load(organisme_uid)
+    if not fiche:
+        return
+    changed = False
+    if site_web and not fiche.get("url_canonique"):
+        fiche["url_canonique"] = site_web
+        changed = True
+    if adresse and not fiche.get("adresse"):
+        fiche["adresse"] = adresse
+        changed = True
+    if ville and not fiche.get("ville"):
+        fiche["ville"] = ville
+        changed = True
+    if contact_email and not fiche.get("contact_email"):
+        fiche["contact_email"] = contact_email
+        changed = True
+    if changed:
+        _save(fiche)
+
+
 def record_partnership(organisme_uid: str, partenaire_nom: str) -> None:
     """Incrémente le compteur de mentions d'un partenaire."""
     fiche = _load(organisme_uid)
