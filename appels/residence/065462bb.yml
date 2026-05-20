@@ -1,0 +1,73 @@
+uid: 065462bb
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_mad_def.pdf
+fetched_at: '2026-05-20T01:51:36+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE
+    MATADERO MADRID PARA LA ASIGNACIÓN DE DOS (2) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN
+    ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN LA COMUNIDAD DE MADRID
+    2026
+  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
+  lieu:
+    ville: Madrid
+    pays: España
+    territorio: Comunidad de Madrid
+  nom_fr: BASES
+  affichage_titre: BASES [BASES]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.mataderomadrid.org
+eligibilite:
+  disciplines:
+  - artes visuales
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Comunidad de Madrid
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: 14 de abril - 10 de julio de 2026
+  hebergement: null
+  atelier: Espacios del Centro de residencias artísticas de Matadero Madrid
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Madrid Destino
+- Matadero Madrid
+_meta:
+  extracted_confidence: 0.4
+  extracted_notes: Texte incomplet (arrêt p.3). Date limite, langue du dossier, frais,
+    pièces demandées, détails de rémunération, voyage et restitution manquants.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T01:51:36+00:00'
+  source_lang: es
+  resume_fr: Matadero Madrid lance une convocation pour 2 résidences de production
+    artistique destinées aux artistes visuels résidant dans la Communauté de Madrid.
+    Les résidences durent 3 mois, du 14 avril au 10 juillet 2026. Elles offrent un
+    espace de travail, des ressources économiques, un accompagnement professionnel,
+    institutionnel et une visibilité. Les objectifs visent le développement professionnel
+    des artistes, le soutien à la production et la création de connexions dans la
+    scène artistique locale.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

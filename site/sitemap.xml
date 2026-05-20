@@ -3,6 +3,8 @@
   <url><loc>https://residence.actitude.org/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://residence.actitude.org/archive.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://residence.actitude.org/feed/all.xml</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://residence.actitude.org/organisme/centro-de-residencias-artisticas-de-matadero-madrid-a1b10e27/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://residence.actitude.org/organisme/institut-francais-2ff4bd50/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://residence.actitude.org/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://residence.actitude.org/organisme/madrid-destino-0c75e94d/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://residence.actitude.org/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>

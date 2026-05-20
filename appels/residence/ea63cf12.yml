@@ -1,0 +1,79 @@
+uid: ea63cf12
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/Bases%20convocatoria%20proyectos%20audiovisuales%20CINETECA.pdf
+fetched_at: '2026-05-20T01:37:18+00:00'
+score: 6
+status: indetermine
+opportunite:
+  nom: IV CONVOCATORIA CONJUNTA ENTRE CINETECA Y EL CENTRO DE RESIDENCIAS ARTÍSTICAS
+    DE MATADERO MADRID PARA LA ASIGNACIÓN DE TRES (3) RESIDENCIAS PARA PROYECTOS AUDIOVISUALES
+    EN FASE DE DESARROLLO
+  organisme: Madrid Destino
+  lieu:
+    ville: Madrid
+    pays: España
+    territorio: Comunidad de Madrid
+  nom_fr: BASES RÉGULATRICES DE LA IVe CONVOCATION CONJOINTE ENTRE LA CINÉMATHÈQUE
+    ET LE CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE
+    TROIS (3) RÉSIDENCES POUR PROJETS AUDIOVISUELS EN PHASE DE DÉVELOPPEMENT
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES RÉGULATRICES DE LA IVe CONVOCATION
+    CONJOINTE ENTRE LA CINÉMATHÈQUE ET LE CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO
+    MADRID POUR L'ATTRIBUTION DE TROIS (3) RÉSIDENCES POUR PROJETS AUDIOVISUELS EN
+    PHASE DE DÉVELOPPEMENT]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - cine independiente
+  - cine experimental
+  - cine de lo real
+  - audiovisual
+  niveau_carriere: tous
+  age_max: null
+  nationalite: española, estado miembro de la Unión Europea, o extracomunitaria con
+    residencia legal en España
+  residence_administrative: Comunidad de Madrid
+conditions_residence:
+  duree:
+    semaines: 8
+    dates: 2026-10-01 / 2026-11-30
+  hebergement: null
+  atelier: espacios de trabajo en el Centro de residencias artísticas
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- Cineteca Madrid
+- Centro de residencias artísticas de Matadero Madrid
+- Madrid Destino
+_meta:
+  extracted_confidence: 0.5
+  extracted_notes: 'Documento incompleto (texto cortado al final de p.4). Faltan:
+    fecha límite de candidatura, tasas, documentos requeridos, URL de candidatura,
+    remuneración, alojamiento, condiciones de restitución.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T01:37:18+00:00'
+  source_lang: es
+  resume_fr: Matadero Madrid et la Cinémathèque offrent trois (3) résidences de deux
+    mois, du 1er octobre au 30 novembre 2026, pour des projets audiovisuels en phase
+    de développement. Destinées aux créateurs audiovisuels indépendants résidant dans
+    la Communauté de Madrid, ces résidences soutiennent les projets de cinéma indépendant,
+    expérimental et documentaire. Les résidences incluent un accompagnement curatorial,
+    des ressources spatiales et économiques pour faciliter le développement des projets
+    incipients. L'objectif est de renforcer le tissu créatif audiovisuel indépendant
+    et d'établir des connexions entre les professionnels et le public.
+  detection_confidence: 0.9322033898305084
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - long séjour
+  bonus_score: 1

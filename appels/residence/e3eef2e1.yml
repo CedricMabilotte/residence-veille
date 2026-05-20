@@ -1,0 +1,76 @@
+uid: e3eef2e1
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_def.pdf
+fetched_at: '2026-05-20T01:50:20+00:00'
+score: 10
+status: indetermine
+opportunite:
+  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE
+    MATADERO MADRID PARA LA ASIGNACIÓN DE CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN
+    ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territoire: Comunidad de Madrid
+  nom_fr: BASES
+  affichage_titre: BASES [BASES]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees:
+  - formulario de inscripción
+  - acreditación de residencia legal en España fuera de la Comunidad de Madrid
+  url_candidature: https://www.mataderomadrid.org
+eligibilite:
+  disciplines:
+  - artes visuales
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: residencia legal en España, fuera de la Comunidad de Madrid
+conditions_residence:
+  duree:
+    semaines: 13
+    dates: 2026-01-13 a 2026-04-10
+  hebergement: true
+  atelier: Centro de residencias artísticas de Matadero Madrid
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Date limite de candidature absente du contenu fourni (document
+    coupe). Montant remuneration non specifie. Langue dossier inferred null, document
+    ne precise pas formellement.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T01:50:20+00:00'
+  source_lang: es
+  resume_fr: Appel à candidatures pour 4 résidences trimestrielles de production artistique
+    au centre Matadero Madrid, destinées aux artistes visuels résidant en Espagne
+    hors de la Communauté de Madrid. Les résidences s'étendent du 13 janvier au 10
+    avril 2026, pour une durée de trois mois. Les candidats recevront des espaces,
+    des ressources économiques, un suivi professionnel et une visibilité. Peuvent
+    postuler les personnes physiques individuelles majeurs ou les collectifs d'artistes,
+    avec résidence légale en Espagne et capacité juridique.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: true
+  signaux:
+  - collectif
+  - long séjour
+  bonus_score: 1

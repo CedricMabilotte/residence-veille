@@ -1,0 +1,86 @@
+uid: f52a745f
+type: prix
+source_url: https://www.medialab-matadero.es/sites/default/files/2025-07/BASES%20PROY%20INVESTIGACION%2025-26_EN.pdf
+fetched_at: '2026-05-20T01:56:28+00:00'
+score: 6
+status: indetermine
+opportunite:
+  nom: IV INVITATION TO PARTICIPATE IN THE SELECTION OF THREE SITUATED RESEARCH PROJECTS
+    AS PART OF THE ANNUAL MEDIALAB MATADERO PROGRAM AT MATADERO MADRID 2025-2026
+  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
+  lieu:
+    ville: Madrid
+    pays: Spain
+  nom_fr: INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS DE RECHERCHE SITUÉS
+    DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO MADRID 2025-2026
+  affichage_titre: BASES [INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS
+    DE RECHERCHE SITUÉS DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO
+    MADRID 2025-2026]
+candidature:
+  date_limite: null
+  langue_dossier:
+  - Spanish
+  - English
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - design
+  - art
+  - architecture
+  - urban planning
+  - economics
+  - film
+  - photography
+  - journalism
+  - digital media
+  - environmental sciences
+  - philosophy
+  - engineering
+  - social studies
+  - political science
+  - digital tool programming
+  - material sciences
+  - activism
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant:
+      montant: null
+      devise: EUR
+    exposition: true
+    achat_oeuvre: false
+    edition_catalogue: false
+  jury_public: []
+  nb_laureats: 3
+  editions_precedentes: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.55
+  extracted_notes: Document incomplet. Date limite de candidature non trouvée. URL
+    de candidature absent. Montant de dotation non spécifié (couverture des coûts
+    de dissémination mentionnée sans montant). Pièces demandées non énumérées (formulaire
+    mentionné sans détails). Comité de sélection interne uniquement, pas de jury public.
+    Éditions précédentes non identifiées par nom.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T01:56:28+00:00'
+  source_lang: en
+  resume_fr: 'Matadero Madrid sélectionne trois projets de recherche pour la période
+    2025-2026, sur une durée maximale d''un an. Les projets doivent explorer les relations
+    entre l''art contemporain, le design, la science, la technologie et la société.
+    L''appel s''adresse aux individus ou groupes menant des recherches dans divers
+    domaines : design, art, architecture, urbanisme, économie, cinéma, photographie,
+    journalisme, médias numériques, sciences de l''environnement, philosophie, ingénierie,
+    études sociales et autres. Les langues de travail sont l''espagnol et l''anglais.'
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

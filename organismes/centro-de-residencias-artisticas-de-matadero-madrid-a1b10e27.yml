@@ -1,5 +1,5 @@
-uid: matadero-madrid-197c412c
-nom_canonique: Matadero Madrid
+uid: centro-de-residencias-artisticas-de-matadero-madrid-a1b10e27
+nom_canonique: Centro de residencias artísticas de Matadero Madrid
 acronymes: []
 pays: null
 type_organisme: null
@@ -12,11 +12,9 @@ types_opportunites_habituels:
 opportunites_liees:
 - uid: 6ba8743c
   type: residence
-  nom: Resolucion Convocatoria Residencias Artistas Visuales 2026
-- uid: e3eef2e1
-  type: residence
-  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE
-    CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026
+  nom: Convocatoria de asignación de cuatro residencias semestrales destinadas a artistas visuales de la Comunidad de Madrid,
+    cuatro residencias trimestrales de producción artística destinadas a artistas visuales residentes en España y dos trimestrales
+    destinadas a artistas visuales de la Comunidad de Madrid 2026
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: madrid-destino-cultura-turismo-y-negocio-s-a
