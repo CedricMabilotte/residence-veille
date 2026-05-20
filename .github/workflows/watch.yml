@@ -103,48 +103,52 @@ jobs:
           GH_TOKEN: ${{ secrets.RESIDENCE_PUBLISH_TOKEN }}
         run: python scripts/review_issues.py || echo "  review_issues skipped"
 
+      - name: Génération du site HTML public
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: python scripts/generate_site.py
+
       - name: Commit reports + appels + organismes + discovery + archive
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
-          echo "── État du filesystem avant commit ──"
-          ls -la appels/ 2>&1 | head -20
-          echo "── Contenu appels/residence/ ──"
-          ls -la appels/residence/ 2>&1 | head -20
-          echo "── Contenu organismes/ ──"
-          ls -la organismes/ 2>&1 | head -20
-          echo "── Contenu reports/ ──"
-          ls -la reports/ 2>&1 | head -10
-          echo "──────────────────────────────────────"
-
           git config --global user.name  "Residence Bot"
           git config --global user.email "bot@residence.local"
 
-          # Voir explicitement ce qui est nouveau
-          git status --short
-          echo "──────────────────────────────────────"
+          # git add -A : tout ajouter (sauf .gitignore). Plus fiable que des chemins
+          # explicites qui peuvent échouer si l'un d'eux n'existe pas.
+          git add -A
 
-          git add reports/ appels/ archive/ organismes/ discovery/ alertes/ feedback.json 2>/dev/null || true
-          git status --short --cached | head -20
-          echo "──────────────────────────────────────"
+          echo "── Fichiers stagés ──"
+          git diff --staged --name-status | head -40
 
-          git diff --staged --quiet || git commit -m "veille: $(date '+%Y-%m-%d %H:%M') — opportunités + organismes + discoveries"
-          git push
+          if git diff --staged --quiet; then
+            echo "→ Aucun changement à committer."
+          else
+            git commit -m "veille: $(date '+%Y-%m-%d %H:%M') — opportunités + organismes + discoveries"
+            git push
+          fi
 
       - name: Publier vers residence.actitude.org (repo public)
         if: ${{ github.event.inputs.dry_run != 'true' }}
         env:
           PUBLISH_TOKEN: ${{ secrets.RESIDENCE_PUBLISH_TOKEN }}
         run: |
-          if [ -d site/ ]; then
-            git clone "https://x-access-token:${PUBLISH_TOKEN}@github.com/CedricMabilotte/residence-actitude-org.git" /tmp/residence
-            rsync -a --delete --exclude='.git' site/ /tmp/residence/
-            cd /tmp/residence
-            git config user.name  "Residence Bot"
-            git config user.email "bot@residence.local"
-            git add -A
-            git diff --staged --quiet || git commit -m "publish: veille $(date '+%Y-%m-%d %H:%M')"
-            git push origin main
-            echo "→ Publié sur residence.actitude.org (en attente DNS)"
-          else
+          if [ ! -d site/ ] || [ -z "$(ls -A site/ 2>/dev/null)" ]; then
             echo "→ site/ vide — publication différée"
+            exit 0
+          fi
+          ls -la site/ | head -20
+
+          git clone "https://x-access-token:${PUBLISH_TOKEN}@github.com/CedricMabilotte/residence-actitude-org.git" /tmp/residence
+          # Conserve .git du repo public et CNAME ; remplace tout le reste
+          rsync -a --delete --exclude='.git' site/ /tmp/residence/
+          cd /tmp/residence
+          git config user.name  "Residence Bot"
+          git config user.email "bot@residence.local"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "→ Aucun changement à publier."
+          else
+            git commit -m "publish: veille $(date '+%Y-%m-%d %H:%M')"
+            git push origin main
+            echo "→ Publié sur residence.actitude.org"
           fi
