@@ -78,8 +78,12 @@ CONSIGNES STRICTES :
 - Pour `opportunite.nom` : prends le NOM COMPLET de l'opportunité tel qu'il apparaît
   dans le texte, pas juste le titre du PDF (par ex. "VI CONVOCATORIA DEL CENTRO DE
   RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID" et non "BASES DE LA CONVOCATORIA").
+- **DATE LIMITE** : recherche activement dans le texte des expressions comme
+  "fecha límite", "deadline", "date limite", "plazo", "submissions close",
+  "candidatures avant le", "before". Convertis en `YYYY-MM-DD`.
+  Si la date n'apparaît REELLEMENT pas, mets `null` (sans inventer).
 - Cite littéralement les chiffres (montants, dates, m²) sans les paraphraser.
-- Convertis les dates en ISO `YYYY-MM-DD`. Si seul un mois est donné, prends le 1er du mois ; signale `date_limite_precision: "month"`.
+- Si seul un mois est donné, prends le 1er du mois ; signale `date_limite_precision: "month"`.
 - Devises : utilise les codes ISO (EUR, USD, GBP, etc.) majuscules.
 - Si la page est en EN ou ES, garde le titre original dans `opportunite.nom`.
 """
