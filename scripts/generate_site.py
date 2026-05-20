@@ -109,20 +109,36 @@ def all_fiches(include_archive: bool = False) -> list[dict]:
     return fiches
 
 
+def _get_any(d: dict, *keys, default=None):
+    """Prend la première clé non-vide trouvée parmi keys."""
+    for k in keys:
+        v = d.get(k)
+        if v not in (None, "", []):
+            return v
+    return default
+
+
 def render_opp_li(f: dict) -> str:
     type_id = f.get("type", "unknown")
-    nom = (f.get("opportunite") or {}).get("nom", "Sans titre")
-    nom_fr = (f.get("opportunite") or {}).get("nom_fr")
-    affichage = (f.get("opportunite") or {}).get("affichage_titre") or nom
-    organisme = (f.get("opportunite") or {}).get("organisme") or ""
-    lieu = (f.get("opportunite") or {}).get("lieu") or {}
-    lieu_str = ", ".join(v for v in [lieu.get("ville"), lieu.get("pays")] if v)
-    cand = f.get("candidature") or {}
-    date_lim = cand.get("date_limite")
-    url = f.get("source_url") or cand.get("url_candidature") or "#"
-    score = f.get("score", 0)
+    opp = f.get("opportunite") or {}
+    nom = _get_any(opp, "nom", "name", default="Sans titre")
+    nom_fr = opp.get("nom_fr")
+    # Préférer nom (souvent plus complet) à l'affichage bilingue quand nom_fr est trompeur
+    if nom_fr and len(nom_fr) >= 0.5 * len(nom or ""):
+        affichage = opp.get("affichage_titre") or nom
+    else:
+        affichage = nom
+    organisme = _get_any(opp, "organisme", "organizer", default="")
+    lieu = opp.get("lieu") or {}
+    ville = _get_any(lieu, "ville", "ciudad", "city", "town")
+    pays = _get_any(lieu, "pays", "pais", "país", "country")
+    lieu_str = ", ".join(v for v in [ville, pays] if v)
+    cand = f.get("candidature") or f.get("candidatura") or f.get("application") or {}
+    date_lim = _get_any(cand, "date_limite", "deadline", "fecha_limite")
+    url = f.get("source_url") or _get_any(cand, "url_candidature", "url_candidatura", "application_url") or "#"
     status = f.get("status", "indetermine")
-    discipline_list = (f.get("eligibilite") or {}).get("disciplines") or []
+    elig = f.get("eligibilite") or f.get("elegibilidad") or f.get("eligibility") or {}
+    discipline_list = _get_any(elig, "disciplines", "disciplinas", default=[]) or []
     discipline = ", ".join(discipline_list[:3]) if discipline_list else ""
 
     deadline_html = (
@@ -168,6 +184,7 @@ def render_index(fiches: list[dict]) -> str:
 <meta charset="utf-8">
 <title>Résidence — opportunités arts plastiques</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
 <style>{CSS}</style>
 </head>
@@ -256,6 +273,7 @@ def render_archive(fiches: list[dict]) -> str:
 <meta charset="utf-8">
 <title>Archive — Résidence</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <style>{CSS}</style>
 </head>
 <body>
@@ -350,6 +368,7 @@ def render_organisme_page(org: dict, fiches_de_lui: list[dict]) -> str:
 <meta charset="utf-8">
 <title>{html.escape(nom)} — Résidence</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <style>{CSS}</style>
 </head>
 <body>
@@ -393,10 +412,13 @@ def main():
     (SITE_DIR / "feed" / "all.xml").write_text(
         render_rss(fiches_ouvertes, "Résidence — toutes opportunités"), encoding="utf-8"
     )
+    # Nommage : residences.xml, bourses.xml, prix.xml (sans s), expositions.xml
+    RSS_FILENAMES = {"residence": "residences", "bourse": "bourses", "prix": "prix", "exposition": "expositions"}
     for type_id in TYPES:
         sub = [f for f in fiches_ouvertes if f.get("type") == type_id]
-        (SITE_DIR / "feed" / f"{type_id}s.xml").write_text(
-            render_rss(sub, f"Résidence — {TYPE_LABEL_FR[type_id].lower()}s"), encoding="utf-8"
+        filename = RSS_FILENAMES.get(type_id, type_id + "s") + ".xml"
+        (SITE_DIR / "feed" / filename).write_text(
+            render_rss(sub, f"Résidence — {filename.replace('.xml','')}"), encoding="utf-8"
         )
 
     # Pages organismes
@@ -423,6 +445,35 @@ def main():
 
     # CNAME (residence.actitude.org)
     (SITE_DIR / "CNAME").write_text("residence.actitude.org\n", encoding="utf-8")
+
+    # robots.txt + sitemap.xml
+    (SITE_DIR / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\nSitemap: https://residence.actitude.org/sitemap.xml\n",
+        encoding="utf-8",
+    )
+    now = _dt.datetime.now(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    urls = [
+        ("https://residence.actitude.org/", "daily", "1.0"),
+        ("https://residence.actitude.org/archive.html", "weekly", "0.5"),
+        ("https://residence.actitude.org/feed/all.xml", "daily", "0.8"),
+    ]
+    if ORGANISMES_DIR.exists():
+        for path in sorted(ORGANISMES_DIR.glob("*.yml")):
+            slug = path.stem
+            urls.append((f"https://residence.actitude.org/organisme/{slug}/", "weekly", "0.6"))
+    sm_items = "\n".join(
+        f"  <url><loc>{u}</loc><changefreq>{cf}</changefreq><priority>{p}</priority></url>"
+        for u, cf, p in urls
+    )
+    (SITE_DIR / "sitemap.xml").write_text(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{sm_items}\n</urlset>\n',
+        encoding="utf-8",
+    )
+
+    # Favicon SVG (sobre)
+    favicon = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#bc4c3a"/><text x="32" y="46" font-family="serif" font-size="42" font-weight="bold" text-anchor="middle" fill="white">R</text></svg>'''
+    (SITE_DIR / "favicon.svg").write_text(favicon, encoding="utf-8")
 
     # Bilan
     print(f"✓ Site généré dans {SITE_DIR.relative_to(ROOT)}")

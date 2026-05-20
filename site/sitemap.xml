@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://residence.actitude.org/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://residence.actitude.org/archive.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://residence.actitude.org/feed/all.xml</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://residence.actitude.org/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://residence.actitude.org/organisme/madrid-destino-cultura-turismo-y-negocio-s-a-7556d795/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://residence.actitude.org/organisme/matadero-madrid-197c412c/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://residence.actitude.org/organisme/medialab-matadero-c9588f17/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://residence.actitude.org/organisme/on-the-move-92ce1dd2/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+</urlset>
