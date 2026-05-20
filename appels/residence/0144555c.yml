@@ -1,0 +1,136 @@
+uid: 0144555c
+type: residence
+source_url: https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf
+fetched_at: '2026-05-20T11:02:32+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Charter of the VILLAS and residency programmes of France's cultural network
+    abroad
+  organisme: Institut français, Ministry for Europe and Foreign Affairs, Ministry
+    of Culture
+  lieu:
+    ville: null
+    pays: null
+    territoire: null
+  nom_fr: Charte des Villas et programmes de résidences du réseau culturel de la France
+    à l'étranger
+  affichage_titre: Charte des Villas et programmes de résidences du réseau culturel
+    de la France à l’étranger(.pdf, 2.78 Mo) [Charte des Villas et programmes de résidences
+    du réseau culturel de la France à l'étranger]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees:
+  - number of images
+  - types of documents (to be transmitted digitally)
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - literary arts
+  - theatrical arts
+  - musical arts
+  - choreographic arts
+  - audiovisual arts
+  - cinematographic arts
+  - visual arts
+  - plastic arts
+  - photographic arts
+  - exhibition curators
+  - literary translators
+  - actors
+  - performers
+  - freelance artists
+  - craftspeople
+  - researchers
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: France (professionally established)
+conditions_residence:
+  duree:
+    semaines: 4
+    dates: null
+  hebergement: true
+  atelier: workspace provided
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.1
+  extracted_notes: Ce document est une CHARTE (cadre normatif) et non un appel à candidature
+    spécifique. Aucune opportunité concrète n'est décrite. Seuls les principes généraux
+    des résidences au sein du réseau culturel français à l'étranger sont énoncés.
+    Les informations pratiques de candidature (dates, lieu, frais, contact) sont absentes.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T11:02:32+00:00'
+  source_lang: en
+  resume_fr: Cette charte, établie par l'Institut français et le Ministère des Affaires
+    étrangères avec le Ministère de la Culture, fixe le cadre commun pour les programmes
+    de résidence du réseau culturel français à l'étranger. Une résidence comprend
+    un logement, un espace de travail, une durée minimale d'un mois, un soutien administratif
+    et artistique, et une allocation. Au minimum 70% du temps de résidence doit être
+    consacré au projet de l'artiste. Ces programmes visent la création, la recherche
+    ou l'expérimentation et s'adressent aux artistes français ou établis professionnellement
+    en France.
+  detection_confidence: 0.7752808988764045
+  detection_method: heuristic
+  source_label: Institut français — résidences internationales
+  last_status_check: '2026-05-20'
+analyse:
+  synthese: 'Ce document établit les standards et cadres normatifs pour les programmes
+    de résidence gérés par le réseau culturel français à l''étranger. Une résidence
+    est définie par : logement et espace de travail fournis, durée minimum d''un mois,
+    soutien administratif/technique/artistique, au moins 70% du temps dédié au projet
+    de l''artiste, et une allocation ou bourse accordée à l''artiste. Les programmes
+    s''adressent à des artistes français ou établis professionnellement en France,
+    pouvant aussi accueillir des artistes locaux pour favoriser la collaboration.
+    Ce ne sont pas des appels à candidatures spécifiques, mais des lignes directrices
+    transversales.'
+  pour_qui: Artistes français ou professionnellement établis en France, créateurs
+    dans les arts littéraires, dramatiques, musicaux, chorégraphiques, audiovisuels,
+    cinématographiques, visuels, plastiques, photographiques, ainsi que curateurs,
+    traducteurs littéraires, acteurs, performeurs, artisans et chercheurs.
+a_savoir:
+- Ce document est une charte normatif, pas un appel à candidature opérationnel.
+- Aucune date limite de candidature, frais d'inscription ou lien d'application n'est
+  fourni.
+- Les appels spécifiques sont gérés par chaque 'post' (ambassade, consulat, Institut
+  français) individuellement selon ce cadre.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: The awarding of a residency grant to the artist.
+- id: hebergement
+  rempli: oui
+  justification: The provision of accommodation and a workspace for the artist.
+- id: atelier
+  rempli: oui
+  justification: A workspace for the artist; A minimum of 70% of the residency time
+    is devoted to the artist's project.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention spécifique de prise en charge des frais de voyage,
+    production ou transport d'œuvres.
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

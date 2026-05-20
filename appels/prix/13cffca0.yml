@@ -1,0 +1,112 @@
+uid: 13cffca0
+type: prix
+source_url: https://www.fondationdesartistes.fr/wp-content/uploads/2026/03/Reglement-Interieur-de-la-commission-2026-1.pdf
+fetched_at: '2026-05-20T11:00:07+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Aides à la production d'œuvres d'art - Commission mécénat de la Fondation des
+    Artistes
+  organisme: Fondation des Artistes
+  lieu:
+    ville: Nogent-sur-Marne
+    pays: France
+candidature:
+  date_limite: null
+  langue_dossier:
+  - Français
+  frais_inscription: null
+  pieces_demandees:
+  - Descriptif du projet
+  - Calendrier de réalisation
+  - Conditions de diffusion si connues
+  - Identification des diffuseurs
+  - Projet de budget à l'équilibre (dépenses et recettes)
+  - Participations financières (obtenues ou demandées)
+  - Éléments d'information sur l'artiste et son parcours
+  - Identification des besoins en production (technique, matériel, résidence, locaux)
+  url_candidature: https://www.fondationdesartistes.fr
+eligibilite:
+  disciplines:
+  - Arts plastiques
+  niveau_carriere: null
+  age_max: null
+  nationalite: Artistes français ou étrangers résidant en France
+  residence_administrative: Résidence fiscale attestée en France, ou projet de production
+    réalisé en France pendant une durée minimale de six mois à l'invitation d'une
+    institution ou structure française
+conditions_prix:
+  dotation:
+    montant:
+      montant: null
+      devise: EUR
+    exposition: null
+    achat_oeuvre: null
+    edition_catalogue: null
+  jury_public: null
+  nb_laureats: null
+  editions_precedentes: null
+partenaires:
+- Ministère de la Culture
+_meta:
+  extracted_confidence: 0.55
+  extracted_notes: Document de règlement intérieur, pas d'appel spécifique. Manquent
+    les dates limites actuelles, montants des aides, noms des jurés. Le dispositif
+    existe depuis octobre 2010.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T11:00:07+00:00'
+  source_lang: fr
+  detection_confidence: 0.8
+  detection_method: heuristic
+  source_label: Fondation des Artistes
+  last_status_check: '2026-05-20'
+analyse:
+  synthese: La Fondation des Artistes propose un dispositif d'aide à la production
+    destiné aux artistes plasticiens français ou étrangers résidant en France. Le
+    programme finance la phase de préparation et de réalisation de projets ambitieux
+    et innovants (résidence, recherche, production), excluant la post-production et
+    la diffusion. La commission se réunit deux fois par an pour examiner les dossiers
+    et décider de l'attribution des aides par vote majoritaire. Aucune condition d'âge
+    n'est imposée.
+  pour_qui: Artistes plasticiens français ou étrangers résidant légalement en France,
+    porteurs de projets de création ambitieux et innovants.
+a_savoir:
+- Pas de date limite de candidature visible dans le document (à consulter sur le site
+  officiel)
+- Les artistes ayant obtenu une aide doivent attendre trois années révolues avant
+  de pouvoir présenter un nouveau dossier
+- Les artistes ayant eu une candidature rejetée doivent attendre une année révolue
+  avant de présenter un nouveau projet
+- Un seul dossier par artiste et par commission
+- Un même projet ne peut être soumis qu'une seule fois, sauf autorisation spéciale
+- Aucun formalisme strict imposé, mais dossier dématérialisé obligatoire
+organisme_details:
+  site_web: https://www.fondationdesartistes.fr
+  adresse: null
+  ville: Nogent-sur-Marne
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: « Cette aide financière a pour ambition de favoriser le développement
+    de projets ambitieux et innovants ». Dispositif d'aide à la production avec montant
+    à déterminer par le jury.
+- id: hebergement
+  rempli: partiel
+  justification: « Une résidence à Moly-Sabata en Isère » mentionnée dans les accompagnements
+    globaux de la Fondation. Résidence possible mais non systématique dans le cadre
+    de cette aide.
+- id: atelier
+  rempli: partiel
+  justification: « L'aide ne peut en aucune façon financer des frais de post-production
+    ou de diffusion » mais peut financer les « besoins en production (technique, matériel,
+    résidence, locaux) ».
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: « La commission examine si les conditions de réalisation du projet
+    sont bien réelles et atteignables » ; aide destinée aux « besoins en production
+    (technique, matériel, résidence, locaux) ».
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

@@ -1,0 +1,116 @@
+uid: e3eef2e1
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_def.pdf
+fetched_at: '2026-05-20T11:21:57+00:00'
+score: 10
+status: indetermine
+opportunite:
+  nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE
+    MATADERO MADRID PARA LA ASIGNACIÓN DE CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN
+    ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territorio: null
+  nom_fr: BASES DE RÉGULATION DE L'APPEL À CANDIDATURES DU CENTRE DE RÉSIDENCES ARTISTIQUES
+    DE MATADERO MADRID POUR L'ATTRIBUTION DE QUATRE (4) RÉSIDENCES TRIMESTRIELLES
+    DE PRODUCTION ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS RÉSIDANT EN ESPAGNE 2026
+  affichage_titre: BASES [BASES DE RÉGULATION DE L'APPEL À CANDIDATURES DU CENTRE
+    DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE QUATRE (4)
+    RÉSIDENCES TRIMESTRIELLES DE PRODUCTION ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS
+    RÉSIDANT EN ESPAGNE 2026]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - es
+  - en
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - artes visuales
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: residentes en España, fuera de la Comunidad de Madrid
+conditions_residence:
+  duree:
+    semaines: 13
+    dates: 2026-01-13 à 2026-04-10
+  hebergement: null
+  atelier: Espacios en el Centro de residencias artísticas de Matadero Madrid para
+    la producción artística
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Date limite de candidature non spécifiée. Montant de la rémunération
+    vague. Hébergement non explicitement mentionné. Texte source tronqué.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T11:21:57+00:00'
+  source_lang: es
+  resume_fr: Matadero Madrid propose 4 résidences de production artistique destinées
+    aux artistes visuels individuels ou collectifs résidant en Espagne (hors Communauté
+    de Madrid). Les résidences durent 3 mois, du 13 janvier au 10 avril 2026. Elles
+    incluent un accompagnement curatorial et professionnel, des ressources économiques,
+    des espaces de travail et une visibilité institutionnelle. Les candidats doivent
+    être majeurs avec résidence légale en Espagne et capacité juridique. Les artistes
+    cohabiteront avec d'autres résidents et agents culturels locaux et internationaux.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-20'
+analyse:
+  synthese: Résidence de production artistique de 3 mois (13 janvier au 10 avril 2026)
+    destinée à 4 artistes visuels ou collectifs résidant légalement en Espagne (hors
+    Madrid). Le programme fournit des espaces de production, des ressources économiques,
+    un accompagnement curatif et institutionnel, ainsi qu'une visibilité. Les résidents
+    interagissent avec d'autres artistes et agents culturels locaux et internationaux.
+  pour_qui: Artistes visuels majeurs, individuels ou collectifs, résidant légalement
+    en Espagne en dehors de la Communauté autonome de Madrid.
+a_savoir:
+- Date limite de candidature non spécifiée dans le document fourni
+- 'Restriction géographique stricte : résidence administrative obligatoire en Espagne
+  hors Madrid'
+- Anglais requis comme langue de communication habituelle avec les autres résidents
+- Montant des ressources économiques non précisé
+- Document source tronqué, informations potentiellement incomplètes
+organisme_details:
+  site_web: https://www.mataderomadrid.org
+  adresse: Calle Conde Duque 9-11, 28015 Madrid
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'Recursos económicos mentionnés : ''proporcionar a los residentes
+    acompañamiento, tanto a nivel curatorial como a nivel de producción'''
+- id: hebergement
+  rempli: inconnu
+  justification: Non explicitement mentionné dans le texte fourni
+- id: atelier
+  rempli: oui
+  justification: '''Proporcionando espacios, facilitando la producción'' - espaces
+    fournis au Centre de résidences'
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Voyage, production et transport d'œuvres non mentionnés explicitement
+_interne_affinite:
+  match: true
+  signaux:
+  - collectif
+  - long séjour
+  bonus_score: 1
