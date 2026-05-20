@@ -69,8 +69,15 @@ PROMPT_COMMON_HEADER = """Tu extrais les données structurées d'une page d'appe
 
 Tu DOIS retourner UNIQUEMENT un objet JSON valide. Pas de markdown, pas de prose.
 
-CONSIGNES :
+CONSIGNES STRICTES :
+- **NOMS DE CHAMPS** : utilise EXACTEMENT les noms de champs du schéma ci-dessous,
+  en français. JAMAIS de traduction : c'est `ville` (pas `ciudad`/`city`), `pays`
+  (pas `pais`/`country`), `candidature` (pas `candidatura`/`application`),
+  `langue_dossier`, `niveau_carriere`, `nationalite`, `disciplines`, etc.
 - N'invente RIEN. Si une info n'est pas dans le texte, mets `null` (jamais "à confirmer", "non précisé").
+- Pour `opportunite.nom` : prends le NOM COMPLET de l'opportunité tel qu'il apparaît
+  dans le texte, pas juste le titre du PDF (par ex. "VI CONVOCATORIA DEL CENTRO DE
+  RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID" et non "BASES DE LA CONVOCATORIA").
 - Cite littéralement les chiffres (montants, dates, m²) sans les paraphraser.
 - Convertis les dates en ISO `YYYY-MM-DD`. Si seul un mois est donné, prends le 1er du mois ; signale `date_limite_precision: "month"`.
 - Devises : utilise les codes ISO (EUR, USD, GBP, etc.) majuscules.

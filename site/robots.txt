@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://residence.actitude.org/sitemap.xml
