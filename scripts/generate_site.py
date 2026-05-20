@@ -186,6 +186,36 @@ def _esc(s) -> str:
     return html.escape(str(s)) if s is not None else ""
 
 
+# Normalisation des pays — variantes EN/ES/codes → forme FR canonique.
+_PAYS_CANON = {
+    "france": "France", "francia": "France",
+    "espagne": "Espagne", "spain": "Espagne", "espana": "Espagne", "españa": "Espagne", "es": "Espagne",
+    "italie": "Italie", "italy": "Italie", "italia": "Italie",
+    "allemagne": "Allemagne", "germany": "Allemagne", "alemania": "Allemagne", "deutschland": "Allemagne",
+    "royaume-uni": "Royaume-Uni", "united kingdom": "Royaume-Uni", "uk": "Royaume-Uni",
+    "etats-unis": "États-Unis", "united states": "États-Unis", "usa": "États-Unis", "us": "États-Unis",
+    "belgique": "Belgique", "belgium": "Belgique", "belgica": "Belgique", "bélgica": "Belgique",
+    "pays-bas": "Pays-Bas", "netherlands": "Pays-Bas", "the netherlands": "Pays-Bas", "holanda": "Pays-Bas",
+    "suisse": "Suisse", "switzerland": "Suisse", "suiza": "Suisse",
+    "portugal": "Portugal", "canada": "Canada", "mexique": "Mexique", "mexico": "Mexique", "méxico": "Mexique",
+    "argentine": "Argentine", "argentina": "Argentine", "bresil": "Brésil", "brazil": "Brésil", "brasil": "Brésil",
+}
+
+
+def _norm_pays(val):
+    """Ramène une valeur de pays à sa forme FR canonique. Filtre le bruit."""
+    if not val:
+        return None
+    s = str(val).strip()
+    key = unicodedata.normalize("NFKD", s).encode("ASCII", "ignore").decode("ASCII").lower().strip()
+    if key in _PAYS_CANON:
+        return _PAYS_CANON[key]
+    # Bruit probable : valeur trop longue ou contenant des mots d'organisme
+    if len(s) > 40 or any(w in key for w in ("network", "reseau", "cultural", "ministry", "s-a")):
+        return None
+    return s[:1].upper() + s[1:] if s else None
+
+
 def _slug(text: str) -> str:
     if not text:
         return "inconnu"
@@ -216,7 +246,7 @@ def fiche_fields(f: dict) -> dict:
         "affichage": opp.get("affichage_titre") or _get_any(opp, "nom", "name", default="Sans titre"),
         "organisme": _get_any(opp, "organisme", "organizer", default=""),
         "ville": _get_any(lieu, "ville", "ciudad", "city"),
-        "pays": _get_any(lieu, "pays", "pais", "país", "country"),
+        "pays": _norm_pays(_get_any(lieu, "pays", "pais", "país", "country")),
         "date_limite": _get_any(cand, "date_limite", "deadline", "fecha_limite"),
         "url_candidature": _get_any(cand, "url_candidature", "url_candidatura"),
         "source_url": f.get("source_url", "#"),

@@ -18,10 +18,10 @@ sources:
 
   # ── A. Agrégateurs internationaux ──────────────────────────────────────────
 
+  # TransArtists : listing rendu en JS → parser Playwright (rendu navigateur).
   - label: "TransArtists — Air listings (EN)"
     url: "https://www.transartists.org/en/air"
-    type: deep_html
-    max_pages: 20
+    type: playwright
     min_interval_days: 7
     peak_months: [1, 2, 3, 9, 10, 11]
 
@@ -38,20 +38,26 @@ sources:
     max_pages: 15
     min_interval_days: 7
 
+  # e-flux : annonces rendues en JS → Playwright.
   - label: "e-flux — Announcements (EN)"
     url: "https://www.e-flux.com/announcements/"
-    type: deep_html
-    max_pages: 20
+    type: playwright
     min_interval_days: 3
 
   # ── B. Institutionnels FR ──────────────────────────────────────────────────
 
-  - label: "CNAP — appels et résidences"
-    url: "https://www.cnap.fr/appels-en-cours"
+  - label: "CNAP — soutien à la création"
+    url: "https://www.cnap.fr/"
     type: deep_html
-    max_pages: 10
+    max_pages: 12
     min_interval_days: 7
     peak_months: [1, 2, 3, 9, 10, 11]
+
+  - label: "Fondation des Artistes"
+    url: "https://www.fondationdesartistes.fr/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 14
 
   - label: "Institut français — résidences internationales"
     url: "https://www.institutfrancais.com/fr/programmes"
@@ -83,10 +89,10 @@ sources:
 
   # ── E. Hispanophones ───────────────────────────────────────────────────────
 
-  - label: "Hangar Barcelona — convocatorias"
-    url: "https://hangar.org/es/convocatorias"
+  - label: "Hangar Barcelona"
+    url: "https://hangar.org/"
     type: deep_html
-    max_pages: 10
+    max_pages: 12
     min_interval_days: 7
 
   - label: "MATADERO Madrid — convocatorias"
