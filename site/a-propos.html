@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture — Résidence</title>
+<title>À propos — Résidence</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <style>
@@ -71,28 +71,51 @@ footer a:hover { color: var(--accent); }
 </head>
 <body>
 <div class="wrap">
-<nav><a href="/">← Toutes les opportunités</a></nav>
+<nav><a href="/">← Retour à l'accueil</a></nav>
 <div class="header">
-  <h1>Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture</h1>
-  <p class="tagline">
-   
-  </p>
+  <h1>À propos</h1>
+  <p class="tagline">Une veille internationale automatisée pour artistes plasticien·nes.</p>
 </div>
-<h2>Opportunités</h2>
-<ul class="opps"><li class="opp indetermine" data-type="residence"
-       data-pays=""
-       data-disc="literary and theatrical, musical and choreographic, audiovisual and cinematographic">
-  <div class="badges">
-    <span class="type-tag">Résidence</span>
-    <span class="deadline">date à confirmer</span>
-  </div>
-  <h3><a href="https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf" target="_blank" rel="noopener">Charte des Villas et programmes de résidences du réseau culturel de la France à l’étranger(.pdf, 2.78 Mo) [Charte des Villas et programmes de résidences du réseau culturel de la France à l&#x27;étranger]</a></h3>
-  <div class="meta">
-    Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture
-     · literary and theatrical, musical and choreographic, audiovisual and cinematographic
-  </div>
-</li></ul>
 
+<h2>Quoi</h2>
+<p>Ce site agrège, classe et publie quatre types d'opportunités ouvertes aux plasticien·nes :
+   <strong>résidences</strong>, <strong>bourses</strong>, <strong>prix</strong>, et <strong>appels à exposition</strong>.
+   Les sources sont scrapées en français, anglais et espagnol ; l'interface est en français.</p>
+
+<h2>Comment</h2>
+<p>Plusieurs fois par semaine, un script parcourt une liste de sources institutionnelles
+   (CNAP, Institut français, e-flux, Res Artis, TransArtists, MATADERO Madrid, Hangar
+   Barcelona, etc.). Pour chaque appel détecté, une fiche structurée est extraite
+   automatiquement (Claude Haiku) : type, organisme, lieu, date limite, conditions,
+   éligibilité, partenaires.</p>
+
+<h2>Pourquoi</h2>
+<p>Pour qu'un·e artiste puisse repérer en quelques secondes les opportunités qui le
+   ou la concernent, trier par discipline ou pays, et s'abonner via RSS ou calendrier
+   ICS aux nouveautés.</p>
+
+<h2>Limites</h2>
+<p>Les fiches sont extraites par un modèle de langage. Certaines informations peuvent
+   être incomplètes ou erronées : <strong>toujours vérifier sur le site source de l'organisme</strong>
+   avant de candidater. Un lien direct est fourni sur chaque fiche.</p>
+
+<h2>Code source</h2>
+<p>Le projet est publié sur GitHub :
+   <a href="https://github.com/CedricMabilotte/residence-veille">CedricMabilotte/residence-veille</a>.
+   Pour signaler une source manquante ou une fiche erronée, ouvrir une <em>issue</em>.</p>
+
+<h2>Sources principales</h2>
+<ul>
+  <li>Agrégateurs : TransArtists, Res Artis, On-the-Move, e-flux</li>
+  <li>Institutions FR : CNAP, Institut français, Cité internationale des arts</li>
+  <li>Lieux : Pollen (Monflanquin), Salon de Montrouge</li>
+  <li>Hispanophones : MATADERO Madrid, Hangar Barcelona</li>
+</ul>
+<p><a href="/feed/all.xml">Tous les flux RSS</a> · <a href="/calendar.ics">Calendrier ICS</a> · <a href="/data.json">Export JSON</a></p>
+
+<footer>
+  <p>Mise à jour automatique — sources FR/EN/ES, interface FR.</p>
+</footer>
 </div>
 </body>
 </html>

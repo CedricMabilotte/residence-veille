@@ -47,34 +47,67 @@ TYPE_EMOJI = {
 }
 
 CSS = """
-:root { --text:#1a1a1a; --muted:#666; --bg:#fafaf7; --border:#ddd; --accent:#bc4c3a; }
+:root {
+  --text: #1a1a1a; --muted: #666; --bg: #f7f6f1; --card: #ffffff;
+  --border: #e0ddd6; --accent: #bc4c3a; --accent-dark: #8f3829;
+}
 * { box-sizing: border-box; }
-body { font-family: -apple-system, system-ui, sans-serif; color: var(--text); background: var(--bg);
-       max-width: 1100px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-h1 { font-size: 1.8rem; margin: 0 0 .3rem; }
-h2 { font-size: 1.2rem; margin: 2rem 0 .8rem; border-bottom: 1px solid var(--border); padding-bottom: .3rem; }
-.tagline { color: var(--muted); margin-bottom: 1.5rem; }
-nav { margin: 1rem 0; }
-nav a { margin-right: 1rem; color: var(--accent); text-decoration: none; }
-nav a:hover { text-decoration: underline; }
-.filters { background: white; border: 1px solid var(--border); padding: 1rem; border-radius: 6px;
-           margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
-.filters label { font-size: .9rem; color: var(--muted); }
-.filters select, .filters input { padding: .3rem .5rem; border: 1px solid var(--border); border-radius: 3px; font-size: .9rem; }
-ul.opps { list-style: none; padding: 0; margin: 0; }
-li.opp { background: white; border: 1px solid var(--border); border-radius: 6px;
-         padding: 1rem; margin-bottom: .8rem; }
-li.opp .type-tag { display: inline-block; background: var(--accent); color: white; font-size: .75rem;
-                   padding: .15rem .5rem; border-radius: 3px; text-transform: uppercase; letter-spacing: .05em; }
-li.opp h3 { margin: .5rem 0 .3rem; font-size: 1.05rem; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  color: var(--text); background: var(--bg); line-height: 1.55;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.2rem 4rem; }
+.header { margin-bottom: 2rem; }
+h1 { font-size: 2rem; margin: 0 0 .3rem; letter-spacing: -0.02em; }
+h2 { font-size: 1.15rem; margin: 2.2rem 0 .8rem; padding-bottom: .4rem; border-bottom: 1px solid var(--border); }
+.tagline { color: var(--muted); margin: 0 0 1.5rem; font-size: 1.05rem; }
+nav { display: flex; gap: 1.2rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); font-size: .92rem; flex-wrap: wrap; }
+nav a { color: var(--accent); text-decoration: none; }
+nav a:hover { color: var(--accent-dark); text-decoration: underline; }
+.filters {
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 1rem 1.2rem; margin-bottom: 1.8rem;
+  display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center;
+}
+.filters label { font-size: .85rem; color: var(--muted); display: flex; align-items: center; gap: .4rem; }
+.filters select, .filters input {
+  padding: .35rem .55rem; border: 1px solid var(--border); border-radius: 4px;
+  font-size: .9rem; background: white; color: var(--text);
+}
+.filters #f-count { margin-left: auto; color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+ul.opps { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .7rem; }
+li.opp {
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 1rem 1.2rem; transition: border-color .15s, box-shadow .15s;
+}
+li.opp:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(188,76,58,0.08); }
+li.opp .badges { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-bottom: .4rem; }
+li.opp .type-tag {
+  display: inline-block; background: var(--accent); color: white;
+  font-size: .72rem; padding: .2rem .55rem; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: .06em; font-weight: 600;
+}
+li.opp h3 { margin: .15rem 0 .3rem; font-size: 1.08rem; font-weight: 600; line-height: 1.35; }
 li.opp h3 a { color: var(--text); text-decoration: none; }
 li.opp h3 a:hover { color: var(--accent); }
-li.opp .meta { color: var(--muted); font-size: .85rem; }
-li.opp .deadline { color: var(--accent); font-weight: 600; }
+li.opp .meta { color: var(--muted); font-size: .87rem; }
+.deadline { color: var(--accent); font-weight: 600; font-size: .9rem; font-variant-numeric: tabular-nums; }
 li.opp.indetermine .deadline { color: var(--muted); font-weight: normal; font-style: italic; }
 .summary { color: #555; font-size: .9rem; margin: .5rem 0 0; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: .85rem; color: var(--muted); }
-.empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+footer {
+  margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
+  font-size: .85rem; color: var(--muted); line-height: 1.7;
+}
+footer a { color: var(--muted); }
+footer a:hover { color: var(--accent); }
+.empty { text-align: center; padding: 4rem 1rem; color: var(--muted); background: var(--card); border: 1px dashed var(--border); border-radius: 8px; }
+@media (max-width: 600px) {
+  .wrap { padding: 1.5rem .8rem 3rem; }
+  h1 { font-size: 1.6rem; }
+  .filters { flex-direction: column; align-items: stretch; gap: .7rem; }
+  .filters #f-count { margin-left: 0; text-align: right; }
+}
 """
 
 
@@ -148,10 +181,12 @@ def render_opp_li(f: dict) -> str:
     )
 
     return f'''<li class="opp {html.escape(status)}" data-type="{html.escape(type_id)}"
-       data-pays="{html.escape((lieu.get("pays") or "").lower())}"
+       data-pays="{html.escape((pays or "").lower())}"
        data-disc="{html.escape(discipline.lower())}">
-  <span class="type-tag">{html.escape(TYPE_LABEL_FR.get(type_id, type_id))}</span>
-  {deadline_html}
+  <div class="badges">
+    <span class="type-tag">{html.escape(TYPE_LABEL_FR.get(type_id, type_id))}</span>
+    {deadline_html}
+  </div>
   <h3><a href="{html.escape(url)}" target="_blank" rel="noopener">{html.escape(affichage)}</a></h3>
   <div class="meta">
     {html.escape(organisme)}{' — ' if organisme and lieu_str else ''}{html.escape(lieu_str)}
@@ -178,6 +213,7 @@ def render_index(fiches: list[dict]) -> str:
 
     pays_options = '\n'.join(f'<option value="{html.escape(p.lower())}">{html.escape(p)}</option>' for p in pays_set)
 
+    n_total = len(fiches_sorted)
     return f'''<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -185,19 +221,32 @@ def render_index(fiches: list[dict]) -> str:
 <title>Résidence — opportunités arts plastiques</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
+<meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes. Mise à jour automatique. Sources FR/EN/ES.">
+<meta property="og:title" content="Résidence — opportunités arts plastiques">
+<meta property="og:description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://residence.actitude.org/">
+<link rel="alternate" type="application/rss+xml" title="Toutes opportunités" href="/feed/all.xml">
+<link rel="alternate" type="application/rss+xml" title="Résidences" href="/feed/residences.xml">
+<link rel="alternate" type="application/rss+xml" title="Bourses" href="/feed/bourses.xml">
+<link rel="alternate" type="application/rss+xml" title="Prix" href="/feed/prix.xml">
+<link rel="alternate" type="application/rss+xml" title="Expositions" href="/feed/expositions.xml">
 <style>{CSS}</style>
 </head>
 <body>
+<div class="wrap">
 
-<h1>Résidence</h1>
-<p class="tagline">Opportunités arts plastiques — résidences, bourses, prix, appels à exposition.</p>
+<div class="header">
+  <h1>Résidence</h1>
+  <p class="tagline">Opportunités arts plastiques — résidences, bourses, prix, appels à exposition. <strong>{n_total}</strong> ouverte{'s' if n_total > 1 else ''} aujourd'hui.</p>
+</div>
 
 <nav>
   <a href="/">Ouvertes</a>
   <a href="/archive.html">Archive</a>
   <a href="/calendar.ics">Calendrier (.ics)</a>
   <a href="/feed/all.xml">RSS</a>
+  <a href="/a-propos.html">À propos</a>
 </nav>
 
 <div class="filters">
@@ -219,7 +268,7 @@ def render_index(fiches: list[dict]) -> str:
   <label>Discipline
     <input type="search" id="f-disc" placeholder="ex. textile, photo…" style="width: 12em">
   </label>
-  <span id="f-count" style="margin-left: auto; color: var(--muted); font-size: .85rem;"></span>
+  <span id="f-count"></span>
 </div>
 
 <ul class="opps">
@@ -232,7 +281,10 @@ def render_index(fiches: list[dict]) -> str:
      <a href="/feed/bourses.xml">bourses</a> ·
      <a href="/feed/prix.xml">prix</a> ·
      <a href="/feed/expositions.xml">expositions</a>.</p>
+  <p>Code source : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
 </footer>
+
+</div>
 
 <script>
 (function() {{
@@ -265,8 +317,7 @@ def render_index(fiches: list[dict]) -> str:
 
 
 def render_archive(fiches: list[dict]) -> str:
-    # Pour l'archive : on liste les expirées
-    items_html = "\n".join(render_opp_li(f) for f in fiches) or '<div class="empty">Aucune opportunité archivée.</div>'
+    items_html = "\n".join(render_opp_li(f) for f in fiches) or '<div class="empty">Aucune opportunité archivée pour le moment.</div>'
     return f'''<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -277,10 +328,14 @@ def render_archive(fiches: list[dict]) -> str:
 <style>{CSS}</style>
 </head>
 <body>
-<h1>Archive</h1>
-<p class="tagline">Opportunités expirées (gardées pour mémoire, track record et préparation des candidatures futures).</p>
+<div class="wrap">
+<div class="header">
+  <h1>Archive</h1>
+  <p class="tagline">Opportunités expirées — gardées pour mémoire, track record et préparation des candidatures futures.</p>
+</div>
 <nav><a href="/">← Retour aux opportunités ouvertes</a></nav>
 <ul class="opps">{items_html}</ul>
+</div>
 </body>
 </html>'''
 
@@ -372,14 +427,18 @@ def render_organisme_page(org: dict, fiches_de_lui: list[dict]) -> str:
 <style>{CSS}</style>
 </head>
 <body>
+<div class="wrap">
 <nav><a href="/">← Toutes les opportunités</a></nav>
-<h1>{html.escape(nom)}</h1>
-<p class="tagline">{html.escape(pays)}{' — ' + html.escape(desc) if desc else ''}
+<div class="header">
+  <h1>{html.escape(nom)}</h1>
+  <p class="tagline">{html.escape(pays) if pays else ''}{' — ' + html.escape(desc) if desc else ''}
    {f' · <a href="{html.escape(url)}" target="_blank" rel="noopener">Site officiel</a>' if url else ''}
-</p>
+  </p>
+</div>
 <h2>Opportunités</h2>
 <ul class="opps">{items_html}</ul>
 {track_html}
+</div>
 </body>
 </html>'''
 
@@ -442,6 +501,80 @@ def main():
             org_dir.joinpath("index.html").write_text(
                 render_organisme_page(org, related), encoding="utf-8"
             )
+
+    # Page À propos
+    about_html = f'''<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>À propos — Résidence</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<style>{CSS}</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a href="/">← Retour à l'accueil</a></nav>
+<div class="header">
+  <h1>À propos</h1>
+  <p class="tagline">Une veille internationale automatisée pour artistes plasticien·nes.</p>
+</div>
+
+<h2>Quoi</h2>
+<p>Ce site agrège, classe et publie quatre types d'opportunités ouvertes aux plasticien·nes :
+   <strong>résidences</strong>, <strong>bourses</strong>, <strong>prix</strong>, et <strong>appels à exposition</strong>.
+   Les sources sont scrapées en français, anglais et espagnol ; l'interface est en français.</p>
+
+<h2>Comment</h2>
+<p>Plusieurs fois par semaine, un script parcourt une liste de sources institutionnelles
+   (CNAP, Institut français, e-flux, Res Artis, TransArtists, MATADERO Madrid, Hangar
+   Barcelona, etc.). Pour chaque appel détecté, une fiche structurée est extraite
+   automatiquement (Claude Haiku) : type, organisme, lieu, date limite, conditions,
+   éligibilité, partenaires.</p>
+
+<h2>Pourquoi</h2>
+<p>Pour qu'un·e artiste puisse repérer en quelques secondes les opportunités qui le
+   ou la concernent, trier par discipline ou pays, et s'abonner via RSS ou calendrier
+   ICS aux nouveautés.</p>
+
+<h2>Limites</h2>
+<p>Les fiches sont extraites par un modèle de langage. Certaines informations peuvent
+   être incomplètes ou erronées : <strong>toujours vérifier sur le site source de l'organisme</strong>
+   avant de candidater. Un lien direct est fourni sur chaque fiche.</p>
+
+<h2>Code source</h2>
+<p>Le projet est publié sur GitHub :
+   <a href="https://github.com/CedricMabilotte/residence-veille">CedricMabilotte/residence-veille</a>.
+   Pour signaler une source manquante ou une fiche erronée, ouvrir une <em>issue</em>.</p>
+
+<h2>Sources principales</h2>
+<ul>
+  <li>Agrégateurs : TransArtists, Res Artis, On-the-Move, e-flux</li>
+  <li>Institutions FR : CNAP, Institut français, Cité internationale des arts</li>
+  <li>Lieux : Pollen (Monflanquin), Salon de Montrouge</li>
+  <li>Hispanophones : MATADERO Madrid, Hangar Barcelona</li>
+</ul>
+<p><a href="/feed/all.xml">Tous les flux RSS</a> · <a href="/calendar.ics">Calendrier ICS</a> · <a href="/data.json">Export JSON</a></p>
+
+<footer>
+  <p>Mise à jour automatique — sources FR/EN/ES, interface FR.</p>
+</footer>
+</div>
+</body>
+</html>'''
+    (SITE_DIR / "a-propos.html").write_text(about_html, encoding="utf-8")
+
+    # Export JSON pour usage tiers (intégrations)
+    json_payload = {
+        "generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat(),
+        "n_ouvertes": len(fiches_ouvertes),
+        "n_archive": len(fiches_archive_only),
+        "opportunites": fiches_ouvertes,  # déjà strippés des champs _internes
+    }
+    (SITE_DIR / "data.json").write_text(
+        json.dumps(json_payload, ensure_ascii=False, indent=2, default=str),
+        encoding="utf-8",
+    )
 
     # CNAME (residence.actitude.org)
     (SITE_DIR / "CNAME").write_text("residence.actitude.org\n", encoding="utf-8")

@@ -363,8 +363,8 @@ def main():
             throttle.record_fetch(src, success=False, doc_count=0, status_code=500, state_path=throttle_state_path)
             continue
 
-        # Cap par source pour limiter le temps de run (V0)
-        max_items_per_source = src.get("max_items_per_run", 12)
+        # Cap par source pour limiter le temps de run
+        max_items_per_source = src.get("max_items_per_run", 20)
         if len(items) > max_items_per_source:
             print(f"  ↳ {len(items)} item(s) détecté(s) → cap à {max_items_per_source}")
             items = items[:max_items_per_source]
