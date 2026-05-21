@@ -35,7 +35,7 @@ TYPE_LABEL_FR = {
 }
 RSS_FILE = {"residence": "residences", "bourse": "bourses", "prix": "prix", "exposition": "expositions"}
 REPO = "CedricMabilotte/residence-veille"
-WORKER_URL = "VOTRE_URL_WORKER"  # ex. https://residence-suggest.xxx.workers.dev
+WORKER_URL = "https://residence-suggest.cedric-mabilotte.workers.dev"
 CONTACT_MAIL = "cedric.mabilotte@gmail.com"
 _MOIS_FR = ["", "janvier", "février", "mars", "avril", "mai", "juin", "juillet",
             "août", "septembre", "octobre", "novembre", "décembre"]
