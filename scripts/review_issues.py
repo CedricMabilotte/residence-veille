@@ -24,7 +24,7 @@ from pathlib import Path
 
 import yaml
 
-DEFAULT_REPO = "CedricMabilotte/veille-documentaire"
+DEFAULT_REPO = "CedricMabilotte/residence-veille"
 
 # URL extraite du body : 1re URL http(s) non-image, non-issue, non-asset.
 _URL_RE = re.compile(r"https?://[^\s)>\]\"']+", re.IGNORECASE)

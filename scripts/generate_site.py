@@ -35,7 +35,7 @@ TYPE_LABEL_FR = {
 }
 RSS_FILE = {"residence": "residences", "bourse": "bourses", "prix": "prix", "exposition": "expositions"}
 REPO = "CedricMabilotte/residence-veille"
-FORMSPREE_ID = "VOTRE_ID_FORMSPREE"
+WORKER_URL = "VOTRE_URL_WORKER"  # ex. https://residence-suggest.xxx.workers.dev
 CONTACT_MAIL = "cedric.mabilotte@gmail.com"
 _MOIS_FR = ["", "janvier", "février", "mars", "avril", "mai", "juin", "juillet",
             "août", "septembre", "octobre", "novembre", "décembre"]
@@ -794,19 +794,21 @@ def render_flux() -> str:
 
 
 def render_suggest() -> str:
-    action = f"https://formspree.io/f/{FORMSPREE_ID}" if FORMSPREE_ID != "VOTRE_ID_FORMSPREE" else ""
-    note = "" if action else (
+    active = bool(WORKER_URL) and WORKER_URL != "VOTRE_URL_WORKER"
+    note = "" if active else (
         '<p style="color:var(--accent)"><strong>Formulaire à activer :</strong> '
-        'créer un endpoint sur formspree.io et renseigner l\'ID dans generate_site.py. '
+        'déployer le Worker Cloudflare (voir worker/README.md) et renseigner son '
+        'URL dans generate_site.py. '
         f'En attendant : <a href="mailto:{CONTACT_MAIL}?subject=Suggestion%20de%20source">{CONTACT_MAIL}</a>.</p>')
-    attrs = f'action="{action}" method="POST"' if action else 'onsubmit="return false"'
+    form_attr = "" if active else ' onsubmit="return false"'
     body = f'''
 <a class="backlink" href="/">← Catalogue</a>
 <h2 class="sec">Suggérer une source</h2>
 <div class="prose"><p>Vous connaissez un site qui publie des appels pour plasticien·nes ?
-   Proposez-le — il sera instruit automatiquement au prochain passage de la veille.</p></div>
+   Proposez-le — il sera instruit automatiquement au prochain passage de la veille.
+   Aucun compte n'est nécessaire.</p></div>
 {note}
-<form class="suggest" {attrs}>
+<form class="suggest" id="suggest-form"{form_attr}>
   <label for="url">URL de la source *</label>
   <input type="url" id="url" name="url" placeholder="https://…" required>
   <label for="type">Type d'opportunités</label>
@@ -814,9 +816,56 @@ def render_suggest() -> str:
     <option>Résidences</option><option>Bourses</option><option>Prix</option><option>Expositions</option></select>
   <label for="note">Remarque (facultatif)</label>
   <textarea id="note" name="note" rows="3" placeholder="Pays, discipline, langue…"></textarea>
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true"
+         style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
   <p style="margin-top:1rem"><button class="cta" type="submit">Envoyer la suggestion</button></p>
+  <p id="suggest-msg" role="status" style="margin-top:.6rem"></p>
 </form>
 '''
+    if active:
+        body += """
+<script>
+(function () {
+  var f = document.getElementById('suggest-form');
+  var msg = document.getElementById('suggest-msg');
+  if (!f) return;
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = f.querySelector('button');
+    btn.disabled = true;
+    msg.style.color = '';
+    msg.textContent = 'Envoi…';
+    fetch(__WORKER_URL__, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        url: f.querySelector('#url').value,
+        type: f.querySelector('#type').value,
+        note: f.querySelector('#note').value,
+        _gotcha: f.querySelector('[name=_gotcha]').value
+      })
+    })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (d && d.ok) {
+          f.reset();
+          msg.style.color = 'var(--ok, #2e7d32)';
+          msg.textContent = 'Merci — votre suggestion a bien été transmise.';
+        } else {
+          msg.style.color = 'var(--accent)';
+          msg.textContent = 'Échec : ' + ((d && d.error) || 'réessayez plus tard') + '.';
+          btn.disabled = false;
+        }
+      })
+      .catch(function () {
+        msg.style.color = 'var(--accent)';
+        msg.textContent = 'Erreur réseau — réessayez plus tard.';
+        btn.disabled = false;
+      });
+  });
+})();
+</script>
+""".replace("__WORKER_URL__", json.dumps(WORKER_URL))
     return page_shell("Suggérer une source — Résidence", body, active="suggerer")
 
 
