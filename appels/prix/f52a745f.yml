@@ -1,28 +1,28 @@
 uid: f52a745f
 type: prix
 source_url: https://www.medialab-matadero.es/sites/default/files/2025-07/BASES%20PROY%20INVESTIGACION%2025-26_EN.pdf
-fetched_at: '2026-05-20T11:29:36+00:00'
+fetched_at: '2026-05-21T11:15:54+00:00'
 score: 8
 status: indetermine
 opportunite:
   nom: IV INVITATION TO PARTICIPATE IN THE SELECTION OF THREE SITUATED RESEARCH PROJECTS
     AS PART OF THE ANNUAL MEDIALAB MATADERO PROGRAM AT MATADERO MADRID 2025-2026
-  organisme: Madrid Destino
+  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
   lieu:
     ville: Madrid
     pays: Spain
-  nom_fr: IV INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS DE RECHERCHE
-    SITUÉS DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO MADRID 2025-2026
-  affichage_titre: BASES [IV INVITATION À PARTICIPER À LA SÉLECTION DE TROIS PROJETS
-    DE RECHERCHE SITUÉS DANS LE CADRE DU PROGRAMME ANNUEL MEDIALAB MATADERO À MATADERO
-    MADRID 2025-2026]
+  nom_fr: BASES
+  affichage_titre: BASES [BASES]
 candidature:
   date_limite: null
   langue_dossier:
   - Spanish
   - English
   frais_inscription: null
-  pieces_demandees: []
+  pieces_demandees:
+  - Research project proposal
+  - Project documentation
+  - Description of learning, dissemination and public feedback activities
   url_candidature: null
 eligibilite:
   disciplines:
@@ -47,87 +47,88 @@ eligibilite:
   age_max: null
   nationalite: null
   residence_administrative: Must possess necessary administrative authorizations to
-    stay in Spain during research project; must not be subject to prohibitions on
-    contracting per Article 71 of Public Sector Contracts Law
+    stay in Spain during the research project
 conditions_prix:
   dotation:
-    montant:
-      montant: null
-      devise: EUR
-    exposition: false
-    achat_oeuvre: false
-    edition_catalogue: false
-  jury_public: []
+    montant: null
+    devise: null
+  exposition: false
+  achat_oeuvre: false
+  edition_catalogue: false
+  jury_public: null
   nb_laureats: 3
-  editions_precedentes: []
-partenaires: []
-_meta:
-  extracted_confidence: 0.6
-  extracted_notes: Document provided appears incomplete - text stops mid-section 5.
-    Date limite de candidature and full application requirements not visible in supplied
-    excerpt.
-  extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T11:29:36+00:00'
-  source_lang: en
-  resume_fr: 'Matadero Madrid lance la quatrième édition du programme annuel Medialab
-    pour sélectionner trois projets de recherche au cours de la période 2025-2026.
-    Ces projets doivent explorer les relations entre l''art contemporain, le design,
-    la science, la technologie et la société, sur une période maximale d''un an. L''invitation
-    s''adresse aux individus ou groupes menant des recherches dans des domaines variés
-    : design, art, architecture, sciences, philosophie, ingénierie, etc. Les participants
-    doivent contribuer à la création d''un espace ouvert d''échange avec les audiences
-    et communautés de Medialab Matadero.'
-  detection_confidence: 0.95
-  detection_method: heuristic
-  source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-20'
+  editions_precedentes:
+  - I
+  - II
+  - III
+partenaires: null
 analyse:
-  synthese: This is the fourth edition of Medialab Matadero's Annual Research Projects
-    Program, an open international invitation to select three research projects for
-    the 2025-2026 period. The program supports projects exploring relationships between
-    contemporary art, design, science, technology and society, grounded in learning-by-doing
-    principles. Projects must engage with Medialab's thematic lines (Sentient Media,
-    The Metabolic Sublime, Synthetic Minds, Weird Futures) and contribute to exchange
-    with local and international audiences, culminating in a public presentation at
-    Matadero Madrid.
-  pour_qui: Individuals or groups conducting research in design, art, architecture,
-    urban planning, economics, film, photography, journalism, digital media, environmental
-    sciences, philosophy, engineering, social studies, political science, digital
-    tool programming, material sciences, activism or related fields; must be of legal
-    age and authorized to stay in Spain during the research project.
+  synthese: Medialab Matadero invites submissions for three situated research projects
+    to be developed over a maximum period of one year (2025-2026). Projects should
+    explore intersections between art, design, science, and technology, addressing
+    contemporary urban and global challenges aligned with the Sustainable Development
+    Goals. The program is open internationally to individuals or groups across multiple
+    disciplines, and Madrid Destino will cover costs of approved learning, dissemination,
+    and public feedback activities. Projects must engage with Medialab's thematic
+    lines and communities, and be presented in Spanish or English.
+  pour_qui: Researchers, artists, and professionals from diverse fields conducting
+    innovative, collaborative, and experimental research at the intersections of contemporary
+    art, design, science, and technology.
 a_savoir:
-- Fourth edition of the program - organisme has established track record
-- International open call with no geographic or nationality restrictions
-- Employees or persons with current relationship with Madrid Destino are ineligible
-- Mandatory engagement and dissemination activities required; participants must contribute
-  to exchange with local and international audiences
-- Working languages are both Spanish and English
-- No monetary compensation to artists mentioned; only coverage of learning, dissemination
-  and public feedback activities
-- Document provided appears incomplete; full application requirements and deadline
-  not visible
+- Application deadline date not specified in provided document excerpt
+- This is the fourth edition of the program (ongoing initiative)
+- International call - no explicit nationality restrictions
+- Participants must have legal authorization to stay in Spain
+- Current Madrid Destino employees are ineligible
+- Significant expected engagement with audiences and communities
+- Working languages are Spanish and English; bilingual communication expected
+- 'Duration: maximum one year'
 organisme_details:
-  site_web: https://www.medialab-matadero.es
+  site_web: null
   adresse: Calle Conde Duque 9-11, 28015 Madrid
   ville: Madrid
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: No monetary remuneration, bourse, per diem or dotation to artists
-    mentioned. Only learning, dissemination and public feedback activities costs are
-    covered.
-- id: hebergement
-  rempli: inconnu
-  justification: No accommodation provided mentioned in document.
-- id: atelier
   rempli: partiel
-  justification: Document states Medialab provides context and appropriate space for
-    project development but does not specify equipment or production facilities.
+  justification: Madrid Destino covers costs of learning, dissemination and public
+    feedback activities; no explicit artist remuneration or per diem mentioned
+- id: hebergement
+  rempli: non
+  justification: No accommodation provision mentioned
+- id: atelier
+  rempli: oui
+  justification: Medialab Matadero provides the context and appropriate space for
+    development of research projects
 - id: frais_pris_en_charge
   rempli: partiel
   justification: Madrid Destino covers costs of learning, dissemination and public
-    feedback activities, but not travel, production, or material transport.
+    feedback activities approved by Head of Programming
+_meta:
+  extracted_confidence: 0.55
+  extracted_notes: 'Document excerpt incomplete - cuts off mid-section 5. Critical
+    missing information: application deadline date, complete selection criteria, evaluation
+    process details, specific documentation requirements, contact email. Confidence
+    reduced due to incompleteness and missing key details for a complete call analysis.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-21T11:15:54+00:00'
+  source_lang: en
+  resume_fr: Il s'agit d'un appel à candidatures pour sélectionner trois projets de
+    recherche situés dans le cadre du programme annuel Medialab Matadero à Matadero
+    Madrid pour la période 2025-2026. Medialab Matadero, programme du centre de création
+    contemporaine Matadero Madrid géré par Madrid Destino, promeut la recherche multidisciplinaire,
+    collaborative et ouverte explorant les relations entre art contemporain, design,
+    science, technologie et société. Les trois projets seront développés sur une période
+    d'un an maximum et doivent engager un dialogue avec le programme annuel et les
+    communautés associées à Medialab Matadero. Les candidats peuvent être des individus
+    ou des groupes travaillant dans des domaines tels que le design, l'art, l'architecture,
+    l'urbanisme, l'économie, le cinéma, la photographie, le journalisme, les médias
+    numériques, les sciences environnementales, la philosophie, l'ingénierie, les
+    études sociales, et autres. Les langues de travail sont l'espagnol et l'anglais.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-21'
 _interne_affinite:
   match: false
   signaux: []

@@ -1,22 +1,23 @@
 uid: 56d7154d
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/05/Resolucio%CC%81n%20RESIDENCIA%20MEDIOAMBIENTE%202026.pdf
-fetched_at: '2026-05-20T11:13:13+00:00'
+fetched_at: '2026-05-21T11:02:06+00:00'
 score: 8
 status: indetermine
 opportunite:
-  nom: III Convocatoria del Centro de residencias artísticas de Matadero Madrid -
-    Residencias trimestrales de producción artística sobre Medioambiente 2026
+  nom: III Convocatoria del Centro de residencias artísticas de Matadero Madrid para
+    la asignación de ocho residencias trimestrales de producción artística sobre Medioambiente
+    destinadas a artistas visuales para 2026
   organisme: Madrid Destino Cultura Turismo y Negocio, S.A.
   lieu:
     ville: Madrid
     pays: España
     territorio: Comunidad de Madrid
-  nom_fr: Résolution Appel à candidature Résidences trimestrielles pour projets sur
-    l'environnement 2026
+  nom_fr: Résolution Appel à candidatures Résidences trimestrielles pour projets environnementaux
+    2026
   affichage_titre: Resolucíón Convocatoria Residencias trimestrales para proyectos
-    sobre el medioambiente 2026 [Résolution Appel à candidature Résidences trimestrielles
-    pour projets sur l'environnement 2026]
+    sobre el medioambiente 2026 [Résolution Appel à candidatures Résidences trimestrielles
+    pour projets environnementaux 2026]
 candidature:
   date_limite: null
   date_limite_precision: null
@@ -29,13 +30,13 @@ candidature:
 eligibilite:
   disciplines:
   - artes visuales
-  niveau_carriere: tous
+  niveau_carriere: null
   age_max: null
-  nationalite: España
+  nationalite: sans restriction
   residence_administrative: Comunidad de Madrid o España
 conditions_residence:
   duree:
-    semaines: null
+    semaines: 12
     dates: null
   hebergement: null
   atelier: null
@@ -50,60 +51,62 @@ conditions_residence:
   restitution: null
 partenaires: []
 _meta:
-  extracted_confidence: 0.15
-  extracted_notes: Document de résolution annonçant les résultats d'une convocatoria
-    fermée. Peu d'informations sur les conditions du programme disponibles.
+  extracted_confidence: 0.25
+  extracted_notes: 'Document incomplet : résolution de résultats annonçant les artistes
+    sélectionnés, non les bases complètes de l''appel. Informations manquantes : date
+    limite, frais d''inscription, conditions détaillées (logement, atelier, rémunération,
+    voyage).'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T11:13:13+00:00'
+  extracted_at: '2026-05-21T11:02:06+00:00'
   source_lang: es
-  resume_fr: Le Centre de résidences artistiques de Matadero Madrid annonce la résolution
-    de sa troisième convocation. 8 résidences trimestrales de production artistique
-    sur l'environnement sont attribuées à des artistes visuels. Sur 86 candidatures
-    reçues, 5 artistes résidant en Communauté de Madrid et 3 artistes résidant en
-    Espagne ont été sélectionnés, avec 2 suppléants pour chaque catégorie. L'annonce
-    a été faite le 12 mai 2026.
+  resume_fr: 'Madrid Destino Cultura Turismo y Negocio annonce les résultats de la
+    3ème convocation pour 8 résidences trimestrielles de production artistique sur
+    l''environnement, destinées aux artistes visuels en 2026. La Commission de valoración,
+    réunie le 8 mai 2026, a sélectionné les lauréats parmi 86 candidatures. Les résidences
+    sont ouvertes à deux catégories : les artistes résidents en Communauté de Madrid
+    et les artistes résidents en Espagne, avec des listes de titulaires et de suppléants
+    pour chacune.'
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-20'
+  last_status_check: '2026-05-21'
 analyse:
-  synthese: 'Cette résolution annonce les 8 lauréats sélectionnés (plus des suppléants)
-    pour la III Convocatoria del Centro de residencias artísticas de Matadero Madrid,
-    concernant des résidences trimestrales de production artistique basées sur des
-    projets environnementaux. Le programme s''adresse aux artistes visuels résidents
-    en Espagne, dans deux catégories : Comunidad de Madrid et reste de l''Espagne.
-    Aucune information sur la remunération, le logement, l''espace de travail, ou
-    les conditions de restitution n''est fournie dans ce document.'
-  pour_qui: Artistes visuels résidents en Espagne (Comunidad de Madrid ou reste du
-    pays) développant des projets artistiques basés sur l'environnement.
+  synthese: La III Convocatoria del Centro de residencias artísticas de Matadero Madrid
+    propose huit résidences trimestrales de production artistique axées sur l'environnement
+    pour les artistes visuels. Le programme s'adresse aux artistes résidant dans la
+    Communauté de Madrid ou en Espagne. Une commission d'évaluation a sélectionné
+    8 résidences parmi 86 candidatures le 8 mai 2026. Les conditions complètes du
+    programme ne figurent pas dans ce document.
+  pour_qui: Artistes visuels résidant dans la Communauté de Madrid ou en Espagne intéressés
+    par des projets sur l'environnement.
 a_savoir:
-- Ceci est une résolution de résultats annonçant les lauréats ; la convocatoria est
-  fermée et n'accepte plus de candidatures.
-- Date limite originale de candidature non mentionnée.
-- 'Informations manquantes : frais d''inscription, conditions de remunération, logement
-  fourni, espace de travail, prise en charge des frais de voyage, restitution attendue.'
-- Consulter les Bases de la III Convocatoria pour les conditions complètes du programme.
+- Ce document est une résolution de résultats, non les bases complètes de l'appel
+  à candidature
+- Troisième édition du programme (III Convocatoria)
+- 'Taux de sélection très compétitif : 8 résidences parmi 86 candidatures reçues (9,3
+  %)'
+- Les conditions du programme (rémunération, logement, atelier, frais pris en charge)
+  ne sont pas spécifiées dans ce document
 organisme_details:
   site_web: null
-  adresse: Calle Conde Duque, 9-11, 28015 Madrid
+  adresse: Conde Duque, 9-11, Madrid (C.P. 28015)
   ville: Madrid
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune mention de remunération, bourse ou allocation financière dans
-    ce document de résolution.
+  justification: Aucune mention de rémunération, bourse ou per diem dans le document
 - id: hebergement
   rempli: inconnu
-  justification: Aucune mention de logement fourni aux résidents.
+  justification: Aucune mention d'hébergement fourni
 - id: atelier
   rempli: inconnu
-  justification: Aucune mention d'espace de travail, studio ou équipements mis à disposition.
+  justification: Aucune mention d'espace de travail ou d'atelier fourni
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune mention de prise en charge des frais de voyage, transport
-    ou production.
+  justification: Aucune mention de couverture des frais de voyage ou de production
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - long séjour
   bonus_score: 0

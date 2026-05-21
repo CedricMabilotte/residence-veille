@@ -1,116 +1,116 @@
 uid: e3eef2e1
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_def.pdf
-fetched_at: '2026-05-20T11:21:57+00:00'
-score: 10
+fetched_at: '2026-05-21T11:09:08+00:00'
+score: 9
 status: indetermine
 opportunite:
   nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE
     MATADERO MADRID PARA LA ASIGNACIÓN DE CUATRO (4) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN
     ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA 2026
-  organisme: Matadero Madrid
+  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
   lieu:
     ville: Madrid
     pays: España
-    territorio: null
-  nom_fr: BASES DE RÉGULATION DE L'APPEL À CANDIDATURES DU CENTRE DE RÉSIDENCES ARTISTIQUES
-    DE MATADERO MADRID POUR L'ATTRIBUTION DE QUATRE (4) RÉSIDENCES TRIMESTRIELLES
-    DE PRODUCTION ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS RÉSIDANT EN ESPAGNE 2026
-  affichage_titre: BASES [BASES DE RÉGULATION DE L'APPEL À CANDIDATURES DU CENTRE
-    DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE QUATRE (4)
-    RÉSIDENCES TRIMESTRIELLES DE PRODUCTION ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS
-    RÉSIDANT EN ESPAGNE 2026]
+    territorio: Comunidad de Madrid
+  nom_fr: RÈGLES RÉGISSANT LA CONVOCATION DU CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO
+    MADRID POUR L'ATTRIBUTION DE QUATRE (4) RÉSIDENCES TRIMESTRIELLES DE PRODUCTION
+    ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS RÉSIDANT EN ESPAGNE 2026
+  affichage_titre: BASES [RÈGLES RÉGISSANT LA CONVOCATION DU CENTRE DE RÉSIDENCES
+    ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE QUATRE (4) RÉSIDENCES TRIMESTRIELLES
+    DE PRODUCTION ARTISTIQUE DESTINÉES AUX ARTISTES VISUELS RÉSIDANT EN ESPAGNE 2026]
 candidature:
   date_limite: null
   date_limite_precision: null
   langue_dossier:
   - es
   - en
-  frais_inscription:
-    montant: null
-    devise: EUR
-  pieces_demandees: []
-  url_candidature: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.mataderomadrid.org
 eligibilite:
   disciplines:
   - artes visuales
-  niveau_carriere: tous
+  niveau_carriere: todos
   age_max: null
-  nationalite: sans restriction
-  residence_administrative: residentes en España, fuera de la Comunidad de Madrid
+  nationalite: residentes en España
+  residence_administrative: España, fuera de la Comunidad de Madrid
 conditions_residence:
   duree:
-    semaines: 13
-    dates: 2026-01-13 à 2026-04-10
+    semaines: null
+    dates: 13 de enero al 10 de abril de 2026
   hebergement: null
-  atelier: Espacios en el Centro de residencias artísticas de Matadero Madrid para
-    la producción artística
+  atelier: espacios de producción artística en el Centro de residencias artísticas
+    de Matadero Madrid
   remuneration:
     montant: null
-    devise: EUR
+    devise: null
     periodicite: null
   voyage:
     pris_en_charge: false
     plafond: null
-    devise: EUR
+    devise: null
   restitution: null
 partenaires: []
 _meta:
-  extracted_confidence: 0.65
-  extracted_notes: Date limite de candidature non spécifiée. Montant de la rémunération
-    vague. Hébergement non explicitement mentionné. Texte source tronqué.
+  extracted_confidence: 0.55
+  extracted_notes: Document tronqué en fin de page. Date limite de candidature absente.
+    Rémunération mentionnée (recursos económicos) mais montant non spécifié. Hébergement
+    implicite mais non explicitement énoncé.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T11:21:57+00:00'
+  extracted_at: '2026-05-21T11:09:08+00:00'
   source_lang: es
-  resume_fr: Matadero Madrid propose 4 résidences de production artistique destinées
-    aux artistes visuels individuels ou collectifs résidant en Espagne (hors Communauté
-    de Madrid). Les résidences durent 3 mois, du 13 janvier au 10 avril 2026. Elles
-    incluent un accompagnement curatorial et professionnel, des ressources économiques,
-    des espaces de travail et une visibilité institutionnelle. Les candidats doivent
-    être majeurs avec résidence légale en Espagne et capacité juridique. Les artistes
-    cohabiteront avec d'autres résidents et agents culturels locaux et internationaux.
+  resume_fr: Le Centre de Résidences Artistiques de Matadero Madrid lance un appel
+    à candidatures pour quatre (4) résidences de production artistique destinées aux
+    artistes visuels résidant en Espagne, en dehors de la Communauté de Madrid. Les
+    résidences auront une durée de trois (3) mois, du 13 janvier au 10 avril 2026.
+    Le programme fournit des espaces, des ressources économiques, un accompagnement
+    curatorial et institutionnel, ainsi qu'une visibilité aux candidats sélectionnés.
+    Les candidatures sont ouvertes aux créateurs individuels ou collectifs, majeurs
+    et résidant légalement en Espagne.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-20'
+  last_status_check: '2026-05-21'
 analyse:
-  synthese: Résidence de production artistique de 3 mois (13 janvier au 10 avril 2026)
-    destinée à 4 artistes visuels ou collectifs résidant légalement en Espagne (hors
-    Madrid). Le programme fournit des espaces de production, des ressources économiques,
-    un accompagnement curatif et institutionnel, ainsi qu'une visibilité. Les résidents
-    interagissent avec d'autres artistes et agents culturels locaux et internationaux.
-  pour_qui: Artistes visuels majeurs, individuels ou collectifs, résidant légalement
-    en Espagne en dehors de la Communauté autonome de Madrid.
+  synthese: Matadero Madrid propose 4 résidences trimestrales de trois mois (13 janvier
+    au 10 avril 2026) pour artistes visuels résidant en Espagne hors de la Communauté
+    de Madrid. Le programme fournit des espaces de production, un accompagnement curatorial
+    et de production, ainsi que des ressources économiques non détaillées. Les résidents
+    cohabiteront avec d'autres créateurs et agents culturels, avec une communication
+    en espagnol et anglais.
+  pour_qui: Artistes visuales individuels ou collectifs ayant leur résidence administrative
+    en Espagne en dehors de la Communauté de Madrid, majeurs et ayant capacité de
+    obrar.
 a_savoir:
-- Date limite de candidature non spécifiée dans le document fourni
-- 'Restriction géographique stricte : résidence administrative obligatoire en Espagne
-  hors Madrid'
-- Anglais requis comme langue de communication habituelle avec les autres résidents
-- Montant des ressources économiques non précisé
-- Document source tronqué, informations potentiellement incomplètes
+- Date limite de candidature non visible dans l'extrait fourni
+- Montant et modalités de versement des ressources économiques non précisés
+- Hébergement présumé mais non explicitement confirmé comme fourni par l'organisme
+- Document incomplet (texte tronqué en fin de page 3)
 organisme_details:
   site_web: https://www.mataderomadrid.org
-  adresse: Calle Conde Duque 9-11, 28015 Madrid
+  adresse: calle Conde Duque 9-11, 28015 Madrid
   ville: Madrid
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: 'Recursos económicos mentionnés : ''proporcionar a los residentes
-    acompañamiento, tanto a nivel curatorial como a nivel de producción'''
+  rempli: inconnu
+  justification: Mention de 'recursos económicos' mais sans précision de montant,
+    nature (bourse, per diem, allocation) ou conditions de versement aux résidents.
 - id: hebergement
   rempli: inconnu
-  justification: Non explicitement mentionné dans le texte fourni
+  justification: Référence implicite via 'los residentes convivirán con otros artistas'
+    mais l'hébergement n'est pas explicitement énoncé comme fourni par l'organisme.
 - id: atelier
   rempli: oui
-  justification: '''Proporcionando espacios, facilitando la producción'' - espaces
-    fournis au Centre de résidences'
+  justification: '''proporcionando espacios, facilitando la producción'' dans les
+    locaux du Centro de residencias artísticas.'
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: Voyage, production et transport d'œuvres non mentionnés explicitement
+  rempli: non
+  justification: Aucune mention de prise en charge du voyage, transport d'œuvres ou
+    matériel.
 _interne_affinite:
-  match: true
+  match: false
   signaux:
   - collectif
-  - long séjour
-  bonus_score: 1
+  bonus_score: 0

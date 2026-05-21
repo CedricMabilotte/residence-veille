@@ -2,7 +2,7 @@ uid: fondation-des-artistes-105df959
 nom_canonique: Fondation des Artistes
 acronymes: []
 pays: null
-type_organisme: null
+type_organisme: fondation
 url_canonique: https://www.fondationdesartistes.fr
 urls_secondaires: []
 description_courte: null
@@ -16,12 +16,12 @@ opportunites_liees:
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: ministere-de-la-culture
-  occurrences: 1
+  occurrences: 2
   nom_brut: Ministère de la Culture
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-21'
   status: actif
   nouveaux_entrants: true
 ville: Nogent-sur-Marne

@@ -1,8 +1,8 @@
 uid: 96722c2c
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf
-fetched_at: '2026-05-20T11:10:53+00:00'
-score: 9
+fetched_at: '2026-05-21T11:00:47+00:00'
+score: 8
 status: indetermine
 opportunite:
   nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
@@ -12,9 +12,9 @@ opportunite:
   lieu:
     ville: Madrid
     pays: España
-    territorio: Comunidad de Madrid
-  nom_fr: BASES DE L'APPEL À CANDIDATURES
-  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURES]
+    territorio: null
+  nom_fr: BASES DE L'APPEL À CANDIDATURE
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURE]
 candidature:
   date_limite: null
   date_limite_precision: null
@@ -22,99 +22,93 @@ candidature:
   - es
   frais_inscription:
     montant: null
-    devise: EUR
-  pieces_demandees:
-  - formulario de solicitud
-  - certificado de empadronamiento
+    devise: null
+  pieces_demandees: []
   url_candidature: null
 eligibilite:
   disciplines:
   - artes visuales
-  nivel_carriere: tous
+  niveau_carriere: tous
   age_max: null
-  nacionalite: español·e|UE|extracomunitario con residencia legal en España
-  residence_administrative: España (mínimo 4 de 8 de Comunidad de Madrid)
+  nationalite: española|Unión Europea|extracomunitaria con residencia legal en España
+  residence_administrative: España
 conditions_residence:
   duree:
-    semaines: 12
-    dates: 15 de septiembre - 15 de diciembre de 2026
+    semaines: null
+    dates: 15 de septiembre de 2026 - 15 de diciembre de 2026
   hebergement: null
-  atelier: espacios de creación
+  atelier: Espacios de creación y acompañamiento a nivel de producción en el Centro
+    de residencias artísticas de Matadero Madrid
   remuneration:
     montant: null
-    devise: EUR
+    devise: null
     periodicite: null
   voyage:
     pris_en_charge: null
     plafond: null
-    devise: EUR
+    devise: null
   restitution: null
-partenaires:
-- Ayuntamiento de Madrid
+partenaires: []
 _meta:
-  extracted_confidence: 0.6
-  extracted_notes: Extrait incomplet du document ; certaines sections manquent (date
-    limite de candidature, détails des rémunérations, confirmation de l'hébergement).
-    Informations disponibles basées sur les pages 1-4.
+  extracted_confidence: 0.5
+  extracted_notes: 'Documento incompleto: se detiene a mitad de la sección 5. Faltan
+    secciones críticas sobre fecha límite, detalles de remuneración, hospedaje y cobertura
+    de viajes.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T11:10:53+00:00'
+  extracted_at: '2026-05-21T11:00:47+00:00'
   source_lang: es
-  resume_fr: Matadero Madrid lance un appel à candidatures pour attribuer 8 résidences
-    de production artistique d'une durée de 3 mois, du 15 septembre au 15 décembre
-    2026, destinées aux artistes visuels résidents en Espagne travaillant sur l'environnement.
-    Les résidences offrent des espaces de création, des ressources économiques, un
-    suivi professionnel et un accompagnement institutionnel. Les projets peuvent aborder
-    la pollution, le changement climatique, l'exploitation des ressources naturelles,
-    les espaces ruraux ou l'industrie alimentaire. La sélection se fera selon les
-    principes de publicité, concurrence, transparence, objectivité, égalité et non-discrimination.
+  resume_fr: Matadero Madrid lance un appel à candidature pour 8 résidences de production
+    artistique de 3 mois centrées sur l'environnement. Les résidences s'adressent
+    à des artistes visuales résidents en Espagne. Elles se dérouleront du 15 septembre
+    au 15 décembre 2026. Elles proposent des espaces de création, des ressources économiques,
+    un accompagnement professionnel et une visibilité.
   detection_confidence: 0.896551724137931
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-20'
+  last_status_check: '2026-05-21'
 analyse:
-  synthese: Matadero Madrid propose 8 résidences de production artistique de 3 mois
-    (15 septembre - 15 décembre 2026) destinées aux artistes visuels résidant en Espagne
-    et travaillant sur des enjeux environnementaux. Les résidents bénéficient d'espaces
-    de création et de ressources économiques dans un contexte d'accompagnement curatorial
-    et institutionnel. Minimum 4 des 8 projets sélectionnés doivent être d'artistes
-    résidant en Communauté de Madrid, les 4 autres pouvant provenir du reste de l'Espagne.
-  pour_qui: Artistes visuels individuels ou collectifs, résidant légalement en Espagne
-    (priorité Communauté de Madrid), abordant dans leur pratique des questions liées
-    à l'environnement.
+  synthese: Matadero Madrid ofrece 8 residencias de producción artística de 3 meses,
+    del 15 de septiembre al 15 de diciembre de 2026, dirigidas a artistas visuales
+    residentes en España que trabajen sobre medioambiente. El programa proporciona
+    espacios de creación, recursos económicos, acompañamiento profesional y visibilidad
+    institucional. Se seleccionarán mínimo 4 artistas de la Comunidad de Madrid y
+    máximo 4 del resto de España.
+  para_quien: Artistas visuales individuales o colectivos residentes en España de
+    mayoría de edad, con nacionalidad española, de la Unión Europea o extranjeros
+    con residencia legal, que trabajen sobre cuestiones de medioambiente.
 a_savoir:
-- Date limite de dépôt des candidatures non mentionnée dans l'extrait fourni
-- Montants des ressources économiques non précisés
-- 'Restriction géographique : résidence en Espagne obligatoire ; antécédent de résidence
-  à Matadero Madrid dans les 3 ans précédents exclut'
-- 'Langue de communication : castellano et anglais requis'
-- 'Thématique obligatoire : environnement (contaminación, cambio climático, explotación
-  de recursos naturales, ruralidad, industria alimentaria, etc.)'
+- 'Documento incompleto: falta la fecha límite de presentación de candidaturas.'
+- 'Remuneración no cuantificada: solo se menciona ''recursos económicos'' sin montantes
+  ni periodicidad.'
+- Detalles sobre hospedaje y cobertura de viajes no especificados.
+- 'Restricción de participación anterior: no pueden ser beneficiarios de residencia
+  en Matadero Madrid en los 3 años previos.'
+- 'Requisito de idiomas: se requiere permeabilidad al castellano e inglés para convivencia
+  con residentes internacionales.'
 organisme_details:
   site_web: null
-  adresse: calle Conde Duque 9-11, 28015 Madrid
+  adresse: Calle Conde Duque 9-11, 28015 Madrid
   ville: Madrid
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: Le texte mentionne « recursos económicos » mais ne précise ni montant
-    ni modalités de versement
+  rempli: partiel
+  justification: Se menciona 'recursos económicos' pero sin especificar montantes
+    ni periodicidad.
 - id: hebergement
   rempli: inconnu
-  justification: Le texte indique que « los residentes convivirán » avec d'autres
-    artistes mais ne confirme pas explicitement que le logement est fourni
+  justification: No se menciona explícitamente si se proporciona alojamiento durante
+    la residencia.
 - id: atelier
   rempli: oui
-  justification: « espacios de creación », « recursos espaciales » et « espace de
-    production » sont fournis aux résidents
+  justification: Se proporcionan 'espacios de creación' y 'acompañamiento a nivel
+    de producción proporcionando espacios'.
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune mention de prise en charge du voyage, du transport ou des
-    frais de production dans l'extrait fourni
+  justification: No se especifica cobertura de viajes, transporte de obras u otros
+    costos de producción.
 _interne_affinite:
-  match: true
+  match: false
   signaux:
-  - rural
   - collectif
-  - long séjour
-  bonus_score: 1
+  bonus_score: 0

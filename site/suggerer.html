@@ -150,9 +150,10 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
 <a class="backlink" href="/">← Catalogue</a>
 <h2 class="sec">Suggérer une source</h2>
 <div class="prose"><p>Vous connaissez un site qui publie des appels pour plasticien·nes ?
-   Proposez-le — il sera instruit automatiquement au prochain passage de la veille.</p></div>
-<p style="color:var(--accent)"><strong>Formulaire à activer :</strong> créer un endpoint sur formspree.io et renseigner l'ID dans generate_site.py. En attendant : <a href="mailto:cedric.mabilotte@gmail.com?subject=Suggestion%20de%20source">cedric.mabilotte@gmail.com</a>.</p>
-<form class="suggest" onsubmit="return false">
+   Proposez-le — il sera instruit automatiquement au prochain passage de la veille.
+   Aucun compte n'est nécessaire.</p></div>
+
+<form class="suggest" id="suggest-form">
   <label for="url">URL de la source *</label>
   <input type="url" id="url" name="url" placeholder="https://…" required>
   <label for="type">Type d'opportunités</label>
@@ -160,8 +161,53 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
     <option>Résidences</option><option>Bourses</option><option>Prix</option><option>Expositions</option></select>
   <label for="note">Remarque (facultatif)</label>
   <textarea id="note" name="note" rows="3" placeholder="Pays, discipline, langue…"></textarea>
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true"
+         style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
   <p style="margin-top:1rem"><button class="cta" type="submit">Envoyer la suggestion</button></p>
+  <p id="suggest-msg" role="status" style="margin-top:.6rem"></p>
 </form>
+
+<script>
+(function () {
+  var f = document.getElementById('suggest-form');
+  var msg = document.getElementById('suggest-msg');
+  if (!f) return;
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = f.querySelector('button');
+    btn.disabled = true;
+    msg.style.color = '';
+    msg.textContent = 'Envoi…';
+    fetch("https://residence-suggest.cedric-mabilotte.workers.dev", {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        url: f.querySelector('#url').value,
+        type: f.querySelector('#type').value,
+        note: f.querySelector('#note').value,
+        _gotcha: f.querySelector('[name=_gotcha]').value
+      })
+    })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (d && d.ok) {
+          f.reset();
+          msg.style.color = 'var(--ok, #2e7d32)';
+          msg.textContent = 'Merci — votre suggestion a bien été transmise.';
+        } else {
+          msg.style.color = 'var(--accent)';
+          msg.textContent = 'Échec : ' + ((d && d.error) || 'réessayez plus tard') + '.';
+          btn.disabled = false;
+        }
+      })
+      .catch(function () {
+        msg.style.color = 'var(--accent)';
+        msg.textContent = 'Erreur réseau — réessayez plus tard.';
+        btn.disabled = false;
+      });
+  });
+})();
+</script>
 
 <footer>
   <p>Mise à jour automatique — sources FR / EN / ES, interface FR.

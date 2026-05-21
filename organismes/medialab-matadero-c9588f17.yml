@@ -23,12 +23,18 @@ opportunites_liees:
 - uid: ed8b9099
   type: prix
   nom: Open Call for Projects and Collaborators for LAB 5 The Mechanics of Truth Collaborative Prototyping Laboratory
+- uid: fb7d0178
+  type: prix
+  nom: CALL FOR COLLABORATORS FOR THE COLLABORATIVE PROTOTYPING LABORATORY LAB 4 WEIRD FUTURES
 track_record: {}
-partenaires_mentionnes: []
+partenaires_mentionnes:
+- organisme_uid: matadero-madrid
+  occurrences: 1
+  nom_brut: Matadero Madrid
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-21'
   status: actif
   nouveaux_entrants: true
 ville: Madrid

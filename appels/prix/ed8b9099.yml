@@ -1,25 +1,30 @@
 uid: ed8b9099
 type: prix
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf
-fetched_at: '2026-05-20T11:20:43+00:00'
+fetched_at: '2026-05-21T11:08:03+00:00'
 score: 7
 status: indetermine
 opportunite:
-  nom: Open Call for Projects and Collaborators for LAB 5 The Mechanics of Truth Collaborative
-    Prototyping Laboratory
+  nom: OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH
+    COLLABORATIVE PROTOTYPING LABORATORY
   organisme: Medialab Matadero
   lieu:
     ville: Madrid
-    pays: Spain
-  nom_fr: CADRE RÉGLEMENTAIRE
-  affichage_titre: REGULATORY FRAMEWORK [CADRE RÉGLEMENTAIRE]
+    pays: Espagne
+  nom_fr: CADRE RÉGLEMENTAIRE POUR L'APPEL OUVERT À PROJETS ET COLLABORATEURS DU LAB
+    5 LES MÉCANISMES DE LA VÉRITÉ, LABORATOIRE DE PROTOTYPAGE COLLABORATIF
+  affichage_titre: REGULATORY FRAMEWORK [CADRE RÉGLEMENTAIRE POUR L'APPEL OUVERT À
+    PROJETS ET COLLABORATEURS DU LAB 5 LES MÉCANISMES DE LA VÉRITÉ, LABORATOIRE DE
+    PROTOTYPAGE COLLABORATIF]
 candidature:
   date_limite: null
   date_limite_precision: null
   langue_dossier:
-  - English
-  - Spanish
-  frais_inscription: null
+  - Anglais
+  - Espagnol
+  frais_inscription:
+    montant: null
+    devise: null
   pieces_demandees: null
   url_candidature: null
 eligibilite:
@@ -27,75 +32,62 @@ eligibilite:
   - design
   - art
   - architecture
-  - urban planning
-  - economics
-  - film
-  - photography
-  - journalism
-  - digital media
-  - environmental sciences
-  - philosophy
-  - engineering
-  - social studies
-  - political science
-  - programming
-  - materials science
-  - activism
-  niveau_carriere: any level of qualification
+  - urbanisme
+  - économie
+  - cinéma
+  - photographie
+  - journalisme
+  - médias numériques
+  - sciences environnementales
+  - philosophie
+  - ingénierie
+  - études sociales
+  - sciences politiques
+  - programmation
+  - science des matériaux
+  - activisme
+  niveau_carriere: null
   age_max: null
-  nationalite: participants from Spain and abroad
+  age_min: Majorité légale
+  nationalite: Pas de restriction (international)
   residence_administrative: null
+  niveau_anglais_requis: Moyen-haut
 conditions_prix:
   dotation:
-    montant:
-      montant: null
-      devise: EUR
-    exposition: true
-    achat_oeuvre: false
-    edition_catalogue: false
-  jury_public: null
+    montant: null
+    devise: null
+  exposition: false
+  achat_oeuvre: false
+  edition_catalogue: false
   nb_laureats: 5
+  nb_laureats_collaborateurs: 20
+  nb_collaborateurs_par_projet_max: 4
   editions_precedentes:
   - LAB 1
   - LAB 2
   - LAB 3
   - LAB 4
+jury_public: null
 partenaires: null
-_meta:
-  extracted_confidence: 0.65
-  extracted_notes: Document excerpt is incomplete (text cut off). No application deadline
-    identified in provided content. Program structure and eligibility clear; financial
-    and submission details not fully visible.
-  extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-20T11:20:43+00:00'
-  source_lang: en
-  resume_fr: LAB 5 The Mechanics of Truth est un appel international pour sélectionner
-    5 projets et jusqu'à 20 collaborateurs. Le Laboratoire de Prototypage Collaboratif
-    dure 2 semaines, du 12 au 25 novembre 2026, à Matadero Madrid. Les projets sélectionnés
-    seront présentés publiquement du 26 au 28 novembre 2026. Une session de questions-réponses
-    est prévue le 28 mai 2026 à 6pm.
-  detection_confidence: 0.95
-  detection_method: heuristic
-  source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-20'
 analyse:
-  synthese: LAB 5 The Mechanics of Truth is an intensive 2-week collaborative prototyping
-    laboratory (12–25 November 2026) selecting 5 projects and up to 20 collaborators
-    from any discipline and background worldwide. Participants form interdisciplinary
-    teams supported by expert mentors, working in provided workspace to develop projects
-    exploring technological mechanisms of reality and truth. Results presented publicly
-    at OpenLAB festival, 26–28 November 2026, at Matadero Madrid. Medium-high English
-    proficiency required; projects developed using open-source tools and shared under
-    Creative Commons licenses.
-  pour_qui: Individuals of legal age from any background, discipline, and country
-    with medium-high English proficiency seeking intensive collaborative artistic
-    and research creation around truth, technology, and representation.
+  synthese: LAB 5 The Mechanics of Truth est un laboratoire de prototypage collaboratif
+    intensif de 2 semaines (12-25 novembre 2026) organisé par Medialab Matadero, acceptant
+    5 projets et 20 collaborateurs maximum. L'appel est ouvert mondialement à toute
+    discipline, sans restriction de nationalité ni de niveau de qualification. Les
+    participants développent collaborativement des projets explorant comment les technologies
+    façonnent la réalité partagée et l'impact démocratique. Les résultats seront présentés
+    lors du festival OpenLAB (26-28 novembre 2026).
+  pour_qui: Individus majeurs de toute discipline et provenance géographique possédant
+    un niveau d'anglais moyen-haut et intéressés par la création transdisciplinaire
+    collaborative en recherche artistique, science et technologie.
 a_savoir:
-- No application deadline specified in provided text excerpt
-- English language requirement (medium-high level mandatory)
-- Intensive 2-week time commitment (12–25 November 2026)
-- No monetary remuneration mentioned; participants gain workspace and mentor access
-- Document appears incomplete; supplementary application details not provided in excerpt
+- Date limite de candidature absente du document
+- Aucune dotation financière, bourse ou rémunération mentionnée
+- Aucun hébergement fourni mentionné
+- Aucune couverture de frais de voyage ou production mentionnée
+- Anglais moyen-haut requis, pas de traduction consécutive offerte
+- Laboratoire intensif très court (2 semaines consécutives)
+- Document fourni est le règlement complet mais incomplet (coupe au milieu du texte)
 organisme_details:
   site_web: www.medialab-matadero.es
   adresse: null
@@ -104,19 +96,39 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: non
-  justification: No monetary remuneration, bourse, per diem, or financial award to
-    participants mentioned.
+  justification: Aucune rémunération, bourse, per diem ou dotation monétaire mentionnée
 - id: hebergement
-  rempli: inconnu
-  justification: Accommodation provision not addressed in provided text.
+  rempli: non
+  justification: Pas de logement fourni. Laboratoire tenu aux installations Medialab
+    à Matadero Madrid
 - id: atelier
   rempli: oui
-  justification: Text specifies 'a workspace in which to develop each project' is
-    provided.
+  justification: '''a workspace in which to develop each project'' et ''a workspace
+    in which to develop each project'' fourni pour chaque groupe de travail'
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: Travel, production, and material costs not mentioned in provided
-    excerpt.
+  rempli: non
+  justification: Aucune mention de prise en charge des frais de voyage, production,
+    transport de matériel ou d'œuvres
+_meta:
+  extracted_confidence: 0.55
+  extracted_notes: 'Document incomplet, s''arrête en milieu de phrase. Date limite
+    de candidature totalement absente. Programme de laboratoire collaboratif, pas
+    un concours/prix traditionnel. Schéma adapté (type prix fourni mais non applicable).
+    Lieu confirmé: Madrid. Organisme: Medialab Matadero (part de Matadero Madrid).'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-21T11:08:03+00:00'
+  source_lang: en
+  resume_fr: LAB 5 The Mechanics of Truth est le cinquième laboratoire développé par
+    Medialab Matadero depuis 2022. L'appel international cherche à sélectionner 5
+    projets et un maximum de 20 collaborateurs pour son Laboratoire de Prototypage
+    Collaboratif. Ce séminaire intensif de 2 semaines se déroulera du 12 au 25 novembre
+    2026 (du lundi au samedi) aux installations de Medialab à Matadero Madrid, avec
+    une présentation publique du 26 au 28 novembre 2026. Une session de questions-réponses
+    en ligne aura lieu le 28 mai 2026 à 18h.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-21'
 _interne_affinite:
   match: false
   signaux: []
