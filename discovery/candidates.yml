@@ -10691,14 +10691,14 @@ candidates:
     hashtag: opencall
     instance: mamot.fr
   suggested_action: follow_one_time
-- url: '**'
+- url: https://www.rurart.org/
   type: community_suggestion
-  source_type: html
+  source_type: Résidences
   label: null
-  justification: '** Test de mise en service du formulaire de suggestion.'
+  justification: Test de mise en service du formulaire de suggestion.
   issue_number: 2
   issue_url: https://github.com/CedricMabilotte/residence-veille/issues/2
-  probe_ok: false
-  discovered_at: '2026-05-21T11:22:05.070495+00:00'
+  probe_ok: true
+  discovered_at: '2026-05-21T11:26:05.408487+00:00'
 last_updated: '2026-05-21T11:21:00'
 total_candidates: 511

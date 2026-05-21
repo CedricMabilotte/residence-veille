@@ -28,14 +28,16 @@ DEFAULT_REPO = "CedricMabilotte/residence-veille"
 
 # URL extraite du body : 1re URL http(s) non-image, non-issue, non-asset.
 _URL_RE = re.compile(r"https?://[^\s)>\]\"']+", re.IGNORECASE)
+# Les `\**` tolèrent toute disposition des astérisques markdown autour du nom
+# de champ et après le séparateur — p. ex. « **URL:** v », « **URL**: v », « URL: v ».
 _ISSUE_TPL_FIELDS = {
-    "url":           re.compile(r"^\s*(?:\*\*)?URL(?:\*\*)?\s*[:\-]\s*(\S+)", re.I | re.M),
-    "label":         re.compile(r"^\s*(?:\*\*)?Label(?:\*\*)?\s*[:\-]\s*(.+)$", re.I | re.M),
-    "type":          re.compile(r"^\s*(?:\*\*)?Type(?:\*\*)?\s*[:\-]\s*(\w+)", re.I | re.M),
-    "justification": re.compile(r"^\s*(?:\*\*)?Justification(?:\*\*)?\s*[:\-]\s*(.+)$", re.I | re.M),
-    "doc_url":       re.compile(r"^\s*(?:\*\*)?Doc(?:\s*URL)?(?:\*\*)?\s*[:\-]\s*(\S+)", re.I | re.M),
-    "old_score":     re.compile(r"^\s*(?:\*\*)?Score actuel(?:\*\*)?\s*[:\-]\s*(\d+)", re.I | re.M),
-    "new_score":     re.compile(r"^\s*(?:\*\*)?Score proposé(?:\*\*)?\s*[:\-]\s*(\d+)", re.I | re.M),
+    "url":           re.compile(r"^\s*\**\s*URL\s*\**\s*[:\-]\s*\**\s*(\S+)", re.I | re.M),
+    "label":         re.compile(r"^\s*\**\s*Label\s*\**\s*[:\-]\s*\**\s*(.+)$", re.I | re.M),
+    "type":          re.compile(r"^\s*\**\s*Type\s*\**\s*[:\-]\s*\**\s*(\w+)", re.I | re.M),
+    "justification": re.compile(r"^\s*\**\s*Justification\s*\**\s*[:\-]\s*\**\s*(.+)$", re.I | re.M),
+    "doc_url":       re.compile(r"^\s*\**\s*Doc(?:\s*URL)?\s*\**\s*[:\-]\s*\**\s*(\S+)", re.I | re.M),
+    "old_score":     re.compile(r"^\s*\**\s*Score actuel\s*\**\s*[:\-]\s*\**\s*(\d+)", re.I | re.M),
+    "new_score":     re.compile(r"^\s*\**\s*Score proposé\s*\**\s*[:\-]\s*\**\s*(\d+)", re.I | re.M),
 }
 
 
