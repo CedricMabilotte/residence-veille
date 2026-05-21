@@ -87,6 +87,14 @@ sources:
     type: html
     min_interval_days: 14
 
+  # Rurart — centre d'art contemporain (Vienne, FR). Suggestion communautaire
+  # validée via issue #2. PDFs en sous-pages → deep_html (cf. probe).
+  - label: "Rurart — centre d'art / résidences"
+    url: "https://www.rurart.org/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 14
+
   # ── E. Hispanophones ───────────────────────────────────────────────────────
 
   - label: "Hangar Barcelona"
