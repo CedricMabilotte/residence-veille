@@ -112,17 +112,48 @@ sources:
     max_pages: 10
     min_interval_days: 7
 
-  # ── F. Sources de validation pilote ────────────────────────────────────────
-  # À probe avant activation. Décommenter après validation manuelle.
+  # ── F. Agrégateurs & institutions requalifiés (probe nouveau modèle HTML) ──
+  # Sources validées via probe_source.py après le refactor « zéro PDF ».
 
-  # - label: "Documents d'Artistes PACA"
-  #   url: "https://www.dda-paca.net/"
-  #   type: deep_html
-  #   max_pages: 15
-  #   min_interval_days: 14
+  - label: "Curator Space — opportunities (EN)"
+    url: "https://www.curatorspace.com/opportunities"
+    type: deep_html
+    max_pages: 25
+    min_interval_days: 7
 
-  # - label: "FRAC Île-de-France"
-  #   url: "https://www.fraciledefrance.com/"
-  #   type: deep_html
-  #   max_pages: 10
-  #   min_interval_days: 14
+  - label: "Casa de Velázquez — Académie de France à Madrid"
+    url: "https://www.casadevelazquez.org/"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 14
+
+  - label: "ADAGP — actualités (appels, bourses, prix)"
+    url: "https://www.adagp.fr/fr/actualites"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  # ── G. Lieux, fondations & réseaux (résidences au cas par cas) ─────────────
+
+  - label: "Documents d'Artistes PACA"
+    url: "https://www.dda-paca.net/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  - label: "FRAC Île-de-France"
+    url: "https://www.fraciledefrance.com/"
+    type: deep_html
+    max_pages: 12
+    min_interval_days: 14
+
+  - label: "Villa Albertine — résidences (USA)"
+    url: "https://villa-albertine.org/"
+    type: deep_html
+    max_pages: 12
+    min_interval_days: 14
+
+  - label: "Moly-Sabata — résidence (Sablons)"
+    url: "https://www.moly-sabata.com/"
+    type: html
+    min_interval_days: 14
