@@ -1,0 +1,105 @@
+uid: 1fb0c6ab
+type: bourse
+source_url: https://on-the-move.org/resources/funding/mobility-funding-guide-indonesia
+fetched_at: '2026-05-22T09:44:56+00:00'
+score: 9
+status: indetermine
+opportunite:
+  nom: Mobility Funding Guide to Indonesia
+  organisme: On the Move (in partnership with ASEF - Asia-Europe Foundation)
+  lieu:
+    ville: null
+    pays: Indonesia
+  nom_fr: Guide de financement de la mobilité pour l'Indonésie
+  affichage_titre: Mobility Funding Guide to Indonesia [Guide de financement de la
+    mobilité pour l'Indonésie]
+candidature:
+  date_limite: null
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - all arts and cultural sectors
+  niveau_carriere: null
+  age_max: null
+  nationalite: Indonesian nationals and residents (outgoing); non-Indonesian nationals
+    (incoming)
+  residence_administrative: Indonesia or other countries depending on opportunity
+    direction
+conditions_bourse:
+  montant:
+    montant: null
+    devise: EUR
+  finalite: null
+  calendrier_usage: null
+  obligations_rendu: null
+partenaires:
+- ASEF - Asia-Europe Foundation
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: This is a funding guide (directory/resource listing), not a specific
+    call for applications. No concrete opportunity details available on this page.
+    The guide lists multiple opportunities but does not itself constitute an application
+    opportunity.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T09:44:56+00:00'
+  source_lang: en
+  resume_fr: 'Le guide recense les sources de financement nationales, locales et internationales
+    pour la mobilité transfrontalière des artistes et travailleurs culturels depuis
+    et vers l''Indonésie. Il propose deux catégories d''opportunités : les bourses
+    pour les résidents indonésiens souhaitant voyager à l''étranger, et les bourses
+    pour les artistes étrangers venant en Indonésie. Le guide inclut uniquement les
+    opportunités régulières accessibles en ligne, telles que les tournées, résidences,
+    collaborations et formations. Publié en 2016 et 2024 par On the Move en partenariat
+    avec l''Asia-Europe Foundation, ce guide s''inscrit dans une série de 60 guides
+    de financement publiés depuis 2011.'
+  detection_confidence: 0.7
+  detection_method: claude
+  source_label: On-the-Move — Funding (EN/FR/ES)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: This is a comprehensive funding guide published by On the Move in partnership
+    with ASEF, listing cross-border mobility opportunities for artists and cultural
+    workers. It covers both outgoing opportunities (for Indonesian nationals and residents
+    traveling abroad) and incoming opportunities (for international artists traveling
+    to Indonesia). The guide includes regular, online-accessible opportunities such
+    as touring, residencies, collaborations, and training programs from public and
+    private funders.
+  pour_qui: Artists and cultural workers who are Indonesian nationals, residents,
+    or seeking to work in Indonesia across all artistic disciplines.
+a_savoir:
+- This is a guide/directory, not a direct application opportunity—users must identify
+  specific programs listed within the guide and apply directly to them.
+- The guide was last updated in 2024 but focuses on regular, ongoing opportunities
+  (not one-off or short-term programs).
+- Only opportunities accessible online with open calls are included; offline or non-open-call
+  schemes are excluded.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: mobility@on-the-move.org
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Guide lists opportunities but does not detail financial support specifics
+    on this page.
+- id: hebergement
+  rempli: inconnu
+  justification: Guide lists opportunities but does not detail accommodation provisions
+    on this page.
+- id: atelier
+  rempli: inconnu
+  justification: Guide lists opportunities but does not detail workspace provision
+    on this page.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Guide lists opportunities but does not detail cost coverage on this
+    page.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

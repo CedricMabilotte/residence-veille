@@ -1,0 +1,100 @@
+uid: 1e42f10a
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/academie-centrale-des-beaux-arts-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T10:18:44+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Académie Centrale des Beaux-Arts x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://www.citeinternationaledesarts.fr/programme-de-residence/academie-centrale-des-beaux-arts-x-cite-internationale-des-arts
+eligibilite:
+  disciplines:
+  - peinture
+  - design
+  - histoire de l'art
+  - gestion de l'art
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 mois
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Académie Centrale des Beaux-Arts
+_meta:
+  extracted_confidence: 0.5
+  extracted_notes: 'Informations basiques disponibles (lieu, durée, partenaire, disciplines).
+    Manquent : date limite, détails hébergement et atelier, rémunération, frais, voyage.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:18:44+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Résidences de 3 mois à la Cité Internationale des Arts à Paris pour les
+    membres de l'Académie Centrale des Beaux-Arts. 4 résidences accordées annuellement
+    depuis 1993. Ouvert aux artistes et membres de la faculté en peinture, design,
+    histoire de l'art, gestion de l'art et domaines connexes. Permet de mener des
+    recherches et développer les pratiques artistiques au cœur de Paris.
+  pour_qui: Artistes et membres de la faculté de l'Académie Centrale des Beaux-Arts
+    de Pékin en peinture, design, histoire de l'art, gestion de l'art et domaines
+    connexes.
+a_savoir:
+- Pas d'information sur les frais d'inscription
+- Rémunération de l'artiste non précisée
+- Conditions d'hébergement et d'espace de travail non mentionnées
+- Pas de date limite de candidature fournie
+- Prise en charge des frais de voyage non mentionnée
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire
+- id: hebergement
+  rempli: inconnu
+  justification: Le texte évoque que les artistes 'développent leurs pratiques au
+    cœur de Paris' mais ne précise pas si un logement est fourni
+- id: atelier
+  rempli: inconnu
+  justification: Pas de mention d'espace de travail, atelier ou équipements mis à
+    disposition
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune indication sur la prise en charge de voyage, production, transport
+    ou autres frais
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

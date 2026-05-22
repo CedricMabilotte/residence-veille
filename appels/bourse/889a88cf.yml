@@ -1,0 +1,99 @@
+uid: 889a88cf
+type: bourse
+source_url: https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027
+fetched_at: '2026-05-22T10:00:16+00:00'
+score: 8
+status: ouverte
+opportunite:
+  nom: Saison Pologne-France 2027 / Sezon Francja-Polska 2027
+  organisme: Institut français
+  lieu:
+    ville: null
+    pays: Pologne
+candidature:
+  date_limite: '2026-06-22'
+  langue_dossier:
+  - français
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027
+eligibilite:
+  disciplines:
+  - Architecture
+  - Arts Visuels
+  - Photographie
+  - Cinéma
+  - Création numérique
+  - Débat d'idées
+  - Livre
+  - Métiers d'art
+  - Design
+  - Spectacle vivant
+  - Musique
+  niveau_carriere: null
+  age_max: null
+  nationalite: française ou polonaise
+  residence_administrative: null
+conditions_bourse:
+  montant:
+    montant: null
+    devise: EUR
+  finalite: null
+  calendrier_usage: '2027'
+  obligations_rendu: null
+partenaires:
+- Institut Adam Mickiewicz
+- Institut polonais de Paris
+- Ambassade de France en Pologne
+- Ministère de la Culture (France)
+- Ministère des Affaires étrangères (France)
+_meta:
+  extracted_confidence: 0.55
+  extracted_notes: Appel à projets de programmation culturelle destiné à des structures,
+    non à des artistes individuels. Montants d'aide et conditions financières non
+    spécifiés sur cette page. Dépôt sur plateforme IFProg requise.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:00:16+00:00'
+  source_lang: fr
+  detection_confidence: 0.78
+  detection_method: claude
+  source_label: Institut français — résidences internationales
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: 'L''Institut français lance un appel à projets pour la Saison Pologne-France
+    2027, destiné à des structures françaises ou polonaises proposant des projets
+    en Pologne. Les projets doivent couvrir l''une des quatre thématiques : démocratie
+    et solidarités, Europe en partage, agentivité à l''ère algorithmique, ou relation
+    franco-polonaise. Le programme s''inscrit dans le contexte du Traité de Nancy
+    (2025). Date limite : 22 juin 2026 à 23h59 CET sur plateforme IFProg.'
+  pour_qui: Structures (organisations culturelles, institutions, collectifs) françaises
+    ou polonaises actives dans les domaines culturels et créatifs.
+a_savoir:
+- Appel à projets destiné à des structures institutionnelles, non à des artistes individuels
+- Montants des subventions non précisés sur cette page
+- Dépôt obligatoire sur plateforme IFProg
+- Règlement des subventions et FAQ à consulter avant candidature
+organisme_details:
+  site_web: https://www.institutfrancais.com
+  adresse: null
+  ville: null
+  contact_email: Pôle Saisons et Temps forts de l'Institut français (contact non spécifié)
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: « Règlement des subventions de l'Institut français » mentionné mais
+    montants et conditions non détaillés.
+- id: hebergement
+  rempli: non
+  justification: Aucune mention d'hébergement fourni aux projets sélectionnés.
+- id: atelier
+  rempli: non
+  justification: Aucune mention d'espace de travail ou d'atelier fourni.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Nature et couverture des frais subventionnés non spécifiées publiquement.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

@@ -1,0 +1,750 @@
+{
+  "started_at": "2026-05-22T09:37:27.265024+00:00",
+  "ended_at": "2026-05-22T10:39:14.756819+00:00",
+  "duration_sec": 3707.491795,
+  "dry_run": false,
+  "n_sources": 13,
+  "n_items_total": 85,
+  "n_promoted_total": 25,
+  "sources_stats": [
+    {
+      "label": "TransArtists — Air listings (EN)",
+      "items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "Res Artis — Listings (EN)",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "On-the-Move — Funding (EN/FR/ES)",
+      "items": 15,
+      "promoted": 1
+    },
+    {
+      "label": "e-flux — Announcements (EN)",
+      "items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "CNAP — soutien à la création",
+      "items": 12,
+      "promoted": 2
+    },
+    {
+      "label": "Fondation des Artistes",
+      "items": 10,
+      "promoted": 4
+    },
+    {
+      "label": "Institut français — résidences internationales",
+      "items": 15,
+      "promoted": 6
+    },
+    {
+      "label": "Salon de Montrouge — accueil",
+      "items": 5,
+      "promoted": 1
+    },
+    {
+      "label": "Cité internationale des arts — résidences",
+      "items": 15,
+      "promoted": 9
+    },
+    {
+      "label": "Pollen — résidence (Monflanquin)",
+      "items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Rurart — centre d'art / résidences",
+      "items": 2,
+      "promoted": 0
+    },
+    {
+      "label": "Hangar Barcelona",
+      "items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "MATADERO Madrid — convocatorias",
+      "items": 8,
+      "promoted": 2
+    }
+  ],
+  "logs": [
+    {
+      "url": "https://www.transartists.org/en/air",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.2,
+        "method": "claude",
+        "reasoning": "Page inaccessible (« You are not authorized to access this page »). Inférence basée uniquement sur le domaine transartists.org et le chemin '/air' (artist in residence), mais impossible de vérifier le contenu réel.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-africa",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Ce guide répertorie des ressources de financement pour la mobilité artistique ('cultural mobility funding guide'), mais ce n'est pas un appel à candidature lui-même. Il couvre potentiellement plusieurs types (résidences, collaborations, formations mentionnées), avec un focus sur le soutien financier à la mobilité, ce qui correspond le mieux aux bourses, mais la faible confiance reflète que c'est un répertoire de ressources externes plutôt qu'une opportunité directe.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-brazil",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.65,
+        "method": "claude",
+        "reasoning": "Guide de ressources de financement pour la mobilité artistique (\"mobility funding guide\") listant soutiens financiers pour artistes voyageant vers/depuis le Brésil, sans appel direct spécifique",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-caribbean",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-latin-america-and-caribbean",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Cette page est un guide compilant des opportunités de financement de mobilité (« mobility funding guide »), non un appel à candidature spécifique. Elle liste plusieurs types d'opportunités incluant résidences, formations et collaborations. Classement incertain car il s'agit d'une ressource générale, pas d'un appel direct.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-bangladesh",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.45,
+        "method": "claude",
+        "reasoning": "Guide de financement pour la mobilité transfrontalière d'artistes ('cultural mobility funding guide'), mais ce n'est pas une appel à candidature unique — c'est un répertoire qui couvre plusieurs types d'opportunités (résidences, bourses, etc.). Classification incertaine car le document est un annuaire de ressources plutôt qu'un appel spécifique.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-brunei-darussalam",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Ce document est un guide compilant des ressources de financement pour la mobilité (mobility funding guide), pas un appel à candidature spécifique. Il recense plutôt des opportunités variées (résidences, collaborations, formation). Si classement obligatoire : s'en rapproche le plus car centré sur soutien financier pour mobilité transfrontalière.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-cambodia",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.45,
+        "method": "claude",
+        "reasoning": "Guide de financement listant des ressources et opportunités de mobilité artistique (résidences, formations, collaborations), mais ce n'est pas un appel à candidature spécifique — c'est un répertoire de ressources",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-indonesia",
+      "status": "promoted",
+      "score": 9,
+      "type": "bourse",
+      "confidence": 0.7,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.e-flux.com/announcements",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.25,
+        "method": "claude",
+        "reasoning": "Page d'annonces générales e-flux sans détails spécifiques. Institutions mentionnées (Ludwig Forum, Städel Museum) suggèrent expositions, mais l'extrait est trop générique pour classifier avec certitude.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.cnap.fr/actualites/evenements/graphisme-en-france-ndeg32-livres",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.15,
+        "method": "claude",
+        "reasoning": "Page de présentation d'une revue déjà publiée, pas d'appel à candidatures détecté. Aucune des catégories ne s'applique vraiment - ce contenu décrit une publication existante (numéro 32 de 'Graphisme en France') avec ses articles, pas un appel ouvert à contributions ou participation.",
+        "scores": {
+          "residence": 0.5,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.5
+        }
+      }
+    },
+    {
+      "url": "https://www.cnap.fr/actualites/evenements/hommage-raymonde-arcier-1939-2026",
+      "status": "below_threshold",
+      "score": 4,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.cnap.fr/en-2026/annuaire/lieu/le-bal/laboratoire-du-contre-temps-rencontre-avec-joris-lachaise",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.3,
+        "method": "claude",
+        "reasoning": "Page d'annonce d'événement public (rencontre/conférence), pas un appel à candidature artistique. Classification faible : aucune catégorie ne correspond vraiment (pas de résidence, bourse, prix, ni appel à participer à une exposition). C'est un événement public où « réserver un billet » pour assister à une conférence.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.cnap.fr/programme-suite/agenda/programme-suite-2026",
+      "status": "promoted",
+      "score": 8,
+      "type": "exposition",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.cnap.fr/actualites/evenements/webinaires-en-visioconference-dispositifs-soutien-du-cnap-2025-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page n'est pas un appel à candidature artistique. C'est une page informationnelle présentant des webinaires de présentation des dispositifs de soutien du CNAP, non un appel à postuler pour une résidence, bourse, prix ou exposition spécifique.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.cnap.fr/quinquennale-2027-soutien-frac-centres-dart",
+      "status": "promoted",
+      "score": 9,
+      "type": "exposition",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.cnap.fr/acquisitions-et-commandes-photographie-et-images-animees-2025",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "prix",
+        "confidence": 0.65,
+        "method": "claude",
+        "reasoning": "Annonce d'acquisitions et commandes compétitives du CNAP avec dotation financière (374 970 €) pour 65 œuvres sélectionnées. Cependant, ce n'est pas un appel à candidature ouvert mais plutôt l'annonce des résultats déjà attribués.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.cnap.fr/collection-en-ligne",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.05,
+        "method": "claude",
+        "reasoning": "Ceci n'est pas une page d'appel à candidature. C'est une base de données de consultation des œuvres acquises par le CNAP depuis 1791. Aucun élément d'appel, candidature, soutien ou prix n'est présent dans le contenu.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.fondationdesartistes.fr/missions/soutenir-les-ecoles-dart",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.65,
+        "method": "claude",
+        "reasoning": "Page institutionnelle présentant un programme de soutien financier aux écoles d'art (aide de 70 K€, financement de thèse, résidences). Bien que les résidences soient mentionnées, le focus principal est le soutien financier. Confidence modérée car c'est une page de présentation des missions plutôt qu'un appel à candidatures spécifique.",
+        "scores": {
+          "residence": 0.5454545454545454,
+          "bourse": 0.22727272727272727,
+          "prix": 0.0,
+          "exposition": 0.22727272727272727
+        }
+      }
+    },
+    {
+      "url": "https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "bourse",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.fondationdesartistes.fr/missions/attribuer-un-atelier",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.fondationdesartistes.fr/missions/diffuser-dans-son-centre-dart",
+      "status": "promoted",
+      "score": 7,
+      "type": "exposition",
+      "confidence": 0.88,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.fondationdesartistes.fr/missions/promouvoir-la-scene-francaise",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.68,
+        "method": "claude",
+        "reasoning": "La Fondation s'engage dans « des actions de promotion de la création à l'international » et soutient « la mobilité » et « les séjours à l'étranger » des artistes, ce qui correspond à un soutien financier à la mobilité plutôt qu'à une résidence structurée, un prix compétitif ou une exposition spécifique",
+        "scores": {
+          "residence": 0.3939393939393939,
+          "bourse": 0.09090909090909091,
+          "prix": 0.15151515151515152,
+          "exposition": 0.36363636363636365
+        }
+      }
+    },
+    {
+      "url": "https://www.fondationdesartistes.fr/missions/produire-dans-la-residence-de-moly-sabata",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.fondationdesartistes.fr/missions/accompagner-le-grand-age",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027",
+      "status": "promoted",
+      "score": 8,
+      "type": "bourse",
+      "confidence": 0.78,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/offre-contenus/ressources-jeu-video-esport",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page n'est pas un appel à candidature artistique. C'est une page de ressources informatives : l'Institut français met à disposition des guides (juridique, vadémécum) sur le jeu vidéo et l'esport pour faciliter la compréhension de ces enjeux. Aucune candidature, sélection, ou accueil d'artiste n'est proposé.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/offre-contenus/guide-lessentiel-transformation-numerique",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "bourse",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique",
+      "status": "promoted",
+      "score": 9,
+      "type": "exposition",
+      "confidence": 0.8333333333333334,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/aide-projet/connect-create-renforcer-liens-culturels-afrique-europe",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.7,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/conseil-expertise/promotion-langue-francaise-22-conseils-renforcer-sa-strategie-marketing",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page n'est pas un appel à candidature artistique. C'est un guide de conseils marketing et de bonnes pratiques sur la promotion de la langue française, produit par l'Institut français pour accompagner son réseau. Aucun des quatre types (résidence, bourse, prix, exposition) ne s'applique.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026",
+      "status": "promoted",
+      "score": 8,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/aide-projet/programme-daide-publication-pap-cession-droits",
+      "status": "below_threshold",
+      "score": 2,
+      "type": "bourse",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.99,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/aide-projet/fonds-langue-francaise",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.85,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/conseil-expertise/expertise-mediatheques",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.3,
+        "method": "claude",
+        "reasoning": "Programme d'accompagnement et d'expertise pour la modernisation des médiathèques (soutien institutionnel), mais ne correspond pas clairement aux catégories proposées qui ciblent généralement des artistes individuels plutôt que des institutions culturelles",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel",
+      "status": "promoted",
+      "score": 8,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.institutfrancais.com/fr/programme/aide-projet/fabrique-cinema",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.7272727272727273,
+      "dry_run": false
+    },
+    {
+      "url": "https://salondemontrouge.com/actualites/2-actualites.htm",
+      "status": "promoted",
+      "score": 7,
+      "type": "exposition",
+      "confidence": 0.9375,
+      "dry_run": false
+    },
+    {
+      "url": "https://salondemontrouge.com/cms_viewFile.php?idtf=17242&path=69-Salon-de-Montrouge-la-creation-emergente-s-expose-du-13-fevrier-au-1er-mars-2026.pdf",
+      "status": "skipped",
+      "reason": "non_html_link"
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/ministere-des-cultures-des-arts-et-des-savoirs-de-colombie-x-cite-internationale-des-arts",
+      "status": "promoted",
+      "score": 10,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/ministere-des-sciences-de-la-recherche-et-des-arts-du-bade-wurtemberg-x-cite-internationale-des-arts",
+      "status": "promoted",
+      "score": 9,
+      "type": "residence",
+      "confidence": 0.8571428571428571,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/academie-royale-de-musique-de-suede-x-cite-internationale-des-arts",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/academie-centrale-des-beaux-arts-x-cite-internationale-des-arts",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/alfred-university-x-cite-internationale-des-arts",
+      "status": "promoted",
+      "score": 10,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/cite-237-2",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.875,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/taawon-x-cite-internationale-des-arts",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/cnsmdp-x-cite-internationale-des-arts-2",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.8,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/residence-intermix-ministere-de-la-culture-darabie-saoudite-x-cite-internationale-des-arts",
+      "status": "promoted",
+      "score": 9,
+      "type": "residence",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/nafa-x-cite-internationale-des-arts-2",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.99,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/visarte-zentralschweiz-x-cite-internationale-des-arts",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.8571428571428571,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/land-de-rhenanie-du-nord-westphalie-x-cite-internationale-des-arts",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/programme-de-residence/visarte-suisse-x-cite-internationale-des-arts",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.8333333333333334,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.rurart.org/evenement",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "claude",
+        "reasoning": "Page d'événement public passé (29 avril) présentant deux artistes en rencontre, pas un appel à candidature artistique. Ne correspond clairement à aucune des 4 catégories fournies.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        }
+      }
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/residencia-para-proyectos-audiovisuales-en-fase-de-desarrollo",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/residencia-en-torno-al-arte-y-la-educacion-2026",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/residencia-para-un-proyecto-de-musica-electronica-experimental-2026",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/documenta-madrid-2026",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/residencia-semestral-de-produccion-musical-para-bandas-y-solistas-emergentes-2026",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    }
+  ]
+}

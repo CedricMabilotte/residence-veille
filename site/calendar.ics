@@ -1,4 +1,36 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Residence//actitude.org//FR
+BEGIN:VEVENT
+UID:1a3f71ff@residence.actitude.org
+DTSTAMP:20260522T104601Z
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
+SUMMARY:[Résidence] Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résidences trimestrielles pour projets sur l'environnement 2026]
+URL:https://residence.actitude.org/o/1a3f71ff.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eac66ba5@residence.actitude.org
+DTSTAMP:20260522T104601Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:[Résidence] Convocatoria LAB 5 La mecánica de la verdad [Appel à candidatures LAB 5 La mécanique de la vérité]
+URL:https://residence.actitude.org/o/eac66ba5.html
+END:VEVENT
+BEGIN:VEVENT
+UID:889a88cf@residence.actitude.org
+DTSTAMP:20260522T104601Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:[Bourse] Saison Pologne-France 2027 / Sezon Francja-Polska 2027
+URL:https://residence.actitude.org/o/889a88cf.html
+END:VEVENT
+BEGIN:VEVENT
+UID:19d31b22@residence.actitude.org
+DTSTAMP:20260522T104601Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:[Appel à exposition] Soutien à la production dans le cadre de la Quinquennale 2027
+URL:https://residence.actitude.org/o/19d31b22.html
+END:VEVENT
 END:VCALENDAR

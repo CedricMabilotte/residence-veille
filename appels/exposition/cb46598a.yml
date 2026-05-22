@@ -1,0 +1,92 @@
+uid: cb46598a
+type: exposition
+source_url: https://salondemontrouge.com/actualites/2-actualites.htm
+fetched_at: '2026-05-22T10:11:33+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Salon de Montrouge
+  organisme: Salon de Montrouge
+  lieu:
+    ville: Montrouge
+    pays: null
+  nom_fr: Toutes les actualités
+  affichage_titre: Toutes les actualités [Toutes les actualités]
+candidature:
+  date_limite: null
+  langue_dossier: []
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines: []
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Montrouge
+  dates_exposition: 2026-02-13 à 2026-03-01
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.1
+  extracted_notes: Page d'actualités, non appel à candidature. Contient uniquement
+    la mention de la 69e édition (13 février - 1er mars 2026) avec 40 artistes sélectionnés.
+    Aucune information sur critères, frais, date limite de candidature, conditions
+    de participation ou modalités de prise en charge.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:11:33+00:00'
+  source_lang: es
+  resume_fr: Le Salon de Montrouge est un rendez-vous majeur de l'art contemporain.
+    La 69e édition se tiendra du 13 février au 1er mars 2026 avec 40 artistes sélectionnés.
+    Des actualités précédentes couvrent notamment la 66e édition avec 37 artistes
+    choisis parmi plus de 2 000 candidatures. L'art contemporain constitue un élément
+    clé de l'identité culturelle de la ville de Montrouge.
+  detection_confidence: 0.9375
+  detection_method: heuristic
+  source_label: Salon de Montrouge — accueil
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le Salon de Montrouge est un rendez-vous de l'art contemporain. La 69e
+    édition a sélectionné 40 artistes pour une exposition collective du 13 février
+    au 1er mars 2026. Le salon constitue un tremplin pour les créateurs émergents.
+    Aucune information détaillée sur les modalités de candidature n'apparaît dans
+    ce contenu.
+  pour_qui: Artistes contemporains confirmés ou émergents sélectionnés pour participer
+    à une exposition collective prestigieuse.
+a_savoir:
+- Document d'actualités sans détails de candidature
+- 69e édition déjà pourvue (40 artistes sélectionnés, candidatures probablement clôturées)
+organisme_details:
+  site_web: https://salondemontrouge.com
+  adresse: null
+  ville: Montrouge
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou per diem
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention de logement fourni
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de travail ou d'équipements
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge de frais (voyage, production, transport)
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

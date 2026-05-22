@@ -1,0 +1,111 @@
+uid: 762972f7
+type: residence
+source_url: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale
+fetched_at: '2026-05-22T10:06:09+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Résidences Institut français x Cité internationale des arts
+  organisme: Institut français
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale
+eligibilite:
+  disciplines:
+  - Architecture, paysage, urbanisme
+  - Arts de la rue, cirque, marionnette
+  - Arts plastiques
+  - Bande dessinée
+  - Cinéma (cinéma d'animation, fiction, documentaire de création, art vidéo)
+  - Création numérique (arts numériques, jeu vidéo, VR)
+  - Critique d'art et commissariat d'exposition
+  - Danse, performance
+  - Design, graphisme
+  - Gastronomie
+  - Littérature (fiction, essai, littérature jeunesse, bande-dessinée)
+  - Métiers d'art
+  - Mode
+  - Musique (musique classique et musique contemporaine, musiques actuelles et jazz)
+  - Photographie
+  - Théâtre
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Résidence à l'étranger requise depuis au moins 5 ans
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3, 6 ou 9 mois (durée au choix de l'artiste)
+  hebergement: true
+  atelier: Ateliers-logements individuels meublés équipés d'une connexion Wifi, comportant
+    une pièce de travail, espace chambre, salle de bain et kitchenette, situés 18
+    rue de l'Hôtel de Ville, 75004
+  remuneration:
+    montant: 1000
+    devise: EUR
+    periodicite: mois
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Cité internationale des arts
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: Informations détaillées sur conditions et disciplines. Date limite
+    de candidature non précisée ; prochain appel signalé pour juillet 2026.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:06:09+00:00'
+  source_lang: fr
+  detection_confidence: 0.99
+  detection_method: claude
+  source_label: Institut français — résidences internationales
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Ce programme offre des résidences de 3, 6 ou 9 mois à Paris aux artistes
+    et professionnels de la culture résidant à l'étranger depuis au moins 5 ans. L'Institut
+    français prend en charge les ateliers-logements à la Cité internationale des arts,
+    équipés d'une connexion Wifi et d'un espace de travail. Les partenaires couvrent
+    les frais de voyage aller-retour et versent une allocation de séjour minimale
+    de 1000€ par mois. Le programme concerne 16 disciplines sans limite d'âge ni restriction
+    de nationalité. Le prochain appel ouvrira en juillet 2026 pour des résidences
+    entre avril 2027 et avril 2028.
+  pour_qui: Artistes et professionnels de la culture de tous pays résidant à l'étranger
+    depuis minimum 5 ans, toutes disciplines.
+a_savoir: []
+organisme_details:
+  site_web: https://www.institutfrancais.com
+  adresse: 18 rue de l'Hôtel de Ville, 75004 (Cité internationale des arts)
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Allocation de séjour d'un montant de 1000€ minimum par mois fournie
+    par les partenaires
+- id: hebergement
+  rempli: oui
+  justification: L'Institut français prend en charge la location des ateliers-logements
+    individuels à la Cité internationale des arts
+- id: atelier
+  rempli: oui
+  justification: Ateliers-logements meublés et équipés comprenant une pièce de travail
+    avec connexion Wifi
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Prise en charge des frais de voyage aller-retour par les partenaires
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

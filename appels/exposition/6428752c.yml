@@ -1,0 +1,103 @@
+uid: 6428752c
+type: exposition
+source_url: https://www.cnap.fr/programme-suite/agenda/programme-suite-2026
+fetched_at: '2026-05-22T09:49:04+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Programme Suite 2026
+  organisme: Centre national des arts plastiques (CNAP)
+  lieu:
+    ville: Paris
+    pays: France
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts visuels
+  - Création contemporaine
+  - Photographie documentaire
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - La Tôlerie (Clermont-Ferrand, Auvergne-Rhône-Alpes)
+  - Le Ravitaillement (Gavray-sur-Sienne, Normandie)
+  - Le Transfo (Aulon, Occitanie)
+  - gr_und (Berlin, Allemagne)
+  - KOMMET (Lyon, Auvergne-Rhône-Alpes)
+  - Semis, lieu de fabrication (Berny-Rivière, Hauts-de-France)
+  - MEAN (Saint-Nazaire, Pays de la Loire)
+  dates_exposition: 16 mai 2026 – 29 novembre 2026
+  format: collective
+  prise_en_charge:
+    production: null
+    transport:
+      pris_en_charge: null
+      plafond: null
+      devise: EUR
+    per_diem: null
+    hebergement_vernissage: null
+partenaires:
+- Académie des beaux-arts
+_meta:
+  extracted_confidence: 0.3
+  extracted_notes: 'Ce n''est pas un appel à candidature ouvert. Le texte présente
+    les résultats d''une sélection déjà effectuée : 7 artistes ayant reçu un soutien
+    du CNAP voient leurs projets exposés en 2026. Aucune information sur les conditions
+    de candidature, les frais, l''hébergement ou les rétributions n''est fournie.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T09:49:04+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: CNAP — soutien à la création
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le Programme Suite 2026 est la 12e édition d'un programme du CNAP en partenariat
+    avec l'Académie des beaux-arts, présentant 7 projets artistiques ayant bénéficié
+    d'un soutien antérieur du CNAP. Ces projets sont exposés dans 6 lieux indépendants
+    pilotés par des artistes ou jeunes commissaires, dont 1 à l'international (Berlin).
+    Les expositions s'échelonnent du 16 mai au 29 novembre 2026 sur tout le territoire
+    français et en Allemagne, dans des espaces tournés vers l'émergence et l'expérimentation.
+  pour_qui: Artistes ayant obtenu un soutien du CNAP (soutien à un projet artistique
+    ou à la photographie documentaire contemporaine) dont les travaux sont sélectionnés
+    pour bénéficier d'une exposition.
+a_savoir:
+- 'Il ne s''agit pas d''un appel à candidature ouvert : les artistes et projets ont
+  déjà été sélectionnés.'
+- Aucune information n'est fournie sur les conditions de rémunération, d'hébergement,
+  de production ou de transport.
+organisme_details:
+  site_web: https://www.cnap.fr/
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Le programme « accompagne les artistes » mais aucune mention explicite
+    de rémunération, bourse ou per diem.
+- id: hebergement
+  rempli: inconnu
+  justification: Une « résidence » est mentionnée pour Antoine Dochniak (7-20 septembre
+    2026), mais pas pour les autres artistes.
+- id: atelier
+  rempli: inconnu
+  justification: Mention d'« espace de production » pour la résidence d'Antoine Dochniak,
+    mais pas de détails sur les équipements fournis pour les autres expositions.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Le programme vise à « rendre possible des expositions significatives
+    » mais aucun détail sur la couverture du voyage, transport d'œuvres ou production.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

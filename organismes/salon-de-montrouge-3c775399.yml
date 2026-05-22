@@ -1,0 +1,30 @@
+uid: salon-de-montrouge-3c775399
+nom_canonique: Salon de Montrouge
+acronymes: []
+pays: null
+type_organisme: autre
+url_canonique: https://salondemontrouge.com
+urls_secondaires: []
+description_courte: Salon annuel d'art contemporain français accueillant galeries, artistes émergents et confirmés.
+disciplines_proposees:
+- peinture
+- sculpture
+- photographie
+- vidéo
+- installation
+- art numérique
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: cb46598a
+  type: exposition
+  nom: Salon de Montrouge
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Montrouge

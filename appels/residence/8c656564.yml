@@ -1,0 +1,95 @@
+uid: 8c656564
+type: residence
+source_url: https://www.fondationdesartistes.fr/missions/produire-dans-la-residence-de-moly-sabata
+fetched_at: '2026-05-22T09:56:32+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Produire, dans la résidence de Moly-Sabata
+  organisme: Fondation des Artistes
+  lieu:
+    ville: Moly-Sabata
+    pays: France
+    territoire: Auvergne Rhône-Alpes
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: []
+  url_candidature: https://www.moly-sabata.com/
+eligibilite:
+  disciplines:
+  - arts plastiques
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Fondation Albert Gleizes
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: Page de présentation, non appel public à candidatures. Texte indique
+    fonctionnement sur 'programme d'invitations' depuis 1927. Aucune modalité de candidature,
+    durée, hébergement, rémunération ou conditions d'éligibilité détaillées.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T09:56:32+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Fondation des Artistes
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: La résidence de Moly-Sabata, administrée par la Fondation des Artistes
+    depuis le 10 juillet 2025, est l'une des plus anciennes résidences d'artistes
+    de France. Elle fonctionne selon un programme d'invitations depuis sa création
+    en 1927. Aucun détail sur les modalités de candidature ou les conditions de la
+    résidence n'est fourni dans cette page de présentation.
+  pour_qui: Artistes plasticiens sélectionnés par invitation dans le cadre du programme
+    de la résidence.
+a_savoir:
+- Résidence basée sur un système d'invitations (programme fermé), non appel public
+- Aucune date limite, modalités de candidature ou conditions détaillées mentionnées
+- Page consultée est une présentation générale sans informations sur hébergement,
+  durée, rémunération ou éligibilité spécifique
+organisme_details:
+  site_web: https://www.moly-sabata.com/
+  adresse: Fondation des Artistes, Hôtel Salomon de Rothschild, 9-11 rue Berryer,
+    75008 Paris
+  ville: Paris
+  contact_email: visite@fondationdesartistes.fr
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou per diem
+- id: hebergement
+  rempli: inconnu
+  justification: Pas d'information sur logement fourni
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de travail ou studio
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Pas d'information sur prise en charge voyage ou frais
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

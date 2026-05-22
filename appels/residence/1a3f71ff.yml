@@ -1,0 +1,107 @@
+uid: 1a3f71ff
+type: residence
+source_url: https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026
+fetched_at: '2026-05-22T10:34:39+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Residencias trimestrales para proyectos sobre el medioambiente 2026
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territorio: Comunidad de Madrid
+  nom_fr: Résidences trimestrielles pour projets sur l'environnement 2026
+  affichage_titre: Residencias trimestrales para proyectos sobre el medioambiente
+    2026 [Résidences trimestrielles pour projets sur l'environnement 2026]
+candidatura:
+  date_limite: '2026-04-07'
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidatura: null
+eligibilite:
+  disciplines:
+  - artes visuales
+  niveau_carriere: null
+  age_max: null
+  nationalite: sin restriction
+  residence_administrative: residentes en España
+conditions_residence:
+  duree:
+    semaines: 13
+    dates: 15 de septiembre - 15 de diciembre de 2026
+  hebergement: null
+  atelier: Espacio de trabajo en el Centro de residencias artísticas de Matadero Madrid
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: Montants des ressources économiques non précisés ; logement non
+    mentionné ; convocation résolue (plazo dépassé le 7 avril 2026)
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:34:39+00:00'
+  source_lang: es
+  resume_fr: Matadero Madrid propose 8 résidences artistiques de trois mois, du 15
+    septembre au 15 décembre 2026, destinées à des artistes visuels résidents en Espagne
+    pour des projets de création contemporaine. Au minimum 4 des 8 projets sélectionnés
+    doivent être d'artistes de la Communauté de Madrid, et jusqu'à 4 d'artistes du
+    reste de l'Espagne. Les résidences incluent un espace de travail, des ressources
+    économiques, un suivi professionnel et une visibilité institutionnelle. Le délai
+    d'inscription est fixé au 7 avril. Une session informative est organisée le 12
+    mars à 11h.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le Centre de résidences artistiques de Matadero Madrid accueille huit
+    artistes visuels résidents en Espagne pour une résidence de trois mois, du 15
+    septembre au 15 décembre 2026, consacrée à des projets sur l'environnement. Le
+    programme fournit un espace de travail au sein du centre, des ressources économiques,
+    des outils, un accompagnement professionnel, une visibilité institutionnelle et
+    un suivi professionnel. Au minimum, quatre résidences sont réservées à des artistes
+    résidents de la Communauté de Madrid, et jusqu'à quatre à des artistes du reste
+    de l'Espagne.
+  pour_qui: Artistes visuels et créateurs de la création contemporaine, résidents
+    en Espagne, travaillant sur des projets relatifs à l'environnement.
+a_savoir:
+- Montants des ressources économiques non spécifiés dans la convocation
+- Aucune mention de fourniture de logement
+- Convocation résolue — date limite (7 avril 2026) dépassée
+organisme_details:
+  site_web: https://www.mataderomadrid.org
+  adresse: null
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Le programme propose de « proporcionar recursos económicos » aux
+    artistes sélectionnés
+- id: hebergement
+  rempli: non
+  justification: Aucune mention de logement fourni ; seul « un espacio de trabajo
+    » est mentionné
+- id: atelier
+  rempli: oui
+  justification: « Utilización de un espacio de trabajo en el Centro de residencias
+    artísticas de Matadero Madrid »
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge du voyage, transport d'œuvres ou
+    autres frais de production
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

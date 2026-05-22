@@ -1,0 +1,103 @@
+uid: a2b6bce5
+type: residence
+source_url: https://www.fondationdesartistes.fr/missions/attribuer-un-atelier
+fetched_at: '2026-05-22T09:55:00+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Attribuer des ateliers
+  organisme: Fondation des Artistes
+  lieu:
+    ville: Nogent-sur-Marne, Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees:
+  - Formulaire de demande d'attribution d'un atelier d'artiste
+  - Dossier artistique
+  - Dossier administratif
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: true
+  atelier: Ateliers permanents, certains avec hébergement intégré
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Ville de Paris
+- État français
+- Organismes de logements sociaux
+_meta:
+  extracted_confidence: 0.35
+  extracted_notes: Page descriptive d'un dispositif permanent d'attribution d'ateliers,
+    non un appel à candidature temporaire. Nombreux champs inapplicables (date limite,
+    durée, rémunération).
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T09:55:00+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Fondation des Artistes
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: La Fondation des Artistes gère un parc de 91 ateliers et ateliers-logements
+    répartis entre Nogent-sur-Marne et Paris, en partenariat avec la Ville et l'État.
+    Ces espaces permanents s'adressent à des artistes plasticiens en activité justifiant
+    de leur affiliation au régime social des artistes, sans restriction d'âge ni de
+    nationalité. L'attribution s'accompagne de la signature d'un bail fixant un loyer
+    mensuel. Les demandes se font via un formulaire accompagné d'un dossier artistique
+    et administratif.
+  pour_qui: Artistes plasticiens en activité justifiant de l'affiliation au régime
+    social des artistes, sans limite d'âge ni de nationalité.
+a_savoir:
+- Dispositif permanent d'attribution d'ateliers avec bail, non une résidence temporaire
+- Attribution assortie d'un loyer mensuel à charge de l'artiste
+- Affiliation au régime social des artistes requis
+organisme_details:
+  site_web: https://www.fondationdesartistes.fr/
+  adresse: 11 rue Berryer, 75008 Paris
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou per diem versée. Les artistes paient
+    un loyer mensuel.
+- id: hebergement
+  rempli: partiel
+  justification: 51 ateliers-logements avec hébergement intégré (35 à Nogent-sur-Marne,
+    16 à Paris), mais aussi 40 ateliers sans logement (36 au Hameau, 4 impasse Savart).
+- id: atelier
+  rempli: oui
+  justification: Programme fournit 91 ateliers et ateliers-logements destinés à accueillir
+    des artistes plasticiens en activité.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucun frais de voyage, production ou transport ne sont mentionnés
+    comme pris en charge.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

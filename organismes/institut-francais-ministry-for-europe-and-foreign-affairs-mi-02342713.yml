@@ -1,5 +1,5 @@
 uid: institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713
-nom_canonique: Institut français, Ministry for Europe and Foreign Affairs, Ministry of Culture
+nom_canonique: Institut français
 acronymes: []
 pays: null
 type_organisme: institution_publique
@@ -15,16 +15,73 @@ disciplines_proposees:
 - danse
 types_opportunites_habituels:
 - residence
+- bourse
+- exposition
 opportunites_liees:
 - uid: 0144555c
   type: residence
   nom: Charter of the VILLAS and residency programmes of France's cultural network abroad
+- uid: 889a88cf
+  type: bourse
+  nom: Saison Pologne-France 2027 / Sezon Francja-Polska 2027
+- uid: a5664345
+  type: exposition
+  nom: PIDA / Programme International de Diffusion Artistique
+- uid: 966f8ed7
+  type: exposition
+  nom: Saison Méditerranée 2026
+- uid: 762972f7
+  type: residence
+  nom: Résidences Institut français x Cité internationale des arts
+- uid: 660d0fed
+  type: residence
+  nom: Résidences à la Villa Kujoyama
+- uid: 17abfa82
+  type: exposition
+  nom: Offres création numérique clé-en-main pour le réseau culturel
 track_record: {}
-partenaires_mentionnes: []
+partenaires_mentionnes:
+- organisme_uid: institut-adam-mickiewicz
+  occurrences: 1
+  nom_brut: Institut Adam Mickiewicz
+- organisme_uid: institut-polonais-de-paris
+  occurrences: 1
+  nom_brut: Institut polonais de Paris
+- organisme_uid: ambassade-de-france-en-pologne
+  occurrences: 1
+  nom_brut: Ambassade de France en Pologne
+- organisme_uid: ministere-de-la-culture-france
+  occurrences: 2
+  nom_brut: Ministère de la Culture (France)
+- organisme_uid: ministere-des-affaires-etrangeres-france
+  occurrences: 1
+  nom_brut: Ministère des Affaires étrangères (France)
+- organisme_uid: ministere-de-l-europe-et-des-affaires-etrangeres
+  occurrences: 2
+  nom_brut: Ministère de l'Europe et des Affaires étrangères
+- organisme_uid: delegation-interministerielle-a-la-mediterranee
+  occurrences: 1
+  nom_brut: Délégation interministérielle à la Méditerranée
+- organisme_uid: cite-internationale-des-arts
+  occurrences: 1
+  nom_brut: Cité internationale des arts
+- organisme_uid: institut-francais
+  occurrences: 1
+  nom_brut: Institut français
+- organisme_uid: institut-francais-du-japon
+  occurrences: 1
+  nom_brut: Institut français du Japon
+- organisme_uid: fondation-bettencourt-schueller
+  occurrences: 1
+  nom_brut: Fondation Bettencourt Schueller
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-22'
   status: actif
   nouveaux_entrants: true
 ville: Paris
+noms_alternatifs:
+- Institut français, Villa Kujoyama
+contact_email: Pôle Saisons et Temps forts de l'Institut français (contact non spécifié)
+adresse: 18 rue de l'Hôtel de Ville, 75004 (Cité internationale des arts)

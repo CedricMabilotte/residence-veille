@@ -1,0 +1,75 @@
+uid: cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce
+nom_canonique: Cité Internationale des Arts
+acronymes: []
+pays: null
+type_organisme: centre_art
+url_canonique: https://www.citeinternationaledesarts.fr
+urls_secondaires: []
+description_courte: Institution publique parisienne d'accueil et de résidence pour artistes visuels et plasticiens.
+disciplines_proposees:
+- peinture
+- sculpture
+- dessin
+- photographie
+- arts vidéo
+- installation
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 37ce57ed
+  type: residence
+  nom: Ministère des Cultures, des Arts et des Savoirs de Colombie x Cité internationale des arts
+- uid: 98392c7c
+  type: residence
+  nom: Ministère des Sciences, de la Recherche et des Arts du Bade-Wurtemberg x Cité internationale des arts
+- uid: 1e42f10a
+  type: residence
+  nom: Académie Centrale des Beaux-Arts x Cité internationale des arts
+- uid: 526c28e8
+  type: residence
+  nom: Visarte Zurich x Cité internationale des arts
+- uid: 3d215270
+  type: residence
+  nom: Résidence Intermix
+- uid: a5f1e203
+  type: residence
+  nom: Société des artistes slovaques x Cité internationale des arts
+- uid: 56022bf8
+  type: residence
+  nom: Visarte Zentralschweiz x Cité internationale des arts
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: cite-internationale-des-arts
+  occurrences: 3
+  nom_brut: Cité internationale des arts
+- organisme_uid: ministere-des-cultures-des-arts-et-des-savoirs-de-colombie
+  occurrences: 1
+  nom_brut: Ministère des Cultures, des Arts et des Savoirs de Colombie
+- organisme_uid: ministere-des-sciences-de-la-recherche-et-des-arts-du-bade-w
+  occurrences: 1
+  nom_brut: Ministère des Sciences, de la Recherche et des Arts du Bade-Wurtemberg
+- organisme_uid: academie-centrale-des-beaux-arts
+  occurrences: 1
+  nom_brut: Académie Centrale des Beaux-Arts
+- organisme_uid: visarte-zurich
+  occurrences: 1
+  nom_brut: Visarte Zürich
+- organisme_uid: commission-des-arts-visuels-du-ministere-de-la-culture-d-ara
+  occurrences: 1
+  nom_brut: Commission des arts visuels du ministère de la Culture d'Arabie saoudite
+- organisme_uid: societe-des-artistes-slovaques
+  occurrences: 1
+  nom_brut: Société des artistes slovaques
+- organisme_uid: visarte-zentralschweiz
+  occurrences: 1
+  nom_brut: Visarte Zentralschweiz
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Paris
+noms_alternatifs:
+- Cité Internationale des Arts, Visarte Zürich
+- Visarte Zentralschweiz, Cité internationale des arts

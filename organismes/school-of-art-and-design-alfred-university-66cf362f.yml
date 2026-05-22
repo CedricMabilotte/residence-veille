@@ -1,0 +1,30 @@
+uid: school-of-art-and-design-alfred-university-66cf362f
+nom_canonique: School of Art and Design, Alfred University
+acronymes: []
+pays: null
+type_organisme: ecole
+url_canonique: null
+urls_secondaires: []
+description_courte: École d'art et design américaine proposant des formations en arts plastiques et design.
+disciplines_proposees:
+- peinture
+- sculpture
+- design graphique
+- céramique
+- photographie
+- arts numériques
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: ddb8fb07
+  type: residence
+  nom: Alfred University x Cité internationale des arts
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Alfred

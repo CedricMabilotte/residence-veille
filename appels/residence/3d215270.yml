@@ -1,0 +1,96 @@
+uid: 3d215270
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/residence-intermix-ministere-de-la-culture-darabie-saoudite-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T10:22:39+00:00'
+score: 9
+status: indetermine
+opportunite:
+  nom: Résidence Intermix
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.citeinternationaledesarts.fr/programme-de-residence/residence-intermix-ministere-de-la-culture-darabie-saoudite-x-cite-internationale-des-arts
+eligibilite:
+  disciplines:
+  - arts visuels
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: Arabie saoudite
+  residence_administrative: Arabie saoudite
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: 3 décembre 2025 au 26 février 2026
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Commission des arts visuels du ministère de la Culture d'Arabie saoudite
+- Cité Internationale des Arts
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Page de présentation du programme sans détails exhaustifs. Date
+    limite de candidature non visible. Édition 2025-2026 déjà attribuée avec lauréats
+    nommés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:22:39+00:00'
+  source_lang: fr
+  detection_confidence: 0.75
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Intermix est un programme de résidence de trois mois à la Cité Internationale
+    des Arts à Paris, destiné aux artistes visuels et commissaires saoudiens. Cinq
+    résidences sont proposées chaque année. Les candidats doivent être ressortissants
+    de l'Arabie saoudite, résider et travailler dans le pays, et justifier d'une pratique
+    artistique professionnelle d'au moins cinq ans. La résidence est financée et propose
+    un accompagnement dédié avec opportunités de mise en réseau.
+  pour_qui: Artistes visuels et commissaires saoudiens ayant une pratique professionnelle
+    confirmée depuis au moins cinq ans.
+a_savoir:
+- Programme créé en 2025 (première édition)
+- 'Restriction stricte de nationalité : ressortissants saoudiens uniquement'
+- 'Restriction de résidence administrative : doit vivre et travailler en Arabie saoudite'
+- Aucune date limite de candidature visible sur la page
+- Détails limités sur les conditions précises (hébergement, atelier, montant exact
+  de la rémunération non spécifiés)
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Résidence financée de trois mois
+- id: hebergement
+  rempli: inconnu
+  justification: Non explicitement mentionné dans le texte
+- id: atelier
+  rempli: inconnu
+  justification: Non explicitement mentionné dans le texte
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Non mentionné
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

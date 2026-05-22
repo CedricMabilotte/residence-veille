@@ -32,6 +32,12 @@ opportunites_liees:
   nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE
     DOS (2) RESIDENCIAS TRIMESTRALES DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN LA COMUNIDAD DE
     MADRID 2026
+- uid: eac66ba5
+  type: residence
+  nom: Convocatoria LAB 5 La mecánica de la verdad
+- uid: 1a3f71ff
+  type: residence
+  nom: Residencias trimestrales para proyectos sobre el medioambiente 2026
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: madrid-destino-cultura-turismo-y-negocio-s-a
@@ -40,7 +46,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-22'
   status: actif
   nouveaux_entrants: true
 adresse: Calle Conde Duque 9-11, 28015 Madrid

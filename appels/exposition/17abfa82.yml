@@ -1,0 +1,94 @@
+uid: 17abfa82
+type: exposition
+source_url: https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel
+fetched_at: '2026-05-22T10:09:17+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Offres création numérique clé-en-main pour le réseau culturel
+  organisme: Institut français
+  lieu:
+    ville: null
+    pays: France
+candidature:
+  date_limite: null
+  langue_dossier:
+  - français
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Création numérique
+  - Cinéma
+  - Arts Visuels / Photographie
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - établissements du réseau culturel ou partenaires
+  dates_exposition: null
+  format: null
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.2
+  extracted_notes: Ceci n'est PAS un appel à candidature classique. C'est une offre
+    de programmation que l'Institut français propose au réseau culturel français à
+    l'étranger. Aucune information sur candidature, date limite, critères d'éligibilité,
+    ou prise en charge.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:09:17+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Institut français — résidences internationales
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: 'L''Institut français propose au réseau culturel une offre de programmation
+    ''clé-en-main'' visant à valoriser à l''international la création numérique française.
+    L''Institut fournit les droits de diffusion non commerciale et les fichiers des
+    œuvres, ainsi qu''un kit de communication complet. L''organisation de l''événement
+    sur place reste à la charge de l''établissement bénéficiaire. L''offre couvre
+    plusieurs domaines : séries courtes numériques (Binge), catalogue XR, et exposition
+    Escape.'
+  pour_qui: Établissements du réseau culturel français situés à l'étranger et leurs
+    partenaires.
+a_savoir:
+- 'Ce n''est pas un appel à candidature au sens classique : pas de date limite, pas
+  d''éligibilité définie.'
+- L'organisation de l'événement sur place est entièrement à la charge de l'établissement
+  bénéficiaire.
+- Les droits concédés sont limités à la diffusion non commerciale en établissements.
+organisme_details:
+  site_web: https://www.institutfrancais.com
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rétribution, bourse ou per diem mentionné pour les artistes.
+- id: hebergement
+  rempli: non
+  justification: Aucun hébergement fourni mentionné.
+- id: atelier
+  rempli: non
+  justification: Aucun espace de travail ou atelier mis à disposition mentionné.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: L'organisation de l'événement est à la charge de l'établissement
+    ; aucune prise en charge de frais.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

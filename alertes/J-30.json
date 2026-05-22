@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "path": "appels/residence/eac66ba5.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 23,
+    "type": "residence",
+    "uid": "eac66ba5",
+    "nom": "Convocatoria LAB 5 La mecánica de la verdad"
+  },
+  {
+    "path": "appels/exposition/19d31b22.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 27,
+    "type": "exposition",
+    "uid": "19d31b22",
+    "nom": "Soutien à la production dans le cadre de la Quinquennale 2027"
+  }
+]

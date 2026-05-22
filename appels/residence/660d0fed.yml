@@ -1,0 +1,122 @@
+uid: 660d0fed
+type: residence
+source_url: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama
+fetched_at: '2026-05-22T10:08:55+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Résidences à la Villa Kujoyama
+  organisme: Institut français, Villa Kujoyama
+  lieu:
+    ville: Kyoto
+    pays: Japon
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Architecture
+  - Arts de la rue
+  - Arts plastiques
+  - Arts Visuels
+  - Bande dessinée
+  - Cinéma
+  - Cirque
+  - Commissariat d'exposition
+  - Création numérique
+  - Danse
+  - Débat d'idées
+  - Design
+  - Gastronomie
+  - Graphisme
+  - Littérature
+  - Marionnette
+  - Métiers d'art
+  - Mode
+  - Musique
+  - Paysage
+  - Photographie
+  - Sciences
+  - Spectacle vivant
+  - Théâtre
+  - Urbanisme
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 4 à 6 mois
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Institut français
+- Institut français du Japon
+- Fondation Bettencourt Schueller
+- Ministère de l'Europe et des Affaires étrangères
+_meta:
+  extracted_confidence: 0.6
+  extracted_notes: Page de présentation générale. Informations limitées sur conditions
+    matérielles, financières et date limite de candidature 2027.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:08:55+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Institut français — résidences internationales
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: La Villa Kujoyama propose des résidences artistiques à Kyoto, Japon, d'une
+    durée de 4 à 6 mois pour environ 15 lauréats en 2027. Le programme s'adresse aux
+    artistes et créateurs confirmés, en solo, binôme ou duo franco-japonais, dans
+    une vaste gamme de disciplines. Les résidents doivent porter un projet de recherche
+    original présentant un lien avec les enjeux du territoire et dialoguant avec les
+    acteurs locaux.
+  pour_qui: Artistes, créateurs et créatrices confirmés, ainsi que scientifiques porteurs
+    de projets de recherche originaux et singuliers nécessitant une immersion au Japon.
+a_savoir:
+- Résidence basée au Japon nécessitant une immersion de 4 à 6 mois
+- 'Sélection très compétitive : jury d''experts spécialisés dans chaque discipline'
+- Candidatures possibles en solo, binôme ou duo franco-japonais
+- Date limite de candidature pour 2027 non mentionnée
+organisme_details:
+  site_web: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama
+  adresse: null
+  ville: Kyoto
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou dotation monétaire
+- id: hebergement
+  rempli: inconnu
+  justification: Pas de mention explicite du logement fourni, bien que la Villa soit
+    qualifiée de résidence avec résidents accueillis
+- id: atelier
+  rempli: inconnu
+  justification: Pas de mention d'atelier ou espace de travail fourni
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage, production
+    ou transport
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

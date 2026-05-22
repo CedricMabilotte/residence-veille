@@ -9,19 +9,82 @@ description_courte: null
 disciplines_proposees: []
 types_opportunites_habituels:
 - prix
+- residence
+- exposition
 opportunites_liees:
 - uid: 13cffca0
   type: prix
   nom: Aides à la production d'œuvres d'art - Commission mécénat de la Fondation des Artistes
+- uid: a2b6bce5
+  type: residence
+  nom: Attribuer des ateliers
+- uid: ae67ef8e
+  type: exposition
+  nom: Diffuser dans son centre d'art, la MABA
+- uid: 8c656564
+  type: residence
+  nom: Produire, dans la résidence de Moly-Sabata
+- uid: c9d9dbea
+  type: residence
+  nom: Maison nationale des artistes – EHPAD
+- uid: 250c2109
+  type: residence
+  nom: Visarte Suisse x Cité internationale des arts
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: ministere-de-la-culture
   occurrences: 2
   nom_brut: Ministère de la Culture
+- organisme_uid: ville-de-paris
+  occurrences: 1
+  nom_brut: Ville de Paris
+- organisme_uid: etat-francais
+  occurrences: 1
+  nom_brut: État français
+- organisme_uid: organismes-de-logements-sociaux
+  occurrences: 1
+  nom_brut: Organismes de logements sociaux
+- organisme_uid: esadhar-campus-du-havre
+  occurrences: 1
+  nom_brut: ésadhar Campus du Havre
+- organisme_uid: esad-amiens
+  occurrences: 1
+  nom_brut: ésad_Amiens
+- organisme_uid: isba-besancon
+  occurrences: 1
+  nom_brut: ISBA Besançon
+- organisme_uid: reseau-tram
+  occurrences: 1
+  nom_brut: Réseau TRAM
+- organisme_uid: bla-association-nationale-des-professionnels-de-la-mediation
+  occurrences: 1
+  nom_brut: BLA! (association nationale des professionnels de la médiation en art contemporain)
+- organisme_uid: daac-de-creteil
+  occurrences: 1
+  nom_brut: DAAC de Créteil
+- organisme_uid: theatre-watteau
+  occurrences: 1
+  nom_brut: Théâtre Watteau
+- organisme_uid: fondation-albert-gleizes
+  occurrences: 1
+  nom_brut: Fondation Albert Gleizes
+- organisme_uid: agence-regionale-de-sante-du-val-de-marne
+  occurrences: 1
+  nom_brut: Agence régionale de Santé du Val-de-Marne
+- organisme_uid: conseil-departemental-du-val-de-marne
+  occurrences: 1
+  nom_brut: Conseil départemental du Val-de-Marne
+- organisme_uid: visarte-suisse
+  occurrences: 1
+  nom_brut: Visarte Suisse
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-05-21'
+  last_updated: '2026-05-22'
   status: actif
   nouveaux_entrants: true
 ville: Nogent-sur-Marne
+adresse: 11 rue Berryer, 75008 Paris
+contact_email: visite@fondationdesartistes.fr
+noms_alternatifs:
+- Visarte Suisse – Société des artistes visuels Suisse

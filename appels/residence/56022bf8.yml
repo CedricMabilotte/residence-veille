@@ -1,0 +1,88 @@
+uid: 56022bf8
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/visarte-zentralschweiz-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T10:24:05+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Visarte Zentralschweiz x Cité internationale des arts
+  organisme: Visarte Zentralschweiz, Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Résider dans un des cantons de Suisse centrale (Lucerne,
+    Uri, Schwytz, Nidwald, Obwald, Zoug)
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 6 mois
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- Visarte Zentralschweiz
+- Cité internationale des arts
+_meta:
+  extracted_confidence: 0.35
+  extracted_notes: 'Page incomplète : données essentielles manquantes (date limite,
+    frais, hébergement, rémunération, modalités de candidature). Seules informations
+    disponibles : durée (6 mois), discipline (arts visuels), critères d''éligibilité
+    géographique, nombre de résidences (2 par an).'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:24:05+00:00'
+  source_lang: fr
+  detection_confidence: 0.8571428571428571
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le programme Visarte Zentralschweiz x Cité internationale des arts offre
+    chaque année 2 résidences de 6 mois à Paris. Il s'adresse aux artistes visuels
+    résidant dans les cantons de Suisse centrale (Lucerne, Uri, Schwytz, Nidwald,
+    Obwald, Zoug). Le programme est géré en partenariat avec Visarte Zentralschweiz,
+    association professionnelle d'artistes fondée en 1866.
+  pour_qui: Artistes visuels résidant dans les cantons de Suisse centrale.
+a_savoir:
+- 'Informations incomplètes : date limite de candidature non mentionnée'
+- Aucune précision sur les modalités financières (rémunération, frais, prise en charge
+  du voyage)
+- Conditions de logement et d'atelier non précisées
+- Critères d'éligibilité très restrictifs (résidence obligatoire dans cantons spécifiques)
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire
+- id: hebergement
+  rempli: inconnu
+  justification: Logement non mentionné dans les informations disponibles
+- id: atelier
+  rempli: inconnu
+  justification: Espace de production ou équipements non mentionnés
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Voyage, transport ou production non précisés
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

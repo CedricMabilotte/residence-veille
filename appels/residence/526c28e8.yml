@@ -1,0 +1,88 @@
+uid: 526c28e8
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/cnsmdp-x-cite-internationale-des-arts-2
+fetched_at: '2026-05-22T10:21:36+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Visarte Zurich x Cité internationale des arts
+  organisme: Cité Internationale des Arts, Visarte Zürich
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  - architecture
+  - commissariat d'exposition
+  niveau_carriere: tous
+  age_max: null
+  nationalite: Suisse
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: 16
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- Cité Internationale des Arts
+- Visarte Zürich
+_meta:
+  extracted_confidence: 0.4
+  extracted_notes: Page descriptive du programme ; données critiques absentes (date
+    limite, URL candidature, conditions d'hébergement, rémunération, frais)
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:21:36+00:00'
+  source_lang: fr
+  detection_confidence: 0.8
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le programme Visarte Zurich x Cité internationale des arts propose chaque
+    année 3 résidences de 4 mois à la Cité Internationale des Arts. Il s'adresse aux
+    artistes visuels, architectes et commissaires d'exposition indépendants suisses.
+    Le programme est établi depuis 1968 et porté en partenariat par Cité Internationale
+    des Arts et Visarte Zürich.
+  pour_qui: Artistes visuels, architectes et commissaires d'exposition indépendants
+    suisses.
+a_savoir:
+- Aucune date limite de candidature fournie
+- Aucune URL de candidature accessible
+- Conditions d'hébergement non mentionnées
+- Rémunération ou prise en charge des frais non précisées
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou dotation
+- id: hebergement
+  rempli: inconnu
+  justification: Logement non mentionné dans le texte
+- id: atelier
+  rempli: inconnu
+  justification: Espace de production non décrit
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Prise en charge de voyage ou frais non précisée
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

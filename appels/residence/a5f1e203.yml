@@ -1,0 +1,97 @@
+uid: a5f1e203
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/nafa-x-cite-internationale-des-arts-2
+fetched_at: '2026-05-22T10:23:38+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Société des artistes slovaques x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: null
+    pays: null
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  niveau_carriere: tous
+  age_max: null
+  nationalite: Slovaquie
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 8
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Société des artistes slovaques
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Texte descriptif court sans détails sur les modalités financières,
+    la date limite, les conditions d'atelier ou d'hébergement. Informations minimales
+    disponibles.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:23:38+00:00'
+  source_lang: fr
+  detection_confidence: 0.99
+  detection_method: claude
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Ce programme accueille 6 à 8 artistes visuels slovaques en résidence à
+    la Cité internationale des arts pour une durée de 2 mois. Le programme a été créé
+    en 1996 et fonctionne en partenariat avec la Société des artistes slovaques. Les
+    critères d'éligibilité se limitent à avoir une pratique dans les arts visuels
+    et à être de nationalité slovaque. Aucune rémunération, aide au voyage ou frais
+    de production ne sont mentionnés.
+  pour_qui: Artistes visuels de nationalité slovaque ayant une pratique établie ou
+    émergente.
+a_savoir:
+- 'Nationalité restrictive : réservé exclusivement aux artistes slovaques'
+- Aucune rémunération ou dotation financière mentionnée
+- Pas de date limite de candidature indiquée
+- Hébergement et atelier non explicitement confirmés
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation financière n'est mentionnée.
+- id: hebergement
+  rempli: inconnu
+  justification: Les artistes sont 'accueillis en résidence' mais le texte ne précise
+    pas si un hébergement est fourni.
+- id: atelier
+  rempli: inconnu
+  justification: Aucun espace de travail ou atelier n'est explicitement mentionné.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucun frais relatif au voyage, à la production ou au transport n'est
+    mentionné comme pris en charge.
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

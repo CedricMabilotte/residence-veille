@@ -1,0 +1,127 @@
+uid: eac66ba5
+type: residence
+source_url: https://www.mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad
+fetched_at: '2026-05-22T10:29:36+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Convocatoria LAB 5 La mecánica de la verdad
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territoire: null
+  nom_fr: Appel à candidatures LAB 5 La mécanique de la vérité
+  affichage_titre: Convocatoria LAB 5 La mecánica de la verdad [Appel à candidatures
+    LAB 5 La mécanique de la vérité]
+candidature:
+  date_limite: '2026-06-14'
+  date_limite_precision: day
+  langue_dossier:
+  - es
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - culturas visuales
+  - tecnologías y medios digitales
+  - arquitectura y urbanismo
+  - escritura
+  - periodismo
+  - estudios sociales
+  - activismo
+  - ciencias
+  - ingeniería
+  - economía
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 2
+    dates: 12-25 novembre 2026
+  hebergement: true
+  atelier: Espace de travail fourni pour le développement de chaque projet
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: Présentation publique des projets développés les 26-28 novembre 2026
+    au festival OpenLAB
+partenaires: []
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Programme bien documenté avec critères clairs. Hébergement et déplacement
+    couverts seulement pour non-résidents Madrid. Absence de rémunération. Assiduité
+    en personne requise.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:29:36+00:00'
+  source_lang: es
+  resume_fr: L'appel à candidatures recherche 5 personnes porteuses de projets et
+    jusqu'à 20 collaborateurs pour le Laboratoire de Prototipage Collaboratif de Medialab
+    Matadero. Le laboratoire se tiendra du 12 au 25 novembre 2026 à Madrid, suivi
+    d'une présentation publique du 26 au 28 novembre 2026. Les 25 participants développeront
+    5 prototypes de projets techniques ou culturels en 5 groupes de travail, avec
+    le soutien de mentors internationaux. Les candidatures sont ouvertes jusqu'au
+    14 juin. Le programme est ouvert à tous les majeurs, quel que soit leur profil
+    ou lieu de résidence.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Résidence collaborative de 2 semaines au Medialab Matadero (Madrid) du
+    12 au 25 novembre 2026 pour développer 5 prototypes techniques ou culturels en
+    groupes de travail. Le programme est gratuit et couvre l'hébergement et les déplacements
+    pour les non-résidents de Madrid, ainsi que les repas. Les participants travailleront
+    sous la mentorship d'experts internationaux et présenteront leurs prototypes au
+    festival OpenLAB les 26-28 novembre. Les candidatures se ferment le 14 juin 2026.
+  pour_qui: Artistes et créatifs de tous niveaux (émergents ou confirmés), issus de
+    disciplines variées (arts visuels, technologie, design, architecture, sciences,
+    etc.), intéressés par la collaboration et l'exploration de prototypes autour de
+    la thématique annuelle « La mécanique de la vérité ».
+a_savoir:
+- 'Aucune rémunération : la résidence est gratuite mais non rémunérée'
+- 'Assiduité obligatoire en présentiel : horaires lundi-vendredi 10h-18h plus activités
+  supplémentaires ponctuelles'
+- 'Travail obligatoire en groupes collaboratifs : pas de projets individuels'
+- 'Sélection compétitive : 25 participants au total pour 5 groupes de travail'
+- 'Langues : espagnol et anglais sans traduction formelle ; niveau moyen-haut d''anglais
+  recommandé pour interagir'
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: La résidence est gratuite (« Ninguno, es gratuito ») et ne comprend
+    pas de rémunération ou bourse pour les participants
+- id: hebergement
+  rempli: partiel
+  justification: Hébergement couvert seulement pour les non-résidents de la Communauté
+    de Madrid (« Medialab cubre los gastos de desplazamiento y alojamiento de las
+    personas que no residan en la Comunidad de Madrid »)
+- id: atelier
+  rempli: oui
+  justification: Espace de travail fourni pour chaque projet (« Se dispondrá de un
+    espacio de trabajo para el desarrollo de cada proyecto »)
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Déplacement et hébergement couverts pour les non-résidents Madrid
+    ; repas fournis pour tous (« La organización proporcionará comidas... de lunes
+    a sábado »)
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0
