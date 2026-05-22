@@ -1,0 +1,108 @@
+uid: bd896490
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/atelier-mondial-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T14:28:47+00:00'
+score: 9
+status: indetermine
+opportunite:
+  nom: Atelier Mondial x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: null
+    pays: null
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  - danse
+  - médiation culturelle
+  - art textile
+  - littérature
+  - traduction
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: Vivre ou travailler dans la zone transfrontalière entre
+    la Suisse (cantons de Bâle-Ville et Bâle-Campagne, canton de Soleure), l'Allemagne
+    (région de Baden Sud) et la France (région d'Alsace)
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 à 12 mois
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Atelier Mondial
+_meta:
+  extracted_confidence: 0.28
+  extracted_notes: 'Texte fragment incomplet : manquent date limite de candidature,
+    détails de rémunération, hébergement, frais d''inscription, URL de candidature.
+    Seules les disciplines et la durée (3-12 mois) sont clairement établies.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:28:47+00:00'
+  source_lang: fr
+  detection_confidence: 0.8571428571428571
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Ce programme offre des résidences de 3 à 12 mois à la Cité Internationale
+    des Arts pour des artistes visuels, danseurs, médiateurs culturels, artistes textiles,
+    écrivains et traducteurs vivant ou travaillant dans la zone transfrontalière entre
+    la Suisse (cantons de Bâle-Ville, Bâle-Campagne, Soleure), l'Allemagne (région
+    de Baden Sud) et la France (région d'Alsace). Le programme a été créé en 1965.
+    Les conditions de rémunération, d'hébergement et les frais d'inscription ne sont
+    pas précisés dans le texte fourni.
+  pour_qui: Artistes visuels, danseurs, médiateurs culturels, artistes textiles, écrivains
+    et traducteurs vivant ou travaillant dans la zone transfrontalière Suisse-Allemagne-France.
+a_savoir:
+- 'Candidature réservée à une zone géographique très spécifique : zone transfrontalière
+  limitée'
+- 'Informations critiques manquantes : date limite de candidature, détails de rémunération
+  et d''hébergement, frais éventuels'
+- Programme établi depuis longtemps (1965)
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation pour
+    l'artiste.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention explicite d'un logement fourni pendant la résidence.
+- id: atelier
+  rempli: inconnu
+  justification: Le programme mentionne 'ateliers' dans le contexte d'Atelier Mondial,
+    mais ne précise pas explicitement si un espace de travail est fourni à la Cité.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage, production
+    ou transport de matériel.
+_interne_affinite:
+  match: true
+  signaux:
+  - rural
+  - textile
+  bonus_score: 1

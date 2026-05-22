@@ -37,6 +37,9 @@ opportunites_liees:
 - uid: 0c311ef8
   type: bourse
   nom: Résidence annuelle Fondation des Artistes à l'étranger
+- uid: dd09fac5
+  type: bourse
+  nom: Aider à la production d'oeuvres d'art
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: ministere-de-la-culture
@@ -76,10 +79,10 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Fondation Albert Gleizes
 - organisme_uid: agence-regionale-de-sante-du-val-de-marne
-  occurrences: 1
+  occurrences: 2
   nom_brut: Agence régionale de Santé du Val-de-Marne
 - organisme_uid: conseil-departemental-du-val-de-marne
-  occurrences: 1
+  occurrences: 2
   nom_brut: Conseil départemental du Val-de-Marne
 - organisme_uid: visarte-suisse
   occurrences: 1
@@ -111,6 +114,15 @@ partenaires_mentionnes:
 - organisme_uid: ministere-des-affaires-etrangeres
   occurrences: 1
   nom_brut: Ministère des Affaires étrangères
+- organisme_uid: ministere-de-la-culture-direction-generale-de-la-creation-ar
+  occurrences: 1
+  nom_brut: Ministère de la Culture (Direction générale de la création artistique et Inspection générale de la création artistique)
+- organisme_uid: maba
+  occurrences: 1
+  nom_brut: MABA
+- organisme_uid: bernard-chauveau-editions
+  occurrences: 1
+  nom_brut: Bernard Chauveau Editions
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'

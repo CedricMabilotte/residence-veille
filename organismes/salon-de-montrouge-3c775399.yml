@@ -19,6 +19,12 @@ opportunites_liees:
 - uid: cb46598a
   type: exposition
   nom: Salon de Montrouge
+- uid: b8f7cc68
+  type: exposition
+  nom: 68e Salon de Montrouge
+- uid: 9badead2
+  type: exposition
+  nom: Salon de Montrouge
 track_record: {}
 partenaires_mentionnes: []
 pages_surveillees: []

@@ -1,0 +1,115 @@
+uid: 76bf60d9
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/open-call--quote--curate-summer-curation--opportunity-to-exhibit-at-design-centre-chelsea-harbour/10564
+fetched_at: '2026-05-22T15:10:49+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: OPEN CALL - Quote & Curate Summer Curation - Opportunity to exhibit at DESIGN
+    CENTRE CHELSEA HARBOUR
+  organisme: Quote & Curate
+  lieu:
+    ville: London
+    pays: United Kingdom
+  nom_fr: APPEL À CANDIDATURES - Quote & Curate Summer Curation - Opportunité d'exposition
+    au DESIGN CENTRE CHELSEA HARBOUR
+  affichage_titre: OPEN CALL - Quote & Curate Summer Curation - Opportunity to exhibit
+    at DESIGN CENTRE CHELSEA HARBOUR [APPEL À CANDIDATURES - Quote & Curate Summer
+    Curation - Opportunité d'exposition au DESIGN CENTRE CHELSEA HARBOUR]
+candidature:
+  date_limite: '2026-05-25'
+  langue_dossier: null
+  frais_inscription:
+    montant: 20
+    devise: GBP
+  pieces_demandees:
+  - Artwork submission (up to 5 pieces, 2D or 3D)
+  url_candidature: https://www.curatorspace.com/opportunities/detail/open-call--quote--curate-summer-curation--opportunity-to-exhibit-at-design-centre-chelsea-harbour/10564
+eligibilite:
+  disciplines:
+  - Visual arts
+  - Design
+  - Craft
+  - All mediums
+  niveau_carriere: amateur and professional
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Design Centre Chelsea Harbour
+  dates_exposition: 2-12 June 2026
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: GBP
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: 'Clear structure. Fee: 20 GBP per artwork with tiered scale (1=20,
+    2=40, 3=60, 4=80, 5=90 GBP for up to 5 maximum). Exhibition: 2-12 June 2026, Mon-Fri
+    9am-5pm. Delivery by 1 June 5pm; collection by 12 June 5pm. Artist responsible
+    for all transport. Framed works must be gallery-ready or rejected without fee
+    refund. No artist fees, housing, studio, or cost coverage provided.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T15:10:49+00:00'
+  source_lang: en
+  resume_fr: Appel à candidatures aux artistes de 18 ans et plus pour exposer au Design
+    Centre Chelsea Harbour à Londres en juin 2026, date limite 25/05/2026. Chaque
+    artiste peut soumettre jusqu'à 5 pièces à £20 par pièce (tarif total de £90 pour
+    5 pièces), tous médiums 2D et 3D acceptés. L'exposition coïncide avec WoWHouse!
+    du 2 juin au 2 juillet et offre une visibilité auprès de 4600+ followers en ligne,
+    6000 vues mensuelles de profil et 800+ abonnés à la newsletter. Les œuvres sont
+    présentées directement à des décorateurs d'intérieur et architectes procurant
+    pour des projets résidentiels, commerciaux et d'hospitalité.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: 'Appel à candidature pour exposer des œuvres d''art au Design Centre Chelsea
+    Harbour à Londres du 2 au 12 juin 2026. Ouvert aux artistes amateurs et professionnels
+    de plus de 18 ans, toutes disciplines, formats 2D et 3D. Tarif: 20 GBP par œuvre
+    (jusqu''à 5 œuvres). Quote & Curate n''applique aucune commission; les artistes
+    conservent l''intégralité des ventes. Aucune rémunération directe, hébergement
+    ou espace de travail fourni; responsabilité entière de livraison et retrait par
+    l''artiste.'
+  pour_qui: Artistes amateurs ou professionnels de plus de 18 ans, tous médiums, cherchant
+    une plateforme pour vendre directement auprès de designers d'intérieur et d'architectes.
+a_savoir:
+- 'Exposition très courte: 10 jours seulement (2-12 juin 2026)'
+- 'Frais d''inscription à charge de l''artiste: 20 GBP par œuvre'
+- Livraison et reprise entièrement responsabilité de l'artiste
+- Œuvres mal encadrées rejetées sans remboursement des frais
+- Aucune rémunération garantie; revenus uniquement si vente
+organisme_details:
+  site_web: null
+  adresse: First Floor, Design Centre East, Design Centre Chelsea Harbour, London,
+    United Kingdom
+  ville: London
+  contact_email: help@curatorspace.com
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Quote & Curate does not take commission; artists retain all sales
+    proceeds. No direct stipend, bourse, per diem, or monetary award provided.
+- id: hebergement
+  rempli: non
+  justification: No accommodation or housing mentioned.
+- id: atelier
+  rempli: non
+  justification: No studio, workspace, or production facilities provided.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Artists responsible for delivery of works by 1 June 2026 and collection
+    by 12 June 2026. No coverage of transport, production, or material costs mentioned.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

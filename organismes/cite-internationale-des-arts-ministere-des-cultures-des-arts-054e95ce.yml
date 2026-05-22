@@ -52,10 +52,34 @@ opportunites_liees:
 - uid: 332456f4
   type: residence
   nom: ADAGP x Cité internationale des arts – Prisme
+- uid: fdd214b6
+  type: residence
+  nom: Fondation Armando Alvares Penteado x Cité internationale des arts
+- uid: bd896490
+  type: residence
+  nom: Atelier Mondial x Cité internationale des arts
+- uid: e2d037ef
+  type: residence
+  nom: Ville de Zurich x Cité internationale des arts
+- uid: 75d83cb5
+  type: residence
+  nom: Ministère fédéral du Logement, des Arts, de la Culture, des Médias et des Sports x Cité internationale des arts
+- uid: 58c7b0db
+  type: residence
+  nom: Déléguée du gouvernement fédéral à la Culture et aux Médias x Cité internationale des arts
+- uid: 1e993b36
+  type: residence
+  nom: Faculty of Art and Design at Jan Evangelista Purkyně University in Ústí nad Labem x Cité internationale des arts
+- uid: 0bcafeab
+  type: residence
+  nom: Fondation Al-Mansouria x Cité internationale des arts
+- uid: 700f3dbf
+  type: residence
+  nom: Province de Carinthie x Cité internationale des arts
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: cite-internationale-des-arts
-  occurrences: 5
+  occurrences: 6
   nom_brut: Cité internationale des arts
 - organisme_uid: ministere-des-cultures-des-arts-et-des-savoirs-de-colombie
   occurrences: 1
@@ -88,7 +112,7 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Art X Lagos
 - organisme_uid: academie-des-beaux-arts-et-du-design-de-bratislava
-  occurrences: 1
+  occurrences: 2
   nom_brut: Académie des beaux-arts et du design de Bratislava
 - organisme_uid: pavillon-bosio
   occurrences: 1
@@ -102,6 +126,30 @@ partenaires_mentionnes:
 - organisme_uid: adagp
   occurrences: 1
   nom_brut: ADAGP
+- organisme_uid: fondation-armando-alvares-penteado
+  occurrences: 1
+  nom_brut: Fondation Armando Alvares Penteado
+- organisme_uid: atelier-mondial
+  occurrences: 1
+  nom_brut: Atelier Mondial
+- organisme_uid: ville-de-zurich-affaires-culturelles
+  occurrences: 1
+  nom_brut: Ville de Zürich, Affaires Culturelles
+- organisme_uid: ministere-federal-du-logement-des-arts-de-la-culture-des-med
+  occurrences: 1
+  nom_brut: Ministère fédéral du Logement, des Arts, de la Culture, des Médias et des Sports
+- organisme_uid: deleguee-du-gouvernement-federal-a-la-culture-et-aux-medias
+  occurrences: 1
+  nom_brut: Déléguée du gouvernement fédéral à la Culture et aux Médias
+- organisme_uid: faculty-of-art-and-design-at-jan-evangelista-purkyne-univers
+  occurrences: 1
+  nom_brut: Faculty of Art and Design at Jan Evangelista Purkyně University in Ústí nad Labem
+- organisme_uid: fondation-al-mansouria
+  occurrences: 1
+  nom_brut: Fondation Al-Mansouria
+- organisme_uid: departement-des-arts-et-de-la-culture-du-land-de-carinthie
+  occurrences: 1
+  nom_brut: Département des Arts et de la Culture du Land de Carinthie
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
@@ -116,4 +164,5 @@ noms_alternatifs:
 - Institut français du Nigeria, Art X Lagos, Cité internationale des arts
 - Pavillon Bosio et Cité internationale des arts
 - Cité Internationale des Arts / ADAGP
+- Cité Internationale des Arts / Fondation Armando Alvares Penteado
 adresse: Wuse 2, Abuja

@@ -42,38 +42,245 @@ opportunites_liees:
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: institut-adam-mickiewicz
-  occurrences: 2
+  occurrences: 3
   nom_brut: Institut Adam Mickiewicz
 - organisme_uid: institut-polonais-de-paris
-  occurrences: 2
+  occurrences: 3
   nom_brut: Institut polonais de Paris
 - organisme_uid: ambassade-de-france-en-pologne
-  occurrences: 2
+  occurrences: 3
   nom_brut: Ambassade de France en Pologne
 - organisme_uid: ministere-de-la-culture-france
-  occurrences: 4
+  occurrences: 6
   nom_brut: Ministère de la Culture (France)
 - organisme_uid: ministere-des-affaires-etrangeres-france
-  occurrences: 1
+  occurrences: 2
   nom_brut: Ministère des Affaires étrangères (France)
 - organisme_uid: ministere-de-l-europe-et-des-affaires-etrangeres
-  occurrences: 4
+  occurrences: 5
   nom_brut: Ministère de l'Europe et des Affaires étrangères
 - organisme_uid: delegation-interministerielle-a-la-mediterranee
   occurrences: 2
   nom_brut: Délégation interministérielle à la Méditerranée
 - organisme_uid: cite-internationale-des-arts
-  occurrences: 1
+  occurrences: 2
   nom_brut: Cité internationale des arts
 - organisme_uid: institut-francais
   occurrences: 1
   nom_brut: Institut français
 - organisme_uid: institut-francais-du-japon
-  occurrences: 2
+  occurrences: 3
   nom_brut: Institut français du Japon
 - organisme_uid: fondation-bettencourt-schueller
-  occurrences: 2
+  occurrences: 3
   nom_brut: Fondation Bettencourt Schueller
+- organisme_uid: ministere-de-la-culture-pologne
+  occurrences: 1
+  nom_brut: Ministère de la Culture (Pologne)
+- organisme_uid: ministere-des-affaires-etrangeres-pologne
+  occurrences: 1
+  nom_brut: Ministère des Affaires étrangères (Pologne)
+- organisme_uid: edition-100-trames
+  occurrences: 1
+  nom_brut: Edition 100 Trames
+- organisme_uid: 3-bis-f
+  occurrences: 1
+  nom_brut: 3 bis f
+- organisme_uid: accrorap-cie-kader-attou
+  occurrences: 1
+  nom_brut: Accrorap - Cie Kader Attou
+- organisme_uid: actoral
+  occurrences: 1
+  nom_brut: Actoral
+- organisme_uid: aflam
+  occurrences: 1
+  nom_brut: Aflam
+- organisme_uid: agence-karkade
+  occurrences: 1
+  nom_brut: Agence Karkadé
+- organisme_uid: agora-pole-national-cirque
+  occurrences: 1
+  nom_brut: Agora - Pôle National Cirque
+- organisme_uid: universite-aix-marseille
+  occurrences: 1
+  nom_brut: Université Aix-Marseille
+- organisme_uid: ardeche-images
+  occurrences: 1
+  nom_brut: Ardèche Images
+- organisme_uid: la-deter
+  occurrences: 1
+  nom_brut: LA DÉTER
+- organisme_uid: villa-gillet
+  occurrences: 1
+  nom_brut: Villa Gillet
+- organisme_uid: festival-d-avignon
+  occurrences: 1
+  nom_brut: Festival d'Avignon
+- organisme_uid: theatre-des-baumettes
+  occurrences: 1
+  nom_brut: Théâtre des Baumettes
+- organisme_uid: les-subs
+  occurrences: 1
+  nom_brut: Les SUBS
+- organisme_uid: passages-transfestival
+  occurrences: 1
+  nom_brut: Passages Transfestival
+- organisme_uid: atelier-de-paris-cdcn
+  occurrences: 1
+  nom_brut: Atelier de Paris / CDCN
+- organisme_uid: ateliers-medicis
+  occurrences: 1
+  nom_brut: Ateliers Médicis
+- organisme_uid: bi-pole
+  occurrences: 1
+  nom_brut: Bi:Pole
+- organisme_uid: bibliotheque-nationale-de-france
+  occurrences: 1
+  nom_brut: Bibliothèque nationale de France
+- organisme_uid: canal-93
+  occurrences: 1
+  nom_brut: Canal 93
+- organisme_uid: c-a-m-p-reseau-scalene
+  occurrences: 1
+  nom_brut: C.A.M.P / réseau Scalene
+- organisme_uid: cave-poesie-rene-gouzenne
+  occurrences: 1
+  nom_brut: Cave Poésie René Gouzenne
+- organisme_uid: centre-des-monuments-nationaux
+  occurrences: 1
+  nom_brut: Centre des Monuments Nationaux
+- organisme_uid: centre-du-patrimoine-armenien
+  occurrences: 1
+  nom_brut: Centre du patrimoine arménien
+- organisme_uid: centre-international-de-poesie-marseille
+  occurrences: 1
+  nom_brut: Centre international de poésie Marseille
+- organisme_uid: centre-pompidou
+  occurrences: 1
+  nom_brut: Centre Pompidou
+- organisme_uid: centre-photographique-marseille
+  occurrences: 1
+  nom_brut: Centre Photographique Marseille
+- organisme_uid: chaillot
+  occurrences: 1
+  nom_brut: Chaillot
+- organisme_uid: chateau-de-servieres
+  occurrences: 1
+  nom_brut: Château de Servières
+- organisme_uid: cie-rayess-bek
+  occurrences: 1
+  nom_brut: Cie Rayess Bek
+- organisme_uid: la-chartreuse
+  occurrences: 1
+  nom_brut: La Chartreuse
+- organisme_uid: cite-de-la-musique-philharmonie-de-paris
+  occurrences: 1
+  nom_brut: Cité de la musique - Philharmonie de Paris
+- organisme_uid: cite-internationale-de-la-langue-francaise
+  occurrences: 1
+  nom_brut: Cité internationale de la langue française
+- organisme_uid: cite-internationale-des-arts-x-wonder-cabinet
+  occurrences: 1
+  nom_brut: Cité Internationale des Arts x Wonder Cabinet
+- organisme_uid: centre-national-de-la-danse
+  occurrences: 1
+  nom_brut: Centre national de la danse
+- organisme_uid: centre-d-art-contemporain-de-chateauvert
+  occurrences: 1
+  nom_brut: Centre d'art contemporain de Châteauvert
+- organisme_uid: multitude
+  occurrences: 1
+  nom_brut: Multitude
+- organisme_uid: nouvelles-rencontres-d-averroes
+  occurrences: 1
+  nom_brut: Nouvelles Rencontres d'Averroès
+- organisme_uid: divertimento
+  occurrences: 1
+  nom_brut: Divertimento
+- organisme_uid: documentaire-sur-grand-ecran
+  occurrences: 1
+  nom_brut: Documentaire sur grand écran
+- organisme_uid: festival-d-aurillac
+  occurrences: 1
+  nom_brut: Festival d'Aurillac
+- organisme_uid: ecole-de-la-deuxieme-chance-de-marseille
+  occurrences: 1
+  nom_brut: École de la deuxième chance de Marseille
+- organisme_uid: ecole-des-hautes-etudes-en-sciences-sociales
+  occurrences: 1
+  nom_brut: Ecole des Hautes Etudes en Sciences Sociales
+- organisme_uid: ecole-nationale-superieure-d-architecture-de-marseille
+  occurrences: 1
+  nom_brut: Ecole Nationale Supérieure d'Architecture de Marseille
+- organisme_uid: ecole-nationale-superieure-de-la-photographie-d-arles
+  occurrences: 1
+  nom_brut: École nationale supérieure de la photographie d'Arles
+- organisme_uid: ecole-nationale-superieure-des-arts-et-techniques-du-theatre
+  occurrences: 1
+  nom_brut: École Nationale Supérieure des Arts et Techniques du Théâtre
+- organisme_uid: ecole-superieure-d-art-de-clermont-metropole
+  occurrences: 1
+  nom_brut: École Supérieure d'Art de Clermont Métropole
+- organisme_uid: elogie-siemp
+  occurrences: 1
+  nom_brut: Elogie-Siemp
+- organisme_uid: la-condition-publique
+  occurrences: 1
+  nom_brut: La Condition Publique
+- organisme_uid: universcience
+  occurrences: 1
+  nom_brut: Universcience
+- organisme_uid: palais-de-la-porte-doree
+  occurrences: 1
+  nom_brut: Palais de la Porte Dorée
+- organisme_uid: festival-international-des-arts-de-bordeaux-metropole
+  occurrences: 1
+  nom_brut: Festival International des Arts de Bordeaux Métropole
+- organisme_uid: festival-d-automne-a-paris
+  occurrences: 1
+  nom_brut: Festival d'Automne à Paris
+- organisme_uid: festival-de-l-histoire-de-l-art
+  occurrences: 1
+  nom_brut: Festival de l'Histoire de l'Art
+- organisme_uid: festival-de-cinema-de-douarnenez
+  occurrences: 1
+  nom_brut: Festival de cinéma de Douarnenez
+- organisme_uid: festival-de-marseille
+  occurrences: 1
+  nom_brut: Festival de Marseille
+- organisme_uid: festival-d-aix-en-provence
+  occurrences: 1
+  nom_brut: Festival d'Aix-en-Provence
+- organisme_uid: festival-du-cinema-mediterraneen-de-montpellier
+  occurrences: 1
+  nom_brut: Festival du Cinéma Méditerranéen de Montpellier
+- organisme_uid: fondation-art-explora
+  occurrences: 1
+  nom_brut: Fondation Art Explora
+- organisme_uid: fondation-camargo
+  occurrences: 1
+  nom_brut: Fondation Camargo
+- organisme_uid: c-est-pas-du-luxe
+  occurrences: 1
+  nom_brut: C'est pas du luxe !
+- organisme_uid: fort-pop
+  occurrences: 1
+  nom_brut: Fort Pop
+- organisme_uid: fotokino
+  occurrences: 1
+  nom_brut: Fotokino
+- organisme_uid: frac-champagne-ardenne
+  occurrences: 1
+  nom_brut: FRAC Champagne-Ardenne
+- organisme_uid: frac-corsica
+  occurrences: 1
+  nom_brut: FRAC Corsica
+- organisme_uid: frac-ile-de-france
+  occurrences: 1
+  nom_brut: FRAC Île-de-France
+- organisme_uid: reseau-culturel-francais
+  occurrences: 1
+  nom_brut: Réseau culturel français
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'

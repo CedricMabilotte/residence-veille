@@ -1,8 +1,8 @@
 uid: b20e8dcb
 type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/abstract-art/10643
-fetched_at: '2026-05-22T12:37:51+00:00'
-score: 6
+fetched_at: '2026-05-22T15:14:14+00:00'
+score: 7
 status: bientot-fermee
 opportunite:
   nom: Abstract Art
@@ -17,40 +17,37 @@ candidature:
   langue_dossier:
   - en
   frais_inscription:
-    candidature:
-      montant: 0
-      devise: EUR
-    participation_si_accepte:
-      montant: 55
-      devise: EUR
+    montant: 55
+    devise: EUR
+    condition: en cas d'acceptation
   pieces_demandees:
-  - Up to 12 photos
-  - Details of the work (title, medium, size, year, description)
-  - Brief biography
-  - Artist statement (minimum 100 words)
-  - Website link
-  - Social media links
-  url_candidature: null
+  - Jusqu'à 12 photos
+  - Détails des œuvres (titre, technique, dimensions, année, description)
+  - Biographie courte
+  - Déclaration d'artiste (minimum 100 mots)
+  - Lien vers site web
+  - Liens réseaux sociaux
+  url_candidature: https://www.curatorspace.com/opportunities/detail/abstract-art/10643
 eligibilite:
   disciplines:
-  - painting
-  - drawing
-  - photography
-  - sculpture
-  - ceramics
-  - textile
-  - installation
-  - new media
-  - mixed media
+  - Peinture
+  - Dessin
+  - Photographie
+  - Sculpture
+  - Céramique
+  - Textile
+  - Installation
+  - Nouveaux médias
+  - Art mixte
   niveau_carriere: null
   age_max: null
   nationalite: null
   residence_administrative: null
 conditions_exposition:
   lieux:
-  - Online exhibition
-  - Art Gallery in Tbilisi, Georgia (170 sq. m)
-  dates_exposition: Month-long
+  - Exposition en ligne
+  - Galerie d'art de Tbilisi (170 m²)
+  dates_exposition: Un mois (dates non précisées)
   format: collective
   prise_en_charge:
     production: false
@@ -62,37 +59,43 @@ conditions_exposition:
     hebergement_vernissage: false
 partenaires: []
 _meta:
-  extracted_confidence: 0.75
-  extracted_notes: Organisation porteuse non explicitement nommée. URL de candidature
-    non fournie (via plateforme CuratorSpace). Dates précises de l'exposition non
-    spécifiées au-delà de 'month-long'.
+  extracted_confidence: 0.7
+  extracted_notes: Nom de l'organisme non spécifié; contact et site web officiel absent;
+    dates d'exposition précises non fournies; minimum d'âge 18 ans extrait du texte.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T12:37:51+00:00'
+  extracted_at: '2026-05-22T15:14:14+00:00'
   source_lang: en
-  resume_fr: Appel à candidatures pour une publication et exposition curatées consacrées
-    à l'art abstrait, deadline 26/05/2026. Ouvert aux artistes du monde entier âgés
-    de 18 ans et plus ; candidature gratuite, participation de 55 EUR si acceptation.
-    Les artistes sélectionnés bénéficieront d'une parution de 2 à 6 pages en version
-    papier et numérique avec promotion. La publication atteint plus de 1 million de
-    lecteurs sur Yumpu et 682,274 sur Scribd.
+  resume_fr: Appel à candidatures pour une publication et exposition d'art curatée
+    thématisée « Art Abstrait » à Tbilisi, Géorgie, avec date limite 26/05/2026. Les
+    artistes sélectionnés seront présentés dans une exposition en ligne pendant un
+    mois et recevront une couverture de 2-6 pages en version imprimée et numérique
+    du magazine. Les frais de candidature sont gratuits, mais les artistes acceptés
+    doivent payer 55 EUR de frais de participation. Les candidatures doivent inclure
+    jusqu'à 12 photos, les détails des œuvres (titre, medium, dimensions, année, description),
+    une biographie, une déclaration d'artiste (minimum 100 mots), et les liens de
+    site web et réseaux sociaux.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
   last_status_check: '2026-05-22'
 analyse:
-  synthese: 'Appel à candidature pour une publication et exposition en ligne thématisée
-    ''Abstract Art''. Les artistes sélectionnés seront publiés dans une galerie de
-    170 sq. m à Tbilisi et dans une revue papier/numérique avec 2-6 pages de présentation.
-    Ouvert aux artistes mondiaux de 18 ans et plus. Frais de participation : 55 EUR
-    si accepté (candidature gratuite). Deadline : 26 mai 2026.'
-  pour_qui: Artistes du monde entier âgés de 18 ans et plus pratiquant l'art abstrait
-    et contemporain dans diverses disciplines.
+  synthese: Abstract Art est une publication d'art curatée et exposition en ligne
+    basée à Tbilisi, Géorgie, ouverte aux artistes du monde entier âgés de 18 ans
+    minimum. Les artistes sélectionnés reçoivent une publication sur 2 à 6 pages en
+    éditions imprimée et numérique, avec promotion sur réseaux sociaux et exposition
+    en ligne d'un mois. Une commission de 55 EUR s'ajoute en cas d'acceptation. Certains
+    artistes exceptionnels sont sélectionnés pour un livre « 101 Contemporary Artists
+    and More... » ou expositions futures à la galerie d'art de Tbilisi (170 m²).
+  pour_qui: Artistes travaillant l'art abstrait, tous horizons et pays, âgés de 18
+    ans minimum, cherchant publication imprimée et exposition en ligne avec promotion
+    internationale.
 a_savoir:
-- 'Deadline extrêmement proche : 26 mai 2026 (4 jours restants)'
-- Frais de participation de 55 EUR si l'artiste est sélectionné
-- Pas de rémunération monétaire directe ; compensation via publication et exposition
-  uniquement
-- Aucune prise en charge des frais de transport ou de production
+- 'Date limite imminente : 26 mai 2026 (4 jours à partir du 22 mai 2026)'
+- Commission de participation de 55 EUR uniquement en cas d'acceptation
+- Exposition temporaire limitée à un mois en ligne
+- Galerie physique récemment ouverte à Tbilisi; sélection curatoriale pour expositions
+  futures non garantie
+- Aucun support financier, logistique, de production ou d'hébergement mentionné
 organisme_details:
   site_web: null
   adresse: null
@@ -100,20 +103,19 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: partiel
-  justification: Les artistes reçoivent une publication (2-6 pages) et une exposition,
-    mais pas de rémunération monétaire directe (bourse, per diem, dotation)
+  rempli: non
+  justification: Aucune rémunération, bourse ou per diem mentionné; seule publication
+    et exposition en ligne.
 - id: hebergement
   rempli: non
-  justification: Aucun hébergement n'est mentionné dans le texte
+  justification: Aucun hébergement fourni.
 - id: atelier
   rempli: non
-  justification: Aucun espace de travail, atelier ou équipements ne sont fournis aux
-    artistes
+  justification: Aucun espace de production, studio ou équipement fourni.
 - id: frais_pris_en_charge
   rempli: non
-  justification: Aucun frais de voyage, production ou transport n'est pris en charge.
-    Les artistes paient 55 EUR s'ils sont acceptés
+  justification: Aucun frais de voyage, production ou transport pris en charge; l'artiste
+    paie 55 EUR en cas d'acceptation.
 _interne_affinite:
   match: true
   signaux:

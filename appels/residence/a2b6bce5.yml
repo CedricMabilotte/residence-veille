@@ -1,15 +1,15 @@
 uid: a2b6bce5
 type: residence
 source_url: https://www.fondationdesartistes.fr/missions/attribuer-un-atelier
-fetched_at: '2026-05-22T11:29:39+00:00'
+fetched_at: '2026-05-22T14:03:35+00:00'
 score: 8
 status: indetermine
 opportunite:
-  nom: Attribution d'ateliers de la Fondation des Artistes
+  nom: Attribuer des ateliers
   organisme: Fondation des Artistes
   lieu:
-    ville: Paris et Nogent-sur-Marne
-    pays: France
+    ville: Paris
+    pays: null
     territoire: null
 candidature:
   date_limite: null
@@ -17,82 +17,83 @@ candidature:
   langue_dossier: null
   frais_inscription: null
   pieces_demandees:
-  - Formulaire de demande d'attribution d'un atelier d'artiste
+  - Formulaire de demande
   - Dossier artistique
   - Dossier administratif
   url_candidature: null
 eligibilite:
   disciplines:
   - arts plastiques
-  niveau_carriere: confirmé·e
+  niveau_carriere: null
   age_max: null
   nationalite: sans restriction
-  residence_administrative: sans restriction
+  residence_administrative: null
 conditions_residence:
-  duree: null
-  hebergement: true
-  atelier: 'Espaces de travail et atelier-logements dans quatre ensembles : Hameau
-    à Nogent-sur-Marne, Cité Guy-Loë, Faubourg Poissonnière à Paris, Impasse Savart
-    à Paris'
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: Espaces de travail dans des ateliers individuels ou ateliers-logements
+    gérés par la Fondation
   remuneration: null
   voyage: null
   restitution: null
-partenaires:
-- Organismes de logements sociaux
-- Ville de Paris
-- État français
+partenaires: []
 _meta:
-  extracted_confidence: 0.25
-  extracted_notes: 'Page de présentation d''un service d''attribution d''ateliers
-    permanents, non un appel à candidature temporaire. Manquent : date limite, durée,
-    rémunération, URL candidature. Les artistes paient un loyer mensuel.'
+  extracted_confidence: 0.3
+  extracted_notes: Ce n'est pas une résidence artistique classique avec calendrier
+    de candidature fixe, mais un programme permanent d'attribution d'ateliers. Pas
+    de date limite, pas de rémunération, pas de durée définie. L'attribution dépend
+    de la disponibilité d'ateliers vacants. Des ateliers sont également situés à Nogent-sur-Marne
+    (71 ateliers) et Paris (20 ateliers). Le formulaire de candidature doit être téléchargé
+    mais aucune URL spécifique n'est fournie dans le texte.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T11:29:39+00:00'
+  extracted_at: '2026-05-22T14:03:35+00:00'
   source_lang: fr
-  detection_confidence: 0.98
+  detection_confidence: 0.99
   detection_method: claude
   source_label: Fondation des Artistes
   last_status_check: '2026-05-22'
 analyse:
-  synthese: La Fondation des Artistes gère un parc de 91 ateliers et ateliers-logements
-    répartis à Paris et Nogent-sur-Marne depuis 1976. Le programme s'adresse à des
-    artistes plasticiens en activité justifiant de l'appartenance au régime social
-    des artistes, sans critère d'âge ni de nationalité. L'attribution se fait par
-    dossier artistique et administratif, examinés par une commission lors de la vacance
-    d'un atelier. Un bail fixe le loyer mensuel.
-  pour_qui: Artistes plasticiens en activité, affiliés au régime social des artistes,
-    en recherche d'espace de travail pérenne.
+  synthese: La Fondation des Artistes gère un programme permanent d'attribution d'ateliers
+    et d'ateliers-logements aux artistes plasticiens en activité. Le parc comprend
+    91 ateliers répartis entre Nogent-sur-Marne (36 ateliers du Hameau, 35 ateliers-logements
+    de la Cité Guy-Loë) et Paris (4 ateliers de l'Impasse Savart, 16 ateliers-logements
+    du Faubourg Poissonnière). L'attribution se fait sans critère d'âge ni de nationalité
+    sur présentation d'un dossier artistique et administratif. L'obtention d'un atelier
+    s'accompagne de la signature d'un bail fixant un loyer mensuel.
+  pour_qui: Artistes plasticiens en activité justifiant de leur appartenance au régime
+    social des artistes.
 a_savoir:
-- Il ne s'agit pas d'une résidence temporaire mais d'une attribution d'ateliers permanents
-- 'Les artistes paient un loyer mensuel : ce n''est pas une opportunité rémunérée'
-- 'Pas de date limite de candidature : les dossiers restent actifs et sont examinés
-  lors de vacances d''ateliers'
-- 'Critique d''accès : obligation d''être affilié au régime social des artistes'
-- Accès à 4 adresses distinctes avec conditions variées (Hameau, Cité Guy-Loë, Faubourg
-  Poissonnière, Impasse Savart)
+- Programme permanent sans date limite de candidature fixe
+- Aucune rémunération, bourse ou aide financière proposée
+- Attribution dépendante de la disponibilité d'ateliers vacants
+- Loyer mensuel obligatoire à payer après attribution
+- Hébergement fourni uniquement avec certains ateliers-logements, pas avec tous les
+  ateliers
 organisme_details:
   site_web: https://www.fondationdesartistes.fr
-  adresse: 9-11 rue Berryer, 75008 Paris
+  adresse: Hôtel Salomon de Rothschild, 9-11 rue Berryer, 75008 Paris
   ville: Paris
-  contact_email: visite@fondationdesartistes.fr
+  contact_email: null
 criteres_programme:
 - id: retribution
   rempli: non
-  justification: Les artistes paient un loyer mensuel ; aucune rémunération, bourse
-    ou per diem n'est mentionné
+  justification: Aucune rémunération, bourse ou dotation mentionnée. Un loyer mensuel
+    est à payer après attribution de l'atelier.
 - id: hebergement
   rempli: partiel
-  justification: 35 ateliers-logements de la Cité Guy-Loë et 16 ateliers-logements
-    du Faubourg Poissonnière, mais 36 ateliers du Hameau et 4 de l'Impasse Savart
-    ne sont que des ateliers
+  justification: 'Certains ateliers incluent un logement (« ateliers-logements » :
+    35 à Nogent-sur-Marne, 16 à Paris), d''autres sont des ateliers seuls sans logement.'
 - id: atelier
   rempli: oui
-  justification: 'Le programme fournit des espaces de production et d''atelier : 36
-    ateliers du Hameau, 35 + 16 ateliers-logements, 4 ateliers de l''Impasse Savart'
+  justification: Des espaces de travail (ateliers individuels) sont fournis pour tous
+    les 91 ateliers, « destinés à accueillir des artistes plasticiens en activité
+    » et « propices à leur travail de création ».
 - id: frais_pris_en_charge
   rempli: non
-  justification: Les artistes paient le loyer ; aucune prise en charge des frais n'est
-    mentionnée
+  justification: Aucune prise en charge de frais relatifs au voyage, production ou
+    transport d'œuvres mentionnée.
 _interne_affinite:
   match: false
   signaux: []

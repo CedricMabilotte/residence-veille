@@ -1,5 +1,15 @@
-edges_count: 101
-partenaires_distincts: 94
+edges_count: 197
+partenaires_distincts: 173
 candidats_a_instruire:
 - nom: Ministère de la Culture
-  occurrences: 6
+  occurrences: 9
+- nom: Ministère de l'Agriculture et de l'Alimentation
+  occurrences: 3
+- nom: Région Nouvelle-Aquitaine
+  occurrences: 3
+- nom: Département de la Vienne
+  occurrences: 3
+- nom: Communauté urbaine Grand Poitiers
+  occurrences: 3
+- nom: Commune de Rouillé
+  occurrences: 3

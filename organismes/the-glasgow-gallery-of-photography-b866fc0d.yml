@@ -2,11 +2,14 @@ uid: the-glasgow-gallery-of-photography-b866fc0d
 nom_canonique: The Glasgow Gallery of Photography
 acronymes: []
 pays: null
-type_organisme: null
+type_organisme: centre_art
 url_canonique: null
 urls_secondaires: []
-description_courte: null
-disciplines_proposees: []
+description_courte: Institution écossaise spécialisée dans la photographie contemporaine et l'art photographique.
+disciplines_proposees:
+- photographie
+- photographie contemporaine
+- photographie documentaire
 types_opportunites_habituels:
 - exposition
 opportunites_liees:

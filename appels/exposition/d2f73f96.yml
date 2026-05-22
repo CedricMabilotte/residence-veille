@@ -1,7 +1,7 @@
 uid: d2f73f96
 type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/light-up-the-north-spark--early-career-artist-and-producer-programme/10665
-fetched_at: '2026-05-22T12:31:41+00:00'
+fetched_at: '2026-05-22T15:06:54+00:00'
 score: 7
 status: bientot-fermee
 opportunite:
@@ -17,28 +17,26 @@ opportunite:
     de Carrière 2026]
 candidature:
   date_limite: '2026-05-22'
-  langue_dossier: null
-  frais_inscription:
-    montant: 0
-    devise: GBP
+  langue_dossier:
+  - English
+  frais_inscription: null
   pieces_demandees:
-  - Short CV
-  - Examples of work
-  - Covering letter (maximum 2 pages) or video/audio recording (maximum 6 minutes)
-  - Equal Opportunities Monitoring Form (optional)
+  - Curriculum vitae court
+  - Exemples de travaux
+  - Lettre de motivation ou équivalent vidéo/audio (maximum 6 minutes)
   url_candidature: https://www.curatorspace.com/opportunities/detail/light-up-the-north-spark--early-career-artist-and-producer-programme/10665
 eligibilite:
   disciplines:
   - light art
   - digital art
-  niveau_carriere: early-career, emerging
+  niveau_carriere: emerging
   age_max: null
-  nationalite: null
+  nationalite: UK-based
   residence_administrative: United Kingdom
 conditions_exposition:
   lieux:
-  - Light Up Lancaster
-  - Light Night Wigan
+  - Lancaster
+  - Wigan
   dates_exposition: 5-7 November 2026 and 20-22 November 2026
   format: festival
   prise_en_charge:
@@ -50,51 +48,52 @@ conditions_exposition:
     per_diem: true
     hebergement_vernissage: true
 partenaires:
-- Light Up The North
 - Light Up Lancaster
 - Light Night Wigan
 _meta:
-  extracted_confidence: 0.95
-  extracted_notes: Deadline is today (22 May 2026 at 5 PM). All key information clearly
-    stated in text. No website URL or contact email provided for organisme. Two separate
-    festival locations and dates.
+  extracted_confidence: 0.85
+  extracted_notes: 'La deadline correspond à la date d''extraction (22/05/2026). Les
+    critères d''admissibilité sont clairs: artistes basés au Royaume-Uni en début
+    de carrière. Les montants financiers sont bien documentés (bourse de £300 + jusqu''à
+    £600 pour frais). Participation physique obligatoire.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T12:31:41+00:00'
+  extracted_at: '2026-05-22T15:06:54+00:00'
   source_lang: en
-  resume_fr: Le programme SPARK soutient les artistes et producteurs en début de carrière
-    travaillant avec la lumière. Six participants (3 artistes, 3 producteurs) seront
-    sélectionnés et recevront une bourse de £300 chacun, plus jusqu'à £600 supplémentaires
-    pour les frais de déplacement et logement. Le programme se déroulera sur 2 weekends
-    en novembre 2026 durant les festivals Light Up Lancaster (5-7 Nov) et Light Night
-    Wigan (20-22 Nov), proposant ateliers, mentorat et networking. La date limite
-    de candidature est le 22/05/2026. Les candidats shortlistés seront interviewés
-    durant la semaine du 1 juin, avec les résultats communiqués au plus tard le lundi
-    8 juin.
+  resume_fr: Le SPARK est un programme de soutien destiné aux artistes et producteurs
+    en début de carrière intéressés par le travail avec la lumière, basé à Lancaster
+    et Wigan au Royaume-Uni. Jusqu'à 6 personnes seront sélectionnées (3 artistes
+    et 3 producteurs) et recevront des bourses de £300 plus jusqu'à £600 supplémentaires
+    pour les frais de déplacement, d'hébergement et de subsistance. Le programme se
+    déroulera sur 2 weekends en novembre 2026, parallèlement aux festivals Light Up
+    Lancaster (5-7 Nov) et Light Night Wigan (20-22 Nov), avec ateliers informels,
+    mentorat, réseautage et conférences. Les candidatures doivent être envoyées avant
+    le 22/05/2026 et peuvent inclure des formats non-écrits d'une durée maximale de
+    6 minutes. Les entretiens se tiendront via Zoom la semaine du 1er juin, avec notification
+    des résultats au plus tard le lundi 8 juin.
   detection_confidence: 0.8461538461538461
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
   last_status_check: '2026-05-22'
 analyse:
-  synthese: Le programme SPARK de Light Up The North offre une formation et un mentorat
-    à six artistes et producteurs émergents intéressés par l'art lumineux. Les participants
-    sélectionnés participent à des ateliers informels, des événements de réseautage
-    et du mentorat programmés autour de deux festivals partenaires (Light Up Lancaster
-    et Light Night Wigan) au cours de deux week-ends en novembre 2026. Chaque participant
-    reçoit une bourse de £300 pour participer, plus jusqu'à £600 supplémentaires pour
-    couvrir voyage, logement et frais de subsistance. Le programme est gratuit pour
-    postuler. L'organisme encourage activement les candidatures d'artistes actuellement
-    sous-représentés dans le secteur des festivals de lumière.
-  pour_qui: Artistes et producteurs émergents et en début de carrière basés au Royaume-Uni,
-    intéressés par l'art lumineux et les festivals de lumière, quel que soit leur
-    âge.
+  synthese: 'Le programme SPARK soutient six artistes et producteurs en début de carrière
+    sélectionnés par appel à candidatures ouvert. Chaque participant reçoit une bourse
+    de £300 et jusqu''à £600 supplémentaires pour couvrir les frais de voyage, d''hébergement
+    et de subsistance. Le programme se déroule sur deux weekends en novembre 2026
+    dans le cadre de deux festivals partenaires : Light Up Lancaster (5-7 novembre)
+    et Light Night Wigan (20-22 novembre). Les participants bénéficient d''ateliers
+    informels, d''événements de réseautage et de mentoring conçus pour développer
+    leurs compétences en art lumineux et production de festivals. L''admissibilité
+    est réservée aux artistes basés au Royaume-Uni perçus comme émergents ou de nouveaux
+    talents, indépendamment de l''âge.'
+  pour_qui: Artistes et producteurs en début de carrière basés au Royaume-Uni intéressés
+    par l'art lumineux, l'art numérique et la production de festivals.
 a_savoir:
-- 'URGENT: date limite aujourd''hui (22 mai 2026 à 17h)'
-- Seulement 6 places disponibles (3 artistes, 3 producteurs) — très compétitif
-- 'Obligation stricte: résider au Royaume-Uni'
-- Candidatures acceptées en formats non-textuels (vidéo ou audio, max 6 minutes)
-- L'organisme s'engage dans la diversité et l'inclusion; encourage particulièrement
-  les candidatures des groupes sous-représentés
-- 'Accessibilité pour handicapés: statut à confirmer (TBC)'
+- 'Deadline imminent: 22 mai 2026, 17h00'
+- 'Critère d''admissibilité strict: candidats basés au Royaume-Uni uniquement'
+- Participation physique obligatoire aux deux festivals (5-7 novembre et 20-22 novembre
+  2026)
+- 'Places très limitées: 6 personnes au total (3 artistes, 3 producteurs)'
+- Entretiens en ligne via Zoom semaine du 1er juin
 organisme_details:
   site_web: null
   adresse: null
@@ -103,20 +102,18 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: Participants reçoivent des bourses de £300, plus jusqu'à £600 supplémentaires
-    pour couvrir voyage, logement et frais de subsistance
+  justification: Bourse de £300 par participant et jusqu'à £600 supplémentaires couvrant
+    frais de voyage, hébergement et subsistance
 - id: hebergement
   rempli: oui
-  justification: L'hébergement est couvert dans les £600 de fonds supplémentaires
-    alloués
+  justification: Frais d'accommodation couverts jusqu'à £600 par participant
 - id: atelier
   rempli: non
-  justification: Des ateliers et mentorat sont offerts, mais aucun studio ni espace
-    de production n'est fourni
+  justification: Aucun atelier ou espace de production n'est fourni
 - id: frais_pris_en_charge
-  rempli: oui
-  justification: Voyage, hébergement et frais de subsistance sont couverts jusqu'à
-    £600 par participant
+  rempli: partiel
+  justification: Frais de voyage, hébergement et subsistance couverts jusqu'à £600;
+    production non couverte
 _interne_affinite:
   match: false
   signaux: []

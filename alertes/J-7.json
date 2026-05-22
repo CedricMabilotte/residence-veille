@@ -24,6 +24,14 @@
     "nom": "Open Call for JustArt Newspaper Club Issue 6"
   },
   {
+    "path": "appels/exposition/76bf60d9.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 3,
+    "type": "exposition",
+    "uid": "76bf60d9",
+    "nom": "OPEN CALL - Quote & Curate Summer Curation - Opportunity to exhibit at DESIGN CENTRE CHELSEA HARBOUR"
+  },
+  {
     "path": "appels/exposition/88d8f72a.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 0,

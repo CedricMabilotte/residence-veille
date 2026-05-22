@@ -1,8 +1,8 @@
 uid: 17abfa82
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel
-fetched_at: '2026-05-22T11:47:29+00:00'
-score: 7
+fetched_at: '2026-05-22T14:18:59+00:00'
+score: 6
 status: indetermine
 opportunite:
   nom: Offres création numérique clé-en-main pour le réseau culturel
@@ -12,25 +12,24 @@ opportunite:
     pays: null
 candidature:
   date_limite: null
-  langue_dossier:
-  - français
+  langue_dossier: null
   frais_inscription: null
   pieces_demandees: null
-  url_candidature: https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel
+  url_candidature: null
 eligibilite:
   disciplines:
   - Création numérique
-  - Cinéma
-  - Arts Visuels
-  - Photographie
+  - Cinéma (série courte et digitale française)
+  - Arts Visuels / Photographie
   niveau_carriere: null
   age_max: null
   nationalite: null
   residence_administrative: null
 conditions_exposition:
-  lieux: []
+  lieux:
+  - Établissements du réseau culturel français à l'étranger ou leurs partenaires
   dates_exposition: null
-  format: null
+  format: collective
   prise_en_charge:
     production: false
     transport:
@@ -39,54 +38,63 @@ conditions_exposition:
       devise: EUR
     per_diem: false
     hebergement_vernissage: false
-partenaires: []
+partenaires:
+- Réseau culturel français
 _meta:
-  extracted_confidence: 0.15
-  extracted_notes: Page proposant une offre de programmation destinée aux établissements
-    du réseau culturel, non un appel à candidature pour artistes individuels. Informations
-    de candidature traditionnelles absentes (date limite, frais, pièces demandées,
-    critères d'éligibilité).
+  extracted_confidence: 0.3
+  extracted_notes: Ce document décrit une offre de programmation de contenus numériques
+    à destination des établissements du réseau culturel français, et non un appel
+    à candidature pour artistes individuels. Les établissements organisent et financent
+    l'événement sur place. L'absence quasi-totale de conditions de candidature, de
+    dates limites et de processus de sélection rend l'extraction difficile.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T11:47:29+00:00'
+  extracted_at: '2026-05-22T14:18:59+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Institut français — résidences internationales
   last_status_check: '2026-05-22'
 analyse:
-  synthese: L'Institut français propose au réseau culturel une offre de programmation
-    'clé-en-main' incluant Binge (série courte et digitale), le Catalogue XR et l'exposition
-    Escape. L'Institut français fournit les fichiers des œuvres et un kit de communication
-    complet. L'organisation de l'événement sur place reste à la charge de l'établissement
-    du réseau.
-  pour_qui: Établissements du réseau culturel français et leurs partenaires souhaitant
-    programmer des contenus de création numérique français.
+  synthese: 'L''Institut français propose au réseau culturel une offre de programmation
+    « clé-en-main » mettant en avant la création numérique française. Il fournit des
+    droits de diffusion non commerciale, les fichiers des œuvres et un kit de communication
+    complet pour des présentations in situ. Cette offre couvre trois domaines : la
+    série courte digitale (Binge), le catalogue XR et une exposition numérique (Escape,
+    générations numériques). L''organisation et le financement de l''événement restent
+    entièrement à la charge de l''établissement accueillant.'
+  pour_qui: Les établissements du réseau culturel français à l'étranger et leurs partenaires
+    souhaitant intégrer de la création numérique française à leur programmation.
 a_savoir:
-- Offre destinée aux institutions culturelles, non aux artistes individuels
-- Organisation et logistique de l'événement à la charge de l'établissement accueillant
-- Aucune rémunération ou aide financière mentionnée pour les institutions
+- Ce n'est pas un appel à candidature pour artistes, mais une offre de programmation
+  pour institutions du réseau culturel.
+- Les établissements doivent organiser et financer entièrement l'événement sur place.
+- Les droits de diffusion sont non commerciaux à l'étranger uniquement.
 organisme_details:
-  site_web: null
+  site_web: https://www.institutfrancais.com
   adresse: null
   ville: null
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: non
-  justification: Aucune rétribution monétaire pour artistes. Il s'agit d'une offre
-    de mise à disposition de contenus aux institutions.
+  justification: Aucune rétribution, bourse ou per diem mentionnés. Il s'agit d'une
+    offre de programmation, non d'un programme de résidence ou de soutien direct aux
+    artistes.
 - id: hebergement
   rempli: non
-  justification: Aucun hébergement fourni.
+  justification: Aucun hébergement fourni. Le programme fournit des contenus et des
+    droits de diffusion.
 - id: atelier
   rempli: non
-  justification: Aucun espace de travail ou atelier. Offre de contenus numériques
-    préexistants.
+  justification: Aucun espace de production ou d'atelier fourni. L'offre est une programmation
+    de contenus numériques déjà produits.
 - id: frais_pris_en_charge
-  rempli: partiel
-  justification: Institut français fournit fichiers et kit communication. Cependant,
-    l'organisation de l'événement sur place est à charge de l'établissement.
+  rempli: non
+  justification: « L'organisation de l'événement sur place est à la charge de l'établissement.
+    » Aucun frais de voyage, production ou transport n'est couvert par l'Institut
+    français.
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - collectif
   bonus_score: 0

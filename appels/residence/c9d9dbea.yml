@@ -1,23 +1,21 @@
 uid: c9d9dbea
 type: residence
 source_url: https://www.fondationdesartistes.fr/missions/accompagner-le-grand-age
-fetched_at: '2026-05-22T09:57:34+00:00'
+fetched_at: '2026-05-22T14:06:15+00:00'
 score: 7
 status: indetermine
 opportunite:
   nom: Maison nationale des artistes – EHPAD
   organisme: Fondation des Artistes
   lieu:
-    ville: null
+    ville: Nogent
     pays: France
     territoire: Val-de-Marne
 candidature:
   date_limite: null
   date_limite_precision: null
   langue_dossier: null
-  frais_inscription:
-    montant: null
-    devise: null
+  frais_inscription: null
   pieces_demandees: null
   url_candidature: null
 eligibilite:
@@ -26,78 +24,81 @@ eligibilite:
   - dessin
   - musique
   - écriture
-  niveau_carriere: tous
+  niveau_carriere: null
   age_max: null
-  nationalite: sans restriction
-  residence_administrative: sans restriction
+  nationalite: null
+  residence_administrative: null
 conditions_residence:
   duree:
     semaines: null
     dates: null
   hebergement: true
-  atelier: Académie de peinture et de dessin, pianos, espaces de travail artistique
-  remuneration:
-    montant: null
-    devise: null
-    periodicite: null
-  voyage:
-    pris_en_charge: false
-    plafond: null
-    devise: null
-  restitution: Création d'une œuvre, d'une exposition, d'une représentation artistique
+  atelier: Académie de peinture et de dessin, pianos, ateliers d'écriture, espace
+    de conférences (Salle Guy-Loë)
+  remuneration: null
+  voyage: null
+  restitution: création d'une œuvre, d'une exposition ou d'une représentation
 partenaires:
 - Agence régionale de Santé du Val-de-Marne
 - Conseil départemental du Val-de-Marne
+- MABA
+- Bernard Chauveau Editions
 _meta:
-  extracted_confidence: 0.15
-  extracted_notes: Page institutionnelle de présentation, non appel à candidature.
-    Mention d'une résidence artistique annuelle sans spécifications opérationnelles
-    détaillées.
+  extracted_confidence: 0.25
+  extracted_notes: Page institutionnelle décrivant un EHPAD, non un appel à candidatures
+    classique. Une résidence artistique annuelle est mentionnée mais sans modalités
+    de candidature, date limite ou conditions d'éligibilité détaillées.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T09:57:34+00:00'
+  extracted_at: '2026-05-22T14:06:15+00:00'
   source_lang: fr
-  detection_confidence: 0.95
+  detection_confidence: 0.75
   detection_method: claude
   source_label: Fondation des Artistes
   last_status_check: '2026-05-22'
 analyse:
-  synthese: La Maison nationale des artistes est un EHPAD créé en 1945 accueillant
-    artistes et écrivains dans le grand âge. Elle dispose d'une Académie de peinture
-    et de dessin, pianos, et programme culturel quotidien. La Fondation des Artistes
-    finance chaque année une résidence artistique aboutissant à la création d'une
-    œuvre ou d'une exposition. Établissement conventionné sans condition de revenus
-    pour l'admission.
-  pour_qui: Artistes et écrivains en fin de carrière ou en situation de dépendance,
-    prioritairement, ainsi que Val-de-Marnais souhaitant se retirer.
+  synthese: La Maison nationale des artistes est un EHPAD fondé en 1945 qui accueille
+    prioritairement des artistes en fin de vie, proposant logement et activités culturelles.
+    La Fondation des Artistes finance chaque année une résidence artistique permettant
+    la création collective d'une œuvre, d'une exposition ou d'une représentation.
+    L'établissement met à disposition une Académie de peinture et de dessin, des pianos
+    pour les musiciens et des ateliers d'écriture. Un programme culturel quotidien
+    associe expositions monographiques ou collectives, concerts, lectures, conférences
+    et projections. L'accès est sans condition de revenus pour les artistes et écrivains
+    ainsi que pour les habitants du Val-de-Marne confrontés à des problèmes de dépendance.
+  pour_qui: Artistes et écrivains en fin de vie, prioritairement, ainsi que des habitants
+    du Val-de-Marne souhaitant se retirer ou confrontés à des problèmes de dépendance.
 a_savoir:
-- 'Page générale : modalités de candidature à la résidence artistique annuelle non
-  détaillées'
-- Aucune date limite, URL de candidature ou processus de sélection fourni
-- Programme destiné prioritairement aux personnes âgées en dépendance, non aux artistes
-  émergents
+- Ce n'est pas un appel à candidatures classique pour une résidence temporaire, mais
+  la description d'une institution permanente.
+- Les modalités de candidature pour la résidence artistique annuelle ne sont pas détaillées
+  dans ce document.
+- Aucune date limite de candidature, durée de résidence ou conditions d'éligibilité
+  précisées pour la résidence.
+- Établissement privé à but non lucratif, agréé, conventionné et habilité à l'aide
+  sociale depuis 1945.
 organisme_details:
-  site_web: https://www.fondationdesartistes.fr
+  site_web: null
   adresse: null
-  ville: null
+  ville: Nogent
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: non
-  justification: Aucune rémunération, bourse ou per diem mentionnée pour la résidence
-    artistique
+  justification: Aucune rémunération, bourse ou per diem n'est mentionné pour les
+    artistes en résidence.
 - id: hebergement
-  rempli: partiel
-  justification: EHPAD avec hébergement pour résidents permanents ; conditions pour
-    résidence temporaire non spécifiées
+  rempli: oui
+  justification: C'est un EHPAD qui héberge les artistes résidents.
 - id: atelier
   rempli: oui
-  justification: Académie de peinture et de dessin, pianos et équipements artistiques
-    à disposition pour la pratique créative
+  justification: Académie de peinture et de dessin, pianos à disposition, ateliers
+    d'écriture, espace de conférences.
 - id: frais_pris_en_charge
-  rempli: non
-  justification: Aucune mention de prise en charge de frais de voyage, production
-    ou transport d'œuvres
+  rempli: inconnu
+  justification: Le texte ne mentionne pas la prise en charge des frais de voyage,
+    de production ou de transport.
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - collectif
   bonus_score: 0

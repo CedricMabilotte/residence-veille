@@ -1,0 +1,90 @@
+uid: 07e3edad
+type: prix
+source_url: https://www.cnap.fr/acquisitions-et-commandes-photographie-et-images-animees-2025
+fetched_at: '2026-05-22T13:59:25+00:00'
+score: 9
+status: indetermine
+opportunite:
+  nom: Acquisitions et commandes Photographie et images animées - 2025
+  organisme: Centre national des arts plastiques (Cnap)
+  lieu:
+    ville: null
+    pays: null
+candidature:
+  date_limite: null
+  langue_dossier: []
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Photographie
+  - Images animées
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant:
+      montant: 374970
+      devise: EUR
+    exposition: false
+    achat_oeuvre: true
+    edition_catalogue: false
+  jury_public: []
+  nb_laureats: 22
+  editions_precedentes: []
+partenaires: []
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: 'ATTENTION : Ce contenu n''est PAS un appel à candidature mais
+    un rapport d''acquisitions DÉJÀ EFFECTUÉES. Le collège Photographie et images
+    animées du Cnap s''est réuni les 21 et 22 mai 2025 pour acquérir 65 œuvres de
+    22 artistes pour un budget de 374 970 EUR, enrichies de 5 donations. Aucune date
+    limite de candidature, critères d''éligibilité, jury ou processus de sélection
+    n''est mentionné.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T13:59:25+00:00'
+  source_lang: fr
+  detection_confidence: 0.85
+  detection_method: claude
+  source_label: CNAP — soutien à la création
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Ce document rapporte les acquisitions et commandes effectuées par le Cnap
+    dans les domaines de la photographie et des images animées en 2025. Le collège
+    spécialisé a acquis 65 œuvres auprès de 22 artistes pour un budget de 374 970
+    EUR, auxquelles s'ajoutent 5 œuvres reçues en don. Les acquisitions incluent photographies
+    couleur et noir et blanc, vidéos, diaporamas sonores et installations sonores
+    provenant d'artistes nationaux et internationaux.
+  pour_qui: Ce rapport s'adresse aux artistes dont les œuvres ont déjà été sélectionnées
+    et acquises par le Cnap ; ce n'est pas un appel à candidature ouvert.
+a_savoir:
+- Il s'agit d'un rapport d'acquisitions passées, non d'un appel à candidature.
+- Aucune date limite, processus de sélection, critères d'éligibilité ou modalités
+  de candidature ne sont détaillés.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'Les 22 artistes ont reçu une rétribution monétaire : mentions répétées
+    « Achat à l''artiste » pour les acquisitions à titre onéreux.'
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention d'hébergement fourni.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de travail ou d'atelier fourni.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de production, voyage
+    ou transport.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

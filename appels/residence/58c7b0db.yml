@@ -1,0 +1,99 @@
+uid: 58c7b0db
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/deleguee-du-gouvernement-federal-a-la-culture-et-aux-medias-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T14:34:07+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Déléguée du gouvernement fédéral à la Culture et aux Médias x Cité internationale
+    des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  - musique
+  - architecture
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 6 mois
+  hebergement: null
+  atelier: environnement singulier de la Cité internationale des arts, une communauté
+    de plus de 300 artistes
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Déléguée du gouvernement fédéral à la Culture et aux Médias
+_meta:
+  extracted_confidence: 0.45
+  extracted_notes: Page de présentation générale du programme. Données structurelles
+    confirmées (disciplines, durée, nombre de places). Données administratives et
+    pratiques absentes (date limite de candidature, frais, rémunération, hébergement,
+    pièces à fournir, contact, URL de candidature).
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:34:07+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Ce programme accueille 6 artistes par an en résidence de 6 mois à la Cité
+    Internationale des Arts, au cœur de Paris. Il s'adresse aux artistes dans les
+    domaines des arts visuels, de la musique (compositeurs et interprètes) et de l'architecture.
+    Les résidents intègrent une communauté de plus de 300 artistes. Le programme,
+    créé en 1965, est soutenu par la Déléguée du gouvernement fédéral à la Culture
+    et aux Médias.
+  pour_qui: Artistes dans les domaines des arts visuels, de la musique ou de l'architecture.
+a_savoir:
+- Les conditions de rémunération, d'hébergement et les frais de candidature ne sont
+  pas précisés dans ce texte.
+- Cette page ne contient pas les informations pratiques (date limite, URL de candidature,
+  pièces requises, contact).
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou allocation.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention d'un logement fourni.
+- id: atelier
+  rempli: oui
+  justification: Les artistes intègrent l'environnement singulier de la Cité internationale
+    des arts avec ses 300 artistes et ses équipements partagés.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage ou de production.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

@@ -1,0 +1,126 @@
+uid: 5e45e170
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725
+fetched_at: '2026-05-22T14:59:36+00:00'
+score: 9
+status: indetermine
+opportunite:
+  nom: Show Your Work With BobCat Gallery in Putney
+  organisme: BobCat Gallery
+  lieu:
+    ville: London
+    pays: United Kingdom
+  nom_fr: Montrez votre travail avec BobCat Gallery à Putney
+  affichage_titre: Show Your Work With BobCat Gallery in Putney BobCat Gallery has
+    taken over a retail unit in Putney Exchange Shopping Centre, SW15. I’m... [Montrez
+    votre travail avec BobCat Gallery à Putney]
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription:
+    candidature_cout: 0
+    participation_mensuelle: 100
+    participation_devise: GBP
+    commission_ventes_pourcentage: 20
+  pieces_demandees:
+  - High quality images for each artwork
+  - 'Image files renamed with full captions: Artist Name_Title_Medium_Size_Price'
+  url_candidature: https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725
+eligibilite:
+  disciplines:
+  - Paintings
+  - Drawings
+  - Screenprints
+  - Cyanotypes
+  - Sculpture
+  - Glass
+  - Ceramics
+  - Mixed media
+  - Textiles
+  - Limited edition photography
+  niveau_carriere: null
+  age_max: null
+  age_min: 18
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - BobCat Gallery, Putney Exchange Shopping Centre, SW15, London
+  dates_exposition: Up to one month, rolling basis with monthly rotation
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: GBP
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Clarity on fees and T&Cs. Rolling-basis opportunity, no deadline
+    specified. Monthly rotating artists. Gallery curation final.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:59:36+00:00'
+  source_lang: en
+  resume_fr: BobCat Gallery, située à Putney Exchange Shopping Centre à SW15, offre
+    aux artistes l'opportunité d'exposer et de vendre leurs œuvres pour jusqu'à un
+    mois. Les frais de participation s'élèvent à £100.00 par artiste par mois, avec
+    une commission de 20% sur toutes les ventes. Entre 10 et 20 pièces par artiste
+    sont incluses, les petites œuvres (moins de 50cm x 50cm et moins de £500) pouvant
+    aussi être vendues en ligne. Les œuvres doivent être au prix de £2,000 et moins
+    et être des œuvres originales (peintures, dessins, sculptures, céramiques, etc.).
+    Les candidatures sont examinées sur une base continue.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: BobCat Gallery offre l'opportunité d'exposer et de vendre ses œuvres pour
+    une durée jusqu'à un mois dans une galerie commerciale à Londres. Chaque artiste
+    paie £100 par mois et accepte une commission de 20% sur les ventes. Les expositions
+    sont collectives avec sélection mensuelle. L'artiste assume tous les frais de
+    transport et de logistique; aucune rémunération, per diem ou hébergement n'est
+    fourni.
+  pour_qui: Artistes de tous niveaux de carrière (18 ans minimum) créant peinture,
+    dessin, sculpture, céramique, textile, photographie originale limitée ou médias
+    mixtes, avec prix maximum d'œuvre estimé à £2 000.
+a_savoir:
+- 'Pas de date limite de candidature : candidatures étudiées en continu'
+- Frais mensuels non remboursables de £100
+- Commission systématique de 20% retenue sur toutes les ventes
+- Artiste responsable du transport aller-retour de ses œuvres
+- Aucune rémunération, allocation ou logement fourni
+- Placement des œuvres déterminé par le curateur; déplacement possible en cours de
+  mois
+- 'Exclusion : reproductions mécaniques, art numérique, éditions ouvertes'
+- Exigence de prix abordable (£2 000 max par œuvre recommandé)
+organisme_details:
+  site_web: null
+  adresse: Putney Exchange Shopping Centre, SW15
+  ville: London
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: 'L''artiste paie £100/mois; aucune rémunération, bourse ou dotation
+    versée par l''organisme. Seule rétention : 20% de commission sur ventes.'
+- id: hebergement
+  rempli: non
+  justification: Aucun logement ou hébergement mentionné dans les conditions.
+- id: atelier
+  rempli: non
+  justification: Il s'agit d'une galerie commerciale pour exposition et vente; aucun
+    espace de production ou d'équipements fourni.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: 'Conditions explicites: «The Artist is responsible for arranging
+    transportation» et «Charges for transportation, insurance costs, and risk of loss
+    or damage...are the responsibility of the Artist».'
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

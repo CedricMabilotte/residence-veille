@@ -1,0 +1,43 @@
+uid: villa-albertine-2a81d903
+nom_canonique: Villa Albertine
+acronymes: []
+pays: null
+type_organisme: fondation
+url_canonique: https://villa-albertine.org
+urls_secondaires: []
+description_courte: Fondation française soutenant l'art contemporain et les échanges culturels internationaux.
+disciplines_proposees:
+- sculpture
+- peinture
+- photographie
+- art vidéo
+- installation
+- dessin
+types_opportunites_habituels:
+- bourse
+opportunites_liees:
+- uid: dbe5b36f
+  type: bourse
+  nom: Etant donnés pour l'Art contemporain
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: institut-francais
+  occurrences: 1
+  nom_brut: Institut français
+- organisme_uid: ministere-de-la-culture
+  occurrences: 1
+  nom_brut: Ministère de la Culture
+- organisme_uid: ford-foundation
+  occurrences: 1
+  nom_brut: Ford Foundation
+- organisme_uid: chanel
+  occurrences: 1
+  nom_brut: Chanel
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Paris
+contact_email: guillaume.lefevre@villa-albertine.org

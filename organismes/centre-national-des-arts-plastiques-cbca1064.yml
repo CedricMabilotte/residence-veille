@@ -1,0 +1,36 @@
+uid: centre-national-des-arts-plastiques-cbca1064
+nom_canonique: Centre national des arts plastiques
+acronymes: []
+pays: null
+type_organisme: institution_publique
+url_canonique: https://www.cnap.fr/
+urls_secondaires: []
+description_courte: Établissement public français dédié au soutien et à la promotion des arts plastiques et de l'art contemporain.
+disciplines_proposees:
+- peinture
+- sculpture
+- dessin
+- photographie
+- art contemporain
+- art graphique
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 19d31b22
+  type: exposition
+  nom: Soutien à la production dans le cadre de la Quinquennale 2027
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: palais-de-tokyo
+  occurrences: 1
+  nom_brut: Palais de Tokyo
+- organisme_uid: centre-pompidou
+  occurrences: 1
+  nom_brut: Centre Pompidou
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+contact_email: marie.chenel@cnap.fr

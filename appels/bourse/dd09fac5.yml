@@ -1,0 +1,96 @@
+uid: dd09fac5
+type: bourse
+source_url: https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart
+fetched_at: '2026-05-22T14:02:24+00:00'
+score: 9
+status: ouverte
+opportunite:
+  nom: Aider à la production d'oeuvres d'art
+  organisme: Fondation des Artistes
+  lieu:
+    ville: Nogent-sur-Marne
+    pays: France
+candidature:
+  date_limite: '2026-09-11'
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees:
+  - Curriculum vitae
+  - Éléments portant sur les travaux récents ou plus anciens les plus importants
+  - Descriptif détaillé du projet accompagné éventuellement d'éléments iconographiques
+  - Budget précis en dépenses et recettes
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: France (travaillant ou ayant un projet de longue durée)
+conditions_bourse:
+  montant:
+    montant: null
+    devise: EUR
+  finalite: production
+  calendrier_usage: Phase de préparation (recherche résidence, production). Exclusion
+    des frais de post-production et diffusion.
+  obligations_rendu:
+  - Première présentation de l'œuvre
+  - Présentation du budget définitif
+  - Justificatifs des dépenses
+partenaires:
+- Ministère de la Culture (Direction générale de la création artistique et Inspection
+  générale de la création artistique)
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Programme d'aide à la production existant depuis 2011. Date limite
+    spécifique pour l'automne 2026. Montant individuel d'aide variable jusqu'à 80%
+    des dépenses. URL de candidature non spécifiée précisément, plateforme en ligne
+    mentionnée sans lien.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:02:24+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Fondation des Artistes
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: La Fondation des Artistes propose une aide à la production d'œuvres d'art
+    destinée aux plasticiens travaillant ou ayant un projet en France. L'organisme
+    verse une bourse couvrant jusqu'à 80% des dépenses de production, hors frais de
+    post-production et diffusion. L'aide intervient au premier stade de développement
+    du projet. Aucun critère d'âge, de nationalité ou de pratique n'est exigé. Les
+    candidatures pour l'automne 2026 se font entre le 10 août et le 11 septembre 2026.
+  pour_qui: Plasticiens travaillant ou ayant un projet de longue durée en France,
+    sans limite d'âge ou de nationalité.
+a_savoir:
+- L'aide ne couvre que les frais de production, pas la post-production ou la diffusion
+- L'aide ne peut pas dépasser 80% des dépenses de production globale
+- 'Versement en deux fois : 75% après décision, solde à la première présentation de
+  l''œuvre'
+- Programme établi depuis 2011 avec historique de soutien de 687 projets
+organisme_details:
+  site_web: https://www.fondationdesartistes.fr
+  adresse: null
+  ville: Nogent-sur-Marne
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: L'aide est versée directement à l'artiste (75% après la décision
+    de la commission, solde au moment de la première présentation de l'œuvre)
+- id: hebergement
+  rempli: non
+  justification: Aucune mention d'un logement mis à disposition
+- id: atelier
+  rempli: non
+  justification: Aucune mention d'un espace de production ou atelier fourni
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: L'aide couvre les dépenses de production ; aucune dépense de post-production
+    ou diffusion n'est prise en compte
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

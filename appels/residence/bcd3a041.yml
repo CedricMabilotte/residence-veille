@@ -1,7 +1,7 @@
 uid: bcd3a041
 type: residence
 source_url: https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video
-fetched_at: '2026-05-22T13:03:30+00:00'
+fetched_at: '2026-05-22T15:41:08+00:00'
 score: 8
 status: indetermine
 opportunite:
@@ -14,13 +14,10 @@ opportunite:
 candidature:
   date_limite: null
   date_limite_precision: null
-  langue_dossier:
-  - fr
-  frais_inscription:
-    montant: null
-    devise: null
-  pieces_demandees: []
-  url_candidature: https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
 eligibilite:
   disciplines:
   - design
@@ -30,15 +27,15 @@ eligibilite:
   - photographie
   niveau_carriere: null
   age_max: null
-  nationalite: sans restriction
-  residence_administrative: sans restriction
+  nationalite: null
+  residence_administrative: adhérents de l'ADAGP
 conditions_residence:
   duree:
     semaines: null
     dates: null
   hebergement: false
-  atelier: 'Trois salles : Scanlab (numérisation haute résolution), Fabrique (six
-    postes de travail numérique), Cafèt'' (espace de convivialité)'
+  atelier: 'Trois espaces : Scanlab (numérisation haute résolution sur réservation),
+    Fabrique (six postes de travail numérique sur réservation), Cafèt'' (accès libre)'
   remuneration:
     montant: null
     devise: null
@@ -51,31 +48,29 @@ conditions_residence:
 partenaires: []
 _meta:
   extracted_confidence: 0.1
-  extracted_notes: Cette page ne décrit pas un appel à candidature artistique ou une
-    résidence. C'est une présentation d'un atelier collaboratif accessible aux adhérents
-    de l'ADAGP. Pas de processus de candidature, pas de date limite, pas de critères
-    d'éligibilité détaillés.
+  extracted_notes: 'Document non pertinent : ceci est une présentation d''un service/atelier
+    existant, non un appel à candidature ou programme de résidence d''artiste.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T13:03:30+00:00'
+  extracted_at: '2026-05-22T15:41:08+00:00'
   source_lang: fr
-  detection_confidence: 0.75
+  detection_confidence: 0.7
   detection_method: claude
   source_label: ADAGP — actualités (appels, bourses, prix)
   last_status_check: '2026-05-22'
 analyse:
-  synthese: 'L''Atelier ADAGP est un espace de travail collaboratif ouvert en juin
-    2025, réservé aux adhérents de l''ADAGP et situé au 6e arrondissement de Paris.
-    Il propose trois espaces : le Scanlab pour la numérisation haute résolution, la
-    Fabrique avec six postes de travail numérique, et la Cafèt'' pour se restaurer.
-    Le lieu fournit du matériel adapté et un accompagnement pour diverses disciplines
-    artistiques. Aucun processus de candidature n''est décrit ; il s''agit d''un service
-    pour membres existants.'
+  synthese: 'Ce document ne constitue pas un appel à candidature artistique. Il décrit
+    l''Atelier ADAGP, un espace collaboratif ouvert en juin 2025 réservé aux adhérents
+    de l''ADAGP, situé dans le 6e arrondissement de Paris. L''atelier propose trois
+    espaces : Scanlab pour numériser en haute résolution, Fabrique avec six postes
+    de travail numérique, et Cafèt'' pour les échanges. Aucune rémunération, allocation
+    ou hébergement n''est mentionné.'
   pour_qui: Artistes-auteurs et ayants droit adhérents de l'ADAGP, toutes disciplines
-    visuelles confondues.
+    confondues.
 a_savoir:
-- Pas un appel à candidature, mais un service pour adhérents existants.
-- Accès limité aux membres de l'ADAGP.
-- Réservation requise pour Scanlab et Fabrique ; Cafèt' en accès libre.
+- Ceci n'est pas un appel à candidature ou un programme de résidence
+- Accès réservé exclusivement aux adhérents de l'ADAGP
+- Aucune rémunération, allocation ou hébergement fourni
+- Service de mise à disposition d'équipements pour adhérents existants
 organisme_details:
   site_web: https://www.adagp.fr
   adresse: null
@@ -84,20 +79,19 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: non
-  justification: Aucune rémunération, bourse ou dotation mentionnée.
+  justification: Aucune rémunération, bourse ou allocation mentionnée
 - id: hebergement
   rempli: non
-  justification: Pas d'hébergement fourni. L'Atelier est un espace de travail collaboratif
-    avec trois salles.
+  justification: Aucun hébergement fourni ; c'est un espace de travail collaboratif,
+    non un programme de résidence
 - id: atelier
   rempli: oui
-  justification: '« du matériel réparti dans trois salles distinctes : Le Scanlab,
-    pour numériser tous types de créations en haute résolution » ; « La Fabrique,
-    avec ses six postes de travail numérique » ; équipements spécialisés (logiciels
-    d''illustration, retouche d''image).'
+  justification: 'Trois espaces équipés fournis : Scanlab (numérisation), Fabrique
+    (postes numériques), Cafèt'' (espace d''échange)'
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: Aucune information sur les tarifs, coûts ou prises en charge mentionnée.
+  rempli: partiel
+  justification: Accès aux équipements fourni pour adhérents, mais aucune prise en
+    charge de frais de voyage, transport ou production mentionnée
 _interne_affinite:
   match: false
   signaux: []

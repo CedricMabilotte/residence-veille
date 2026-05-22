@@ -16,10 +16,10 @@ opportunites_liees:
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: light-up-lancaster
-  occurrences: 1
+  occurrences: 2
   nom_brut: Light Up Lancaster
 - organisme_uid: light-night-wigan
-  occurrences: 1
+  occurrences: 2
   nom_brut: Light Night Wigan
 pages_surveillees: []
 _meta:

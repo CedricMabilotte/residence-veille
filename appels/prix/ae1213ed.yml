@@ -1,7 +1,7 @@
 uid: ae1213ed
 type: prix
 source_url: https://www.adagp.fr/fr/actualites/jordan-roger-barre-revelation-arts-plastiques-2026
-fetched_at: '2026-05-22T13:02:48+00:00'
+fetched_at: '2026-05-22T15:40:33+00:00'
 score: 8
 status: indetermine
 opportunite:
@@ -19,8 +19,6 @@ candidature:
 eligibilite:
   disciplines:
   - arts plastiques
-  - sculpture
-  - céramique
   niveau_carriere: artiste émergent
   age_max: null
   nationalite: null
@@ -32,7 +30,7 @@ conditions_prix:
       devise: EUR
     exposition: true
     achat_oeuvre: false
-    edition_catalogue: true
+    edition_catalogue: false
   jury_public:
   - Dorothée de Monfreid
   - Gustave de Staël
@@ -43,33 +41,45 @@ conditions_prix:
   - Nafiseh Moshashaeh
   nb_laureats: 1
   editions_precedentes:
-  - '2025 : Nafiseh Moshashaeh'
-  - '2023 : Rafael Moreno'
-  - '2022 : Roy Köhnke'
-  - '2021 : Yue Yuan'
-  - '2019 : Arthur Hoffner'
-  - '2018 : Odonchimeg Davaadorj'
-  - '2017 : Kokou Ferdinand Makouvia'
-  - '2016 : Clarissa Baumann'
-  - '2015 : Kenny Dunkan'
+  - 2025 - Nafiseh Moshashaeh
+  - 2023 - Rafael Moreno
+  - 2022 - Roy Köhnke
+  - 2021 - Yue Yuan
+  - 2019 - Arthur Hoffner
+  - 2018 - Odonchimeg Davaadorj
+  - 2017 - Kokou Ferdinand Makouvia
+  - 2016 - Clarissa Baumann
+  - 2015 - Kenny Dunkan
 partenaires:
-- 100 % L'EXPO
+- 100% L'EXPO
 - La Villette
+_meta:
+  extracted_confidence: 0.35
+  extracted_notes: Texte annonçant le lauréat 2026, non un appel à candidatures. Conditions
+    de candidature, date limite et URL de soumission ne figurent pas dans cet article.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T15:40:33+00:00'
+  source_lang: fr
+  detection_confidence: 0.75
+  detection_method: claude
+  source_label: ADAGP — actualités (appels, bourses, prix)
+  last_status_check: '2026-05-22'
 analyse:
-  synthese: Prix annuel récompensant un artiste émergent en arts plastiques, décerné
-    par l'ADAGP en partenariat avec 100 % L'EXPO à La Villette. Le lauréat reçoit
-    une dotation de 5 000 € et bénéficie d'une présentation dédiée sur les cimaises
-    de l'ADAGP accompagnée d'un texte critique et de prises de vue de son travail.
-    L'ADAGP verse également une aide financière à tous les artistes participants comme
-    complément de rémunération. La sélection est effectuée par un jury composé de
-    professionnels des arts visuels et de lauréats précédents.
-  pour_qui: Artistes émergents en arts plastiques et sculpture, particulièrement ceux
-    de la jeune création contemporaine française.
+  synthese: La Révélation Arts plastiques est un prix créé par l'ADAGP depuis 2015,
+    désormais décerné en partenariat avec 100% L'EXPO à La Villette, Paris. Il récompense
+    annuellement un artiste émergent dans le domaine des arts plastiques avec une
+    dotation de 5 000 €. Le lauréat bénéficie d'une présentation dédiée aux cimaises
+    de l'ADAGP accompagnée d'un texte critique ou de documentation photographique.
+    L'ADAGP verse également une aide financière supplémentaire à tous les artistes
+    participants.
+  pour_qui: Artistes émergents dans les arts plastiques, s'inscrivant dans la jeune
+    création contemporaine française.
 a_savoir:
-- Il s'agit d'une annonce du prix décerné, non d'un appel ouvert aux candidatures
-- 'L''édition 2026 est déjà clôturée (lauréat désigné : Jordan Roger)'
-- Aucun calendrier de candidature n'est spécifié dans la page
-- Le programme couvre l'exposition mais pas l'hébergement ou l'atelier
+- Cet article annonce le lauréat 2026, non un appel à candidatures.
+- Les conditions d'éligibilité, date limite et modalités de candidature ne sont pas
+  fournies dans ce texte.
+- Une aide financière supplémentaire est versée à tous les artistes exposants, au-delà
+  du prix principal décerné au lauréat.
 organisme_details:
   site_web: https://www.adagp.fr
   adresse: null
@@ -78,30 +88,18 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: Jordan Roger reçoit 5 000 € et l'ADAGP verse une aide financière
-    à tous les artistes participants
+  justification: Jordan Roger reçoit 5 000 €. L'ADAGP verse également une aide financière
+    à tous les artistes participant à l'édition 2026 de 100% L'EXPO.
 - id: hebergement
-  rempli: non
-  justification: Aucun logement n'est mentionné comme fourni
+  rempli: inconnu
+  justification: Non mentionné dans le texte.
 - id: atelier
-  rempli: non
-  justification: Aucun espace de travail ou équipement n'est mentionné comme fourni
+  rempli: inconnu
+  justification: Non mentionné dans le texte.
 - id: frais_pris_en_charge
-  rempli: partiel
-  justification: Aide financière versée aux artistes participants, mais la couverture
-    précise des frais de voyage ou de production n'est pas détaillée
-_meta:
-  extracted_confidence: 0.4
-  extracted_notes: Page d'annonce du prix décerné, non pas un appel à candidature
-    actif. Informations limitées sur les conditions et processus de candidature. Édition
-    2026 déjà clôturée.
-  extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T13:02:48+00:00'
-  source_lang: fr
-  detection_confidence: 0.88
-  detection_method: claude
-  source_label: ADAGP — actualités (appels, bourses, prix)
-  last_status_check: '2026-05-22'
+  rempli: inconnu
+  justification: Non précisé. Une aide financière est mentionnée mais sans détail
+    sur les frais couverts (transport, matériel, etc.).
 _interne_affinite:
   match: false
   signaux: []

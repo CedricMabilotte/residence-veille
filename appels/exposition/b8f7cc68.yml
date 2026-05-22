@@ -1,0 +1,91 @@
+uid: b8f7cc68
+type: exposition
+source_url: https://salondemontrouge.com/actualite/291/2-decouvrez-le-dossier-de-presse-du-68e-salon-de-montrouge.htm
+fetched_at: '2026-05-22T14:21:18+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: 68e Salon de Montrouge
+  organisme: Salon de Montrouge
+  lieu:
+    ville: Montrouge
+    pays: null
+  nom_fr: 'Découvrez le dossier de presse du 68e Salon de Montrouge Montrouge : une
+    ville empreinte d’art contemporain'
+  affichage_titre: 'Découvrez le dossier de presse du 68e Salon de Montrouge Montrouge
+    : une ville empreinte d’art contemporain [Découvrez le dossier de presse du 68e
+    Salon de Montrouge Montrouge : une ville empreinte d’art contemporain]'
+candidature:
+  date_limite: null
+  langue_dossier: []
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - art contemporain
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Montrouge
+  dates_exposition: null
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: 'Page de navigation/actualités du site. Contenu minimal : il s''agit
+    d''une page mentionnant un dossier de presse du 68e Salon, non un appel à candidature
+    détaillé. Seules données disponibles : nom du salon, discipline (art contemporain),
+    localité (Montrouge). Mention d''une 69e édition du 13 février au 1er mars 2026,
+    sans lien clair avec le 68e.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:21:18+00:00'
+  source_lang: es
+  resume_fr: null
+  detection_confidence: 0.9230769230769231
+  detection_method: heuristic
+  source_label: Salon de Montrouge — accueil
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le 68e Salon de Montrouge est un salon d'art contemporain basé à Montrouge.
+    Cette page est une page d'actualités du site officiel présentant la disponibilité
+    d'un dossier de presse, sans détails sur les modalités de candidature. Une 69e
+    édition est annoncée pour le 13 février au 1er mars 2026.
+  pour_qui: Profil d'artistes non identifié sur cette page.
+a_savoir:
+- 'Page incomplète : il s''agit d''une page d''actualités, non d''un appel à candidature
+  détaillé avec conditions de participation'
+organisme_details:
+  site_web: https://salondemontrouge.com
+  adresse: null
+  ville: Montrouge
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Non mentionné dans le contenu disponible
+- id: hebergement
+  rempli: inconnu
+  justification: Non mentionné dans le contenu disponible
+- id: atelier
+  rempli: inconnu
+  justification: Non mentionné dans le contenu disponible
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Non mentionné dans le contenu disponible
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

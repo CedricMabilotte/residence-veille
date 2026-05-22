@@ -1,8 +1,8 @@
 uid: 9660f373
 type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/childhood-special-edition/10648
-fetched_at: '2026-05-22T12:41:04+00:00'
-score: 6
+fetched_at: '2026-05-22T15:16:58+00:00'
+score: 7
 status: bientot-fermee
 opportunite:
   nom: Childhood/ Special Edition
@@ -17,14 +17,15 @@ candidature:
   langue_dossier: null
   frais_inscription:
     montant: 0
-    devise: null
+    devise: EUR
+    notes: Gratuit à la candidature. Frais de participation de 25 EUR en cas d'acceptation
   pieces_demandees:
-  - Up to 12 photos
-  - Details of the work (title, medium, size, year, description)
-  - Brief biography
-  - Artist statement (min 100 words)
-  - Website
-  - Social media links
+  - Jusqu'à 12 photos
+  - Détails de l'œuvre (titre, médium, taille, année, description)
+  - Biographie brève
+  - Déclaration d'artiste (minimum 100 mots)
+  - Site web
+  - Liens réseaux sociaux
   url_candidature: https://www.curatorspace.com/opportunities/detail/childhood-special-edition/10648
 eligibilite:
   disciplines:
@@ -46,12 +47,12 @@ eligibilite:
   - metalwork
   niveau_carriere: null
   age_max: null
-  nationalite: Worldwide
+  nationalite: null
   residence_administrative: null
 conditions_exposition:
   lieux:
-  - Magazine (print and digital)
-  - Art Gallery in Tbilisi, Georgia (for selected artists)
+  - Magazine Childhood (édition imprimée et numérique)
+  - Galerie d'art à Tbilisi, Géorgie (170 m²)
   dates_exposition: null
   format: collective
   prise_en_charge:
@@ -65,46 +66,36 @@ conditions_exposition:
 partenaires: []
 _meta:
   extracted_confidence: 0.85
-  extracted_notes: Organization name not explicitly mentioned; referenced only as
-    'our magazine' and 'our gallery'. No specific exhibition dates provided. No explicit
-    language requirement stated for submission materials.
+  extracted_notes: Organisme non nommé explicitement dans le texte. Plateforme magazine
+    avec galerie à Tbilisi. Frais de participation (25 EUR) s'appliquent uniquement
+    en cas d'acceptation.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T12:41:04+00:00'
+  extracted_at: '2026-05-22T15:16:58+00:00'
   source_lang: en
-  resume_fr: Appel à candidatures ouvert aux artistes du monde entier (18 ans et plus)
-    sur le thème de l'enfance, avec une date limite au 27/05/2026, basé à Tbilissi,
-    Géorgie. Les artistes sélectionnés seront publiés dans un magazine avec une couverture
-    de 2-6 pages présentant 2-10 œuvres, une biographie, un statement et des liens
-    vers site web et réseaux sociaux. La participation coûte 25 EUR en cas d'acceptation
-    (pas de frais de candidature). Les candidatures peuvent inclure jusqu'à 12 photos
-    et un artist statement d'au minimum 100 mots. Certains artistes seront sélectionnés
-    pour inclusion dans le livre à venir « 101 Contemporary Artists and More... »
-    et pour des expositions à la galerie de 170 sq. m à Tbilissi.
+  resume_fr: 'Appel à candidatures pour une édition spéciale consacrée à l''Enfance,
+    ouvert aux artistes du monde entier âgés de 18 ans et plus. Date limite : 27/05/2026.
+    Frais de candidature gratuits ; frais de participation de 25 EUR en cas d''acceptation.
+    Les artistes sélectionnés bénéficient d''une publication 2-6 pages dans les éditions
+    imprimée et numérique du magazine, avec promotion en ligne et possibilité de sélection
+    pour le livre « 101 Contemporary Artists and More… » et pour des exhibitions à
+    la galerie professionnelle de 170 sq. m à Tbilisi, en Géorgie.'
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
   last_status_check: '2026-05-22'
 analyse:
-  synthese: Appel à candidatures pour une publication magazine spécialisée sur le
-    thème de l'enfance, ouvert aux artistes du monde entier âgés de 18 ans minimum.
-    Les artistes sélectionnés verront leurs créations publiées dans le magazine (formats
-    imprimé et numérique, 2-6 pages) avec biographie et déclaration. L'application
-    est gratuite ; des frais de participation de 25 EUR s'appliquent en cas d'acceptation.
-    Les artistes publiés reçoivent un exemplaire numérique du magazine et bénéficient
-    d'une visibilité promotionnelle. Des artistes exceptionnels seront potentiellement
-    inclus dans le livre « 101 Contemporary Artists and More » et exposés à la galerie
-    de Tbilissi (170 m²).
-  pour_qui: Artistes du monde entier, tous niveaux de carrière et disciplines (peinture,
-    photographie, sculpture, etc.), explorant le thème de l'enfance et souhaitant
-    publier et obtenir une visibilité dans une revue d'art.
+  synthese: Appel à candidature pour publication dans un magazine spécialisé sur le
+    thème de l'enfance. Ouvert aux artistes du monde entier, âgés de 18 ans ou plus,
+    dans diverses disciplines artistiques. Les artistes sélectionnés verront leurs
+    travaux publiés en version imprimée et numérique (2-6 pages) incluant biographie
+    et entretien. La revue atteint plus d'1 million de lecteurs. Une fee de participation
+    de 25 EUR s'applique en cas d'acceptation.
+  pour_qui: Artistes multidisciplinaires du monde entier, âgés de 18 ans ou plus,
+    intéressés par une publication et une exposition en galerie.
 a_savoir:
-- Frais de participation de 25 EUR requis uniquement en cas d'acceptation (application
-  gratuite).
-- 'Aucune rémunération monétaire : visibilité reposant sur publication et promotion.'
-- Exposition physique à la galerie de Tbilissi non garantie ; sélection selon critères
-  curatoriales.
-- Nom officiel de l'organisme non mentionné explicitement.
-- Langue du dossier non spécifiée (probablement l'anglais).
+- Frais de participation de 25 EUR s'appliquent uniquement en cas d'acceptation, non
+  à la candidature
+- 'Deadline très proche : 27 mai 2026'
 organisme_details:
   site_web: null
   adresse: null
@@ -113,17 +104,18 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: non
-  justification: Aucune rémunération, bourse ou per diem mentionnés. Les artistes
-    reçoivent une publication magazine gratuite et une visibilité promotionnelle uniquement.
+  justification: Aucune rémunération, bourse ou per diem versé aux artistes. Publication
+    et exposition proposées, pas de paiement monétaire.
 - id: hebergement
   rempli: non
-  justification: Aucun logement fourni.
+  justification: Aucun logement fourni mentionné dans le programme.
 - id: atelier
   rempli: non
-  justification: Aucun espace de production ou équipement fourni.
+  justification: Aucun espace de production ou équipements fournis mentionnés.
 - id: frais_pris_en_charge
   rempli: non
-  justification: Aucun frais de voyage, production ou transport n'est pris en charge.
+  justification: Aucun frais de voyage, production ou transport d'œuvres mentionné
+    comme pris en charge.
 _interne_affinite:
   match: true
   signaux:

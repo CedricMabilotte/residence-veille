@@ -1,0 +1,89 @@
+uid: 0bcafeab
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/fondation-al-mansouria-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T14:36:33+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Fondation Al-Mansouria x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  niveau_carriere: tous
+  age_max: null
+  nationalite: Arabie Saoudite ou monde arabe
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 6 mois à 1 an
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- Fondation Al-Mansouria
+_meta:
+  extracted_confidence: 0.58
+  extracted_notes: Informations programmatiques disponibles ; date limite, frais d'inscription,
+    conditions concrètes de logement, atelier et rémunération non mentionnés dans
+    le texte source.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:36:33+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le programme Fondation Al-Mansouria x Cité Internationale des Arts propose
+    des résidences de 6 à 12 mois aux artistes visuels saoudiens ou issus du monde
+    arabe. Créé en 2001, il a accueilli une cinquantaine d'artistes depuis sa création.
+    L'objectif est de favoriser les échanges interculturels entre ces artistes et
+    la communauté de 300 artistes présents à la Cité. Aucune information sur les frais,
+    l'hébergement, l'atelier ou la rémunération n'est fournie.
+  pour_qui: Artistes visuels saoudiens ou issus du monde arabe, ayant une pratique
+    reconnue dans les arts visuels et n'ayant pas déjà un partenariat établi avec
+    la Cité Internationale des Arts.
+a_savoir:
+- Date limite de candidature non mentionnée
+- 'Restriction de nationalité stricte : Arabie Saoudite ou monde arabe uniquement'
+- Conditions concrètes d'accueil (logement, atelier, rémunération) non précisées
+- Aucune information sur les frais d'inscription ou les pièces requises
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou allocation financière mentionnée
+- id: hebergement
+  rempli: inconnu
+  justification: Le texte ne précise pas si un logement est fourni aux résidents
+- id: atelier
+  rempli: inconnu
+  justification: Aucun détail fourni concernant la mise à disposition d'espaces de
+    travail ou d'équipements
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Pas d'information sur la prise en charge des frais de voyage, production
+    ou transport
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

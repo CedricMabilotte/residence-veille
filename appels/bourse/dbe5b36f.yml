@@ -1,0 +1,100 @@
+uid: dbe5b36f
+type: bourse
+source_url: https://villa-albertine.org/va/fr/professionals/etant-donnes-pour-lart-contemporain
+fetched_at: '2026-05-22T15:51:10+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Etant donnés pour l'Art contemporain
+  organisme: Villa Albertine
+  lieu:
+    ville: Paris
+    pays: France
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  - design
+  - architecture
+  - performance
+  niveau_carriere: jeunes talents et artistes établis
+  age_max: null
+  nationalite: français ou basé en France
+  residence_administrative: null
+conditions_bourse:
+  montant:
+    montant: null
+    devise: USD
+  finalite: mobilité
+  calendrier_usage: 2 à 4 mois pour les résidences d'artistes
+  obligations_rendu: null
+partenaires:
+- Villa Albertine
+- Institut français
+- Ministère de la Culture
+- Ford Foundation
+- Chanel
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Page descriptive du programme sans informations techniques de candidature
+    (date limite, montants spécifiques par projet, formulaire). Le texte présente
+    l'historique et les trois volets du programme (subventions institutions, bourses
+    conservateurs, résidences artistes).
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T15:51:10+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: claude
+  source_label: Villa Albertine — appels résidences (USA)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: 'Etant donnés pour l''Art contemporain, créé en 1994 par Villa Albertine,
+    l''Institut français et le Ministère de la Culture, soutient la circulation artistique
+    entre la France et les États-Unis selon trois axes : subventions aux institutions
+    américaines à but non lucratif pour expositions/recherche, bourses aux conservateurs
+    américains, résidences de 2 à 4 mois pour artistes français. Le programme embrasse
+    les arts visuels, le design, l''architecture et la performance. Depuis sa création,
+    3 millions de dollars ont financé plus de 300 projets.'
+  pour_qui: Artistes visuels français ou basés en France (tous niveaux de carrière),
+    conservateurs américains indépendants ou affiliés, institutions américaines à
+    but non lucratif.
+a_savoir:
+- Aucune date limite de candidature mentionnée sur cette page
+- 'Montant spécifique par bourse/projet non précisé : seul le total historique de
+  3 millions de dollars est indiqué'
+- Trois profils de candidats distincts avec trois types de soutien
+- Priorité accordée aux coproductions dans plusieurs villes des États-Unis
+- 'Durée des résidences : 2 à 4 mois'
+organisme_details:
+  site_web: https://villa-albertine.org
+  adresse: null
+  ville: Paris
+  contact_email: guillaume.lefevre@villa-albertine.org
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Subventions aux institutions, bourses aux conservateurs, soutien
+    financier des résidences artistiques
+- id: hebergement
+  rempli: inconnu
+  justification: Les résidences couvrent 2 à 4 mois mais aucune mention explicite
+    d'un logement fourni
+- id: atelier
+  rempli: partiel
+  justification: Les artistes développent des projets avec des partenaires américains,
+    mais pas d'atelier ou équipement explicitement fourni
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Subventions aux institutions couvrent les frais de projet ; bourses
+    aux conservateurs couvrent frais de voyage et de mission
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

@@ -3,7 +3,7 @@ nom_canonique: The Hepworth Wakefield
 acronymes: []
 pays: null
 type_organisme: institution_publique
-url_canonique: null
+url_canonique: https://www.hepworthwakefield.org
 urls_secondaires: []
 description_courte: Musée d'art contemporain et sculpture situé à Wakefield, Angleterre.
 disciplines_proposees:
@@ -28,3 +28,4 @@ _meta:
   status: actif
   nouveaux_entrants: true
 ville: Wakefield
+adresse: Gallery Road, Wakefield, West Yorkshire WF1 5AW

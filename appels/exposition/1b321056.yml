@@ -1,24 +1,23 @@
 uid: 1b321056
 type: exposition
 source_url: https://www.cnap.fr/actualites/evenements/olga-boudin-pour-qui-brille-le-soleil
-fetched_at: '2026-05-22T11:22:27+00:00'
+fetched_at: '2026-05-22T13:53:38+00:00'
 score: 7
 status: indetermine
 opportunite:
-  nom: Pour qui brille le soleil
-  organisme: La Tôlerie
+  nom: Olga Boudin, Pour qui brille le soleil
+  organisme: CNAP
   lieu:
     ville: Clermont-Ferrand
     pays: France
 candidature:
   date_limite: null
-  langue_dossier: null
+  langue_dossier: []
   frais_inscription: null
-  pieces_demandees: null
+  pieces_demandees: []
   url_candidature: null
 eligibilite:
   disciplines:
-  - arts visuels
   - peinture
   - vitrail
   niveau_carriere: null
@@ -28,7 +27,7 @@ eligibilite:
 conditions_exposition:
   lieux:
   - La Tôlerie, 10 rue de Bien Assis, 63100 Clermont-Ferrand
-  dates_exposition: 16 mai - 11 juillet 2026
+  dates_exposition: 2026-05-16 — 2026-07-11
   format: personnelle
   prise_en_charge:
     production: false
@@ -39,56 +38,56 @@ conditions_exposition:
     per_diem: false
     hebergement_vernissage: false
 partenaires:
-- Cnap
+- La Tôlerie
 - Académie des beaux-arts
 - Ville de Clermont-Ferrand
 - Ministère de la Culture
 - DRAC Auvergne–Rhône-Alpes
 - Région Auvergne–Rhône-Alpes
 _meta:
-  extracted_confidence: 0.25
-  extracted_notes: Cette page est une présentation d'exposition solo, non un appel
-    à candidatures. Les éléments typiques d'un appel (date limite, processus de candidature,
-    critères d'éligibilité) sont absents.
+  extracted_confidence: 0.2
+  extracted_notes: Cette page est une présentation d'exposition programmée dans le
+    cadre du programme Suite 2026, non un appel à candidature. Les champs relatifs
+    à la candidature (date limite, frais, pièces demandées, URL) ne s'appliquent pas.
+    Les conditions de prise en charge restent inconnues.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T11:22:27+00:00'
+  extracted_at: '2026-05-22T13:53:38+00:00'
   source_lang: fr
-  detection_confidence: 0.98
+  detection_confidence: 0.95
   detection_method: claude
   source_label: CNAP — soutien à la création
   last_status_check: '2026-05-22'
 analyse:
-  synthese: Exposition personnelle d'Olga Boudin présentant le versant pictural de
-    son projet « Le ciel traverse bien les fenêtres ». L'exposition se tient du 16
-    mai au 11 juillet 2026 à La Tôlerie, centre d'art contemporain de Clermont-Ferrand,
-    dans le cadre du programme Suite 2026. Le projet explore le vitrail comme pratique
-    politique, installé dans des lieux de propriété collective en ruralité.
-  pour_qui: Artistes et visiteurs intéressés par les arts visuels contemporains, la
-    peinture, le vitrail et les enjeux de propriété collective et d'égalité.
-a_savoir: []
+  synthese: Cette page présente l'exposition Olga Boudin « Pour qui brille le soleil
+    » présentée à La Tôlerie (Clermont-Ferrand) du 16 mai au 11 juillet 2026, dans
+    le cadre du programme Suite 2026 du CNAP. Il s'agit d'une présentation d'exposition
+    programmée et non d'un appel à candidature. L'artiste présente le versant pictural
+    de son projet interrogeant la pratique du vitrail au service du vivre ensemble
+    et d'espaces de vie en rupture avec la propriété individuelle privée.
+  pour_qui: Cette page présente une exposition solo d'une artiste spécifique programmée
+    par le CNAP ; elle n'est pas adressée à des candidats potentiels.
+a_savoir:
+- Ce document est une présentation d'exposition programmée, non un appel à candidature
+  ouvert.
 organisme_details:
-  site_web: null
+  site_web: https://www.cnap.fr
   adresse: 10 rue de Bien Assis, 63100 Clermont-Ferrand
   ville: Clermont-Ferrand
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune information sur rémunération, bourse ou dotation pour l'artiste
-    exposée.
+  justification: Aucune information sur rémunération ou bourse fournie à l'artiste.
 - id: hebergement
   rempli: inconnu
-  justification: Aucune information sur fourniture de logement.
+  justification: Pas d'information sur hébergement fourni.
 - id: atelier
   rempli: inconnu
-  justification: Aucune information sur espace de travail ou atelier fourni.
+  justification: Pas d'information sur espace de travail ou atelier fourni.
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune information sur prise en charge de frais (transport, production,
-    etc.).
+  justification: Pas d'information sur prise en charge de frais.
 _interne_affinite:
-  match: true
-  signaux:
-  - rural
-  - collectif
-  bonus_score: 1
+  match: false
+  signaux: []
+  bonus_score: 0

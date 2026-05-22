@@ -1,23 +1,21 @@
 uid: 966f8ed7
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026
-fetched_at: '2026-05-22T11:41:24+00:00'
+fetched_at: '2026-05-22T14:14:18+00:00'
 score: 8
 status: indetermine
 opportunite:
   nom: Saison Méditerranée 2026
   organisme: Institut français
   lieu:
-    ville: Marseille
+    ville: Marseille / France (territoire national)
     pays: France
 candidature:
   date_limite: null
-  date_limite_precision: null
-  langue_dossier:
-  - fr
+  langue_dossier: null
   frais_inscription: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: http://www.saisonmediterranee2026.com/
 eligibilite:
   disciplines:
   - Architecture
@@ -31,14 +29,16 @@ eligibilite:
   - Design
   - Spectacle vivant
   - Musique
-  niveau_carriere: null
+  niveau_carriere: Jeunes talents
   age_max: null
-  nationalite: null
+  nationalite: Artistes des rives méditerranéennes, en particulier Maroc, Algérie,
+    Tunisie, Égypte, Liban
   residence_administrative: null
 conditions_exposition:
   lieux:
-  - France
-  - rives de la Méditerranée
+  - France (territoire national)
+  - Marseille
+  - Rives de la Méditerranée
   dates_exposition: 15 mai - 31 octobre 2026
   format: festival
   prise_en_charge:
@@ -50,53 +50,123 @@ conditions_exposition:
     per_diem: null
     hebergement_vernissage: null
 partenaires:
-- ministère de l'Europe et des Affaires étrangères
-- ministère de la Culture
-- Délégation interministérielle à la Méditerranée
+- Edition 100 Trames
+- 3 bis f
+- Accrorap - Cie Kader Attou
+- Actoral
+- Aflam
+- Agence Karkadé
+- Agora - Pôle National Cirque
+- Université Aix-Marseille
+- Ardèche Images
+- LA DÉTER
+- Villa Gillet
+- Festival d'Avignon
+- Théâtre des Baumettes
+- Les SUBS
+- Passages Transfestival
+- Atelier de Paris / CDCN
+- Ateliers Médicis
+- Bi:Pole
+- Bibliothèque nationale de France
+- Canal 93
+- C.A.M.P / réseau Scalene
+- Cave Poésie René Gouzenne
+- Centre des Monuments Nationaux
+- Centre du patrimoine arménien
+- Centre international de poésie Marseille
+- Centre Pompidou
+- Centre Photographique Marseille
+- Chaillot
+- Château de Servières
+- Cie Rayess Bek
+- La Chartreuse
+- Cité de la musique - Philharmonie de Paris
+- Cité internationale de la langue française
+- Cité Internationale des Arts x Wonder Cabinet
+- Centre national de la danse
+- Centre d'art contemporain de Châteauvert
+- Multitude
+- Nouvelles Rencontres d'Averroès
+- Divertimento
+- Documentaire sur grand écran
+- Festival d'Aurillac
+- École de la deuxième chance de Marseille
+- Ecole des Hautes Etudes en Sciences Sociales
+- Ecole Nationale Supérieure d'Architecture de Marseille
+- École nationale supérieure de la photographie d'Arles
+- École Nationale Supérieure des Arts et Techniques du Théâtre
+- École Supérieure d'Art de Clermont Métropole
+- Elogie-Siemp
+- La Condition Publique
+- Universcience
+- Palais de la Porte Dorée
+- Festival International des Arts de Bordeaux Métropole
+- Festival d'Automne à Paris
+- Festival de l'Histoire de l'Art
+- Festival de cinéma de Douarnenez
+- Festival de Marseille
+- Festival d'Aix-en-Provence
+- Festival du Cinéma Méditerranéen de Montpellier
+- Fondation Art Explora
+- Fondation Camargo
+- C'est pas du luxe !
+- Fort Pop
+- Fotokino
+- FRAC Champagne-Ardenne
+- FRAC Corsica
+- FRAC Île-de-France
 _meta:
-  extracted_confidence: 0.2
-  extracted_notes: Page de présentation d'une saison culturelle avec résultats de
-    l'appel à projets désormais clos. Pas d'appel actif pour candidatures artistiques
-    individuelles. Peu de détails sur les conditions de participation pour les artistes.
+  extracted_confidence: 0.25
+  extracted_notes: 'Appel à projets CLOS. Aucune candidature artistique ouverte actuellement.
+    Page de présentation d''une saison culturelle avec résultats de sélection. Aucune
+    information détaillée sur conditions financières, frais, ou prise en charge. Type
+    réel : saison/festival multi-sites, pas exposition.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T11:41:24+00:00'
+  extracted_at: '2026-05-22T14:14:18+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Institut français — résidences internationales
   last_status_check: '2026-05-22'
 analyse:
-  synthese: 'La Saison Méditerranée 2026 est un programme culturel du ministère de
-    l''Europe et des Affaires étrangères, mis en œuvre par l''Institut français, s''échelonnant
-    du 15 mai au 31 octobre 2026. Elle regroupe plus de 200 événements en France et
-    sur les rives méditerranéennes, couvrant 11 disciplines artistiques. Elle s''organise
-    autour de 5 thématiques : les utopies spéculatives, les identités plurielles,
-    les spiritualités contemporaines, l''histoire collective des migrations et la
-    construction des récits. L''appel à projets pour les structures est désormais
-    clos.'
-  pour_qui: Cette page s'adresse aux structures culturelles et organisations artistiques
-    partenaires labellisées pour la mise en œuvre d'événements.
+  synthese: 'La Saison Méditerranée 2026 est une initiative gouvernementale (ministères
+    de l''Europe et des Affaires étrangères, et de la Culture) mise en œuvre par l''Institut
+    français. Elle se déroulera du 15 mai au 31 octobre 2026 et comprendra plus de
+    200 événements en France, avec rayonnement sur les rives méditerranéennes. La
+    saison est structurée autour de 5 thématiques : utopies spéculatives, identités
+    plurielles, spiritualités contemporaines, histoire des migrations, construction
+    des récits. L''appel à projets (désormais clos) visait les structures culturelles
+    de France et du bassin méditerranéen, couvrant 11 disciplines artistiques.'
+  pour_qui: Institutions, festivals, structures culturelles et collectifs artistiques
+    des rives méditerranéennes souhaitant participer à une saison dédiée aux échanges
+    culturels et à la création méditerranéenne.
 a_savoir:
-- L'appel à projets est clos ; aucune candidature active en cours
-- Cette page présente les résultats et non un formulaire de candidature
+- Appel à projets désormais clos — pas de candidature ouverte actuellement
+- Aucune information sur rémunération, bourses, per diem ou prise en charge des frais
+  n'est disponible sur cette page
+- Plus de 150 structures déjà sélectionnées et labellisées
+- 'Durée longue : 5 mois et demi (15 mai - 31 octobre 2026)'
 organisme_details:
   site_web: http://www.saisonmediterranee2026.com/
   adresse: null
-  ville: null
+  ville: Paris
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune information fournie sur rémunération ou bourse
+  justification: Aucune information sur rémunération, bourse, per diem ou dotation
+    monétaire mentionnée
 - id: hebergement
   rempli: inconnu
-  justification: Aucune information fournie sur logement
+  justification: Aucune mention d'hébergement fourni aux artistes
 - id: atelier
   rempli: inconnu
-  justification: Aucune information fournie sur espace de travail
+  justification: Aucune mention d'espace de production, studio ou équipements fournis
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune information fournie sur prise en charge des frais
+  justification: Aucune information sur prise en charge de voyage, production, transport
+    d'œuvres ou matériel
 _interne_affinite:
   match: false
   signaux:

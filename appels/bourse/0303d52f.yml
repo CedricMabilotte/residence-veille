@@ -1,14 +1,14 @@
 uid: 0303d52f
 type: bourse
 source_url: https://www.adagp.fr/fr/actualites/appel-candidature-bourse-connexion-internationale-2026
-fetched_at: '2026-05-22T13:02:07+00:00'
-score: 9
+fetched_at: '2026-05-22T15:39:07+00:00'
+score: 7
 status: ouverte
 opportunite:
   nom: Bourse Connexion Internationale 2026
   organisme: ADAGP
   lieu:
-    ville: Madrid
+    ville: null
     pays: Espagne
 candidature:
   date_limite: '2026-07-15'
@@ -17,10 +17,10 @@ candidature:
   frais_inscription: null
   pieces_demandees:
   - Présentation du lieu de diffusion espagnole (2 pages max)
-  - Description détaillée du projet artistique avec dates (2 pages max)
-  - Présentation de la structure française partenaire si applicable (10 lignes max)
+  - Présentation du projet artistique avec dates et note d'intention du commissaire
+    (2 pages max)
   - Lettre d'engagement du lieu de diffusion espagnol
-  - CV des artistes de la scène française avec portfolio (10 œuvres)
+  - CV des artistes de la scène française avec portfolio (1 page)
   - CV du commissaire d'exposition (1 page)
   - Budget prévisionnel détaillé et équilibré (1 page)
   - Calendrier prévisionnel
@@ -32,54 +32,52 @@ eligibilite:
   - BD et Livre jeunesse
   niveau_carriere: null
   age_max: null
-  nationalite: Toute nationalité, à condition de travailler ou résider en France depuis
-    au moins 5 ans, ou de nationalité française vivant à l'étranger
+  nationalite: Toute nationalité, artistes travaillant ou résidant en France depuis
+    au moins 5 ans, ou français vivant à l'étranger
   residence_administrative: France
 conditions_bourse:
   montant:
     montant: 10000
     devise: EUR
-  finalite: production
-  calendrier_usage: Délai maximum de 2 ans pour la réalisation de l'exposition
+  finalite: mobilite
+  calendrier_usage: Exposition réalisée dans un délai maximum de 2 ans
   obligations_rendu:
-  - Présenter une exposition monographique ou collective d'artistes de la scène française
-    en Espagne
+  - Organiser une exposition monographique ou collective d'artistes de la scène française
+  - Disposer d'un espace de diffusion pérenne
+  - Fournir un budget détaillé et équilibré
 partenaires:
 - Institut français de Madrid
 _meta:
-  extracted_confidence: 0.85
-  extracted_notes: Programme destiné aux structures de diffusion espagnoles, pas directement
-    aux artistes. Dossier en anglais obligatoire. Pas d'URL directe de candidature
-    trouvée dans le texte (accès via site ADAGP). Les structures doivent avoir un
-    espace de diffusion pérenne.
+  extracted_confidence: 0.9
+  extracted_notes: Programme destiné à des structures de diffusion espagnoles à but
+    non lucratif, non à des artistes individuels. Les trois aides de 10 000€ ne peuvent
+    pas être versées à des personnes physiques. Dossier obligatoirement en anglais
+    sur plateforme ADAGP.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T13:02:07+00:00'
+  extracted_at: '2026-05-22T15:39:07+00:00'
   source_lang: fr
-  detection_confidence: 0.95
+  detection_confidence: 0.98
   detection_method: claude
   source_label: ADAGP — actualités (appels, bourses, prix)
   last_status_check: '2026-05-22'
 analyse:
-  synthese: L'ADAGP en partenariat avec l'Institut français de Madrid lance la Bourse
-    Connexion Internationale 2026 pour soutenir financièrement les structures de diffusion
-    espagnoles présentant des expositions d'artistes de la scène française. Trois
-    aides de 10 000€ chacune sont attribuées pour des projets dans les disciplines
-    des Beaux-arts et Arts Appliqués, Photographie, BD et Livre jeunesse. Les expositions
-    doivent être monographiques ou collectives et réalisées dans un délai maximum
-    de 2 ans. Aucun critère d'adhésion à l'ADAGP n'est requis, et les artistes exposés
-    peuvent être de toute nationalité à condition de travailler ou résider en France
-    depuis au moins 5 ans, ou de nationalité française vivant à l'étranger.
-  pour_qui: Cette bourse s'adresse aux structures de diffusion espagnoles publiques
-    ou privées à but non lucratif (musées, centres d'art, artist-run spaces, fondations,
-    festivals, médiathèques, bibliothèques) disposant d'un espace de diffusion pérenne
-    et souhaitant présenter des expositions d'artistes de la scène française.
+  synthese: La Bourse Connexion Internationale 2026 est un programme lancé par l'ADAGP
+    et l'Institut français de Madrid pour soutenir la diffusion d'artistes de la scène
+    française en Espagne. Trois aides de 10 000€ (total 30 000€) sont attribuées annuellement
+    à des structures de diffusion espagnoles à but non lucratif qui organisent des
+    expositions d'artistes français en Beaux-arts et Arts Appliqués, Photographie,
+    BD et Livre jeunesse. Les artistes doivent être de toute nationalité mais résider
+    ou travailler en France depuis au moins 5 ans, ou être français vivant à l'étranger.
+    L'exposition doit être réalisée dans un délai maximum de 2 ans après attribution.
+    Les candidatures en anglais sont à déposer avant le 15 juillet 2026 à 14h.
+  pour_qui: Structures de diffusion espagnoles à but non lucratif (musées, centres
+    d'art, festivals, médiathèques, bibliothèques) possédant un espace pérenne et
+    souhaitant accueillir une exposition d'artistes de la scène française.
 a_savoir:
-- La bourse est destinée aux structures de diffusion, pas versée directement aux personnes
-  physiques
-- Dossier de candidature obligatoirement en anglais
-- Les structures doivent avoir un espace de diffusion pérenne (pas de lieux nomades)
-- Délai maximum de 2 ans pour la réalisation de l'exposition
-- Aucun critère d'adhésion à l'ADAGP n'est requis pour les artistes exposés
+- Dossier obligatoirement en anglais
+- Les aides ne peuvent pas être versées à des personnes physiques (structures uniquement)
+- Délai d'exécution de 2 ans maximum après attribution
+- L'espace de diffusion doit être pérenne, pas de lieux nomades
 organisme_details:
   site_web: https://www.adagp.fr
   adresse: null
@@ -87,21 +85,19 @@ organisme_details:
   contact_email: connexionadagp@institutfrancais.es
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: La bourse est destinée à des structures de diffusion, pas versée
-    directement aux artistes. Les artistes en bénéficient indirectement via l'exposition
-    organisée.
+  rempli: oui
+  justification: Trois aides de 10 000€ sont attribuées aux structures lauréates pour
+    financer les expositions
 - id: hebergement
   rempli: non
-  justification: Aucun hébergement n'est mentionné dans le programme.
+  justification: Aucun hébergement n'est mentionné dans le programme
 - id: atelier
   rempli: non
-  justification: Aucun espace de travail ou studio n'est fourni par l'organisme.
+  justification: Aucun atelier ou espace de travail n'est fourni par l'ADAGP
 - id: frais_pris_en_charge
   rempli: partiel
-  justification: L'aide de 10 000€ doit couvrir 'les dépenses propres à l'opération
-    (assurance, transport, droit d'auteur...)' selon le budget prévisionnel, mais
-    ce n'est pas une prise en charge automatique et complète de tous les frais.
+  justification: La dotation financière couvre les dépenses propres à l'opération
+    (assurance, transport, droit d'auteur, etc.) selon le budget soumis
 _interne_affinite:
   match: false
   signaux:

@@ -13,6 +13,15 @@ opportunites_liees:
 - uid: 6c232e5c
   type: exposition
   nom: Exposition - Médecine Castor - Suzanne Husky
+- uid: 8e002b81
+  type: exposition
+  nom: Sans mémoire - Edi Dubien
+- uid: 27167a71
+  type: exposition
+  nom: Qui nous a donné l'éponge pour effacer l'horizon ? Chapitre 2
+- uid: 4894b873
+  type: exposition
+  nom: Sans titre (Le Refuge) Stéphane Thidet
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: frac-poitou-charentes
@@ -22,7 +31,7 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Fondation Carasso
 - organisme_uid: region-nouvelle-aquitaine
-  occurrences: 1
+  occurrences: 3
   nom_brut: Région Nouvelle-Aquitaine
 - organisme_uid: drac-nouvelle-aquitaine
   occurrences: 1
@@ -31,20 +40,32 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Réseau Astre
 - organisme_uid: ministere-de-l-agriculture-et-de-l-alimentation
-  occurrences: 1
+  occurrences: 3
   nom_brut: Ministère de l'Agriculture et de l'Alimentation
 - organisme_uid: ministere-de-la-culture
-  occurrences: 1
+  occurrences: 3
   nom_brut: Ministère de la Culture
 - organisme_uid: departement-de-la-vienne
-  occurrences: 1
+  occurrences: 3
   nom_brut: Département de la Vienne
 - organisme_uid: communaute-urbaine-grand-poitiers
-  occurrences: 1
+  occurrences: 3
   nom_brut: Communauté urbaine Grand Poitiers
 - organisme_uid: commune-de-rouille
-  occurrences: 1
+  occurrences: 3
   nom_brut: Commune de Rouillé
+- organisme_uid: l-ecole-centre-d-art-contemporain
+  occurrences: 1
+  nom_brut: L'ÉCOLE – Centre d'art contemporain
+- organisme_uid: chabram2
+  occurrences: 1
+  nom_brut: CHABRAM²
+- organisme_uid: astre
+  occurrences: 1
+  nom_brut: ASTRE
+- organisme_uid: astre-reseau-arts-plastiques-et-visuels-en-nouvelle-aquitain
+  occurrences: 1
+  nom_brut: Astre (réseau arts plastiques et visuels en Nouvelle-Aquitaine)
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
@@ -52,3 +73,4 @@ _meta:
   status: actif
   nouveaux_entrants: true
 ville: Rouillé
+contact_email: contact.chabram@gmail.com

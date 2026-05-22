@@ -1,0 +1,107 @@
+uid: 1e993b36
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/faculty-of-art-and-design-at-jan-evangelista-purkyne-university-in-usti-nad-labem-x-cite-internationale-des-arts-in-paris
+fetched_at: '2026-05-22T14:35:01+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Faculty of Art and Design at Jan Evangelista Purkyně University in Ústí nad
+    Labem x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - art visuel
+  - art contemporain
+  - commissariat d'exposition
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: null
+  hebergement: true
+  atelier: Espace de création et de recherche fourni par la Cité Internationale des
+    Arts
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Faculty of Art and Design at Jan Evangelista Purkyně University in Ústí nad Labem
+- Cité Internationale des Arts
+_meta:
+  extracted_confidence: 0.72
+  extracted_notes: 'Informations structurelles complètes (durée, éligibilité, partenaires).
+    Absentes : date limite, montants précis, URL de candidature. Appel à candidature
+    marqué comme ''passé''.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:35:01+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Ce programme de résidence de 3 mois à Paris, créé en 2025, est une collaboration
+    entre la Cité Internationale des Arts et la Faculté d'art et de design de l'Université
+    Jan Evangelista Purkyně en République tchèque. Il s'adresse aux artistes visuels
+    et commissaires d'exposition d'art contemporain (doctorants, diplômés depuis maximum
+    10 ans, ou enseignants actuels) ayant développé au minimum 5 ans de pratique artistique
+    ou curatoriale professionnelle, issus de l'écosystème académique de la FUD UJEP.
+    Le programme offre un financement complet incluant l'hébergement, un espace de
+    création, et un accompagnement professionnel avec opportunités de mise en réseau.
+    Seulement 2 résidences sont disponibles par année. L'appel à candidature pour
+    ce programme est actuellement fermé (passé).
+  pour_qui: Artistes visuels ou commissaires d'exposition d'art contemporain de la
+    Faculté d'art et de design de l'Université Jan Evangelista Purkyně (doctorants,
+    diplômés depuis moins de 10 ans, ou enseignants) possédant au minimum 5 ans de
+    pratique artistique ou curatoriale confirmée.
+a_savoir:
+- Appel à candidature actuellement fermé (passé)
+- 'Programme très spécialisé : réservé à l''écosystème académique de la FUD UJEP'
+- Première édition du programme (2025)
+- 'Capacité extrêmement limitée : 2 places seulement par année'
+- Financement annoncé comme 'complet' mais montant exact non communiqué
+- Critères d'éligibilité restrictifs (5 ans d'expérience minimum requis)
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Financement complet fourni pour la résidence de trois mois
+- id: hebergement
+  rempli: oui
+  justification: Financement complet incluant le logement à Paris pour 3 mois
+- id: atelier
+  rempli: oui
+  justification: Programme de résidence de recherche et de création offrant un espace
+    de production artistique
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Financement complet annoncé couvrant résidence et frais associés
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

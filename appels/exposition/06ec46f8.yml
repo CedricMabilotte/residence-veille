@@ -1,8 +1,8 @@
 uid: 06ec46f8
 type: exposition
 source_url: https://www.curatorspace.com/profiles/TheHepworthWakefield
-fetched_at: '2026-05-22T12:44:12+00:00'
-score: 6
+fetched_at: '2026-05-22T15:19:57+00:00'
+score: 7
 status: bientot-fermee
 opportunite:
   nom: The Hepworth Wakefield Harvest Festival 2026
@@ -10,9 +10,8 @@ opportunite:
   lieu:
     ville: Wakefield
     pays: United Kingdom
-  nom_fr: The Hepworth Wakefield Festival de la Moisson 2026
-  affichage_titre: The Hepworth Wakefield [The Hepworth Wakefield Festival de la Moisson
-    2026]
+  nom_fr: The Hepworth Wakefield
+  affichage_titre: The Hepworth Wakefield [The Hepworth Wakefield]
 candidature:
   date_limite: '2026-05-25'
   langue_dossier: null
@@ -21,18 +20,18 @@ candidature:
   url_candidature: null
 eligibilite:
   disciplines:
-  - artists
-  - designers
-  - makers
-  - food and drink producers/providers
-  - specialist retailers/store owners
+  - arts
+  - design
+  - craft
+  - food and drink
+  - retail
   niveau_carriere: null
   age_max: null
   nationalite: null
   residence_administrative: null
 conditions_exposition:
   lieux:
-  - The Hepworth Wakefield, Wakefield
+  - The Hepworth Wakefield, Wakefield, United Kingdom
   dates_exposition: 2026-09-19 to 2026-09-20
   format: festival
   prise_en_charge:
@@ -40,45 +39,24 @@ conditions_exposition:
     transport:
       pris_en_charge: false
       plafond: null
-      devise: null
+      devise: EUR
     per_diem: false
     hebergement_vernissage: false
-partenaires: []
-_meta:
-  extracted_confidence: 0.35
-  extracted_notes: 'Contenu très limité. Seules les informations basiques de l''opportunité
-    sont disponibles. Manquent : détails d''éligibilité complets, frais d''inscription,
-    conditions de participation, prise en charge, URL de candidature, contact. Le
-    texte semble être un extrait d''une page listant l''opportunité plutôt que la
-    page de candidature complète.'
-  extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T12:44:12+00:00'
-  source_lang: en
-  resume_fr: Le Festival de la Moisson 2026 du The Hepworth Wakefield est ouvert aux
-    candidatures. La date limite est le 25/05/2026. L'événement se tiendra les samedi
-    19 et dimanche 20 septembre 2026 à Wakefield, West Yorkshire, au Royaume-Uni.
-    Les artistes, designers, artisans, producteurs et prestataires de nourriture et
-    boissons, ainsi que les propriétaires de magasins spécialisés peuvent postuler
-    pour tenir un stand.
-  detection_confidence: 0.95
-  detection_method: claude
-  source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-05-22'
+partenaires: null
 analyse:
-  synthese: Le Hepworth Wakefield Harvest Festival 2026 est un festival se tenant
-    à Wakefield (Royaume-Uni) les 19 et 20 septembre 2026. Il accueille les candidatures
-    d'artistes, designers, artisans, producteurs alimentaires et détaillants spécialisés
-    souhaitant tenir un stand. La date limite de candidature est le 25 mai 2026. Le
-    contenu disponible ne précise pas les conditions d'éligibilité détaillées, les
-    frais d'inscription ou la prise en charge.
-  pour_qui: Artistes, designers, artisans, producteurs alimentaires et détaillants
-    spécialisés désireux de participer à un festival communautaire.
+  synthese: The Hepworth Wakefield Harvest Festival 2026 est un festival se tenant
+    les 19 et 20 septembre 2026 à Wakefield, au Royaume-Uni. Le festival invite les
+    artistes, designers, créateurs, producteurs alimentaires et détaillants à animer
+    des stands. La date limite de candidature est le 25 mai 2026. Aucune information
+    détaillée sur les frais, conditions d'hébergement ou de soutien n'est fournie.
+  pour_qui: Artistes, designers, créateurs, producteurs alimentaires et détaillants
+    souhaitant animer un stand lors d'un festival public.
 a_savoir:
-- 'Date limite très proche : 25 mai 2026 (3 jours à partir du 22 mai 2026)'
-- 'Contenu limité : les informations critiques sur les conditions de participation,
-  les frais et la prise en charge manquent'
-- 'Nature du programme peu claire : il s''agit d''un festival communautaire avec des
-  stands, pas d''une exposition d''art traditionnelle'
+- 'Informations très minimalistes : aucun détail sur les frais d''inscription, conditions
+  de prise en charge, ou modalités pratiques'
+- Format principalement commercial (stalls) plutôt qu'une résidence ou exposition
+  classique
+- Date limite très proche de la date d'extraction (25/05/2026)
 organisme_details:
   site_web: null
   adresse: null
@@ -86,20 +64,36 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: Aucune mention de rémunération, bourse ou per diem
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou per diem dans le texte
 - id: hebergement
-  rempli: non
+  rempli: inconnu
   justification: Aucune mention de logement fourni
 - id: atelier
-  rempli: non
+  rempli: inconnu
   justification: Aucune mention d'espace de travail ou d'équipements fournis
 - id: frais_pris_en_charge
-  rempli: non
+  rempli: inconnu
   justification: Aucune mention de prise en charge des frais de voyage, production
     ou transport
+_meta:
+  extracted_confidence: 0.5
+  extracted_notes: Profil CuratorSpace avec informations minimales. Seules les données
+    de base du festival sont disponibles ; les détails operationnels et conditions
+    de candidature ne sont pas spécifiés dans le texte fourni.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T15:19:57+00:00'
+  source_lang: en
+  resume_fr: The Hepworth Wakefield lance un appel à candidatures pour le Harvest
+    Festival 2026. La date limite de candidature est le 25/05/2026. L'événement se
+    déroulera les 19 et 20 septembre 2026 à Wakefield, West Yorkshire, Royaume-Uni.
+    Les artistes, designers, créateurs, producteurs de nourriture et boissons, et
+    détaillants spécialisés sont invités à postuler pour tenir un stand.
+  detection_confidence: 0.9
+  detection_method: claude
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
 _interne_affinite:
   match: false
-  signaux:
-  - collectif
+  signaux: []
   bonus_score: 0

@@ -6,7 +6,13 @@ type_organisme: reseau
 url_canonique: https://on-the-move.org
 urls_secondaires: []
 description_courte: Réseau international de mobilité artistique soutenant les échanges culturels Asie-Europe.
-disciplines_proposees: []
+disciplines_proposees:
+- arts plastiques
+- arts visuels
+- arts numériques
+- danse
+- théâtre
+- musique
 types_opportunites_habituels:
 - bourse
 opportunites_liees:

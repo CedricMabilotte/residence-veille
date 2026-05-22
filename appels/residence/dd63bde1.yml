@@ -1,11 +1,11 @@
 uid: dd63bde1
 type: residence
 source_url: https://www.pollen-monflanquin.com/residences
-fetched_at: '2026-05-22T12:07:26+00:00'
-score: 7
+fetched_at: '2026-05-22T14:38:13+00:00'
+score: 6
 status: indetermine
 opportunite:
-  nom: Artistes en résidence
+  nom: null
   organisme: Pollen
   lieu:
     ville: Monflanquin
@@ -26,7 +26,7 @@ eligibilite:
   niveau_carriere: tous
   age_max: null
   nationalite: sans restriction
-  residence_administrative: sans restriction
+  residence_administrative: null
 conditions_residence:
   duree:
     semaines: null
@@ -42,31 +42,32 @@ conditions_residence:
     plafond: null
     devise: null
   restitution: null
-partenaires: []
+partenaires: null
 _meta:
-  extracted_confidence: 0.15
-  extracted_notes: Contenu fragmentaire et incomplet. Seules des informations générales
-    sur l'organisme et sa mission sont disponibles. Aucun détail sur les conditions
-    de candidature, durée, hébergement, rémunération ou date limite.
+  extracted_confidence: 0.2
+  extracted_notes: 'Contenu fragmenté : page d''accueil générale, non appel à candidatures
+    détaillé. Informations manquantes : dates limites, modalités de candidature, conditions
+    de résidence spécifiques, rémunération, hébergement.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T12:07:26+00:00'
+  extracted_at: '2026-05-22T14:38:13+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Pollen — résidence (Monflanquin)
   last_status_check: '2026-05-22'
 analyse:
-  synthese: Pollen est une plate-forme d'expérimentation accueillant depuis 1991 des
-    artistes plasticiens en Lot-et-Garonne. Elle permet à chaque artiste de réaliser
-    un projet personnel ou de poursuivre une recherche. La page consultée est fragmentaire
-    et ne fournit pas les détails sur la durée, l'hébergement, la rémunération ni
-    la date limite de candidature.
-  pour_qui: Artistes plasticiens de toutes nationalités souhaitant réaliser un projet
-    spécifique ou poursuivre une recherche personnelle.
+  synthese: Pollen accueille depuis 1991 des artistes plasticien.nes de toutes nationalités
+    en Lot-et-Garonne pour réaliser un projet spécifique ou poursuivre une recherche
+    personnelle. La structure se présente comme une plate-forme d'expérimentation
+    et un lieu d'approfondissement du travail artistique. Le contenu consulté est
+    une page d'introduction générale sans détails spécifiques sur l'appel à candidatures
+    actuel.
+  pour_qui: Artistes plasticien.nes de toutes nationalités.
 a_savoir:
-- 'Contenu incomplet : informations critiques manquantes (date limite, durée, hébergement,
-  rémunération, frais)'
-- Aucune URL de candidature trouvée
+- 'Page d''accueil générique : l''appel à candidatures détaillé n''est pas accessible
+  via ce contenu.'
+- Aucune information sur les conditions concrètes de la résidence (durée, hébergement,
+  rémunération, frais).
 organisme_details:
   site_web: https://www.pollen-monflanquin.com
   adresse: null
@@ -75,17 +76,17 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune mention de rémunération, bourse ou dotation dans le texte
+  justification: Aucune mention de rémunération, bourse ou dotation.
 - id: hebergement
   rempli: inconnu
-  justification: Aucune mention explicite d'hébergement fourni
+  justification: Pas d'information sur logement fourni.
 - id: atelier
   rempli: inconnu
-  justification: Mention d'un 'lieu propice à l'accomplissement' mais pas de précision
-    sur l'espace de travail fourni
+  justification: Texte évoque un 'lieu propice à l'accomplissement' mais sans détail
+    sur équipements ou espace fourni.
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune mention de prise en charge de voyage, production ou matériel
+  justification: Aucune précision sur couverture voyage, production ou frais.
 _interne_affinite:
   match: false
   signaux: []

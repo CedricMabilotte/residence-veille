@@ -1,0 +1,96 @@
+uid: 75d83cb5
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/ministere-federal-du-logement-des-arts-de-la-culture-des-medias-et-des-sports-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T14:31:45+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Ministère fédéral du Logement, des Arts, de la Culture, des Médias et des Sports
+    x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  - photographie
+  - arts numériques
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: Autrichienne ou résident permanent en Autriche
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 4 mois
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- Ministère fédéral du Logement, des Arts, de la Culture, des Médias et des Sports
+- Cité Internationale des Arts
+_meta:
+  extracted_confidence: 0.55
+  extracted_notes: 'Programme présenté sans détails critiques : aucune information
+    sur modalités d''inscription (date limite, frais, langue dossier), conditions
+    matérielles explicites (hébergement, atelier), ni avantages financiers (rémunération,
+    frais couverts). Seules données de base documentées.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:31:45+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: 'Programme annuel permettant à 9 artistes de nationalité autrichienne
+    ou résidents permanents en Autriche d''accéder à une résidence de 4 mois à la
+    Cité Internationale des Arts. Disciplines : arts visuels, photographie, arts numériques.
+    Critère : avoir terminé ses études. Accès à une communauté de 300 artistes. Programme
+    créé en 1984.'
+  pour_qui: Artistes autrichiens ou résidents permanents ayant achevé leur formation
+    en arts visuels, photographie ou arts numériques.
+a_savoir:
+- Éligibilité strictement réservée aux ressortissants autrichiens ou résidents permanents
+  en Autriche.
+- Aucune information disponible sur date limite de candidature, frais d'inscription,
+  pièces requises, ou modalités de candidature.
+- 'Conditions matérielles non explicitées : hébergement et atelier/espace de travail
+  ne sont pas mentionnés.'
+- Aucune rémunération, bourse ou aide financière pour les résidents n'est indiquée.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire.
+- id: hebergement
+  rempli: inconnu
+  justification: Bien que le programme offre une 'résidence' de 4 mois, la fourniture
+    explicite d'un logement n'est pas mentionnée.
+- id: atelier
+  rempli: non
+  justification: Aucune mention d'atelier, studio, équipements ou espace de travail
+    fourni.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge des frais (voyage, production,
+    transport d'œuvres ou matériel).
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

@@ -25,13 +25,16 @@ opportunites_liees:
 - uid: fb9a1992
   type: residence
   nom: Résidence Artistique à la Casa de Velázquez
+- uid: aa3e9d31
+  type: residence
+  nom: null
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: ville-de-valence
   occurrences: 1
   nom_brut: Ville de Valence
 - organisme_uid: diputacion-de-zaragoza
-  occurrences: 1
+  occurrences: 2
   nom_brut: Diputación de Zaragoza
 pages_surveillees: []
 _meta:

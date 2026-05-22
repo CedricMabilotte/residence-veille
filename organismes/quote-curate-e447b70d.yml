@@ -1,0 +1,26 @@
+uid: quote-curate-e447b70d
+nom_canonique: Quote & Curate
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 76bf60d9
+  type: exposition
+  nom: OPEN CALL - Quote & Curate Summer Curation - Opportunity to exhibit at DESIGN CENTRE CHELSEA HARBOUR
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+adresse: First Floor, Design Centre East, Design Centre Chelsea Harbour, London, United Kingdom
+ville: London
+contact_email: help@curatorspace.com

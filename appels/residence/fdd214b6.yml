@@ -1,0 +1,101 @@
+uid: fdd214b6
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/fondation-armando-alvares-penteado-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T14:26:11+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Fondation Armando Alvares Penteado x Cité internationale des arts
+  organisme: Cité Internationale des Arts / Fondation Armando Alvares Penteado
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Architecture et design
+  - Arts visuels
+  - Commissariat
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Être étudiant, diplômé ou professeur de la FAAP
+conditions_residence:
+  duree:
+    semaines: 26
+    dates: 6 mois
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: Présenter les œuvres créées pendant ou peu après la résidence lors
+    de l'événement Anual de Arte FAAP à São Paulo
+partenaires:
+- Fondation Armando Alvares Penteado
+- Cité Internationale des Arts
+_meta:
+  extracted_confidence: 0.35
+  extracted_notes: Page de présentation générale du programme ; manquent date limite,
+    frais, hébergement, rémunération et URL de candidature. Informations essentielles
+    pour candidater non disponibles.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:26:11+00:00'
+  source_lang: fr
+  detection_confidence: 0.8571428571428571
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le programme Fondation Armando Alvares Penteado x Cité Internationale
+    des Arts offre 2 résidences par an d'une durée de 6 mois à Paris. Il s'adresse
+    exclusivement aux étudiants, diplômés ou professeurs de la FAAP (Fondation Armando
+    Alvares Penteado) à São Paulo. Le programme existe depuis 1997. Les lauréats doivent
+    présenter leurs œuvres à l'issue de la résidence lors de l'événement Anual de
+    Arte FAAP.
+  pour_qui: Étudiants, diplômés ou professeurs de la Fondation Armando Alvares Penteado
+    travaillant en architecture, design, arts visuels ou commissariat.
+a_savoir:
+- 'Programme très sélectif : réservé aux membres/affiliés de la FAAP uniquement'
+- Pas de date limite de candidature mentionnée dans le document
+- Aucune information sur le logement, la rémunération ou les frais d'inscription
+- 'Restitution obligatoire : présentation publique au Brésil'
+- Aucune URL de candidature ou contact fournis dans le texte
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: São Paulo (FAAP)
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse ou per diem
+- id: hebergement
+  rempli: inconnu
+  justification: Pas d'information sur le logement
+- id: atelier
+  rempli: inconnu
+  justification: Pas d'information sur la fourniture d'un espace de travail
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Pas d'information sur la prise en charge des frais de voyage ou de
+    production
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0
