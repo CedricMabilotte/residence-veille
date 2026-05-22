@@ -4,7 +4,9 @@
 # Sources de démarrage (à valider via scripts/probe_source.py avant intégration
 # définitive). Voir INSTRUCTION-DEMARRAGE.md §4 pour la liste complète prévue.
 #
-# Champ `type` : html | deep_html | rss | jsonld_event
+# Champ `type` : html | deep_html | playwright | rss | jsonld_event
+#   (html/deep_html/playwright extraient les liens d'annonces HTML d'une page
+#    d'index ; playwright pour les sites rendus en JavaScript)
 # Champ `peak_months` (optionnel) : modulation saisonnière (voir §12.4/I)
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -77,9 +79,10 @@ sources:
   # ── D. Lieux et fondations ─────────────────────────────────────────────────
 
   - label: "Cité internationale des arts — résidences"
-    url: "https://www.citeinternationaledesarts.fr/fr/residences"
+    # URL corrigée : /fr/residences renvoyait 404 (page déplacée).
+    url: "https://www.citeinternationaledesarts.fr/nos-programmes-de-residence/"
     type: deep_html
-    max_pages: 10
+    max_pages: 15
     min_interval_days: 14
 
   - label: "Pollen — résidence (Monflanquin)"
@@ -88,7 +91,7 @@ sources:
     min_interval_days: 14
 
   # Rurart — centre d'art contemporain (Vienne, FR). Suggestion communautaire
-  # validée via issue #2. PDFs en sous-pages → deep_html (cf. probe).
+  # validée via issue #2.
   - label: "Rurart — centre d'art / résidences"
     url: "https://www.rurart.org/"
     type: deep_html

@@ -10,9 +10,8 @@ Pipeline (par source) :
      c. detect_type.py → residence | bourse | prix | exposition (+ confidence)
      d. extract_opportunity.py → fiche YAML structurée
      e. score_opportunity.py → score + bonus
-     f. dedup.py → fusion ou nouvelle fiche
-     g. organisme_manager → maj fiche organisme + track record
-     h. auto-promotion si score ≥ threshold ET confidence ≥ 0.85
+     f. organisme_manager → maj fiche organisme + track record
+     g. auto-promotion si score ≥ threshold ET confidence ≥ 0.85
 
 Variables d'env :
   CLAUDE_CODE_OAUTH_TOKEN : OAuth Claude Code (subscription)
@@ -42,18 +41,15 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-# Imports locaux (modules BIBLIO copiés + nouveaux scripts du fork)
+# Imports locaux (scripts du fork « Résidence »)
 from parsers import dispatch as parser_dispatch
 import throttle
-import dedup
-import discovery_external_links
 
 import detect_type
 import extract_opportunity
 import resume_fr
 import score_opportunity
 import organisme_manager
-import pdf_processor
 
 # ── Chemins ────────────────────────────────────────────────────────────────────
 CONFIG_PATH    = ROOT / "config" / "sources.yml"
@@ -83,52 +79,12 @@ def url_uid(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()[:8]
 
 
-PDF_EXTENSIONS = (".pdf",)
-BINARY_EXTENSIONS = (".doc", ".docx", ".epub", ".zip", ".rar", ".jpg", ".png", ".mp4")
+# Un item doit pointer vers une page d'annonce HTML : tout lien finissant
+# par l'une de ces extensions (fichier) est écarté.
+SKIP_EXTENSIONS = (".pdf", ".doc", ".docx", ".epub", ".zip", ".rar",
+                   ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mp3")
 CACHE_DIR = ROOT / ".cache" / "pages"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
-PDFS_DIR = ROOT / "pdfs"
-PDFS_DIR.mkdir(parents=True, exist_ok=True)
-
-
-def fetch_pdf_body(url: str) -> str:
-    """
-    Télécharge un PDF (avec cache disque + magic bytes validation), extrait
-    le texte via pdf_processor. Retourne '' si échec.
-    """
-    url_hash = hashlib.md5(url.encode()).hexdigest()
-    pdf_path = PDFS_DIR / f"{url_hash}.pdf"
-    cache_txt = CACHE_DIR / f"{url_hash}.pdf.txt"
-
-    if cache_txt.exists():
-        return cache_txt.read_text(encoding="utf-8")
-
-    if not pdf_path.exists():
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; ResidenceBot/1.0)"}
-        try:
-            r = requests.get(url, headers=headers, timeout=60, stream=True)
-            r.raise_for_status()
-            with open(pdf_path, "wb") as f:
-                for chunk in r.iter_content(chunk_size=8192):
-                    f.write(chunk)
-        except Exception:
-            cache_txt.write_text("", encoding="utf-8")
-            return ""
-
-        # Validation magic bytes + retry bypass anti-bot si besoin
-        if not pdf_processor.validate_pdf(pdf_path):
-            ok, _ = pdf_processor.redownload_with_bypass(url, pdf_path)
-            if not ok or not pdf_processor.validate_pdf(pdf_path):
-                pdf_path.unlink(missing_ok=True)
-                cache_txt.write_text("", encoding="utf-8")
-                return ""
-
-    try:
-        text = pdf_processor.extract_text(pdf_path, max_chars=15000)
-    except Exception:
-        text = ""
-    cache_txt.write_text(text or "", encoding="utf-8")
-    return text or ""
 
 
 def fetch_page_body(url: str, timeout: int = 30) -> str:
@@ -141,7 +97,13 @@ def fetch_page_body(url: str, timeout: int = 30) -> str:
     if cache_file.exists():
         return cache_file.read_text(encoding="utf-8")
 
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; ResidenceBot/1.0)"}
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8,es;q=0.7",
+    }
     try:
         r = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
         r.raise_for_status()
@@ -193,22 +155,18 @@ def process_item(item: dict, source_label: str) -> dict | None:
 
     url_low = url.lower().rstrip("/")
 
-    # 0. Skip vrais binaires non-PDF (DOC, ZIP, images, vidéos)
-    if url_low.endswith(BINARY_EXTENSIONS):
-        print(f"      ↳ skip : binaire non-PDF")
-        return {"url": url, "status": "skipped", "reason": "binary_non_pdf"}
+    # 0. Skip : un item doit pointer vers une page d'annonce HTML, pas vers
+    #    un fichier (PDF, doc, image, archive…).
+    if url_low.endswith(SKIP_EXTENSIONS):
+        print(f"      ↳ skip : lien vers un fichier, pas une annonce HTML")
+        return {"url": url, "status": "skipped", "reason": "non_html_link"}
 
-    # 0bis. Enrichir le body
+    # 0bis. Enrichir le body en lisant la page de l'annonce
     if len(body) < 500:
-        if url_low.endswith(PDF_EXTENSIONS):
-            fetched = fetch_pdf_body(url)
-            tag = "PDF"
-        else:
-            fetched = fetch_page_body(url)
-            tag = "HTML"
+        fetched = fetch_page_body(url)
         if fetched and len(fetched) > len(body):
             body = fetched
-            print(f"      ↳ body enrichi : {len(body)} chars ({tag})")
+            print(f"      ↳ body enrichi : {len(body)} chars (HTML)")
         elif len(body) < 50:
             print(f"      ↳ skip : body trop court ({len(body)}) et fetch vide")
             return {"url": url, "status": "skipped", "reason": "empty_body"}

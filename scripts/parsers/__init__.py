@@ -9,12 +9,13 @@ Pour ajouter un nouveau type de source :
 L'API contract pour tout parser :
     find_documents(source: dict) -> list[dict]
     où source = {url, label, type, [autres options]}
-    et chaque doc retourné = {url, filename, extension, link_text, context,
-                              page_title, source_url}
+    et chaque item retourné = {url, title, link_text, text, context,
+                               page_title, source_url, extension}
 
-Note (fork « Résidence ») : on a retiré les parsers `opds`, `archive_org`,
-`hal` (sans objet pour les opportunités datées) et ajouté `jsonld_event`
-(extraction Schema.org/Event embarqué dans le HTML).
+Modèle « zéro PDF » : un item n'est plus un fichier téléchargeable mais le
+lien exact vers une page d'annonce HTML (appel, résidence, prix, exposition).
+Les parsers html / deep_html / playwright partagent l'extracteur `_listing` ;
+`rss` et `jsonld_event` produisent directement des items HTML.
 """
 
 from . import html_static, deep_html, playwright_parser, rss, jsonld_event

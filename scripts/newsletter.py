@@ -63,7 +63,7 @@ def build_digest(catalog_path: Path, since_days: int = 7, min_score: int = 8) ->
                 except Exception:
                     bulle = {}
         items.append({
-            "title": bulle.get("titre_accroche") or doc.get("meta", {}).get("pdf_title") or doc.get("filename", ""),
+            "title": bulle.get("titre_accroche") or doc.get("title") or doc.get("filename", ""),
             "source": doc.get("source", ""),
             "score": doc.get("latest_score", 0),
             "summary_short": _short_summary(doc),

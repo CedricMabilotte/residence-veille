@@ -95,7 +95,7 @@ CONSIGNES STRICTES :
   `langue_dossier`, `niveau_carriere`, `nationalite`, `disciplines`, etc.
 - N'invente RIEN. Si une info n'est pas dans le texte, mets `null` (jamais "à confirmer", "non précisé").
 - Pour `opportunite.nom` : prends le NOM COMPLET de l'opportunité tel qu'il apparaît
-  dans le texte, pas juste le titre du PDF (par ex. "VI CONVOCATORIA DEL CENTRO DE
+  dans le texte, pas juste le titre de la page (par ex. "VI CONVOCATORIA DEL CENTRO DE
   RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID" et non "BASES DE LA CONVOCATORIA").
 - **DATE LIMITE** : recherche activement dans le texte des expressions comme
   "fecha límite", "deadline", "date limite", "plazo", "submissions close",

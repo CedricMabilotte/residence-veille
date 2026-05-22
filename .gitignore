@@ -19,11 +19,12 @@ env/
 .DS_Store
 Thumbs.db
 
-# Données locales (pas committées)
-docs/                  # PDFs téléchargés (volume)
-pdfs/                  # PDFs d'appels téléchargés
-*.log
+# Caches locaux — non versionnés (un commentaire .gitignore doit être
+# seul sur sa ligne ; pas de commentaire en fin de ligne de motif).
 .cache/
+pdfs/
+docs/
+*.log
 
 # Secrets locaux (jamais committés)
 .env

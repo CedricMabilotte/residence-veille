@@ -1,67 +1,39 @@
 #!/usr/bin/env python3
 """
-html_static.py — Parser HTML statique standard.
+html_static.py — Parser HTML statique.
 
-Scrape une page et liste tous les liens <a href> qui pointent vers un fichier
-.pdf/.epub/.txt/.doc/.docx en HTML direct (sans suivre de lien interne).
+Depuis le refactor « zéro PDF » : on ne cherche plus de fichiers
+téléchargeables mais les **liens vers les pages d'annonce** (appels,
+résidences, prix, expositions) présents sur une page d'index.
 
-C'est le parser par défaut, équivalent à l'ancienne fonction find_documents()
-de watch.py.
+Fetch via requests (pas de rendu JS — voir playwright_parser pour ça).
 """
 
-import requests
-from pathlib import Path
-from urllib.parse import urljoin, urlparse
-from bs4 import BeautifulSoup
-
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; LibraryBot/1.0)"}
-DOC_EXTENSIONS = {".pdf", ".epub", ".txt", ".doc", ".docx"}
+from . import _listing
 
 
 def find_documents(source: dict) -> list[dict]:
     base_url = source["url"]
-    label    = source.get("label", base_url)
+    max_items = int(source.get("max_pages",
+                               source.get("max_items_per_run",
+                                          _listing.DEFAULT_MAX_ITEMS)))
+    same_domain = not bool(source.get("allow_external"))
 
-    try:
-        r = requests.get(base_url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        html = r.text
-    except requests.RequestException as e:
-        print(f"  ⚠  html_static : impossible de charger {base_url} : {e}")
+    html = _listing.fetch_html(base_url, timeout=int(source.get("timeout", 20)))
+    if not html:
         return []
 
-    soup = BeautifulSoup(html, "html.parser")
-    page_title = (soup.title.string.strip()
-                  if soup.title and soup.title.string
-                  else urlparse(base_url).netloc)
-
-    seen, docs = set(), []
-    for a in soup.find_all("a", href=True):
-        full_url = urljoin(base_url, a["href"])
-        ext = Path(urlparse(full_url).path).suffix.lower()
-        if ext not in DOC_EXTENSIONS or full_url in seen:
-            continue
-        seen.add(full_url)
-
-        link_text = a.get_text(strip=True)
-        parent    = a.find_parent(["p", "li", "div", "td", "article"])
-        context   = parent.get_text(" ", strip=True)[:400] if parent else link_text
-
-        docs.append({
-            "url":        full_url,
-            "filename":   Path(urlparse(full_url).path).name or "document",
-            "extension":  ext.lstrip("."),
-            "link_text":  link_text,
-            "context":    context,
-            "page_title": page_title,
-            "source_url": base_url,
-        })
-
-    return docs
+    items = _listing.extract_listing_items(
+        html, base_url, max_items=max_items, same_domain_only=same_domain,
+    )
+    print(f"  ↳ html : {len(items)} annonce(s) repérée(s)")
+    return items
 
 
 if __name__ == "__main__":
-    docs = find_documents({"url": "https://infokiosques.net/", "label": "Test"})
-    print(f"→ {len(docs)} docs trouvés")
-    for d in docs[:5]:
-        print(f"  - {d['filename']}")
+    import sys
+    url = sys.argv[1] if len(sys.argv) > 1 else "https://www.pollen-monflanquin.com/residences/"
+    docs = find_documents({"url": url, "label": "Test"})
+    print(f"→ {len(docs)} items")
+    for d in docs[:8]:
+        print(f"  - {d['title'][:70]}  {d['url']}")
