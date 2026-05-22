@@ -1,7 +1,7 @@
 uid: 889a88cf
 type: bourse
 source_url: https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027
-fetched_at: '2026-05-22T10:00:16+00:00'
+fetched_at: '2026-05-22T11:38:10+00:00'
 score: 8
 status: ouverte
 opportunite:
@@ -15,85 +15,85 @@ candidature:
   langue_dossier:
   - français
   frais_inscription: null
-  pieces_demandees: null
-  url_candidature: https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027
+  pieces_demandees: []
+  url_candidature: null
 eligibilite:
   disciplines:
   - Architecture
-  - Arts Visuels
-  - Photographie
+  - Arts Visuels / Photographie
   - Cinéma
   - Création numérique
   - Débat d'idées
   - Livre
-  - Métiers d'art
-  - Design
-  - Spectacle vivant
-  - Musique
+  - Métiers d'art / Design
+  - Spectacle vivant / Musique
   niveau_carriere: null
   age_max: null
-  nationalite: française ou polonaise
+  nationalite: Structures françaises ou polonaises
   residence_administrative: null
 conditions_bourse:
   montant:
     montant: null
     devise: EUR
-  finalite: null
+  finalite: production
   calendrier_usage: '2027'
-  obligations_rendu: null
+  obligations_rendu: []
 partenaires:
 - Institut Adam Mickiewicz
 - Institut polonais de Paris
+- Institut français
 - Ambassade de France en Pologne
-- Ministère de la Culture (France)
-- Ministère des Affaires étrangères (France)
 _meta:
-  extracted_confidence: 0.55
-  extracted_notes: Appel à projets de programmation culturelle destiné à des structures,
-    non à des artistes individuels. Montants d'aide et conditions financières non
-    spécifiés sur cette page. Dépôt sur plateforme IFProg requise.
+  extracted_confidence: 0.5
+  extracted_notes: Appel à projets culturels pour structures, non une bourse individuelle
+    pour artistes. Peu de détails sur conditions financières et exigences du dossier.
+    Modèle de candidature ne correspond qu'imparfaitement au schéma de bourse individuelle
+    fourni.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T10:00:16+00:00'
+  extracted_at: '2026-05-22T11:38:10+00:00'
   source_lang: fr
-  detection_confidence: 0.78
+  detection_confidence: 0.72
   detection_method: claude
   source_label: Institut français — résidences internationales
   last_status_check: '2026-05-22'
 analyse:
-  synthese: 'L''Institut français lance un appel à projets pour la Saison Pologne-France
-    2027, destiné à des structures françaises ou polonaises proposant des projets
-    en Pologne. Les projets doivent couvrir l''une des quatre thématiques : démocratie
-    et solidarités, Europe en partage, agentivité à l''ère algorithmique, ou relation
-    franco-polonaise. Le programme s''inscrit dans le contexte du Traité de Nancy
-    (2025). Date limite : 22 juin 2026 à 23h59 CET sur plateforme IFProg.'
-  pour_qui: Structures (organisations culturelles, institutions, collectifs) françaises
-    ou polonaises actives dans les domaines culturels et créatifs.
+  synthese: 'Appel à projets porté conjointement par l''Institut français, l''Institut
+    Adam Mickiewicz, l''Institut polonais de Paris et l''Ambassade de France en Pologne
+    pour la Saison Pologne-France 2027. S''adresse à structures françaises ou polonaises
+    souhaitant proposer des projets culturels en Pologne dans sept disciplines : architecture,
+    arts visuels/photographie, cinéma, création numérique, débat d''idées, livre,
+    métiers d''art/design, spectacle vivant/musique. Les projets doivent s''inscrire
+    dans l''une de quatre thématiques : démocratie et solidarités, Europe en partage,
+    agentivité à l''ère algorithmique, ou France-Pologne : héritages partagés. Date
+    limite : 22 juin 2026.'
+  pour_qui: Structures culturelles françaises ou polonaises (publiques, privées, associations)
+    cherchant à développer des projets et coopérations culturelles franco-polonaises.
 a_savoir:
-- Appel à projets destiné à des structures institutionnelles, non à des artistes individuels
-- Montants des subventions non précisés sur cette page
-- Dépôt obligatoire sur plateforme IFProg
-- Règlement des subventions et FAQ à consulter avant candidature
+- Appel à projets pour structures institutionnelles, non pour artistes individuels
+- Aucun montant de subvention ou budget n'est précisé dans l'appel
+- Candidature via plateforme IFProg mais lien direct non fourni sur cette page
+- Obligation de correspondance avec l'une des quatre thématiques du programme
 organisme_details:
-  site_web: https://www.institutfrancais.com
+  site_web: null
   adresse: null
   ville: null
-  contact_email: Pôle Saisons et Temps forts de l'Institut français (contact non spécifié)
+  contact_email: null
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: « Règlement des subventions de l'Institut français » mentionné mais
-    montants et conditions non détaillés.
+  justification: Aucun montant de rémunération ou allocation mentionné dans le texte
+    de l'appel
 - id: hebergement
   rempli: non
-  justification: Aucune mention d'hébergement fourni aux projets sélectionnés.
+  justification: Aucune mention d'hébergement fourni aux participants ou bénéficiaires
 - id: atelier
   rempli: non
-  justification: Aucune mention d'espace de travail ou d'atelier fourni.
+  justification: Aucune mention d'atelier, studio ou espace de travail fourni
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Nature et couverture des frais subventionnés non spécifiées publiquement.
+  justification: Les modalités de financement et prise en charge des frais de production,
+    déplacement ou transport ne sont pas détaillées
 _interne_affinite:
   match: false
-  signaux:
-  - collectif
+  signaux: []
   bonus_score: 0

@@ -1,0 +1,104 @@
+uid: bcd3a041
+type: residence
+source_url: https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video
+fetched_at: '2026-05-22T13:03:30+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Atelier ADAGP
+  organisme: ADAGP
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: 6e arrondissement
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: []
+  url_candidature: https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video
+eligibilite:
+  disciplines:
+  - design
+  - dessin
+  - illustration
+  - peinture
+  - photographie
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: false
+  atelier: 'Trois salles : Scanlab (numérisation haute résolution), Fabrique (six
+    postes de travail numérique), Cafèt'' (espace de convivialité)'
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.1
+  extracted_notes: Cette page ne décrit pas un appel à candidature artistique ou une
+    résidence. C'est une présentation d'un atelier collaboratif accessible aux adhérents
+    de l'ADAGP. Pas de processus de candidature, pas de date limite, pas de critères
+    d'éligibilité détaillés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T13:03:30+00:00'
+  source_lang: fr
+  detection_confidence: 0.75
+  detection_method: claude
+  source_label: ADAGP — actualités (appels, bourses, prix)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: 'L''Atelier ADAGP est un espace de travail collaboratif ouvert en juin
+    2025, réservé aux adhérents de l''ADAGP et situé au 6e arrondissement de Paris.
+    Il propose trois espaces : le Scanlab pour la numérisation haute résolution, la
+    Fabrique avec six postes de travail numérique, et la Cafèt'' pour se restaurer.
+    Le lieu fournit du matériel adapté et un accompagnement pour diverses disciplines
+    artistiques. Aucun processus de candidature n''est décrit ; il s''agit d''un service
+    pour membres existants.'
+  pour_qui: Artistes-auteurs et ayants droit adhérents de l'ADAGP, toutes disciplines
+    visuelles confondues.
+a_savoir:
+- Pas un appel à candidature, mais un service pour adhérents existants.
+- Accès limité aux membres de l'ADAGP.
+- Réservation requise pour Scanlab et Fabrique ; Cafèt' en accès libre.
+organisme_details:
+  site_web: https://www.adagp.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation mentionnée.
+- id: hebergement
+  rempli: non
+  justification: Pas d'hébergement fourni. L'Atelier est un espace de travail collaboratif
+    avec trois salles.
+- id: atelier
+  rempli: oui
+  justification: '« du matériel réparti dans trois salles distinctes : Le Scanlab,
+    pour numériser tous types de créations en haute résolution » ; « La Fabrique,
+    avec ses six postes de travail numérique » ; équipements spécialisés (logiciels
+    d''illustration, retouche d''image).'
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune information sur les tarifs, coûts ou prises en charge mentionnée.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

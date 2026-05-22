@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>ADAGP — Résidence</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="description" content="Veille internationale des résidences, bourses, prix et appels à exposition ouverts aux plasticien·nes.">
+<meta property="og:title" content="ADAGP — Résidence">
+<meta property="og:type" content="website">
+<link rel="alternate" type="application/rss+xml" title="Toutes opportunités" href="/feed/all.xml">
+<style>
+:root {
+  --ink:#211d18; --muted:#6b6256; --faint:#978c7d; --paper:#f4f1e8;
+  --card:#fffdf8; --line:#ddd5c4; --accent:#bc4c3a; --accent-dk:#8f3829; --gold:#b08431;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; }
+body { font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  color:var(--ink); background:var(--paper); line-height:1.6; -webkit-font-smoothing:antialiased; }
+.wrap { max-width:1060px; margin:0 auto; padding:0 1.3rem 5rem; }
+a { color:var(--accent-dk); } a:hover { color:var(--accent); }
+.masthead { border-bottom:2px solid var(--ink); margin-bottom:.2rem; padding:1.6rem 0 1rem; }
+.masthead .brand { display:flex; align-items:baseline; gap:.8rem; text-decoration:none; color:var(--ink); }
+.logo-mark { font-size:1.9rem; font-weight:700; letter-spacing:-.02em; border:2px solid var(--accent);
+  color:var(--accent); padding:.05rem .5rem; border-radius:4px; line-height:1; }
+.brand h1 { font-size:1.75rem; margin:0; font-weight:700; letter-spacing:-.01em; }
+.brand .baseline { font-size:.9rem; color:var(--muted); font-style:italic; }
+.topnav { display:flex; gap:1.4rem; flex-wrap:wrap; font-size:.92rem;
+  font-family:-apple-system,system-ui,sans-serif; padding:.7rem 0 0; }
+.topnav a { text-decoration:none; color:var(--muted); }
+.topnav a:hover, .topnav a.active { color:var(--accent); }
+h2.sec { font-size:1.05rem; font-family:-apple-system,system-ui,sans-serif; text-transform:uppercase;
+  letter-spacing:.08em; color:var(--muted); border-bottom:1px solid var(--line);
+  padding-bottom:.35rem; margin:2.4rem 0 1rem; }
+h3 { font-size:1.15rem; margin:1.4rem 0 .5rem; }
+.stats { font-family:-apple-system,system-ui,sans-serif; font-size:.9rem; color:var(--muted);
+  margin:1rem 0; display:flex; gap:1.4rem; flex-wrap:wrap; }
+.stats b { color:var(--accent); font-size:1.05rem; }
+.urgent { background:#fbf3e7; border:1px solid var(--gold); border-radius:7px;
+  padding:.9rem 1.2rem; margin:1.2rem 0; font-family:-apple-system,system-ui,sans-serif; font-size:.9rem; }
+.urgent h3 { margin:0 0 .4rem; font-size:.95rem; text-transform:uppercase; letter-spacing:.06em;
+  color:var(--gold); font-family:inherit; }
+.urgent ul { margin:0; padding-left:1.1rem; }
+.urgent a { color:var(--ink); }
+.toolbar { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0;
+  font-family:-apple-system,system-ui,sans-serif; }
+.toolbar input, .toolbar select { font:inherit; font-size:.9rem; padding:.45rem .6rem;
+  border:1px solid var(--line); border-radius:5px; background:var(--card); color:var(--ink); }
+.toolbar input[type=search] { flex:1; min-width:180px; }
+.toolbar .count { color:var(--faint); font-size:.85rem; margin-left:auto; }
+.cards { list-style:none; padding:0; margin:0; display:grid; gap:.9rem; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:7px;
+  padding:1.1rem 1.3rem; transition:box-shadow .15s,border-color .15s; }
+.card:hover { border-color:var(--accent); box-shadow:0 3px 14px rgba(33,29,24,.07); }
+.card .row1 { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap;
+  font-family:-apple-system,system-ui,sans-serif; }
+.tag { font-size:.7rem; text-transform:uppercase; letter-spacing:.07em; font-weight:600;
+  padding:.18rem .55rem; border-radius:3px; background:var(--ink); color:var(--paper); }
+.tag.residence{background:#3b5b6b;} .tag.bourse{background:#6b5b3b;}
+.tag.prix{background:var(--accent);} .tag.exposition{background:#5b3b5b;}
+.deadline { font-size:.85rem; color:var(--accent); font-weight:600;
+  font-family:-apple-system,system-ui,sans-serif; }
+.card.indetermine .deadline { color:var(--faint); font-weight:normal; font-style:italic; }
+.card h3 { margin:.5rem 0 .3rem; font-size:1.18rem; line-height:1.3; }
+.card h3 a { text-decoration:none; color:var(--ink); } .card h3 a:hover { color:var(--accent); }
+.card .meta { font-size:.9rem; color:var(--muted); font-family:-apple-system,system-ui,sans-serif; }
+.card .meta a { color:var(--muted); }
+.verif { font-size:.78rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
+.score-pill { font-family:-apple-system,system-ui,sans-serif; font-size:.78rem; font-weight:700;
+  color:var(--gold); border:1px solid var(--gold); border-radius:20px; padding:.1rem .5rem; }
+.fiche-head { margin:1.5rem 0 1rem; }
+.fiche-head h2 { font-size:1.9rem; margin:.5rem 0 .4rem; line-height:1.25; }
+.fiche-head .sub { color:var(--muted); font-family:-apple-system,system-ui,sans-serif; font-size:.95rem; }
+.enbref { background:var(--card); border:1px solid var(--line); border-radius:7px;
+  padding:1rem 1.3rem; margin:1.2rem 0; font-family:-apple-system,system-ui,sans-serif; font-size:.92rem; }
+.enbref dl { display:grid; grid-template-columns:max-content 1fr; gap:.35rem 1.2rem; margin:0; }
+.enbref dt { color:var(--faint); } .enbref dd { margin:0; }
+.prose p { margin:.6rem 0; }
+table.crit { width:100%; border-collapse:collapse; font-size:.92rem;
+  font-family:-apple-system,system-ui,sans-serif; }
+table.crit td, table.crit th { border-bottom:1px solid var(--line); padding:.5rem .4rem;
+  text-align:left; vertical-align:top; }
+table.crit th { color:var(--faint); font-weight:600; font-size:.82rem;
+  text-transform:uppercase; letter-spacing:.05em; }
+.crit-oui{color:#4a7a3a;font-weight:600;} .crit-non{color:var(--faint);}
+.crit-partiel{color:var(--gold);font-weight:600;} .crit-inconnu{color:var(--faint);font-style:italic;}
+.asavoir { background:#fbf3e7; border-left:3px solid var(--gold); border-radius:4px;
+  padding:.8rem 1.1rem; margin:1rem 0; font-family:-apple-system,system-ui,sans-serif; font-size:.9rem; }
+.asavoir ul { margin:.3rem 0; padding-left:1.2rem; }
+.cta { display:inline-block; background:var(--accent); color:var(--paper); text-decoration:none;
+  padding:.6rem 1.2rem; border-radius:5px; font-weight:600;
+  font-family:-apple-system,system-ui,sans-serif; font-size:.92rem; }
+.cta:hover { background:var(--accent-dk); color:var(--paper); }
+.backlink { font-family:-apple-system,system-ui,sans-serif; font-size:.88rem; }
+.signaler { font-family:-apple-system,system-ui,sans-serif; font-size:.83rem; color:var(--faint); }
+.org-grid { list-style:none; padding:0; margin:1rem 0; display:grid; gap:.7rem;
+  grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); }
+.org-card { background:var(--card); border:1px solid var(--line); border-radius:7px; padding:.9rem 1.1rem; }
+.org-card a { text-decoration:none; }
+.org-card .org-name { font-weight:700; font-size:1.05rem; }
+.org-card .org-meta { font-size:.85rem; color:var(--muted); font-family:-apple-system,system-ui,sans-serif; }
+.cal-month { margin:2rem 0 1rem; }
+.cal-month h3 { font-size:1.3rem; margin:0 0 .6rem; padding-bottom:.3rem;
+  border-bottom:2px solid var(--ink); text-transform:capitalize; }
+.cal-list { list-style:none; padding:0; margin:0; }
+.cal-item { display:flex; gap:.9rem; align-items:baseline; padding:.55rem 0;
+  border-bottom:1px solid var(--line); font-family:-apple-system,system-ui,sans-serif; }
+.cal-date { flex:0 0 3.4rem; font-weight:700; color:var(--accent); font-size:.9rem; text-align:right; }
+.cal-body { flex:1; }
+.cal-body a { text-decoration:none; color:var(--ink); font-weight:600; }
+.cal-body a:hover { color:var(--accent); }
+.cal-body .cal-meta { color:var(--muted); font-size:.85rem; }
+.icslink { font-family:-apple-system,system-ui,sans-serif; font-size:.85rem; color:var(--muted); margin-top:2rem; }
+form.suggest { background:var(--card); border:1px solid var(--line); border-radius:7px;
+  padding:1.3rem; max-width:540px; font-family:-apple-system,system-ui,sans-serif; }
+form.suggest label { display:block; font-size:.88rem; color:var(--muted); margin:.8rem 0 .25rem; }
+form.suggest input, form.suggest textarea, form.suggest select { width:100%; font:inherit;
+  padding:.5rem .6rem; border:1px solid var(--line); border-radius:5px; background:var(--paper); }
+.fluxlist { list-style:none; padding:0; font-family:-apple-system,system-ui,sans-serif; }
+.fluxlist li { padding:.6rem 0; border-bottom:1px solid var(--line); }
+footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); font-size:.85rem;
+  color:var(--muted); line-height:1.7; font-family:-apple-system,system-ui,sans-serif; }
+.empty { text-align:center; padding:4rem 1rem; color:var(--faint); background:var(--card);
+  border:1px dashed var(--line); border-radius:7px; }
+@media (max-width:620px) {
+  .brand h1 { font-size:1.35rem; } .fiche-head h2 { font-size:1.45rem; }
+  .enbref dl { grid-template-columns:1fr; } .toolbar .count { margin-left:0; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <a class="brand" href="/">
+    <span class="logo-mark">R</span>
+    <span><h1>Résidence</h1>
+      <div class="baseline">la veille des opportunités pour artistes plasticien·nes</div></span>
+  </a>
+  <nav class="topnav">
+    <a href="/">Catalogue</a>
+    <a href="/calendrier.html">Calendrier</a>
+    <a href="/organismes.html" class="active">Organismes</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/suggerer.html">Suggérer une source</a>
+    <a href="/a-propos.html">À propos</a>
+  </nav>
+</header>
+
+<a class="backlink" href="/organismes.html">← Annuaire</a>
+<div class="fiche-head">
+  <h2>ADAGP</h2>
+  <div class="sub">Paris
+     · <a href="https://www.adagp.fr" target="_blank" rel="noopener">site officiel</a></div>
+</div>
+<p class="prose">Société française de gestion collective des droits d&#x27;auteur dans les arts visuels et le design graphique.</p>
+<div class="enbref"><dl><dt>Type</dt><dd>autre</dd><dt>Adresse</dt><dd>Paris</dd><dt>Site web</dt><dd><a href="https://www.adagp.fr" target="_blank" rel="noopener">https://www.adagp.fr</a></dd><dt>Contact</dt><dd><a href="mailto:connexionadagp@institutfrancais.es">connexionadagp@institutfrancais.es</a></dd><dt>Disciplines accueillies</dt><dd>arts plastiques, photographie, design graphique, illustration, sculpture, peinture</dd><dt>Opportunités recensées</dt><dd>3</dd></dl></div>
+<h2 class="sec">Opportunités</h2>
+<ul class="cards"><li class="card indetermine" data-type="residence"
+    data-pays="france" data-disc="design, dessin, illustration"
+    data-deadline="" data-score="8"
+    data-fetched="2026-05-22T13:03:30+00:00" data-nom="atelier adagp"
+    data-search="atelier adagp adagp paris, france design, dessin, illustration l&#x27;atelier adagp est un espace de travail collaboratif ouvert en juin 2025, réservé aux adhérents de l&#x27;adagp et situé au 6e arrondissement de paris. il propose trois espaces : le scanlab pour la numérisation haute résolution, la fabrique avec six postes de travail numérique, et la cafèt&#x27; pour se restaurer. le lieu fournit du matériel adapté et un accompagnement pour diverses disciplines artistiques. aucun processus de candidature n&#x27;est décrit ; il s&#x27;agit d&#x27;un service pour membres existants.">
+  <div class="row1">
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">échéance à confirmer</span><span class="score-pill">8/10</span>
+  </div>
+  <h3><a href="/o/bcd3a041.html">Atelier ADAGP</a></h3>
+  <div class="meta"><a href="/organisme/adagp-20e614f5/">ADAGP</a> — Paris, France
+     · design, dessin, illustration
+     · <span class=verif>vérifié le 22/05/2026</span></div>
+</li>
+<li class="card ouverte" data-type="bourse"
+    data-pays="espagne" data-disc="beaux-arts et arts appliqués, photographie, bd et livre jeunesse"
+    data-deadline="2026-07-15" data-score="9"
+    data-fetched="2026-05-22T13:02:07+00:00" data-nom="bourse connexion internationale 2026"
+    data-search="bourse connexion internationale 2026 adagp madrid, espagne beaux-arts et arts appliqués, photographie, bd et livre jeunesse l&#x27;adagp en partenariat avec l&#x27;institut français de madrid lance la bourse connexion internationale 2026 pour soutenir financièrement les structures de diffusion espagnoles présentant des expositions d&#x27;artistes de la scène française. trois aides de 10 000€ chacune sont attribuées pour des projets dans les disciplines des beaux-arts et arts appliqués, photographie, bd et livre jeunesse. les expositions doivent être monographiques ou collectives et réalisées dans un délai maximum de 2 ans. aucun critère d&#x27;adhésion à l&#x27;adagp n&#x27;est requis, et les artistes exposés peuvent être de toute nationalité à condition de travailler ou résider en france depuis au moins 5 ans, ou de nationalité française vivant à l&#x27;étranger.">
+  <div class="row1">
+    <span class="tag bourse">Bourse</span>
+    <span class="deadline">Échéance 15/07/2026</span><span class="score-pill">9/10</span>
+  </div>
+  <h3><a href="/o/0303d52f.html">Bourse Connexion Internationale 2026</a></h3>
+  <div class="meta"><a href="/organisme/adagp-20e614f5/">ADAGP</a> — Madrid, Espagne
+     · Beaux-arts et Arts Appliqués, Photographie, BD et Livre jeunesse
+     · <span class=verif>vérifié le 22/05/2026</span></div>
+</li>
+<li class="card indetermine" data-type="prix"
+    data-pays="france" data-disc="arts plastiques, sculpture, céramique"
+    data-deadline="" data-score="8"
+    data-fetched="2026-05-22T13:02:48+00:00" data-nom="révélation arts plastiques 2026"
+    data-search="révélation arts plastiques 2026 adagp paris, france arts plastiques, sculpture, céramique prix annuel récompensant un artiste émergent en arts plastiques, décerné par l&#x27;adagp en partenariat avec 100 % l&#x27;expo à la villette. le lauréat reçoit une dotation de 5 000 € et bénéficie d&#x27;une présentation dédiée sur les cimaises de l&#x27;adagp accompagnée d&#x27;un texte critique et de prises de vue de son travail. l&#x27;adagp verse également une aide financière à tous les artistes participants comme complément de rémunération. la sélection est effectuée par un jury composé de professionnels des arts visuels et de lauréats précédents.">
+  <div class="row1">
+    <span class="tag prix">Prix</span>
+    <span class="deadline">échéance à confirmer</span><span class="score-pill">8/10</span>
+  </div>
+  <h3><a href="/o/ae1213ed.html">Révélation Arts plastiques 2026</a></h3>
+  <div class="meta"><a href="/organisme/adagp-20e614f5/">ADAGP</a> — Paris, France
+     · arts plastiques, sculpture, céramique
+     · <span class=verif>vérifié le 22/05/2026</span></div>
+</li></ul>
+
+<h2 class="sec">Repères</h2><div class="asavoir"><p><strong>Partenaires repérés :</strong> Institut français de Madrid, 100 % L&#x27;EXPO, La Villette</p><p style="color:var(--faint)">Estimations indicatives dérivées des éditions passées — à vérifier.</p></div>
+
+<footer>
+  <p>Mise à jour automatique — sources FR / EN / ES, interface FR.
+     <a href="/flux.html">Flux RSS</a> · <a href="/calendar.ics">Calendrier .ics</a> ·
+     <a href="/data.json">Données JSON</a></p>
+  <p>Vérifiez toujours les informations sur le site de l'organisme avant de candidater.
+     Code : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,15 +1,15 @@
 uid: a5664345
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique
-fetched_at: '2026-05-22T10:01:25+00:00'
-score: 9
+fetched_at: '2026-05-22T11:39:00+00:00'
+score: 7
 status: indetermine
 opportunite:
-  nom: PIDA / Programme International de Diffusion Artistique
+  nom: Programme International de Diffusion Artistique (PIDA)
   organisme: Institut français
   lieu:
     ville: null
-    pays: null
+    pays: France
 candidature:
   date_limite: null
   langue_dossier:
@@ -19,21 +19,21 @@ candidature:
   url_candidature: null
 eligibilite:
   disciplines:
-  - architecture
-  - arts visuels
-  - photographie
-  - création numérique
-  - métiers d'art
-  - design
-  - musiques
-  - spectacle vivant
+  - Architecture
+  - Arts Visuels
+  - Photographie
+  - Création numérique
+  - Design
+  - Métiers d'art
+  - Musique
+  - Spectacle vivant
   niveau_carriere: null
   age_max: null
-  nationalite: française
-  residence_administrative: null
+  nationalite: Française
+  residence_administrative: France
 conditions_exposition:
-  lieux: []
-  dates_exposition: 19 septembre 2025 - 06 novembre 2025
+  lieux: null
+  dates_exposition: null
   format: null
   prise_en_charge:
     production: null
@@ -43,39 +43,39 @@ conditions_exposition:
       devise: EUR
     per_diem: null
     hebergement_vernissage: null
-partenaires: []
+partenaires: null
 _meta:
-  extracted_confidence: 0.4
-  extracted_notes: Page de présentation du programme sans accès au formulaire de candidature
-    détaillé. Dates indiquées correspondent à la période de l'appel à projets, pas
-    à une date limite explicite. Aucune information sur frais, retribution, prise
-    en charge ou modalités concrètes d'application.
+  extracted_confidence: 0.3
+  extracted_notes: 'Page de présentation générale du programme. Informations essentielles
+    manquantes : date limite de candidature, frais d''inscription, conditions précises
+    de prise en charge, URL de candidature, email de contact. Dates mentionnées (19
+    sept - 6 nov 2025) correspondent à la période d''ouverture de l''appel à projets,
+    non à une exposition.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T10:01:25+00:00'
+  extracted_at: '2026-05-22T11:39:00+00:00'
   source_lang: fr
   detection_confidence: 0.8333333333333334
   detection_method: heuristic
   source_label: Institut français — résidences internationales
   last_status_check: '2026-05-22'
 analyse:
-  synthese: 'Le PIDA est l''appel à projets de l''Institut français destiné à la diffusion
-    de la création artistique française à l''international. Il s''adresse à l''Institut
-    français et son réseau diplomatique, aux équipes et institutions culturelles françaises,
-    et aux structures étrangères accueillant des artistes français. Le programme couvre
-    8 disciplines : architecture, arts visuels, photographie, création numérique,
-    design, métiers d''art, musiques, et spectacle vivant. Il accompagne des projets
-    de diffusion, de coopération ainsi que la présence d''artistes français au sein
-    de grandes manifestations prescriptrices.'
-  pour_qui: Artistes français, collectifs, compagnies, commissaires, institutions
-    culturelles françaises (festivals, musées, centres d'art, studios, labels) et
-    structures étrangères accueillant des artistes français en diffusion ou coopération.
+  synthese: Le PIDA est un appel à projets lancé par l'Institut français pour soutenir
+    la diffusion de la création artistique française à l'international. Il s'adresse
+    aux structures culturelles françaises, équipes artistiques, artistes, collectifs
+    et institutions étrangères accueillant des artistes français. Le programme couvre
+    huit disciplines (architecture, arts visuels, photographie, création numérique,
+    design, métiers d'art, musique, spectacle vivant). Les conditions précises de
+    financement et les modalités d'accompagnement des projets ne sont pas détaillées
+    dans ce document de présentation générale.
+  pour_qui: Artistes, collectifs et structures culturels français ou basés en France,
+    ainsi que structures culturelles étrangères accueillant la création artistique
+    française pour des projets de diffusion et coopération internationale.
 a_savoir:
-- Pas de date limite de candidature explicitement mentionnée
-- Page de présentation générale sans accès direct aux formulaires ou modalités détaillées
-  d'application
-- Aucune information sur les frais d'inscription ou les conditions de prise en charge
-- Programme axé sur la diffusion internationale plutôt que sur une exposition locale
-  unique
+- Appel à projets sans détails spécifiques sur les montants d'aide, frais d'inscription
+  ou conditions de prise en charge
+- Pas de date limite de candidature mentionnée dans ce document
+- Éligibilité requérant la nationalité française ou une implantation en France
+- Programme très généraliste sans critères précis d'évaluation ou de sélection visibles
 organisme_details:
   site_web: https://www.institutfrancais.com
   adresse: null
@@ -85,17 +85,17 @@ criteres_programme:
 - id: retribution
   rempli: inconnu
   justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire
-    aux artistes
+    dans le texte fourni
 - id: hebergement
   rempli: inconnu
-  justification: Aucune mention d'hébergement fourni
+  justification: Aucune mention de logement fourni aux artistes
 - id: atelier
   rempli: inconnu
-  justification: Aucune mention d'espace de travail ou d'équipements fournis
+  justification: Aucune mention d'espace de production, atelier ou équipements fournis
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune mention de prise en charge de voyage, production ou transport
-    d'œuvres
+  justification: Aucune mention de prise en charge du voyage, production, transport
+    d'œuvres ou matériel
 _interne_affinite:
   match: false
   signaux:

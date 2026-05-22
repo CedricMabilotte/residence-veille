@@ -1,0 +1,24 @@
+uid: the-glasgow-gallery-of-photography-b866fc0d
+nom_canonique: The Glasgow Gallery of Photography
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 88d8f72a
+  type: exposition
+  nom: Pink 2026, International Photography Exhibition
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Glasgow

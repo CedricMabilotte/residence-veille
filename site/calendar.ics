@@ -3,34 +3,106 @@ VERSION:2.0
 PRODID:-//Residence//actitude.org//FR
 BEGIN:VEVENT
 UID:1a3f71ff@residence.actitude.org
-DTSTAMP:20260522T104601Z
+DTSTAMP:20260522T131646Z
 DTSTART;VALUE=DATE:20260407
 DTEND;VALUE=DATE:20260408
 SUMMARY:[Résidence] Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résidences trimestrielles pour projets sur l'environnement 2026]
 URL:https://residence.actitude.org/o/1a3f71ff.html
 END:VEVENT
 BEGIN:VEVENT
+UID:c37ec105@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:[Résidence] Resonance – Cité Internationale des Arts
+URL:https://residence.actitude.org/o/c37ec105.html
+END:VEVENT
+BEGIN:VEVENT
 UID:eac66ba5@residence.actitude.org
-DTSTAMP:20260522T104601Z
+DTSTAMP:20260522T131646Z
 DTSTART;VALUE=DATE:20260614
 DTEND;VALUE=DATE:20260615
-SUMMARY:[Résidence] Convocatoria LAB 5 La mecánica de la verdad [Appel à candidatures LAB 5 La mécanique de la vérité]
+SUMMARY:[Résidence] Convocatoria LAB 5 La mecánica de la verdad [Appel à candidature LAB 5 La mécanique de la vérité]
 URL:https://residence.actitude.org/o/eac66ba5.html
 END:VEVENT
 BEGIN:VEVENT
+UID:0303d52f@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:[Bourse] Bourse Connexion Internationale 2026
+URL:https://residence.actitude.org/o/0303d52f.html
+END:VEVENT
+BEGIN:VEVENT
 UID:889a88cf@residence.actitude.org
-DTSTAMP:20260522T104601Z
+DTSTAMP:20260522T131646Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 SUMMARY:[Bourse] Saison Pologne-France 2027 / Sezon Francja-Polska 2027
 URL:https://residence.actitude.org/o/889a88cf.html
 END:VEVENT
 BEGIN:VEVENT
+UID:06ec46f8@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:[Appel à exposition] The Hepworth Wakefield [The Hepworth Wakefield Festival de la Moisson 2026]
+URL:https://residence.actitude.org/o/06ec46f8.html
+END:VEVENT
+BEGIN:VEVENT
 UID:19d31b22@residence.actitude.org
-DTSTAMP:20260522T104601Z
+DTSTAMP:20260522T131646Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:[Appel à exposition] Soutien à la production dans le cadre de la Quinquennale 2027
 URL:https://residence.actitude.org/o/19d31b22.html
+END:VEVENT
+BEGIN:VEVENT
+UID:25cb07d2@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:[Appel à exposition] Places and Spaces Art Exhibition [Exposition d'Art Lieux et Espaces]
+URL:https://residence.actitude.org/o/25cb07d2.html
+END:VEVENT
+BEGIN:VEVENT
+UID:40b2a7bf@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:[Appel à exposition] Open Call for JustArt Newspaper Club Issue 6 [Appel à candidature - JustArt Newspaper Club Numéro 6]
+URL:https://residence.actitude.org/o/40b2a7bf.html
+END:VEVENT
+BEGIN:VEVENT
+UID:88d8f72a@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:[Appel à exposition] Pink 2026, International Photography Exhibition [Pink 2026, Exposition photographique internationale]
+URL:https://residence.actitude.org/o/88d8f72a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:9660f373@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:[Appel à exposition] Childhood/ Special Edition [Enfance / Édition Spéciale]
+URL:https://residence.actitude.org/o/9660f373.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b20e8dcb@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:[Appel à exposition] Abstract Art [Art Abstrait]
+URL:https://residence.actitude.org/o/b20e8dcb.html
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f73f96@residence.actitude.org
+DTSTAMP:20260522T131646Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:[Appel à exposition] Light Up The North SPARK - Early Career Artist and Producer Programme 2026 [Light Up The North SPARK - Programme pour Artistes et Producteurs en Début de Carrière 2026]
+URL:https://residence.actitude.org/o/d2f73f96.html
 END:VEVENT
 END:VCALENDAR

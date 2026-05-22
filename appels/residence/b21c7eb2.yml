@@ -1,0 +1,96 @@
+uid: b21c7eb2
+type: residence
+source_url: https://www.casadevelazquez.org/residents-et-alumni/2025-2026/alberto-gil-casedas
+fetched_at: '2026-05-22T12:55:28+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Résidence Casa de Velázquez 2025-2026
+  organisme: Casa de Velázquez
+  lieu:
+    ville: null
+    pays: Espagne
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts visuels
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: 43
+    dates: septembre 2025 - juillet 2026
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Diputación de Zaragoza
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: 'Page de profil d''un résident, non un appel à candidature. Informations
+    limitées : organisme et période résidence uniquement. Date limite, conditions
+    d''éligibilité détaillées, frais d''inscription absents.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:55:28+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Casa de Velázquez — Académie de France à Madrid
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Cette page présente le profil d'Alberto Gil Cásedas, artiste en résidence
+    à la Casa de Velázquez de septembre 2025 à juillet 2026, boursier de la Diputación
+    de Zaragoza. Il s'agit d'une page de portfolio d'un résident confirmé en arts
+    visuels, non d'un appel à candidature. Le projet artistique explore le temps et
+    l'espace du quotidien via la dérive urbaine.
+  pour_qui: Artistes confirmés en arts visuels ayant reçu une bourse de la Diputación
+    de Zaragoza ou programmes similaires.
+a_savoir:
+- Cette page ne contient pas les informations relatives à un appel à candidature (dates
+  limites, critères d'éligibilité, conditions détaillées).
+- Il s'agit d'une page de portfolio d'un résident déjà sélectionné.
+organisme_details:
+  site_web: https://www.casadevelazquez.org
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: « Artiste boursier de la Diputación de Zaragoza » indique une rémunération
+    ou dotation.
+- id: hebergement
+  rempli: inconnu
+  justification: Résidence artistique, mais hébergement non explicitement confirmé
+    sur cette page de profil.
+- id: atelier
+  rempli: inconnu
+  justification: Résidence artistique en création, mais espace de travail non explicitement
+    mentionné.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Prise en charge des frais de voyage ou production non mentionnée.
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

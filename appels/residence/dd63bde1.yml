@@ -1,0 +1,92 @@
+uid: dd63bde1
+type: residence
+source_url: https://www.pollen-monflanquin.com/residences
+fetched_at: '2026-05-22T12:07:26+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Artistes en résidence
+  organisme: Pollen
+  lieu:
+    ville: Monflanquin
+    pays: France
+    territoire: Lot-et-Garonne
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: Contenu fragmentaire et incomplet. Seules des informations générales
+    sur l'organisme et sa mission sont disponibles. Aucun détail sur les conditions
+    de candidature, durée, hébergement, rémunération ou date limite.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:07:26+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Pollen — résidence (Monflanquin)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Pollen est une plate-forme d'expérimentation accueillant depuis 1991 des
+    artistes plasticiens en Lot-et-Garonne. Elle permet à chaque artiste de réaliser
+    un projet personnel ou de poursuivre une recherche. La page consultée est fragmentaire
+    et ne fournit pas les détails sur la durée, l'hébergement, la rémunération ni
+    la date limite de candidature.
+  pour_qui: Artistes plasticiens de toutes nationalités souhaitant réaliser un projet
+    spécifique ou poursuivre une recherche personnelle.
+a_savoir:
+- 'Contenu incomplet : informations critiques manquantes (date limite, durée, hébergement,
+  rémunération, frais)'
+- Aucune URL de candidature trouvée
+organisme_details:
+  site_web: https://www.pollen-monflanquin.com
+  adresse: null
+  ville: Monflanquin
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou dotation dans le texte
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention explicite d'hébergement fourni
+- id: atelier
+  rempli: inconnu
+  justification: Mention d'un 'lieu propice à l'accomplissement' mais pas de précision
+    sur l'espace de travail fourni
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge de voyage, production ou matériel
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

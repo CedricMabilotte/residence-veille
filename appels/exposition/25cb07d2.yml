@@ -1,0 +1,117 @@
+uid: 25cb07d2
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/places-and-spaces-art-exhibition/10521
+fetched_at: '2026-05-22T12:27:00+00:00'
+score: 8
+status: bientot-fermee
+opportunite:
+  nom: The Horton Places and Spaces Art Exhibition 2026
+  organisme: The Horton
+  lieu:
+    ville: Epsom
+    pays: United Kingdom
+  nom_fr: Exposition d'Art Lieux et Espaces
+  affichage_titre: Places and Spaces Art Exhibition [Exposition d'Art Lieux et Espaces]
+candidature:
+  date_limite: '2026-05-22'
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 0
+    devise: null
+  pieces_demandees:
+  - Image numérique de l'œuvre (2 à 4 mb)
+  - 'Pour 2D: taille maximale 30cm x 42cm (A3)'
+  - 'Pour 3D: largeur maximale 50cm'
+  url_candidature: https://www.curatorspace.com/opportunities/detail/places-and-spaces-art-exhibition/10521
+eligibilite:
+  disciplines:
+  - dessin
+  - peinture
+  - collage
+  - couture
+  - sculpture
+  niveau_carriere: young artists
+  age_max: 18
+  nationalite: null
+  residence_administrative: Children and young people living or attending a school
+    in the borough of Epsom and Ewell
+conditions_exposition:
+  lieux:
+  - The Horton's atrium gallery space
+  dates_exposition: 17–30 June 2026
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: GBP
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- Epsom Civic Society
+analyse:
+  synthese: The Horton organise une exposition collective gratuite d'art visuel à
+    Epsom, Royaume-Uni, du 17 au 30 juin 2026. Le programme s'adresse aux enfants
+    et jeunes de 7 à 18 ans résidant ou scolarisés dans le borough d'Epsom et Ewell.
+    Les participants créent des œuvres 2D ou 3D explorant le thème des lieux et espaces
+    à Epsom. Les œuvres sélectionnées sont exposées à la galerie de l'atrium du Horton;
+    les autres sont affichées sur écran numérique. Les artistes doivent soumettre
+    des images numériques entre le 5 et le 22 mai 2026.
+  pour_qui: Cette exposition s'adresse aux enfants et jeunes artistes (7-18 ans) vivant
+    ou scolarisés dans le borough d'Epsom et Ewell, qui souhaitent explorer visuellement
+    les lieux et espaces significatifs de leur communauté locale.
+a_savoir:
+- Éligibilité strictement limitée à la résidence ou scolarité dans le borough d'Epsom
+  et Ewell
+- Les candidats sous 18 ans doivent être enregistrés par un parent ou tuteur sur CuratorSpace
+- Chaque artiste ne peut soumettre qu'une seule œuvre
+- 'Exigences strictes de format: 30cm x 42cm maximum pour les œuvres 2D, 50cm de largeur
+  maximum pour les 3D'
+- Images numériques obligatoirement entre 2 et 4 mb
+organisme_details:
+  site_web: null
+  adresse: Haven Way, Epsom KT19 8NP
+  ville: Epsom
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse, per diem ou dotation monétaire mentionnée
+    pour les participants
+- id: hebergement
+  rempli: non
+  justification: Aucun logement mis à disposition
+- id: atelier
+  rempli: non
+  justification: Aucun espace de production ou atelier fourni; les artistes créent
+    indépendamment
+- id: frais_pris_en_charge
+  rempli: non
+  justification: L'exposition est gratuite à intégrer mais aucun frais de voyage,
+    de production ou de transport d'œuvres n'est couvert
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Extraction basée sur une page d'opportunité CuratorSpace. Le site
+    web officiel du Horton et l'email de contact direct ne figurent pas dans le texte
+    fourni.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:27:00+00:00'
+  source_lang: en
+  resume_fr: Exposition artistique estivale destinée aux jeunes de 7 à 18 ans vivant
+    ou étudiant à Epsom & Ewell, portant sur le thème des lieux et espaces préférés
+    du borough. L'exposition se déroulera du 17 au 30 juin dans l'atrium du Horton
+    et est gratuite, soutenue par Epsom Civic Society. Les dépôts des œuvres auront
+    lieu les 12 et 13 juin, avec une cérémonie de remise des prix le 20 juin à 14h.
+    Chaque artiste soumet une seule œuvre en 2D (max 30cm x 42cm) ou 3D (max 50cm
+    de large); les œuvres non sélectionnées seront affichées numériquement.
+  detection_confidence: 0.7741935483870968
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

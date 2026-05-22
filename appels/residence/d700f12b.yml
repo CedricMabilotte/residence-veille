@@ -1,0 +1,98 @@
+uid: d700f12b
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/afad-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T11:56:10+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: AFAD x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.citeinternationaledesarts.fr/programme-de-residence/afad-x-cite-internationale-des-arts
+eligibilite:
+  disciplines:
+  - architecture
+  - arts appliqués
+  - arts plastiques
+  - arts visuels
+  - commissariat
+  - design
+  - restauration
+  - théorie
+  niveau_carriere: émergent·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- Académie des beaux-arts et du design de Bratislava
+_meta:
+  extracted_confidence: 0.62
+  extracted_notes: 'Programme basique : date limite, frais, hébergement, rémunération
+    et atelier non mentionnés. Seules la durée (3 mois) et l''éligibilité (diplômés
+    AFAD) sont clairs.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T11:56:10+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Ce programme résidentiel s'adresse aux diplômés et post-diplômés de l'Académie
+    des beaux-arts et du design de Bratislava. Il offre 3 mois de résidence à la Cité
+    Internationale des Arts, avec 2 places disponibles par an. Le programme vise à
+    soutenir l'intégration professionnelle d'artistes émergents dans les domaines
+    des arts visuels, de l'architecture, du design, de la restauration et du commissariat.
+    Les résidents bénéficient de rencontres régulières avec des artistes et professionnels
+    de la culture. Le programme a été créé en 2021.
+  pour_qui: Artistes diplômés ou post-diplômés de l'AFAD de Bratislava dans les disciplines
+    visuelles, architecture, design, restauration ou commissariat.
+a_savoir:
+- Accès réservé aux diplômés de l'AFAD Bratislava
+- Date limite de candidature non mentionnée
+- Conditions de rémunération et d'hébergement non précisées
+- 'Nombre de places limité : 2 résidences par an'
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire
+    dans le texte.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention explicite d'hébergement fourni. Le texte ne spécifie
+    pas si un logement est mis à disposition.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de travail ou d'atelier fourni par le programme.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge des frais de voyage, production
+    ou transport d'œuvres.
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

@@ -1,0 +1,90 @@
+uid: 6e7966fe
+type: residence
+source_url: https://www.casadevelazquez.org/residents-et-alumni/2025-2026/carlos-correcher
+fetched_at: '2026-05-22T12:50:38+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: null
+  organisme: Casa de Velázquez
+  lieu:
+    ville: null
+    pays: Espagne
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Peinture
+  - 3D
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: septembre 2025 à juillet 2026
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Ville de Valence
+_meta:
+  extracted_confidence: 0.1
+  extracted_notes: Page de portfolio d'un artiste résident, non un appel à candidature.
+    Extraction très limitée.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:50:38+00:00'
+  source_lang: fr
+  detection_confidence: 0.97
+  detection_method: claude
+  source_label: Casa de Velázquez — Académie de France à Madrid
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Page présentant la résidence de Carlos Correcher à la Casa de Velázquez
+    de septembre 2025 à juillet 2026, en tant qu'artiste boursier de la Ville de Valence.
+    Son projet explore la représentation de l'épuisement et de la lenteur en opposition
+    à l'esthétique du sport automobile, combinant peinture, 3D et vidéo.
+  pour_qui: Artiste visuel travaillant sur la peinture, l'image numérique et les médiums
+    sculpturaux.
+a_savoir:
+- Cette page n'est pas un appel à candidature mais un portfolio d'un artiste en résidence.
+- Aucune information sur les modalités de candidature, les critères d'éligibilité,
+  les frais ou les conditions précises du programme n'est disponible.
+organisme_details:
+  site_web: https://www.casadevelazquez.org
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: L'artiste est qualifié d'« artiste boursier de la Ville de Valence
+    », indiquant une forme de rémunération, sans détail du montant.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention explicite.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention explicite.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune information fournie.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

@@ -1,0 +1,117 @@
+uid: e57f2fc5
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/aura-open-call/6198
+fetched_at: '2026-05-22T12:24:46+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: 'AURA: Open Call'
+  organisme: AURA
+  lieu:
+    ville: null
+    pays: null
+  nom_fr: 'AURA : Appel à candidatures'
+  affichage_titre: 'AURA: Open Call Open Call for artists and writers to submit their
+    work to a feminist online zine based on... [AURA : Appel à candidatures]'
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees:
+  - Short art essays
+  - Performance pieces
+  - Social Commentary
+  - Video Artwork
+  - Paintings
+  - Drawings
+  - Art writing
+  - Poetry
+  - Exhibition reviews
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - art essays
+  - performance
+  - video
+  - painting
+  - drawing
+  - writing
+  - poetry
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Instagram
+  - TikTok
+  dates_exposition: null
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: null
+_meta:
+  extracted_confidence: 0.7
+  extracted_notes: 'Opportunité actuellement fermée aux candidatures (status: ''unable
+    to accept submissions''). Pas de deadline spécifiée. Plateforme numérique. Curator:
+    Erin Shields.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:24:46+00:00'
+  source_lang: en
+  resume_fr: AURA est une galerie féministe en ligne pour les artistes et écrivaines
+    s'identifiant comme femmes, actuellement présente sur Instagram et en expansion
+    vers TikTok. L'appel recherche des essais d'art, des performances, des commentaires
+    sociaux, des œuvres vidéo et des travaux socialement engagés adaptés au format
+    des vidéos TikTok et Reels. Les candidates peuvent soumettre autant de travaux
+    qu'elles le souhaitent. L'objectif est de redéfinir la zine d'art à l'ère numérique
+    et de diffuser des œuvres féministes engagées. Actuellement, cet appel n'accepte
+    pas de candidatures.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: AURA est un zine en ligne féministe accueillant les artistes et écrivain(e)s
+    s'identifiant comme femmes. La plateforme existe actuellement sur Instagram et
+    cherche à s'étendre à TikTok. Elle accepte des essais d'art, des performances,
+    des commentaires sociaux, des vidéos, des peintures, des dessins et de la poésie.
+    L'objectif est de diffuser des œuvres socio-politiques et féministes auprès du
+    public. Actuellement, cette opportunité n'accepte pas de candidatures.
+  pour_qui: Artistes et écrivain(e)s s'identifiant comme femmes, intéressé(e)s par
+    la création socio-politique et féministe.
+a_savoir:
+- Opportunité actuellement fermée aux candidatures
+- Pas de deadline spécifiée
+- Pas de rémunération mentionnée
+- Audience restreinte à 'women-identifying artists'
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation mentionnée dans le texte
+- id: hebergement
+  rempli: non
+  justification: Plateforme en ligne, aucun hébergement fourni
+- id: atelier
+  rempli: non
+  justification: Format numérique, aucun espace de travail physique ou équipement
+    fourni
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune prise en charge de frais de voyage, production ou transport
+    mentionnée
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

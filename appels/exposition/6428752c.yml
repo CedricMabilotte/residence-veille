@@ -1,14 +1,14 @@
 uid: 6428752c
 type: exposition
 source_url: https://www.cnap.fr/programme-suite/agenda/programme-suite-2026
-fetched_at: '2026-05-22T09:49:04+00:00'
-score: 8
+fetched_at: '2026-05-22T11:24:08+00:00'
+score: 7
 status: indetermine
 opportunite:
   nom: Programme Suite 2026
-  organisme: Centre national des arts plastiques (CNAP)
+  organisme: Centre national des arts plastiques (Cnap)
   lieu:
-    ville: Paris
+    ville: null
     pays: France
 candidature:
   date_limite: null
@@ -18,84 +18,88 @@ candidature:
   url_candidature: null
 eligibilite:
   disciplines:
-  - Arts visuels
-  - Création contemporaine
-  - Photographie documentaire
+  - arts visuels
+  - arts plastiques
   niveau_carriere: null
   age_max: null
   nationalite: null
   residence_administrative: null
 conditions_exposition:
   lieux:
-  - La Tôlerie (Clermont-Ferrand, Auvergne-Rhône-Alpes)
-  - Le Ravitaillement (Gavray-sur-Sienne, Normandie)
-  - Le Transfo (Aulon, Occitanie)
-  - gr_und (Berlin, Allemagne)
-  - KOMMET (Lyon, Auvergne-Rhône-Alpes)
-  - Semis, lieu de fabrication (Berny-Rivière, Hauts-de-France)
-  - MEAN (Saint-Nazaire, Pays de la Loire)
-  dates_exposition: 16 mai 2026 – 29 novembre 2026
+  - La Tôlerie, Clermont-Ferrand
+  - Le Ravitaillement, Gavray-sur-Sienne
+  - Le Transfo, Aulon
+  - gr_und, Berlin
+  - KOMMET, Lyon
+  - Semis, lieu de fabrication, Berny-Rivière
+  - MEAN, Saint-Nazaire
+  dates_exposition: 16 mai 2026 - 30 avril 2027
   format: collective
   prise_en_charge:
-    production: null
+    production: false
     transport:
-      pris_en_charge: null
+      pris_en_charge: false
       plafond: null
       devise: EUR
-    per_diem: null
-    hebergement_vernissage: null
+    per_diem: false
+    hebergement_vernissage: false
 partenaires:
 - Académie des beaux-arts
 _meta:
-  extracted_confidence: 0.3
-  extracted_notes: 'Ce n''est pas un appel à candidature ouvert. Le texte présente
-    les résultats d''une sélection déjà effectuée : 7 artistes ayant reçu un soutien
-    du CNAP voient leurs projets exposés en 2026. Aucune information sur les conditions
-    de candidature, les frais, l''hébergement ou les rétributions n''est fournie.'
+  extracted_confidence: 0.75
+  extracted_notes: Cette page présente le Programme Suite 2026 comme une vitrine d'exposition
+    pour artistes préalablement soutenus par le Cnap, et non comme un appel à candidatures
+    ouvert. Les modalités précises d'accompagnement (rétribution, hébergement, frais
+    pris en charge) ne sont pas spécifiées. Les artistes et lieux sont déjà confirmés
+    et le programme est en cours de déroulement.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T09:49:04+00:00'
+  extracted_at: '2026-05-22T11:24:08+00:00'
   source_lang: fr
   detection_confidence: 0.98
   detection_method: claude
   source_label: CNAP — soutien à la création
   last_status_check: '2026-05-22'
 analyse:
-  synthese: Le Programme Suite 2026 est la 12e édition d'un programme du CNAP en partenariat
-    avec l'Académie des beaux-arts, présentant 7 projets artistiques ayant bénéficié
-    d'un soutien antérieur du CNAP. Ces projets sont exposés dans 6 lieux indépendants
-    pilotés par des artistes ou jeunes commissaires, dont 1 à l'international (Berlin).
-    Les expositions s'échelonnent du 16 mai au 29 novembre 2026 sur tout le territoire
-    français et en Allemagne, dans des espaces tournés vers l'émergence et l'expérimentation.
-  pour_qui: Artistes ayant obtenu un soutien du CNAP (soutien à un projet artistique
-    ou à la photographie documentaire contemporaine) dont les travaux sont sélectionnés
-    pour bénéficier d'une exposition.
+  synthese: Le Programme Suite 2026 est une exposition collective de sept artistes
+    préalablement soutenus par le Centre national des arts plastiques, se déroulant
+    de mai 2026 à avril 2027 dans six lieux en France et en Allemagne. Ce programme
+    vise à donner une visibilité publique à des projets ayant bénéficié du soutien
+    à un projet artistique ou du soutien à la photographie documentaire contemporaine
+    du Cnap. Il s'inscrit dans la 12e édition du programme Suite, en partenariat avec
+    l'Académie des beaux-arts, et accompagne les artistes dans des réflexions sur
+    les modes de production et de fabrication des œuvres.
+  pour_qui: Artistes ayant reçu un soutien antérieur du Centre national des arts plastiques
+    pour un projet artistique ou pour la photographie documentaire contemporaine.
 a_savoir:
-- 'Il ne s''agit pas d''un appel à candidature ouvert : les artistes et projets ont
-  déjà été sélectionnés.'
-- Aucune information n'est fournie sur les conditions de rémunération, d'hébergement,
-  de production ou de transport.
+- 'Ce n''est pas un appel à candidatures ouvert : les artistes sont présélectionnés
+  par les programmes de soutien existants du Cnap.'
+- Un lieu du programme se situe en Allemagne (Berlin), les autres en France.
+- Les modalités d'accompagnement financier et de prise en charge des frais ne sont
+  pas détaillées dans ce contenu.
+- Une résidence de création est proposée pour un artiste (Antoine Dochniak) au lieu
+  « Semis, lieu de fabrication ».
 organisme_details:
-  site_web: https://www.cnap.fr/
+  site_web: null
   adresse: null
-  ville: Paris
+  ville: null
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: Le programme « accompagne les artistes » mais aucune mention explicite
-    de rémunération, bourse ou per diem.
+  rempli: non
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation versée
+    aux artistes par le programme.
 - id: hebergement
-  rempli: inconnu
-  justification: Une « résidence » est mentionnée pour Antoine Dochniak (7-20 septembre
-    2026), mais pas pour les autres artistes.
+  rempli: non
+  justification: Aucun hébergement n'est mentionné comme étant fourni pendant le programme.
 - id: atelier
-  rempli: inconnu
-  justification: Mention d'« espace de production » pour la résidence d'Antoine Dochniak,
-    mais pas de détails sur les équipements fournis pour les autres expositions.
+  rempli: partiel
+  justification: 'Un espace de travail est fourni pour au moins un artiste : ''Semis,
+    lieu de fabrication'' avec une résidence du 7 au 20 septembre 2026 pour Antoine
+    Dochniak. Cependant, cet accompagnement ne concerne qu''un artiste sur sept.'
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: Le programme vise à « rendre possible des expositions significatives
-    » mais aucun détail sur la couverture du voyage, transport d'œuvres ou production.
+  rempli: non
+  justification: Aucune mention de prise en charge du voyage, de la production, du
+    transport d'œuvres ou du matériel par l'organisme.
 _interne_affinite:
   match: false
   signaux:

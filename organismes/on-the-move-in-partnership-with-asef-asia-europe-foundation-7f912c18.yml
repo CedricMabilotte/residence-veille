@@ -2,10 +2,10 @@ uid: on-the-move-in-partnership-with-asef-asia-europe-foundation-7f912c18
 nom_canonique: On the Move (in partnership with ASEF - Asia-Europe Foundation)
 acronymes: []
 pays: null
-type_organisme: null
-url_canonique: null
+type_organisme: reseau
+url_canonique: https://on-the-move.org
 urls_secondaires: []
-description_courte: null
+description_courte: Réseau international de mobilité artistique soutenant les échanges culturels Asie-Europe.
 disciplines_proposees: []
 types_opportunites_habituels:
 - bourse
@@ -13,10 +13,13 @@ opportunites_liees:
 - uid: 1fb0c6ab
   type: bourse
   nom: Mobility Funding Guide to Indonesia
+- uid: 18e2d639
+  type: bourse
+  nom: Mobility Funding Guide to Asia
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: asef-asia-europe-foundation
-  occurrences: 1
+  occurrences: 2
   nom_brut: ASEF - Asia-Europe Foundation
 pages_surveillees: []
 _meta:

@@ -1,0 +1,51 @@
+uid: justart-collective-6e696942
+nom_canonique: JustArt Collective
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 40b2a7bf
+  type: exposition
+  nom: Open Call for JustArt Newspaper Club Issue 6
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: artflow
+  occurrences: 1
+  nom_brut: Artflow
+- organisme_uid: whitespace-gallery-edinburgh
+  occurrences: 1
+  nom_brut: Whitespace Gallery Edinburgh
+- organisme_uid: chilli-gallery-london
+  occurrences: 1
+  nom_brut: Chilli Gallery London
+- organisme_uid: fitzrovia-gallery-london
+  occurrences: 1
+  nom_brut: Fitzrovia Gallery London
+- organisme_uid: photofusion-gallery-london
+  occurrences: 1
+  nom_brut: Photofusion Gallery London
+- organisme_uid: newbridge-books
+  occurrences: 1
+  nom_brut: NewBridge Books
+- organisme_uid: kafka-bookshop
+  occurrences: 1
+  nom_brut: Kafka Bookshop
+- organisme_uid: our-culture-mag
+  occurrences: 1
+  nom_brut: Our Culture Mag
+- organisme_uid: visual-art-journal
+  occurrences: 1
+  nom_brut: Visual Art Journal
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: United Kingdom (founded in Hong Kong, active in UK)

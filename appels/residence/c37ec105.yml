@@ -1,0 +1,104 @@
+uid: c37ec105
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/institut-francais-du-nigeria-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T11:54:55+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Resonance – Cité Internationale des Arts
+  organisme: Institut français du Nigeria, Art X Lagos, Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-05-31'
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts visuels
+  - Design
+  - Commissariat
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Nigeria
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Institut français du Nigeria
+- Art X Lagos
+- Cité internationale des arts
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Programme bien documenté sur ses objectifs et critères d'éligibilité.
+    Manquent les montants de rémunération, les conditions précises d'hébergement et
+    d'atelier, et la prise en charge des frais.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T11:54:55+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Resonance est un programme annuel de résidence de 3 mois pour artistes
+    visuels, designers et commissaires. Initié en 2020, il propose 3 résidences par
+    an en partenariat entre la Cité internationale des arts, l'Institut français du
+    Nigeria et Art X Lagos. Le programme vise les professionnels basés au Nigeria
+    ayant au moins 5 ans de pratique artistique ou curatoriale et âgés de plus de
+    23 ans. Les résidents dialoguent avec des professionnels de leurs domaines et
+    bénéficient d'une ouverture au réseau professionnel francilien et d'un soutien
+    financier.
+  pour_qui: Artistes visuels, designers et commissaires de toutes nationalités, résidant
+    au Nigeria, ayant au moins 5 ans de pratique professionnelle établie et âgés de
+    plus de 23 ans.
+a_savoir:
+- Programme réservé aux artistes résidant au Nigeria (restriction géographique stricte)
+- 'Expérience professionnelle minimale requise : 5 ans'
+- Montant du soutien financier non spécifié
+- Conditions d'hébergement et d'atelier non précisées dans le texte
+organisme_details:
+  site_web: null
+  adresse: Wuse 2, Abuja
+  ville: Abuja
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: Soutien financier mentionné (« avec le soutien de la Cité internationale
+    des arts, ainsi que d'un soutien financier »), mais le montant n'est pas précisé.
+- id: hebergement
+  rempli: inconnu
+  justification: Le texte ne mentionne pas explicitement si un logement est fourni
+    pendant la résidence.
+- id: atelier
+  rempli: inconnu
+  justification: Le texte ne spécifie pas si un espace de travail ou des équipements
+    sont mis à disposition.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Le texte ne mentionne pas la prise en charge du voyage, du transport
+    ou d'autres frais.
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

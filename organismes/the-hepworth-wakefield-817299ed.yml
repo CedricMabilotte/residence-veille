@@ -1,0 +1,30 @@
+uid: the-hepworth-wakefield-817299ed
+nom_canonique: The Hepworth Wakefield
+acronymes: []
+pays: null
+type_organisme: institution_publique
+url_canonique: null
+urls_secondaires: []
+description_courte: Musée d'art contemporain et sculpture situé à Wakefield, Angleterre.
+disciplines_proposees:
+- sculpture
+- peinture
+- photographie
+- installation
+- dessin
+- art vidéo
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 06ec46f8
+  type: exposition
+  nom: The Hepworth Wakefield Harvest Festival 2026
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Wakefield

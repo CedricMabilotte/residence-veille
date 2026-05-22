@@ -1,57 +1,51 @@
 uid: 19d31b22
 type: exposition
 source_url: https://www.cnap.fr/quinquennale-2027-soutien-frac-centres-dart
-fetched_at: '2026-05-22T09:50:59+00:00'
+fetched_at: '2026-05-22T11:26:29+00:00'
 score: 9
 status: bientot-fermee
 opportunite:
   nom: Soutien à la production dans le cadre de la Quinquennale 2027
-  organisme: Centre national des arts plastiques (Cnap), organisé en partenariat avec
-    le Palais de Tokyo et le Centre Pompidou
+  organisme: Palais de Tokyo / Centre national des arts plastiques (CNAP)
   lieu:
-    ville: null
+    ville: Paris
     pays: France
 candidature:
   date_limite: '2026-06-18'
   langue_dossier:
-  - français
+  - Français
   frais_inscription: null
   pieces_demandees:
-  - Formulaire à compléter en ligne
-  - Présentation du projet (maximum 7500 signes) avec visuels préparatoires et éléments
-    illustrant le contexte
-  - Engagements ou lettres d'intention des partenaires et coproducteurs (le cas échéant)
-  - Curriculum vitæ et portfolio de l'artiste ou document regroupant l'ensemble des
-    informations sur les artistes
-  - Budget et devis principaux pour tous les postes de production
-  - Justificatifs et engagements écrits des partenaires en cas de cofinancement
-  - Contrats avec les artistes ou auteurs impliqués
-  - Copie de l'acte de création (extrait Kbis ou attestation d'immatriculation) ou
-    statuts signés et récépissé de dépôt de déclaration
-  - Liste des membres du conseil d'administration ou du bureau
+  - Formulaire en ligne
+  - Présentation du projet (max 7 500 signes) avec visuels préparatoires
+  - CV et portfolio des artistes
+  - Budget prévisionnel et devis principaux
+  - Engagements ou lettres d'intention des partenaires (le cas échéant)
+  - Contrats avec les artistes/auteurs (en cas de cofinancement)
+  - Copie KBIS (si entreprise) ou statuts signés (si association)
   - Relevé d'identité bancaire (RIB) complet
-  - 5 visuels en format .jpg légendés
-  url_candidature: https://www.cnap.fr/quinquennale-2027-soutien-frac-centres-dart
+  - 5 visuels JPG légendés illustrant le projet et/ou le travail des artistes
+  url_candidature: null
 eligibilite:
   disciplines:
   - Arts plastiques et visuels
   - Photographie
   - Œuvres sonores
-  - Œuvres numériques
+  - Arts numériques
   - Arts graphiques
   - Performance
-  niveau_carriere: Artistes vivants ayant une pratique professionnelle reconnue
+  niveau_carriere: Pratique professionnelle reconnue, sans limite d'âge
   age_max: null
   nationalite: Artistes de nationalité française quel que soit le lieu de résidence,
-    ou artistes étrangers résidant en France de manière permanente
-  residence_administrative: France
-  demandeur: Fonds régional d'art contemporain (Frac) ou centre d'art labellisé d'intérêt
-    national ou conventionné par le ministère de la Culture
+    ou de nationalité étrangère résidant en France de manière permanente
+  residence_administrative: France (résidence permanente requise pour les artistes
+    étrangers)
 conditions_exposition:
-  lieux:
-  - Exposition organisée par la structure bénéficiaire, dans ou hors les murs
-  dates_exposition: Entre le 1er septembre 2027 et le 30 juin 2028
-  format: collective|personnelle
+  lieux: null
+  dates_exposition: Entre le 1er septembre 2027 et le 30 juin 2028 (dates butoirs
+    de début d'exposition). La Quinquennale se tient en octobre 2027 pour une durée
+    de trois mois.
+  format: null
   prise_en_charge:
     production: true
     transport:
@@ -59,38 +53,52 @@ conditions_exposition:
       plafond: null
       devise: EUR
     per_diem: true
-    hebergement_vernissage: false
-  montants_solicitables:
-  - montant: 10000
-    devise: EUR
-  - montant: 15000
-    devise: EUR
-  financement: 50% maximum du Cnap, 50% de la structure et partenaires (valorisation
-    en nature comprise)
+    hebergement_vernissage: null
 partenaires:
 - Palais de Tokyo
 - Centre Pompidou
-- Centre national des arts plastiques (Cnap)
+- Centre national des arts plastiques (CNAP)
+- Ministère de la Culture
+_meta:
+  extracted_confidence: 0.87
+  extracted_notes: 'Programme piloté par le CNAP pour les Frac et centres d''art labellisés.
+    Montants de soutien disponibles : 10 000 € ou 15 000 € selon le choix du candidat,
+    avec apport CNAP limité à 50 % du budget total. Le demandeur doit être une institution
+    (Frac ou centre d''art labellisé), pas un artiste individuel. Commission prévue
+    en juillet 2026.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T11:26:29+00:00'
+  source_lang: fr
+  detection_confidence: 0.75
+  detection_method: heuristic
+  source_label: CNAP — soutien à la création
+  last_status_check: '2026-05-22'
 analyse:
-  synthese: Le Cnap propose un dispositif de soutien à la production destiné aux Frac
-    et centres d'art labellisés, finançant la création et la présentation d'expositions
-    en lien avec la Quinquennale 2027 (octobre 2027, trois mois). Le soutien couvre
-    la recherche et production des œuvres, la rémunération des artistes et commissaires,
-    ainsi que les frais de transport, à hauteur de 10 000 € ou 15 000 € avec cofinancement
-    50-50. Les expositions doivent intégrer principalement des artistes français (minimum
-    60 % en cas de collectif) et peuvent se tenir entre septembre 2027 et juin 2028.
-    Les candidatures sont à déposer en ligne du 11 mai au 18 juin 2026 à 13h.
-  pour_qui: Frac et centres d'art labellisés conventionnés par le ministère de la
-    Culture, proposant une exposition en partenariat avec des artistes de la scène
-    française en lien avec la Quinquennale 2027.
+  synthese: Le CNAP propose une aide à la production artistique destinée aux Frac
+    et centres d'art labellisés dans le cadre de la Quinquennale 2027 (octobre 2027,
+    trois mois). Les bénéficiaires peuvent demander 10 000 € ou 15 000 € pour produire
+    des œuvres destinées à une exposition labellisée Quinquennale. Les artistes doivent
+    être de la scène française (nationalité française ou résidence permanente en France)
+    ; en exposition collective, au minimum 60 % doivent être français. Le soutien
+    couvre la rémunération des artistes, les frais de résidence, le transport des
+    œuvres, et les frais de production. L'exposition doit se tenir entre le 1er septembre
+    2027 et le 30 juin 2028, en coproduction ou partenariat.
+  pour_qui: Les Frac et centres d'art labellisés d'intérêt national ou conventionnés
+    par le ministère de la Culture, souhaitant coproduire des expositions avec des
+    artistes de la scène française dans le cadre de la Quinquennale 2027.
 a_savoir:
-- Appel destiné aux structures intermédiaires (Frac/centres d'art), non aux artistes
-  individuels
-- Nouveau dispositif du Cnap, pas d'historique d'éditions précédentes
-- Obligation d'au moins 60 % d'artistes français en cas d'exposition collective
-- Montants limités (10 000 € ou 15 000 €) avec cofinancement obligatoire
-- Production ne peut pas avoir débuté avant la tenue du comité (juillet 2026)
-- Dossier en français requis
+- 'Date limite très courte : 18 juin 2026 à 13h précises, avec clôture stricte et
+  aucun délai supplémentaire accordé'
+- Demandeur doit être une institution labellisée (Frac ou centre d'art), pas un artiste
+  individuel
+- 'Artistes : scène française exclusivement (nationalité française ou résidence permanente
+  en France)'
+- 'En exposition collective : minimum 60 % d''artistes français requis'
+- 'Budget : doit être à l''équilibre avec apport CNAP limité à 50 % ; structure/partenaires
+  assurent minimum 50 %'
+- 'Production : ne peut pas débuter avant le comité prévue en juillet 2026'
+- 'Dossier complexe : nombreux justificatifs requis (KBIS/statuts, RIB, portfolio,
+  devis, engagements partenaires, contrats avec artistes)'
 organisme_details:
   site_web: https://www.cnap.fr
   adresse: null
@@ -99,31 +107,20 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: Le soutien couvre 'la rémunération du ou des artistes impliqués dans
-    le projet, leurs honoraires et frais de résidence le cas échéant'
+  justification: Rémunération du ou des artistes impliqués dans le projet, leurs honoraires
+    et frais de résidence le cas échéant
 - id: hebergement
-  rempli: non
-  justification: Les frais de résidence des artistes peuvent être couverts, mais aucun
-    logement n'est directement mis à disposition par l'organisme
+  rempli: partiel
+  justification: Frais de résidence le cas échéant sont couverts sous forme d'honoraires,
+    mais pas d'hébergement directement fourni par l'organisme
 - id: atelier
   rempli: non
-  justification: Aucune mention d'atelier ou d'espace de travail fourni par l'organisme
+  justification: Aucun espace de travail, atelier ou équipements ne sont fournis par
+    le programme
 - id: frais_pris_en_charge
   rempli: oui
-  justification: Le soutien couvre 'les frais de transport des œuvres' et 'le travail
-    de recherche et de production du ou des œuvres de l'exposition'
-_meta:
-  extracted_confidence: 0.98
-  extracted_notes: Page officielle du Cnap, bien structurée avec informations complètes.
-    Appel spécifiquement destiné aux structures (Frac/centres d'art) et non aux artistes
-    individuels. Dates, montants et conditions clairement énoncés.
-  extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T09:50:59+00:00'
-  source_lang: fr
-  detection_confidence: 0.75
-  detection_method: heuristic
-  source_label: CNAP — soutien à la création
-  last_status_check: '2026-05-22'
+  justification: Frais de transport des œuvres, rémunération des artistes et commissaires,
+    frais de production et de recherche sont couverts
 _interne_affinite:
   match: false
   signaux:

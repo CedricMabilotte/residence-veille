@@ -1,0 +1,110 @@
+uid: 88d8f72a
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/pink--international-photography-exhibition/10545
+fetched_at: '2026-05-22T12:28:42+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Pink 2026, International Photography Exhibition
+  organisme: The Glasgow Gallery of Photography
+  lieu:
+    ville: Glasgow
+    pays: United Kingdom
+  nom_fr: Pink 2026, Exposition photographique internationale
+  affichage_titre: Pink 2026, International Photography Exhibition [Pink 2026, Exposition
+    photographique internationale]
+candidature:
+  date_limite: '2026-05-22'
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - Up to 8 images in JPEG format
+  - 72 ppi for initial submission
+  - 300 ppi and 3000 pixels minimum on shortest side if selected
+  - Correct file naming (Firstname-Surname1, etc.)
+  url_candidature: https://www.curatorspace.com/opportunities/detail/pink--international-photography-exhibition/10545
+eligibilite:
+  disciplines:
+  - Photography
+  niveau_carriere: open
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - The Glasgow Gallery of Photography
+  dates_exposition: 4–30 September 2026
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: GBP
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: 'Date limite = 22 mai 2026. Thème : Pink. Tous les photographes
+    sélectionnés doivent payer £48. Exposition du 4 au 30 septembre 2026.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:28:42+00:00'
+  source_lang: en
+  resume_fr: Appel à candidatures pour une exposition photographique internationale
+    consacrée à la couleur Pink, ouverte à tous les photographes. Les candidats doivent
+    soumettre jusqu'à 8 images avant le 22 mai 2026 ; la soumission est gratuite.
+    Les artistes sélectionnés versent des frais de participation de £48 et leur travail
+    est exposé du 4 au 30 septembre 2026 à la Glasgow Gallery of Photography, puis
+    diffusé en ligne et sur les réseaux sociaux.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Pink 2026 est un appel à candidatures pour une exposition photographique
+    d'un mois à la Glasgow Gallery of Photography. Les soumissions sont gratuites
+    et ouvertes à tous les photographes (amateurs ou professionnels, émergents ou
+    établis). Chaque candidat peut soumettre jusqu'à 8 images en JPEG à 72 ppi. Si
+    sélectionné, une participation de £48 est demandée, couvrant l'impression, l'installation
+    et le désinstallation des œuvres par la galerie. L'exposition se tiendra du 4
+    au 30 septembre 2026 à la Glasgow Gallery of Photography qui reçoit plus de 500
+    visiteurs mensuels.
+  pour_qui: Photographes de tous niveaux (amateurs, professionnels, émergents ou établis)
+    intéressés par la thématique 'Pink'.
+a_savoir:
+- Frais de participation £48 requis après sélection
+- Les cadres utilisés appartiennent à la galerie ; l'artiste récupère uniquement l'impression
+- Les tirages doivent être retirés dans un délai d'un mois après l'exposition
+- Exigences strictes de nommage des fichiers (Firstname-Surname1, etc.) ; les fichiers
+  mal nommés risquent d'être perdus ou égarés
+- 'Exigences de résolution différentes : 72 ppi pour la soumission initiale, 300 ppi
+  et minimum 3000 pixels si sélectionné'
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Glasgow
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou per diem mentionné. Les participants
+    sélectionnés ne reçoivent qu'un certificat numérique et une chance d'être nommés
+    'Photographer of the Month'.
+- id: hebergement
+  rempli: non
+  justification: Aucun hébergement fourni.
+- id: atelier
+  rempli: non
+  justification: Aucun espace de travail ou équipements fournis aux artistes.
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: La galerie prend en charge l'impression, l'installation et le désinstallation
+    des œuvres. Le transport des œuvres n'est pas mentionné comme pris en charge.
+    Les frais de participation (£48) couvrent ces coûts.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

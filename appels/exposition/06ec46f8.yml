@@ -1,0 +1,105 @@
+uid: 06ec46f8
+type: exposition
+source_url: https://www.curatorspace.com/profiles/TheHepworthWakefield
+fetched_at: '2026-05-22T12:44:12+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: The Hepworth Wakefield Harvest Festival 2026
+  organisme: The Hepworth Wakefield
+  lieu:
+    ville: Wakefield
+    pays: United Kingdom
+  nom_fr: The Hepworth Wakefield Festival de la Moisson 2026
+  affichage_titre: The Hepworth Wakefield [The Hepworth Wakefield Festival de la Moisson
+    2026]
+candidature:
+  date_limite: '2026-05-25'
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - artists
+  - designers
+  - makers
+  - food and drink producers/providers
+  - specialist retailers/store owners
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - The Hepworth Wakefield, Wakefield
+  dates_exposition: 2026-09-19 to 2026-09-20
+  format: festival
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: null
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.35
+  extracted_notes: 'Contenu très limité. Seules les informations basiques de l''opportunité
+    sont disponibles. Manquent : détails d''éligibilité complets, frais d''inscription,
+    conditions de participation, prise en charge, URL de candidature, contact. Le
+    texte semble être un extrait d''une page listant l''opportunité plutôt que la
+    page de candidature complète.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:44:12+00:00'
+  source_lang: en
+  resume_fr: Le Festival de la Moisson 2026 du The Hepworth Wakefield est ouvert aux
+    candidatures. La date limite est le 25/05/2026. L'événement se tiendra les samedi
+    19 et dimanche 20 septembre 2026 à Wakefield, West Yorkshire, au Royaume-Uni.
+    Les artistes, designers, artisans, producteurs et prestataires de nourriture et
+    boissons, ainsi que les propriétaires de magasins spécialisés peuvent postuler
+    pour tenir un stand.
+  detection_confidence: 0.95
+  detection_method: claude
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le Hepworth Wakefield Harvest Festival 2026 est un festival se tenant
+    à Wakefield (Royaume-Uni) les 19 et 20 septembre 2026. Il accueille les candidatures
+    d'artistes, designers, artisans, producteurs alimentaires et détaillants spécialisés
+    souhaitant tenir un stand. La date limite de candidature est le 25 mai 2026. Le
+    contenu disponible ne précise pas les conditions d'éligibilité détaillées, les
+    frais d'inscription ou la prise en charge.
+  pour_qui: Artistes, designers, artisans, producteurs alimentaires et détaillants
+    spécialisés désireux de participer à un festival communautaire.
+a_savoir:
+- 'Date limite très proche : 25 mai 2026 (3 jours à partir du 22 mai 2026)'
+- 'Contenu limité : les informations critiques sur les conditions de participation,
+  les frais et la prise en charge manquent'
+- 'Nature du programme peu claire : il s''agit d''un festival communautaire avec des
+  stands, pas d''une exposition d''art traditionnelle'
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Wakefield
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse ou per diem
+- id: hebergement
+  rempli: non
+  justification: Aucune mention de logement fourni
+- id: atelier
+  rempli: non
+  justification: Aucune mention d'espace de travail ou d'équipements fournis
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge des frais de voyage, production
+    ou transport
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

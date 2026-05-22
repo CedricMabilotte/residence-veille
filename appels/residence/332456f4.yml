@@ -1,0 +1,99 @@
+uid: 332456f4
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/adagp-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T12:06:33+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: ADAGP x Cité internationale des arts – Prisme
+  organisme: Cité Internationale des Arts / ADAGP
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Résider en France et en dehors d'Île-de-France depuis
+    au moins cinq ans. Ne pas être représenté par une galerie en Île-de-France.
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: null
+  hebergement: null
+  atelier: Résidence de recherche avec accompagnement professionnel fourni par les
+    équipes
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- ADAGP
+_meta:
+  extracted_confidence: 0.75
+  extracted_notes: Appel passé. Informations complètes sur l'éligibilité et durée.
+    Hébergement, rémunération, frais et conditions logistiques non mentionnés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:06:33+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Le programme ADAGP x Cité internationale des arts - Prisme offre à 3 artistes
+    visuels par an une résidence de recherche de 3 mois accompagnée d'un suivi professionnel.
+    Il s'adresse aux artistes visuels résidant en France depuis au moins cinq ans
+    en dehors d'Île-de-France et non représentés par une galerie parisienne. Créé
+    en 2021, il favorise la mobilité artistique et l'accès au réseau parisien.
+  pour_qui: Artistes visuels basés en France hors Île-de-France depuis au moins cinq
+    ans, non représentés par une galerie en Île-de-France.
+a_savoir:
+- Appel à candidature fermé (passé)
+- 'Critères d''éligibilité très spécifiques : résidence obligatoire de 5 ans en France,
+  exclusion des artistes représentés par galerie parisienne'
+- 'Détails matériels non documentés : aucune mention d''hébergement, rémunération,
+  frais de voyage ou équipements'
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire
+- id: hebergement
+  rempli: inconnu
+  justification: L'hébergement n'est pas mentionné dans le texte
+- id: atelier
+  rempli: partiel
+  justification: Une résidence de recherche avec accompagnement professionnel est
+    fournie, sans mention d'atelier ou d'espace de travail équipé
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge des frais de voyage, production
+    ou transport
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

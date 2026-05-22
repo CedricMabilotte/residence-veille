@@ -1,0 +1,24 @@
+uid: pollen-732c1e6c
+nom_canonique: Pollen
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.pollen-monflanquin.com
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: dd63bde1
+  type: residence
+  nom: Artistes en résidence
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Monflanquin

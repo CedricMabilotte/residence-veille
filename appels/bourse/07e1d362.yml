@@ -1,0 +1,98 @@
+uid: 07e1d362
+type: bourse
+source_url: https://www.adagp.fr/fr/actualites/ladagp-soutient-les-3-laureats-de-la-bourse-post-master-intelligence-artificielle-2025
+fetched_at: '2026-05-22T13:00:11+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Bourse Post-Master Intelligence Artificielle 2025-2026
+  organisme: École nationale supérieure de la photographie d'Arles
+  lieu:
+    ville: Arles
+    pays: France
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - photographie
+  - image
+  - vidéo
+  - art contemporain
+  niveau_carriere: post-master, artistes récemment diplômés de deuxième cycle des
+    écoles supérieures d'art
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_bourse:
+  montant:
+    montant: 4000
+    devise: EUR
+  finalite: formation
+  calendrier_usage: 2025-2026
+  obligations_rendu:
+  - accompagnement professionnel
+  - guidance artistique par des professionnels du champ de l'art et des spécialistes
+    de l'intelligence artificielle
+partenaires:
+- ADAGP
+- Ministère de la Culture (programme Culture Pro)
+analyse:
+  synthese: La bourse Post-Master Intelligence Artificielle 2025-2026 de l'ENSP Arles
+    accompagne les artistes récemment diplômés de deuxième cycle des écoles supérieures
+    d'art. Trois lauréats par année reçoivent une bourse de 4000 € chacun pour explorer
+    les intersections entre technologies de l'intelligence artificielle et création
+    artistique. Le programme inclut un accompagnement professionnel et une guidance
+    artistique assurés par des spécialistes du secteur. Le financement provient du
+    soutien de l'ADAGP et du ministère de la Culture via le programme Culture Pro.
+  pour_qui: Artistes récemment diplômés de deuxième cycle des écoles supérieures d'art,
+    intéressés par les enjeux artistiques de l'intelligence artificielle et des nouvelles
+    technologies appliquées à la photographie et l'image.
+a_savoir:
+- Le document consulté est un communiqué annonçant les lauréats 2025-2026, non un
+  appel à candidatures actif.
+- Aucune date limite de candidature n'est mentionnée dans le texte.
+- 'Le programme est très sélectif : seulement 3 lauréats par année.'
+- Les modalités complètes de candidature et les critères de sélection détaillés ne
+  sont pas disponibles dans ce document.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Arles
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Les lauréats reçoivent 4000 € chacun.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention d'un logement fourni dans le texte.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'un espace de production ou atelier mis à disposition.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: La prise en charge des frais de voyage, production ou transport n'est
+    pas spécifiée.
+_meta:
+  extracted_confidence: 0.45
+  extracted_notes: Le document consulté est un communiqué de presse annonçant les
+    lauréats 2025-2026, non une page d'appel à candidatures complète. Plusieurs champs
+    essentiels (date limite, modalités détaillées, URL de candidature, contact) sont
+    absents. Les informations structurelles sur le programme sont partielles.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T13:00:11+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: ADAGP — actualités (appels, bourses, prix)
+  last_status_check: '2026-05-22'
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

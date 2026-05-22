@@ -1,0 +1,126 @@
+uid: 40b2a7bf
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/open-call-for-justart-newspaper-club-issue/10618
+fetched_at: '2026-05-22T12:36:30+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Open Call for JustArt Newspaper Club Issue 6
+  organisme: JustArt Collective
+  lieu:
+    ville: null
+    pays: United Kingdom
+  nom_fr: Appel à candidature - JustArt Newspaper Club Numéro 6
+  affichage_titre: Open Call for JustArt Newspaper Club Issue 6 [Appel à candidature
+    - JustArt Newspaper Club Numéro 6]
+candidature:
+  date_limite: '2026-05-25'
+  date_limite_precision: day
+  langue_dossier:
+  - English
+  frais_inscription:
+    montant: 38
+    devise: GBP
+    description: Required for selected participants. Includes digital copy of newspaper.
+  pieces_demandees:
+  - 5-8 images of artwork
+  - Description of work
+  - Artist bio
+  - Artist statement
+  - 'For curators: past projects, project concepts, and 5-8 accompanying images'
+  url_candidature: https://www.curatorspace.com/opportunities/detail/open-call-for-justart-newspaper-club-issue/10618
+eligibilite:
+  disciplines:
+  - Contemporary art
+  niveau_carriere: emerging and mid-career
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Various art exhibitions across the UK
+  - JustArt Collective venues (selective)
+  dates_exposition: null
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: GBP
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- JustArt Collective
+- Artflow
+- Whitespace Gallery Edinburgh
+- Chilli Gallery London
+- Fitzrovia Gallery London
+- Photofusion Gallery London
+- NewBridge Books
+- Kafka Bookshop
+- Our Culture Mag
+- Visual Art Journal
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Primary opportunity is newspaper publication with thematic focus
+    on 'Liquidity' and artist migration. Exhibition opportunities are selective (1-2
+    participants chosen). No production support, accommodation, or travel funding
+    provided. Deadline is imminent.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:36:30+00:00'
+  source_lang: en
+  resume_fr: JustArt Collective, une initiative d'artistes basée au Royaume-Uni, lance
+    un appel à candidatures pour le numéro 6 de son journal d'art. Le thème est «
+    Liquidity », explorant comment la mobilité des artistes et la migration façonnent
+    l'identité et la pratique artistique. Les artistes et curateurs doivent soumettre
+    5-8 images avec description et biographie, moyennant des frais de participation
+    de £38. La date limite est le 25/05/2026. Les participants sélectionnés bénéficient
+    d'une exposition sur les réseaux sociaux, d'une distribution du journal dans des
+    galeries du Royaume-Uni, et certains ont la possibilité d'être sélectionnés pour
+    des expositions gratuites.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: 'Open call for JustArt Newspaper Club Issue 6, themed on ''Liquidity''
+    exploring how artists'' original culture shapes their work when based abroad.
+    Accepts submissions from emerging and mid-career contemporary artists and curators.
+    Required submission: 5-8 images with bio and statement. Participation fee: £38
+    includes digital newspaper copy. Selected participants receive social media exposure
+    (5K+ followers), newspaper distribution across UK art exhibitions, and possible
+    free exhibition selection (1-2 participants).'
+  pour_qui: Emerging and mid-career contemporary artists and curators interested in
+    themes of migration, displacement, and artistic identity across cultures.
+a_savoir:
+- Participation fee of £38 required for selected participants
+- 'Extremely tight deadline: 25/05/2026'
+- Digital copy only; no physical newspaper included
+- Exhibition opportunity is selective (only 1-2 participants chosen for free exhibitions)
+- No production support, travel funding, accommodation, or per diem provided
+- Primarily a newspaper publication opportunity, not a traditional exhibition residency
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: United Kingdom (founded in Hong Kong, active in UK)
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: No monetary remuneration, bourse, or dotation. Participation fee
+    of £38 is required from selected participants.
+- id: hebergement
+  rempli: non
+  justification: No accommodation or housing provided to participants.
+- id: atelier
+  rempli: non
+  justification: No workspace, studio, or production equipment provided.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: No travel, production, transport, or material costs covered by organizer.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

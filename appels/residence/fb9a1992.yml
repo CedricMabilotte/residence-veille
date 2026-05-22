@@ -1,0 +1,85 @@
+uid: fb9a1992
+type: residence
+source_url: https://www.casadevelazquez.org/residents-et-alumni/2025-2026/jacques-marie-ligot
+fetched_at: '2026-05-22T12:57:57+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Résidence Artistique à la Casa de Velázquez
+  organisme: Casa de Velázquez
+  lieu:
+    ville: null
+    pays: null
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Architecture
+  - Arts visuels
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: septembre 2025 - juillet 2026
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.1
+  extracted_notes: Page de présentation d'un artiste résident sélectionné, non un
+    appel à candidature ouvert. Aucune information de programme, conditions ou critères
+    d'admission.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:57:57+00:00'
+  source_lang: fr
+  detection_confidence: 0.99
+  detection_method: claude
+  source_label: Casa de Velázquez — Académie de France à Madrid
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Cette page présente la résidence de Jacques-Marie Ligot à la Casa de Velázquez
+    de septembre 2025 à juillet 2026, où il explore la transformation des hórreos
+    galiciens comme architectures porteuses de mémoire. Aucune information sur les
+    conditions d'admission, critères d'éligibilité, hébergement, rémunération ou modalités
+    du programme n'est fournie.
+  pour_qui: Page de présentation d'un artiste résident ; ne cible pas de nouveaux
+    candidats.
+a_savoir:
+- Ce n'est pas une page d'appel à candidature ouvert.
+- Aucune donnée sur les conditions matérielles de la résidence (hébergement, rémunération,
+  atelier, frais pris en charge).
+- Aucune date limite de candidature, frais d'inscription, ou URL de candidature.
+organisme_details:
+  site_web: https://www.casadevelazquez.org
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou dotation.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention d'hébergement fourni.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de travail ou équipements.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge de frais (voyage, production, etc.).
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

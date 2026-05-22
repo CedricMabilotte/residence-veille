@@ -37,10 +37,25 @@ opportunites_liees:
 - uid: 56022bf8
   type: residence
   nom: Visarte Zentralschweiz x Cité internationale des arts
+- uid: d1830d66
+  type: residence
+  nom: CALQ x Cité internationale des arts
+- uid: c37ec105
+  type: residence
+  nom: Resonance – Cité Internationale des Arts
+- uid: d700f12b
+  type: residence
+  nom: AFAD x Cité internationale des arts
+- uid: 5bc54b72
+  type: residence
+  nom: Pavillon Bosio x Cité internationale des arts
+- uid: 332456f4
+  type: residence
+  nom: ADAGP x Cité internationale des arts – Prisme
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: cite-internationale-des-arts
-  occurrences: 3
+  occurrences: 5
   nom_brut: Cité internationale des arts
 - organisme_uid: ministere-des-cultures-des-arts-et-des-savoirs-de-colombie
   occurrences: 1
@@ -55,14 +70,38 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Visarte Zürich
 - organisme_uid: commission-des-arts-visuels-du-ministere-de-la-culture-d-ara
-  occurrences: 1
+  occurrences: 2
   nom_brut: Commission des arts visuels du ministère de la Culture d'Arabie saoudite
 - organisme_uid: societe-des-artistes-slovaques
-  occurrences: 1
+  occurrences: 2
   nom_brut: Société des artistes slovaques
 - organisme_uid: visarte-zentralschweiz
   occurrences: 1
   nom_brut: Visarte Zentralschweiz
+- organisme_uid: calq-conseil-des-arts-et-des-lettres-du-quebec
+  occurrences: 1
+  nom_brut: CALQ - Conseil des arts et des lettres du Québec
+- organisme_uid: institut-francais-du-nigeria
+  occurrences: 1
+  nom_brut: Institut français du Nigeria
+- organisme_uid: art-x-lagos
+  occurrences: 1
+  nom_brut: Art X Lagos
+- organisme_uid: academie-des-beaux-arts-et-du-design-de-bratislava
+  occurrences: 1
+  nom_brut: Académie des beaux-arts et du design de Bratislava
+- organisme_uid: pavillon-bosio
+  occurrences: 1
+  nom_brut: Pavillon Bosio
+- organisme_uid: mairie-de-monaco
+  occurrences: 1
+  nom_brut: Mairie de Monaco
+- organisme_uid: sogeda-monaco
+  occurrences: 1
+  nom_brut: SOGEDA Monaco
+- organisme_uid: adagp
+  occurrences: 1
+  nom_brut: ADAGP
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
@@ -73,3 +112,8 @@ ville: Paris
 noms_alternatifs:
 - Cité Internationale des Arts, Visarte Zürich
 - Visarte Zentralschweiz, Cité internationale des arts
+- Cité internationale des arts en partenariat avec le Conseil des arts et des lettres du Québec (CALQ)
+- Institut français du Nigeria, Art X Lagos, Cité internationale des arts
+- Pavillon Bosio et Cité internationale des arts
+- Cité Internationale des Arts / ADAGP
+adresse: Wuse 2, Abuja

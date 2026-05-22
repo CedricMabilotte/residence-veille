@@ -1,0 +1,108 @@
+uid: ae1213ed
+type: prix
+source_url: https://www.adagp.fr/fr/actualites/jordan-roger-barre-revelation-arts-plastiques-2026
+fetched_at: '2026-05-22T13:02:48+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Révélation Arts plastiques 2026
+  organisme: ADAGP
+  lieu:
+    ville: Paris
+    pays: France
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques
+  - sculpture
+  - céramique
+  niveau_carriere: artiste émergent
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant:
+      montant: 5000
+      devise: EUR
+    exposition: true
+    achat_oeuvre: false
+    edition_catalogue: true
+  jury_public:
+  - Dorothée de Monfreid
+  - Gustave de Staël
+  - Dove Allouche
+  - Thomas Conchou
+  - Judicaël Lavrador
+  - Rafael Moreno
+  - Nafiseh Moshashaeh
+  nb_laureats: 1
+  editions_precedentes:
+  - '2025 : Nafiseh Moshashaeh'
+  - '2023 : Rafael Moreno'
+  - '2022 : Roy Köhnke'
+  - '2021 : Yue Yuan'
+  - '2019 : Arthur Hoffner'
+  - '2018 : Odonchimeg Davaadorj'
+  - '2017 : Kokou Ferdinand Makouvia'
+  - '2016 : Clarissa Baumann'
+  - '2015 : Kenny Dunkan'
+partenaires:
+- 100 % L'EXPO
+- La Villette
+analyse:
+  synthese: Prix annuel récompensant un artiste émergent en arts plastiques, décerné
+    par l'ADAGP en partenariat avec 100 % L'EXPO à La Villette. Le lauréat reçoit
+    une dotation de 5 000 € et bénéficie d'une présentation dédiée sur les cimaises
+    de l'ADAGP accompagnée d'un texte critique et de prises de vue de son travail.
+    L'ADAGP verse également une aide financière à tous les artistes participants comme
+    complément de rémunération. La sélection est effectuée par un jury composé de
+    professionnels des arts visuels et de lauréats précédents.
+  pour_qui: Artistes émergents en arts plastiques et sculpture, particulièrement ceux
+    de la jeune création contemporaine française.
+a_savoir:
+- Il s'agit d'une annonce du prix décerné, non d'un appel ouvert aux candidatures
+- 'L''édition 2026 est déjà clôturée (lauréat désigné : Jordan Roger)'
+- Aucun calendrier de candidature n'est spécifié dans la page
+- Le programme couvre l'exposition mais pas l'hébergement ou l'atelier
+organisme_details:
+  site_web: https://www.adagp.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Jordan Roger reçoit 5 000 € et l'ADAGP verse une aide financière
+    à tous les artistes participants
+- id: hebergement
+  rempli: non
+  justification: Aucun logement n'est mentionné comme fourni
+- id: atelier
+  rempli: non
+  justification: Aucun espace de travail ou équipement n'est mentionné comme fourni
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Aide financière versée aux artistes participants, mais la couverture
+    précise des frais de voyage ou de production n'est pas détaillée
+_meta:
+  extracted_confidence: 0.4
+  extracted_notes: Page d'annonce du prix décerné, non pas un appel à candidature
+    actif. Informations limitées sur les conditions et processus de candidature. Édition
+    2026 déjà clôturée.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T13:02:48+00:00'
+  source_lang: fr
+  detection_confidence: 0.88
+  detection_method: claude
+  source_label: ADAGP — actualités (appels, bourses, prix)
+  last_status_check: '2026-05-22'
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

@@ -1,0 +1,106 @@
+uid: 5bc54b72
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/pavillon-bosio-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T12:04:29+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Pavillon Bosio x Cité internationale des arts
+  organisme: Pavillon Bosio et Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Architecture et design
+  - Arts visuels
+  - Cinéma
+  - Danse
+  - Littératures
+  - Musiques
+  - Théâtre
+  niveau_carriere: émergent·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 mois
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Pavillon Bosio
+- Mairie de Monaco
+- SOGEDA Monaco
+_meta:
+  extracted_confidence: 0.45
+  extracted_notes: Texte descriptif du programme avec critères généraux. Informations
+    manquantes sur date limite, rémunération, hébergement, frais, et modalités de
+    candidature.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:04:29+00:00'
+  source_lang: fr
+  detection_confidence: 0.8
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Résidence artistique de 3 mois, 2 places par an, destinée aux diplômés
+    du DNSEP du Pavillon Bosio depuis moins de 2 ans, en partenariat avec la Cité
+    internationale des arts. Le programme vise à soutenir l'insertion professionnelle
+    des jeunes créateurs en leur permettant de se consacrer à leur pratique artistique
+    et de constituer leur réseau professionnel. Aucune information fournie sur la
+    rémunération, l'hébergement, les frais ou la date limite de candidature.
+  pour_qui: Artistes diplômés du DNSEP du Pavillon Bosio (école d'art de Monaco spécialisée
+    en art et scénographie) depuis moins de 2 ans.
+a_savoir:
+- Aucune date limite de candidature mentionnée
+- Aucune information sur la rémunération ou l'aide financière
+- Aucune confirmation sur l'hébergement ou la mise à disposition d'atelier
+- Programme créé en 2025 (première édition)
+- 'Critères d''éligibilité très restrictifs : diplômés du Pavillon Bosio uniquement'
+- Aucun lien de candidature fourni dans l'annonce
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Monaco
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune information sur rémunération, bourse, per diem ou dotation
+    monétaire
+- id: hebergement
+  rempli: inconnu
+  justification: Non explicitement mentionné, bien que la Cité internationale des
+    arts soit traditionnellement un lieu de résidence
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de production ou d'équipements fournis
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune information sur prise en charge du voyage, production ou transport
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

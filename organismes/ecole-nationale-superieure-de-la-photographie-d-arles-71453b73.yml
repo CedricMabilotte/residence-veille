@@ -1,0 +1,31 @@
+uid: ecole-nationale-superieure-de-la-photographie-d-arles-71453b73
+nom_canonique: École nationale supérieure de la photographie d'Arles
+acronymes: []
+pays: null
+type_organisme: ecole
+url_canonique: null
+urls_secondaires: []
+description_courte: École publique française d'enseignement supérieur spécialisée en photographie.
+disciplines_proposees:
+- photographie
+types_opportunites_habituels:
+- bourse
+opportunites_liees:
+- uid: 07e1d362
+  type: bourse
+  nom: Bourse Post-Master Intelligence Artificielle 2025-2026
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: adagp
+  occurrences: 1
+  nom_brut: ADAGP
+- organisme_uid: ministere-de-la-culture-programme-culture-pro
+  occurrences: 1
+  nom_brut: Ministère de la Culture (programme Culture Pro)
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Arles

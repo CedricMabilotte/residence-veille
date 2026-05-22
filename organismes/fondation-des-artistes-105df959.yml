@@ -11,6 +11,7 @@ types_opportunites_habituels:
 - prix
 - residence
 - exposition
+- bourse
 opportunites_liees:
 - uid: 13cffca0
   type: prix
@@ -30,19 +31,25 @@ opportunites_liees:
 - uid: 250c2109
   type: residence
   nom: Visarte Suisse x Cité internationale des arts
+- uid: 86e99f36
+  type: bourse
+  nom: Soutenir les écoles d'art - Programme d'accompagnement professionnel Quilt (ESBAN Nîmes)
+- uid: 0c311ef8
+  type: bourse
+  nom: Résidence annuelle Fondation des Artistes à l'étranger
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: ministere-de-la-culture
-  occurrences: 2
+  occurrences: 3
   nom_brut: Ministère de la Culture
 - organisme_uid: ville-de-paris
-  occurrences: 1
+  occurrences: 2
   nom_brut: Ville de Paris
 - organisme_uid: etat-francais
-  occurrences: 1
+  occurrences: 2
   nom_brut: État français
 - organisme_uid: organismes-de-logements-sociaux
-  occurrences: 1
+  occurrences: 2
   nom_brut: Organismes de logements sociaux
 - organisme_uid: esadhar-campus-du-havre
   occurrences: 1
@@ -77,6 +84,33 @@ partenaires_mentionnes:
 - organisme_uid: visarte-suisse
   occurrences: 1
   nom_brut: Visarte Suisse
+- organisme_uid: ghost-house-association-porteuse
+  occurrences: 1
+  nom_brut: Ghost House (association porteuse)
+- organisme_uid: esban-ecole-superieure-d-art-et-de-design-de-nimes
+  occurrences: 1
+  nom_brut: ESBAN (École Supérieure d'art et de design de Nîmes)
+- organisme_uid: institut-sacatar
+  occurrences: 1
+  nom_brut: Institut Sacatar
+- organisme_uid: fonderie-darling
+  occurrences: 1
+  nom_brut: Fonderie Darling
+- organisme_uid: moco-montpellier
+  occurrences: 1
+  nom_brut: MOCO Montpellier
+- organisme_uid: prix-du-frac-bretagne
+  occurrences: 1
+  nom_brut: Prix du Frac Bretagne
+- organisme_uid: adagp
+  occurrences: 1
+  nom_brut: ADAGP
+- organisme_uid: trampoline
+  occurrences: 1
+  nom_brut: Trampoline
+- organisme_uid: ministere-des-affaires-etrangeres
+  occurrences: 1
+  nom_brut: Ministère des Affaires étrangères
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'

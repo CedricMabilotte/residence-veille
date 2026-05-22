@@ -1,0 +1,28 @@
+uid: the-horton-92e33604
+nom_canonique: The Horton
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 25cb07d2
+  type: exposition
+  nom: The Horton Places and Spaces Art Exhibition 2026
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: epsom-civic-society
+  occurrences: 1
+  nom_brut: Epsom Civic Society
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+adresse: Haven Way, Epsom KT19 8NP
+ville: Epsom

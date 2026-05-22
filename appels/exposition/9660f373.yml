@@ -1,0 +1,132 @@
+uid: 9660f373
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/childhood-special-edition/10648
+fetched_at: '2026-05-22T12:41:04+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Childhood/ Special Edition
+  organisme: null
+  lieu:
+    ville: Tbilisi
+    pays: Georgia
+  nom_fr: Enfance / Édition Spéciale
+  affichage_titre: Childhood/ Special Edition [Enfance / Édition Spéciale]
+candidature:
+  date_limite: '2026-05-27'
+  langue_dossier: null
+  frais_inscription:
+    montant: 0
+    devise: null
+  pieces_demandees:
+  - Up to 12 photos
+  - Details of the work (title, medium, size, year, description)
+  - Brief biography
+  - Artist statement (min 100 words)
+  - Website
+  - Social media links
+  url_candidature: https://www.curatorspace.com/opportunities/detail/childhood-special-edition/10648
+eligibilite:
+  disciplines:
+  - painting
+  - drawing
+  - collage
+  - installation
+  - illustration
+  - photography
+  - sculpture
+  - ceramics
+  - textiles
+  - assemblage
+  - fiber art
+  - paper art
+  - printmaking
+  - 3D digital art
+  - glass art
+  - metalwork
+  niveau_carriere: null
+  age_max: null
+  nationalite: Worldwide
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Magazine (print and digital)
+  - Art Gallery in Tbilisi, Georgia (for selected artists)
+  dates_exposition: null
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Organization name not explicitly mentioned; referenced only as
+    'our magazine' and 'our gallery'. No specific exhibition dates provided. No explicit
+    language requirement stated for submission materials.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:41:04+00:00'
+  source_lang: en
+  resume_fr: Appel à candidatures ouvert aux artistes du monde entier (18 ans et plus)
+    sur le thème de l'enfance, avec une date limite au 27/05/2026, basé à Tbilissi,
+    Géorgie. Les artistes sélectionnés seront publiés dans un magazine avec une couverture
+    de 2-6 pages présentant 2-10 œuvres, une biographie, un statement et des liens
+    vers site web et réseaux sociaux. La participation coûte 25 EUR en cas d'acceptation
+    (pas de frais de candidature). Les candidatures peuvent inclure jusqu'à 12 photos
+    et un artist statement d'au minimum 100 mots. Certains artistes seront sélectionnés
+    pour inclusion dans le livre à venir « 101 Contemporary Artists and More... »
+    et pour des expositions à la galerie de 170 sq. m à Tbilissi.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-05-22'
+analyse:
+  synthese: Appel à candidatures pour une publication magazine spécialisée sur le
+    thème de l'enfance, ouvert aux artistes du monde entier âgés de 18 ans minimum.
+    Les artistes sélectionnés verront leurs créations publiées dans le magazine (formats
+    imprimé et numérique, 2-6 pages) avec biographie et déclaration. L'application
+    est gratuite ; des frais de participation de 25 EUR s'appliquent en cas d'acceptation.
+    Les artistes publiés reçoivent un exemplaire numérique du magazine et bénéficient
+    d'une visibilité promotionnelle. Des artistes exceptionnels seront potentiellement
+    inclus dans le livre « 101 Contemporary Artists and More » et exposés à la galerie
+    de Tbilissi (170 m²).
+  pour_qui: Artistes du monde entier, tous niveaux de carrière et disciplines (peinture,
+    photographie, sculpture, etc.), explorant le thème de l'enfance et souhaitant
+    publier et obtenir une visibilité dans une revue d'art.
+a_savoir:
+- Frais de participation de 25 EUR requis uniquement en cas d'acceptation (application
+  gratuite).
+- 'Aucune rémunération monétaire : visibilité reposant sur publication et promotion.'
+- Exposition physique à la galerie de Tbilissi non garantie ; sélection selon critères
+  curatoriales.
+- Nom officiel de l'organisme non mentionné explicitement.
+- Langue du dossier non spécifiée (probablement l'anglais).
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Tbilisi
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou per diem mentionnés. Les artistes
+    reçoivent une publication magazine gratuite et une visibilité promotionnelle uniquement.
+- id: hebergement
+  rempli: non
+  justification: Aucun logement fourni.
+- id: atelier
+  rempli: non
+  justification: Aucun espace de production ou équipement fourni.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucun frais de voyage, production ou transport n'est pris en charge.
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

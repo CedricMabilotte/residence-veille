@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T10:46:01.698625+00:00",
-  "n_ouvertes": 39,
+  "generated_at": "2026-05-22T13:16:46.304588+00:00",
+  "n_ouvertes": 65,
   "n_archive": 0,
   "opportunites": [
     {
@@ -593,6 +593,104 @@
       ]
     },
     {
+      "uid": "332456f4",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/adagp-x-cite-internationale-des-arts",
+      "fetched_at": "2026-05-22T12:06:33+00:00",
+      "score": 8,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "ADAGP x Cité internationale des arts – Prisme",
+        "organisme": "Cité Internationale des Arts / ADAGP",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": [],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "Résider en France et en dehors d'Île-de-France depuis au moins cinq ans. Ne pas être représenté par une galerie en Île-de-France."
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": null
+        },
+        "hebergement": null,
+        "atelier": "Résidence de recherche avec accompagnement professionnel fourni par les équipes",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "ADAGP"
+      ],
+      "analyse": {
+        "synthese": "Le programme ADAGP x Cité internationale des arts - Prisme offre à 3 artistes visuels par an une résidence de recherche de 3 mois accompagnée d'un suivi professionnel. Il s'adresse aux artistes visuels résidant en France depuis au moins cinq ans en dehors d'Île-de-France et non représentés par une galerie parisienne. Créé en 2021, il favorise la mobilité artistique et l'accès au réseau parisien.",
+        "pour_qui": "Artistes visuels basés en France hors Île-de-France depuis au moins cinq ans, non représentés par une galerie en Île-de-France."
+      },
+      "a_savoir": [
+        "Appel à candidature fermé (passé)",
+        "Critères d'éligibilité très spécifiques : résidence obligatoire de 5 ans en France, exclusion des artistes représentés par galerie parisienne",
+        "Détails matériels non documentés : aucune mention d'hébergement, rémunération, frais de voyage ou équipements"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.citeinternationaledesarts.fr",
+        "adresse": null,
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune mention de rémunération, bourse, per diem ou dotation monétaire"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "L'hébergement n'est pas mentionné dans le texte"
+        },
+        {
+          "id": "atelier",
+          "rempli": "partiel",
+          "justification": "Une résidence de recherche avec accompagnement professionnel est fournie, sans mention d'atelier ou d'espace de travail équipé"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucune mention de prise en charge des frais de voyage, production ou transport"
+        }
+      ]
+    },
+    {
       "uid": "37ce57ed",
       "type": "residence",
       "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/ministere-des-cultures-des-arts-et-des-savoirs-de-colombie-x-cite-internationale-des-arts",
@@ -704,15 +802,15 @@
       "uid": "3d215270",
       "type": "residence",
       "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/residence-intermix-ministere-de-la-culture-darabie-saoudite-x-cite-internationale-des-arts",
-      "fetched_at": "2026-05-22T10:22:39+00:00",
-      "score": 9,
+      "fetched_at": "2026-05-22T12:00:43+00:00",
+      "score": 8,
       "status": "indetermine",
       "opportunite": {
-        "nom": "Résidence Intermix",
+        "nom": "Intermix",
         "organisme": "Cité Internationale des Arts",
         "lieu": {
-          "ville": "Paris",
-          "pays": "France",
+          "ville": null,
+          "pays": null,
           "territoire": null
         }
       },
@@ -720,79 +818,82 @@
         "date_limite": null,
         "date_limite_precision": null,
         "langue_dossier": null,
-        "frais_inscription": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
         "pieces_demandees": null,
-        "url_candidature": "https://www.citeinternationaledesarts.fr/programme-de-residence/residence-intermix-ministere-de-la-culture-darabie-saoudite-x-cite-internationale-des-arts"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
-          "arts visuels"
+          "arts visuels",
+          "commissariat"
         ],
         "niveau_carriere": "confirmé·e",
         "age_max": null,
-        "nationalite": "Arabie saoudite",
-        "residence_administrative": "Arabie saoudite"
+        "nationalite": "ressortissant de l'Arabie Saoudite",
+        "residence_administrative": "Arabie Saoudite"
       },
       "conditions_residence": {
         "duree": {
           "semaines": 12,
-          "dates": "3 décembre 2025 au 26 février 2026"
+          "dates": "3 décembre 2025 - 26 février 2026"
         },
         "hebergement": null,
-        "atelier": null,
+        "atelier": "Espace de résidence au sein de la Cité Internationale des Arts",
         "remuneration": {
           "montant": null,
-          "devise": "EUR",
+          "devise": null,
           "periodicite": null
         },
         "voyage": {
           "pris_en_charge": null,
           "plafond": null,
-          "devise": "EUR"
+          "devise": null
         },
         "restitution": null
       },
       "partenaires": [
-        "Commission des arts visuels du ministère de la Culture d'Arabie saoudite",
+        "Commission des arts visuels du ministère de la Culture d'Arabie Saoudite",
         "Cité Internationale des Arts"
       ],
       "analyse": {
-        "synthese": "Intermix est un programme de résidence de trois mois à la Cité Internationale des Arts à Paris, destiné aux artistes visuels et commissaires saoudiens. Cinq résidences sont proposées chaque année. Les candidats doivent être ressortissants de l'Arabie saoudite, résider et travailler dans le pays, et justifier d'une pratique artistique professionnelle d'au moins cinq ans. La résidence est financée et propose un accompagnement dédié avec opportunités de mise en réseau.",
-        "pour_qui": "Artistes visuels et commissaires saoudiens ayant une pratique professionnelle confirmée depuis au moins cinq ans."
+        "synthese": "Ce programme de résidence de trois mois, co-construit par la Commission des arts visuels du ministère de la Culture d'Arabie Saoudite et la Cité Internationale des Arts, propose une résidence financée au sein de la Cité avec accompagnement dédié et opportunités de mise en réseau. Il s'adresse spécifiquement aux artistes visuels et commissaires saoudiens résidant en Arabie Saoudite justifiant d'au moins cinq ans de pratique professionnelle. Cinq résidences sont proposées chaque année.",
+        "pour_qui": "Artistes visuels et commissaires ressortissants de l'Arabie Saoudite, résidant en Arabie Saoudite, ayant développé une pratique artistique professionnelle depuis au moins cinq ans."
       },
       "a_savoir": [
-        "Programme créé en 2025 (première édition)",
-        "Restriction stricte de nationalité : ressortissants saoudiens uniquement",
-        "Restriction de résidence administrative : doit vivre et travailler en Arabie saoudite",
-        "Aucune date limite de candidature visible sur la page",
-        "Détails limités sur les conditions précises (hébergement, atelier, montant exact de la rémunération non spécifiés)"
+        "Programme créé en 2025 - première édition, sans antécédent établi",
+        "Restriction stricte de nationalité : réservé exclusivement aux ressortissants saoudiens résidant en Arabie Saoudite",
+        "Critères professionnels élevés : minimum cinq ans de pratique artistique professionnelle requis",
+        "Informations manquantes : date limite de candidature, montant exact de la rémunération, conditions explicites de prise en charge des frais de voyage"
       ],
       "organisme_details": {
-        "site_web": "https://www.citeinternationaledesarts.fr",
+        "site_web": null,
         "adresse": null,
-        "ville": "Paris",
+        "ville": null,
         "contact_email": null
       },
       "criteres_programme": [
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "Résidence financée de trois mois"
+          "justification": "Une résidence financée de trois mois est proposée aux lauréats."
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "Non explicitement mentionné dans le texte"
+          "justification": "Aucune mention explicite du logement fourni dans le texte source."
         },
         {
           "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "Non explicitement mentionné dans le texte"
+          "rempli": "oui",
+          "justification": "Résidence au sein de la Cité Internationale des Arts, impliquant l'accès à des espaces de travail et production."
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "Non mentionné"
+          "rempli": "partiel",
+          "justification": "Le programme couvre la résidence, mais la prise en charge explicite des frais de voyage ou transport n'est pas mentionnée."
         }
       ]
     },
@@ -1188,18 +1289,18 @@
       ]
     },
     {
-      "uid": "660d0fed",
+      "uid": "5bc54b72",
       "type": "residence",
-      "source_url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama",
-      "fetched_at": "2026-05-22T10:08:55+00:00",
+      "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/pavillon-bosio-x-cite-internationale-des-arts",
+      "fetched_at": "2026-05-22T12:04:29+00:00",
       "score": 8,
       "status": "indetermine",
       "opportunite": {
-        "nom": "Résidences à la Villa Kujoyama",
-        "organisme": "Institut français, Villa Kujoyama",
+        "nom": "Pavillon Bosio x Cité internationale des arts",
+        "organisme": "Pavillon Bosio et Cité internationale des arts",
         "lieu": {
-          "ville": "Kyoto",
-          "pays": "Japon",
+          "ville": "Paris",
+          "pays": "France",
           "territoire": null
         }
       },
@@ -1216,41 +1317,23 @@
       },
       "eligibilite": {
         "disciplines": [
-          "Architecture",
-          "Arts de la rue",
-          "Arts plastiques",
-          "Arts Visuels",
-          "Bande dessinée",
+          "Architecture et design",
+          "Arts visuels",
           "Cinéma",
-          "Cirque",
-          "Commissariat d'exposition",
-          "Création numérique",
           "Danse",
-          "Débat d'idées",
-          "Design",
-          "Gastronomie",
-          "Graphisme",
-          "Littérature",
-          "Marionnette",
-          "Métiers d'art",
-          "Mode",
-          "Musique",
-          "Paysage",
-          "Photographie",
-          "Sciences",
-          "Spectacle vivant",
-          "Théâtre",
-          "Urbanisme"
+          "Littératures",
+          "Musiques",
+          "Théâtre"
         ],
-        "niveau_carriere": "confirmé·e",
+        "niveau_carriere": "émergent·e",
         "age_max": null,
         "nationalite": "sans restriction",
-        "residence_administrative": null
+        "residence_administrative": "sans restriction"
       },
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "4 à 6 mois"
+          "dates": "3 mois"
         },
         "hebergement": null,
         "atelier": null,
@@ -1267,23 +1350,124 @@
         "restitution": null
       },
       "partenaires": [
-        "Institut français",
-        "Institut français du Japon",
-        "Fondation Bettencourt Schueller",
-        "Ministère de l'Europe et des Affaires étrangères"
+        "Pavillon Bosio",
+        "Mairie de Monaco",
+        "SOGEDA Monaco"
       ],
       "analyse": {
-        "synthese": "La Villa Kujoyama propose des résidences artistiques à Kyoto, Japon, d'une durée de 4 à 6 mois pour environ 15 lauréats en 2027. Le programme s'adresse aux artistes et créateurs confirmés, en solo, binôme ou duo franco-japonais, dans une vaste gamme de disciplines. Les résidents doivent porter un projet de recherche original présentant un lien avec les enjeux du territoire et dialoguant avec les acteurs locaux.",
-        "pour_qui": "Artistes, créateurs et créatrices confirmés, ainsi que scientifiques porteurs de projets de recherche originaux et singuliers nécessitant une immersion au Japon."
+        "synthese": "Résidence artistique de 3 mois, 2 places par an, destinée aux diplômés du DNSEP du Pavillon Bosio depuis moins de 2 ans, en partenariat avec la Cité internationale des arts. Le programme vise à soutenir l'insertion professionnelle des jeunes créateurs en leur permettant de se consacrer à leur pratique artistique et de constituer leur réseau professionnel. Aucune information fournie sur la rémunération, l'hébergement, les frais ou la date limite de candidature.",
+        "pour_qui": "Artistes diplômés du DNSEP du Pavillon Bosio (école d'art de Monaco spécialisée en art et scénographie) depuis moins de 2 ans."
       },
       "a_savoir": [
-        "Résidence basée au Japon nécessitant une immersion de 4 à 6 mois",
-        "Sélection très compétitive : jury d'experts spécialisés dans chaque discipline",
-        "Candidatures possibles en solo, binôme ou duo franco-japonais",
-        "Date limite de candidature pour 2027 non mentionnée"
+        "Aucune date limite de candidature mentionnée",
+        "Aucune information sur la rémunération ou l'aide financière",
+        "Aucune confirmation sur l'hébergement ou la mise à disposition d'atelier",
+        "Programme créé en 2025 (première édition)",
+        "Critères d'éligibilité très restrictifs : diplômés du Pavillon Bosio uniquement",
+        "Aucun lien de candidature fourni dans l'annonce"
       ],
       "organisme_details": {
-        "site_web": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama",
+        "site_web": null,
+        "adresse": null,
+        "ville": "Monaco",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Aucune information sur rémunération, bourse, per diem ou dotation monétaire"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Non explicitement mentionné, bien que la Cité internationale des arts soit traditionnellement un lieu de résidence"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'espace de production ou d'équipements fournis"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Aucune information sur prise en charge du voyage, production ou transport"
+        }
+      ]
+    },
+    {
+      "uid": "660d0fed",
+      "type": "residence",
+      "source_url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama",
+      "fetched_at": "2026-05-22T11:46:43+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Résidences à la Villa Kujoyama",
+        "organisme": "Institut français",
+        "lieu": {
+          "ville": "Kyoto",
+          "pays": "Japon",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Architecture",
+          "Arts Visuels",
+          "Photographie",
+          "Cinéma",
+          "Création numérique",
+          "Débat d'idées",
+          "Livre",
+          "Métiers d'art",
+          "Design",
+          "Spectacle vivant",
+          "Musique"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "4 à 6 mois"
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": null,
+        "voyage": null,
+        "restitution": null
+      },
+      "partenaires": [
+        "Institut français du Japon",
+        "Institut français",
+        "Fondation Bettencourt Schueller",
+        "Ministère de l'Europe et des Affaires étrangères",
+        "Ministère de la Culture"
+      ],
+      "analyse": {
+        "synthese": "Programme de résidences de recherche de 4 à 6 mois à Kyoto pour des artistes confirmés français et internationaux. La Villa Kujoyama, établissement du réseau de coopération culturelle du ministère, vise à renforcer le dialogue interculturel entre la France et le Japon. Les lauréats travaillent avec les milieux professionnels, universitaires et culturels de la région du Kansai et du Japon, appuyés par l'équipe de la Villa et le réseau français au Japon. Les candidatures sont acceptées en solo, binôme ou duo franco-japonais.",
+        "pour_qui": "Artistes et créateurs confirmés portant un projet de recherche original et singulier, seuls ou en collectif (binôme, duo franco-japonais), pouvant inclure des scientifiques."
+      },
+      "a_savoir": [
+        "Niveau de carrière limité aux artistes confirmés (pas d'émergents)",
+        "Durée longue d'immersion (4 à 6 mois)",
+        "Absence de précision sur la rémunération, les frais ou les conditions concrètes de logement",
+        "Aucune date limite de candidature mentionnée sur la page"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.institutfrancais.com",
         "adresse": null,
         "ville": "Kyoto",
         "contact_email": null
@@ -1292,22 +1476,22 @@
         {
           "id": "retribution",
           "rempli": "inconnu",
-          "justification": "Aucune mention de rémunération, bourse ou dotation monétaire"
+          "justification": "Aucune mention de rémunération, bourse ou dotation monétaire versée aux résidants."
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "Pas de mention explicite du logement fourni, bien que la Villa soit qualifiée de résidence avec résidents accueillis"
+          "justification": "Bien que la Villa soit une résidence impliquant un séjour de plusieurs mois, aucune mention explicite que le logement est fourni."
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "Pas de mention d'atelier ou espace de travail fourni"
+          "justification": "Aucune mention d'un atelier, studio ou espace de travail fourni."
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
-          "justification": "Aucune mention de prise en charge des frais de voyage, production ou transport"
+          "justification": "Aucune mention de prise en charge des frais de voyage, production ou transport."
         }
       ]
     },
@@ -1408,11 +1592,104 @@
       ]
     },
     {
+      "uid": "6e7966fe",
+      "type": "residence",
+      "source_url": "https://www.casadevelazquez.org/residents-et-alumni/2025-2026/carlos-correcher",
+      "fetched_at": "2026-05-22T12:50:38+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": null,
+        "organisme": "Casa de Velázquez",
+        "lieu": {
+          "ville": null,
+          "pays": "Espagne",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Peinture",
+          "3D"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "septembre 2025 à juillet 2026"
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Ville de Valence"
+      ],
+      "analyse": {
+        "synthese": "Page présentant la résidence de Carlos Correcher à la Casa de Velázquez de septembre 2025 à juillet 2026, en tant qu'artiste boursier de la Ville de Valence. Son projet explore la représentation de l'épuisement et de la lenteur en opposition à l'esthétique du sport automobile, combinant peinture, 3D et vidéo.",
+        "pour_qui": "Artiste visuel travaillant sur la peinture, l'image numérique et les médiums sculpturaux."
+      },
+      "a_savoir": [
+        "Cette page n'est pas un appel à candidature mais un portfolio d'un artiste en résidence.",
+        "Aucune information sur les modalités de candidature, les critères d'éligibilité, les frais ou les conditions précises du programme n'est disponible."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.casadevelazquez.org",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "partiel",
+          "justification": "L'artiste est qualifié d'« artiste boursier de la Ville de Valence », indiquant une forme de rémunération, sans détail du montant."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune mention explicite."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Aucune mention explicite."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Aucune information fournie."
+        }
+      ]
+    },
+    {
       "uid": "762972f7",
       "type": "residence",
       "source_url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale",
-      "fetched_at": "2026-05-22T10:06:09+00:00",
-      "score": 8,
+      "fetched_at": "2026-05-22T11:43:32+00:00",
+      "score": 7,
       "status": "indetermine",
       "opportunite": {
         "nom": "Résidences Institut français x Cité internationale des arts",
@@ -1427,44 +1704,61 @@
         "date_limite": null,
         "date_limite_precision": null,
         "langue_dossier": null,
-        "frais_inscription": {
-          "montant": null,
-          "devise": "EUR"
-        },
+        "frais_inscription": null,
         "pieces_demandees": null,
-        "url_candidature": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
-          "Architecture, paysage, urbanisme",
-          "Arts de la rue, cirque, marionnette",
+          "Architecture",
+          "Paysage",
+          "Urbanisme",
+          "Arts de la rue",
+          "Cirque",
+          "Marionnette",
           "Arts plastiques",
           "Bande dessinée",
-          "Cinéma (cinéma d'animation, fiction, documentaire de création, art vidéo)",
-          "Création numérique (arts numériques, jeu vidéo, VR)",
-          "Critique d'art et commissariat d'exposition",
-          "Danse, performance",
-          "Design, graphisme",
+          "Cinéma",
+          "Cinéma d'animation",
+          "Fiction",
+          "Documentaire de création",
+          "Art vidéo",
+          "Création numérique",
+          "Arts numériques",
+          "Jeu vidéo",
+          "VR",
+          "Critique d'art",
+          "Commissariat d'exposition",
+          "Danse",
+          "Performance",
+          "Design",
+          "Graphisme",
           "Gastronomie",
-          "Littérature (fiction, essai, littérature jeunesse, bande-dessinée)",
+          "Littérature",
+          "Essai",
+          "Littérature jeunesse",
           "Métiers d'art",
           "Mode",
-          "Musique (musique classique et musique contemporaine, musiques actuelles et jazz)",
+          "Musique",
+          "Musique classique",
+          "Musique contemporaine",
+          "Musiques actuelles",
+          "Jazz",
           "Photographie",
           "Théâtre"
         ],
         "niveau_carriere": "tous",
         "age_max": null,
         "nationalite": "sans restriction",
-        "residence_administrative": "Résidence à l'étranger requise depuis au moins 5 ans"
+        "residence_administrative": "résider à l'étranger depuis au moins 5 ans"
       },
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "3, 6 ou 9 mois (durée au choix de l'artiste)"
+          "dates": "3, 6 ou 9 mois"
         },
         "hebergement": true,
-        "atelier": "Ateliers-logements individuels meublés équipés d'une connexion Wifi, comportant une pièce de travail, espace chambre, salle de bain et kitchenette, situés 18 rue de l'Hôtel de Ville, 75004",
+        "atelier": "Ateliers-logements individuels meublés à la Cité internationale des arts (18 rue de l'Hôtel de Ville, 75004), équipés d'une connexion Wifi, comportant une pièce de travail, espace chambre, salle de bain et kitchenette",
         "remuneration": {
           "montant": 1000,
           "devise": "EUR",
@@ -1477,17 +1771,19 @@
         },
         "restitution": null
       },
-      "partenaires": [
-        "Cité internationale des arts"
-      ],
+      "partenaires": null,
       "analyse": {
-        "synthese": "Ce programme offre des résidences de 3, 6 ou 9 mois à Paris aux artistes et professionnels de la culture résidant à l'étranger depuis au moins 5 ans. L'Institut français prend en charge les ateliers-logements à la Cité internationale des arts, équipés d'une connexion Wifi et d'un espace de travail. Les partenaires couvrent les frais de voyage aller-retour et versent une allocation de séjour minimale de 1000€ par mois. Le programme concerne 16 disciplines sans limite d'âge ni restriction de nationalité. Le prochain appel ouvrira en juillet 2026 pour des résidences entre avril 2027 et avril 2028.",
-        "pour_qui": "Artistes et professionnels de la culture de tous pays résidant à l'étranger depuis minimum 5 ans, toutes disciplines."
+        "synthese": "Ce programme offre des résidences de 3, 6 ou 9 mois à Paris à des artistes et professionnels de la culture résidant à l'étranger depuis au moins 5 ans. Il fournit un ateliers-logement meublé à la Cité internationale des arts, une allocation mensuelle de 1000€ minimum et couvre les frais de voyage aller-retour. Il couvre 34 disciplines dont architecture, arts plastiques, cinéma, création numérique, danse, design, littérature, musique, théâtre. Le prochain appel ouvrira en juillet 2026 pour des résidences entre avril 2027 et avril 2028.",
+        "pour_qui": "Artistes et professionnels de la culture de tout pays, sans limite d'âge, résidant à l'étranger depuis au moins 5 ans et souhaitant développer un projet de recherche et création à Paris dans l'une des 34 disciplines listées."
       },
-      "a_savoir": [],
+      "a_savoir": [
+        "Le prochain appel n'ouvrira qu'en juillet 2026",
+        "Condition de résidence à l'étranger requise depuis 5 ans minimum",
+        "Allocation de 1000€/mois est un minimum (peut être supérieure selon les partenaires)"
+      ],
       "organisme_details": {
-        "site_web": "https://www.institutfrancais.com",
-        "adresse": "18 rue de l'Hôtel de Ville, 75004 (Cité internationale des arts)",
+        "site_web": "https://www.institutfrancais.com/",
+        "adresse": "Cité internationale des arts, 18 rue de l'Hôtel de Ville, 75004 Paris",
         "ville": "Paris",
         "contact_email": null
       },
@@ -1495,7 +1791,7 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "Allocation de séjour d'un montant de 1000€ minimum par mois fournie par les partenaires"
+          "justification": "Allocation de séjour d'un montant de 1000€ minimum par mois"
         },
         {
           "id": "hebergement",
@@ -1505,7 +1801,7 @@
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "Ateliers-logements meublés et équipés comprenant une pièce de travail avec connexion Wifi"
+          "justification": "Ateliers-logements comportent une pièce de travail avec espace chambre"
         },
         {
           "id": "frais_pris_en_charge",
@@ -1518,14 +1814,14 @@
       "uid": "8c656564",
       "type": "residence",
       "source_url": "https://www.fondationdesartistes.fr/missions/produire-dans-la-residence-de-moly-sabata",
-      "fetched_at": "2026-05-22T09:56:32+00:00",
-      "score": 7,
+      "fetched_at": "2026-05-22T11:33:20+00:00",
+      "score": 8,
       "status": "indetermine",
       "opportunite": {
         "nom": "Produire, dans la résidence de Moly-Sabata",
         "organisme": "Fondation des Artistes",
         "lieu": {
-          "ville": "Moly-Sabata",
+          "ville": null,
           "pays": "France",
           "territoire": "Auvergne Rhône-Alpes"
         }
@@ -1533,24 +1829,22 @@
       "candidature": {
         "date_limite": null,
         "date_limite_precision": null,
-        "langue_dossier": [
-          "fr"
-        ],
+        "langue_dossier": null,
         "frais_inscription": {
           "montant": null,
-          "devise": "EUR"
+          "devise": null
         },
-        "pieces_demandees": [],
-        "url_candidature": "https://www.moly-sabata.com/"
+        "pieces_demandees": null,
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
           "arts plastiques"
         ],
-        "niveau_carriere": "tous",
+        "niveau_carriere": null,
         "age_max": null,
-        "nationalite": "sans restriction",
-        "residence_administrative": "sans restriction"
+        "nationalite": null,
+        "residence_administrative": null
       },
       "conditions_residence": {
         "duree": {
@@ -1561,31 +1855,28 @@
         "atelier": null,
         "remuneration": {
           "montant": null,
-          "devise": "EUR",
+          "devise": null,
           "periodicite": null
         },
         "voyage": {
           "pris_en_charge": null,
           "plafond": null,
-          "devise": "EUR"
+          "devise": null
         },
         "restitution": null
       },
-      "partenaires": [
-        "Fondation Albert Gleizes"
-      ],
+      "partenaires": [],
       "analyse": {
-        "synthese": "La résidence de Moly-Sabata, administrée par la Fondation des Artistes depuis le 10 juillet 2025, est l'une des plus anciennes résidences d'artistes de France. Elle fonctionne selon un programme d'invitations depuis sa création en 1927. Aucun détail sur les modalités de candidature ou les conditions de la résidence n'est fourni dans cette page de présentation.",
-        "pour_qui": "Artistes plasticiens sélectionnés par invitation dans le cadre du programme de la résidence."
+        "synthese": "La résidence de Moly-Sabata, administrée par la Fondation des Artistes depuis juillet 2025, s'adresse aux artistes plasticiens. Elle a été fondée en 1927 et repose depuis ses origines sur un système d'invitations. Cette page ne contient aucune information sur les modalités pratiques d'accès, les conditions de séjour, la rémunération, la durée ou les équipements fournis.",
+        "pour_qui": "Artistes plasticiens sélectionnés sur invitation par la Fondation des Artistes."
       },
       "a_savoir": [
-        "Résidence basée sur un système d'invitations (programme fermé), non appel public",
-        "Aucune date limite, modalités de candidature ou conditions détaillées mentionnées",
-        "Page consultée est une présentation générale sans informations sur hébergement, durée, rémunération ou éligibilité spécifique"
+        "Programme basé sur invitation uniquement, pas d'appel à candidature ouvert",
+        "Aucune information sur conditions pratiques (hébergement, durée, atelier, rémunération, frais) disponible sur cette page"
       ],
       "organisme_details": {
         "site_web": "https://www.moly-sabata.com/",
-        "adresse": "Fondation des Artistes, Hôtel Salomon de Rothschild, 9-11 rue Berryer, 75008 Paris",
+        "adresse": "Hôtel Salomon de Rothschild, 11 rue Berryer, 75008 Paris",
         "ville": "Paris",
         "contact_email": "visite@fondationdesartistes.fr"
       },
@@ -1593,22 +1884,22 @@
         {
           "id": "retribution",
           "rempli": "inconnu",
-          "justification": "Aucune mention de rémunération, bourse ou per diem"
+          "justification": "Aucune mention de rémunération, bourse ou dotation"
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "Pas d'information sur logement fourni"
+          "justification": "Aucune mention de logement fourni"
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "Aucune mention d'espace de travail ou studio"
+          "justification": "Aucune mention d'espace de travail ou équipements"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
-          "justification": "Pas d'information sur prise en charge voyage ou frais"
+          "justification": "Aucune mention de prise en charge voyage ou frais"
         }
       ]
     },
@@ -1817,14 +2108,14 @@
       "uid": "a2b6bce5",
       "type": "residence",
       "source_url": "https://www.fondationdesartistes.fr/missions/attribuer-un-atelier",
-      "fetched_at": "2026-05-22T09:55:00+00:00",
-      "score": 7,
+      "fetched_at": "2026-05-22T11:29:39+00:00",
+      "score": 8,
       "status": "indetermine",
       "opportunite": {
-        "nom": "Attribuer des ateliers",
+        "nom": "Attribution d'ateliers de la Fondation des Artistes",
         "organisme": "Fondation des Artistes",
         "lieu": {
-          "ville": "Nogent-sur-Marne, Paris",
+          "ville": "Paris et Nogent-sur-Marne",
           "pays": "France",
           "territoire": null
         }
@@ -1833,10 +2124,7 @@
         "date_limite": null,
         "date_limite_precision": null,
         "langue_dossier": null,
-        "frais_inscription": {
-          "montant": null,
-          "devise": null
-        },
+        "frais_inscription": null,
         "pieces_demandees": [
           "Formulaire de demande d'attribution d'un atelier d'artiste",
           "Dossier artistique",
@@ -1854,64 +2142,55 @@
         "residence_administrative": "sans restriction"
       },
       "conditions_residence": {
-        "duree": {
-          "semaines": null,
-          "dates": null
-        },
+        "duree": null,
         "hebergement": true,
-        "atelier": "Ateliers permanents, certains avec hébergement intégré",
-        "remuneration": {
-          "montant": null,
-          "devise": null,
-          "periodicite": null
-        },
-        "voyage": {
-          "pris_en_charge": false,
-          "plafond": null,
-          "devise": null
-        },
+        "atelier": "Espaces de travail et atelier-logements dans quatre ensembles : Hameau à Nogent-sur-Marne, Cité Guy-Loë, Faubourg Poissonnière à Paris, Impasse Savart à Paris",
+        "remuneration": null,
+        "voyage": null,
         "restitution": null
       },
       "partenaires": [
+        "Organismes de logements sociaux",
         "Ville de Paris",
-        "État français",
-        "Organismes de logements sociaux"
+        "État français"
       ],
       "analyse": {
-        "synthese": "La Fondation des Artistes gère un parc de 91 ateliers et ateliers-logements répartis entre Nogent-sur-Marne et Paris, en partenariat avec la Ville et l'État. Ces espaces permanents s'adressent à des artistes plasticiens en activité justifiant de leur affiliation au régime social des artistes, sans restriction d'âge ni de nationalité. L'attribution s'accompagne de la signature d'un bail fixant un loyer mensuel. Les demandes se font via un formulaire accompagné d'un dossier artistique et administratif.",
-        "pour_qui": "Artistes plasticiens en activité justifiant de l'affiliation au régime social des artistes, sans limite d'âge ni de nationalité."
+        "synthese": "La Fondation des Artistes gère un parc de 91 ateliers et ateliers-logements répartis à Paris et Nogent-sur-Marne depuis 1976. Le programme s'adresse à des artistes plasticiens en activité justifiant de l'appartenance au régime social des artistes, sans critère d'âge ni de nationalité. L'attribution se fait par dossier artistique et administratif, examinés par une commission lors de la vacance d'un atelier. Un bail fixe le loyer mensuel.",
+        "pour_qui": "Artistes plasticiens en activité, affiliés au régime social des artistes, en recherche d'espace de travail pérenne."
       },
       "a_savoir": [
-        "Dispositif permanent d'attribution d'ateliers avec bail, non une résidence temporaire",
-        "Attribution assortie d'un loyer mensuel à charge de l'artiste",
-        "Affiliation au régime social des artistes requis"
+        "Il ne s'agit pas d'une résidence temporaire mais d'une attribution d'ateliers permanents",
+        "Les artistes paient un loyer mensuel : ce n'est pas une opportunité rémunérée",
+        "Pas de date limite de candidature : les dossiers restent actifs et sont examinés lors de vacances d'ateliers",
+        "Critique d'accès : obligation d'être affilié au régime social des artistes",
+        "Accès à 4 adresses distinctes avec conditions variées (Hameau, Cité Guy-Loë, Faubourg Poissonnière, Impasse Savart)"
       ],
       "organisme_details": {
-        "site_web": "https://www.fondationdesartistes.fr/",
-        "adresse": "11 rue Berryer, 75008 Paris",
+        "site_web": "https://www.fondationdesartistes.fr",
+        "adresse": "9-11 rue Berryer, 75008 Paris",
         "ville": "Paris",
-        "contact_email": null
+        "contact_email": "visite@fondationdesartistes.fr"
       },
       "criteres_programme": [
         {
           "id": "retribution",
           "rempli": "non",
-          "justification": "Aucune rémunération, bourse ou per diem versée. Les artistes paient un loyer mensuel."
+          "justification": "Les artistes paient un loyer mensuel ; aucune rémunération, bourse ou per diem n'est mentionné"
         },
         {
           "id": "hebergement",
           "rempli": "partiel",
-          "justification": "51 ateliers-logements avec hébergement intégré (35 à Nogent-sur-Marne, 16 à Paris), mais aussi 40 ateliers sans logement (36 au Hameau, 4 impasse Savart)."
+          "justification": "35 ateliers-logements de la Cité Guy-Loë et 16 ateliers-logements du Faubourg Poissonnière, mais 36 ateliers du Hameau et 4 de l'Impasse Savart ne sont que des ateliers"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "Programme fournit 91 ateliers et ateliers-logements destinés à accueillir des artistes plasticiens en activité."
+          "justification": "Le programme fournit des espaces de production et d'atelier : 36 ateliers du Hameau, 35 + 16 ateliers-logements, 4 ateliers de l'Impasse Savart"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "non",
-          "justification": "Aucun frais de voyage, production ou transport ne sont mentionnés comme pris en charge."
+          "justification": "Les artistes paient le loyer ; aucune prise en charge des frais n'est mentionnée"
         }
       ]
     },
@@ -1919,15 +2198,15 @@
       "uid": "a5f1e203",
       "type": "residence",
       "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/nafa-x-cite-internationale-des-arts-2",
-      "fetched_at": "2026-05-22T10:23:38+00:00",
-      "score": 7,
+      "fetched_at": "2026-05-22T11:57:12+00:00",
+      "score": 8,
       "status": "indetermine",
       "opportunite": {
         "nom": "Société des artistes slovaques x Cité internationale des arts",
         "organisme": "Cité Internationale des Arts",
         "lieu": {
           "ville": null,
-          "pays": null,
+          "pays": "France",
           "territoire": null
         }
       },
@@ -1946,10 +2225,10 @@
         "disciplines": [
           "arts visuels"
         ],
-        "niveau_carriere": "tous",
+        "niveau_carriere": null,
         "age_max": null,
         "nationalite": "Slovaquie",
-        "residence_administrative": "sans restriction"
+        "residence_administrative": null
       },
       "conditions_residence": {
         "duree": {
@@ -1964,7 +2243,7 @@
           "periodicite": null
         },
         "voyage": {
-          "pris_en_charge": false,
+          "pris_en_charge": null,
           "plafond": null,
           "devise": null
         },
@@ -1974,14 +2253,14 @@
         "Société des artistes slovaques"
       ],
       "analyse": {
-        "synthese": "Ce programme accueille 6 à 8 artistes visuels slovaques en résidence à la Cité internationale des arts pour une durée de 2 mois. Le programme a été créé en 1996 et fonctionne en partenariat avec la Société des artistes slovaques. Les critères d'éligibilité se limitent à avoir une pratique dans les arts visuels et à être de nationalité slovaque. Aucune rémunération, aide au voyage ou frais de production ne sont mentionnés.",
-        "pour_qui": "Artistes visuels de nationalité slovaque ayant une pratique établie ou émergente."
+        "synthese": "La Cité Internationale des Arts accueille 6 à 8 artistes visuels de Slovaquie pour une résidence de 2 mois par an. Le programme s'adresse aux artistes visuels de nationalité slovaque. Créé en 1996 en partenariat avec la Société des artistes slovaques. Aucune information n'est fournie concernant la rémunération, l'hébergement, l'espace de travail, les conditions de candidature ou la date limite.",
+        "pour_qui": "Artistes visuels de nationalité slovaque."
       },
       "a_savoir": [
-        "Nationalité restrictive : réservé exclusivement aux artistes slovaques",
-        "Aucune rémunération ou dotation financière mentionnée",
-        "Pas de date limite de candidature indiquée",
-        "Hébergement et atelier non explicitement confirmés"
+        "Page incomplète : aucune date limite de candidature mentionnée",
+        "Absence d'information sur la rémunération, l'hébergement, ou l'espace de travail fourni",
+        "Aucun détail sur les pièces du dossier ou la langue de candidature",
+        "Contacter directement la Cité Internationale des Arts pour les modalités précises"
       ],
       "organisme_details": {
         "site_web": null,
@@ -1993,22 +2272,315 @@
         {
           "id": "retribution",
           "rempli": "non",
-          "justification": "Aucune rémunération, bourse ou dotation financière n'est mentionnée."
+          "justification": "Aucune mention de rémunération, bourse ou allocation dans le texte."
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "Les artistes sont 'accueillis en résidence' mais le texte ne précise pas si un hébergement est fourni."
+          "justification": "Aucune information fournie concernant la mise à disposition d'un logement."
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "Aucun espace de travail ou atelier n'est explicitement mentionné."
+          "justification": "Aucun détail sur un espace de travail, atelier ou équipements mis à disposition."
         },
         {
           "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de prise en charge du voyage, des frais de production ou de transport."
+        }
+      ]
+    },
+    {
+      "uid": "b21c7eb2",
+      "type": "residence",
+      "source_url": "https://www.casadevelazquez.org/residents-et-alumni/2025-2026/alberto-gil-casedas",
+      "fetched_at": "2026-05-22T12:55:28+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Résidence Casa de Velázquez 2025-2026",
+        "organisme": "Casa de Velázquez",
+        "lieu": {
+          "ville": null,
+          "pays": "Espagne",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Arts visuels"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 43,
+          "dates": "septembre 2025 - juillet 2026"
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Diputación de Zaragoza"
+      ],
+      "analyse": {
+        "synthese": "Cette page présente le profil d'Alberto Gil Cásedas, artiste en résidence à la Casa de Velázquez de septembre 2025 à juillet 2026, boursier de la Diputación de Zaragoza. Il s'agit d'une page de portfolio d'un résident confirmé en arts visuels, non d'un appel à candidature. Le projet artistique explore le temps et l'espace du quotidien via la dérive urbaine.",
+        "pour_qui": "Artistes confirmés en arts visuels ayant reçu une bourse de la Diputación de Zaragoza ou programmes similaires."
+      },
+      "a_savoir": [
+        "Cette page ne contient pas les informations relatives à un appel à candidature (dates limites, critères d'éligibilité, conditions détaillées).",
+        "Il s'agit d'une page de portfolio d'un résident déjà sélectionné."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.casadevelazquez.org",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "« Artiste boursier de la Diputación de Zaragoza » indique une rémunération ou dotation."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Résidence artistique, mais hébergement non explicitement confirmé sur cette page de profil."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Résidence artistique en création, mais espace de travail non explicitement mentionné."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Prise en charge des frais de voyage ou production non mentionnée."
+        }
+      ]
+    },
+    {
+      "uid": "bcd3a041",
+      "type": "residence",
+      "source_url": "https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video",
+      "fetched_at": "2026-05-22T13:03:30+00:00",
+      "score": 8,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Atelier ADAGP",
+        "organisme": "ADAGP",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": "6e arrondissement"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": [],
+        "url_candidature": "https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "design",
+          "dessin",
+          "illustration",
+          "peinture",
+          "photographie"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": null
+        },
+        "hebergement": false,
+        "atelier": "Trois salles : Scanlab (numérisation haute résolution), Fabrique (six postes de travail numérique), Cafèt' (espace de convivialité)",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "L'Atelier ADAGP est un espace de travail collaboratif ouvert en juin 2025, réservé aux adhérents de l'ADAGP et situé au 6e arrondissement de Paris. Il propose trois espaces : le Scanlab pour la numérisation haute résolution, la Fabrique avec six postes de travail numérique, et la Cafèt' pour se restaurer. Le lieu fournit du matériel adapté et un accompagnement pour diverses disciplines artistiques. Aucun processus de candidature n'est décrit ; il s'agit d'un service pour membres existants.",
+        "pour_qui": "Artistes-auteurs et ayants droit adhérents de l'ADAGP, toutes disciplines visuelles confondues."
+      },
+      "a_savoir": [
+        "Pas un appel à candidature, mais un service pour adhérents existants.",
+        "Accès limité aux membres de l'ADAGP.",
+        "Réservation requise pour Scanlab et Fabrique ; Cafèt' en accès libre."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.adagp.fr",
+        "adresse": null,
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
           "rempli": "non",
-          "justification": "Aucun frais relatif au voyage, à la production ou au transport n'est mentionné comme pris en charge."
+          "justification": "Aucune rémunération, bourse ou dotation mentionnée."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Pas d'hébergement fourni. L'Atelier est un espace de travail collaboratif avec trois salles."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "« du matériel réparti dans trois salles distinctes : Le Scanlab, pour numériser tous types de créations en haute résolution » ; « La Fabrique, avec ses six postes de travail numérique » ; équipements spécialisés (logiciels d'illustration, retouche d'image)."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Aucune information sur les tarifs, coûts ou prises en charge mentionnée."
+        }
+      ]
+    },
+    {
+      "uid": "c37ec105",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/institut-francais-du-nigeria-x-cite-internationale-des-arts",
+      "fetched_at": "2026-05-22T11:54:55+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Resonance – Cité Internationale des Arts",
+        "organisme": "Institut français du Nigeria, Art X Lagos, Cité internationale des arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-05-31",
+        "date_limite_precision": "day",
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Arts visuels",
+          "Design",
+          "Commissariat"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "Nigeria"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": null
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Institut français du Nigeria",
+        "Art X Lagos",
+        "Cité internationale des arts"
+      ],
+      "analyse": {
+        "synthese": "Resonance est un programme annuel de résidence de 3 mois pour artistes visuels, designers et commissaires. Initié en 2020, il propose 3 résidences par an en partenariat entre la Cité internationale des arts, l'Institut français du Nigeria et Art X Lagos. Le programme vise les professionnels basés au Nigeria ayant au moins 5 ans de pratique artistique ou curatoriale et âgés de plus de 23 ans. Les résidents dialoguent avec des professionnels de leurs domaines et bénéficient d'une ouverture au réseau professionnel francilien et d'un soutien financier.",
+        "pour_qui": "Artistes visuels, designers et commissaires de toutes nationalités, résidant au Nigeria, ayant au moins 5 ans de pratique professionnelle établie et âgés de plus de 23 ans."
+      },
+      "a_savoir": [
+        "Programme réservé aux artistes résidant au Nigeria (restriction géographique stricte)",
+        "Expérience professionnelle minimale requise : 5 ans",
+        "Montant du soutien financier non spécifié",
+        "Conditions d'hébergement et d'atelier non précisées dans le texte"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Wuse 2, Abuja",
+        "ville": "Abuja",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "partiel",
+          "justification": "Soutien financier mentionné (« avec le soutien de la Cité internationale des arts, ainsi que d'un soutien financier »), mais le montant n'est pas précisé."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Le texte ne mentionne pas explicitement si un logement est fourni pendant la résidence."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Le texte ne spécifie pas si un espace de travail ou des équipements sont mis à disposition."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Le texte ne mentionne pas la prise en charge du voyage, du transport ou d'autres frais."
         }
       ]
     },
@@ -2211,6 +2783,297 @@
           "id": "frais_pris_en_charge",
           "rempli": "non",
           "justification": "Aucune mention de prise en charge de frais de voyage, production ou transport d'œuvres"
+        }
+      ]
+    },
+    {
+      "uid": "d1830d66",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/calq-x-cite-internationale-des-arts",
+      "fetched_at": "2026-05-22T11:53:44+00:00",
+      "score": 8,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "CALQ x Cité internationale des arts",
+        "organisme": "Cité internationale des arts en partenariat avec le Conseil des arts et des lettres du Québec (CALQ)",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "cinéma",
+          "littérature",
+          "conte",
+          "théâtre",
+          "cirque",
+          "musique",
+          "danse",
+          "artisanat",
+          "architecture"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "canadienne",
+        "residence_administrative": "Québec"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 à 6 mois"
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Cité internationale des arts",
+        "CALQ - Conseil des arts et des lettres du Québec"
+      ],
+      "analyse": {
+        "synthese": "Le programme CALQ x Cité internationale des arts accueille 3 résidences par an d'une durée de 3 à 6 mois à destination des artistes québécois et autochtones. Créé en 1965 et refondé en 2025, il s'inscrit dans un partenariat de longue date ayant accueilli plus d'une centaine d'artistes québécois. Il vise à soutenir la mobilité, la recherche et la visibilité des créateurs québécois sur la scène artistique internationale. Les lauréats bénéficient d'un accompagnement professionnel et d'accès privilégiés aux offres culturelles parisiennes.",
+        "pour_qui": "Artistes québécois et autochtones de nationalité canadienne, résidant au Québec, dans les domaines des arts visuels, cinéma, littérature, théâtre, cirque, musique, danse, artisanat ou architecture."
+      },
+      "a_savoir": [
+        "Restriction de nationalité et résidence : candidats doivent être de nationalité canadienne et résider au Québec",
+        "Programme refondé en 2025 (première année de cette nouvelle version après 60 ans d'existence)"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Le texte ne mentionne pas explicitement de rémunération, bourse ou per diem offerts aux résidents"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune information fournie sur la mise à disposition d'un logement pendant la résidence"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "L'existence d'un espace de travail, studio ou équipements n'est pas mentionnée"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "La prise en charge des frais de voyage, production ou transport d'œuvres n'est pas précisée"
+        }
+      ]
+    },
+    {
+      "uid": "d700f12b",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/programme-de-residence/afad-x-cite-internationale-des-arts",
+      "fetched_at": "2026-05-22T11:56:10+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "AFAD x Cité internationale des arts",
+        "organisme": "Cité Internationale des Arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://www.citeinternationaledesarts.fr/programme-de-residence/afad-x-cite-internationale-des-arts"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "architecture",
+          "arts appliqués",
+          "arts plastiques",
+          "arts visuels",
+          "commissariat",
+          "design",
+          "restauration",
+          "théorie"
+        ],
+        "niveau_carriere": "émergent·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": null
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": null,
+        "voyage": null,
+        "restitution": null
+      },
+      "partenaires": [
+        "Académie des beaux-arts et du design de Bratislava"
+      ],
+      "analyse": {
+        "synthese": "Ce programme résidentiel s'adresse aux diplômés et post-diplômés de l'Académie des beaux-arts et du design de Bratislava. Il offre 3 mois de résidence à la Cité Internationale des Arts, avec 2 places disponibles par an. Le programme vise à soutenir l'intégration professionnelle d'artistes émergents dans les domaines des arts visuels, de l'architecture, du design, de la restauration et du commissariat. Les résidents bénéficient de rencontres régulières avec des artistes et professionnels de la culture. Le programme a été créé en 2021.",
+        "pour_qui": "Artistes diplômés ou post-diplômés de l'AFAD de Bratislava dans les disciplines visuelles, architecture, design, restauration ou commissariat."
+      },
+      "a_savoir": [
+        "Accès réservé aux diplômés de l'AFAD Bratislava",
+        "Date limite de candidature non mentionnée",
+        "Conditions de rémunération et d'hébergement non précisées",
+        "Nombre de places limité : 2 résidences par an"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune mention de rémunération, bourse, per diem ou dotation monétaire dans le texte."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune mention explicite d'hébergement fourni. Le texte ne spécifie pas si un logement est mis à disposition."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'espace de travail ou d'atelier fourni par le programme."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucune mention de prise en charge des frais de voyage, production ou transport d'œuvres."
+        }
+      ]
+    },
+    {
+      "uid": "dd63bde1",
+      "type": "residence",
+      "source_url": "https://www.pollen-monflanquin.com/residences",
+      "fetched_at": "2026-05-22T12:07:26+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Artistes en résidence",
+        "organisme": "Pollen",
+        "lieu": {
+          "ville": "Monflanquin",
+          "pays": "France",
+          "territoire": "Lot-et-Garonne"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts plastiques"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": null
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Pollen est une plate-forme d'expérimentation accueillant depuis 1991 des artistes plasticiens en Lot-et-Garonne. Elle permet à chaque artiste de réaliser un projet personnel ou de poursuivre une recherche. La page consultée est fragmentaire et ne fournit pas les détails sur la durée, l'hébergement, la rémunération ni la date limite de candidature.",
+        "pour_qui": "Artistes plasticiens de toutes nationalités souhaitant réaliser un projet spécifique ou poursuivre une recherche personnelle."
+      },
+      "a_savoir": [
+        "Contenu incomplet : informations critiques manquantes (date limite, durée, hébergement, rémunération, frais)",
+        "Aucune URL de candidature trouvée"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.pollen-monflanquin.com",
+        "adresse": null,
+        "ville": "Monflanquin",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de rémunération, bourse ou dotation dans le texte"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune mention explicite d'hébergement fourni"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Mention d'un 'lieu propice à l'accomplissement' mais pas de précision sur l'espace de travail fourni"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de prise en charge de voyage, production ou matériel"
         }
       ]
     },
@@ -2507,8 +3370,8 @@
       "uid": "eac66ba5",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad",
-      "fetched_at": "2026-05-22T10:29:36+00:00",
-      "score": 7,
+      "fetched_at": "2026-05-22T12:11:10+00:00",
+      "score": 9,
       "status": "bientot-fermee",
       "opportunite": {
         "nom": "Convocatoria LAB 5 La mecánica de la verdad",
@@ -2516,10 +3379,10 @@
         "lieu": {
           "ville": "Madrid",
           "pays": "España",
-          "territoire": null
+          "territorio": null
         },
-        "nom_fr": "Appel à candidatures LAB 5 La mécanique de la vérité",
-        "affichage_titre": "Convocatoria LAB 5 La mecánica de la verdad [Appel à candidatures LAB 5 La mécanique de la vérité]"
+        "nom_fr": "Appel à candidature LAB 5 La mécanique de la vérité",
+        "affichage_titre": "Convocatoria LAB 5 La mecánica de la verdad [Appel à candidature LAB 5 La mécanique de la vérité]"
       },
       "candidature": {
         "date_limite": "2026-06-14",
@@ -2556,36 +3419,29 @@
       "conditions_residence": {
         "duree": {
           "semaines": 2,
-          "dates": "12-25 novembre 2026"
+          "dates": "12 de noviembre de 2026 al 25 de noviembre de 2026"
         },
         "hebergement": true,
-        "atelier": "Espace de travail fourni pour le développement de chaque projet",
-        "remuneration": {
-          "montant": null,
-          "devise": null,
-          "periodicite": null
-        },
+        "atelier": "Se dispondrá de un espacio de trabajo para el desarrollo de cada proyecto",
+        "remuneration": null,
         "voyage": {
           "pris_en_charge": true,
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "Présentation publique des projets développés les 26-28 novembre 2026 au festival OpenLAB"
+        "restitution": "La presentación pública de los proyectos desarrollados será entre el 26 y el 28 de noviembre de 2026, en el festival OpenLAB"
       },
       "partenaires": [],
       "analyse": {
-        "synthese": "Résidence collaborative de 2 semaines au Medialab Matadero (Madrid) du 12 au 25 novembre 2026 pour développer 5 prototypes techniques ou culturels en groupes de travail. Le programme est gratuit et couvre l'hébergement et les déplacements pour les non-résidents de Madrid, ainsi que les repas. Les participants travailleront sous la mentorship d'experts internationaux et présenteront leurs prototypes au festival OpenLAB les 26-28 novembre. Les candidatures se ferment le 14 juin 2026.",
-        "pour_qui": "Artistes et créatifs de tous niveaux (émergents ou confirmés), issus de disciplines variées (arts visuels, technologie, design, architecture, sciences, etc.), intéressés par la collaboration et l'exploration de prototypes autour de la thématique annuelle « La mécanique de la vérité »."
+        "synthese": "Residencia intensiva de 2 semanas en Medialab Matadero (12-25 de noviembre de 2026) para desarrollar 5 prototipos de proyectos técnicos o culturales en modo colaborativo. 25 participantes distribuidos en 5 grupos de trabajo, con mentoría de 3 expertas internacionales. Abierto a todas las disciplinas vinculadas con culturas visuales, tecnología, arquitectura, escritura, ciencias, etc., sin restricción de origen ni residencia. Programa completamente gratuito, que incluye alojamiento, desplazamiento y manutención para todos los participantes no residentes en la Comunidad de Madrid.",
+        "para_quien": "Artistas, diseñadores, investigadores, técnicos, activistas y profesionales de disciplinas variadas con experiencia o formación en culturas visuales, tecnología, arquitectura o campos conexos, interesados en explorar colaborativamente prototipos sobre 'La mecánica de la verdad', desde etapas iniciales hasta fases consolidadas de su trayectoria."
       },
       "a_savoir": [
-        "Aucune rémunération : la résidence est gratuite mais non rémunérée",
-        "Assiduité obligatoire en présentiel : horaires lundi-vendredi 10h-18h plus activités supplémentaires ponctuelles",
-        "Travail obligatoire en groupes collaboratifs : pas de projets individuels",
-        "Sélection compétitive : 25 participants au total pour 5 groupes de travail",
-        "Langues : espagnol et anglais sans traduction formelle ; niveau moyen-haut d'anglais recommandé pour interagir"
+        "Asistencia obligatoria in situ: presencial de lunes a viernes de 10:00 a 18:00 horas, más actividades extraordinarias",
+        "Se recomienda nivel medio-alto de inglés para la interacción grupal y con mentoras"
       ],
       "organisme_details": {
-        "site_web": null,
+        "site_web": "https://www.mataderomadrid.org",
         "adresse": null,
         "ville": "Madrid",
         "contact_email": null
@@ -2594,22 +3450,468 @@
         {
           "id": "retribution",
           "rempli": "non",
-          "justification": "La résidence est gratuite (« Ninguno, es gratuito ») et ne comprend pas de rémunération ou bourse pour les participants"
+          "justification": "No se menciona remuneración, beca ni per diem para los participantes"
         },
         {
           "id": "hebergement",
-          "rempli": "partiel",
-          "justification": "Hébergement couvert seulement pour les non-résidents de la Communauté de Madrid (« Medialab cubre los gastos de desplazamiento y alojamiento de las personas que no residan en la Comunidad de Madrid »)"
+          "rempli": "oui",
+          "justification": "Medialab cubre los gastos de alojamiento para personas que no residan en la Comunidad de Madrid"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "Espace de travail fourni pour chaque projet (« Se dispondrá de un espacio de trabajo para el desarrollo de cada proyecto »)"
+          "justification": "Se dispondrá de un espacio de trabajo para el desarrollo de cada proyecto"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Medialab cubre gastos de desplazamiento y alojamiento; la organización proporciona comidas de lunes a sábado"
+        }
+      ]
+    },
+    {
+      "uid": "fb9a1992",
+      "type": "residence",
+      "source_url": "https://www.casadevelazquez.org/residents-et-alumni/2025-2026/jacques-marie-ligot",
+      "fetched_at": "2026-05-22T12:57:57+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Résidence Artistique à la Casa de Velázquez",
+        "organisme": "Casa de Velázquez",
+        "lieu": {
+          "ville": null,
+          "pays": null,
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Architecture",
+          "Arts visuels"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "septembre 2025 - juillet 2026"
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": null,
+        "voyage": null,
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Cette page présente la résidence de Jacques-Marie Ligot à la Casa de Velázquez de septembre 2025 à juillet 2026, où il explore la transformation des hórreos galiciens comme architectures porteuses de mémoire. Aucune information sur les conditions d'admission, critères d'éligibilité, hébergement, rémunération ou modalités du programme n'est fournie.",
+        "pour_qui": "Page de présentation d'un artiste résident ; ne cible pas de nouveaux candidats."
+      },
+      "a_savoir": [
+        "Ce n'est pas une page d'appel à candidature ouvert.",
+        "Aucune donnée sur les conditions matérielles de la résidence (hébergement, rémunération, atelier, frais pris en charge).",
+        "Aucune date limite de candidature, frais d'inscription, ou URL de candidature."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.casadevelazquez.org",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de rémunération, bourse ou dotation."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'hébergement fourni."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'espace de travail ou équipements."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de prise en charge de frais (voyage, production, etc.)."
+        }
+      ]
+    },
+    {
+      "uid": "0303d52f",
+      "type": "bourse",
+      "source_url": "https://www.adagp.fr/fr/actualites/appel-candidature-bourse-connexion-internationale-2026",
+      "fetched_at": "2026-05-22T13:02:07+00:00",
+      "score": 9,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Bourse Connexion Internationale 2026",
+        "organisme": "ADAGP",
+        "lieu": {
+          "ville": "Madrid",
+          "pays": "Espagne"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-07-15",
+        "langue_dossier": [
+          "anglais"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Présentation du lieu de diffusion espagnole (2 pages max)",
+          "Description détaillée du projet artistique avec dates (2 pages max)",
+          "Présentation de la structure française partenaire si applicable (10 lignes max)",
+          "Lettre d'engagement du lieu de diffusion espagnol",
+          "CV des artistes de la scène française avec portfolio (10 œuvres)",
+          "CV du commissaire d'exposition (1 page)",
+          "Budget prévisionnel détaillé et équilibré (1 page)",
+          "Calendrier prévisionnel"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Beaux-arts et Arts Appliqués",
+          "Photographie",
+          "BD et Livre jeunesse"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "Toute nationalité, à condition de travailler ou résider en France depuis au moins 5 ans, ou de nationalité française vivant à l'étranger",
+        "residence_administrative": "France"
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": 10000,
+          "devise": "EUR"
+        },
+        "finalite": "production",
+        "calendrier_usage": "Délai maximum de 2 ans pour la réalisation de l'exposition",
+        "obligations_rendu": [
+          "Présenter une exposition monographique ou collective d'artistes de la scène française en Espagne"
+        ]
+      },
+      "partenaires": [
+        "Institut français de Madrid"
+      ],
+      "analyse": {
+        "synthese": "L'ADAGP en partenariat avec l'Institut français de Madrid lance la Bourse Connexion Internationale 2026 pour soutenir financièrement les structures de diffusion espagnoles présentant des expositions d'artistes de la scène française. Trois aides de 10 000€ chacune sont attribuées pour des projets dans les disciplines des Beaux-arts et Arts Appliqués, Photographie, BD et Livre jeunesse. Les expositions doivent être monographiques ou collectives et réalisées dans un délai maximum de 2 ans. Aucun critère d'adhésion à l'ADAGP n'est requis, et les artistes exposés peuvent être de toute nationalité à condition de travailler ou résider en France depuis au moins 5 ans, ou de nationalité française vivant à l'étranger.",
+        "pour_qui": "Cette bourse s'adresse aux structures de diffusion espagnoles publiques ou privées à but non lucratif (musées, centres d'art, artist-run spaces, fondations, festivals, médiathèques, bibliothèques) disposant d'un espace de diffusion pérenne et souhaitant présenter des expositions d'artistes de la scène française."
+      },
+      "a_savoir": [
+        "La bourse est destinée aux structures de diffusion, pas versée directement aux personnes physiques",
+        "Dossier de candidature obligatoirement en anglais",
+        "Les structures doivent avoir un espace de diffusion pérenne (pas de lieux nomades)",
+        "Délai maximum de 2 ans pour la réalisation de l'exposition",
+        "Aucun critère d'adhésion à l'ADAGP n'est requis pour les artistes exposés"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.adagp.fr",
+        "adresse": null,
+        "ville": null,
+        "contact_email": "connexionadagp@institutfrancais.es"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "La bourse est destinée à des structures de diffusion, pas versée directement aux artistes. Les artistes en bénéficient indirectement via l'exposition organisée."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun hébergement n'est mentionné dans le programme."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de travail ou studio n'est fourni par l'organisme."
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "partiel",
-          "justification": "Déplacement et hébergement couverts pour les non-résidents Madrid ; repas fournis pour tous (« La organización proporcionará comidas... de lunes a sábado »)"
+          "justification": "L'aide de 10 000€ doit couvrir 'les dépenses propres à l'opération (assurance, transport, droit d'auteur...)' selon le budget prévisionnel, mais ce n'est pas une prise en charge automatique et complète de tous les frais."
+        }
+      ]
+    },
+    {
+      "uid": "07e1d362",
+      "type": "bourse",
+      "source_url": "https://www.adagp.fr/fr/actualites/ladagp-soutient-les-3-laureats-de-la-bourse-post-master-intelligence-artificielle-2025",
+      "fetched_at": "2026-05-22T13:00:11+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Bourse Post-Master Intelligence Artificielle 2025-2026",
+        "organisme": "École nationale supérieure de la photographie d'Arles",
+        "lieu": {
+          "ville": "Arles",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "photographie",
+          "image",
+          "vidéo",
+          "art contemporain"
+        ],
+        "niveau_carriere": "post-master, artistes récemment diplômés de deuxième cycle des écoles supérieures d'art",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": 4000,
+          "devise": "EUR"
+        },
+        "finalite": "formation",
+        "calendrier_usage": "2025-2026",
+        "obligations_rendu": [
+          "accompagnement professionnel",
+          "guidance artistique par des professionnels du champ de l'art et des spécialistes de l'intelligence artificielle"
+        ]
+      },
+      "partenaires": [
+        "ADAGP",
+        "Ministère de la Culture (programme Culture Pro)"
+      ],
+      "analyse": {
+        "synthese": "La bourse Post-Master Intelligence Artificielle 2025-2026 de l'ENSP Arles accompagne les artistes récemment diplômés de deuxième cycle des écoles supérieures d'art. Trois lauréats par année reçoivent une bourse de 4000 € chacun pour explorer les intersections entre technologies de l'intelligence artificielle et création artistique. Le programme inclut un accompagnement professionnel et une guidance artistique assurés par des spécialistes du secteur. Le financement provient du soutien de l'ADAGP et du ministère de la Culture via le programme Culture Pro.",
+        "pour_qui": "Artistes récemment diplômés de deuxième cycle des écoles supérieures d'art, intéressés par les enjeux artistiques de l'intelligence artificielle et des nouvelles technologies appliquées à la photographie et l'image."
+      },
+      "a_savoir": [
+        "Le document consulté est un communiqué annonçant les lauréats 2025-2026, non un appel à candidatures actif.",
+        "Aucune date limite de candidature n'est mentionnée dans le texte.",
+        "Le programme est très sélectif : seulement 3 lauréats par année.",
+        "Les modalités complètes de candidature et les critères de sélection détaillés ne sont pas disponibles dans ce document."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Arles",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Les lauréats reçoivent 4000 € chacun."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'un logement fourni dans le texte."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'un espace de production ou atelier mis à disposition."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "La prise en charge des frais de voyage, production ou transport n'est pas spécifiée."
+        }
+      ]
+    },
+    {
+      "uid": "0c311ef8",
+      "type": "bourse",
+      "source_url": "https://www.fondationdesartistes.fr/missions/promouvoir-la-scene-francaise",
+      "fetched_at": "2026-05-22T11:32:19+00:00",
+      "score": 9,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Résidence annuelle Fondation des Artistes à l'étranger",
+        "organisme": "Fondation des Artistes",
+        "lieu": {
+          "ville": "Salvador de Bahia",
+          "pays": "Brésil"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts plastiques"
+        ],
+        "niveau_carriere": "artistes ayant séjourné à Moly-Sabata ou ayant présenté une candidature pour le Prix du Frac Bretagne – Art Norac",
+        "age_max": null,
+        "nationalite": "français ou résidant en France",
+        "residence_administrative": "France"
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "finalite": "mobilite",
+        "calendrier_usage": "deux mois, chaque année pendant trois ans (2023-2026)",
+        "obligations_rendu": []
+      },
+      "partenaires": [
+        "Institut Sacatar",
+        "Fonderie Darling",
+        "MOCO Montpellier",
+        "Prix du Frac Bretagne",
+        "ADAGP",
+        "Trampoline",
+        "Ministère de la Culture",
+        "Ministère des Affaires étrangères"
+      ],
+      "analyse": {
+        "synthese": "La Fondation des Artistes finance depuis 2019 des résidences artistiques pour créateurs français à l'étranger. Depuis 2023, un accord avec l'Institut Sacatar au Brésil réserve chaque année deux séjours de deux mois, renouvelés pour trois années. Les résidences s'adressent aux artistes ayant séjourné à Moly-Sabata ou ayant présenté candidature au Prix du Frac Bretagne. La sélection se fait par jury. Le programme vise à promouvoir le rayonnement international et enrichir les pratiques par immersion dans un nouvel environnement.",
+        "pour_qui": "Artistes plasticiens français ou résidant en France, ayant une pratique confirmée et figurant parmi les candidats sélectionnés par jury."
+      },
+      "a_savoir": [
+        "Page de présentation générale — pas d'appel à candidature formel avec date limite identifiée",
+        "Programme de résidence lancé en 2019, accord Brésil depuis 2023 pour trois années",
+        "Sélection par jury constitué spécifiquement",
+        "Résidence isolée sur île (Itaparica, Baie de Tous les Saints) — environnement très particulier"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.fondationdesartistes.fr/",
+        "adresse": "Hôtel Salomon de Rothschild, Paris",
+        "ville": "Nogent-sur-Marne",
+        "contact_email": "visite@fondationdesartistes.fr"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de montant, rémunération, bourse monétaire ou per diem."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "« Une résidence située sur une plage, à la pointe nord de l'île d'Itaparica » et « résidences de création »."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "« L'un des ateliers de Sacatar sur l'île d'Itaparica » et évocation de « résidences de création »."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Fondation finance résidences, mais type de frais couverts (transport, production) non spécifié."
+        }
+      ]
+    },
+    {
+      "uid": "18e2d639",
+      "type": "bourse",
+      "source_url": "https://on-the-move.org/resources/funding/mobility-funding-guide-asia",
+      "fetched_at": "2026-05-22T11:16:42+00:00",
+      "score": 6,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Mobility Funding Guide to Asia",
+        "organisme": "On the Move, in partnership with ASEF - Asia-Europe Foundation",
+        "lieu": {
+          "ville": null,
+          "pays": null
+        },
+        "nom_fr": "Guide de financement pour la mobilité en Asie",
+        "affichage_titre": "Mobility Funding Guide to Asia [Guide de financement pour la mobilité en Asie]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": [],
+        "frais_inscription": null,
+        "pieces_demandees": [],
+        "url_candidature": "https://on-the-move.org/resources/funding/mobility-funding-guide-asia"
+      },
+      "eligibilite": {
+        "disciplines": [],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "Asian nationals and residents (outgoing opportunities); non-Asian nationals (incoming opportunities)",
+        "residence_administrative": null
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "finalite": "mobilite",
+        "calendrier_usage": null,
+        "obligations_rendu": []
+      },
+      "partenaires": [
+        "ASEF - Asia-Europe Foundation"
+      ],
+      "analyse": {
+        "synthese": "Ceci est un guide informationnel publié en 2016 par On the Move en partenariat avec l'ASEF, documentant les ressources de financement pour la mobilité artistique en Asie. Il recense des opportunités nationales, locales et internationales réparties en deux catégories : « outgoing » (artistes asiatiques voyageant à l'étranger) et « incoming » (artistes étrangers voyageant en Asie). Le guide compile uniquement les opportunités régulières accessibles en ligne (résidences, formations, collaborations, tournées). Il s'agit d'un agrégateur, non d'une opportunité de financement autonome.",
+        "pour_qui": "Artistes et travailleurs culturels d'Asie souhaitant voyager à l'étranger, ainsi que les professionnels d'autres continents désireux de se rendre en Asie."
+      },
+      "a_savoir": [
+        "Ceci est un guide d'agrégation, pas une opportunité de candidature directe.",
+        "Publication de 2016 : les informations sur les financements agrégés peuvent être obsolètes.",
+        "Les opportunités ponctuelles et celles accessibles uniquement hors ligne ne sont pas incluses dans ce répertoire."
+      ],
+      "organisme_details": {
+        "site_web": "https://on-the-move.org",
+        "adresse": null,
+        "ville": null,
+        "contact_email": "mobility@on-the-move.org"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Le guide agrège des ressources but ne détaille pas les conditions spécifiques de chaque opportunité listée."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Le guide agrège des ressources but ne détaille pas les conditions spécifiques de chaque opportunité listée."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Le guide agrège des ressources but ne détaille pas les conditions spécifiques de chaque opportunité listée."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Le guide agrège des ressources but ne détaille pas les conditions spécifiques de chaque opportunité listée."
         }
       ]
     },
@@ -2699,10 +4001,99 @@
       ]
     },
     {
+      "uid": "86e99f36",
+      "type": "bourse",
+      "source_url": "https://www.fondationdesartistes.fr/missions/soutenir-les-ecoles-dart",
+      "fetched_at": "2026-05-22T11:28:09+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Soutenir les écoles d'art - Programme d'accompagnement professionnel Quilt (ESBAN Nîmes)",
+        "organisme": "Fondation des Artistes",
+        "lieu": {
+          "ville": "Nîmes",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts plastiques",
+          "design graphique"
+        ],
+        "niveau_carriere": "diplômés",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": "France"
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": 5000,
+          "devise": "EUR"
+        },
+        "finalite": "production",
+        "calendrier_usage": "année scolaire 2024/2025 et 2025/2026",
+        "obligations_rendu": [
+          "sessions collectives programmées (accompagnement / développement / réalisation-restitution)",
+          "suivi individuel continu"
+        ]
+      },
+      "partenaires": [
+        "Ghost House (association porteuse)",
+        "ESBAN (École Supérieure d'art et de design de Nîmes)"
+      ],
+      "analyse": {
+        "synthese": "La Fondation des Artistes soutient les écoles d'art en France pour faciliter la transition professionnelle des jeunes diplômés. Le programme Quilt de l'ESBAN Nîmes (2024/2025 et 2025/2026) offre une bourse de 5 000 euros par artiste accompagnée individuellement et collectivement. La première édition a soutenu 4 projets d'alumni de l'école. La seconde session cible des projets artistiques impliquant le contexte social et les communautés minorisées.",
+        "pour_qui": "Jeunes artistes et designers diplômés des écoles d'art partenaires (particulièrement alumni ESBAN Nîmes des 5 dernières années), prêts à développer leur projet professionnel personnel."
+      },
+      "a_savoir": [
+        "Pas de date limite de candidature indiquée sur cette page descriptive",
+        "Opportunité réservée aux alumni des écoles d'art partenaires",
+        "Bourse modérée (5 000 euros) associée à un accompagnement intensif (sessions + suivi individuel)",
+        "Page en français, contenu fragmentaire : appel à candidature réel probablement hébergé ailleurs"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.fondationdesartistes.fr",
+        "adresse": "Hôtel Salomon de Rothschild, Paris (mentionné pour visites professionnelles)",
+        "ville": "Paris",
+        "contact_email": "visite@fondationdesartistes.fr"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Bourse de 5 000 euros par artiste pour le programme Quilt"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'hébergement fourni dans le texte"
+        },
+        {
+          "id": "atelier",
+          "rempli": "partiel",
+          "justification": "Résidences et espaces de travail mentionnés pour d'autres partenariats passés (ex. Technopole Hélioparc pour ESAD Pyrénées), mais non confirmé pour Quilt Nîmes"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Pas de mention de prise en charge de frais de voyage ou de production pour Quilt"
+        }
+      ]
+    },
+    {
       "uid": "889a88cf",
       "type": "bourse",
       "source_url": "https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027",
-      "fetched_at": "2026-05-22T10:00:16+00:00",
+      "fetched_at": "2026-05-22T11:38:10+00:00",
       "score": 8,
       "status": "ouverte",
       "opportunite": {
@@ -2719,26 +4110,23 @@
           "français"
         ],
         "frais_inscription": null,
-        "pieces_demandees": null,
-        "url_candidature": "https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027"
+        "pieces_demandees": [],
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
           "Architecture",
-          "Arts Visuels",
-          "Photographie",
+          "Arts Visuels / Photographie",
           "Cinéma",
           "Création numérique",
           "Débat d'idées",
           "Livre",
-          "Métiers d'art",
-          "Design",
-          "Spectacle vivant",
-          "Musique"
+          "Métiers d'art / Design",
+          "Spectacle vivant / Musique"
         ],
         "niveau_carriere": null,
         "age_max": null,
-        "nationalite": "française ou polonaise",
+        "nationalite": "Structures françaises ou polonaises",
         "residence_administrative": null
       },
       "conditions_bourse": {
@@ -2746,53 +4134,52 @@
           "montant": null,
           "devise": "EUR"
         },
-        "finalite": null,
+        "finalite": "production",
         "calendrier_usage": "2027",
-        "obligations_rendu": null
+        "obligations_rendu": []
       },
       "partenaires": [
         "Institut Adam Mickiewicz",
         "Institut polonais de Paris",
-        "Ambassade de France en Pologne",
-        "Ministère de la Culture (France)",
-        "Ministère des Affaires étrangères (France)"
+        "Institut français",
+        "Ambassade de France en Pologne"
       ],
       "analyse": {
-        "synthese": "L'Institut français lance un appel à projets pour la Saison Pologne-France 2027, destiné à des structures françaises ou polonaises proposant des projets en Pologne. Les projets doivent couvrir l'une des quatre thématiques : démocratie et solidarités, Europe en partage, agentivité à l'ère algorithmique, ou relation franco-polonaise. Le programme s'inscrit dans le contexte du Traité de Nancy (2025). Date limite : 22 juin 2026 à 23h59 CET sur plateforme IFProg.",
-        "pour_qui": "Structures (organisations culturelles, institutions, collectifs) françaises ou polonaises actives dans les domaines culturels et créatifs."
+        "synthese": "Appel à projets porté conjointement par l'Institut français, l'Institut Adam Mickiewicz, l'Institut polonais de Paris et l'Ambassade de France en Pologne pour la Saison Pologne-France 2027. S'adresse à structures françaises ou polonaises souhaitant proposer des projets culturels en Pologne dans sept disciplines : architecture, arts visuels/photographie, cinéma, création numérique, débat d'idées, livre, métiers d'art/design, spectacle vivant/musique. Les projets doivent s'inscrire dans l'une de quatre thématiques : démocratie et solidarités, Europe en partage, agentivité à l'ère algorithmique, ou France-Pologne : héritages partagés. Date limite : 22 juin 2026.",
+        "pour_qui": "Structures culturelles françaises ou polonaises (publiques, privées, associations) cherchant à développer des projets et coopérations culturelles franco-polonaises."
       },
       "a_savoir": [
-        "Appel à projets destiné à des structures institutionnelles, non à des artistes individuels",
-        "Montants des subventions non précisés sur cette page",
-        "Dépôt obligatoire sur plateforme IFProg",
-        "Règlement des subventions et FAQ à consulter avant candidature"
+        "Appel à projets pour structures institutionnelles, non pour artistes individuels",
+        "Aucun montant de subvention ou budget n'est précisé dans l'appel",
+        "Candidature via plateforme IFProg mais lien direct non fourni sur cette page",
+        "Obligation de correspondance avec l'une des quatre thématiques du programme"
       ],
       "organisme_details": {
-        "site_web": "https://www.institutfrancais.com",
+        "site_web": null,
         "adresse": null,
         "ville": null,
-        "contact_email": "Pôle Saisons et Temps forts de l'Institut français (contact non spécifié)"
+        "contact_email": null
       },
       "criteres_programme": [
         {
           "id": "retribution",
           "rempli": "inconnu",
-          "justification": "« Règlement des subventions de l'Institut français » mentionné mais montants et conditions non détaillés."
+          "justification": "Aucun montant de rémunération ou allocation mentionné dans le texte de l'appel"
         },
         {
           "id": "hebergement",
           "rempli": "non",
-          "justification": "Aucune mention d'hébergement fourni aux projets sélectionnés."
+          "justification": "Aucune mention d'hébergement fourni aux participants ou bénéficiaires"
         },
         {
           "id": "atelier",
           "rempli": "non",
-          "justification": "Aucune mention d'espace de travail ou d'atelier fourni."
+          "justification": "Aucune mention d'atelier, studio ou espace de travail fourni"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
-          "justification": "Nature et couverture des frais subventionnés non spécifiées publiquement."
+          "justification": "Les modalités de financement et prise en charge des frais de production, déplacement ou transport ne sont pas détaillées"
         }
       ]
     },
@@ -2897,6 +4284,114 @@
           "id": "frais_pris_en_charge",
           "rempli": "partiel",
           "justification": "« besoins en production (technique, matériel, résidence, locaux) » financés mais étendue exacte non détaillée"
+        }
+      ]
+    },
+    {
+      "uid": "ae1213ed",
+      "type": "prix",
+      "source_url": "https://www.adagp.fr/fr/actualites/jordan-roger-barre-revelation-arts-plastiques-2026",
+      "fetched_at": "2026-05-22T13:02:48+00:00",
+      "score": 8,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Révélation Arts plastiques 2026",
+        "organisme": "ADAGP",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts plastiques",
+          "sculpture",
+          "céramique"
+        ],
+        "niveau_carriere": "artiste émergent",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": {
+            "montant": 5000,
+            "devise": "EUR"
+          },
+          "exposition": true,
+          "achat_oeuvre": false,
+          "edition_catalogue": true
+        },
+        "jury_public": [
+          "Dorothée de Monfreid",
+          "Gustave de Staël",
+          "Dove Allouche",
+          "Thomas Conchou",
+          "Judicaël Lavrador",
+          "Rafael Moreno",
+          "Nafiseh Moshashaeh"
+        ],
+        "nb_laureats": 1,
+        "editions_precedentes": [
+          "2025 : Nafiseh Moshashaeh",
+          "2023 : Rafael Moreno",
+          "2022 : Roy Köhnke",
+          "2021 : Yue Yuan",
+          "2019 : Arthur Hoffner",
+          "2018 : Odonchimeg Davaadorj",
+          "2017 : Kokou Ferdinand Makouvia",
+          "2016 : Clarissa Baumann",
+          "2015 : Kenny Dunkan"
+        ]
+      },
+      "partenaires": [
+        "100 % L'EXPO",
+        "La Villette"
+      ],
+      "analyse": {
+        "synthese": "Prix annuel récompensant un artiste émergent en arts plastiques, décerné par l'ADAGP en partenariat avec 100 % L'EXPO à La Villette. Le lauréat reçoit une dotation de 5 000 € et bénéficie d'une présentation dédiée sur les cimaises de l'ADAGP accompagnée d'un texte critique et de prises de vue de son travail. L'ADAGP verse également une aide financière à tous les artistes participants comme complément de rémunération. La sélection est effectuée par un jury composé de professionnels des arts visuels et de lauréats précédents.",
+        "pour_qui": "Artistes émergents en arts plastiques et sculpture, particulièrement ceux de la jeune création contemporaine française."
+      },
+      "a_savoir": [
+        "Il s'agit d'une annonce du prix décerné, non d'un appel ouvert aux candidatures",
+        "L'édition 2026 est déjà clôturée (lauréat désigné : Jordan Roger)",
+        "Aucun calendrier de candidature n'est spécifié dans la page",
+        "Le programme couvre l'exposition mais pas l'hébergement ou l'atelier"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.adagp.fr",
+        "adresse": null,
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Jordan Roger reçoit 5 000 € et l'ADAGP verse une aide financière à tous les artistes participants"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun logement n'est mentionné comme fourni"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de travail ou équipement n'est mentionné comme fourni"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "Aide financière versée aux artistes participants, mais la couverture précise des frais de voyage ou de production n'est pas détaillée"
         }
       ]
     },
@@ -3225,18 +4720,111 @@
       ]
     },
     {
+      "uid": "06ec46f8",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/profiles/TheHepworthWakefield",
+      "fetched_at": "2026-05-22T12:44:12+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "The Hepworth Wakefield Harvest Festival 2026",
+        "organisme": "The Hepworth Wakefield",
+        "lieu": {
+          "ville": "Wakefield",
+          "pays": "United Kingdom"
+        },
+        "nom_fr": "The Hepworth Wakefield Festival de la Moisson 2026",
+        "affichage_titre": "The Hepworth Wakefield [The Hepworth Wakefield Festival de la Moisson 2026]"
+      },
+      "candidature": {
+        "date_limite": "2026-05-25",
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "artists",
+          "designers",
+          "makers",
+          "food and drink producers/providers",
+          "specialist retailers/store owners"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "The Hepworth Wakefield, Wakefield"
+        ],
+        "dates_exposition": "2026-09-19 to 2026-09-20",
+        "format": "festival",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": null
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Le Hepworth Wakefield Harvest Festival 2026 est un festival se tenant à Wakefield (Royaume-Uni) les 19 et 20 septembre 2026. Il accueille les candidatures d'artistes, designers, artisans, producteurs alimentaires et détaillants spécialisés souhaitant tenir un stand. La date limite de candidature est le 25 mai 2026. Le contenu disponible ne précise pas les conditions d'éligibilité détaillées, les frais d'inscription ou la prise en charge.",
+        "pour_qui": "Artistes, designers, artisans, producteurs alimentaires et détaillants spécialisés désireux de participer à un festival communautaire."
+      },
+      "a_savoir": [
+        "Date limite très proche : 25 mai 2026 (3 jours à partir du 22 mai 2026)",
+        "Contenu limité : les informations critiques sur les conditions de participation, les frais et la prise en charge manquent",
+        "Nature du programme peu claire : il s'agit d'un festival communautaire avec des stands, pas d'une exposition d'art traditionnelle"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Wakefield",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune mention de rémunération, bourse ou per diem"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucune mention de logement fourni"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucune mention d'espace de travail ou d'équipements fournis"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucune mention de prise en charge des frais de voyage, production ou transport"
+        }
+      ]
+    },
+    {
       "uid": "17abfa82",
       "type": "exposition",
       "source_url": "https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel",
-      "fetched_at": "2026-05-22T10:09:17+00:00",
-      "score": 8,
+      "fetched_at": "2026-05-22T11:47:29+00:00",
+      "score": 7,
       "status": "indetermine",
       "opportunite": {
         "nom": "Offres création numérique clé-en-main pour le réseau culturel",
         "organisme": "Institut français",
         "lieu": {
           "ville": null,
-          "pays": "France"
+          "pays": null
         }
       },
       "candidature": {
@@ -3246,13 +4834,14 @@
         ],
         "frais_inscription": null,
         "pieces_demandees": null,
-        "url_candidature": null
+        "url_candidature": "https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel"
       },
       "eligibilite": {
         "disciplines": [
           "Création numérique",
           "Cinéma",
-          "Arts Visuels / Photographie"
+          "Arts Visuels",
+          "Photographie"
         ],
         "niveau_carriere": null,
         "age_max": null,
@@ -3260,9 +4849,7 @@
         "residence_administrative": null
       },
       "conditions_exposition": {
-        "lieux": [
-          "établissements du réseau culturel ou partenaires"
-        ],
+        "lieux": [],
         "dates_exposition": null,
         "format": null,
         "prise_en_charge": {
@@ -3278,16 +4865,16 @@
       },
       "partenaires": [],
       "analyse": {
-        "synthese": "L'Institut français propose au réseau culturel une offre de programmation 'clé-en-main' visant à valoriser à l'international la création numérique française. L'Institut fournit les droits de diffusion non commerciale et les fichiers des œuvres, ainsi qu'un kit de communication complet. L'organisation de l'événement sur place reste à la charge de l'établissement bénéficiaire. L'offre couvre plusieurs domaines : séries courtes numériques (Binge), catalogue XR, et exposition Escape.",
-        "pour_qui": "Établissements du réseau culturel français situés à l'étranger et leurs partenaires."
+        "synthese": "L'Institut français propose au réseau culturel une offre de programmation 'clé-en-main' incluant Binge (série courte et digitale), le Catalogue XR et l'exposition Escape. L'Institut français fournit les fichiers des œuvres et un kit de communication complet. L'organisation de l'événement sur place reste à la charge de l'établissement du réseau.",
+        "pour_qui": "Établissements du réseau culturel français et leurs partenaires souhaitant programmer des contenus de création numérique français."
       },
       "a_savoir": [
-        "Ce n'est pas un appel à candidature au sens classique : pas de date limite, pas d'éligibilité définie.",
-        "L'organisation de l'événement sur place est entièrement à la charge de l'établissement bénéficiaire.",
-        "Les droits concédés sont limités à la diffusion non commerciale en établissements."
+        "Offre destinée aux institutions culturelles, non aux artistes individuels",
+        "Organisation et logistique de l'événement à la charge de l'établissement accueillant",
+        "Aucune rémunération ou aide financière mentionnée pour les institutions"
       ],
       "organisme_details": {
-        "site_web": "https://www.institutfrancais.com",
+        "site_web": null,
         "adresse": null,
         "ville": null,
         "contact_email": null
@@ -3296,22 +4883,22 @@
         {
           "id": "retribution",
           "rempli": "non",
-          "justification": "Aucune rétribution, bourse ou per diem mentionné pour les artistes."
+          "justification": "Aucune rétribution monétaire pour artistes. Il s'agit d'une offre de mise à disposition de contenus aux institutions."
         },
         {
           "id": "hebergement",
           "rempli": "non",
-          "justification": "Aucun hébergement fourni mentionné."
+          "justification": "Aucun hébergement fourni."
         },
         {
           "id": "atelier",
           "rempli": "non",
-          "justification": "Aucun espace de travail ou atelier mis à disposition mentionné."
+          "justification": "Aucun espace de travail ou atelier. Offre de contenus numériques préexistants."
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "non",
-          "justification": "L'organisation de l'événement est à la charge de l'établissement ; aucune prise en charge de frais."
+          "rempli": "partiel",
+          "justification": "Institut français fournit fichiers et kit communication. Cependant, l'organisation de l'événement sur place est à charge de l'établissement."
         }
       ]
     },
@@ -3319,59 +4906,54 @@
       "uid": "19d31b22",
       "type": "exposition",
       "source_url": "https://www.cnap.fr/quinquennale-2027-soutien-frac-centres-dart",
-      "fetched_at": "2026-05-22T09:50:59+00:00",
+      "fetched_at": "2026-05-22T11:26:29+00:00",
       "score": 9,
       "status": "bientot-fermee",
       "opportunite": {
         "nom": "Soutien à la production dans le cadre de la Quinquennale 2027",
-        "organisme": "Centre national des arts plastiques (Cnap), organisé en partenariat avec le Palais de Tokyo et le Centre Pompidou",
+        "organisme": "Palais de Tokyo / Centre national des arts plastiques (CNAP)",
         "lieu": {
-          "ville": null,
+          "ville": "Paris",
           "pays": "France"
         }
       },
       "candidature": {
         "date_limite": "2026-06-18",
         "langue_dossier": [
-          "français"
+          "Français"
         ],
         "frais_inscription": null,
         "pieces_demandees": [
-          "Formulaire à compléter en ligne",
-          "Présentation du projet (maximum 7500 signes) avec visuels préparatoires et éléments illustrant le contexte",
-          "Engagements ou lettres d'intention des partenaires et coproducteurs (le cas échéant)",
-          "Curriculum vitæ et portfolio de l'artiste ou document regroupant l'ensemble des informations sur les artistes",
-          "Budget et devis principaux pour tous les postes de production",
-          "Justificatifs et engagements écrits des partenaires en cas de cofinancement",
-          "Contrats avec les artistes ou auteurs impliqués",
-          "Copie de l'acte de création (extrait Kbis ou attestation d'immatriculation) ou statuts signés et récépissé de dépôt de déclaration",
-          "Liste des membres du conseil d'administration ou du bureau",
+          "Formulaire en ligne",
+          "Présentation du projet (max 7 500 signes) avec visuels préparatoires",
+          "CV et portfolio des artistes",
+          "Budget prévisionnel et devis principaux",
+          "Engagements ou lettres d'intention des partenaires (le cas échéant)",
+          "Contrats avec les artistes/auteurs (en cas de cofinancement)",
+          "Copie KBIS (si entreprise) ou statuts signés (si association)",
           "Relevé d'identité bancaire (RIB) complet",
-          "5 visuels en format .jpg légendés"
+          "5 visuels JPG légendés illustrant le projet et/ou le travail des artistes"
         ],
-        "url_candidature": "https://www.cnap.fr/quinquennale-2027-soutien-frac-centres-dart"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
           "Arts plastiques et visuels",
           "Photographie",
           "Œuvres sonores",
-          "Œuvres numériques",
+          "Arts numériques",
           "Arts graphiques",
           "Performance"
         ],
-        "niveau_carriere": "Artistes vivants ayant une pratique professionnelle reconnue",
+        "niveau_carriere": "Pratique professionnelle reconnue, sans limite d'âge",
         "age_max": null,
-        "nationalite": "Artistes de nationalité française quel que soit le lieu de résidence, ou artistes étrangers résidant en France de manière permanente",
-        "residence_administrative": "France",
-        "demandeur": "Fonds régional d'art contemporain (Frac) ou centre d'art labellisé d'intérêt national ou conventionné par le ministère de la Culture"
+        "nationalite": "Artistes de nationalité française quel que soit le lieu de résidence, ou de nationalité étrangère résidant en France de manière permanente",
+        "residence_administrative": "France (résidence permanente requise pour les artistes étrangers)"
       },
       "conditions_exposition": {
-        "lieux": [
-          "Exposition organisée par la structure bénéficiaire, dans ou hors les murs"
-        ],
-        "dates_exposition": "Entre le 1er septembre 2027 et le 30 juin 2028",
-        "format": "collective|personnelle",
+        "lieux": null,
+        "dates_exposition": "Entre le 1er septembre 2027 et le 30 juin 2028 (dates butoirs de début d'exposition). La Quinquennale se tient en octobre 2027 pour une durée de trois mois.",
+        "format": null,
         "prise_en_charge": {
           "production": true,
           "transport": {
@@ -3380,36 +4962,27 @@
             "devise": "EUR"
           },
           "per_diem": true,
-          "hebergement_vernissage": false
-        },
-        "montants_solicitables": [
-          {
-            "montant": 10000,
-            "devise": "EUR"
-          },
-          {
-            "montant": 15000,
-            "devise": "EUR"
-          }
-        ],
-        "financement": "50% maximum du Cnap, 50% de la structure et partenaires (valorisation en nature comprise)"
+          "hebergement_vernissage": null
+        }
       },
       "partenaires": [
         "Palais de Tokyo",
         "Centre Pompidou",
-        "Centre national des arts plastiques (Cnap)"
+        "Centre national des arts plastiques (CNAP)",
+        "Ministère de la Culture"
       ],
       "analyse": {
-        "synthese": "Le Cnap propose un dispositif de soutien à la production destiné aux Frac et centres d'art labellisés, finançant la création et la présentation d'expositions en lien avec la Quinquennale 2027 (octobre 2027, trois mois). Le soutien couvre la recherche et production des œuvres, la rémunération des artistes et commissaires, ainsi que les frais de transport, à hauteur de 10 000 € ou 15 000 € avec cofinancement 50-50. Les expositions doivent intégrer principalement des artistes français (minimum 60 % en cas de collectif) et peuvent se tenir entre septembre 2027 et juin 2028. Les candidatures sont à déposer en ligne du 11 mai au 18 juin 2026 à 13h.",
-        "pour_qui": "Frac et centres d'art labellisés conventionnés par le ministère de la Culture, proposant une exposition en partenariat avec des artistes de la scène française en lien avec la Quinquennale 2027."
+        "synthese": "Le CNAP propose une aide à la production artistique destinée aux Frac et centres d'art labellisés dans le cadre de la Quinquennale 2027 (octobre 2027, trois mois). Les bénéficiaires peuvent demander 10 000 € ou 15 000 € pour produire des œuvres destinées à une exposition labellisée Quinquennale. Les artistes doivent être de la scène française (nationalité française ou résidence permanente en France) ; en exposition collective, au minimum 60 % doivent être français. Le soutien couvre la rémunération des artistes, les frais de résidence, le transport des œuvres, et les frais de production. L'exposition doit se tenir entre le 1er septembre 2027 et le 30 juin 2028, en coproduction ou partenariat.",
+        "pour_qui": "Les Frac et centres d'art labellisés d'intérêt national ou conventionnés par le ministère de la Culture, souhaitant coproduire des expositions avec des artistes de la scène française dans le cadre de la Quinquennale 2027."
       },
       "a_savoir": [
-        "Appel destiné aux structures intermédiaires (Frac/centres d'art), non aux artistes individuels",
-        "Nouveau dispositif du Cnap, pas d'historique d'éditions précédentes",
-        "Obligation d'au moins 60 % d'artistes français en cas d'exposition collective",
-        "Montants limités (10 000 € ou 15 000 €) avec cofinancement obligatoire",
-        "Production ne peut pas avoir débuté avant la tenue du comité (juillet 2026)",
-        "Dossier en français requis"
+        "Date limite très courte : 18 juin 2026 à 13h précises, avec clôture stricte et aucun délai supplémentaire accordé",
+        "Demandeur doit être une institution labellisée (Frac ou centre d'art), pas un artiste individuel",
+        "Artistes : scène française exclusivement (nationalité française ou résidence permanente en France)",
+        "En exposition collective : minimum 60 % d'artistes français requis",
+        "Budget : doit être à l'équilibre avec apport CNAP limité à 50 % ; structure/partenaires assurent minimum 50 %",
+        "Production : ne peut pas débuter avant le comité prévue en juillet 2026",
+        "Dossier complexe : nombreux justificatifs requis (KBIS/statuts, RIB, portfolio, devis, engagements partenaires, contrats avec artistes)"
       ],
       "organisme_details": {
         "site_web": "https://www.cnap.fr",
@@ -3421,37 +4994,37 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "Le soutien couvre 'la rémunération du ou des artistes impliqués dans le projet, leurs honoraires et frais de résidence le cas échéant'"
+          "justification": "Rémunération du ou des artistes impliqués dans le projet, leurs honoraires et frais de résidence le cas échéant"
         },
         {
           "id": "hebergement",
-          "rempli": "non",
-          "justification": "Les frais de résidence des artistes peuvent être couverts, mais aucun logement n'est directement mis à disposition par l'organisme"
+          "rempli": "partiel",
+          "justification": "Frais de résidence le cas échéant sont couverts sous forme d'honoraires, mais pas d'hébergement directement fourni par l'organisme"
         },
         {
           "id": "atelier",
           "rempli": "non",
-          "justification": "Aucune mention d'atelier ou d'espace de travail fourni par l'organisme"
+          "justification": "Aucun espace de travail, atelier ou équipements ne sont fournis par le programme"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "oui",
-          "justification": "Le soutien couvre 'les frais de transport des œuvres' et 'le travail de recherche et de production du ou des œuvres de l'exposition'"
+          "justification": "Frais de transport des œuvres, rémunération des artistes et commissaires, frais de production et de recherche sont couverts"
         }
       ]
     },
     {
-      "uid": "6428752c",
+      "uid": "1b321056",
       "type": "exposition",
-      "source_url": "https://www.cnap.fr/programme-suite/agenda/programme-suite-2026",
-      "fetched_at": "2026-05-22T09:49:04+00:00",
-      "score": 8,
+      "source_url": "https://www.cnap.fr/actualites/evenements/olga-boudin-pour-qui-brille-le-soleil",
+      "fetched_at": "2026-05-22T11:22:27+00:00",
+      "score": 7,
       "status": "indetermine",
       "opportunite": {
-        "nom": "Programme Suite 2026",
-        "organisme": "Centre national des arts plastiques (CNAP)",
+        "nom": "Pour qui brille le soleil",
+        "organisme": "La Tôlerie",
         "lieu": {
-          "ville": "Paris",
+          "ville": "Clermont-Ferrand",
           "pays": "France"
         }
       },
@@ -3464,9 +5037,9 @@
       },
       "eligibilite": {
         "disciplines": [
-          "Arts visuels",
-          "Création contemporaine",
-          "Photographie documentaire"
+          "arts visuels",
+          "peinture",
+          "vitrail"
         ],
         "niveau_carriere": null,
         "age_max": null,
@@ -3475,112 +5048,10 @@
       },
       "conditions_exposition": {
         "lieux": [
-          "La Tôlerie (Clermont-Ferrand, Auvergne-Rhône-Alpes)",
-          "Le Ravitaillement (Gavray-sur-Sienne, Normandie)",
-          "Le Transfo (Aulon, Occitanie)",
-          "gr_und (Berlin, Allemagne)",
-          "KOMMET (Lyon, Auvergne-Rhône-Alpes)",
-          "Semis, lieu de fabrication (Berny-Rivière, Hauts-de-France)",
-          "MEAN (Saint-Nazaire, Pays de la Loire)"
+          "La Tôlerie, 10 rue de Bien Assis, 63100 Clermont-Ferrand"
         ],
-        "dates_exposition": "16 mai 2026 – 29 novembre 2026",
-        "format": "collective",
-        "prise_en_charge": {
-          "production": null,
-          "transport": {
-            "pris_en_charge": null,
-            "plafond": null,
-            "devise": "EUR"
-          },
-          "per_diem": null,
-          "hebergement_vernissage": null
-        }
-      },
-      "partenaires": [
-        "Académie des beaux-arts"
-      ],
-      "analyse": {
-        "synthese": "Le Programme Suite 2026 est la 12e édition d'un programme du CNAP en partenariat avec l'Académie des beaux-arts, présentant 7 projets artistiques ayant bénéficié d'un soutien antérieur du CNAP. Ces projets sont exposés dans 6 lieux indépendants pilotés par des artistes ou jeunes commissaires, dont 1 à l'international (Berlin). Les expositions s'échelonnent du 16 mai au 29 novembre 2026 sur tout le territoire français et en Allemagne, dans des espaces tournés vers l'émergence et l'expérimentation.",
-        "pour_qui": "Artistes ayant obtenu un soutien du CNAP (soutien à un projet artistique ou à la photographie documentaire contemporaine) dont les travaux sont sélectionnés pour bénéficier d'une exposition."
-      },
-      "a_savoir": [
-        "Il ne s'agit pas d'un appel à candidature ouvert : les artistes et projets ont déjà été sélectionnés.",
-        "Aucune information n'est fournie sur les conditions de rémunération, d'hébergement, de production ou de transport."
-      ],
-      "organisme_details": {
-        "site_web": "https://www.cnap.fr/",
-        "adresse": null,
-        "ville": "Paris",
-        "contact_email": null
-      },
-      "criteres_programme": [
-        {
-          "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "Le programme « accompagne les artistes » mais aucune mention explicite de rémunération, bourse ou per diem."
-        },
-        {
-          "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "Une « résidence » est mentionnée pour Antoine Dochniak (7-20 septembre 2026), mais pas pour les autres artistes."
-        },
-        {
-          "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "Mention d'« espace de production » pour la résidence d'Antoine Dochniak, mais pas de détails sur les équipements fournis pour les autres expositions."
-        },
-        {
-          "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "Le programme vise à « rendre possible des expositions significatives » mais aucun détail sur la couverture du voyage, transport d'œuvres ou production."
-        }
-      ]
-    },
-    {
-      "uid": "966f8ed7",
-      "type": "exposition",
-      "source_url": "https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026",
-      "fetched_at": "2026-05-22T10:03:57+00:00",
-      "score": 8,
-      "status": "indetermine",
-      "opportunite": {
-        "nom": "Saison Méditerranée 2026",
-        "organisme": "Institut français",
-        "lieu": {
-          "ville": "Marseille",
-          "pays": "France"
-        }
-      },
-      "candidature": {
-        "date_limite": null,
-        "langue_dossier": null,
-        "frais_inscription": null,
-        "pieces_demandees": null,
-        "url_candidature": "http://www.saisonmediterranee2026.com/"
-      },
-      "eligibilite": {
-        "disciplines": [
-          "Architecture",
-          "Arts Visuels / Photographie",
-          "Cinéma",
-          "Création numérique",
-          "Débat d'idées",
-          "Livre",
-          "Métiers d'art / Design",
-          "Spectacle vivant / Musique"
-        ],
-        "niveau_carriere": null,
-        "age_max": null,
-        "nationalite": null,
-        "residence_administrative": null
-      },
-      "conditions_exposition": {
-        "lieux": [
-          "France (ensemble du territoire)",
-          "Rives de la Méditerranée"
-        ],
-        "dates_exposition": "15 mai - 31 octobre 2026",
-        "format": null,
+        "dates_exposition": "16 mai - 11 juillet 2026",
+        "format": "personnelle",
         "prise_en_charge": {
           "production": false,
           "transport": {
@@ -3593,45 +5064,781 @@
         }
       },
       "partenaires": [
-        "Ministère de l'Europe et des Affaires étrangères",
+        "Cnap",
+        "Académie des beaux-arts",
+        "Ville de Clermont-Ferrand",
         "Ministère de la Culture",
-        "Délégation interministérielle à la Méditerranée"
+        "DRAC Auvergne–Rhône-Alpes",
+        "Région Auvergne–Rhône-Alpes"
       ],
       "analyse": {
-        "synthese": "La Saison Méditerranée 2026 est un programme porté par le ministère de l'Europe et des Affaires étrangères et le ministère de la Culture, mis en œuvre par l'Institut français. Elle met en lumière la créativité et la diversité des cultures des rives de la Méditerranée entre le 15 mai et le 31 octobre 2026, sur l'ensemble du territoire français et les rives méditerranéennes. Le programme s'articule autour de 5 thématiques : les utopies spéculatives, les identités plurielles, les spiritualités contemporaines, l'histoire collective des migrations, et la construction des récits. L'appel à projets pour les structures, organisé en deux phases, est désormais clos.",
-        "pour_qui": "Artistes, créateurs, créatrices et jeunes talents des rives de la Méditerranée travaillant dans les disciplines reconnues par le programme."
+        "synthese": "Exposition personnelle d'Olga Boudin présentant le versant pictural de son projet « Le ciel traverse bien les fenêtres ». L'exposition se tient du 16 mai au 11 juillet 2026 à La Tôlerie, centre d'art contemporain de Clermont-Ferrand, dans le cadre du programme Suite 2026. Le projet explore le vitrail comme pratique politique, installé dans des lieux de propriété collective en ruralité.",
+        "pour_qui": "Artistes et visiteurs intéressés par les arts visuels contemporains, la peinture, le vitrail et les enjeux de propriété collective et d'égalité."
       },
-      "a_savoir": [
-        "L'appel à projets est clos ; plus de candidatures acceptées",
-        "Ceci est un appel à projets pour structures/organisations, non pour artistes individuels",
-        "Première édition du programme en 2026"
-      ],
+      "a_savoir": [],
       "organisme_details": {
-        "site_web": "http://www.saisonmediterranee2026.com/",
-        "adresse": null,
-        "ville": "Marseille",
+        "site_web": null,
+        "adresse": "10 rue de Bien Assis, 63100 Clermont-Ferrand",
+        "ville": "Clermont-Ferrand",
         "contact_email": null
       },
       "criteres_programme": [
         {
           "id": "retribution",
           "rempli": "inconnu",
-          "justification": "Aucune mention de rémunération, bourse ou dotation monétaire pour les artistes"
+          "justification": "Aucune information sur rémunération, bourse ou dotation pour l'artiste exposée."
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "Aucune mention de logement mis à disposition"
+          "justification": "Aucune information sur fourniture de logement."
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "Aucune mention d'espace de production ou d'équipements fournis"
+          "justification": "Aucune information sur espace de travail ou atelier fourni."
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
-          "justification": "Aucune mention de prise en charge de voyage, production ou transport"
+          "justification": "Aucune information sur prise en charge de frais (transport, production, etc.)."
+        }
+      ]
+    },
+    {
+      "uid": "25cb07d2",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/places-and-spaces-art-exhibition/10521",
+      "fetched_at": "2026-05-22T12:27:00+00:00",
+      "score": 8,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "The Horton Places and Spaces Art Exhibition 2026",
+        "organisme": "The Horton",
+        "lieu": {
+          "ville": "Epsom",
+          "pays": "United Kingdom"
+        },
+        "nom_fr": "Exposition d'Art Lieux et Espaces",
+        "affichage_titre": "Places and Spaces Art Exhibition [Exposition d'Art Lieux et Espaces]"
+      },
+      "candidature": {
+        "date_limite": "2026-05-22",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": null
+        },
+        "pieces_demandees": [
+          "Image numérique de l'œuvre (2 à 4 mb)",
+          "Pour 2D: taille maximale 30cm x 42cm (A3)",
+          "Pour 3D: largeur maximale 50cm"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/places-and-spaces-art-exhibition/10521"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "dessin",
+          "peinture",
+          "collage",
+          "couture",
+          "sculpture"
+        ],
+        "niveau_carriere": "young artists",
+        "age_max": 18,
+        "nationalite": null,
+        "residence_administrative": "Children and young people living or attending a school in the borough of Epsom and Ewell"
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "The Horton's atrium gallery space"
+        ],
+        "dates_exposition": "17–30 June 2026",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "GBP"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "Epsom Civic Society"
+      ],
+      "analyse": {
+        "synthese": "The Horton organise une exposition collective gratuite d'art visuel à Epsom, Royaume-Uni, du 17 au 30 juin 2026. Le programme s'adresse aux enfants et jeunes de 7 à 18 ans résidant ou scolarisés dans le borough d'Epsom et Ewell. Les participants créent des œuvres 2D ou 3D explorant le thème des lieux et espaces à Epsom. Les œuvres sélectionnées sont exposées à la galerie de l'atrium du Horton; les autres sont affichées sur écran numérique. Les artistes doivent soumettre des images numériques entre le 5 et le 22 mai 2026.",
+        "pour_qui": "Cette exposition s'adresse aux enfants et jeunes artistes (7-18 ans) vivant ou scolarisés dans le borough d'Epsom et Ewell, qui souhaitent explorer visuellement les lieux et espaces significatifs de leur communauté locale."
+      },
+      "a_savoir": [
+        "Éligibilité strictement limitée à la résidence ou scolarité dans le borough d'Epsom et Ewell",
+        "Les candidats sous 18 ans doivent être enregistrés par un parent ou tuteur sur CuratorSpace",
+        "Chaque artiste ne peut soumettre qu'une seule œuvre",
+        "Exigences strictes de format: 30cm x 42cm maximum pour les œuvres 2D, 50cm de largeur maximum pour les 3D",
+        "Images numériques obligatoirement entre 2 et 4 mb"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Haven Way, Epsom KT19 8NP",
+        "ville": "Epsom",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune rémunération, bourse, per diem ou dotation monétaire mentionnée pour les participants"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun logement mis à disposition"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de production ou atelier fourni; les artistes créent indépendamment"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "L'exposition est gratuite à intégrer mais aucun frais de voyage, de production ou de transport d'œuvres n'est couvert"
+        }
+      ]
+    },
+    {
+      "uid": "40b2a7bf",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-justart-newspaper-club-issue/10618",
+      "fetched_at": "2026-05-22T12:36:30+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Open Call for JustArt Newspaper Club Issue 6",
+        "organisme": "JustArt Collective",
+        "lieu": {
+          "ville": null,
+          "pays": "United Kingdom"
+        },
+        "nom_fr": "Appel à candidature - JustArt Newspaper Club Numéro 6",
+        "affichage_titre": "Open Call for JustArt Newspaper Club Issue 6 [Appel à candidature - JustArt Newspaper Club Numéro 6]"
+      },
+      "candidature": {
+        "date_limite": "2026-05-25",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "English"
+        ],
+        "frais_inscription": {
+          "montant": 38,
+          "devise": "GBP",
+          "description": "Required for selected participants. Includes digital copy of newspaper."
+        },
+        "pieces_demandees": [
+          "5-8 images of artwork",
+          "Description of work",
+          "Artist bio",
+          "Artist statement",
+          "For curators: past projects, project concepts, and 5-8 accompanying images"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/open-call-for-justart-newspaper-club-issue/10618"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Contemporary art"
+        ],
+        "niveau_carriere": "emerging and mid-career",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Various art exhibitions across the UK",
+          "JustArt Collective venues (selective)"
+        ],
+        "dates_exposition": null,
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "GBP"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "JustArt Collective",
+        "Artflow",
+        "Whitespace Gallery Edinburgh",
+        "Chilli Gallery London",
+        "Fitzrovia Gallery London",
+        "Photofusion Gallery London",
+        "NewBridge Books",
+        "Kafka Bookshop",
+        "Our Culture Mag",
+        "Visual Art Journal"
+      ],
+      "analyse": {
+        "synthese": "Open call for JustArt Newspaper Club Issue 6, themed on 'Liquidity' exploring how artists' original culture shapes their work when based abroad. Accepts submissions from emerging and mid-career contemporary artists and curators. Required submission: 5-8 images with bio and statement. Participation fee: £38 includes digital newspaper copy. Selected participants receive social media exposure (5K+ followers), newspaper distribution across UK art exhibitions, and possible free exhibition selection (1-2 participants).",
+        "pour_qui": "Emerging and mid-career contemporary artists and curators interested in themes of migration, displacement, and artistic identity across cultures."
+      },
+      "a_savoir": [
+        "Participation fee of £38 required for selected participants",
+        "Extremely tight deadline: 25/05/2026",
+        "Digital copy only; no physical newspaper included",
+        "Exhibition opportunity is selective (only 1-2 participants chosen for free exhibitions)",
+        "No production support, travel funding, accommodation, or per diem provided",
+        "Primarily a newspaper publication opportunity, not a traditional exhibition residency"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "United Kingdom (founded in Hong Kong, active in UK)",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "No monetary remuneration, bourse, or dotation. Participation fee of £38 is required from selected participants."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "No accommodation or housing provided to participants."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "No workspace, studio, or production equipment provided."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "No travel, production, transport, or material costs covered by organizer."
+        }
+      ]
+    },
+    {
+      "uid": "6428752c",
+      "type": "exposition",
+      "source_url": "https://www.cnap.fr/programme-suite/agenda/programme-suite-2026",
+      "fetched_at": "2026-05-22T11:24:08+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Programme Suite 2026",
+        "organisme": "Centre national des arts plastiques (Cnap)",
+        "lieu": {
+          "ville": null,
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "arts plastiques"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "La Tôlerie, Clermont-Ferrand",
+          "Le Ravitaillement, Gavray-sur-Sienne",
+          "Le Transfo, Aulon",
+          "gr_und, Berlin",
+          "KOMMET, Lyon",
+          "Semis, lieu de fabrication, Berny-Rivière",
+          "MEAN, Saint-Nazaire"
+        ],
+        "dates_exposition": "16 mai 2026 - 30 avril 2027",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "Académie des beaux-arts"
+      ],
+      "analyse": {
+        "synthese": "Le Programme Suite 2026 est une exposition collective de sept artistes préalablement soutenus par le Centre national des arts plastiques, se déroulant de mai 2026 à avril 2027 dans six lieux en France et en Allemagne. Ce programme vise à donner une visibilité publique à des projets ayant bénéficié du soutien à un projet artistique ou du soutien à la photographie documentaire contemporaine du Cnap. Il s'inscrit dans la 12e édition du programme Suite, en partenariat avec l'Académie des beaux-arts, et accompagne les artistes dans des réflexions sur les modes de production et de fabrication des œuvres.",
+        "pour_qui": "Artistes ayant reçu un soutien antérieur du Centre national des arts plastiques pour un projet artistique ou pour la photographie documentaire contemporaine."
+      },
+      "a_savoir": [
+        "Ce n'est pas un appel à candidatures ouvert : les artistes sont présélectionnés par les programmes de soutien existants du Cnap.",
+        "Un lieu du programme se situe en Allemagne (Berlin), les autres en France.",
+        "Les modalités d'accompagnement financier et de prise en charge des frais ne sont pas détaillées dans ce contenu.",
+        "Une résidence de création est proposée pour un artiste (Antoine Dochniak) au lieu « Semis, lieu de fabrication »."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune mention de rémunération, bourse, per diem ou dotation versée aux artistes par le programme."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun hébergement n'est mentionné comme étant fourni pendant le programme."
+        },
+        {
+          "id": "atelier",
+          "rempli": "partiel",
+          "justification": "Un espace de travail est fourni pour au moins un artiste : 'Semis, lieu de fabrication' avec une résidence du 7 au 20 septembre 2026 pour Antoine Dochniak. Cependant, cet accompagnement ne concerne qu'un artiste sur sept."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucune mention de prise en charge du voyage, de la production, du transport d'œuvres ou du matériel par l'organisme."
+        }
+      ]
+    },
+    {
+      "uid": "6c232e5c",
+      "type": "exposition",
+      "source_url": "https://www.rurart.org/exposition-medecine-castor-suzanne-husky",
+      "fetched_at": "2026-05-22T12:08:52+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Exposition - Médecine Castor - Suzanne Husky",
+        "organisme": "Rurart",
+        "lieu": {
+          "ville": "Rouillé",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts plastiques et visuels"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Rurart",
+          "Confort Moderne"
+        ],
+        "dates_exposition": "2026-03-12 à 2026-06-14",
+        "format": "personnelle",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "FRAC Poitou-Charentes",
+        "Fondation Carasso",
+        "Région Nouvelle-Aquitaine",
+        "DRAC Nouvelle-Aquitaine",
+        "Réseau Astre",
+        "Ministère de l'Agriculture et de l'Alimentation",
+        "Ministère de la Culture",
+        "Département de la Vienne",
+        "Communauté urbaine Grand Poitiers",
+        "Commune de Rouillé"
+      ],
+      "analyse": {
+        "synthese": "Exposition monographique de Suzanne Husky du 12 mars au 14 juin 2026, présentée par Rurart. Le projet est porté par le FRAC Poitou-Charentes et soutenu par la Fondation Carasso, la Région Nouvelle-Aquitaine, la DRAC et le réseau Astre. Vernissage gratuit le 12 mars 2026 à 18h30 en présence de l'artiste. Conférence gratuite le 11 mars 2026 à 19h30 au Confort Moderne.",
+        "pour_qui": "Cette exposition s'adresse aux publics intéressés par l'art contemporain, les enjeux environnementaux, la régénération des écosystèmes et l'histoire des paysages."
+      },
+      "a_savoir": [
+        "Ceci n'est pas un appel à candidature artistique, mais une exposition programmée.",
+        "Entrée gratuite au vernissage et à la conférence."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.rurart.org",
+        "adresse": null,
+        "ville": "Rouillé",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune rémunération, bourse ou dotation monétaire n'est proposée. Il s'agit d'une exposition, non d'un programme de résidence ou de bourse."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun hébergement n'est mentionné ou proposé."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de travail, atelier ou équipements de production ne sont fournis."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucun frais de voyage, production ou transport ne sont couverts."
+        }
+      ]
+    },
+    {
+      "uid": "88d8f72a",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/pink--international-photography-exhibition/10545",
+      "fetched_at": "2026-05-22T12:28:42+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Pink 2026, International Photography Exhibition",
+        "organisme": "The Glasgow Gallery of Photography",
+        "lieu": {
+          "ville": "Glasgow",
+          "pays": "United Kingdom"
+        },
+        "nom_fr": "Pink 2026, Exposition photographique internationale",
+        "affichage_titre": "Pink 2026, International Photography Exhibition [Pink 2026, Exposition photographique internationale]"
+      },
+      "candidature": {
+        "date_limite": "2026-05-22",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Up to 8 images in JPEG format",
+          "72 ppi for initial submission",
+          "300 ppi and 3000 pixels minimum on shortest side if selected",
+          "Correct file naming (Firstname-Surname1, etc.)"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/pink--international-photography-exhibition/10545"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Photography"
+        ],
+        "niveau_carriere": "open",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "The Glasgow Gallery of Photography"
+        ],
+        "dates_exposition": "4–30 September 2026",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "GBP"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Pink 2026 est un appel à candidatures pour une exposition photographique d'un mois à la Glasgow Gallery of Photography. Les soumissions sont gratuites et ouvertes à tous les photographes (amateurs ou professionnels, émergents ou établis). Chaque candidat peut soumettre jusqu'à 8 images en JPEG à 72 ppi. Si sélectionné, une participation de £48 est demandée, couvrant l'impression, l'installation et le désinstallation des œuvres par la galerie. L'exposition se tiendra du 4 au 30 septembre 2026 à la Glasgow Gallery of Photography qui reçoit plus de 500 visiteurs mensuels.",
+        "pour_qui": "Photographes de tous niveaux (amateurs, professionnels, émergents ou établis) intéressés par la thématique 'Pink'."
+      },
+      "a_savoir": [
+        "Frais de participation £48 requis après sélection",
+        "Les cadres utilisés appartiennent à la galerie ; l'artiste récupère uniquement l'impression",
+        "Les tirages doivent être retirés dans un délai d'un mois après l'exposition",
+        "Exigences strictes de nommage des fichiers (Firstname-Surname1, etc.) ; les fichiers mal nommés risquent d'être perdus ou égarés",
+        "Exigences de résolution différentes : 72 ppi pour la soumission initiale, 300 ppi et minimum 3000 pixels si sélectionné"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Glasgow",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune rémunération, bourse ou per diem mentionné. Les participants sélectionnés ne reçoivent qu'un certificat numérique et une chance d'être nommés 'Photographer of the Month'."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun hébergement fourni."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de travail ou équipements fournis aux artistes."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "La galerie prend en charge l'impression, l'installation et le désinstallation des œuvres. Le transport des œuvres n'est pas mentionné comme pris en charge. Les frais de participation (£48) couvrent ces coûts."
+        }
+      ]
+    },
+    {
+      "uid": "9660f373",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/childhood-special-edition/10648",
+      "fetched_at": "2026-05-22T12:41:04+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Childhood/ Special Edition",
+        "organisme": null,
+        "lieu": {
+          "ville": "Tbilisi",
+          "pays": "Georgia"
+        },
+        "nom_fr": "Enfance / Édition Spéciale",
+        "affichage_titre": "Childhood/ Special Edition [Enfance / Édition Spéciale]"
+      },
+      "candidature": {
+        "date_limite": "2026-05-27",
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": 0,
+          "devise": null
+        },
+        "pieces_demandees": [
+          "Up to 12 photos",
+          "Details of the work (title, medium, size, year, description)",
+          "Brief biography",
+          "Artist statement (min 100 words)",
+          "Website",
+          "Social media links"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/childhood-special-edition/10648"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "painting",
+          "drawing",
+          "collage",
+          "installation",
+          "illustration",
+          "photography",
+          "sculpture",
+          "ceramics",
+          "textiles",
+          "assemblage",
+          "fiber art",
+          "paper art",
+          "printmaking",
+          "3D digital art",
+          "glass art",
+          "metalwork"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "Worldwide",
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Magazine (print and digital)",
+          "Art Gallery in Tbilisi, Georgia (for selected artists)"
+        ],
+        "dates_exposition": null,
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Appel à candidatures pour une publication magazine spécialisée sur le thème de l'enfance, ouvert aux artistes du monde entier âgés de 18 ans minimum. Les artistes sélectionnés verront leurs créations publiées dans le magazine (formats imprimé et numérique, 2-6 pages) avec biographie et déclaration. L'application est gratuite ; des frais de participation de 25 EUR s'appliquent en cas d'acceptation. Les artistes publiés reçoivent un exemplaire numérique du magazine et bénéficient d'une visibilité promotionnelle. Des artistes exceptionnels seront potentiellement inclus dans le livre « 101 Contemporary Artists and More » et exposés à la galerie de Tbilissi (170 m²).",
+        "pour_qui": "Artistes du monde entier, tous niveaux de carrière et disciplines (peinture, photographie, sculpture, etc.), explorant le thème de l'enfance et souhaitant publier et obtenir une visibilité dans une revue d'art."
+      },
+      "a_savoir": [
+        "Frais de participation de 25 EUR requis uniquement en cas d'acceptation (application gratuite).",
+        "Aucune rémunération monétaire : visibilité reposant sur publication et promotion.",
+        "Exposition physique à la galerie de Tbilissi non garantie ; sélection selon critères curatoriales.",
+        "Nom officiel de l'organisme non mentionné explicitement.",
+        "Langue du dossier non spécifiée (probablement l'anglais)."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Tbilisi",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune rémunération, bourse ou per diem mentionnés. Les artistes reçoivent une publication magazine gratuite et une visibilité promotionnelle uniquement."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun logement fourni."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de production ou équipement fourni."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucun frais de voyage, production ou transport n'est pris en charge."
+        }
+      ]
+    },
+    {
+      "uid": "966f8ed7",
+      "type": "exposition",
+      "source_url": "https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026",
+      "fetched_at": "2026-05-22T11:41:24+00:00",
+      "score": 8,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Saison Méditerranée 2026",
+        "organisme": "Institut français",
+        "lieu": {
+          "ville": "Marseille",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Architecture",
+          "Arts Visuels",
+          "Photographie",
+          "Cinéma",
+          "Création numérique",
+          "Débat d'idées",
+          "Livre",
+          "Métiers d'art",
+          "Design",
+          "Spectacle vivant",
+          "Musique"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "France",
+          "rives de la Méditerranée"
+        ],
+        "dates_exposition": "15 mai - 31 octobre 2026",
+        "format": "festival",
+        "prise_en_charge": {
+          "production": null,
+          "transport": {
+            "pris_en_charge": null,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": null,
+          "hebergement_vernissage": null
+        }
+      },
+      "partenaires": [
+        "ministère de l'Europe et des Affaires étrangères",
+        "ministère de la Culture",
+        "Délégation interministérielle à la Méditerranée"
+      ],
+      "analyse": {
+        "synthese": "La Saison Méditerranée 2026 est un programme culturel du ministère de l'Europe et des Affaires étrangères, mis en œuvre par l'Institut français, s'échelonnant du 15 mai au 31 octobre 2026. Elle regroupe plus de 200 événements en France et sur les rives méditerranéennes, couvrant 11 disciplines artistiques. Elle s'organise autour de 5 thématiques : les utopies spéculatives, les identités plurielles, les spiritualités contemporaines, l'histoire collective des migrations et la construction des récits. L'appel à projets pour les structures est désormais clos.",
+        "pour_qui": "Cette page s'adresse aux structures culturelles et organisations artistiques partenaires labellisées pour la mise en œuvre d'événements."
+      },
+      "a_savoir": [
+        "L'appel à projets est clos ; aucune candidature active en cours",
+        "Cette page présente les résultats et non un formulaire de candidature"
+      ],
+      "organisme_details": {
+        "site_web": "http://www.saisonmediterranee2026.com/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Aucune information fournie sur rémunération ou bourse"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Aucune information fournie sur logement"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Aucune information fournie sur espace de travail"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Aucune information fournie sur prise en charge des frais"
         }
       ]
     },
@@ -3639,15 +5846,15 @@
       "uid": "a5664345",
       "type": "exposition",
       "source_url": "https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique",
-      "fetched_at": "2026-05-22T10:01:25+00:00",
-      "score": 9,
+      "fetched_at": "2026-05-22T11:39:00+00:00",
+      "score": 7,
       "status": "indetermine",
       "opportunite": {
-        "nom": "PIDA / Programme International de Diffusion Artistique",
+        "nom": "Programme International de Diffusion Artistique (PIDA)",
         "organisme": "Institut français",
         "lieu": {
           "ville": null,
-          "pays": null
+          "pays": "France"
         }
       },
       "candidature": {
@@ -3661,23 +5868,23 @@
       },
       "eligibilite": {
         "disciplines": [
-          "architecture",
-          "arts visuels",
-          "photographie",
-          "création numérique",
-          "métiers d'art",
-          "design",
-          "musiques",
-          "spectacle vivant"
+          "Architecture",
+          "Arts Visuels",
+          "Photographie",
+          "Création numérique",
+          "Design",
+          "Métiers d'art",
+          "Musique",
+          "Spectacle vivant"
         ],
         "niveau_carriere": null,
         "age_max": null,
-        "nationalite": "française",
-        "residence_administrative": null
+        "nationalite": "Française",
+        "residence_administrative": "France"
       },
       "conditions_exposition": {
-        "lieux": [],
-        "dates_exposition": "19 septembre 2025 - 06 novembre 2025",
+        "lieux": null,
+        "dates_exposition": null,
         "format": null,
         "prise_en_charge": {
           "production": null,
@@ -3690,16 +5897,16 @@
           "hebergement_vernissage": null
         }
       },
-      "partenaires": [],
+      "partenaires": null,
       "analyse": {
-        "synthese": "Le PIDA est l'appel à projets de l'Institut français destiné à la diffusion de la création artistique française à l'international. Il s'adresse à l'Institut français et son réseau diplomatique, aux équipes et institutions culturelles françaises, et aux structures étrangères accueillant des artistes français. Le programme couvre 8 disciplines : architecture, arts visuels, photographie, création numérique, design, métiers d'art, musiques, et spectacle vivant. Il accompagne des projets de diffusion, de coopération ainsi que la présence d'artistes français au sein de grandes manifestations prescriptrices.",
-        "pour_qui": "Artistes français, collectifs, compagnies, commissaires, institutions culturelles françaises (festivals, musées, centres d'art, studios, labels) et structures étrangères accueillant des artistes français en diffusion ou coopération."
+        "synthese": "Le PIDA est un appel à projets lancé par l'Institut français pour soutenir la diffusion de la création artistique française à l'international. Il s'adresse aux structures culturelles françaises, équipes artistiques, artistes, collectifs et institutions étrangères accueillant des artistes français. Le programme couvre huit disciplines (architecture, arts visuels, photographie, création numérique, design, métiers d'art, musique, spectacle vivant). Les conditions précises de financement et les modalités d'accompagnement des projets ne sont pas détaillées dans ce document de présentation générale.",
+        "pour_qui": "Artistes, collectifs et structures culturels français ou basés en France, ainsi que structures culturelles étrangères accueillant la création artistique française pour des projets de diffusion et coopération internationale."
       },
       "a_savoir": [
-        "Pas de date limite de candidature explicitement mentionnée",
-        "Page de présentation générale sans accès direct aux formulaires ou modalités détaillées d'application",
-        "Aucune information sur les frais d'inscription ou les conditions de prise en charge",
-        "Programme axé sur la diffusion internationale plutôt que sur une exposition locale unique"
+        "Appel à projets sans détails spécifiques sur les montants d'aide, frais d'inscription ou conditions de prise en charge",
+        "Pas de date limite de candidature mentionnée dans ce document",
+        "Éligibilité requérant la nationalité française ou une implantation en France",
+        "Programme très généraliste sans critères précis d'évaluation ou de sélection visibles"
       ],
       "organisme_details": {
         "site_web": "https://www.institutfrancais.com",
@@ -3711,22 +5918,22 @@
         {
           "id": "retribution",
           "rempli": "inconnu",
-          "justification": "Aucune mention de rémunération, bourse, per diem ou dotation monétaire aux artistes"
+          "justification": "Aucune mention de rémunération, bourse, per diem ou dotation monétaire dans le texte fourni"
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "Aucune mention d'hébergement fourni"
+          "justification": "Aucune mention de logement fourni aux artistes"
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "Aucune mention d'espace de travail ou d'équipements fournis"
+          "justification": "Aucune mention d'espace de production, atelier ou équipements fournis"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
-          "justification": "Aucune mention de prise en charge de voyage, production ou transport d'œuvres"
+          "justification": "Aucune mention de prise en charge du voyage, production, transport d'œuvres ou matériel"
         }
       ]
     },
@@ -3828,6 +6035,123 @@
       ]
     },
     {
+      "uid": "b20e8dcb",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/abstract-art/10643",
+      "fetched_at": "2026-05-22T12:37:51+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Abstract Art",
+        "organisme": null,
+        "lieu": {
+          "ville": "Tbilisi",
+          "pays": "Georgia"
+        },
+        "nom_fr": "Art Abstrait",
+        "affichage_titre": "Abstract Art [Art Abstrait]"
+      },
+      "candidature": {
+        "date_limite": "2026-05-26",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "candidature": {
+            "montant": 0,
+            "devise": "EUR"
+          },
+          "participation_si_accepte": {
+            "montant": 55,
+            "devise": "EUR"
+          }
+        },
+        "pieces_demandees": [
+          "Up to 12 photos",
+          "Details of the work (title, medium, size, year, description)",
+          "Brief biography",
+          "Artist statement (minimum 100 words)",
+          "Website link",
+          "Social media links"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "painting",
+          "drawing",
+          "photography",
+          "sculpture",
+          "ceramics",
+          "textile",
+          "installation",
+          "new media",
+          "mixed media"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Online exhibition",
+          "Art Gallery in Tbilisi, Georgia (170 sq. m)"
+        ],
+        "dates_exposition": "Month-long",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Appel à candidature pour une publication et exposition en ligne thématisée 'Abstract Art'. Les artistes sélectionnés seront publiés dans une galerie de 170 sq. m à Tbilisi et dans une revue papier/numérique avec 2-6 pages de présentation. Ouvert aux artistes mondiaux de 18 ans et plus. Frais de participation : 55 EUR si accepté (candidature gratuite). Deadline : 26 mai 2026.",
+        "pour_qui": "Artistes du monde entier âgés de 18 ans et plus pratiquant l'art abstrait et contemporain dans diverses disciplines."
+      },
+      "a_savoir": [
+        "Deadline extrêmement proche : 26 mai 2026 (4 jours restants)",
+        "Frais de participation de 55 EUR si l'artiste est sélectionné",
+        "Pas de rémunération monétaire directe ; compensation via publication et exposition uniquement",
+        "Aucune prise en charge des frais de transport ou de production"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Tbilisi",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "partiel",
+          "justification": "Les artistes reçoivent une publication (2-6 pages) et une exposition, mais pas de rémunération monétaire directe (bourse, per diem, dotation)"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucun hébergement n'est mentionné dans le texte"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de travail, atelier ou équipements ne sont fournis aux artistes"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucun frais de voyage, production ou transport n'est pris en charge. Les artistes paient 55 EUR s'ils sont acceptés"
+        }
+      ]
+    },
+    {
       "uid": "cb46598a",
       "type": "exposition",
       "source_url": "https://salondemontrouge.com/actualites/2-actualites.htm",
@@ -3910,6 +6234,219 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justification": "Aucune mention de prise en charge de frais (voyage, production, transport)"
+        }
+      ]
+    },
+    {
+      "uid": "d2f73f96",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/light-up-the-north-spark--early-career-artist-and-producer-programme/10665",
+      "fetched_at": "2026-05-22T12:31:41+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Light Up The North SPARK - Early Career Artist and Producer Programme 2026",
+        "organisme": "Light Up The North",
+        "lieu": {
+          "ville": "Lancaster and Wigan",
+          "pays": "United Kingdom"
+        },
+        "nom_fr": "Light Up The North SPARK - Programme pour Artistes et Producteurs en Début de Carrière 2026",
+        "affichage_titre": "Light Up The North SPARK - Early Career Artist and Producer Programme 2026 [Light Up The North SPARK - Programme pour Artistes et Producteurs en Début de Carrière 2026]"
+      },
+      "candidature": {
+        "date_limite": "2026-05-22",
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "GBP"
+        },
+        "pieces_demandees": [
+          "Short CV",
+          "Examples of work",
+          "Covering letter (maximum 2 pages) or video/audio recording (maximum 6 minutes)",
+          "Equal Opportunities Monitoring Form (optional)"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/light-up-the-north-spark--early-career-artist-and-producer-programme/10665"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "light art",
+          "digital art"
+        ],
+        "niveau_carriere": "early-career, emerging",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": "United Kingdom"
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Light Up Lancaster",
+          "Light Night Wigan"
+        ],
+        "dates_exposition": "5-7 November 2026 and 20-22 November 2026",
+        "format": "festival",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": true,
+            "plafond": 600,
+            "devise": "GBP"
+          },
+          "per_diem": true,
+          "hebergement_vernissage": true
+        }
+      },
+      "partenaires": [
+        "Light Up The North",
+        "Light Up Lancaster",
+        "Light Night Wigan"
+      ],
+      "analyse": {
+        "synthese": "Le programme SPARK de Light Up The North offre une formation et un mentorat à six artistes et producteurs émergents intéressés par l'art lumineux. Les participants sélectionnés participent à des ateliers informels, des événements de réseautage et du mentorat programmés autour de deux festivals partenaires (Light Up Lancaster et Light Night Wigan) au cours de deux week-ends en novembre 2026. Chaque participant reçoit une bourse de £300 pour participer, plus jusqu'à £600 supplémentaires pour couvrir voyage, logement et frais de subsistance. Le programme est gratuit pour postuler. L'organisme encourage activement les candidatures d'artistes actuellement sous-représentés dans le secteur des festivals de lumière.",
+        "pour_qui": "Artistes et producteurs émergents et en début de carrière basés au Royaume-Uni, intéressés par l'art lumineux et les festivals de lumière, quel que soit leur âge."
+      },
+      "a_savoir": [
+        "URGENT: date limite aujourd'hui (22 mai 2026 à 17h)",
+        "Seulement 6 places disponibles (3 artistes, 3 producteurs) — très compétitif",
+        "Obligation stricte: résider au Royaume-Uni",
+        "Candidatures acceptées en formats non-textuels (vidéo ou audio, max 6 minutes)",
+        "L'organisme s'engage dans la diversité et l'inclusion; encourage particulièrement les candidatures des groupes sous-représentés",
+        "Accessibilité pour handicapés: statut à confirmer (TBC)"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Participants reçoivent des bourses de £300, plus jusqu'à £600 supplémentaires pour couvrir voyage, logement et frais de subsistance"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "L'hébergement est couvert dans les £600 de fonds supplémentaires alloués"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Des ateliers et mentorat sont offerts, mais aucun studio ni espace de production n'est fourni"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Voyage, hébergement et frais de subsistance sont couverts jusqu'à £600 par participant"
+        }
+      ]
+    },
+    {
+      "uid": "e57f2fc5",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+      "fetched_at": "2026-05-22T12:24:46+00:00",
+      "score": 8,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "AURA: Open Call",
+        "organisme": "AURA",
+        "lieu": {
+          "ville": null,
+          "pays": null
+        },
+        "nom_fr": "AURA : Appel à candidatures",
+        "affichage_titre": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist online zine based on... [AURA : Appel à candidatures]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Short art essays",
+          "Performance pieces",
+          "Social Commentary",
+          "Video Artwork",
+          "Paintings",
+          "Drawings",
+          "Art writing",
+          "Poetry",
+          "Exhibition reviews"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "art essays",
+          "performance",
+          "video",
+          "painting",
+          "drawing",
+          "writing",
+          "poetry"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Instagram",
+          "TikTok"
+        ],
+        "dates_exposition": null,
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": null,
+      "analyse": {
+        "synthese": "AURA est un zine en ligne féministe accueillant les artistes et écrivain(e)s s'identifiant comme femmes. La plateforme existe actuellement sur Instagram et cherche à s'étendre à TikTok. Elle accepte des essais d'art, des performances, des commentaires sociaux, des vidéos, des peintures, des dessins et de la poésie. L'objectif est de diffuser des œuvres socio-politiques et féministes auprès du public. Actuellement, cette opportunité n'accepte pas de candidatures.",
+        "pour_qui": "Artistes et écrivain(e)s s'identifiant comme femmes, intéressé(e)s par la création socio-politique et féministe."
+      },
+      "a_savoir": [
+        "Opportunité actuellement fermée aux candidatures",
+        "Pas de deadline spécifiée",
+        "Pas de rémunération mentionnée",
+        "Audience restreinte à 'women-identifying artists'"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune rémunération, bourse ou dotation mentionnée dans le texte"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Plateforme en ligne, aucun hébergement fourni"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Format numérique, aucun espace de travail physique ou équipement fourni"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Aucune prise en charge de frais de voyage, production ou transport mentionnée"
         }
       ]
     }

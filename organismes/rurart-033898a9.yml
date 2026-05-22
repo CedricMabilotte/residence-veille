@@ -1,0 +1,54 @@
+uid: rurart-033898a9
+nom_canonique: Rurart
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.rurart.org
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 6c232e5c
+  type: exposition
+  nom: Exposition - Médecine Castor - Suzanne Husky
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: frac-poitou-charentes
+  occurrences: 1
+  nom_brut: FRAC Poitou-Charentes
+- organisme_uid: fondation-carasso
+  occurrences: 1
+  nom_brut: Fondation Carasso
+- organisme_uid: region-nouvelle-aquitaine
+  occurrences: 1
+  nom_brut: Région Nouvelle-Aquitaine
+- organisme_uid: drac-nouvelle-aquitaine
+  occurrences: 1
+  nom_brut: DRAC Nouvelle-Aquitaine
+- organisme_uid: reseau-astre
+  occurrences: 1
+  nom_brut: Réseau Astre
+- organisme_uid: ministere-de-l-agriculture-et-de-l-alimentation
+  occurrences: 1
+  nom_brut: Ministère de l'Agriculture et de l'Alimentation
+- organisme_uid: ministere-de-la-culture
+  occurrences: 1
+  nom_brut: Ministère de la Culture
+- organisme_uid: departement-de-la-vienne
+  occurrences: 1
+  nom_brut: Département de la Vienne
+- organisme_uid: communaute-urbaine-grand-poitiers
+  occurrences: 1
+  nom_brut: Communauté urbaine Grand Poitiers
+- organisme_uid: commune-de-rouille
+  occurrences: 1
+  nom_brut: Commune de Rouillé
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+ville: Rouillé

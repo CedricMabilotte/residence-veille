@@ -1,0 +1,48 @@
+uid: adagp-20e614f5
+nom_canonique: ADAGP
+acronymes: []
+pays: null
+type_organisme: autre
+url_canonique: https://www.adagp.fr
+urls_secondaires: []
+description_courte: Société française de gestion collective des droits d'auteur dans les arts visuels et le design graphique.
+disciplines_proposees:
+- arts plastiques
+- photographie
+- design graphique
+- illustration
+- sculpture
+- peinture
+types_opportunites_habituels:
+- bourse
+- prix
+- residence
+opportunites_liees:
+- uid: 0303d52f
+  type: bourse
+  nom: Bourse Connexion Internationale 2026
+- uid: ae1213ed
+  type: prix
+  nom: Révélation Arts plastiques 2026
+- uid: bcd3a041
+  type: residence
+  nom: Atelier ADAGP
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: institut-francais-de-madrid
+  occurrences: 1
+  nom_brut: Institut français de Madrid
+- organisme_uid: 100-l-expo
+  occurrences: 1
+  nom_brut: 100 % L'EXPO
+- organisme_uid: la-villette
+  occurrences: 1
+  nom_brut: La Villette
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true
+contact_email: connexionadagp@institutfrancais.es
+ville: Paris

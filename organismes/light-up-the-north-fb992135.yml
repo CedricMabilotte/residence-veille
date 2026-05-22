@@ -1,0 +1,29 @@
+uid: light-up-the-north-fb992135
+nom_canonique: Light Up The North
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: d2f73f96
+  type: exposition
+  nom: Light Up The North SPARK - Early Career Artist and Producer Programme 2026
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: light-up-lancaster
+  occurrences: 1
+  nom_brut: Light Up Lancaster
+- organisme_uid: light-night-wigan
+  occurrences: 1
+  nom_brut: Light Night Wigan
+pages_surveillees: []
+_meta:
+  first_seen: '2026-05-22'
+  last_updated: '2026-05-22'
+  status: actif
+  nouveaux_entrants: true

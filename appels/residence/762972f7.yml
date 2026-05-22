@@ -1,8 +1,8 @@
 uid: 762972f7
 type: residence
 source_url: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale
-fetched_at: '2026-05-22T10:06:09+00:00'
-score: 8
+fetched_at: '2026-05-22T11:43:32+00:00'
+score: 7
 status: indetermine
 opportunite:
   nom: Résidences Institut français x Cité internationale des arts
@@ -15,41 +15,59 @@ candidature:
   date_limite: null
   date_limite_precision: null
   langue_dossier: null
-  frais_inscription:
-    montant: null
-    devise: EUR
+  frais_inscription: null
   pieces_demandees: null
-  url_candidature: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale
+  url_candidature: null
 eligibilite:
   disciplines:
-  - Architecture, paysage, urbanisme
-  - Arts de la rue, cirque, marionnette
+  - Architecture
+  - Paysage
+  - Urbanisme
+  - Arts de la rue
+  - Cirque
+  - Marionnette
   - Arts plastiques
   - Bande dessinée
-  - Cinéma (cinéma d'animation, fiction, documentaire de création, art vidéo)
-  - Création numérique (arts numériques, jeu vidéo, VR)
-  - Critique d'art et commissariat d'exposition
-  - Danse, performance
-  - Design, graphisme
+  - Cinéma
+  - Cinéma d'animation
+  - Fiction
+  - Documentaire de création
+  - Art vidéo
+  - Création numérique
+  - Arts numériques
+  - Jeu vidéo
+  - VR
+  - Critique d'art
+  - Commissariat d'exposition
+  - Danse
+  - Performance
+  - Design
+  - Graphisme
   - Gastronomie
-  - Littérature (fiction, essai, littérature jeunesse, bande-dessinée)
+  - Littérature
+  - Essai
+  - Littérature jeunesse
   - Métiers d'art
   - Mode
-  - Musique (musique classique et musique contemporaine, musiques actuelles et jazz)
+  - Musique
+  - Musique classique
+  - Musique contemporaine
+  - Musiques actuelles
+  - Jazz
   - Photographie
   - Théâtre
   niveau_carriere: tous
   age_max: null
   nationalite: sans restriction
-  residence_administrative: Résidence à l'étranger requise depuis au moins 5 ans
+  residence_administrative: résider à l'étranger depuis au moins 5 ans
 conditions_residence:
   duree:
     semaines: null
-    dates: 3, 6 ou 9 mois (durée au choix de l'artiste)
+    dates: 3, 6 ou 9 mois
   hebergement: true
-  atelier: Ateliers-logements individuels meublés équipés d'une connexion Wifi, comportant
-    une pièce de travail, espace chambre, salle de bain et kitchenette, situés 18
-    rue de l'Hôtel de Ville, 75004
+  atelier: Ateliers-logements individuels meublés à la Cité internationale des arts
+    (18 rue de l'Hôtel de Ville, 75004), équipés d'une connexion Wifi, comportant
+    une pièce de travail, espace chambre, salle de bain et kitchenette
   remuneration:
     montant: 1000
     devise: EUR
@@ -59,49 +77,50 @@ conditions_residence:
     plafond: null
     devise: EUR
   restitution: null
-partenaires:
-- Cité internationale des arts
+partenaires: null
 _meta:
-  extracted_confidence: 0.8
-  extracted_notes: Informations détaillées sur conditions et disciplines. Date limite
-    de candidature non précisée ; prochain appel signalé pour juillet 2026.
+  extracted_confidence: 0.75
+  extracted_notes: Informations claires sur conditions de résidence et éligibilité.
+    Date limite du prochain appel non précisée (seulement 'juillet 2026'). URL de
+    candidature directe et pièces demandées non spécifiées.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T10:06:09+00:00'
+  extracted_at: '2026-05-22T11:43:32+00:00'
   source_lang: fr
-  detection_confidence: 0.99
+  detection_confidence: 0.98
   detection_method: claude
   source_label: Institut français — résidences internationales
   last_status_check: '2026-05-22'
 analyse:
-  synthese: Ce programme offre des résidences de 3, 6 ou 9 mois à Paris aux artistes
-    et professionnels de la culture résidant à l'étranger depuis au moins 5 ans. L'Institut
-    français prend en charge les ateliers-logements à la Cité internationale des arts,
-    équipés d'une connexion Wifi et d'un espace de travail. Les partenaires couvrent
-    les frais de voyage aller-retour et versent une allocation de séjour minimale
-    de 1000€ par mois. Le programme concerne 16 disciplines sans limite d'âge ni restriction
-    de nationalité. Le prochain appel ouvrira en juillet 2026 pour des résidences
-    entre avril 2027 et avril 2028.
-  pour_qui: Artistes et professionnels de la culture de tous pays résidant à l'étranger
-    depuis minimum 5 ans, toutes disciplines.
-a_savoir: []
+  synthese: Ce programme offre des résidences de 3, 6 ou 9 mois à Paris à des artistes
+    et professionnels de la culture résidant à l'étranger depuis au moins 5 ans. Il
+    fournit un ateliers-logement meublé à la Cité internationale des arts, une allocation
+    mensuelle de 1000€ minimum et couvre les frais de voyage aller-retour. Il couvre
+    34 disciplines dont architecture, arts plastiques, cinéma, création numérique,
+    danse, design, littérature, musique, théâtre. Le prochain appel ouvrira en juillet
+    2026 pour des résidences entre avril 2027 et avril 2028.
+  pour_qui: Artistes et professionnels de la culture de tout pays, sans limite d'âge,
+    résidant à l'étranger depuis au moins 5 ans et souhaitant développer un projet
+    de recherche et création à Paris dans l'une des 34 disciplines listées.
+a_savoir:
+- Le prochain appel n'ouvrira qu'en juillet 2026
+- Condition de résidence à l'étranger requise depuis 5 ans minimum
+- Allocation de 1000€/mois est un minimum (peut être supérieure selon les partenaires)
 organisme_details:
-  site_web: https://www.institutfrancais.com
-  adresse: 18 rue de l'Hôtel de Ville, 75004 (Cité internationale des arts)
+  site_web: https://www.institutfrancais.com/
+  adresse: Cité internationale des arts, 18 rue de l'Hôtel de Ville, 75004 Paris
   ville: Paris
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: Allocation de séjour d'un montant de 1000€ minimum par mois fournie
-    par les partenaires
+  justification: Allocation de séjour d'un montant de 1000€ minimum par mois
 - id: hebergement
   rempli: oui
   justification: L'Institut français prend en charge la location des ateliers-logements
     individuels à la Cité internationale des arts
 - id: atelier
   rempli: oui
-  justification: Ateliers-logements meublés et équipés comprenant une pièce de travail
-    avec connexion Wifi
+  justification: Ateliers-logements comportent une pièce de travail avec espace chambre
 - id: frais_pris_en_charge
   rempli: oui
   justification: Prise en charge des frais de voyage aller-retour par les partenaires
