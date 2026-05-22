@@ -20,15 +20,18 @@ sources:
 
   # ── A. Agrégateurs internationaux ──────────────────────────────────────────
 
-  # TransArtists : listing rendu en JS → parser Playwright (rendu navigateur).
-  - label: "TransArtists — Air listings (EN)"
-    url: "https://www.transartists.org/en/air"
-    type: playwright
+  # TransArtists : la base /en/air renvoie 403 (anti-bot) ; la page « calls »
+  # est en HTML statique et accessible.
+  - label: "TransArtists — Open calls (EN)"
+    url: "https://www.transartists.org/en/transartists-calls"
+    type: deep_html
+    max_pages: 20
     min_interval_days: 7
     peak_months: [1, 2, 3, 9, 10, 11]
 
-  - label: "Res Artis — Listings (EN)"
-    url: "https://resartis.org/listings/"
+  # Res Artis : /listings/ = annuaire de profils ; /open-calls/ = les appels.
+  - label: "Res Artis — Open calls (EN)"
+    url: "https://resartis.org/open-calls/"
     type: deep_html
     max_pages: 20
     min_interval_days: 7
@@ -92,16 +95,16 @@ sources:
 
   # Rurart — centre d'art contemporain (Vienne, FR). Suggestion communautaire
   # validée via issue #2.
-  - label: "Rurart — centre d'art / résidences"
-    url: "https://www.rurart.org/"
+  - label: "Rurart — centre d'art / programmation"
+    url: "https://www.rurart.org/programmation/"
     type: deep_html
-    max_pages: 10
+    max_pages: 16
     min_interval_days: 14
 
   # ── E. Hispanophones ───────────────────────────────────────────────────────
 
-  - label: "Hangar Barcelona"
-    url: "https://hangar.org/"
+  - label: "Hangar Barcelona — convocatòries"
+    url: "https://hangar.org/en/category/convocatories-3/"
     type: deep_html
     max_pages: 12
     min_interval_days: 7
@@ -136,7 +139,7 @@ sources:
   # ── G. Lieux, fondations & réseaux (résidences au cas par cas) ─────────────
 
   - label: "Documents d'Artistes PACA"
-    url: "https://www.dda-paca.net/"
+    url: "https://www.documentsdartistes.org/candidater.php"
     type: deep_html
     max_pages: 15
     min_interval_days: 14
@@ -147,8 +150,8 @@ sources:
     max_pages: 12
     min_interval_days: 14
 
-  - label: "Villa Albertine — résidences (USA)"
-    url: "https://villa-albertine.org/"
+  - label: "Villa Albertine — appels résidences (USA)"
+    url: "https://villa-albertine.org/va/fr/professionals/"
     type: deep_html
     max_pages: 12
     min_interval_days: 14
