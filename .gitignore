@@ -43,3 +43,10 @@ tmp/
 # État du throttle : propre à chaque environnement (local vs GH Actions).
 # Ne pas committer pour que chaque run GH Actions parte fresh.
 discovery/throttle_state.json
+
+# Pilotage de session Cowork (notes de travail internes, non versionnées)
+CLAUDE.md
+routine-fin.md
+etat-projet-*.md
+lecons-*.md
+brief-cadre-conceptuel-*.md
