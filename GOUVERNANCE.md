@@ -2,7 +2,7 @@
 
 ### Statut : projet standalone
 
-Fork de biblio-actitude-org (Agent recup web github).
+Fork de biblio-actitude-org (biblio).
 Autonome techniquement (GitHub Actions, Python, GitHub Pages).
 Dépend de para uniquement pour le DNS du sous-domaine.
 

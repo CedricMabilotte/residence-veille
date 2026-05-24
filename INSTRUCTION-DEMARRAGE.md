@@ -1,6 +1,6 @@
 # Instruction de démarrage — Fork de BIBLIO pour les opportunités arts plastiques
 
-> Document de cadrage pour démarrer un fork du projet **BIBLIO** (`Agent recup web github`) appliqué à la veille des **opportunités pour plasticien·nes** : **résidences, bourses, prix et appels à exposition**, calibré (en interne) sur le profil de **Lucile Leloup** ([lucileloup.actitude.org](https://lucileloup.actitude.org/fr)).
+> Document de cadrage pour démarrer un fork du projet **BIBLIO** (`biblio`) appliqué à la veille des **opportunités pour plasticien·nes** : **résidences, bourses, prix et appels à exposition**, calibré (en interne) sur le profil de **Lucile Leloup** ([lucileloup.actitude.org](https://lucileloup.actitude.org/fr)).
 >
 > Date : 2026-05-19 — révisé après arbitrages utilisateur
 > Auteur du brief : Ced
@@ -556,7 +556,7 @@ Note : pas d'échange `share_sources.py` avec BIBLIO (cloisonnement décidé).
 
 | Étape | Quoi | Estimation |
 |---|---|---|
-| **1. Bootstrap** | Cloner `Agent recup web github` dans `Residences artistiques`. Retirer `pdf_processor.py` (chemin obligatoire), `synopsis_enricher.py`, `bibliography_extractor.py`, parsers `opds`/`hal`/`archive_org`. Garder `parsers/html.py`, `deep_html.py`, `rss.py`. Désactiver `webhooks.py` (mais garder le code). Vider `docs/`, `synopsis/`, `bulles/`, `discovery/`, `share_sources.py`. | 1 séance |
+| **1. Bootstrap** | Cloner `biblio` dans `Residences artistiques`. Retirer `pdf_processor.py` (chemin obligatoire), `synopsis_enricher.py`, `bibliography_extractor.py`, parsers `opds`/`hal`/`archive_org`. Garder `parsers/html.py`, `deep_html.py`, `rss.py`. Désactiver `webhooks.py` (mais garder le code). Vider `docs/`, `synopsis/`, `bulles/`, `discovery/`, `share_sources.py`. | 1 séance |
 | **2. Ontologie** | Écrire `config/concepts.yml` (proposition §5 — **4 types : residence / bourse / prix / exposition**). Calibrer le bias profil interne (silencieux côté public). | 1 séance |
 | **3. Sources** | Probe les sources prioritaires (§4) avec `probe_source.py`. Étendre la liste vers **prix et appels à exposition** (CNAP prix, Marcel Duchamp, AICA, Salon de Montrouge, biennales, etc.). Garder celles ≥ 5 items/run. Remplir `config/sources.yml`. | 2 séances |
 | **4. Extraction** | Écrire `detect_type.py` (classifier les 4 types) + `extract_opportunity.py` (Claude Haiku → JSON schéma §6 selon le type). Écrire `resume_fr.py` pour traduire/résumer EN/ES en FR. Tester sur 20 opportunités manuelles couvrant les 4 types. Itérer jusqu'à 90 % de bon remplissage. | 3 séances |
@@ -805,4 +805,4 @@ Pas de scoring affiché, pas de jugement éditorial — la fiche organisme reste
 
 - [Lucile Leloup — Biographie](https://lucileloup.actitude.org/fr/biographie)
 - [Lucile Leloup — Ensad Limoges](https://www.ensad-limoges.fr/diplomes/lucile-leloup/)
-- BIBLIO — `Agent recup web github` (repo local, `README.md`, `config/concepts.yml`, `config/sources.yml`, `.github/workflows/watch.yml`, `DEPLOIEMENT-BIBLIO.md`)
+- BIBLIO — `biblio` (repo local, `README.md`, `config/concepts.yml`, `config/sources.yml`, `.github/workflows/watch.yml`, `DEPLOIEMENT.md`)

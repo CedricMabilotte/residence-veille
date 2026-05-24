@@ -2,7 +2,7 @@
 # bootstrap_copy.sh — Copie les modules réutilisés depuis le projet BIBLIO.
 #
 # À lancer UNE FOIS, après le bootstrap initial. Copie depuis :
-#   ~/Documents/Claude/Projects/Agent\ recup\ web\ github/
+#   ~/Documents/Claude/Projects/biblio/
 # vers :
 #   ~/Documents/Claude/Projects/Residences\ artistiques/
 #
@@ -16,7 +16,7 @@
 
 set -euo pipefail
 
-SRC="$HOME/Documents/Claude/Projects/Agent recup web github"
+SRC="$HOME/Documents/Claude/Projects/biblio"
 DST="$HOME/Documents/Claude/Projects/Residences artistiques"
 
 if [ ! -d "$SRC" ]; then

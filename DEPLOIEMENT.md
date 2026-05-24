@@ -1,6 +1,6 @@
 # Déploiement de residence.actitude.org
 
-Documentation parallèle de `Agent recup web github/DEPLOIEMENT-BIBLIO.md`, adaptée au fork.
+Documentation parallèle de `biblio/DEPLOIEMENT.md`, adaptée au fork.
 
 ## Repos
 
