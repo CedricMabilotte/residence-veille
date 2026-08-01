@@ -1,0 +1,99 @@
+uid: cc05d124
+type: residence
+source_url: https://westwerk.org/residency.html
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Westwerk International Residency Program
+  organisme: Westwerk e.V.
+  lieu:
+    ville: Hambourg
+    pays: Allemagne
+    territoire: null
+candidature:
+  date_limite: '2026-08-27'
+  date_limite_precision: 23h59 CET ; plateforme de dépôt ouverte depuis le 1er juillet
+    2026
+  langue_dossier:
+  - en
+  - de
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://westwerk.org/residency.html
+eligibilite:
+  disciplines:
+  - arts visuels
+  - photographie
+  niveau_carriere: artistes internationaux, 23 ans et plus
+  age_max: null
+  nationalite: sans restriction (programme international)
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 mois, créneaux disponibles entre janvier 2027 et décembre 2028
+  hebergement: true
+  atelier: appartement-atelier de 68 m²
+  remuneration:
+    montant: 900
+    devise: EUR
+    periodicite: mois + 500€ forfait présentation finale
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: présentation finale du travail (forfait de 500€ associé)
+partenaires:
+- Ministère de la Culture et des Médias de Hambourg
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.65
+  extracted_notes: 'URL de la page d''appel non tranchée avec une certitude absolue
+    entre la page institutionnelle hamburg.de et la page propre de Westwerk e.V. (westwerk.org/residency.html,
+    retenue ici) — les deux semblent légitimes et décrivent le même programme. Attention
+    : westwerk.org/open-call-2026.html correspond à un AUTRE appel (« Cultural Complicity
+    »), sans rapport avec cette résidence — à ne pas confondre. Détails corroborés
+    par plusieurs sources indépendantes (On the Move, Creative Europe, TransArtists)
+    mais non vérifiés par fetch direct de la page officielle en session (limite outil).'
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: en
+  resume_fr: Résidence internationale de 3 mois à Hambourg, financée par le Ministère
+    de la Culture et des Médias de la ville, pour artistes visuels et photographes
+    de 23 ans et plus. Appartement-atelier fourni, bourse de 900€/mois + 500€ pour
+    la présentation finale, un aller-retour pris en charge.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Programme de résidence internationale à Hambourg financé par la ville,
+    offrant un appartement-atelier et une bourse mensuelle sur 3 mois, avec créneaux
+    répartis entre 2027 et 2028.
+  pour_qui: Artistes visuels et photographes internationaux, 23 ans et plus.
+a_savoir:
+- URL de la page d'appel à reconfirmer avant candidature (deux pages légitimes possibles,
+  voir notes)
+- Ne pas confondre avec l'appel « Cultural Complicity » de Westwerk, sans rapport
+- Créneaux de résidence répartis sur 2027-2028, choix possible à la candidature
+organisme_details:
+  site_web: https://westwerk.org
+  adresse: null
+  ville: Hambourg
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Bourse de 900€/mois + 500€ forfait pour la présentation finale.
+- id: hebergement
+  rempli: oui
+  justification: Appartement-atelier de 68 m² fourni.
+- id: atelier
+  rempli: oui
+  justification: Espace combiné logement/atelier de 68 m².
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Un aller-retour pris en charge.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

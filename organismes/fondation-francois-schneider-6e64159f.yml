@@ -1,0 +1,37 @@
+uid: fondation-francois-schneider-6e64159f
+nom_canonique: Fondation François Schneider
+acronymes: []
+pays: France
+type_organisme: fondation
+url_canonique: https://www.fondationfrancoisschneider.org
+urls_secondaires:
+- https://talentscontemporains-terre.fondationfrancoisschneider.org
+description_courte: Fondation d'art contemporain, organise le concours d'acquisition
+  « Talents Contemporains » pour une installation pérenne dans les jardins de l'Abbaye
+  de Pontigny.
+disciplines_proposees:
+- sculpture
+- installation extérieure
+types_opportunites_habituels:
+- prix
+opportunites_liees:
+- uid: dbe956b7
+  type: prix
+  nom: Talents Contemporains « La Terre » — Fondation François Schneider
+track_record:
+  prix:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.4
+    fenetre_annuelle: appel repéré avec deadline août 2026 — cycle annuel probable
+      autour du thème changeant chaque édition
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://talentscontemporains-terre.fondationfrancoisschneider.org/inscription_individuel.php
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+ville: Pontigny

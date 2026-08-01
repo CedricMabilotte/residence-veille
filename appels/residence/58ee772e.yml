@@ -1,0 +1,98 @@
+uid: 58ee772e
+type: residence
+source_url: https://www.proyectoace.org/en/residencies/production-residencies/
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 5
+status: ouverte
+opportunite:
+  nom: Proyecto'ACE — Production Residencies
+  organisme: Proyecto'ACE
+  lieu:
+    ville: Buenos Aires
+    pays: Argentine
+    territoire: null
+candidature:
+  date_limite: '2026-10-31'
+  date_limite_precision: sessions glissantes, candidatures ouvertes 4 fois par an
+    — prochaine échéance identifiée le 31 octobre 2026
+  langue_dossier:
+  - en
+  - es
+  - pt
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://www.proyectoace.org/en/residencies/production-residencies/
+eligibilite:
+  disciplines:
+  - arts visuels
+  - art textile
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 4 semaines (ou micro-résidence de 2 semaines)
+  hebergement: null
+  atelier: true (atelier de production, fourni — payant, voir note autofinancement)
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.5
+  extracted_notes: 'RÉSIDENCE AUTOFINANCÉE : à partir de 480 USD, pas de bourse ni
+    de prise en charge de voyage. Candidature (dossier) gratuite ; c''est le séjour/atelier
+    de production qui est payant — d''où frais_inscription: 0 dans le schéma. Candidatures
+    glissantes (4 sessions/an) — date limite indiquée correspond à la prochaine échéance
+    identifiée, pas une date fixe annuelle.'
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: en
+  resume_fr: Résidence de production autofinancée à Buenos Aires, art visuel et textile,
+    candidatures glissantes (4 sessions par an). Coût à partir de 480 USD, voyage
+    non pris en charge.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Résidence de production en atelier à Buenos Aires, ouverte aux arts visuels
+    et à l'art textile, fonctionnant par sessions glissantes tout au long de l'année.
+  pour_qui: Artistes visuel·les et praticien·nes d'art textile, prêt·es à financer
+    leur propre séjour.
+a_savoir:
+- 'AUTOFINANCÉ : coût à partir de 480 USD à la charge de l''artiste'
+- Candidatures glissantes, 4 sessions par an — vérifier le calendrier exact avant
+  de candidater
+- Existe aussi une micro-résidence de 2 semaines (non détaillée ici)
+organisme_details:
+  site_web: https://www.proyectoace.org
+  adresse: null
+  ville: Buenos Aires
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Résidence autofinancée, aucune rémunération.
+- id: hebergement
+  rempli: inconnu
+  justification: Non précisé indépendamment de l'atelier de production dans les sources
+    consultées.
+- id: atelier
+  rempli: oui
+  justification: Atelier de production fourni (inclus dans le coût payant).
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Voyage non pris en charge, coût de séjour à la charge de l'artiste.
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  bonus_score: 1

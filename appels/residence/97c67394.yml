@@ -1,0 +1,97 @@
+uid: 97c67394
+type: residence
+source_url: https://fondationdentreprisemartell.com/appel-a-projets/
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 8
+status: bientot-fermee
+opportunite:
+  nom: Résidences Création & Transitions — Fondation d'entreprise Martell
+  organisme: Fondation d'entreprise Martell
+  lieu:
+    ville: Cognac
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-23'
+  date_limite_precision: minuit
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - dossier de candidature (envoi par email)
+  url_candidature: https://fondationdentreprisemartell.com/appel-a-projets/
+eligibilite:
+  disciplines:
+  - arts visuels
+  - sciences humaines et sociales
+  niveau_carriere: tous, candidatures individuelles ou collectives
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 6 à 8 semaines (recherche/expérimentation), 2 à 6 semaines (production),
+      2 à 4 semaines (écriture/commissariat) — durée selon le volet choisi
+  hebergement: true
+  atelier: maison meublée + ateliers de production + archive vivante + bibliothèque
+    sur site
+  remuneration:
+    montant: 375
+    devise: EUR
+    periodicite: semaine (bourse vie + travail)
+  voyage:
+    pris_en_charge: true
+    plafond: 1500
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.75
+  extracted_notes: Trois volets de résidence distincts (recherche/expérimentation,
+    production, écriture/commissariat) avec durées différentes ; conditions financières
+    ci-dessus s'appliquent globalement au programme. Frais de production supplémentaires
+    possibles jusqu'à 2500€ (non repris dans le champ remuneration, qui documente
+    la bourse vie/travail).
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: fr
+  resume_fr: Résidences de recherche, production ou écriture à Cognac, dans une maison-atelier
+    de la Fondation d'entreprise Martell. Bourse de 375€/semaine, jusqu'à 2500€ de
+    frais de production, voyage pris en charge (jusqu'à 1500€).
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Programme de résidences pluridisciplinaires (arts visuels et SHS) à Cognac,
+    avec trois formats possibles selon le stade du projet (recherche, production,
+    écriture/commissariat).
+  pour_qui: Artistes et chercheur·ses en arts visuels ou sciences humaines et sociales,
+    candidatures individuelles ou collectives.
+a_savoir:
+- Trois volets distincts (recherche, production, écriture) avec durées différentes
+- Jusqu'à 2500€ de frais de production en plus de la bourse vie/travail
+- Candidature par simple envoi de dossier en email, gratuit
+organisme_details:
+  site_web: https://fondationdentreprisemartell.com
+  adresse: null
+  ville: Cognac
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Bourse de 375€/semaine + jusqu'à 2500€ de frais de production.
+- id: hebergement
+  rempli: oui
+  justification: Maison meublée fournie sur site.
+- id: atelier
+  rempli: oui
+  justification: Ateliers de production, archive vivante et bibliothèque sur place.
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Voyage pris en charge jusqu'à 1500€ (Europe/international).
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

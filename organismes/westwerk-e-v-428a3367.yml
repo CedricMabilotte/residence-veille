@@ -1,0 +1,41 @@
+uid: westwerk-e-v-428a3367
+nom_canonique: Westwerk e.V.
+acronymes: []
+pays: Allemagne
+type_organisme: centre_art
+url_canonique: https://westwerk.org
+urls_secondaires:
+- https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-kultur-und-medien/themen/kulturfoerderung/residency-for-international-artists-at-westwerk-931724
+description_courte: Association d'artistes à Hambourg, opère un programme de résidence
+  internationale financé par le Ministère de la Culture et des Médias de la ville.
+disciplines_proposees:
+- arts visuels
+- photographie
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: cc05d124
+  type: residence
+  nom: Westwerk International Residency Program
+track_record:
+  residence:
+    editions:
+    - '2027-2028'
+    fiabilite_cycle: 0.4
+    fenetre_annuelle: appel repéré avec deadline août 2026 pour des créneaux 2027-2028
+      — cycle à confirmer sur plusieurs éditions
+partenaires_mentionnes:
+- organisme_uid: ministere-culture-medias-hambourg
+  occurrences: 1
+  nom_brut: Ministère de la Culture et des Médias de Hambourg
+pages_surveillees:
+- url: https://westwerk.org/residency.html
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+  notes_qualite: URL canonique retenue avec confiance modérée (0.65) — deux pages
+    légitimes possibles (westwerk.org et hamburg.de), voir _meta de la fiche cc05d124.
+ville: Hambourg

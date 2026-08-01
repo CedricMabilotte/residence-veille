@@ -1,0 +1,108 @@
+uid: fc738c65
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/en/appels-a-candidature/timor-leste/
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Timor-Leste — Institut français d'Indonésie / Fundação Oriente x Cité internationale
+    des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-30'
+  date_limite_precision: dépôt ouvert du 9 juillet au 30 août 2026, résultats novembre
+    2026 — une seule candidature retenue
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - CV
+  - portfolio
+  - lettre d'intention
+  url_candidature: https://forms.gle/ux5FhbC4C1VwTJoj7
+eligibilite:
+  disciplines:
+  - arts visuels
+  - performance
+  - recherche sonore/musicale
+  - arts vivants
+  - écriture
+  - design
+  - architecture
+  - urbanisme
+  - commissariat
+  - critique d'art
+  niveau_carriere: 5 ans d'expérience professionnelle minimum, tous âges
+  age_max: null
+  nationalite: réservé aux artistes-chercheurs nationaux du Timor-Leste
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 mois, du 2 février au 27 avril 2027
+  hebergement: true
+  atelier: studio-atelier meublé 25-40 m², Cité internationale des arts
+  remuneration:
+    montant: 850
+    devise: EUR
+    periodicite: mois (net) + prime d'arrivée de 200€
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Institut français d'Indonésie
+- Fundação Oriente
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.8
+  extracted_notes: Réservé aux ressortissant·es timorais·es — n'exclut pas la fiche
+    du site (mission généraliste) mais non pertinente pour une artiste française.
+    Une seule candidature sera retenue. Vérifié sur la page officielle « Open calls
+    » de la Cité internationale des arts.
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: en
+  resume_fr: Résidence de 3 mois à Paris réservée à un·e artiste-chercheur·se national·e
+    du Timor-Leste, toutes disciplines. Logement fourni, bourse de 850€/mois + prime
+    d'arrivée, voyage pris en charge. Une seule place.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Résidence de recherche-création à Paris pour un·e artiste timorais·e,
+    en partenariat entre la Cité internationale des arts, l'Institut français d'Indonésie
+    et la Fundação Oriente (Dili).
+  pour_qui: Artistes-chercheur·ses ressortissant·es du Timor-Leste, 5 ans d'expérience
+    professionnelle minimum.
+a_savoir:
+- 'Restriction déterminante : réservé aux nationaux du Timor-Leste — non éligible
+  pour une artiste française'
+- Une seule candidature sera retenue sur ce cycle
+- Gratuit pour candidater
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: 18 rue de l'Hôtel de Ville, 75004 Paris
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Bourse de 850€/mois nets + prime d'arrivée de 200€.
+- id: hebergement
+  rempli: oui
+  justification: Studio-atelier meublé 25-40 m².
+- id: atelier
+  rempli: oui
+  justification: Espace combiné logement/atelier fourni sur place.
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Voyage aller-retour, assurance et visa pris en charge.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

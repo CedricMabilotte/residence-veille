@@ -1,0 +1,37 @@
+uid: tada-textile-and-design-alliance-0a748bf3
+nom_canonique: TaDA — Textile and Design Alliance
+acronymes:
+- TaDA
+pays: Suisse
+type_organisme: reseau_professionnel
+url_canonique: https://tada-residency.ch
+urls_secondaires: []
+description_courte: Alliance de 13 entreprises textiles suisses, opère une résidence
+  d'artiste dans l'ancienne usine textile Saurer à Arbon.
+disciplines_proposees:
+- arts visuels
+- design
+- textile
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 82ac6b64
+  type: residence
+  nom: TaDA Residency 2027
+track_record:
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.4
+    fenetre_annuelle: appel repéré avec deadline août 2026 pour une résidence 2027
+      — cycle à confirmer sur plusieurs éditions
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://tada-residency.ch/en/residence
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+ville: Arbon

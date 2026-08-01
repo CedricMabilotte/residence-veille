@@ -1,0 +1,84 @@
+{
+  "started_at": "2026-08-01T17:00:00+00:00",
+  "ended_at": "2026-08-01T19:00:00+00:00",
+  "mode": "manuel_claude_cowork",
+  "dry_run": false,
+  "note": "Exploration large demandée par l'utilisateur pour trouver et qualifier en détail de nouvelles opportunités similaires. Recherche menée via 4 sous-agents parallèles (candidats déjà repérés, résidences/bourses, prix/expositions, complément de vérification), garde-fou anti-faux-positif appliqué manuellement (aucune fiche créée sans deadline future confirmée ou statut explicitement documenté).",
+  "etat_avant": {
+    "total_appels_actifs": 44,
+    "organismes": 27
+  },
+  "actions": [
+    {
+      "action": "candidats_deja_reperes_instruits",
+      "n": 4,
+      "detail": [
+        {"uid": "5de27397", "nom": "Kota — Institut français d'Indonésie x Cité", "date_limite": "2026-08-30", "note": "restriction résidence Indonésie 7 ans, non éligible pour artiste française mais valide pour le site généraliste"},
+        {"uid": "fc738c65", "nom": "Timor-Leste x Cité", "date_limite": "2026-08-30", "note": "réservé nationaux du Timor-Leste"},
+        {"uid": "c781ae19", "nom": "République dominicaine x Cité", "date_limite": "2026-08-30", "note": "réservé ressortissant·es dominicain·es"},
+        {"uid": "0689a10d", "nom": "MO.CO Esba x Cité", "date_limite": "2026-08-23", "note": "réservé diplômé·es MO.CO Esba, détails financiers non confirmés (PDF externe), score bas (3)"}
+      ],
+      "candidats_ecartes_clos": [
+        "Résidence-mission Ruralité PETR Cœur des Hauts-de-France (dl 2026-04-10, close)",
+        "Résidence-mission Ruralité Béthune-Bruay (dl 2026-03-13, close)",
+        "Résidence d'action territoriale Vallées du Haut-Anjou (dl 2026-04-17, close, candidatures officiellement closes)"
+      ]
+    },
+    {
+      "action": "nouvelles_fiches_residence",
+      "n": 8,
+      "detail": [
+        {"uid": "97c67394", "nom": "Fondation d'entreprise Martell", "date_limite": "2026-08-23", "score": 8},
+        {"uid": "cc05d124", "nom": "Westwerk International Residency (Hambourg)", "date_limite": "2026-08-27", "score": 7},
+        {"uid": "82ac6b64", "nom": "TaDA Residency (Arbon, Suisse)", "date_limite": "2026-08-12", "score": 7, "affinite": "textile"},
+        {"uid": "b7074aef", "nom": "Ars Biologica ArtXScience Residency", "date_limite": "2026-09-28", "score": 6},
+        {"uid": "73de5a6b", "nom": "Nocefresca (Sardaigne, autofinancée)", "date_limite": "2026-09-07", "score": 5},
+        {"uid": "58ee772e", "nom": "Proyecto'ACE (Buenos Aires, autofinancée)", "date_limite": "2026-10-31", "score": 5},
+        {"uid": "235efcae", "nom": "La Wayaka Current (Atacama)", "date_limite": "2026-09-27", "score": 4, "note": "modèle de coût sliding scale non chiffré"},
+        {"uid": "0e6799bf", "nom": "REC.ON Ecovillage (Andalousie)", "date_limite": null, "score": 4, "note": "date limite non confirmée avec précision, statut indetermine"}
+      ]
+    },
+    {
+      "action": "nouvelles_fiches_prix",
+      "n": 2,
+      "detail": [
+        {"uid": "dbe956b7", "nom": "Fondation François Schneider — Talents Contemporains La Terre", "date_limite": "2026-08-23", "score": 5, "note": "concours d'acquisition, pas de production"},
+        {"uid": "64ec9c9e", "nom": "Prix Mourlot 2026", "date_limite": "2026-09-15", "score": 5, "note": "réservé artistes peintres résidant en PACA"}
+      ]
+    },
+    {
+      "action": "nouvelles_fiches_exposition",
+      "n": 1,
+      "detail": [
+        {"uid": "0f91c90f", "nom": "Salon des Arts de Cholet 2026", "date_limite": "2026-08-09", "score": 3, "note": "échéance très proche, plusieurs champs non confirmés"}
+      ]
+    },
+    {
+      "action": "organismes_crees",
+      "n": 11,
+      "detail": ["mo-co-esba-e992d87f", "fondation-d-entreprise-martell-1b0f6293", "westwerk-e-v-428a3367", "tada-textile-and-design-alliance-0a748bf3", "ars-electronica-biology-centre-cas-ecoc2028-53361e2c", "nocefresca-b2d1bf86", "proyecto-ace-c0828cea", "la-wayaka-current-fc351f54", "rec-on-project-7302105f", "fondation-francois-schneider-6e64159f", "association-pour-le-prix-mourlot-fc02d8d0", "ville-de-cholet-974e3037"]
+    },
+    {
+      "action": "organisme_mis_a_jour",
+      "detail": ["cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce (3 nouvelles opportunités liées)"]
+    },
+    {
+      "action": "sources_yml_etendu",
+      "detail": "Section J ajoutée : 10 sources spécifiques aux organismes qualifiés + 9 agrégateurs repérés (Alternatif-Art, CIPAC, Réseau DDA, Artist Communities Alliance, Residency Unlimited, Textile Art Insider, Artenda, Contemporanéités de l'art, La Maison des Artistes). Types best-effort, à revalider via probe_source.py."
+    },
+    {
+      "action": "candidats_ecartes_donnees_insuffisantes",
+      "detail": [
+        "Prix AURA Création Augmentée (galerie marchande, discipline ambiguë — non retenu sur recommandation explicite de l'agent de recherche)",
+        "Buinho AIR Program 2027 (Portugal, deadline non confirmée sur page officielle active)",
+        "Biennale ArtFareins 2027 (URL de candidature, frais et dotation non confirmés avec certitude malgré 2 passes de recherche)"
+      ]
+    }
+  ],
+  "etat_apres": {
+    "total_nouvelles_fiches": 15,
+    "total_nouveaux_organismes": 11,
+    "total_organismes_mis_a_jour": 1,
+    "total_nouvelles_sources": 19
+  }
+}

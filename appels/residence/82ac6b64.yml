@@ -1,0 +1,101 @@
+uid: 82ac6b64
+type: residence
+source_url: https://tada-residency.ch/en/residence
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: TaDA Residency 2027
+  organisme: TaDA — Textile and Design Alliance
+  lieu:
+    ville: Arbon
+    pays: Suisse
+    territoire: ancienne usine Saurer
+candidature:
+  date_limite: '2026-08-12'
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://tada-residency.ch/en/residence
+eligibilite:
+  disciplines:
+  - arts visuels
+  - design
+  - textile
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 mois, avril-juin ou septembre-novembre 2027
+  hebergement: true
+  atelier: atelier dans l'ancienne usine textile Saurer, accès à 13 entreprises textiles
+    suisses partenaires
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: contribution aux frais de vie, montant non précisé + mentorat + mise
+      en réseau industriel
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- 13 entreprises textiles suisses (Textile and Design Alliance)
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.55
+  extracted_notes: 'Forte pertinence pour un profil textile/matériaux locaux, mais
+    plusieurs champs restent non précisés dans les sources consultées : montant exact
+    de la contribution aux frais de vie, langue du dossier, pièces demandées. Deadline
+    et existence du programme corroborées par recherche web mais page officielle non
+    intégralement récupérée en session (limite outil web_fetch).'
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: en
+  resume_fr: Résidence textile de 3 mois à Arbon (Suisse), dans une ancienne usine
+    textile réhabilitée, avec accès à un réseau de 13 entreprises textiles suisses
+    partenaires. Chambre privée et atelier fournis, contribution aux frais de vie
+    (montant non précisé), voyage pris en charge.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Résidence dédiée au textile et au design textile, adossée à un réseau
+    industriel suisse (13 entreprises), avec mentorat et accès à des savoir-faire
+    de production textile.
+  pour_qui: Artistes visuel·les et designers avec un intérêt pour le textile, la production
+    textile ou la durabilité.
+a_savoir:
+- Forte résonance avec un travail sur le textile et les matériaux/savoir-faire locaux
+- Montant exact de la contribution aux frais de vie non précisé — à confirmer avant
+  candidature
+- Accès à un réseau de 13 entreprises textiles suisses et mentorat industriel
+organisme_details:
+  site_web: https://tada-residency.ch
+  adresse: null
+  ville: Arbon
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: Contribution aux frais de vie mentionnée mais montant non précisé
+    dans les sources consultées.
+- id: hebergement
+  rempli: oui
+  justification: Chambre privée fournie dans l'ancienne usine Saurer.
+- id: atelier
+  rempli: oui
+  justification: Atelier fourni, accès à des équipements/savoir-faire textiles industriels.
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Voyage pris en charge (détail du plafond non précisé).
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - matériaux/savoir-faire locaux
+  bonus_score: 1

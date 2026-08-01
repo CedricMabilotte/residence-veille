@@ -1,0 +1,94 @@
+uid: dbe956b7
+type: prix
+source_url: https://talentscontemporains-terre.fondationfrancoisschneider.org/inscription_individuel.php
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 5
+status: bientot-fermee
+opportunite:
+  nom: Talents Contemporains « La Terre » — Fondation François Schneider
+  organisme: Fondation François Schneider
+  lieu:
+    ville: Pontigny
+    pays: France
+candidature:
+  date_limite: '2026-08-23'
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - dossier de candidature en ligne
+  url_candidature: https://talentscontemporains-terre.fondationfrancoisschneider.org/inscription_individuel.php
+eligibilite:
+  disciplines:
+  - sculpture
+  - installation extérieure
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant: 15000
+    devise: EUR
+  exposition: true
+  achat_oeuvre: true
+  edition_catalogue: null
+  jury_public: null
+  nb_laureats: 2
+  editions_precedentes: null
+partenaires: []
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.65
+  extracted_notes: 'Il s''agit d''un CONCOURS D''ACQUISITION d''une œuvre déjà existante
+    (installation/sculpture extérieure pérenne dans les jardins de l''Abbaye de Pontigny),
+    pas d''un appel à produire une nouvelle œuvre — ne convient donc pas à un projet
+    de peinture ou à une œuvre à créer. Deux montants distincts selon le format retenu
+    : 15 000€ (pièce unique) ou 8 000€ (édition multiple) — le champ dotation.montant
+    retient le montant le plus élevé (pièce unique) par convention ; voir a_savoir
+    pour le détail complet.'
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: fr
+  resume_fr: Concours d'acquisition d'une œuvre de sculpture/installation extérieure
+    déjà existante, pour une installation pérenne dans les jardins de l'Abbaye de
+    Pontigny. Dotation de 15 000€ (pièce unique) ou 8 000€ (édition multiple). Candidature
+    gratuite.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Concours d'acquisition pérenne organisé par la Fondation François Schneider,
+    pour une installation extérieure existante dans les jardins de l'Abbaye de Pontigny
+    (Yonne).
+  pour_qui: Sculpteur·rices et artistes d'installation extérieure ayant déjà une œuvre
+    existante correspondant au thème « La Terre ».
+a_savoir:
+- 'Attention : concours d''ACQUISITION d''une œuvre déjà réalisée, pas un appel à
+  produire — ne convient pas à un projet de peinture ou de nouvelle création'
+- Deux montants selon le format: 15 000€ (pièce unique) ou 8 000€ (édition multiple)
+- Candidature gratuite, dossier en français ou anglais
+organisme_details:
+  site_web: https://www.fondationfrancoisschneider.org
+  adresse: null
+  ville: Pontigny
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Dotation d'acquisition de 15 000€ (pièce unique) ou 8 000€ (édition
+    multiple).
+- id: hebergement
+  rempli: non
+  justification: Concours d'acquisition, pas de résidence associée.
+- id: atelier
+  rempli: non
+  justification: Non applicable — pas de résidence associée.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Non précisé dans les sources consultées (transport de l'œuvre notamment).
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

@@ -1,0 +1,36 @@
+uid: nocefresca-b2d1bf86
+nom_canonique: Nocefresca
+acronymes: []
+pays: Italie
+type_organisme: autre
+url_canonique: https://www.nocefresca.it
+urls_secondaires: []
+description_courte: Résidence d'artiste autofinancée à Milis (Sardaigne rurale),
+  historiquement fréquentée par des céramistes et artistes textile.
+disciplines_proposees:
+- arts visuels
+- design textile
+- mixed-media
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 73de5a6b
+  type: residence
+  nom: Nocefresca Artist Residency 2027
+track_record:
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.4
+    fenetre_annuelle: résidence autofinancée, dépôt observé jusqu'en septembre 2026
+      pour l'édition 2027
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://www.nocefresca.it/
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+ville: Milis

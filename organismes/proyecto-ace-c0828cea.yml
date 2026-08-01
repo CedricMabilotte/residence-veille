@@ -1,0 +1,34 @@
+uid: proyecto-ace-c0828cea
+nom_canonique: Proyecto'ACE
+acronymes: []
+pays: Argentine
+type_organisme: autre
+url_canonique: https://www.proyectoace.org
+urls_secondaires: []
+description_courte: Résidence de production autofinancée à Buenos Aires, art visuel
+  et art textile, sessions glissantes 4 fois par an.
+disciplines_proposees:
+- arts visuels
+- art textile
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 58ee772e
+  type: residence
+  nom: Proyecto'ACE — Production Residencies
+track_record:
+  residence:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: candidatures glissantes, 4 sessions par an — flux continu
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://www.proyectoace.org/en/residencies/production-residencies/
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+ville: Buenos Aires

@@ -1,0 +1,90 @@
+uid: 0f91c90f
+type: exposition
+source_url: https://www.cholet.fr/dossiers/dossier_6505_salon+arts+2026+candidatures+sont+ouvertes.html
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 3
+status: bientot-fermee
+opportunite:
+  nom: Salon des Arts de Cholet 2026
+  organisme: Ville de Cholet
+  lieu:
+    ville: Cholet
+    pays: France
+candidature:
+  date_limite: '2026-08-09'
+  date_limite_precision: inclus — échéance très proche
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.cholet.fr/dossiers/dossier_6505_salon+arts+2026+candidatures+sont+ouvertes.html
+eligibilite:
+  disciplines:
+  - peinture
+  - sculpture
+  - dessin
+  niveau_carriere: ouvert aux artistes amateurs et professionnel·les
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Cholet
+  dates_exposition: autour du 11-18 octobre 2026 (source secondaire, non confirmée
+    sur la page officielle)
+  format: collective
+  prise_en_charge:
+    production: null
+    transport:
+      pris_en_charge: null
+      plafond: null
+      devise: EUR
+    per_diem: null
+    hebergement_vernissage: null
+partenaires: []
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.45
+  extracted_notes: Salon municipal généraliste (amateurs ET professionnel·les), moins
+    spécialisé qu'un appel dédié aux arts plastiques professionnels. Frais d'inscription
+    non confirmés dans les pages consultées — à vérifier directement dans le dossier
+    de candidature téléchargeable avant de candidater. Dates d'exposition non confirmées
+    sur la page officielle (source secondaire uniquement). Score volontairement bas
+    (3) compte tenu du format généraliste local et des informations incomplètes.
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: fr
+  resume_fr: Salon généraliste de la ville de Cholet, ouvert aux artistes amateurs
+    et professionnel·les (peinture, sculpture, dessin), sélection sur dossier par
+    un jury. Échéance de candidature très proche (9 août 2026).
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Salon municipal annuel à Cholet, sélection sur dossier, ouvert à toutes
+    disciplines des arts plastiques classiques (peinture, sculpture, dessin).
+  pour_qui: Artistes amateurs et professionnel·les en peinture, sculpture ou dessin.
+a_savoir:
+- Échéance très proche (9 août 2026) — à traiter en urgence si retenue
+- Frais d'inscription non confirmés — à vérifier dans le dossier de candidature
+- Format « salon » généraliste local (amateurs + professionnel·les), moins sélectif
+  qu'un appel spécialisé
+organisme_details:
+  site_web: https://www.cholet.fr
+  adresse: null
+  ville: Cholet
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Non précisé dans les sources consultées.
+- id: hebergement
+  rempli: non
+  justification: Non applicable — exposition, pas de résidence.
+- id: atelier
+  rempli: non
+  justification: Non applicable.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Non précisé dans les sources consultées.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

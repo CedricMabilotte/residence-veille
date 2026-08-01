@@ -1,0 +1,100 @@
+uid: 0689a10d
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/en/programme-de-residence/mo-co-esba-x-cite-internationale-des-arts/
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 3
+status: bientot-fermee
+opportunite:
+  nom: MO.CO Esba x Cité internationale des arts (programme « Artistes Demain »)
+  organisme: MO.CO Esba
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-23'
+  date_limite_precision: confirmée sur la page « Open calls » de la Cité internationale
+    des arts ; dossier hébergé en PDF externe sur le site de MO.CO
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://www.moco.art/sites/default/files/2026-07/Cit%C3%A9%20des%20arts%202027.pdf
+eligibilite:
+  disciplines:
+  - arts plastiques
+  niveau_carriere: diplômé·es de MO.CO Esba depuis moins de 5 ans
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 mois, résidence 2027
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- MO.CO Esba (École supérieure des beaux-arts de Montpellier Contemporain)
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.4
+  extracted_notes: Contenu du PDF de candidature non récupérable en session (restriction
+    d'accès à ce document précis) — détails de conditions (hébergement, rémunération,
+    voyage) non confirmés indépendamment, complétés uniquement via recoupements externes
+    non garantis. Deadline confirmée sur la page officielle « Open calls » de la Cité.
+    RÉSERVÉ AUX DIPLÔMÉ·ES DE MO.CO ESBA DEPUIS MOINS DE 5 ANS — pas un appel ouvert
+    au grand public. À ne pas confondre avec un autre programme MO.CO Esba distinct,
+    « Bandjoun Station » (Cameroun), qui lui est clos (dl 2025-09-11). Score volontairement
+    bas (3) tant que les conditions ne sont pas confirmées en direct.
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: fr
+  resume_fr: Résidence de 3 mois à la Cité internationale des arts (Paris) en 2027,
+    réservée aux diplômé·es de l'école MO.CO Esba (Montpellier) depuis moins de 5
+    ans, dans le cadre du programme « Artistes Demain » de MO.CO.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Résidence annuelle réservée aux jeunes diplômé·es de MO.CO Esba (Montpellier),
+    donnant accès à un séjour de 3 mois à la Cité internationale des arts à Paris.
+  pour_qui: Diplômé·es de MO.CO Esba depuis moins de 5 ans.
+a_savoir:
+- 'Restriction déterminante : réservé aux diplômé·es de MO.CO Esba — pas un appel
+  ouvert au grand public'
+- Détails financiers (hébergement, rémunération, voyage) non confirmés en session
+  — dossier PDF externe non intégralement récupéré
+- Ne pas confondre avec la résidence MO.CO Esba x Bandjoun Station (Cameroun), distincte
+  et déjà close
+organisme_details:
+  site_web: https://www.moco.art
+  adresse: null
+  ville: Montpellier
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Non confirmé en session — dossier PDF de candidature non intégralement
+    récupérable.
+- id: hebergement
+  rempli: inconnu
+  justification: Résidence probablement à la Cité internationale des arts (comme les
+    autres programmes) mais non confirmé indépendamment pour ce partenariat précis.
+- id: atelier
+  rempli: inconnu
+  justification: Non confirmé en session.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Non confirmé en session.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

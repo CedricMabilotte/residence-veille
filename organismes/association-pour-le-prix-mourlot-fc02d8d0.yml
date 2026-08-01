@@ -1,0 +1,34 @@
+uid: association-pour-le-prix-mourlot-fc02d8d0
+nom_canonique: Association pour le Prix Mourlot
+acronymes: []
+pays: France
+type_organisme: association
+url_canonique: https://p-a-c.fr
+urls_secondaires: []
+description_courte: Association marseillaise (Provence Art Contemporain), organise
+  le Prix Mourlot de peinture réservé aux artistes de la région PACA.
+disciplines_proposees:
+- peinture
+types_opportunites_habituels:
+- prix
+opportunites_liees:
+- uid: 64ec9c9e
+  type: prix
+  nom: Prix Mourlot 2026 (15e édition) — peinture
+track_record:
+  prix:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.6
+    fenetre_annuelle: 15e édition — prix annuel bien établi, dépôt habituel en fin
+      d'été
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://p-a-c.fr/ressources/opportunites/prix-murlot
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+ville: Marseille

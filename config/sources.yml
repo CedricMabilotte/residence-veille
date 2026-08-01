@@ -395,3 +395,138 @@ sources:
     # affinité ★★ agrégateur spécialisé fiber art. Domaine non confirmé
     # indépendamment en session (recherche web incomplète) — à valider en priorité
     # via probe_source.py avant de faire confiance à ce crawl.
+
+  # ── J. Exploration large 2026-08-01 (organismes qualifiés + agrégateurs repérés) ─
+  # Provenance : exploration large demandée le 2026-08-01 pour trouver et qualifier
+  # en détail de nouvelles opportunités. Chaque organisme ci-dessous a produit au
+  # moins une fiche vérifiée dans appels/. Types best-effort (mêmes limites que la
+  # section I : web_fetch en session ne peut fetcher que des URLs déjà vues) — à
+  # revalider via probe_source.py au prochain run automatisé.
+
+  - label: "Fondation d'entreprise Martell — appel à projets"
+    url: "https://fondationdentreprisemartell.com/appel-a-projets/"
+    type: deep_html
+    max_pages: 5
+    min_interval_days: 30
+    peak_months: [6, 7, 8]
+
+  - label: "Westwerk e.V. — résidence internationale (Hambourg)"
+    url: "https://westwerk.org/residency.html"
+    type: deep_html
+    max_pages: 5
+    min_interval_days: 30
+
+  - label: "TaDA — Textile and Design Alliance (Arbon, Suisse)"
+    url: "https://tada-residency.ch/en/residence"
+    type: deep_html
+    max_pages: 5
+    min_interval_days: 30
+
+  - label: "Nocefresca — résidence autofinancée (Sardaigne)"
+    url: "https://www.nocefresca.it/"
+    type: deep_html
+    max_pages: 5
+    min_interval_days: 30
+
+  - label: "Proyecto'ACE — résidences de production (Buenos Aires)"
+    url: "https://www.proyectoace.org/en/residencies/production-residencies/"
+    type: deep_html
+    max_pages: 5
+    min_interval_days: 14
+
+  - label: "La Wayaka Current — résidence Atacama (Chili)"
+    url: "https://www.lawayakacurrent.com/apply"
+    type: deep_html
+    max_pages: 5
+    min_interval_days: 14
+
+  - label: "REC.ON Project — résidence écovillage (Andalousie)"
+    # Date limite non confirmée avec précision en session (voir fiche 0e6799bf) —
+    # source gardée pour reconfirmation au prochain run, pas pour auto-promotion
+    # immédiate.
+    url: "https://www.rec-on.es/artist-residency/"
+    type: deep_html
+    max_pages: 5
+    min_interval_days: 21
+
+  - label: "Fondation François Schneider — Talents Contemporains"
+    url: "https://talentscontemporains-terre.fondationfrancoisschneider.org/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 30
+    peak_months: [6, 7, 8]
+
+  - label: "Provence Art Contemporain — opportunités (Prix Mourlot)"
+    url: "https://p-a-c.fr/ressources/opportunites/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 30
+
+  - label: "Ville de Cholet — Salon des Arts"
+    url: "https://www.cholet.fr/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 60
+    peak_months: [6, 7, 8]
+
+  # ── Agrégateurs repérés lors de l'exploration (pas encore vérifiés individuellement,
+  # mais cités indépendamment par plusieurs recherches comme flux vivants et réguliers) ──
+
+  - label: "Alternatif-Art — appels à candidature (FR)"
+    # Cité indépendamment par les deux axes de recherche de cette session (résidences
+    # ET prix/expositions) comme la source la plus réactive rencontrée — a référencé
+    # l'appel Fondation Martell avant le site officiel lui-même.
+    url: "https://www.alternatif-art.com/les-appels-a-candidature"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 7
+
+  - label: "CIPAC — annonces d'appels (réseau pro art contemporain FR)"
+    url: "https://www.cipac.net/annonces/appels"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 7
+
+  - label: "Réseau DDA — Documents d'Artistes (national, calls)"
+    # Distinct de « Documents d'Artistes PACA » déjà couvert (régional) — réseau
+    # multi-régional plus large.
+    url: "https://www.reseau-dda.org/en/calls"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  - label: "Artist Communities Alliance — Open Calls (international)"
+    url: "https://www.artistcommunities.org/directory/open-calls"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 14
+
+  - label: "Residency Unlimited — Open Calls (international)"
+    url: "https://residencyunlimited.org/opportunities/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  - label: "Textile Art Insider — appels textile (digest international)"
+    url: "https://textileartinsider.com/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 14
+
+  - label: "Artenda — agrégateur international (filtrable par pays)"
+    url: "https://artenda.net/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  - label: "Contemporanéités de l'art — appels et auteurs (FR)"
+    url: "https://contemporaneitesdelart.fr/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  - label: "La Maison des Artistes — petites annonces (appels FR)"
+    url: "https://www.lamaisondesartistes.fr/"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 14

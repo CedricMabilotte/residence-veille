@@ -1,0 +1,40 @@
+uid: mo-co-esba-e992d87f
+nom_canonique: MO.CO Esba
+acronymes:
+- MO.CO
+pays: France
+type_organisme: ecole_art
+url_canonique: https://www.moco.art
+urls_secondaires: []
+description_courte: École supérieure des beaux-arts de Montpellier Contemporain
+  (MO.CO Esba). Programme « Artistes Demain » offrant à ses jeunes diplômé·es une
+  résidence de 3 mois à la Cité internationale des arts (Paris).
+disciplines_proposees:
+- arts plastiques
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 0689a10d
+  type: residence
+  nom: MO.CO Esba x Cité internationale des arts (programme « Artistes Demain »)
+track_record:
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.4
+    fenetre_annuelle: appel annuel, dépôt observé mi-2026 pour une résidence 2027
+      — à confirmer sur plusieurs cycles
+partenaires_mentionnes:
+- organisme_uid: cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce
+  occurrences: 1
+  nom_brut: Cité internationale des arts
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+  notes_qualite: 'Réservé aux diplômé·es de MO.CO Esba depuis moins de 5 ans —
+    pas un appel ouvert au grand public. Dossier de candidature en PDF externe
+    non intégralement récupéré en session (voir _meta de la fiche 0689a10d).'
+ville: Montpellier

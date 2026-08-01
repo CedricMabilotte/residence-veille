@@ -1,0 +1,96 @@
+uid: 64ec9c9e
+type: prix
+source_url: https://p-a-c.fr/ressources/opportunites/prix-murlot
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 5
+status: ouverte
+opportunite:
+  nom: Prix Mourlot 2026 (15e édition) — peinture
+  organisme: Association pour le Prix Mourlot
+  lieu:
+    ville: Marseille
+    pays: France
+candidature:
+  date_limite: '2026-09-15'
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - 10 visuels d'œuvres originales + note technique
+  - CV/bio (2 pages max)
+  - document complémentaire libre
+  url_candidature: assomourlot@gmail.com (dossier PDF unique, 15 pages / 10 Mo max,
+    envoyé par email)
+eligibilite:
+  disciplines:
+  - peinture
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: réservé aux artistes peintres résidant en région PACA
+    (Provence-Alpes-Côte d'Azur)
+conditions_prix:
+  dotation:
+    montant: 3000
+    devise: EUR
+  exposition: true
+  achat_oeuvre: null
+  edition_catalogue: null
+  jury_public: null
+  nb_laureats: 5
+  editions_precedentes:
+  - 1re à 14e édition (14 éditions précédentes)
+partenaires:
+- Provence Art Contemporain
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.7
+  extracted_notes: 'RESTRICTION D''ÉLIGIBILITÉ DÉTERMINANTE : réservé aux artistes
+    peintres résidant en région PACA. 1er prix 3000€ + exposition personnelle en 2027
+    ; les 4 autres artistes sélectionnés reçoivent 600€ chacun. Semaine d''accrochage
+    9-16 novembre 2026, transport à la charge de l''artiste.'
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: fr
+  resume_fr: Prix de peinture réservé aux artistes résidant en région PACA, 15e édition.
+    5 artistes sélectionnés pour une exposition collective à Marseille (19 nov-17
+    déc 2026) ; 1er prix 3000€ + exposition personnelle en 2027, 600€ pour les 4 autres.
+    Candidature gratuite.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Prix de peinture organisé par l'Association pour le Prix Mourlot (Provence
+    Art Contemporain), réservé aux artistes peintres résidant en région PACA, avec
+    exposition collective et dotation.
+  pour_qui: Artistes peintres résidant en région PACA.
+a_savoir:
+- 'Restriction déterminante : réservé aux artistes peintres résidant en région PACA
+  — vérifier l''éligibilité géographique avant de candidater'
+- 1er prix 3000€ + exposition personnelle en 2027 ; 4 autres sélectionné·es reçoivent
+  600€ chacun·e
+- Exposition collective à la Galerie Mourlot Jeu de Paume, Marseille, du 19 novembre
+  au 17 décembre 2026 ; transport de l'œuvre à la charge de l'artiste
+organisme_details:
+  site_web: https://p-a-c.fr
+  adresse: 27 rue Thubaneau, 13001 Marseille
+  ville: Marseille
+  contact_email: assomourlot@gmail.com
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 1er prix 3000€ + exposition personnelle 2027 ; 600€ pour les 4 autres
+    artistes sélectionné·es.
+- id: hebergement
+  rempli: non
+  justification: Pas de résidence associée, uniquement exposition collective.
+- id: atelier
+  rempli: non
+  justification: Non applicable.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Transport de l'œuvre à la charge de l'artiste pour la semaine d'accrochage.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

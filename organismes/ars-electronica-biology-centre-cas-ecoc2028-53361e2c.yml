@@ -1,0 +1,39 @@
+uid: ars-electronica-biology-centre-cas-ecoc2028-53361e2c
+nom_canonique: Ars Electronica / Biology Centre CAS (ECOC2028)
+acronymes:
+- ECOC2028
+pays: République tchèque
+type_organisme: autre
+url_canonique: https://ars.electronica.art
+urls_secondaires: []
+description_courte: Programme de résidence art-science porté par Ars Electronica
+  et le Biology Centre de l'Académie tchèque des sciences, dans le cadre de la Capitale
+  européenne de la culture 2028 (České Budějovice).
+disciplines_proposees:
+- art et science
+- écologie microbienne
+- agriculture durable
+- permaculture
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: b7074aef
+  type: residence
+  nom: Ars Biologica — ArtXScience Residency (ECOC2028)
+track_record:
+  residence:
+    editions:
+    - '2027-2028'
+    fiabilite_cycle: 0.3
+    fenetre_annuelle: première édition repérée (ECOC2028), pas d'historique de cycle
+      antérieur
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://ars.electronica.art/export/en/ecoc2028-ars-biologica-art-science-residency/
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+ville: České Budějovice

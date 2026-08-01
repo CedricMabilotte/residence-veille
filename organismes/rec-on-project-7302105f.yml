@@ -1,0 +1,41 @@
+uid: rec-on-project-7302105f
+nom_canonique: REC.ON Project
+acronymes: []
+pays: Espagne
+type_organisme: autre
+url_canonique: https://www.rec-on.es
+urls_secondaires: []
+description_courte: Écovillage en Andalousie proposant des résidences autofinancées
+  axées sur l'upcycling, le travail du bois/métal et la permaculture.
+disciplines_proposees:
+- arts visuels
+- travail du bois
+- travail du métal
+- upcycling
+- permaculture
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 0e6799bf
+  type: residence
+  nom: REC.ON Ecovillage Artist Residency
+track_record:
+  residence:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.3
+    fenetre_annuelle: date limite précise non confirmée (« courant septembre 2026 »)
+      — à préciser au prochain contrôle
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://www.rec-on.es/artist-residency/
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+  notes_qualite: Date limite non confirmée avec précision en session — contacter
+    contact@rec-on.eu pour confirmer avant de faire évoluer le statut de la fiche
+    liée hors de « indetermine ».
+ville: null

@@ -1,0 +1,36 @@
+uid: fondation-d-entreprise-martell-1b0f6293
+nom_canonique: Fondation d'entreprise Martell
+acronymes: []
+pays: France
+type_organisme: fondation
+url_canonique: https://fondationdentreprisemartell.com
+urls_secondaires: []
+description_courte: Fondation d'entreprise à Cognac, programme de résidences « Création
+  & Transitions » (recherche, production, écriture/commissariat) en arts visuels
+  et SHS.
+disciplines_proposees:
+- arts visuels
+- sciences humaines et sociales
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 97c67394
+  type: residence
+  nom: Résidences Création & Transitions — Fondation d'entreprise Martell
+track_record:
+  residence:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.4
+    fenetre_annuelle: appel repéré avec deadline août 2026 — cycle annuel probable,
+      à confirmer sur plusieurs éditions
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://fondationdentreprisemartell.com/appel-a-projets/
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+ville: Cognac

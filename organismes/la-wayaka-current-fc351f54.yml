@@ -1,0 +1,38 @@
+uid: la-wayaka-current-fc351f54
+nom_canonique: La Wayaka Current
+acronymes: []
+pays: Chili
+type_organisme: autre
+url_canonique: https://www.lawayakacurrent.com
+urls_secondaires: []
+description_courte: Résidence écologique et collaborative dans le désert d'Atacama,
+  modèle tarifaire adaptatif, priorité aux candidat·es d'Amérique latine et BIPOC.
+disciplines_proposees:
+- arts visuels
+- écologie
+- pratiques collaboratives/participatives
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 235efcae
+  type: residence
+  nom: La Wayaka Current — Atacama Residency
+track_record:
+  residence:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: sessions glissantes, plusieurs dates confirmées fin 2026 —
+      flux continu
+partenaires_mentionnes: []
+pages_surveillees:
+- url: https://www.lawayakacurrent.com/apply
+  role: page_appel
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true
+  notes_qualite: Modèle de coût « sliding scale » non chiffré en session — à clarifier
+    avant toute promotion de la fiche liée.
+ville: null

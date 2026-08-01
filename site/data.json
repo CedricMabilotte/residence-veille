@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T13:32:19.790990+00:00",
-  "n_ouvertes": 44,
+  "generated_at": "2026-08-01T21:53:55.063813+00:00",
+  "n_ouvertes": 59,
   "n_archive": 13,
   "opportunites": [
     {
@@ -205,6 +205,104 @@
       ]
     },
     {
+      "uid": "0689a10d",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/en/programme-de-residence/mo-co-esba-x-cite-internationale-des-arts/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 3,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "MO.CO Esba x Cité internationale des arts (programme « Artistes Demain »)",
+        "organisme": "MO.CO Esba",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-23",
+        "date_limite_precision": "confirmée sur la page « Open calls » de la Cité internationale des arts ; dossier hébergé en PDF externe sur le site de MO.CO",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://www.moco.art/sites/default/files/2026-07/Cit%C3%A9%20des%20arts%202027.pdf"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts plastiques"
+        ],
+        "niveau_carriere": "diplômé·es de MO.CO Esba depuis moins de 5 ans",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 mois, résidence 2027"
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "MO.CO Esba (École supérieure des beaux-arts de Montpellier Contemporain)"
+      ],
+      "analyse": {
+        "synthese": "Résidence annuelle réservée aux jeunes diplômé·es de MO.CO Esba (Montpellier), donnant accès à un séjour de 3 mois à la Cité internationale des arts à Paris.",
+        "pour_qui": "Diplômé·es de MO.CO Esba depuis moins de 5 ans."
+      },
+      "a_savoir": [
+        "Restriction déterminante : réservé aux diplômé·es de MO.CO Esba — pas un appel ouvert au grand public",
+        "Détails financiers (hébergement, rémunération, voyage) non confirmés en session — dossier PDF externe non intégralement récupéré",
+        "Ne pas confondre avec la résidence MO.CO Esba x Bandjoun Station (Cameroun), distincte et déjà close"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.moco.art",
+        "adresse": null,
+        "ville": "Montpellier",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Non confirmé en session — dossier PDF de candidature non intégralement récupérable."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Résidence probablement à la Cité internationale des arts (comme les autres programmes) mais non confirmé indépendamment pour ce partenariat précis."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Non confirmé en session."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Non confirmé en session."
+        }
+      ]
+    },
+    {
       "uid": "0b83d4e8",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/03/BASES%20arte%20y%20educaci%C3%B3n%202026-27%20DEF.pdf",
@@ -314,6 +412,106 @@
       ]
     },
     {
+      "uid": "0e6799bf",
+      "type": "residence",
+      "source_url": "https://www.rec-on.es/artist-residency/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 4,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "REC.ON Ecovillage Artist Residency",
+        "organisme": "REC.ON Project",
+        "lieu": {
+          "ville": null,
+          "pays": "Espagne",
+          "territoire": "Andalousie, écovillage"
+        }
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": "indiqué « courant septembre 2026 » sur la page officielle, sans jour précis confirmé (une source secondaire cite le 12 septembre, non vérifiée indépendamment) — à confirmer directement auprès de l'organisme avant de candidater",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://www.rec-on.es/artist-residency/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "travail du bois",
+          "travail du métal",
+          "upcycling",
+          "permaculture"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2, 4 ou 6 semaines au choix"
+        },
+        "hebergement": true,
+        "atelier": "ateliers bois/métal/upcycling sur site d'écovillage",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Résidence rurale autofinancée dans un écovillage andalou, orientée vers les pratiques d'upcycling, le travail du bois/métal et la permaculture.",
+        "pour_qui": "Artistes visuel·les intéressé·es par les pratiques d'upcycling, de permaculture et de vie en écovillage, prêt·es à financer leur propre séjour."
+      },
+      "a_savoir": [
+        "AUTOFINANCÉ : coût de 500 à 2650€ selon la durée choisie",
+        "Date limite précise non confirmée sur la page officielle — vérifier directement auprès de l'organisme (contact@rec-on.eu) avant de candidater",
+        "Cadre rural/écovillage, forte résonance avec les matériaux locaux et l'upcycling"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.rec-on.es",
+        "adresse": null,
+        "ville": null,
+        "contact_email": "contact@rec-on.eu"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Résidence autofinancée, aucune rémunération."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Hébergement fourni sur le site de l'écovillage."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Ateliers bois/métal/upcycling sur place."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Voyage non pris en charge, coût de séjour à la charge de l'artiste."
+        }
+      ]
+    },
+    {
       "uid": "1a3f71ff",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
@@ -408,6 +606,104 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justification": "Se mencionan 'recursos económicos' pero no se especifica qué gastos cubre (viaje, producción, transporte de obras, materiales)"
+        }
+      ]
+    },
+    {
+      "uid": "235efcae",
+      "type": "residence",
+      "source_url": "https://www.lawayakacurrent.com/apply",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 4,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "La Wayaka Current — Atacama Residency",
+        "organisme": "La Wayaka Current",
+        "lieu": {
+          "ville": null,
+          "pays": "Chili",
+          "territoire": "Désert d'Atacama"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-09-27",
+        "date_limite_precision": "sessions glissantes confirmées fin 2026 (27 septembre, 24 octobre, 20 novembre 2026)",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://www.lawayakacurrent.com/apply"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "écologie",
+          "pratiques collaboratives/participatives"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "places réduites réservées en priorité aux candidat·es d'Amérique latine et BIPOC — ne semble pas exclure les autres candidatures",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 3,
+          "dates": "3 semaines"
+        },
+        "hebergement": true,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": "tarif variable (« sliding scale »), montant exact non confirmé"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Résidence écologique et collaborative dans le désert d'Atacama, avec un modèle tarifaire adaptatif et une priorité donnée à certains profils de candidat·es.",
+        "pour_qui": "Artistes visuel·les intéressé·es par l'écologie et les pratiques collaboratives, avec priorité aux candidat·es d'Amérique latine et BIPOC."
+      },
+      "a_savoir": [
+        "Modèle de coût « sliding scale » — montant exact non confirmé, à clarifier avant candidature",
+        "Priorité affichée aux candidat·es d'Amérique latine et BIPOC (sans exclusion formelle apparente des autres profils)",
+        "Voyage non pris en charge"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.lawayakacurrent.com",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune rémunération ; modèle de coût variable à la charge du candidat."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Hébergement fourni sur le site de résidence."
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Non précisé dans les sources consultées."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Voyage non pris en charge."
         }
       ]
     },
@@ -923,6 +1219,215 @@
       ]
     },
     {
+      "uid": "58ee772e",
+      "type": "residence",
+      "source_url": "https://www.proyectoace.org/en/residencies/production-residencies/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 5,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Proyecto'ACE — Production Residencies",
+        "organisme": "Proyecto'ACE",
+        "lieu": {
+          "ville": "Buenos Aires",
+          "pays": "Argentine",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-10-31",
+        "date_limite_precision": "sessions glissantes, candidatures ouvertes 4 fois par an — prochaine échéance identifiée le 31 octobre 2026",
+        "langue_dossier": [
+          "en",
+          "es",
+          "pt"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://www.proyectoace.org/en/residencies/production-residencies/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "art textile"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "4 semaines (ou micro-résidence de 2 semaines)"
+        },
+        "hebergement": null,
+        "atelier": "true (atelier de production, fourni — payant, voir note autofinancement)",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Résidence de production en atelier à Buenos Aires, ouverte aux arts visuels et à l'art textile, fonctionnant par sessions glissantes tout au long de l'année.",
+        "pour_qui": "Artistes visuel·les et praticien·nes d'art textile, prêt·es à financer leur propre séjour."
+      },
+      "a_savoir": [
+        "AUTOFINANCÉ : coût à partir de 480 USD à la charge de l'artiste",
+        "Candidatures glissantes, 4 sessions par an — vérifier le calendrier exact avant de candidater",
+        "Existe aussi une micro-résidence de 2 semaines (non détaillée ici)"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.proyectoace.org",
+        "adresse": null,
+        "ville": "Buenos Aires",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Résidence autofinancée, aucune rémunération."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Non précisé indépendamment de l'atelier de production dans les sources consultées."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Atelier de production fourni (inclus dans le coût payant)."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Voyage non pris en charge, coût de séjour à la charge de l'artiste."
+        }
+      ]
+    },
+    {
+      "uid": "5de27397",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/en/appels-a-candidature/49659/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Kota — Institut français d'Indonésie x Cité internationale des arts",
+        "organisme": "Cité Internationale des Arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-30",
+        "date_limite_precision": "dépôt ouvert du 16 juin au 30 août 2026, résultats en septembre 2026",
+        "langue_dossier": [
+          "fr",
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "CV (4 pages max)",
+          "portfolio (15 pages max)",
+          "lettre d'intention (3 pages max)"
+        ],
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLSdqV4AhUFUlf58XZOYC2MSZoD8DbTWca1fQEQc8Td-C2VdWDg/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "performance",
+          "recherche sonore/musicale",
+          "arts vivants",
+          "littérature",
+          "design",
+          "architecture",
+          "urbanisme"
+        ],
+        "niveau_carriere": "5 ans d'expérience professionnelle minimum, pas de limite d'âge",
+        "age_max": null,
+        "nationalite": "sans restriction de nationalité déclarée, mais résidence effective exigée (voir residence_administrative)",
+        "residence_administrative": "réservé aux artistes vivant et travaillant en Indonésie depuis au moins 7 ans — candidatures individuelles uniquement, pas de collectifs"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 mois, du 2 février au 27 avril 2027"
+        },
+        "hebergement": true,
+        "atelier": "studio-atelier meublé 20-35 m², Cité internationale des arts (Marais)",
+        "remuneration": {
+          "montant": 1700,
+          "devise": "EUR",
+          "periodicite": "mois (net)"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Institut français d'Indonésie"
+      ],
+      "analyse": {
+        "synthese": "Programme de résidence de recherche-création à Paris, réservé à un·e artiste-chercheur·se basé·e en Indonésie, en partenariat entre la Cité internationale des arts et l'Institut français d'Indonésie.",
+        "pour_qui": "Artistes et professionnel·les de la culture de toute discipline, résidant en Indonésie depuis au moins 7 ans, 5 ans d'expérience professionnelle minimum."
+      },
+      "a_savoir": [
+        "Restriction déterminante : réservé aux artistes résidant en Indonésie depuis 7 ans minimum — non éligible pour une artiste basée en France",
+        "Candidatures individuelles uniquement, pas de collectifs",
+        "Gratuit pour candidater"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.citeinternationaledesarts.fr",
+        "adresse": "18 rue de l'Hôtel de Ville, 75004 Paris",
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Bourse de 1700€/mois nets versée pendant la résidence."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Studio-atelier meublé 20-35 m² au Marais."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Espace combiné logement/atelier fourni sur place."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Voyage aller-retour Indonésie-Paris, assurance et visa pris en charge."
+        }
+      ]
+    },
+    {
       "uid": "660d0fed",
       "type": "residence",
       "source_url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama",
@@ -1120,6 +1625,104 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justificacion": "Cobertura de gastos de viaje o producción no especificada en este documento."
+        }
+      ]
+    },
+    {
+      "uid": "73de5a6b",
+      "type": "residence",
+      "source_url": "https://www.nocefresca.it/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 5,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Nocefresca Artist Residency 2027",
+        "organisme": "Nocefresca",
+        "lieu": {
+          "ville": "Milis",
+          "pays": "Italie",
+          "territoire": "Sardaigne"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-09-07",
+        "date_limite_precision": "pour l'édition 2027",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://www.nocefresca.it/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "design textile",
+          "mixed-media"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "variable, plusieurs semaines à environ 2 mois"
+        },
+        "hebergement": true,
+        "atelier": "true (fourni, payant — voir note autofinancement)",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Résidence rurale autofinancée en Sardaigne, avec un historique de résidents travaillant la céramique et le textile — cadre propice à un travail sur les matériaux et savoir-faire locaux.",
+        "pour_qui": "Artistes visuel·les, designers textile et praticien·nes mixed-media, prêt·es à financer leur propre séjour."
+      },
+      "a_savoir": [
+        "AUTOFINANCÉ : coût du séjour 1650-1860€ à la charge de l'artiste, candidature elle-même gratuite",
+        "Cadre rural sarde, historique de résidents céramistes/textile",
+        "Voyage non pris en charge"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.nocefresca.it",
+        "adresse": null,
+        "ville": "Milis",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Résidence autofinancée, aucune rémunération."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Hébergement fourni (inclus dans le coût du séjour payant)."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Atelier fourni (inclus dans le coût du séjour payant)."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Voyage non pris en charge, coût de séjour à la charge de l'artiste."
         }
       ]
     },
@@ -1357,6 +1960,104 @@
       ]
     },
     {
+      "uid": "82ac6b64",
+      "type": "residence",
+      "source_url": "https://tada-residency.ch/en/residence",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "TaDA Residency 2027",
+        "organisme": "TaDA — Textile and Design Alliance",
+        "lieu": {
+          "ville": "Arbon",
+          "pays": "Suisse",
+          "territoire": "ancienne usine Saurer"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-12",
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://tada-residency.ch/en/residence"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "design",
+          "textile"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 mois, avril-juin ou septembre-novembre 2027"
+        },
+        "hebergement": true,
+        "atelier": "atelier dans l'ancienne usine textile Saurer, accès à 13 entreprises textiles suisses partenaires",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": "contribution aux frais de vie, montant non précisé + mentorat + mise en réseau industriel"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "13 entreprises textiles suisses (Textile and Design Alliance)"
+      ],
+      "analyse": {
+        "synthese": "Résidence dédiée au textile et au design textile, adossée à un réseau industriel suisse (13 entreprises), avec mentorat et accès à des savoir-faire de production textile.",
+        "pour_qui": "Artistes visuel·les et designers avec un intérêt pour le textile, la production textile ou la durabilité."
+      },
+      "a_savoir": [
+        "Forte résonance avec un travail sur le textile et les matériaux/savoir-faire locaux",
+        "Montant exact de la contribution aux frais de vie non précisé — à confirmer avant candidature",
+        "Accès à un réseau de 13 entreprises textiles suisses et mentorat industriel"
+      ],
+      "organisme_details": {
+        "site_web": "https://tada-residency.ch",
+        "adresse": null,
+        "ville": "Arbon",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "partiel",
+          "justification": "Contribution aux frais de vie mentionnée mais montant non précisé dans les sources consultées."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Chambre privée fournie dans l'ancienne usine Saurer."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Atelier fourni, accès à des équipements/savoir-faire textiles industriels."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Voyage pris en charge (détail du plafond non précisé)."
+        }
+      ]
+    },
+    {
       "uid": "8c656564",
       "type": "residence",
       "source_url": "https://www.fondationdesartistes.fr/missions/produire-dans-la-residence-de-moly-sabata",
@@ -1546,6 +2247,106 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justification": "No se especifica cobertura de viajes, transporte de obras u otros costos de producción."
+        }
+      ]
+    },
+    {
+      "uid": "97c67394",
+      "type": "residence",
+      "source_url": "https://fondationdentreprisemartell.com/appel-a-projets/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 8,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidences Création & Transitions — Fondation d'entreprise Martell",
+        "organisme": "Fondation d'entreprise Martell",
+        "lieu": {
+          "ville": "Cognac",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-23",
+        "date_limite_precision": "minuit",
+        "langue_dossier": [
+          "fr",
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "dossier de candidature (envoi par email)"
+        ],
+        "url_candidature": "https://fondationdentreprisemartell.com/appel-a-projets/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "sciences humaines et sociales"
+        ],
+        "niveau_carriere": "tous, candidatures individuelles ou collectives",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "6 à 8 semaines (recherche/expérimentation), 2 à 6 semaines (production), 2 à 4 semaines (écriture/commissariat) — durée selon le volet choisi"
+        },
+        "hebergement": true,
+        "atelier": "maison meublée + ateliers de production + archive vivante + bibliothèque sur site",
+        "remuneration": {
+          "montant": 375,
+          "devise": "EUR",
+          "periodicite": "semaine (bourse vie + travail)"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": 1500,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Programme de résidences pluridisciplinaires (arts visuels et SHS) à Cognac, avec trois formats possibles selon le stade du projet (recherche, production, écriture/commissariat).",
+        "pour_qui": "Artistes et chercheur·ses en arts visuels ou sciences humaines et sociales, candidatures individuelles ou collectives."
+      },
+      "a_savoir": [
+        "Trois volets distincts (recherche, production, écriture) avec durées différentes",
+        "Jusqu'à 2500€ de frais de production en plus de la bourse vie/travail",
+        "Candidature par simple envoi de dossier en email, gratuit"
+      ],
+      "organisme_details": {
+        "site_web": "https://fondationdentreprisemartell.com",
+        "adresse": null,
+        "ville": "Cognac",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Bourse de 375€/semaine + jusqu'à 2500€ de frais de production."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Maison meublée fournie sur site."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Ateliers de production, archive vivante et bibliothèque sur place."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Voyage pris en charge jusqu'à 1500€ (Europe/international)."
         }
       ]
     },
@@ -1748,6 +2549,108 @@
       ]
     },
     {
+      "uid": "b7074aef",
+      "type": "residence",
+      "source_url": "https://ars.electronica.art/export/en/ecoc2028-ars-biologica-art-science-residency/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 6,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Ars Biologica — ArtXScience Residency (ECOC2028)",
+        "organisme": "Ars Electronica / Biology Centre CAS (ECOC2028)",
+        "lieu": {
+          "ville": "České Budějovice",
+          "pays": "République tchèque",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-09-28",
+        "date_limite_precision": "minuit CET ; résultats annoncés en novembre 2026",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://ars.electronica.art/export/en/ecoc2028-ars-biologica-art-science-residency/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "art et science",
+          "écologie microbienne",
+          "agriculture durable",
+          "permaculture"
+        ],
+        "niveau_carriere": "5 ans et plus d'expérience professionnelle documentée en collaboration art-science",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "sessions réparties entre 2027 et 2028, jusqu'à 1 mois par session, 2 à 3 sessions"
+        },
+        "hebergement": null,
+        "atelier": "laboratoire du Biology Centre de l'Académie tchèque des sciences",
+        "remuneration": {
+          "montant": 6000,
+          "devise": "EUR",
+          "periodicite": "honoraires artiste (fee), + jusqu'à 15 000€ de production et jusqu'à 3 000€ de transport/frais — dotation totale 24 000€"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": 3000,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Biology Centre de l'Académie tchèque des sciences",
+        "ECOC2028 (Capitale européenne de la culture)"
+      ],
+      "analyse": {
+        "synthese": "Résidence de recherche art-science sur les thématiques de l'écologie microbienne, de l'agriculture durable et de la permaculture, avec une dotation substantielle mais un niveau d'exigence élevé.",
+        "pour_qui": "Artistes ayant 5 ans ou plus d'expérience documentée en collaboration art-science."
+      },
+      "a_savoir": [
+        "Seulement 2 places disponibles — sélectivité élevée",
+        "Dotation totale 24 000€ (6000€ honoraires + jusqu'à 15 000€ production + jusqu'à 3000€ transport/frais)",
+        "Clause d'éligibilité précise (5+ ans d'expérience art-science documentée) non vérifiée intégralement en session — à confirmer avant candidature"
+      ],
+      "organisme_details": {
+        "site_web": "https://ars.electronica.art",
+        "adresse": null,
+        "ville": "České Budějovice",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Dotation totale 24 000€ incluant 6000€ d'honoraires artiste."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "Non précisé dans les sources consultées."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Accès au laboratoire du Biology Centre de l'Académie tchèque des sciences."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Jusqu'à 3000€ de transport/frais pris en charge, inclus dans la dotation totale."
+        }
+      ]
+    },
+    {
       "uid": "bcd3a041",
       "type": "residence",
       "source_url": "https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video",
@@ -1840,6 +2743,117 @@
           "id": "frais_pris_en_charge",
           "rempli": "partiel",
           "justification": "Accès aux équipements fourni pour adhérents, mais aucune prise en charge de frais de voyage, transport ou production mentionnée"
+        }
+      ]
+    },
+    {
+      "uid": "c781ae19",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/en/appels-a-candidature/dominican-republic-x-cite-internationale-des-arts/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "République dominicaine x Cité internationale des arts",
+        "organisme": "Cité Internationale des Arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-30",
+        "date_limite_precision": "dépôt ouvert du 16 juillet au 30 août 2026, résultats octobre 2026 — deux résidences en 2027",
+        "langue_dossier": [
+          "fr",
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "CV",
+          "portfolio",
+          "lettre d'intention"
+        ],
+        "url_candidature": "https://forms.gle/gy4c3B7hYukj3JjM9"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "peinture",
+          "sculpture",
+          "installation",
+          "photographie",
+          "vidéo",
+          "art numérique",
+          "performance",
+          "pratique transdisciplinaire"
+        ],
+        "niveau_carriere": "3 ans d'expérience professionnelle minimum, pas de limite d'âge",
+        "age_max": null,
+        "nationalite": "ressortissant·es dominicain·es résidant en République dominicaine depuis au moins 2 ans",
+        "residence_administrative": "candidatures groupées non éligibles ; anciens résidents de la Cité non éligibles"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 mois, deux sessions — 5 janvier au 26 mars 2027, ou 2 avril au 28 juin 2027"
+        },
+        "hebergement": true,
+        "atelier": "studio 20-35 m², Cité internationale des arts",
+        "remuneration": {
+          "montant": 1000,
+          "devise": "EUR",
+          "periodicite": "mois (net)"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Ambassade de République dominicaine en France",
+        "Banco de Reservas / Banreservas Cultural Centre"
+      ],
+      "analyse": {
+        "synthese": "Programme de résidence en arts visuels à Paris, en partenariat entre la Cité internationale des arts, l'Ambassade de République dominicaine en France et le Banreservas Cultural Centre.",
+        "pour_qui": "Artistes visuel·les ressortissant·es de République dominicaine, résidant dans le pays depuis au moins 2 ans, 3 ans d'expérience professionnelle minimum."
+      },
+      "a_savoir": [
+        "Restriction déterminante : réservé aux ressortissant·es dominicain·es résidant en République dominicaine — non éligible pour une artiste française",
+        "Discipline restreinte aux arts visuels (contrairement aux autres programmes de la Cité, plus larges)",
+        "Gratuit pour candidater"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.citeinternationaledesarts.fr",
+        "adresse": "18 rue de l'Hôtel de Ville, 75004 Paris",
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Bourse de 1000€/mois nets versée pendant la résidence."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Studio 20-35 m² fourni."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Espace combiné logement/atelier fourni sur place."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Voyage aller-retour classe économique et assurances pris en charge (hors visa/passeport)."
         }
       ]
     },
@@ -2034,6 +3048,106 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justification": "Le texte ne mentionne pas la prise en charge des frais de voyage, de production ou de transport."
+        }
+      ]
+    },
+    {
+      "uid": "cc05d124",
+      "type": "residence",
+      "source_url": "https://westwerk.org/residency.html",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Westwerk International Residency Program",
+        "organisme": "Westwerk e.V.",
+        "lieu": {
+          "ville": "Hambourg",
+          "pays": "Allemagne",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-27",
+        "date_limite_precision": "23h59 CET ; plateforme de dépôt ouverte depuis le 1er juillet 2026",
+        "langue_dossier": [
+          "en",
+          "de"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://westwerk.org/residency.html"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "photographie"
+        ],
+        "niveau_carriere": "artistes internationaux, 23 ans et plus",
+        "age_max": null,
+        "nationalite": "sans restriction (programme international)",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 mois, créneaux disponibles entre janvier 2027 et décembre 2028"
+        },
+        "hebergement": true,
+        "atelier": "appartement-atelier de 68 m²",
+        "remuneration": {
+          "montant": 900,
+          "devise": "EUR",
+          "periodicite": "mois + 500€ forfait présentation finale"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "présentation finale du travail (forfait de 500€ associé)"
+      },
+      "partenaires": [
+        "Ministère de la Culture et des Médias de Hambourg"
+      ],
+      "analyse": {
+        "synthese": "Programme de résidence internationale à Hambourg financé par la ville, offrant un appartement-atelier et une bourse mensuelle sur 3 mois, avec créneaux répartis entre 2027 et 2028.",
+        "pour_qui": "Artistes visuels et photographes internationaux, 23 ans et plus."
+      },
+      "a_savoir": [
+        "URL de la page d'appel à reconfirmer avant candidature (deux pages légitimes possibles, voir notes)",
+        "Ne pas confondre avec l'appel « Cultural Complicity » de Westwerk, sans rapport",
+        "Créneaux de résidence répartis sur 2027-2028, choix possible à la candidature"
+      ],
+      "organisme_details": {
+        "site_web": "https://westwerk.org",
+        "adresse": null,
+        "ville": "Hambourg",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Bourse de 900€/mois + 500€ forfait pour la présentation finale."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Appartement-atelier de 68 m² fourni."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Espace combiné logement/atelier de 68 m²."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Un aller-retour pris en charge."
         }
       ]
     },
@@ -2325,6 +3439,118 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justification": "No hay información sobre cobertura de viajes, producción o transporte de obras"
+        }
+      ]
+    },
+    {
+      "uid": "fc738c65",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/en/appels-a-candidature/timor-leste/",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Timor-Leste — Institut français d'Indonésie / Fundação Oriente x Cité internationale des arts",
+        "organisme": "Cité Internationale des Arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-30",
+        "date_limite_precision": "dépôt ouvert du 9 juillet au 30 août 2026, résultats novembre 2026 — une seule candidature retenue",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "CV",
+          "portfolio",
+          "lettre d'intention"
+        ],
+        "url_candidature": "https://forms.gle/ux5FhbC4C1VwTJoj7"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "performance",
+          "recherche sonore/musicale",
+          "arts vivants",
+          "écriture",
+          "design",
+          "architecture",
+          "urbanisme",
+          "commissariat",
+          "critique d'art"
+        ],
+        "niveau_carriere": "5 ans d'expérience professionnelle minimum, tous âges",
+        "age_max": null,
+        "nationalite": "réservé aux artistes-chercheurs nationaux du Timor-Leste",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 mois, du 2 février au 27 avril 2027"
+        },
+        "hebergement": true,
+        "atelier": "studio-atelier meublé 25-40 m², Cité internationale des arts",
+        "remuneration": {
+          "montant": 850,
+          "devise": "EUR",
+          "periodicite": "mois (net) + prime d'arrivée de 200€"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Institut français d'Indonésie",
+        "Fundação Oriente"
+      ],
+      "analyse": {
+        "synthese": "Résidence de recherche-création à Paris pour un·e artiste timorais·e, en partenariat entre la Cité internationale des arts, l'Institut français d'Indonésie et la Fundação Oriente (Dili).",
+        "pour_qui": "Artistes-chercheur·ses ressortissant·es du Timor-Leste, 5 ans d'expérience professionnelle minimum."
+      },
+      "a_savoir": [
+        "Restriction déterminante : réservé aux nationaux du Timor-Leste — non éligible pour une artiste française",
+        "Une seule candidature sera retenue sur ce cycle",
+        "Gratuit pour candidater"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.citeinternationaledesarts.fr",
+        "adresse": "18 rue de l'Hôtel de Ville, 75004 Paris",
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Bourse de 850€/mois nets + prime d'arrivée de 200€."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Studio-atelier meublé 25-40 m²."
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Espace combiné logement/atelier fourni sur place."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "Voyage aller-retour, assurance et visa pris en charge."
         }
       ]
     },
@@ -3137,6 +4363,102 @@
       ]
     },
     {
+      "uid": "64ec9c9e",
+      "type": "prix",
+      "source_url": "https://p-a-c.fr/ressources/opportunites/prix-murlot",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 5,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Prix Mourlot 2026 (15e édition) — peinture",
+        "organisme": "Association pour le Prix Mourlot",
+        "lieu": {
+          "ville": "Marseille",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-09-15",
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "10 visuels d'œuvres originales + note technique",
+          "CV/bio (2 pages max)",
+          "document complémentaire libre"
+        ],
+        "url_candidature": "assomourlot@gmail.com (dossier PDF unique, 15 pages / 10 Mo max, envoyé par email)"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "peinture"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": "réservé aux artistes peintres résidant en région PACA (Provence-Alpes-Côte d'Azur)"
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": 3000,
+          "devise": "EUR"
+        },
+        "exposition": true,
+        "achat_oeuvre": null,
+        "edition_catalogue": null,
+        "jury_public": null,
+        "nb_laureats": 5,
+        "editions_precedentes": [
+          "1re à 14e édition (14 éditions précédentes)"
+        ]
+      },
+      "partenaires": [
+        "Provence Art Contemporain"
+      ],
+      "analyse": {
+        "synthese": "Prix de peinture organisé par l'Association pour le Prix Mourlot (Provence Art Contemporain), réservé aux artistes peintres résidant en région PACA, avec exposition collective et dotation.",
+        "pour_qui": "Artistes peintres résidant en région PACA."
+      },
+      "a_savoir": [
+        "Restriction déterminante : réservé aux artistes peintres résidant en région PACA — vérifier l'éligibilité géographique avant de candidater",
+        "1er prix 3000€ + exposition personnelle en 2027 ; 4 autres sélectionné·es reçoivent 600€ chacun·e",
+        "Exposition collective à la Galerie Mourlot Jeu de Paume, Marseille, du 19 novembre au 17 décembre 2026 ; transport de l'œuvre à la charge de l'artiste"
+      ],
+      "organisme_details": {
+        "site_web": "https://p-a-c.fr",
+        "adresse": "27 rue Thubaneau, 13001 Marseille",
+        "ville": "Marseille",
+        "contact_email": "assomourlot@gmail.com"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "1er prix 3000€ + exposition personnelle 2027 ; 600€ pour les 4 autres artistes sélectionné·es."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Pas de résidence associée, uniquement exposition collective."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Non applicable."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Transport de l'œuvre à la charge de l'artiste pour la semaine d'accrochage."
+        }
+      ]
+    },
+    {
       "uid": "ae1213ed",
       "type": "prix",
       "source_url": "https://www.adagp.fr/fr/actualites/jordan-roger-barre-revelation-arts-plastiques-2026",
@@ -3238,6 +4560,100 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justification": "Non précisé. Une aide financière est mentionnée mais sans détail sur les frais couverts (transport, matériel, etc.)."
+        }
+      ]
+    },
+    {
+      "uid": "dbe956b7",
+      "type": "prix",
+      "source_url": "https://talentscontemporains-terre.fondationfrancoisschneider.org/inscription_individuel.php",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 5,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Talents Contemporains « La Terre » — Fondation François Schneider",
+        "organisme": "Fondation François Schneider",
+        "lieu": {
+          "ville": "Pontigny",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-23",
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "fr",
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "dossier de candidature en ligne"
+        ],
+        "url_candidature": "https://talentscontemporains-terre.fondationfrancoisschneider.org/inscription_individuel.php"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "sculpture",
+          "installation extérieure"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": 15000,
+          "devise": "EUR"
+        },
+        "exposition": true,
+        "achat_oeuvre": true,
+        "edition_catalogue": null,
+        "jury_public": null,
+        "nb_laureats": 2,
+        "editions_precedentes": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Concours d'acquisition pérenne organisé par la Fondation François Schneider, pour une installation extérieure existante dans les jardins de l'Abbaye de Pontigny (Yonne).",
+        "pour_qui": "Sculpteur·rices et artistes d'installation extérieure ayant déjà une œuvre existante correspondant au thème « La Terre »."
+      },
+      "a_savoir": [
+        "Attention : concours d'ACQUISITION d'une œuvre déjà réalisée, pas un appel à produire — ne convient pas à un projet de peinture ou de nouvelle création",
+        {
+          "Deux montants selon le format": "15 000€ (pièce unique) ou 8 000€ (édition multiple)"
+        },
+        "Candidature gratuite, dossier en français ou anglais"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.fondationfrancoisschneider.org",
+        "adresse": null,
+        "ville": "Pontigny",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "Dotation d'acquisition de 15 000€ (pièce unique) ou 8 000€ (édition multiple)."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Concours d'acquisition, pas de résidence associée."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Non applicable — pas de résidence associée."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Non précisé dans les sources consultées (transport de l'œuvre notamment)."
         }
       ]
     },
@@ -3562,6 +4978,98 @@
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
           "justification": "Aucune mention de prise en charge des frais (voyage, production, transport) dans le texte fourni"
+        }
+      ]
+    },
+    {
+      "uid": "0f91c90f",
+      "type": "exposition",
+      "source_url": "https://www.cholet.fr/dossiers/dossier_6505_salon+arts+2026+candidatures+sont+ouvertes.html",
+      "fetched_at": "2026-08-01T18:00:00+00:00",
+      "score": 3,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Salon des Arts de Cholet 2026",
+        "organisme": "Ville de Cholet",
+        "lieu": {
+          "ville": "Cholet",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-09",
+        "date_limite_precision": "inclus — échéance très proche",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://www.cholet.fr/dossiers/dossier_6505_salon+arts+2026+candidatures+sont+ouvertes.html"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "peinture",
+          "sculpture",
+          "dessin"
+        ],
+        "niveau_carriere": "ouvert aux artistes amateurs et professionnel·les",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Cholet"
+        ],
+        "dates_exposition": "autour du 11-18 octobre 2026 (source secondaire, non confirmée sur la page officielle)",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": null,
+          "transport": {
+            "pris_en_charge": null,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": null,
+          "hebergement_vernissage": null
+        }
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Salon municipal annuel à Cholet, sélection sur dossier, ouvert à toutes disciplines des arts plastiques classiques (peinture, sculpture, dessin).",
+        "pour_qui": "Artistes amateurs et professionnel·les en peinture, sculpture ou dessin."
+      },
+      "a_savoir": [
+        "Échéance très proche (9 août 2026) — à traiter en urgence si retenue",
+        "Frais d'inscription non confirmés — à vérifier dans le dossier de candidature",
+        "Format « salon » généraliste local (amateurs + professionnel·les), moins sélectif qu'un appel spécialisé"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.cholet.fr",
+        "adresse": null,
+        "ville": "Cholet",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "Non précisé dans les sources consultées."
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Non applicable — exposition, pas de résidence."
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Non applicable."
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "Non précisé dans les sources consultées."
         }
       ]
     },

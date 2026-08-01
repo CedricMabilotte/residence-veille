@@ -30,6 +30,16 @@ opportunites_liees:
   type: residence
   nom: Association Françoise pour l'œuvre contemporaine x Cité internationale des
     arts
+- uid: 5de27397
+  type: residence
+  nom: Kota — Institut français d'Indonésie x Cité internationale des arts
+- uid: fc738c65
+  type: residence
+  nom: Timor-Leste — Institut français d'Indonésie / Fundação Oriente x Cité internationale
+    des arts
+- uid: c781ae19
+  type: residence
+  nom: République dominicaine x Cité internationale des arts
 track_record:
   residence:
     editions:

@@ -1,0 +1,97 @@
+uid: 73de5a6b
+type: residence
+source_url: https://www.nocefresca.it/
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 5
+status: ouverte
+opportunite:
+  nom: Nocefresca Artist Residency 2027
+  organisme: Nocefresca
+  lieu:
+    ville: Milis
+    pays: Italie
+    territoire: Sardaigne
+candidature:
+  date_limite: '2026-09-07'
+  date_limite_precision: pour l'édition 2027
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://www.nocefresca.it/
+eligibilite:
+  disciplines:
+  - arts visuels
+  - design textile
+  - mixed-media
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: variable, plusieurs semaines à environ 2 mois
+  hebergement: true
+  atelier: true (fourni, payant — voir note autofinancement)
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.55
+  extracted_notes: 'RÉSIDENCE AUTOFINANCÉE : l''artiste paie son séjour (1650 à 1860€
+    selon la durée), pas de bourse ni de prise en charge de voyage. Candidature (dossier)
+    gratuite, c''est le séjour lui-même qui est payant — d''où frais_inscription:
+    0 dans le schéma. Historique de résidents céramistes et textile mentionné en recherche
+    web, cohérent avec l''affinité matériaux locaux/artisanat.'
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: en
+  resume_fr: Résidence autofinancée en Sardaigne rurale (Milis), historiquement fréquentée
+    par des céramistes et artistes textile. L'artiste couvre le coût de son séjour
+    (1650-1860€) ; hébergement et atelier fournis en échange.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Résidence rurale autofinancée en Sardaigne, avec un historique de résidents
+    travaillant la céramique et le textile — cadre propice à un travail sur les matériaux
+    et savoir-faire locaux.
+  pour_qui: Artistes visuel·les, designers textile et praticien·nes mixed-media, prêt·es
+    à financer leur propre séjour.
+a_savoir:
+- 'AUTOFINANCÉ : coût du séjour 1650-1860€ à la charge de l''artiste, candidature
+  elle-même gratuite'
+- Cadre rural sarde, historique de résidents céramistes/textile
+- Voyage non pris en charge
+organisme_details:
+  site_web: https://www.nocefresca.it
+  adresse: null
+  ville: Milis
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Résidence autofinancée, aucune rémunération.
+- id: hebergement
+  rempli: oui
+  justification: Hébergement fourni (inclus dans le coût du séjour payant).
+- id: atelier
+  rempli: oui
+  justification: Atelier fourni (inclus dans le coût du séjour payant).
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Voyage non pris en charge, coût de séjour à la charge de l'artiste.
+_interne_affinite:
+  match: true
+  signaux:
+  - territoire rural / paysan
+  - matériaux locaux
+  bonus_score: 1
