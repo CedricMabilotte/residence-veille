@@ -1,5 +1,12 @@
 name: Veille opportunités
 
+# 2026-08-01 : ajout du déclencheur `schedule`. Jusqu'ici ce workflow ne se
+# déclenchait QUE manuellement (workflow_dispatch) — vérifié via
+# `gh api repos/.../actions/runs` : les ~25 runs historiques sont TOUS
+# `event: workflow_dispatch`, aucun `schedule`. Le pipeline n'avait donc
+# jamais tourné tout seul ; il attendait qu'un humain clique "Run workflow".
+# Personne ne l'a fait depuis le 22 mai 2026, d'où 2,5 mois d'écart constatés
+# le 1er août. Voir etat-projet-Residences-artistiques.md pour le diagnostic complet.
 on:
   workflow_dispatch:
     inputs:
@@ -19,6 +26,13 @@ on:
         description: "Lance les discoveries mensuelles (LLM suggest, blind spots, enrich organismes)"
         default: "false"
         required: false
+  schedule:
+    # Veille quotidienne. GitHub désactive automatiquement un workflow planifié
+    # après 60 jours d'inactivité du dépôt (aucun commit/push) — un dépôt qui
+    # reçoit ses propres commits de veille chaque jour ne devrait pas être
+    # concerné, mais si le job échoue en boucle sans jamais committer, ce
+    # risque redevient réel. D'où l'alerte GitHub Issue ajoutée plus bas.
+    - cron: "0 6 * * *"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -28,10 +42,29 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Checkout du repo
         uses: actions/checkout@v4
+
+      - name: Résoudre les paramètres (dispatch manuel vs cron)
+        id: params
+        run: |
+          # github.event.inputs.* n'existe que pour workflow_dispatch. Sur un
+          # déclenchement schedule, on calcule des valeurs par défaut sûres :
+          # discovery hebdo le lundi, mensuelle le 1er du mois, jamais de dry_run.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "score_threshold=${{ github.event.inputs.score_threshold }}" >> "$GITHUB_OUTPUT"
+            echo "dry_run=${{ github.event.inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+            echo "do_weekly=${{ github.event.inputs.do_discovery_weekly }}" >> "$GITHUB_OUTPUT"
+            echo "do_monthly=${{ github.event.inputs.do_discovery_monthly }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "score_threshold=6" >> "$GITHUB_OUTPUT"
+            echo "dry_run=false" >> "$GITHUB_OUTPUT"
+            [ "$(date -u +%u)" = "1" ] && echo "do_weekly=true" >> "$GITHUB_OUTPUT" || echo "do_weekly=false" >> "$GITHUB_OUTPUT"
+            [ "$(date -u +%d)" = "01" ] && echo "do_monthly=true" >> "$GITHUB_OUTPUT" || echo "do_monthly=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
@@ -53,42 +86,50 @@ jobs:
         run: npm install -g @anthropic-ai/claude-code
 
       - name: Veille principale
+        id: veille
+        # continue-on-error : si le scraping/l'extraction Claude échoue (ex. token expiré,
+        # source down), on ne veut PAS que tout le pipeline s'arrête en silence — sinon
+        # deadline_tracker ne tourne plus, le site ne se régénère plus, et personne ne le
+        # remarque (c'est exactement ce qui a pu se reproduire pendant 2,5 mois). On
+        # continue vers le tri des échéances + la régénération du site avec les données
+        # existantes, et on alerte via l'étape "Notifier en cas d'échec" en fin de job.
+        continue-on-error: true
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          SCORE_THRESHOLD:         ${{ github.event.inputs.score_threshold }}
-          DRY_RUN:                 ${{ github.event.inputs.dry_run }}
+          SCORE_THRESHOLD:         ${{ steps.params.outputs.score_threshold }}
+          DRY_RUN:                 ${{ steps.params.outputs.dry_run }}
         run: python scripts/watch.py
 
       - name: Tri par échéance (deadline_tracker)
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         run: python scripts/deadline_tracker.py
 
       - name: Détection des cycles annuels
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         run: python scripts/discovery_cycles.py || echo "  cycles skipped"
 
       - name: Graphe partenariats
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         run: python scripts/discovery_partnerships.py || echo "  partnerships skipped"
 
       - name: Patterns d'archive (laureat·es éditions précédentes)
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         run: python scripts/discovery_editions_archive.py || echo "  editions_archive skipped"
 
       - name: Audit auto-promotion (garde-fou drift)
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python scripts/discovery_audit.py || echo "  audit skipped"
 
       - name: "Discovery (Mastodon, network_pages)"
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         run: |
           python scripts/discovery_mastodon.py       || echo "  mastodon skipped"
           python scripts/discovery_network_pages.py  || echo "  network_pages skipped"
 
-      - name: "Discovery mensuelle (LLM suggest, blind spots)"
-        if: ${{ github.event.inputs.do_discovery_monthly == 'true' }}
+      - name: "Discovery hebdomadaire/mensuelle (LLM suggest, blind spots)"
+        if: ${{ steps.params.outputs.do_monthly == 'true' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
@@ -96,23 +137,23 @@ jobs:
           python scripts/discovery_blind_spots.py  || echo "  blind_spots skipped"
 
       - name: Review Issues GitHub (suggestions communautaires)
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         env:
           GH_TOKEN: ${{ secrets.RESIDENCE_PUBLISH_TOKEN }}
         run: python scripts/review_issues.py || echo "  review_issues skipped"
 
       - name: Enrichissement des fiches organismes
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python scripts/enrich_organismes.py || echo "  enrich_organismes skipped"
 
       - name: Génération du site HTML public
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         run: python scripts/generate_site.py
 
       - name: Commit reports + appels + organismes + discovery + archive
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         run: |
           git config --global user.name  "Residence Bot"
           git config --global user.email "bot@residence.local"
@@ -139,7 +180,7 @@ jobs:
           fi
 
       - name: Publier vers residence.actitude.org (repo public)
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.params.outputs.dry_run != 'true' }}
         env:
           PUBLISH_TOKEN: ${{ secrets.RESIDENCE_PUBLISH_TOKEN }}
         run: |
@@ -168,4 +209,25 @@ jobs:
               echo "→ push public échoué, rebase puis retry ($i/3)"
               git pull --rebase origin main || true
             done
+          fi
+
+      - name: Notifier en cas d'échec (issue GitHub)
+        # Se déclenche si une étape sans continue-on-error a fait échouer le job,
+        # OU si "Veille principale" a échoué (tolérée en continue-on-error, mais
+        # pas invisible pour autant). Sans cette étape, un échec silencieux peut
+        # durer des mois avant d'être remarqué — c'est précisément ce qui s'est
+        # produit du 22 mai au 1er août 2026. Réutilise une issue existante au
+        # lieu d'en recréer une à chaque run pour éviter le spam.
+        if: ${{ failure() || steps.veille.outcome == 'failure' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="⚠️ Échec de la veille automatisée"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          BODY="Le run du $(date -u '+%Y-%m-%d %H:%M UTC') a échoué (étape « Veille principale » ou une étape suivante). Détail : ${RUN_URL}. Vérifier en priorité la validité des secrets CLAUDE_CODE_OAUTH_TOKEN et RESIDENCE_PUBLISH_TOKEN."
+          EXISTING=$(gh issue list --state open --search "in:title Échec de la veille automatisée" --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY" || echo "→ notification échouée (permissions issues ?)"
+          else
+            gh issue create --title "$TITLE" --body "$BODY" || echo "→ notification échouée (permissions issues ?)"
           fi
