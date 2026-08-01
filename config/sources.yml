@@ -58,6 +58,24 @@ sources:
     min_interval_days: 7
     peak_months: [1, 2, 3, 9, 10, 11]
 
+  # 2026-08-01 : exploration de https://www.cnap.fr/annonces/residence-ruralite
+  # (demandée pour élargir la veille ruralité). Résultat : ce n'est PAS une page
+  # de filtre/listing vivante mais la fiche FIGÉE d'une seule annonce (« Merveilleux
+  # Prétexte », Tulle, dl 20/10/2025 — déjà expirée). Piège du même type que L1 :
+  # une page unique prise pour un flux. Remplacée par les deux sources suivantes,
+  # bien plus fiables (flux RSS officiel + listing filtré par type d'annonce).
+  - label: "CNAP — flux RSS appels à projet (tous types)"
+    url: "https://www.cnap.fr/rss/appels-a-projet/all/rss.xml"
+    type: rss
+    min_interval_days: 3
+
+  - label: "CNAP — annonces filtrées « Résidence d'artiste »"
+    # Rendu probablement JS (fetch direct a renvoyé une page vide en session) —
+    # à confirmer via probe_source.py, d'où type playwright par prudence.
+    url: "https://www.cnap.fr/annonces?f[0]=annonce_type:163658"
+    type: playwright
+    min_interval_days: 7
+
   - label: "Fondation des Artistes"
     url: "https://www.fondationdesartistes.fr/"
     type: deep_html
@@ -197,11 +215,16 @@ sources:
     max_pages: 8
     min_interval_days: 14
 
-  - label: "DRAC Nouvelle-Aquitaine — aides et appels à projets"
-    url: "https://www.culture.gouv.fr/regions/drac-nouvelle-aquitaine/aides-demarches"
+  - label: "DRAC Nouvelle-Aquitaine — arts plastiques (AIC/AIA)"
+    # 2026-08-01 : URL affinée. L'entrée générique /aides-demarches/ pointait vers
+    # le portail toutes-disciplines de la DRAC ; la suggestion Éclaireur du
+    # 2026-05-29 (réactivée) donne la sous-page dédiée arts plastiques
+    # (aides individuelles à la création AIC/AIA), plus précise et plus rentable.
+    url: "https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine/Aides-demarches/Arts-plastiques"
     type: deep_html
     max_pages: 15
     min_interval_days: 14
+    peak_months: [1, 2, 3]
 
   - label: "Ministère de la Culture — catalogue des appels à projets (national)"
     url: "https://www.culture.gouv.fr/catalogue-des-demarches-et-subventions/appels-a-projet-partenaires"
@@ -254,3 +277,121 @@ sources:
     type: deep_html
     max_pages: 8
     min_interval_days: 30
+
+  # ── I. Ruralité + textile (Éclaireur, repérées 2026-05-29 — réactivées 2026-08-01) ─
+  # Provenance : discovery/suggestions-eclaireur-2026-05-29.yml (radar de l'agent
+  # Éclaireur, angle mort ruralité+textile qui alimente le bonus de profil interne).
+  # ATTENTION : les types ci-dessous sont des BEST-EFFORT, pas des validations
+  # probe_source.py — web_fetch en session Cowork ne peut fetcher que des URLs déjà
+  # vues (limite outil), donc la détection html-statique/JS n'a pu être confirmée
+  # que par recherche web indirecte pour la plupart. À revalider avec
+  # `python scripts/probe_source.py <url>` au prochain run automatisé, qui a un
+  # accès réseau direct. Plusieurs appels repérés lors de cette exploration sont déjà
+  # clos pour le cycle 2026 (normal pour une 1ère intégration) — listés en commentaire
+  # pour mémoire de cycle, ne préjugent pas de la source elle-même.
+
+  - label: "LAINAMAC — résidences laine (Felletin)"
+    url: "https://www.lainamac.fr/residences-dartistes/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+    peak_months: [1, 2, 3]
+    # affinité ★★★ laine naturelle + territoire creusois. Dernier appel connu clos
+    # 21/03/2025 — cycle annuel probable, à ressurveiller vers déc-mars.
+
+  - label: "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)"
+    url: "https://lametive.fr/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+    # affinité ★★★ rural + arts plastiques ET écriture. Type de rendu non confirmé.
+
+  - label: "MAGCP (Cajarc) — résidence en milieu agricole"
+    url: "https://www.magcp.fr/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 14
+    # affinité ★★★ résidences accueillies dans des fermes — mémoire agricole.
+
+  - label: "Réseau Astre — appels Nouvelle-Aquitaine (agrégateur régional)"
+    url: "https://reseau-astre.org/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 7
+    # affinité ★★★ agrégateur régional. Appel « Coopération, création et
+    # territoires » 2026 repéré, dl 31/05/2026 déjà close — cycle annuel à
+    # ressurveiller au printemps 2027.
+
+  - label: "Projet COAL — Prix Art & Environnement"
+    url: "https://projetcoal.org/prix/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+    peak_months: [1, 2, 3, 4]
+    # affinité ★★★ art & écologie, résidence Domaine de Belval. Prix COAL 2026
+    # « La Nuit » dl 31/07/2026 — quasi close au moment de cette session, à
+    # vérifier si prolongation avant classement définitif clos.
+
+  - label: "FRAC-Artothèque Nouvelle-Aquitaine"
+    url: "https://www.fracartothequenouvelleaquitaine.fr/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    # affinité ★★ acquisition de proximité (fonds FACLim). Aucun mécanisme d'appel
+    # à candidature confirmé lors de cette exploration — institution de collection,
+    # pas de flux régulier connu. Gardée en surveillance basse fréquence au cas où.
+
+  - label: "DRAAF Centre-Val de Loire — résidences en lycées agricoles"
+    # URL affinée : la suggestion Éclaireur pointait vers le portail générique
+    # (draaf.centre-val-de-loire.agriculture.gouv.fr/) ; page spécifique de l'appel
+    # trouvée en session (même défaut « racine vs page précise » que L1).
+    url: "https://draaf.centre-val-de-loire.agriculture.gouv.fr/appel-a-candidature-residence-d-artiste-2026-2027-a1963.html"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 30
+    peak_months: [2, 3, 4]
+    # affinité ★★ résidences en exploitation agricole, thèmes Vivant/transmission.
+    # Appel 2026-2027 repéré, dl 03/04/2026 déjà close — à ressurveiller pour
+    # l'édition 2027-2028 vers janv-mars 2027.
+
+  - label: "Cité internationale de la tapisserie — Aubusson"
+    url: "https://www.cite-tapisserie.fr/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    # affinité ★★ textile contemporain, filière Aubusson/Felletin. Appel création
+    # 2026 mentionné (partenariat Haltra), deadline non confirmée en session.
+
+  - label: "Ateliers d'Art de France — prix & concours (jeune création métiers d'art)"
+    url: "https://ateliersdart.com/action-economique/nos-prix-concours/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 21
+    # affinité ★★ catégorie textile. Concours AAF 2026 clos (dl prolongée
+    # 07/12/2025) ; Prix Jeune Création 2026 ouvert depuis 07/10/2025, deadline
+    # non confirmée en session — à vérifier en priorité au prochain run.
+
+  - label: "TextielLab / TextielMuseum — Advanced Textile Program (NL)"
+    url: "https://textiellab.nl/en/advanced-textile-program"
+    type: playwright
+    min_interval_days: 21
+    # affinité ★★ production textile experte, dimension internationale. Édition
+    # 2025 clos (dl 30/04/2025) ; édition 2026 non trouvée en session.
+
+  - label: "Contextile — Biennale d'art textile contemporain (PT)"
+    url: "https://contextile.pt/en/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 21
+    peak_months: [11, 12, 1, 2, 3]
+    # affinité ★★★ biennale textile internationale. Édition 2026 close
+    # (dl 07/03/2026) — bisannuelle, prochaine édition probable ~2028.
+
+  - label: "Fiber Art Fever — agrégateur d'appels textile/fibre"
+    url: "https://www.fiberartfever.com/en/"
+    type: deep_html
+    max_pages: 12
+    min_interval_days: 14
+    # affinité ★★ agrégateur spécialisé fiber art. Domaine non confirmé
+    # indépendamment en session (recherche web incomplète) — à valider en priorité
+    # via probe_source.py avant de faire confiance à ce crawl.

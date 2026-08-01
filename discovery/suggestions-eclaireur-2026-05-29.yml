@@ -1,0 +1,121 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# suggestions-eclaireur-2026-05-29.yml
+# Sources candidates proposées par l'agent « Éclaireur » (espace Cowork / Notion
+# de Lucile Leloup). Fichier ADDITIF — ne modifie aucune config existante.
+#
+# Intention : combler un angle mort du démarrage. Les 20 sources actuelles
+# couvrent bien l'international et l'institutionnel généraliste, mais peu le
+# couple RURALITÉ + TEXTILE qui constitue le bonus de profil interne
+# (concepts.yml → affinites_profil_interne). Ces sources alimentent donc
+# directement ce biais.
+#
+# À FAIRE côté projet avant intégration :
+#   1. valider chaque source avec  python scripts/probe_source.py <url>
+#   2. ajuster `type` (deep_html | playwright | rss | jsonld_event) selon le rendu
+#   3. copier les entrées retenues dans config/sources.yml (puis commit / routine-fin)
+#
+# Affinité indiquée à titre indicatif (★ à ★★★) — non normative.
+# ─────────────────────────────────────────────────────────────────────────────
+suggested_sources:
+
+  # ── Cœur de cible : ruralité + textile, Nouvelle-Aquitaine / Limousin ───────
+  - label: "LAINAMAC — résidences laine (Felletin)"
+    url: "https://www.lainamac.fr/residences-dartistes/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+    peak_months: [1, 2, 3]
+    affinite: "★★★ laine naturelle + territoire creusois — cœur du bonus profil"
+  - label: "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)"
+    url: "https://lametive.fr/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+    affinite: "★★★ rural + arts plastiques ET écriture"
+  - label: "MAGCP (Cajarc) — résidence en milieu agricole"
+    url: "https://www.magcp.fr/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 14
+    affinite: "★★★ résidence accueillie dans des fermes — mémoire agricole"
+  - label: "Réseau Astre — appels Nouvelle-Aquitaine (agrégateur régional)"
+    url: "https://reseau-astre.org/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 7
+    affinite: "★★★ agrégateur régional à fort rendement, ancrage NA"
+
+  # ── Art & écologie / vivant ─────────────────────────────────────────────────
+  - label: "Projet COAL — Prix Art & Environnement"
+    url: "https://projetcoal.org/prix/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+    peak_months: [1, 2, 3, 4]
+    affinite: "★★★ art & écologie, résidence Domaine de Belval (vie rurale)"
+
+  # ── Institutionnel régional (aides à la création/production) ────────────────
+  - label: "DRAC Nouvelle-Aquitaine — arts plastiques (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine/Aides-demarches/Arts-plastiques"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+    peak_months: [1, 2, 3]
+    affinite: "★★ aides individuelles, profil régional éligible"
+  - label: "FRAC-Artothèque Nouvelle-Aquitaine"
+    url: "https://www.fracartothequenouvelleaquitaine.fr/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    affinite: "★★ acquisition de proximité (fonds FACLim, communes rurales)"
+  - label: "DRAAF Centre-Val de Loire — résidences en lycées agricoles"
+    url: "https://draaf.centre-val-de-loire.agriculture.gouv.fr/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 30
+    peak_months: [2, 3, 4]
+    affinite: "★★ résidences en exploitation agricole, thèmes Vivant/transmission"
+
+  # ── Textile contemporain : prix, lieux, biennales (FR + EU + INT) ───────────
+  - label: "Cité internationale de la tapisserie — Aubusson"
+    url: "https://www.cite-tapisserie.fr/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    affinite: "★★ textile contemporain, filière Aubusson/Felletin"
+  - label: "Ateliers d'Art de France — prix & concours (jeune création métiers d'art)"
+    url: "https://ateliersdart.com/action-economique/nos-prix-concours/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 21
+    affinite: "★★ catégorie textile, positionner côté art contemporain"
+  - label: "TextielLab / TextielMuseum — Advanced Textile Program (NL)"
+    url: "https://textiellab.nl/en/advanced-textile-program"
+    type: playwright
+    min_interval_days: 21
+    affinite: "★★ production textile experte, dimension internationale"
+  - label: "Contextile — Biennale d'art textile contemporain (PT)"
+    url: "https://contextile.pt/en/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 21
+    peak_months: [11, 12, 1, 2, 3]
+    affinite: "★★★ biennale textile, open call international (bisannuelle)"
+  - label: "Fiber Art Fever — agrégateur d'appels textile/fibre"
+    url: "https://www.fiberartfever.com/en/"
+    type: deep_html
+    max_pages: 12
+    min_interval_days: 14
+    affinite: "★★ agrégateur spécialisé fiber art"
+
+# Provenance : radar de l'agent Éclaireur (cf. Notion « 🧭 Éclaireur ») —
+# passe de prospection du 28-29 mai 2026. Doublons déjà couverts par le moteur
+# (CNAP, Casa de Velázquez, Cité internationale des arts, rurart) volontairement omis.
+#
+# ── RÉACTIVÉ 2026-08-01 ──────────────────────────────────────────────────────
+# Les 13 sources ci-dessous ont été copiées dans config/sources.yml (section I).
+# Types déterminés en best-effort (web_fetch en session Cowork ne peut fetcher
+# que des URLs déjà vues — validation probe_source.py réelle à faire au
+# prochain run automatisé, qui a un accès réseau direct). Ce fichier est
+# conservé comme trace de provenance ; ne pas re-proposer ces 13 sources comme
+# "nouvelles" dans un futur passage Éclaireur.
