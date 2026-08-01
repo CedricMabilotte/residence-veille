@@ -1,0 +1,40 @@
+uid: o-castro-art-village-e1a2c3f4
+nom_canonique: O Castro Art Village
+acronymes: []
+pays: Espagne
+type_organisme: autre
+url_canonique: https://ocastroartvillage.com
+urls_secondaires: []
+description_courte: Village galicien abandonné réhabilité en lieu de résidence rurale
+  multidisciplinaire (Ribeira Sacra), programme autofinancé + volets thématiques
+  ponctuels soutenus par Culture Moves Europe.
+disciplines_proposees:
+- installation
+- écriture
+- art et écologie / land art
+- toute discipline créative
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 3e4357d9
+  type: residence
+  nom: Self-funded Creative Residency — O Castro Art Village
+track_record:
+  residence:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.4
+    fenetre_annuelle: résidence autofinancée en continu ; volets thématiques ponctuels
+      (son, architecture, arts visuels) annoncés via TransArtists avec délai court
+partenaires_mentionnes:
+- organisme_uid: culture-moves-europe
+  occurrences: 1
+  nom_brut: Culture Moves Europe
+pages_surveillees:
+- url: https://ocastroartvillage.com/about-us/
+  role: agregateur_appels
+_meta:
+  first_seen: '2026-08-01'
+  last_updated: '2026-08-01'
+  status: actif
+  nouveaux_entrants: true

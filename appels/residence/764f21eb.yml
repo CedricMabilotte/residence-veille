@@ -1,0 +1,100 @@
+uid: 764f21eb
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/en/appels-a-candidature/association-francoise-pour-loeuvre-contemporaine-x-cite-internationale-des-arts/
+fetched_at: '2026-08-01T15:10:00+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Association Françoise pour l'œuvre contemporaine x Cité internationale des
+    arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-16'
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - CV (2p max)
+  - portfolio (10p max)
+  - note d'intention (2p max)
+  - lettre de recommandation
+  url_candidature: mailto:residence@francoiseartmemo.fr
+eligibilite:
+  disciplines:
+  - arts plastiques
+  - installation
+  - écriture
+  - toute discipline en résonance avec le soin/la clinique
+  niveau_carriere: mi-carrière ou confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: 11
+    dates: 5 janvier - 26 mars 2027
+  hebergement: true
+  atelier: live-in studio 25-35 m², Cité internationale des arts (Marais)
+  remuneration:
+    montant: 1000
+    devise: EUR
+    periodicite: mois net
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: présentation finale (exposition, événement public ou publication)
+partenaires:
+- Association Françoise pour l'œuvre contemporaine
+- Cité internationale des arts
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.8
+  extracted_notes: Programme thématique (art / psychiatrie / sciences humaines) —
+    pas un programme thérapeutique. Angle spécifique à vérifier au regard du projet
+    de l'artiste.
+  extracted_at: '2026-08-01T15:10:00+00:00'
+  source_lang: en
+  resume_fr: Résidence de recherche-création explorant les liens entre art contemporain,
+    psychiatrie et sciences humaines. Un·e seul·e lauréat·e, accompagné·e par une
+    psychologue clinicienne et commissaire d'exposition.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Résidence explorant les liens entre art contemporain, psychiatrie et sciences
+    humaines, avec accompagnement individualisé par une psychologue clinicienne.
+  pour_qui: Artistes de toute discipline dont la pratique résonne avec la notion de
+    'clinique' et le soin.
+a_savoir:
+- Un seul poste ouvert
+- Accompagnement par Albertine de Galbert (psychologue clinicienne, commissaire)
+organisme_details:
+  site_web: https://francoiseartmemo.fr
+  adresse: null
+  ville: null
+  contact_email: residence@francoiseartmemo.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 1000€ net/mois.
+- id: hebergement
+  rempli: oui
+  justification: Live-in studio au Marais.
+- id: atelier
+  rempli: oui
+  justification: Studio 25-35m².
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Voyage international A/R, assurance, recherche pris en charge sur
+    plafond.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

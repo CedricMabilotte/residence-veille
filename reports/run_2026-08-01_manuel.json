@@ -1,0 +1,58 @@
+{
+  "started_at": "2026-08-01T15:00:00+00:00",
+  "ended_at": "2026-08-01T16:30:00+00:00",
+  "mode": "manuel_claude_cowork",
+  "dry_run": false,
+  "note": "Session manuelle (pas de run GH Actions — dernier run automatisé : 2026-05-21/22). Claude a joué le rôle de scraper+extracteur sur un lot de sources prioritaires, sans script Python d'extraction (WebSearch + web_fetch).",
+  "etat_avant": {
+    "total_fiches": 85,
+    "ouvertes": 1,
+    "expirees_archivees_par_deadline_tracker": 13,
+    "indetermine": 71
+  },
+  "actions": [
+    {
+      "action": "quarantaine",
+      "n": 32,
+      "raison": "Faux positifs de classification : pages informationnelles (annuaire de partenariats, alumni, expositions passées, actualités) promues à tort comme appels à candidature. Détail : discovery/reports/review_issues_2026-08-01.md",
+      "destination": "discovery/quarantine/{residence,exposition}/"
+    },
+    {
+      "action": "nouvelles_fiches",
+      "n": 4,
+      "type": "residence",
+      "detail": [
+        {"uid": "b2fced6d", "nom": "Institut français x Cité internationale des arts 2027", "date_limite": "2026-10-08", "score": 8},
+        {"uid": "4dc8fd2e", "nom": "École des Beaux-Arts de Bretagne (EESAB) x Cité internationale des arts", "date_limite": "2026-08-30", "score": 6},
+        {"uid": "764f21eb", "nom": "Association Françoise pour l'œuvre contemporaine x Cité internationale des arts", "date_limite": "2026-08-16", "score": 7},
+        {"uid": "3e4357d9", "nom": "Self-funded Creative Residency — O Castro Art Village", "date_limite": null, "score": 6, "note": "candidature continue, autofinancée"}
+      ]
+    },
+    {
+      "action": "organismes_mis_a_jour",
+      "detail": ["cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce (nettoyage + track_record)",
+                  "salon-de-montrouge-3c775399 (nettoyage + track_record)"]
+    },
+    {
+      "action": "organismes_crees",
+      "detail": ["o-castro-art-village-e1a2c3f4"]
+    },
+    {
+      "action": "sources_yml",
+      "detail": "1 URL corrigée (Cité internationale des arts : /nos-programmes-de-residence/ → /appels-a-candidature/), 1 URL annotée à risque (Rurart), 11 sources ajoutées (TransArtists blog, O Castro, DRAC Nouvelle-Aquitaine, Ministère Culture catalogue, d.c.a, Devenir.art, Salon de Montrouge dépôts, Triangle France-Astérides, Fondation Camargo, AICA France, Aware)."
+    },
+    {
+      "action": "candidats_identifies_non_instruits",
+      "note": "Repérés mais pas transformés en fiche faute de temps cette session — dates ou eligibilité à vérifier avant intégration : Kota (Cité x Institut français d'Indonésie, dl 2026-08-30), Timor-Leste (idem, dl 2026-08-30), Dominican Republic x Cité (dl 2026-08-30), MO.CO Esba x Cité (dl 2026-08-23, appel externe PDF), Bridges/AICA x Cité (dl 2026-08-30, mais réservé aux critiques d'art — hors profil plasticien·ne), Résidence Elles & Cité 2026 (ADAGP/Cité, deadline déjà passée le 23/11/2025 mais cycle annuel à re-surveiller vers oct-nov 2026 pour l'édition 2027)."
+    }
+  ],
+  "etat_apres": {
+    "total_appels_actifs": 44,
+    "ouvertes": 2,
+    "bientot_fermees": 2,
+    "indetermine": 40,
+    "archivees_total": 13,
+    "quarantaine_total": 32,
+    "organismes": 27
+  }
+}

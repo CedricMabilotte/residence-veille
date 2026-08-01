@@ -1,0 +1,106 @@
+uid: b2fced6d
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/en/appels-a-candidature/institut-francais-x-cite-internationale-des-arts/
+fetched_at: '2026-08-01T15:00:00+00:00'
+score: 8
+status: ouverte
+opportunite:
+  nom: Institut français x Cité internationale des arts 2027
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-10-08'
+  date_limite_precision: null
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - dossier de candidature via organisation partenaire
+  url_candidature: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale
+eligibilite:
+  disciplines:
+  - arts plastiques
+  - installation
+  - design
+  - architecture
+  - photographie
+  - art et critique
+  - écriture
+  - performance
+  niveau_carriere: tous, artistes et professionnel·les de la culture
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: résider hors de France depuis au moins 5 ans
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3, 6 ou 9 mois entre avril 2027 et avril 2028
+  hebergement: true
+  atelier: live-in studio 25-40 m², Cité internationale des arts (Marais)
+  remuneration:
+    montant: 1100
+    devise: EUR
+    periodicite: mois (minimum, financé par l'organisme partenaire)
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Institut français
+- Cité internationale des arts
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.85
+  extracted_notes: Candidature obligatoirement portée par une structure partenaire
+    (institut français, alliance, centre d'art...) — l'artiste ne dépose pas seul·e.
+  extracted_at: '2026-08-01T15:00:00+00:00'
+  source_lang: en
+  resume_fr: 70 lauréat·es par an, toutes disciplines, résidence de recherche-création
+    de 3/6/9 mois à Paris entre avril 2027 et avril 2028. Candidature à déposer via
+    une structure partenaire (institut français, centre d'art, galerie...), pas directement
+    par l'artiste.
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: L'Institut français et la Cité internationale des arts organisent l'édition
+    2027 de ce programme de résidence à Paris, ouvert à toutes disciplines artistiques,
+    pour des artistes vivant hors de France depuis au moins 5 ans.
+  pour_qui: Artistes et professionnel·les de la culture de toute discipline, résidant
+    hors de France depuis 5 ans minimum, soutenus par une structure partenaire.
+a_savoir:
+- 'Candidature non ouverte en direct : doit être déposée par une structure partenaire
+  (institut français, centre d''art, galerie, etc.)'
+- Priorité aux projets avec un partenaire culturel en Île-de-France
+- Webinaire d'information tenu le 10 juillet 2026
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: 18 rue de l'Hôtel de Ville, 75004 Paris
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Bourse de résidence d'au moins 1100€/mois versée par la structure
+    partenaire.
+- id: hebergement
+  rempli: oui
+  justification: Live-in studio fourni au Marais.
+- id: atelier
+  rempli: oui
+  justification: Studio de 25 à 40 m² combinant travail et vie quotidienne.
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Voyage international, assurance et visas pris en charge par la structure
+    partenaire.
+_interne_affinite:
+  match: true
+  signaux:
+  - dimension collective ou participative
+  - durée longue
+  bonus_score: 1
