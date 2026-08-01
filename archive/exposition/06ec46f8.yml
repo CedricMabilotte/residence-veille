@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/profiles/TheHepworthWakefield
 fetched_at: '2026-05-22T15:19:57+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: The Hepworth Wakefield Harvest Festival 2026
   organisme: The Hepworth Wakefield
@@ -92,7 +92,7 @@ _meta:
   detection_confidence: 0.9
   detection_method: claude
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 _interne_affinite:
   match: false
   signaux: []

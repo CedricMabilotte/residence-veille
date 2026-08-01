@@ -3,7 +3,7 @@ type: bourse
 source_url: https://www.adagp.fr/fr/actualites/appel-candidature-bourse-connexion-internationale-2026
 fetched_at: '2026-05-22T15:39:07+00:00'
 score: 7
-status: ouverte
+status: expiree
 opportunite:
   nom: Bourse Connexion Internationale 2026
   organisme: ADAGP
@@ -59,7 +59,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: ADAGP — actualités (appels, bourses, prix)
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: La Bourse Connexion Internationale 2026 est un programme lancé par l'ADAGP
     et l'Institut français de Madrid pour soutenir la diffusion d'artistes de la scène

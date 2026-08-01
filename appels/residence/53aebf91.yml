@@ -68,7 +68,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: Résidence d'artistes de Matadero Madrid destinée aux créateurs ou collectifs
     de la Comunidad de Madrid exerçant dans l'art et l'éducation. Le programme comprend

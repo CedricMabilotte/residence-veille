@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/institut-francais-du-nigeria-x-cite-internationale-des-arts
 fetched_at: '2026-05-22T11:54:55+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Resonance – Cité Internationale des Arts
   organisme: Institut français du Nigeria, Art X Lagos, Cité internationale des arts
@@ -57,7 +57,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: Cité internationale des arts — résidences
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: Resonance est un programme annuel de résidence de 3 mois pour artistes
     visuels, designers et commissaires. Initié en 2020, il propose 3 résidences par

@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/open-call--quote--curate-summer-curation--opportunity-to-exhibit-at-design-centre-chelsea-harbour/10564
 fetched_at: '2026-05-22T15:10:49+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: OPEN CALL - Quote & Curate Summer Curation - Opportunity to exhibit at DESIGN
     CENTRE CHELSEA HARBOUR
@@ -70,7 +70,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: 'Appel à candidature pour exposer des œuvres d''art au Design Centre Chelsea
     Harbour à Londres du 2 au 12 juin 2026. Ouvert aux artistes amateurs et professionnels

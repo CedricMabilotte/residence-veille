@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/light-up-the-north-spark--early-career-artist-and-producer-programme/10665
 fetched_at: '2026-05-22T15:06:54+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Light Up The North SPARK - Early Career Artist and Producer Programme 2026
   organisme: Light Up The North
@@ -73,7 +73,7 @@ _meta:
   detection_confidence: 0.8461538461538461
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: 'Le programme SPARK soutient six artistes et producteurs en début de carrière
     sélectionnés par appel à candidatures ouvert. Chaque participant reçoit une bourse

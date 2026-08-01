@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/childhood-special-edition/10648
 fetched_at: '2026-05-22T15:16:58+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Childhood/ Special Edition
   organisme: null
@@ -82,7 +82,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: Appel à candidature pour publication dans un magazine spécialisé sur le
     thème de l'enfance. Ouvert aux artistes du monde entier, âgés de 18 ans ou plus,

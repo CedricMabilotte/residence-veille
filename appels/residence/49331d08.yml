@@ -84,7 +84,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: claude
   source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: LAB 5 La mecánica de la verdad est un laboratoire de prototypage collaboratif
     intensif de 2 semaines sélectionnant jusqu'à 5 projets et 20 collaborateurs/as

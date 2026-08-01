@@ -3,7 +3,7 @@ type: bourse
 source_url: https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027
 fetched_at: '2026-05-22T14:09:57+00:00'
 score: 8
-status: ouverte
+status: expiree
 opportunite:
   nom: Saison Pologne-France 2027 / Sezon Francja-Polska 2027
   organisme: Institut français
@@ -57,7 +57,7 @@ _meta:
   detection_confidence: 0.75
   detection_method: claude
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: 'La Saison Pologne-France 2027 est un appel à projets lancé par l''Institut
     français pour soutenir des projets culturels français en Pologne. Cet appel s''adresse

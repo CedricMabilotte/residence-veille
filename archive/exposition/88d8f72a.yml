@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/pink--international-photography-exhibition/10545
 fetched_at: '2026-05-22T12:28:42+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Pink 2026, International Photography Exhibition
   organisme: The Glasgow Gallery of Photography
@@ -61,7 +61,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: Pink 2026 est un appel à candidatures pour une exposition photographique
     d'un mois à la Glasgow Gallery of Photography. Les soumissions sont gratuites

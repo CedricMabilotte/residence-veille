@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/abstract-art/10643
 fetched_at: '2026-05-22T15:14:14+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Abstract Art
   organisme: null
@@ -77,7 +77,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: Abstract Art est une publication d'art curatée et exposition en ligne
     basée à Tbilisi, Géorgie, ouverte aux artistes du monde entier âgés de 18 ans

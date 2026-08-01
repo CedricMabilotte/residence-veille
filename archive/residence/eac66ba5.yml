@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad
 fetched_at: '2026-05-22T14:48:45+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Convocatoria LAB 5 La mecánica de la verdad
   organisme: Matadero Madrid
@@ -75,7 +75,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-05-22'
+  last_status_check: '2026-08-01'
 analyse:
   synthese: Residencia de prototipado colaborativo de 2 semanas (12-25 de noviembre
     de 2026) en Medialab Matadero, Madrid. Busca 5 promotores de proyectos y 20 colaboradores
