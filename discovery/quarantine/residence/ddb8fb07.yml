@@ -1,0 +1,94 @@
+uid: ddb8fb07
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/alfred-university-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T10:19:41+00:00'
+score: 10
+status: indetermine
+opportunite:
+  nom: Alfred University x Cité internationale des arts
+  organisme: School of Art and Design, Alfred University
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - peinture
+  - céramique
+  - arts numériques
+  - gravure et sérigraphie
+  - art textile
+  - histoire de l'art
+  - commissariat
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 26
+    dates: null
+  hebergement: null
+  atelier: null
+  remuneration: null
+  voyage: null
+  restitution: null
+partenaires:
+- School of Art and Design, Alfred University
+_meta:
+  extracted_confidence: 0.5
+  extracted_notes: 'Programme largement incomplet : pas de date limite, frais de candidature,
+    conditions de rémunération, hébergement ou atelier mentionnés. Seules les informations
+    élémentaires sont disponibles.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T10:19:41+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Ce programme offre une résidence de 6 mois à la Cité internationale des
+    arts à Paris. 2 artistes sont sélectionnés chaque année parmi les membres de l'Alfred
+    School of Art & Design (étudiants en fin de cycle, alumni, professeurs et anciens
+    professeurs). Les disciplines éligibles sont la peinture, céramique, arts numériques,
+    gravure et sérigraphie, art textile, histoire de l'art et commissariat. Aucune
+    information n'est fournie concernant la rémunération, l'hébergement, les frais
+    de candidature ou les dates limites.
+  pour_qui: Artistes et académiciens affiliés à l'Alfred School of Art & Design pratiquant
+    la peinture, arts visuels, numériques ou commissariat.
+a_savoir:
+- Programme réservé exclusivement aux membres de l'Alfred School of Art & Design
+- Aucune information fournie sur la rémunération, l'hébergement ou les frais de candidature
+- Pas de date limite de candidature mentionnée
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation mentionnée
+- id: hebergement
+  rempli: non
+  justification: Aucun logement fourni mentionné
+- id: atelier
+  rempli: non
+  justification: Aucun espace de travail ou atelier mentionné
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune prise en charge de voyage ou frais mentionnée
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - long séjour
+  bonus_score: 1

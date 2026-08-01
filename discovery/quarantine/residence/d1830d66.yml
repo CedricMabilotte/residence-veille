@@ -1,0 +1,111 @@
+uid: d1830d66
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/calq-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T11:53:44+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: CALQ x Cité internationale des arts
+  organisme: Cité internationale des arts en partenariat avec le Conseil des arts
+    et des lettres du Québec (CALQ)
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  - cinéma
+  - littérature
+  - conte
+  - théâtre
+  - cirque
+  - musique
+  - danse
+  - artisanat
+  - architecture
+  niveau_carriere: tous
+  age_max: null
+  nationalite: canadienne
+  residence_administrative: Québec
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 à 6 mois
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Cité internationale des arts
+- CALQ - Conseil des arts et des lettres du Québec
+_meta:
+  extracted_confidence: 0.45
+  extracted_notes: Page de présentation générale du programme. Détails pratiques de
+    candidature absents. Informations sur les conditions d'accueil et financières
+    manquantes.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T11:53:44+00:00'
+  source_lang: fr
+  detection_confidence: 0.8571428571428571
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Le programme CALQ x Cité internationale des arts accueille 3 résidences
+    par an d'une durée de 3 à 6 mois à destination des artistes québécois et autochtones.
+    Créé en 1965 et refondé en 2025, il s'inscrit dans un partenariat de longue date
+    ayant accueilli plus d'une centaine d'artistes québécois. Il vise à soutenir la
+    mobilité, la recherche et la visibilité des créateurs québécois sur la scène artistique
+    internationale. Les lauréats bénéficient d'un accompagnement professionnel et
+    d'accès privilégiés aux offres culturelles parisiennes.
+  pour_qui: Artistes québécois et autochtones de nationalité canadienne, résidant
+    au Québec, dans les domaines des arts visuels, cinéma, littérature, théâtre, cirque,
+    musique, danse, artisanat ou architecture.
+a_savoir:
+- 'Restriction de nationalité et résidence : candidats doivent être de nationalité
+  canadienne et résider au Québec'
+- Programme refondé en 2025 (première année de cette nouvelle version après 60 ans
+  d'existence)
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Le texte ne mentionne pas explicitement de rémunération, bourse ou
+    per diem offerts aux résidents
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune information fournie sur la mise à disposition d'un logement
+    pendant la résidence
+- id: atelier
+  rempli: inconnu
+  justification: L'existence d'un espace de travail, studio ou équipements n'est pas
+    mentionnée
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: La prise en charge des frais de voyage, production ou transport d'œuvres
+    n'est pas précisée
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

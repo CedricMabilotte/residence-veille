@@ -5,7 +5,8 @@ pays: null
 type_organisme: autre
 url_canonique: https://salondemontrouge.com
 urls_secondaires: []
-description_courte: Salon annuel d'art contemporain français accueillant galeries, artistes émergents et confirmés.
+description_courte: Salon annuel d'art contemporain français accueillant galeries,
+  artistes émergents et confirmés.
 disciplines_proposees:
 - peinture
 - sculpture
@@ -15,22 +16,24 @@ disciplines_proposees:
 - art numérique
 types_opportunites_habituels:
 - exposition
-opportunites_liees:
-- uid: cb46598a
-  type: exposition
-  nom: Salon de Montrouge
-- uid: b8f7cc68
-  type: exposition
-  nom: 68e Salon de Montrouge
-- uid: 9badead2
-  type: exposition
-  nom: Salon de Montrouge
-track_record: {}
+opportunites_liees: []
+track_record:
+  exposition:
+    editions:
+    - 68e (2025)
+    - 70e (2027)
+    fiabilite_cycle: 0.8
+    fenetre_annuelle: appel à candidature début avril (env. 2-27 avril), résultat
+      pour exposition mi-février à mi-mars de l'année suivante au Beffroi de Montrouge
 partenaires_mentionnes: []
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-05-22'
+  last_updated: '2026-08-01'
   status: actif
   nouveaux_entrants: true
+  notes_qualite: '2026-08-01 : 3 fiches précédemment rattachées (pages d''actualité/interviews,
+    pas la page d''appel) mises en quarantaine. Prochain appel (71e édition) probablement
+    ouvert avril 2027 — à surveiller sur candidats.salondemontrouge.fr à partir de
+    mars 2027.'
 ville: Montrouge

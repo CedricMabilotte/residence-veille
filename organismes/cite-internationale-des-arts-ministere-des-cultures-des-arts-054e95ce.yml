@@ -5,7 +5,8 @@ pays: null
 type_organisme: centre_art
 url_canonique: https://www.citeinternationaledesarts.fr
 urls_secondaires: []
-description_courte: Institution publique parisienne d'accueil et de résidence pour artistes visuels et plasticiens.
+description_courte: Institution publique parisienne d'accueil et de résidence pour
+  artistes visuels et plasticiens.
 disciplines_proposees:
 - peinture
 - sculpture
@@ -16,67 +17,30 @@ disciplines_proposees:
 types_opportunites_habituels:
 - residence
 opportunites_liees:
-- uid: 37ce57ed
-  type: residence
-  nom: Ministère des Cultures, des Arts et des Savoirs de Colombie x Cité internationale des arts
-- uid: 98392c7c
-  type: residence
-  nom: Ministère des Sciences, de la Recherche et des Arts du Bade-Wurtemberg x Cité internationale des arts
-- uid: 1e42f10a
-  type: residence
-  nom: Académie Centrale des Beaux-Arts x Cité internationale des arts
-- uid: 526c28e8
-  type: residence
-  nom: Visarte Zurich x Cité internationale des arts
-- uid: 3d215270
-  type: residence
-  nom: Résidence Intermix
-- uid: a5f1e203
-  type: residence
-  nom: Société des artistes slovaques x Cité internationale des arts
-- uid: 56022bf8
-  type: residence
-  nom: Visarte Zentralschweiz x Cité internationale des arts
-- uid: d1830d66
-  type: residence
-  nom: CALQ x Cité internationale des arts
 - uid: c37ec105
   type: residence
   nom: Resonance – Cité Internationale des Arts
-- uid: d700f12b
+- uid: b2fced6d
   type: residence
-  nom: AFAD x Cité internationale des arts
-- uid: 5bc54b72
+  nom: Institut français x Cité internationale des arts 2027
+- uid: 4dc8fd2e
   type: residence
-  nom: Pavillon Bosio x Cité internationale des arts
-- uid: 332456f4
+  nom: École des Beaux-Arts de Bretagne (EESAB) x Cité internationale des arts
+- uid: 764f21eb
   type: residence
-  nom: ADAGP x Cité internationale des arts – Prisme
-- uid: fdd214b6
-  type: residence
-  nom: Fondation Armando Alvares Penteado x Cité internationale des arts
-- uid: bd896490
-  type: residence
-  nom: Atelier Mondial x Cité internationale des arts
-- uid: e2d037ef
-  type: residence
-  nom: Ville de Zurich x Cité internationale des arts
-- uid: 75d83cb5
-  type: residence
-  nom: Ministère fédéral du Logement, des Arts, de la Culture, des Médias et des Sports x Cité internationale des arts
-- uid: 58c7b0db
-  type: residence
-  nom: Déléguée du gouvernement fédéral à la Culture et aux Médias x Cité internationale des arts
-- uid: 1e993b36
-  type: residence
-  nom: Faculty of Art and Design at Jan Evangelista Purkyně University in Ústí nad Labem x Cité internationale des arts
-- uid: 0bcafeab
-  type: residence
-  nom: Fondation Al-Mansouria x Cité internationale des arts
-- uid: 700f3dbf
-  type: residence
-  nom: Province de Carinthie x Cité internationale des arts
-track_record: {}
+  nom: Association Françoise pour l'œuvre contemporaine x Cité internationale des
+    arts
+track_record:
+  residence:
+    editions:
+    - '2024'
+    - '2025'
+    - '2026'
+    - '2027'
+    fiabilite_cycle: 0.7
+    fenetre_annuelle: plusieurs appels par an, un par partenaire — la majorité des
+      fenêtres de dépôt observées se ferment entre juillet et octobre pour des résidences
+      démarrant l'année suivante
 partenaires_mentionnes:
 - organisme_uid: cite-internationale-des-arts
   occurrences: 6
@@ -137,13 +101,15 @@ partenaires_mentionnes:
   nom_brut: Ville de Zürich, Affaires Culturelles
 - organisme_uid: ministere-federal-du-logement-des-arts-de-la-culture-des-med
   occurrences: 1
-  nom_brut: Ministère fédéral du Logement, des Arts, de la Culture, des Médias et des Sports
+  nom_brut: Ministère fédéral du Logement, des Arts, de la Culture, des Médias et
+    des Sports
 - organisme_uid: deleguee-du-gouvernement-federal-a-la-culture-et-aux-medias
   occurrences: 1
   nom_brut: Déléguée du gouvernement fédéral à la Culture et aux Médias
 - organisme_uid: faculty-of-art-and-design-at-jan-evangelista-purkyne-univers
   occurrences: 1
-  nom_brut: Faculty of Art and Design at Jan Evangelista Purkyně University in Ústí nad Labem
+  nom_brut: Faculty of Art and Design at Jan Evangelista Purkyně University in Ústí
+    nad Labem
 - organisme_uid: fondation-al-mansouria
   occurrences: 1
   nom_brut: Fondation Al-Mansouria
@@ -153,14 +119,21 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-05-22'
+  last_updated: '2026-08-01'
   status: actif
   nouveaux_entrants: true
+  notes_qualite: '2026-08-01 (session manuelle) : 21 fiches précédemment rattachées
+    ici ont été mises en quarantaine (discovery/quarantine/residence/) — c''étaient
+    des pages descriptives de partenariats existants (annuaire /programme-de-residence/*),
+    pas des appels à candidature ouverts. Les véritables appels de la Cité vivent
+    sous /appels-a-candidature/* (ou ''Open calls'' en anglais) et portent une date
+    limite explicite. Voir discovery/reports/review_issues_2026-08-01.md.'
 ville: Paris
 noms_alternatifs:
 - Cité Internationale des Arts, Visarte Zürich
 - Visarte Zentralschweiz, Cité internationale des arts
-- Cité internationale des arts en partenariat avec le Conseil des arts et des lettres du Québec (CALQ)
+- Cité internationale des arts en partenariat avec le Conseil des arts et des lettres
+  du Québec (CALQ)
 - Institut français du Nigeria, Art X Lagos, Cité internationale des arts
 - Pavillon Bosio et Cité internationale des arts
 - Cité Internationale des Arts / ADAGP

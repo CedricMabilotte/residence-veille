@@ -1,0 +1,93 @@
+uid: 9badead2
+type: exposition
+source_url: https://salondemontrouge.com/actualite/334/2-interview-andrea-ponsini-directeur-artistique-du-salon-de-montrouge.htm
+fetched_at: '2026-05-22T14:21:52+00:00'
+score: 6
+status: indetermine
+opportunite:
+  nom: Salon de Montrouge
+  organisme: Salon de Montrouge
+  lieu:
+    ville: Montrouge
+    pays: null
+  nom_fr: 'Interview : Andrea Ponsini, Directeur Artistique du Salon de Montrouge
+    À travers 9 vidéos, les professionnels de l''art aux manettes de cette 68e édition
+    du Salon de Montrouge vous présentent les choix'
+  affichage_titre: 'Interview : Andrea Ponsini, Directeur Artistique du Salon de Montrouge
+    À travers 9 vidéos, les professionnels de l''art aux manettes de cette 68e édition
+    du Salon de Montrouge vous présentent les choix [Interview : Andrea Ponsini, Directeur
+    Artistique du Salon de Montrouge À travers 9 vidéos, les professionnels de l''art
+    aux manettes de cette 68e édition du Salon de Montrouge vous présentent les choix]'
+candidature:
+  date_limite: null
+  langue_dossier: []
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines: []
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Beffroi
+  dates_exposition: 2026-02-13 à 2026-03-01
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.2
+  extracted_notes: Page d'interview du directeur artistique, non pas un appel à candidatures.
+    Aucune information sur la procédure de candidature, frais, éligibilité ou conditions
+    ne figure au texte. Seules les dates d'exposition et le lieu de la 69e édition
+    sont documentés. Les 40 artistes sont déjà sélectionnés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:21:52+00:00'
+  source_lang: es
+  resume_fr: null
+  detection_confidence: 0.9230769230769231
+  detection_method: heuristic
+  source_label: Salon de Montrouge — accueil
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Le Salon de Montrouge est une exposition collective se déroulant du 13
+    février au 1er mars 2026 au Beffroi. Cette 69e édition sélectionne 40 artistes.
+    La page consultée est un portrait du directeur artistique, non un appel à candidatures
+    ouvert.
+  pour_qui: Artistes sélectionnés uniquement, selon une procédure de sélection antérieure.
+a_savoir:
+- 'Cette page n''est pas un appel à candidatures : les 40 artistes sont déjà choisis.'
+- Aucune information sur les modalités de candidature, dates limites ou frais ne figure
+  au texte.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Montrouge
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune information sur rémunération ou bourse mentionnée.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune information sur logement fourni.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune information sur espace de travail fourni.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune information sur prise en charge de frais.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

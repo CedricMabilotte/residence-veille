@@ -1,0 +1,101 @@
+uid: 4894b873
+type: exposition
+source_url: https://www.rurart.org/exposition-sans-titre-le-refuge-stephane-thidet
+fetched_at: '2026-05-22T14:46:56+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Sans titre (Le Refuge) Stéphane Thidet
+  organisme: Rurart
+  lieu:
+    ville: Rouillé
+    pays: France
+  nom_fr: Le site internet:(archives) Exposition, Sans titre (le refuge) Stéphane
+    Thidet
+  affichage_titre: Le site internet:(archives) Exposition, Sans titre (le refuge)
+    Stéphane Thidet [Le site internet:(archives) Exposition, Sans titre (le refuge)
+    Stéphane Thidet]
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques
+  - arts visuels
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Rurart, Rouillé
+  dates_exposition: 19.06.2018 - 22.07.2018
+  format: personnelle
+  prise_en_charge:
+    production: null
+    transport:
+      pris_en_charge: null
+      plafond: null
+      devise: EUR
+    per_diem: null
+    hebergement_vernissage: null
+partenaires:
+- Ministère de l'Agriculture et de l'Alimentation
+- Ministère de la Culture
+- Région Nouvelle-Aquitaine
+- Département de la Vienne
+- Communauté urbaine Grand Poitiers
+- Commune de Rouillé
+- Astre (réseau arts plastiques et visuels en Nouvelle-Aquitaine)
+_meta:
+  extracted_confidence: 0.2
+  extracted_notes: Contenu archivé d'exposition réalisée (2018), non un appel à candidature
+    actif. La plupart des champs de candidature inapplicables. Informations limitées.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:46:56+00:00'
+  source_lang: es
+  resume_fr: null
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Rurart — centre d'art / programmation
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Exposition monographique de l'artiste Stéphane Thidet présentée à Rurart
+    (Rouillé) du 19 juin au 22 juillet 2018. L'œuvre principale, intitulée 'Sans titre
+    (Le Refuge)', est une cabane en bois meublée succinctement où il pleut continuellement
+    à l'intérieur, remettant en question la notion de refuge. L'exposition est soutenue
+    par plusieurs institutions publiques nationales et locales. Il s'agit d'une archive
+    d'exposition passée, non d'un appel à candidature.
+  pour_qui: Public intéressé par les installations et sculptures contemporaines jouant
+    sur l'absurde et les états d'incertitude.
+a_savoir:
+- Ce contenu est une archive d'exposition réalisée (dates passées), pas un appel à
+  candidature actif.
+- Aucune information de candidature, de frais d'inscription ni de conditions d'éligibilité
+  fournie.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Rouillé
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Document archivé d'exposition réalisée, pas d'appel à candidature
+    avec conditions de rétribution.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune information fournie.
+- id: atelier
+  rempli: inconnu
+  justification: Aucune information fournie.
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune information fournie.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

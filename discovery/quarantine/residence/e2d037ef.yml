@@ -1,0 +1,93 @@
+uid: e2d037ef
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/programme-de-residence/ville-de-zurich-x-cite-internationale-des-arts
+fetched_at: '2026-05-22T14:30:42+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Ville de Zurich x Cité internationale des arts
+  organisme: Cité Internationale des Arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: https://www.citeinternationaledesarts.fr/programme-de-residence/ville-de-zurich-x-cite-internationale-des-arts
+eligibilite:
+  disciplines:
+  - arts visuels
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Résider à Zurich depuis au moins un an
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 6 mois
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Ville de Zürich, Affaires Culturelles
+_meta:
+  extracted_confidence: 0.35
+  extracted_notes: Page de présentation générale du programme manquant de détails
+    pratiques. Pas de date limite, frais, hébergement, rémunération ou conditions
+    de restitution mentionnés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:30:42+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Cité internationale des arts — résidences
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Ce programme permet à 2 artistes visuels zurichois de venir en résidence
+    à Paris à la Cité Internationale des Arts pour 6 mois. Créé en 1966, il s'adresse
+    aux artistes ayant une formation professionnelle dans le domaine des arts visuels
+    et résidant à Zurich depuis au moins un an. Aucun détail ne précise les conditions
+    d'accueil (hébergement, rémunération, équipements, frais).
+  pour_qui: Artistes visuels justifiant d'une formation professionnelle et résidant
+    à Zurich depuis au moins un an.
+a_savoir:
+- Aucune date limite de candidature indiquée
+- Absence totale d'informations sur l'hébergement, la rémunération, les frais de voyage
+  ou les équipements fournis
+- Page informative générale sans détails pratiques de résidence
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune mention de rémunération, bourse ou per diem
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention d'hébergement mis à disposition
+- id: atelier
+  rempli: inconnu
+  justification: Aucune mention d'espace de travail ou d'atelier fourni
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage ou de production
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

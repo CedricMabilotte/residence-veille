@@ -81,12 +81,19 @@ sources:
 
   # ── D. Lieux et fondations ─────────────────────────────────────────────────
 
-  - label: "Cité internationale des arts — résidences"
-    # URL corrigée : /fr/residences renvoyait 404 (page déplacée).
-    url: "https://www.citeinternationaledesarts.fr/nos-programmes-de-residence/"
+  - label: "Cité internationale des arts — appels à candidature ouverts"
+    # 2026-08-01 : URL corrigée une seconde fois. L'ancienne URL /nos-programmes-de-residence/
+    # (ex /fr/residences, déjà corrigée une fois) liste l'ANNUAIRE DES PARTENARIATS EXISTANTS
+    # (une page par institution partenaire type "Visarte Suisse x Cité"), PAS les appels à
+    # candidature ouverts : ces pages n'ont ni date limite ni formulaire, l'artiste ne candidate
+    # pas en direct (nomination par l'institution partenaire). 21 fiches erronées mises en
+    # quarantaine le 2026-08-01 (voir discovery/reports/review_issues_2026-08-01.md) car
+    # promues à tort avec ce crawl. La bonne page — celle qui porte réellement les échéances et
+    # les boutons "Apply" — est /appels-a-candidature/ (ou /en/open-calls/ en anglais).
+    url: "https://www.citeinternationaledesarts.fr/appels-a-candidature/"
     type: deep_html
     max_pages: 15
-    min_interval_days: 14
+    min_interval_days: 7
 
   - label: "Pollen — résidence (Monflanquin)"
     url: "https://www.pollen-monflanquin.com/residences/"
@@ -95,6 +102,11 @@ sources:
 
   # Rurart — centre d'art contemporain (Vienne, FR). Suggestion communautaire
   # validée via issue #2.
+  # ATTENTION (2026-08-01) : /programmation/ a produit 4 fiches en quarantaine
+  # (rurart.org/exposition-*), qui sont des pages d'exposition déjà programmée/passée,
+  # pas des appels à candidature. Même défaut que Cité internationale des arts
+  # (voir plus haut) — pas encore trouvé l'URL de la vraie page d'appel de Rurart lors
+  # de cette session ; à instruire manuellement avant le prochain run automatisé.
   - label: "Rurart — centre d'art / programmation"
     url: "https://www.rurart.org/programmation/"
     type: deep_html
@@ -160,3 +172,85 @@ sources:
     url: "https://www.moly-sabata.com/"
     type: html
     min_interval_days: 14
+
+  # ── H. Lot ajouté 2026-08-01 (session manuelle Claude — élargissement) ────
+
+  - label: "TransArtists — Open Calls (blog, EN)"
+    # Distinct de « TransArtists — Open calls (EN) » plus haut (/en/transartists-calls,
+    # deep_html sur liens d'annonces) : cette variante correspond à ce qui a été vérifié
+    # manuellement le 2026-08-01 — page d'articles paginée (~50 pages), classée par date
+    # de publication et non par échéance. Chaque article donne sa propre deadline dans
+    # le texte ; beaucoup sont déjà expirées au moment du crawl (publication ancienne).
+    # Un filtre post-extraction sur date_limite future est indispensable ici.
+    url: "https://www.transartists.org/en/transartists-calls"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 7
+
+  - label: "O Castro Art Village — résidences (Galice, ES)"
+    # Repéré via TransArtists le 2026-08-01. Résidence rurale autofinancée + volets
+    # thématiques ponctuels soutenus par Culture Moves Europe. Fort potentiel de
+    # résonance avec le profil interne (ruralité, matériaux locaux) — cf. fiche
+    # organismes/o-castro-art-village-e1a2c3f4.yml.
+    url: "https://ocastroartvillage.com/about-us/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+
+  - label: "DRAC Nouvelle-Aquitaine — aides et appels à projets"
+    url: "https://www.culture.gouv.fr/regions/drac-nouvelle-aquitaine/aides-demarches"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+
+  - label: "Ministère de la Culture — catalogue des appels à projets (national)"
+    url: "https://www.culture.gouv.fr/catalogue-des-demarches-et-subventions/appels-a-projet-partenaires"
+    type: deep_html
+    max_pages: 20
+    min_interval_days: 7
+
+  - label: "Réseau d.c.a — association des centres d'art contemporain"
+    url: "https://www.dca-art.com/"
+    type: deep_html
+    max_pages: 12
+    min_interval_days: 14
+
+  - label: "Devenir.art — appels à candidature (agrégateur FR)"
+    url: "https://devenir.art/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 7
+
+  - label: "Salon de Montrouge — modalités de candidature (page officielle des dépôts)"
+    # Distinct de « Salon de Montrouge — accueil » plus haut (salondemontrouge.com, qui a
+    # produit 3 fiches en quarantaine — pages d'actualité, pas l'appel). Ce sous-domaine est
+    # la page de dépôt réelle, ouverte début avril / fin avril chaque année (cf. fiche
+    # organismes/salon-de-montrouge-3c775399.yml, track_record).
+    url: "https://candidats.salondemontrouge.fr/"
+    type: html
+    min_interval_days: 30
+    peak_months: [3, 4]
+
+  - label: "Triangle France — Astérides (Marseille)"
+    url: "https://triangle-asterides.org/fr/appels/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 14
+
+  - label: "Fondation Camargo (Cassis)"
+    url: "https://camargofoundation.org/apply/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 14
+
+  - label: "Prix AICA France"
+    url: "https://www.aicafrance.org/"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 30
+
+  - label: "Prix Aware (femmes artistes)"
+    url: "https://awarewomenartists.com/prix-aware/"
+    type: deep_html
+    max_pages: 8
+    min_interval_days: 30

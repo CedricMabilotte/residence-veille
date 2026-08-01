@@ -1,0 +1,98 @@
+uid: 6c232e5c
+type: exposition
+source_url: https://www.rurart.org/exposition-medecine-castor-suzanne-husky
+fetched_at: '2026-05-22T12:08:52+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Exposition - Médecine Castor - Suzanne Husky
+  organisme: Rurart
+  lieu:
+    ville: Rouillé
+    pays: France
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques et visuels
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Rurart
+  - Confort Moderne
+  dates_exposition: 2026-03-12 à 2026-06-14
+  format: personnelle
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- FRAC Poitou-Charentes
+- Fondation Carasso
+- Région Nouvelle-Aquitaine
+- DRAC Nouvelle-Aquitaine
+- Réseau Astre
+- Ministère de l'Agriculture et de l'Alimentation
+- Ministère de la Culture
+- Département de la Vienne
+- Communauté urbaine Grand Poitiers
+- Commune de Rouillé
+_meta:
+  extracted_confidence: 0.6
+  extracted_notes: Ceci est une page d'exposition déjà programmée, non un appel à
+    candidature artistique. Aucune information relative à un processus de candidature,
+    frais d'inscription, pièces demandées ou date limite de candidature n'est disponible.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T12:08:52+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Rurart — centre d'art / résidences
+  last_status_check: '2026-08-01'
+analyse:
+  synthese: Exposition monographique de Suzanne Husky du 12 mars au 14 juin 2026,
+    présentée par Rurart. Le projet est porté par le FRAC Poitou-Charentes et soutenu
+    par la Fondation Carasso, la Région Nouvelle-Aquitaine, la DRAC et le réseau Astre.
+    Vernissage gratuit le 12 mars 2026 à 18h30 en présence de l'artiste. Conférence
+    gratuite le 11 mars 2026 à 19h30 au Confort Moderne.
+  pour_qui: Cette exposition s'adresse aux publics intéressés par l'art contemporain,
+    les enjeux environnementaux, la régénération des écosystèmes et l'histoire des
+    paysages.
+a_savoir:
+- Ceci n'est pas un appel à candidature artistique, mais une exposition programmée.
+- Entrée gratuite au vernissage et à la conférence.
+organisme_details:
+  site_web: https://www.rurart.org
+  adresse: null
+  ville: Rouillé
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation monétaire n'est proposée.
+    Il s'agit d'une exposition, non d'un programme de résidence ou de bourse.
+- id: hebergement
+  rempli: non
+  justification: Aucun hébergement n'est mentionné ou proposé.
+- id: atelier
+  rempli: non
+  justification: Aucun espace de travail, atelier ou équipements de production ne
+    sont fournis.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucun frais de voyage, production ou transport ne sont couverts.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0
