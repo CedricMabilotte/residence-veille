@@ -26,6 +26,10 @@ on:
         description: "Lance les discoveries mensuelles (LLM suggest, blind spots, enrich organismes)"
         default: "false"
         required: false
+      do_rescore:
+        description: "Re-score les fiches existantes (appels/) avec le scoring courant — usage ponctuel après un changement de barème/filtre, pas une cadence régulière"
+        default: "false"
+        required: false
   schedule:
     # Veille quotidienne. GitHub désactive automatiquement un workflow planifié
     # après 60 jours d'inactivité du dépôt (aucun commit/push) — un dépôt qui
@@ -59,11 +63,13 @@ jobs:
             echo "dry_run=${{ github.event.inputs.dry_run }}" >> "$GITHUB_OUTPUT"
             echo "do_weekly=${{ github.event.inputs.do_discovery_weekly }}" >> "$GITHUB_OUTPUT"
             echo "do_monthly=${{ github.event.inputs.do_discovery_monthly }}" >> "$GITHUB_OUTPUT"
+            echo "do_rescore=${{ github.event.inputs.do_rescore }}" >> "$GITHUB_OUTPUT"
           else
             echo "score_threshold=6" >> "$GITHUB_OUTPUT"
             echo "dry_run=false" >> "$GITHUB_OUTPUT"
             [ "$(date -u +%u)" = "1" ] && echo "do_weekly=true" >> "$GITHUB_OUTPUT" || echo "do_weekly=false" >> "$GITHUB_OUTPUT"
             [ "$(date -u +%d)" = "01" ] && echo "do_monthly=true" >> "$GITHUB_OUTPUT" || echo "do_monthly=false" >> "$GITHUB_OUTPUT"
+            echo "do_rescore=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup Python 3.11
@@ -99,6 +105,17 @@ jobs:
           SCORE_THRESHOLD:         ${{ steps.params.outputs.score_threshold }}
           DRY_RUN:                 ${{ steps.params.outputs.dry_run }}
         run: python scripts/watch.py
+
+      - name: "Re-scoring ponctuel (barème corrigé + filtre discipline resserré, 2026-08-02)"
+        # Gaté sur do_rescore (déclenché manuellement une fois, pas une cadence
+        # régulière) — nécessite Claude (CLAUDE_CODE_OAUTH_TOKEN), donc ne peut
+        # pas tourner en session Cowork locale (auth CLI expirée constatée en
+        # session). Voir scripts/rescore_existing.py pour le détail et la portée
+        # (appels/ uniquement, jamais archive/).
+        if: ${{ steps.params.outputs.dry_run != 'true' && steps.params.outputs.do_rescore == 'true' }}
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python scripts/rescore_existing.py
 
       - name: Tri par échéance (deadline_tracker)
         if: ${{ steps.params.outputs.dry_run != 'true' }}

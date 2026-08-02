@@ -83,13 +83,21 @@ def hard_filters(fiche: dict) -> tuple[bool, str]:
         return False, "type non reconnu"
 
     disciplines = [d.lower() for d in (elig.get("disciplines") or [])]
+    # Resserré le 2026-08-02 (leçon L8) : le mot-clé générique "art" acceptait
+    # à tort des disciplines non-pratique — ex. "critique d'art" (fiche
+    # Bridges/AICA, réservée aux critiques membres AICA, pas aux plasticien·nes
+    # praticien·nes) passait le filtre uniquement parce que "critique d'art"
+    # contient la sous-chaîne "art". Retiré ; "plasticien" ajouté pour couvrir
+    # les fiches qui disent "artiste plasticien·ne" sans dire "plastique".
+    # Les disciplines de pratique (installation, sculpture, textile...)
+    # continuent de matcher sur leurs mots-clés propres.
     if disciplines and not any(
-        any(kw in d for kw in ("plastique", "visual", "installation", "sculpture",
-                                "textile", "dessin", "photo", "peinture", "performance",
-                                "vidéo", "video", "edition", "art"))
+        any(kw in d for kw in ("plastique", "plasticien", "visual", "installation",
+                                "sculpture", "textile", "dessin", "photo", "peinture",
+                                "performance", "vidéo", "video", "edition"))
         for d in disciplines
     ):
-        return False, "discipline incompatible"
+        return False, "discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)"
 
     # Pay-to-play : fee élevé sans dotation
     fee = ((cand.get("frais_inscription") or {}).get("montant") or 0) or 0
