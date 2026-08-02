@@ -7,20 +7,23 @@
 #
 # Ce fichier est ÉDITABLE : ajouter / retirer / repondérer des critères ici
 # suffit — aucun code à toucher. Le score affiché et la section « Critères
-# recherchés » des fiches en découlent directement.
+# recherchés » des fiches en découlent directement (scripts/score_opportunity.py
+# charge ce fichier et évalue chaque critère listé ici, famille par famille).
 #
 # NB : le barème est PUBLIC et factuel. Il ne contient AUCUN critère lié au
 # profil interne (Lucile Leloup) — celui-ci reste un bonus de tri silencieux,
 # géré séparément dans concepts.yml, jamais affiché.
+#
+# Champ optionnel `applicable_types` sur une famille : liste des types
+# (residence|bourse|prix|exposition) auxquels elle s'applique. Absent = les
+# 4 types. Une famille non applicable à une fiche est exclue du calcul (ni
+# comptée au numérateur, ni au dénominateur) plutôt que notée "non" par défaut.
 # ─────────────────────────────────────────────────────────────────────────────
 
 bareme:
-  version: 1
-  date: 2026-05-20
+  version: 2
+  date: 2026-08-02
 
-  # ── Famille retenue : Conditions matérielles ───────────────────────────────
-  # Démarrage volontairement resserré. Pour étendre : ajouter d'autres familles
-  # (accessibilite, qualite_temps, debouche) sur le même modèle.
   familles:
 
     - id: conditions_materielles
@@ -56,16 +59,122 @@ bareme:
             Voyage, production, transport d'œuvres ou matériel sont couverts,
             en tout ou partie, par l'organisme.
 
+        - id: ratio_dotation_cout_vie
+          label: "Dotation cohérente avec le coût de la vie local"
+          poids: 2
+          definition: >
+            La rétribution ou le per diem proposé permet de vivre sur place
+            sans déficit net une fois le coût de la vie du lieu d'accueil pris
+            en compte (un per diem correct à Berlin ne l'est pas forcément
+            dans une capitale au coût de la vie élevé, et inversement). Va
+            au-delà du garde-fou binaire anti pay-to-play déjà appliqué en
+            filtre dur (fee > 100€ sans dotation ≥ 5×) : ici on qualifie la
+            générosité réelle, pas seulement l'absence d'arnaque.
+
+    - id: transparence_administrative
+      label: "Transparence administrative"
+      description: >
+        Signaux qui distinguent une structure sérieuse d'une structure
+        approximative ou prédatrice, indépendamment de la générosité de
+        l'offre. Ne remplace pas les anti-concepts (rejets francs déjà gérés
+        en filtre dur) — les qualifie plus finement pour les cas qui passent
+        le filtre.
+      criteres:
+
+        - id: criteres_selection_publies
+          label: "Critères de sélection publiés"
+          poids: 2
+          definition: >
+            La page d'appel énonce explicitement sur quels critères le jury
+            ou le comité sélectionne (et pas seulement la liste des pièces
+            à fournir).
+
+        - id: delai_reponse_annonce
+          label: "Délai de réponse annoncé"
+          poids: 1
+          definition: >
+            Un délai ou une date indicative de notification des résultats
+            est communiqué (ex. « réponse sous 8 semaines », « résultats
+            annoncés le 15 septembre »).
+
+        - id: retour_individualise
+          label: "Retour individualisé aux non-retenu·es"
+          poids: 1
+          definition: >
+            L'organisme indique qu'il notifie individuellement les
+            candidat·es non retenu·es (par opposition à un silence de fait,
+            fréquent chez les structures moins sérieuses).
+
+    - id: qualite_temps
+      label: "Qualité du temps de résidence"
+      description: >
+        Ce qui distingue une résidence-atelier (temps de production protégé)
+        d'une résidence-vitrine (forte présence publique imposée). Concerne
+        principalement les résidences ; le calendrier d'usage des fonds pour
+        les bourses en est une variante partielle.
+      applicable_types: [residence, bourse]
+      criteres:
+
+        - id: production_libre
+          label: "Temps de production protégé"
+          poids: 2
+          definition: >
+            Le temps sur place est majoritairement dédié à la
+            production/recherche de l'artiste plutôt qu'à des obligations de
+            médiation, d'ateliers publics ou d'événements imposés par
+            l'organisme.
+
+        - id: calendrier_flexible
+          label: "Calendrier flexible"
+          poids: 1
+          definition: >
+            Les dates de séjour (résidence) ou d'usage des fonds (bourse)
+            sont négociables ou couvrent une fenêtre large, plutôt qu'un
+            calendrier rigide imposé sans marge.
+
+    - id: debouche
+      label: "Débouché réel"
+      description: >
+        Ce que l'artiste peut raisonnablement attendre après le programme,
+        au-delà du programme lui-même. Concerne surtout prix et expositions ;
+        s'applique aussi aux résidences avec restitution publique.
+      criteres:
+
+        - id: visibilite_restitution
+          label: "Visibilité réelle de la restitution"
+          poids: 2
+          definition: >
+            La restitution (exposition, édition, présentation publique) a
+            une visibilité au-delà de l'organisme lui-même (lieu reconnu du
+            réseau art contemporain, diffusion presse, catalogue édité) —
+            par opposition à une restitution purement interne sans
+            rayonnement.
+
+        - id: suivi_apres_programme
+          label: "Suivi après le programme"
+          poids: 1
+          definition: >
+            L'organisme prévoit un suivi documenté après la fin du
+            programme (réseau alumni actif, mention dans ses supports,
+            entrée en collection, accompagnement vers d'autres
+            opportunités).
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Calcul du score public (transparent, explicable)
 # ─────────────────────────────────────────────────────────────────────────────
 score_public:
-  # Le score affiché = pertinence de base (Claude) + bonus track record.
-  # Les critères du barème ci-dessus pondèrent la composante « qualité ».
-  # Le bonus profil interne n'entre JAMAIS dans ce score.
+  # Le score affiché = pertinence de base (Claude) + qualité pondérée du
+  # barème ci-dessus + bonus track record. Les familles marquées
+  # `applicable_types` sont exclues du calcul pour les fiches d'un autre type
+  # (ni au numérateur, ni au dénominateur — pas de pénalité pour non-pertinence).
+  # Le bonus profil interne n'entre JAMAIS dans ce score (corrigé le 2026-08-02 :
+  # scripts/score_opportunity.py l'ajoutait par erreur au score public avant
+  # cette date — voir lecons-Residences-artistiques.md, L9).
   formule: >
     score_public = base_pertinence (0-7)
-                 + qualite_criteres (0-2, dérivé du barème pondéré)
+                 + qualite_criteres (0-2, dérivé du barème pondéré ci-dessus,
+                   proportion pondérée de critères "oui"=1 / "partiel"=0.5 /
+                   "non"=0 / "inconnu"=0, ramenée sur une échelle 0-2)
                  + bonus_track_record (0-1)
   max: 10
   note_affichee: true

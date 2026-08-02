@@ -57,6 +57,37 @@ Voir `config/sources.yml` (12 sources pour le premier run).
 | https://convocatorias.com/ | Agrégateur | LatAm | ES | à probe |
 | https://www.bancaintesasanpaolo.com/aaa/ | Bourse / fondation | IT | IT/EN | à probe |
 
+## Petits réseaux — annuaires et DRAC régionales (ajout 2026-08-02)
+
+Vérifiées accessibles via recherche web en session (pas encore probées avec
+`probe_source.py`, qui a un accès réseau direct plus fiable).
+
+### Annuaires à crawler (`discovery_institutional_directories.py`, `discovery/annuaires.yml`)
+
+| URL | Rôle | Rendement attendu |
+|---|---|---|
+| https://www.cnap.fr/annuaire/ | Annuaire CNAP des lieux (centres d'art, FRAC, écoles, assos) | Élevé — gisement direct d'organismes |
+| https://andea.fr/en/andea/general-assembly/ | Membres ANdEA (44 écoles supérieures d'art) | Élevé — angle mort écoles non couvertes |
+| https://www.ufisc.org/l-union/membres/ | Réseaux membres UFISC (lieux intermédiaires) | Incertain — plusieurs réseaux centrés musiques actuelles, filtrer disciplinaire |
+
+### DRAC régionales "aide individuelle à la création" arts plastiques (à ajouter comme sources directes, pas comme annuaires)
+
+| Région | URL |
+|---|---|
+| Auvergne-Rhône-Alpes | https://www.culture.gouv.fr/Regions/Drac-Auvergne-Rhone-Alpes/Demarches-aides/Demande-de-subvention/Aides-arts-plastiques |
+| Occitanie | https://culture.gouv.fr/Regions/Drac-Occitanie/Aides-et-demarches/Subventions/Aides-Arts-plastiques |
+| Île-de-France | https://www.culture.gouv.fr/Regions/Drac-Ile-de-France/Aides-et-demarches/Arts-plastiques |
+| Hauts-de-France | https://www.culture.gouv.fr/Regions/Drac-Hauts-de-France/Aides-et-demarches/Arts-plastiques |
+| Normandie | https://www.culture.gouv.fr/regions/drac-normandie/aides-et-demarches/aides-et-demarches-pour-la-creation-artistique-et-le-developpement-des-publics/aides-concernant-le-secteur-des-arts-plastiques2 |
+| Bretagne | https://www.culture.gouv.fr/Regions/Drac-Bretagne/Aides-et-demarches/Arts-plastiques-cinema-livre-et-lecture-spectacle-vivant/Arts-visuels |
+| Grand Est | https://www.culture.gouv.fr/regions/drac-grand-est/services/creation/arts-visuels |
+| PACA | https://www.culture.gouv.fr/regions/Drac-Provence-Alpes-Cote-d-Azur/aides-demarches/aides-financieres/aides-aux-artistes-plasticiens |
+
+Régions non trouvées en session (à rechercher individuellement, ne pas deviner
+l'URL — les schémas varient trop d'une région à l'autre, cf. les 8 ci-dessus
+qui n'ont que 2 patterns communs sur 8) : Bourgogne-Franche-Comté,
+Centre-Val-de-Loire, Pays de la Loire, Corse, DAC outre-mer.
+
 ## Sources hors-périmètre (rejets francs)
 
 - Vanity galleries (pay-to-show).

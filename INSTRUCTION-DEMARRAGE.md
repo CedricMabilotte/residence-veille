@@ -585,6 +585,8 @@ Note : pas d'échange `share_sources.py` avec BIBLIO (cloisonnement décidé).
 - **Profil interne ne fuite pas** : le champ `_interne_affinite` n'est **jamais** publié sur le site. Le générateur HTML doit ignorer tous les champs préfixés `_`. À tester explicitement avant déploiement.
 - **Résumé FR fidèle** : pour les sources EN/ES, `resume_fr.py` doit citer littéralement les chiffres (montant, dates, m²) sans paraphraser — diviser entre "résumé éditorial FR" et "données structurées brutes".
 
+- **Barème public qualifié plus finement** *(ajouté 2026-08-02)* : `config/criteres.yml` passe en version 2 — deux nouvelles familles de critères en plus de `conditions_materielles` : `transparence_administrative` (critères de sélection publiés, délai de réponse annoncé, retour individualisé aux non-retenu·es — distingue une structure sérieuse d'une structure approximative sans juger sur la réputation) et `qualite_temps` (temps de production protégé vs. obligations imposées, calendrier flexible — surtout pertinent pour résidences et bourses, via `applicable_types`), plus `debouche` (visibilité réelle de la restitution, suivi après le programme). Un critère `ratio_dotation_cout_vie` est ajouté à `conditions_materielles` : affine le garde-fou anti pay-to-play déjà en filtre dur (fee > 100€ sans dotation ≥ 5×) en qualifiant la générosité réelle de la dotation par rapport au coût de la vie local, pas seulement l'absence d'arnaque. `scripts/score_opportunity.py` charge désormais ce barème et évalue chaque critère via Claude (statut oui/non/partiel/inconnu + citation du passage), au lieu de rester un fichier de design non branché au code. **Correctif associé** : le bonus profil interne (silencieux, biais Leloup) fuyait dans le score public affiché (`fiche["score"]`) avant cette date — contraire à la règle déjà énoncée dans `criteres.yml` ("le bonus profil interne n'entre JAMAIS dans ce score"). Séparé : `score_public` (base_pertinence + qualite_criteres + track_record) reste seul affiché, `_interne_affinite` reste un champ caché distinct. Voir `lecons-Residences-artistiques.md`, L9.
+
 ---
 
 ## 10. Arbitrages validés (sortis des questions ouvertes)
@@ -624,6 +626,7 @@ L'objectif est de faire **vivre** le `config/sources.yml` au-delà de la liste i
 | `discovery_mastodon.py` | Hashtags / comptes Mastodon — adaptés au domaine art | Hebdo |
 | `discovery_llm_suggest.py` | Claude Haiku suggère N nouvelles sources à partir du catalog + ontologie | Mensuel |
 | `discovery_blind_spots.py` | Auto-diagnostic statistique (langues, pays, types, disciplines manquantes) + Claude | Mensuel |
+| `discovery_network_pages.py` *(étendu 2026-08-02)* | Crawl des pages réseau/partenaires — part désormais aussi d'une liste fixe de « hubs » (Res Artis /listings/, d.c.a /membres), pas seulement des organismes déjà validés dans `organismes/`. **Testé en session** : rendement nul en HTML statique pour ces deux hubs (Res Artis rendu en JS, d.c.a sans lien externe direct sur la page agrégée) — mécanisme correct, mais point ouvert (migrer vers Playwright, comme e-flux) | Hebdo |
 | Issues GitHub `nouvelle-source` | Cross-pollination communautaire (un·e artiste propose une source) | À la demande |
 
 **Hashtags Mastodon retenus** : `#opencall #appelacandidature #residenceartiste #artistresidency #convocatoria #appelaprojets #appelaartistes #aircall #residencia #residencyopen`.
@@ -709,6 +712,22 @@ Quand deux sources classent la même opportunité différemment (résidence vs. 
 **L. Veille "nouveaux entrants"**
 
 Métrique mensuelle issue de `discovery_blind_spots.py` : organismes apparaissant pour la première fois dans le graphe (B/G/H). Section dédiée du rapport mensuel : "Nouveaux organismes repérés ce mois".
+
+**M. Annuaires institutionnels et réseaux professionnels** — `discovery_institutional_directories.py` *(ajouté 2026-08-02)*
+
+Constat : les mécanismes A-L partent tous de sources ou d'organismes déjà connus (crawl passif, cycles, partenariats mentionnés dans des fiches existantes). Aucun ne va chercher activement en dessous du radar des gros agrégateurs internationaux — c'est justement là que vivent les petites structures (centres d'art municipaux, associations régionales, écoles d'art) qui n'apparaissent jamais sur e-flux ou TransArtists.
+
+Le mécanisme crawle une liste curatée d'« annuaires » — des pages qui listent par nature de nombreuses petites structures plutôt qu'une seule opportunité, vérifiées réellement accessibles en session (recherche web) le 2026-08-02 :
+
+- **CNAP — annuaire des lieux** (`cnap.fr/annuaire/`) : le CNAP maintient son propre annuaire de structures art contemporain (centres d'art, FRAC, écoles, associations), chacune avec sa fiche et souvent son URL propre — gisement direct d'organismes à instruire individuellement.
+- **ANdEA** (Association nationale des écoles supérieures d'art) : page « Membres » (`andea.fr/en/andea/general-assembly/`) liste ses 44 écoles membres, à comparer à la poignée d'écoles actuellement codées en dur (Ensad, Fresnoy, Villa Arson…) pour éliminer l'angle mort des écoles non listées. **Testé en session : rendement nul** — cette page (« General Assembly ») ne contient aucun lien externe en HTML statique (29 hrefs, tous internes à andea.fr). La bonne page listant les écoles avec leurs sites propres reste à trouver — point ouvert, pas une URL à deviner (cf. leçon L5 sur les pages figées).
+- **UFISC** (Union fédérale d'intervention des structures culturelles) : page « Nos membres » (`ufisc.org/l-union/membres/`) liste ses réseaux adhérents (lieux intermédiaires, fabriques, collectifs) — rendement incertain côté arts plastiques stricto sensu (plusieurs réseaux membres sont centrés musiques actuelles), à filtrer au tri disciplinaire habituel plutôt qu'à exclure a priori. **Testé en session : 1 domaine tiers repéré** (après filtrage des boutons de partage — un lien WhatsApp capté à tort en premier test, corrigé).
+
+**Distinct des DRAC** : la recherche a aussi confirmé 7 nouvelles pages régionales DRAC "aide individuelle à la création" (arts plastiques) — Auvergne-Rhône-Alpes, Occitanie, Île-de-France, Hauts-de-France, Normandie, Bretagne, Grand Est, PACA (Nouvelle-Aquitaine déjà présente). Ce ne sont **pas des annuaires** mais des pages d'appel à candidature individuelles (comme la source Nouvelle-Aquitaine déjà en place) — ajoutées directement à `config/sources.yml` §H plutôt que dans ce mécanisme de découverte. Régions encore non trouvées en session (à rechercher) : Bourgogne-Franche-Comté, Centre-Val-de-Loire, Pays de la Loire, Corse, DAC outre-mer.
+
+Stockage des URLs d'annuaires : `discovery/annuaires.yml` (liste éditable, pas de code à toucher pour ajouter un annuaire). Le script extrait les liens sortants de chaque annuaire, filtre le bruit (réseaux sociaux, navigation du site lui-même) et alimente `discovery/candidates.yml` — la promotion en source suit ensuite la même logique d'auto-promotion que les autres mécanismes (§12.5).
+
+Cadence : hebdomadaire (même step que `discovery_network_pages.py` et `discovery_mastodon.py`, gaté sur `do_discovery_weekly`).
 
 ### 12.5 Stratégie de promotion : **auto-promotion par Claude**
 
