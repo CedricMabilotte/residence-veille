@@ -18464,7 +18464,7 @@ candidates:
     timestamp: '2026-05-22T10:42:25'
 - url: https://fr-fr.facebook.com/cnap.fr
   type: network_page
-  seen_count: 12
+  seen_count: 17
   found_from:
     organisme_uid: centre-national-des-arts-plastiques-cnap-6c9bf251
     page_reseau: https://www.cnap.fr/liens
@@ -18485,7 +18485,7 @@ candidates:
     timestamp: '2026-05-22T10:42:25'
 - url: https://fr.linkedin.com/in/cnap-centre-national-des-arts-plastiques-27b223149?trk=people-guest_profile-result-card_result-card_full-click
   type: network_page
-  seen_count: 12
+  seen_count: 17
   found_from:
     organisme_uid: centre-national-des-arts-plastiques-cnap-6c9bf251
     page_reseau: https://www.cnap.fr/liens
@@ -18499,42 +18499,42 @@ candidates:
     timestamp: '2026-05-22T10:42:25'
 - url: https://bsky.app/profile/cnapfr.bsky.social
   type: network_page
-  seen_count: 12
+  seen_count: 17
   found_from:
     organisme_uid: centre-national-des-arts-plastiques-cnap-6c9bf251
     page_reseau: https://www.cnap.fr/liens
     timestamp: '2026-05-22T10:42:25'
 - url: https://www.culture.gouv.fr
   type: network_page
-  seen_count: 12
+  seen_count: 16
   found_from:
     organisme_uid: centre-national-des-arts-plastiques-cnap-6c9bf251
     page_reseau: https://www.cnap.fr/liens
     timestamp: '2026-05-22T10:42:25'
 - url: https://www.godsavethescreen.com
   type: network_page
-  seen_count: 6
+  seen_count: 8
   found_from:
     organisme_uid: centre-national-des-arts-plastiques-cnap-6c9bf251
     page_reseau: https://www.cnap.fr/credits
     timestamp: '2026-05-22T10:42:25'
 - url: https://www.ows.fr
   type: network_page
-  seen_count: 6
+  seen_count: 8
   found_from:
     organisme_uid: centre-national-des-arts-plastiques-cnap-6c9bf251
     page_reseau: https://www.cnap.fr/credits
     timestamp: '2026-05-22T10:42:25'
 - url: https://www.google.fr/maps/place/Cit%C3%A9+internationale+des+arts/@48.8541231,2.3542715,16z/data=!3m1!4b1!4m6!3m5!1s0x47e671fd3c7730ed:0x21436eaeb2422730!8m2!3d48.8541196!4d2.3568464!16s%2Fg%2F120jf3d4?entry=ttu&amp;g_ep=EgoyMDI0MTIwOS4wIKXMDSoASAFQAw%3D%3D
   type: network_page
-  seen_count: 4
+  seen_count: 5
   found_from:
     organisme_uid: cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce
     page_reseau: https://www.citeinternationaledesarts.fr/support
     timestamp: '2026-05-22T10:42:25'
 - url: https://www.google.fr/maps/place/24+Rue+Norvins,+75018+Paris/@48.887336,2.3360345,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e5b262d2c33:0x43efcfff585a9186!8m2!3d48.8873325!4d2.3386094!16s%2Fg%2F11c1zd74pt?entry=ttu&amp;g_ep=EgoyMDI0MTIwOS4wIKXMDSoASAFQAw%3D%3D
   type: network_page
-  seen_count: 4
+  seen_count: 5
   found_from:
     organisme_uid: cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce
     page_reseau: https://www.citeinternationaledesarts.fr/support
@@ -18555,7 +18555,7 @@ candidates:
     timestamp: '2026-05-22T10:42:25'
 - url: https://fr.linkedin.com/company/cit%C3%A9-internationale-des-arts
   type: network_page
-  seen_count: 4
+  seen_count: 5
   found_from:
     organisme_uid: cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce
     page_reseau: https://www.citeinternationaledesarts.fr/support
@@ -18569,196 +18569,196 @@ candidates:
     timestamp: '2026-05-22T10:42:25'
 - url: https://new.pollen-monflanquin.com/xmlrpc.php
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/feed/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/comments/feed/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnew.pollen-monflanquin.com%2F
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnew.pollen-monflanquin.com%2F&#038;format=xml
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/wp-json/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/wp-json/wp/v2/pages/6974
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/xmlrpc.php?rsd
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/
   type: network_page
-  seen_count: 84
+  seen_count: 112
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://fonts.googleapis.com/css?family=Assistant%7CHeebo%7CLibre+Franklin%7CMaven+Pro%7CQuicksand%7CRopa+Sans%7CUnica+One&amp;display=swap
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/wp-content/uploads/2019/02/cropped-favicon-32x32.jpg
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/wp-content/uploads/2019/02/cropped-favicon-192x192.jpg
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/wp-content/uploads/2019/02/cropped-favicon-180x180.jpg
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/presentation/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/actualites/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/artistes-en-residence/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/de-2013-a/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/de-2002-a-2012/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/de-1991-a-2001/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/dans-hors-les-murs/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/expositions-a-pollen/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/manifestations-itinerantes/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/commandes-artistiques/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/votre-visite/
   type: network_page
-  seen_count: 168
+  seen_count: 224
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/qui-sommes-nous/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/jadhere-a-pollen/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/qui-sommes-nous-2/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://new.pollen-monflanquin.com/nos-partenaires/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
@@ -18772,28 +18772,28 @@ candidates:
     timestamp: '2026-05-22T13:09:53'
 - url: https://pollen-monflanquin.com/actualites/
   type: network_page
-  seen_count: 84
+  seen_count: 112
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: http://pollen-monflanquin.com/pollennew/artistes-en-residence/
   type: network_page
-  seen_count: 84
+  seen_count: 112
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://pollen-monflanquin.com/dans-hors-les-murs/
   type: network_page
-  seen_count: 84
+  seen_count: 112
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://www.nouvelle-aquitaine.fr/#gref
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
@@ -18807,14 +18807,14 @@ candidates:
     timestamp: '2026-05-22T13:09:53'
 - url: http://www.monflanquin.fr/
   type: network_page
-  seen_count: 42
+  seen_count: 56
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: http://reseau-astre.org/
   type: network_page
-  seen_count: 45
+  seen_count: 60
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
@@ -18835,119 +18835,119 @@ candidates:
     timestamp: '2026-05-22T13:09:53'
 - url: http://gmpg.org/xfn/11
   type: network_page
-  seen_count: 5
+  seen_count: 8
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: http://draaf.nouvelle-aquitaine.agriculture.gouv.fr/
   type: network_page
-  seen_count: 3
+  seen_count: 4
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine
   type: network_page
-  seen_count: 3
+  seen_count: 4
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://www.nouvelle-aquitaine.fr/
   type: network_page
-  seen_count: 3
+  seen_count: 4
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://www.grandpoitiers.fr/
   type: network_page
-  seen_count: 3
+  seen_count: 4
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://www.lavienne86.fr/
   type: network_page
-  seen_count: 3
+  seen_count: 4
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://www.rouille.fr/
   type: network_page
-  seen_count: 3
+  seen_count: 4
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: http://www.venours.fr/
   type: network_page
-  seen_count: 3
+  seen_count: 4
   found_from:
     organisme_uid: rurart-033898a9
     page_reseau: https://www.rurart.org/reseau
     timestamp: '2026-05-22T13:09:53'
 - url: https://www.fernfernfern.com/books
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://us.macmillan.com/fsg/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://lampo.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ndbooks.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://global.howard.edu/ralph-j-bunche/about-the-ralph-j-bunche-center/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.semiotexte.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.juilliard.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://wordswithoutborders.org/about/mission/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.1014.nyc
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -18961,28 +18961,28 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.6018north.org/home
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.airgallery.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.amicentre.biz/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.academiegoncourt.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -18996,49 +18996,49 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://adamatl.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.adiaf.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.aefe.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.agnesb.us/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.albertine.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Falbertinefoundation.org%2F&amp;data=05%7C02%7Ckimberly.corliss%40villa-albertine.org%7C332a3e1f53a54b898aa508ddda7ab28c%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C638906942727290775%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=LzVP6zH3%2FTtFbzuxjOp7LHuE2sxPks%2FfIw2EhG%2BVd6k%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvilla-albertine.org%2F&amp;data=05%7C02%7Ckimberly.corliss%40villa-albertine.org%7C332a3e1f53a54b898aa508ddda7ab28c%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C638906942727312195%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=sfIBLQ6nYQROX1IzXK9n12%2FlCCcYqAlIHIAtaKBMnm0%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -19052,539 +19052,539 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.af-chicago.org
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://afusa.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.afmilwaukee.org/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.alliancestl.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.afmsp.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.americaabroadmedia.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.american.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.arcenreve.eu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.archivesdelacritiquedart.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ardian.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.artconnexion.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://artexplora.org/en/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.artic.edu/about-us
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.artcena.fr/contxto
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.arte.tv/fr/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://artmedeo.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://anrt-nancy.fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ateliersmedicis.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.atlanticcouncil.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://aucartcollective.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://music.utexas.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://austincomingtogether.org/about-us/mission-vision-and-values/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://awarewomenartists.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ballet-de-marseille.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.barberousse-films.com/a-propos
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://dance.bard.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.batylab.bzh/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.beauxartsparis.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.betonsalon.net
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bibliothequedesameriques.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bnf.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bpi.fr/en/home/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bleu-danube.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.blink-lab.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://usa.bnpparibas/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.boa.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.boa.fr/le-monde
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.boa.fr/denver-international-airport?pgid=jyk4d9il-a574bf44-2f9b-453d-8a4b-775675fc98a9
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.boa.fr/projects
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bief.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.businessfrance.fr/en/home
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://bywater.tulane.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://calhum.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://camargofoundation.org/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.capitalpride.org/about/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cartier.com/en-us/home?adlgid=c|o|cartier||e&amp;&amp;&amp;&amp;&amp;gclid=19e0db73bade16d6b3d5bf30b08a1e61&amp;gclsrc=3p.ds&amp;msclkid=19e0db73bade16d6b3d5bf30b08a1e61&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=N_CARUS-US-EN-NEW-BRAND_ALONE_RLSA_EXACT-CONV-FY21-CORP-CORP-SN-AUC-CO-LXA-BG-BR&amp;utm_term=cartier&amp;utm_content=Brand_Alone
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ballet-de-marseille.com/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.osu.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.104.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://jamescarles.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://ccncn.eu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://crem.univ-lorraine.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cnc.fr/web/en/about
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://cnm.fr/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cnap.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cnc.fr/web/en
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://centrenationaldulivre.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.centrepompidou.fr/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.crma-auvergnerhonealpes.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.chanel.com/us/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://chateaudechantilly.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.chateauephemere.org
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://chicagoarchitecturebiennial.org/about/our_work
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.chicagoparkdistrict.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://chrono-environnement.univ-fcomte.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://chrysler.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://boutique.canalplus.com/experience-canal-plus/chaines/cine-plus-classic/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.meliesfilms.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cite-espace.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.citedelarchitecture.fr/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://philharmoniedeparis.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://english.citebd.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.oaklandca.gov/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://claycorp.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cma-bretagne.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://colore.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://maisonfrancaise.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -19598,168 +19598,168 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://quebec.consulfrance.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://afusa.org/about-the-alliance-francaise/about-the-federation/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://frenchculture.org
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.dancereflections-vancleefarpels.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.dargaud.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://french.uic.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://french.indiana.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.dezeen.com%2F&amp;data=05%7C01%7Cmamadou.diakite%40frenchculture.org%7C0f64ce53cabc44f7c98808db50e005fa%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C638192695332232745%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=TrM4gcg00K%2FkviCLijTLgTXwoG6hPOEqr%2F%2FIB6soP%2F4%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.diptyqueparis.com/en_us/?msclkid=cd9c739ad1a81ca9680317d9df184315&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Bing%20-%20Brand%20-%20Trademark%20(ex)&amp;utm_term=diptyque%20paris&amp;utm_content=Trademark
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.dusablemuseum.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://ecole-boulle.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ecolecamondo.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://ecoles-conde.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ensad.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ehess.fr/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://paris-malaquais.archi.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ensba-lyon.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.editionsdelolivier.fr/pages/maison
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.gallimard.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.editions-stock.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://franceintheus.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://fondation-engie.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.espace-1789.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.espacemultimediagantner.cg90.net/fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -19773,77 +19773,77 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://europe.illinois.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.experimentalstation.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.expochicago.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://face-foundation.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://sesameautisme.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cinemadureel.org/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://festival-aix.com/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.premiersplans.org/index_en.php
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.filmlinc.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://filmfestdc.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.films-de-force-majeure.com
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -19857,77 +19857,77 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.luma.org/arles
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://franco-american-cultural-fund.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.fordfoundation.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.forumdesimages.fr/english-contents/forum-des-images
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://fcc.uchicago.edu/about-fcc/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.franco-american-cultural-fund.com/#projets
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.sacem.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.dga.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.motionpictures.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.wga.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.facs-sf.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -19941,189 +19941,189 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://rll.wustl.edu/french
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://frenchhighereducation.org/grants-and-programs/5899-centers-excellence
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://fiaf.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://frenchlibrary.org/alliance-francaise-boston
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.galeriecaroledecombe.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://galeriegaillard.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.galeriekugel.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.galeriepolaris.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://galeriesultana.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.talmart.com
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.gsu.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://gmem.org/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://grayarea.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://greatcities.uic.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.growannenberg.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.frankenthalerfoundation.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.hiphopeducation.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.indiecade.com/about/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://infine-music.com/news/infine-15-ans/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.imarabe.org/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.institutfrancais.com/en
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.inha.fr/fr/index.html
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ina.fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ircam.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.libraries.rutgers.edu/newark/visit-study/institute-jazz-studies
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.hullhousemuseum.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.jcdecauxna.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -20137,357 +20137,357 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.june-films.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://kadist.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.kaimeraproductions.com/spaces-oakland
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.kaimeraproductions.com/spaces-st-denis
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.kaimeraproductions.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.londe.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lafermedebelebat.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lafilature.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://alamuse.com/presentation-du-centre-national-de-creation-musicale/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://laplace-paris.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://lapop.fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.pridedesbanlieues.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.theatredelaquarium.net
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://lavolte.net/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://latts.fr/le-laboratoire/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.laduree.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lafayetteanticipations.com/fr/un-lieu-de-production
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://theljc.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://le19crac.com
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.pavillon-arsenal.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.periscope-lyon.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lesabattoirs.org/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lesfilmsdici.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://leslaboratoires.org/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lieuxpublics.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.fondation-louisroederer.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.leh.org
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://lucidrealities.studio/index.php/en/lucid-realities-2/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.magnetotv.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mc93.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://maisondeladanse.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mamannyc.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.mobiliernational.culture.gouv.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://marianeibrahim.com/fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.matrice.io/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.metmuseum.org
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mciny.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.culture.gouv.fr/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://mohistory.org/society
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://opendoclab.mit.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.montevideo-marseille.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.mrmaqs.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.museeairespace.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://madparis.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.musee-gassendi.org/en/home/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://ifan.ucad.sn/musees-musee-theodore-monod/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.orleans-metropole.fr/decouvrir-sortir/musees-expositions
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://musee-memorial-terrorisme.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.fitnyc.edu/museum/index.php
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mocp.org/about/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.nbm.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -20515,336 +20515,336 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.nga.gov/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nolajazzmuseum.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.nybooks.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lanuitdesidees.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nbkparks.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.transportation.northwestern.edu/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.notrecafe.paris/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.nouvelles-ecritures.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.odeys.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.pacte-grenoble.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.aquarium-tropical.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.histoire-immigration.fr/en
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.palaisdetokyo.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.palaisgalliera.paris.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://weareparadise.city
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://paradisomedia.io/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.quebec.ca/en/gouvernement/ministere/relations-internationales/representations-etranger/delegation-generale-quebec-new-york
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.radiofrance.fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.reiffersartinitiatives.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://musees-rouen-normandie.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.revesdeau.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://rfi.fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.rice.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.sacem.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.sllis.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://sffilm.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://sarrcollection.com/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://sarrcollection.com/about-the-sarr-prize
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.sciencespo.fr/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://chroniques.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://francecanadaculture.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.siana.eu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.sling.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.snap.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.scelf.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffondation.societegenerale.com%2Fen&amp;data=05%7C02%7CShubhangi.shukla%40villa-albertine.org%7C2e7e2080909a4cd8b40f08de2844280c%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C638992470348660563%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=59rD4RZmRYKPBfyy3ZE1ltwNsILWsodo4TNnU6UTAtE%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.sacd.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.sorbonne-universite.fr/en
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.spur.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://studiogang.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://polesynthese.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://mellon.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.axa.com%2Faxa-foundation&amp;data=05%7C02%7Canne.bourgois%40villa-albertine.org%7Caa2278bfb48c453d716308de2c0ce757%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C638996631201421598%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=WHSEp57IXOvQnanpuluDXglPOTXP5zK7mvxuSdkYnLY%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.curatorialleadership.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.thecowlescenter.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.eeas.europa.eu/delegations/united-states-america_en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.wisc.edu/wisconsin-idea/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -20872,105 +20872,105 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.comitedesgaleriesdart.com/actualites/projet-de-loi-de-finances-pour-2026/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://09227776-4c3f-45f5-9037-85b84a0e59af.filesusr.com/ugd/f31f46_2dd95476cbdd4bcfbe4495556b36a460.pdf
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://09227776-4c3f-45f5-9037-85b84a0e59af.filesusr.com/ugd/f31f46_8151ab52dbe040a6af559dc574be57d3.pdf
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.slam.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.wgfoundation.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.theatredelaville-paris.com/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.theatredunord.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://theatrelouisaragon.fr/accueil-1524.html
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://tnba.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.t-n-b.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.tivi5mondeusa.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.toporevue.fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.trianglefrance.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://tropiques-atrium.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.tv5mondeplus.com%2Fen&amp;data=05%7C01%7Cpablo.alech%40frenchculture.org%7Cf1a567f6c5d94f71ccbc08da5ff165a3%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C637927788123719562%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C2000%7C%7C%7C&amp;sdata=xRysA6Qu5qCWw2iglysBBES%2B1X6%2BH6uCKwtor7HX%2FhA%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -20984,847 +20984,847 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://bampfa.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.unsingeenhiver.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://en.unifrance.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.univ-fcomte.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.unistra.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.univ-gustave-eiffel.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.abdn.ac.uk/geosciences/departments/archaeology/archaeological-field-school-in-quinhagak-alaska-281.php#:~:text=Nunalleq%20is%20the%20name%20of,the%20village%20corporation%20Qanirtuuq%2C%20Inc.
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.abdn.ac.uk/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://cccc.uchicago.edu/about/about-cccc
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://rtf.utexas.edu/faculty/kathryn-fuller-seeley
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.vancleefarpels.com/us/en/home.html
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.villagillet.net/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.villakujoyama.jp/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ville-cesson-sevigne.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mairie-die.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.strasbourg.eu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.wanteddesignnyc.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://washingtonsqpark.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://wustl.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.wmf.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.13desserts.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.3bisf.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.911memorial.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.operadeparis.fr/en/academy
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.audeladucuir.com
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.adamatl.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.afrocharities.org
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.afsf.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://arabamericanmuseum.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.arcal-lyrique.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.arte.tv/fr/videos/RC-014037/tracks/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://artenda.net/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.autresmesures.com
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.aveniradieux.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.banquepopulaire.fr/bpaura/votre-banque/nos-engagements/fondation-banque-populaire/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bbc.com/news
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.spirit-prod.com/en/productions/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://bluetinproduction.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bostonbirdingfestival.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://camd.northeastern.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cameralucida.fr/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ccn-orleans.com/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.cdnoi.re
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.fondation-chambrun.org/ouverture/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://en.chateauversailles.fr/discover/estate/palace
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://fr.wikipedia.org/wiki/Chi-Fou-Mi_Productions
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.chicagofilmfestival.com/about/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cnrs.fr/en/the-cnrs
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://collegium-musicae.sorbonne-universite.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://music.columbia.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mzv.cz/chicago/en/index.html
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.cread-bretagne.fr/en/presentation/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.danae.io/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://seinesaintdenis.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.culture.gouv.fr/regions/dac-de-la-reunion
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.dclibrary.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://djerassi.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://docomomo-us.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://driehausmuseum.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.dulacdistribution.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.dupuis.com
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.eamesoffice.com/visit-learn/eames-house/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.paris-est.archi.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.denoel.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://editions-globe.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://editionsgouttedor.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://wildproject.org/
   type: network_page
-  seen_count: 6
+  seen_count: 9
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.edouardglissantartfund.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.eesab.fr/eesab/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.eldaproductions.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.elliottbarnesinteriors.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.engie-na.com%2F&amp;data=05%7C02%7CShubhangi.shukla%40villa-albertine.org%7C148f0d14b1d34b37d88208dd97ab3fae%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C638833484025729933%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=RTbN1JhPmulzxyXDI2tCSiQMTJG088ImaBdrkkvXA%2Bw%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.paris-belleville.archi.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ensadlab.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ensci.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://villa-rabelais.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://filmsgrandhuit.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://fisheyeimmersive.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.fondationcultureetdiversite.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.fondationdestreilles.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://formaemagazine.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.fracreunion.fr/programmation
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://framemuseums.org/history/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.france-terre-asile.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://framemuseums.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.galateafineart.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.bernardchauveau.com/fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.siskelfilmcenter.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.goethe.de/ins/us/en/index.html
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.baltimorecityschools.org/page/farm-school
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.groundcontrolparis.com/\
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.hanapietri.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://esadmm.fr/accueil-2023/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://ihrim.ens-lyon.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://huminst.uic.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://chicago.cervantes.es/en/default.shtm
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.art.org/history-and-mission/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://iicchicago.esteri.it/iic_chicago/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://krieger.jhu.edu/film-media/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://avant-galerie.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.asiatheque.com/fr/les-editions/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.comediedecaen.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.lacontemporaine.fr/#
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://la-fab.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: http://www.lafermedubuisson.com
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://editions-ultra.org/la-gare/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lapasserelle.info/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.le6b.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://cnlb.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lecubegarges.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lefresnoy.net/en/school/search/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://leportdescreateurs.net/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lezef.org/fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.lespressesdureel.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.rencontres-arles.com/frhttps://www.rencontres-arles.com/fr
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.musee-lam.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.macval.fr/English
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.maz-photographie.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.maisondesmondesafricains.org/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mep-fr.org/en/homepage/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://manifesto.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -21845,322 +21845,322 @@ candidates:
     timestamp: '2026-05-22T16:03:14'
 - url: https://massart.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://web.mit.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mc2grenoble.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.media.mit.edu/groups/fluid-interfaces/overview/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://mk2films.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.moma.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.museedelatoiledejouy.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.mnhn.fr/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.histoire-immigration.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.musicintheparkatl.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.nathalieobadia.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.ovni-festival.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.operadeparis.fr/en/legal
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://orpheefilms.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.maison-objet.com/en/paris-design-week
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.univ-paris8.fr/
   type: network_page
-  seen_count: 4
+  seen_count: 6
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://pioneerworks.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.plateformeparallele.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.presquelune.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.quebec.ca%2Fen%2Fgouvernement%2Fministere%2Frelations-internationales%2Frepresentations-etranger%2Fdelegation-quebec-houston&amp;data=05%7C02%7CShubhangi.shukla%40villa-albertine.org%7C148f0d14b1d34b37d88208dd97ab3fae%7C2d6ab33a15c04d1eb0363b23ceb26830%7C0%7C0%7C638833484025917438%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=w59U399rnDy2AhRxVyuyqbPbrpN6CfMRkTbpDjpl32M%3D&amp;reserved=0
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://refikanadolstudio.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.rstyle.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://simvanderryn.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.societegenerale.com/en
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://specialtouchstudios.com/en/home/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.templon.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://texanfrenchalliance.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://aaads.berkeley.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://arch.iit.edu/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://dia.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://dvan.org/calendar/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.harristheaterchicago.org/our-space
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://thesteidz.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.london.ac.uk/institute-paris
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.theatre-corbeil-essonnes.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.theatrejoliette.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.theatrelouisaragon.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://toddmerrillstudio.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://www.urban-comics.com/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://fondsdedotationverrecchia.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://accn.fr/ccn/viadanse-centre-choregraphique-national-de-belfort/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://videoformes.com/en/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://waao.fr/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://walkerart.org/about/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://en.wikipedia.org/wiki/Ohio_State_University
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-05-22T16:03:14'
 - url: https://wexarts.org/
   type: network_page
-  seen_count: 2
+  seen_count: 3
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -22687,42 +22687,42 @@ candidates:
   suggested_action: follow_one_time
 - url: https://www.linz.at/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: ars-electronica-biology-centre-cas-ecoc2028-53361e2c
     page_reseau: https://ars.electronica.art/about/partners
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.bmwkms.gv.at/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: ars-electronica-biology-centre-cas-ecoc2028-53361e2c
     page_reseau: https://ars.electronica.art/about/partners
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.land-oberoesterreich.gv.at/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: ars-electronica-biology-centre-cas-ecoc2028-53361e2c
     page_reseau: https://ars.electronica.art/about/partners
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.linzag.at/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: ars-electronica-biology-centre-cas-ecoc2028-53361e2c
     page_reseau: https://ars.electronica.art/about/partners
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.drei.at/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: ars-electronica-biology-centre-cas-ecoc2028-53361e2c
     page_reseau: https://ars.electronica.art/about/partners
     timestamp: '2026-08-02T09:44:18'
 - url: https://photos.ars.electronica.art/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: ars-electronica-biology-centre-cas-ecoc2028-53361e2c
     page_reseau: https://ars.electronica.art/about/partners
@@ -22757,7 +22757,7 @@ candidates:
     timestamp: '2026-08-02T09:44:18'
 - url: https://4h7pu.r.a.d.sendibm1.com/mk/mr/sh/1t6AVsd2XFnIGBrq5ZlFRZxFjvIrFS/CfgVKWjU3Sbr
   type: network_page
-  seen_count: 4
+  seen_count: 9
   found_from:
     organisme_uid: centre-national-des-arts-plastiques-cbca1064
     page_reseau: https://www.cnap.fr/liens
@@ -22813,266 +22813,266 @@ candidates:
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.prefectures-regions.gouv.fr/occitanie/Region-et-institutions/Organi…
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: mo-co-esba-e992d87f
     page_reseau: https://www.moco.art/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.laregion.fr/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: mo-co-esba-e992d87f
     page_reseau: https://www.moco.art/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.montpellier3m.fr/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: mo-co-esba-e992d87f
     page_reseau: https://www.moco.art/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.montpellier.fr/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: mo-co-esba-e992d87f
     page_reseau: https://www.moco.art/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: https://new.pollen-monflanquin.com/wp-content/et-cache/6974/et-core-unified-deferred-6974.min.css?ver=1785422164
   type: network_page
-  seen_count: 14
+  seen_count: 28
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-08-02T09:44:18'
 - url: https://new.pollen-monflanquin.com/wp-content/uploads/2026/07/Appel-a-candidature-2023-corrige.pdf
   type: network_page
-  seen_count: 14
+  seen_count: 28
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-08-02T09:44:18'
 - url: https://new.pollen-monflanquin.com/wp-content/uploads/2026/07/Traduction-Appel-a-candidature-2023.pdf
   type: network_page
-  seen_count: 14
+  seen_count: 28
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.culture.gouv.fr/regions/drac-nouvelle-aquitaine
   type: network_page
-  seen_count: 14
+  seen_count: 28
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.lotetgaronne.fr/accueil
   type: network_page
-  seen_count: 14
+  seen_count: 28
   found_from:
     organisme_uid: pollen-732c1e6c
     page_reseau: https://www.pollen-monflanquin.com/reseau
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/support/
   type: network_page
-  seen_count: 3
+  seen_count: 6
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/your-visit/the-hepworth-cafe/
   type: network_page
-  seen_count: 2
+  seen_count: 4
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/your-visit/visiting-with-a-family/
   type: network_page
-  seen_count: 2
+  seen_count: 4
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/hire/
   type: network_page
-  seen_count: 2
+  seen_count: 4
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/membership/
   type: network_page
-  seen_count: 5
+  seen_count: 10
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/your-visit/for-schools-colleges-and-universities/
   type: network_page
-  seen_count: 2
+  seen_count: 4
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/account
   type: network_page
-  seen_count: 2
+  seen_count: 4
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/basket
   type: network_page
-  seen_count: 2
+  seen_count: 4
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/whats-on/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/your-visit/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/events/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/our-story/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/our-art-artists/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/whats-on/the-hepworth-wakefield-garden/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://shop.hepworthwakefield.org/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/support/make-a-donation/
   type: network_page
-  seen_count: 3
+  seen_count: 6
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/support/legacy/
   type: network_page
-  seen_count: 3
+  seen_count: 6
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/membership/corporate/
   type: network_page
-  seen_count: 3
+  seen_count: 6
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/our-story/garden/
   type: network_page
-  seen_count: 3
+  seen_count: 6
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/our-story/about-us/35729-2/
   type: network_page
-  seen_count: 3
+  seen_count: 6
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/contact-us/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/your-visit/access/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/cookie-policy/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/news/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/our-story/job-vacancies/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/join-our-mailing-list/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/press/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: https://hepworthwakefield.org/our-story/our-sustainability-story/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
@@ -23107,28 +23107,28 @@ candidates:
     timestamp: '2026-08-02T09:44:18'
 - url: https://substrakt.com
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: the-hepworth-wakefield-817299ed
     page_reseau: https://www.hepworthwakefield.org/support
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.parvis.net/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: http://tierslieuxenbigorre.org
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.ville-bagneresdebigorre.fr/activites-culturelles
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
@@ -23142,49 +23142,49 @@ candidates:
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.cjml.fr/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: https://gem-bagneres.blog4ever.com/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.haut-adour-generations.com/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.photo-cine-club-bagnerais.fr/
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.villa-bonvouloir.com/index.php?Vo=2
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: traverse-93a4038b
     page_reseau: https://traversiens.com/partenaires
     timestamp: '2026-08-02T09:44:18'
 - url: http://www.adagp.fr/en
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-08-02T09:44:18'
 - url: https://www.fondationcartier.com/en
   type: network_page
-  seen_count: 1
+  seen_count: 2
   found_from:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
@@ -23196,5 +23196,54 @@ candidates:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-08-02T09:44:18'
+- url: http://www.sculpteurs.org
+  type: institutional_directory
+  seen_count: 1
+  found_from:
+    annuaire: CNAP — annuaire des lieux (centres d'art, FRAC, écoles, assos)
+    annuaire_url: https://www.cnap.fr/annuaire/
+    timestamp: '2026-08-02T17:29:13+00:00'
+- url: https://www.jonathancollinet.com/sites/ufisc/l-union/manifeste/
+  type: institutional_directory
+  seen_count: 1
+  found_from:
+    annuaire: UFISC — nos membres (lieux intermédiaires, fabriques)
+    annuaire_url: https://www.ufisc.org/l-union/membres/
+    timestamp: '2026-08-02T17:29:13+00:00'
+- url: 'http://tv5mondeusa.com/ '
+  type: network_page
+  seen_count: 1
+  found_from:
+    organisme_uid: villa-albertine-2a81d903
+    page_reseau: https://villa-albertine.org/about/partners
+    timestamp: '2026-08-02T19:29:34'
+- url: https://fonts.gstatic.com
+  type: network_hub
+  seen_count: 1
+  found_from:
+    hub: Res Artis — Listings (annuaire des ~700 membres résidences)
+    hub_url: https://resartis.org/listings/
+    timestamp: '2026-08-02T19:29:34'
+- url: https://wordpress.org/
+  type: network_hub
+  seen_count: 1
+  found_from:
+    hub: Res Artis — Listings (annuaire des ~700 membres résidences)
+    hub_url: https://resartis.org/listings/
+    timestamp: '2026-08-02T19:29:34'
+- url: https://pixelgrade.com/themes/listable
+  type: network_hub
+  seen_count: 1
+  found_from:
+    hub: Res Artis — Listings (annuaire des ~700 membres résidences)
+    hub_url: https://resartis.org/listings/
+    timestamp: '2026-08-02T19:29:34'
+- url: https://cookiedatabase.org/tcf/purposes/
+  type: network_hub
+  seen_count: 1
+  found_from:
+    hub: Res Artis — Listings (annuaire des ~700 membres résidences)
+    hub_url: https://resartis.org/listings/
+    timestamp: '2026-08-02T19:29:34'
 last_updated: '2026-08-02T09:44:15'
 total_candidates: 1077

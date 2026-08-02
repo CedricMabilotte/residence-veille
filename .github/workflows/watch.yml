@@ -122,7 +122,7 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python scripts/discovery_audit.py || echo "  audit skipped"
 
-      - name: "Discovery hebdomadaire (Mastodon, network_pages)"
+      - name: "Discovery hebdomadaire (Mastodon, network_pages, annuaires institutionnels)"
         # 2026-08-02 : ce step tournait tous les jours alors que INSTRUCTION-DEMARRAGE.md
         # §12.1 documente une cadence Hebdo pour discovery_mastodon.py (network_pages n'a
         # pas de cadence documentée, rattaché ici par cohérence). L'input do_discovery_weekly
@@ -133,8 +133,9 @@ jobs:
         # *nouvelles* sources candidates passe à l'hebdomadaire.
         if: ${{ steps.params.outputs.dry_run != 'true' && steps.params.outputs.do_weekly == 'true' }}
         run: |
-          python scripts/discovery_mastodon.py       || echo "  mastodon skipped"
-          python scripts/discovery_network_pages.py  || echo "  network_pages skipped"
+          python scripts/discovery_mastodon.py                    || echo "  mastodon skipped"
+          python scripts/discovery_network_pages.py               || echo "  network_pages skipped"
+          python scripts/discovery_institutional_directories.py   || echo "  institutional_directories skipped"
 
       - name: "Discovery mensuelle (LLM suggest, blind spots)"
         # Nom corrigé le 2026-08-02 : ce step ne tournait déjà que mensuellement

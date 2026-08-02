@@ -5,6 +5,15 @@ discovery_network_pages.py — Crawl des pages "Réseau / Liens / Partenaires" (
 Pour chaque domaine d'organisme connu, on teste l'existence de pages
 qui listent leurs pairs. Si trouvée, on extrait les domaines liés et on les
 ajoute à discovery/candidates.yml.
+
+Étendu le 2026-08-02 (recherche "petits réseaux") : en plus de partir des
+organismes déjà validés dans organismes/*.yml, le script part aussi d'une
+liste fixe de HUBS — des pages d'agrégateurs/fédérations qui listent PAR
+NATURE des dizaines de petites structures (annuaire de membres), vérifiées
+accessibles en session. Complémentaire de discovery_institutional_directories.py
+(qui lit sa liste depuis discovery/annuaires.yml, éditable) : ici la liste est
+courte et stable, codée en dur volontairement (les hubs des gros agrégateurs
+changent rarement).
 """
 
 from __future__ import annotations
@@ -35,6 +44,57 @@ TIMEOUT = 15
 DELAY = 1.0
 
 LINK_RE = re.compile(r'href="(https?://[^"]+)"', re.IGNORECASE)
+
+# Bruit générique (boutons de partage, réseaux sociaux) — aligné avec
+# discovery_institutional_directories.py suite au test réel du 2026-08-02
+# (page UFISC : lien api.whatsapp.com/send capté à tort comme "organisme").
+DOMAINES_BRUIT = {
+    "facebook.com", "www.facebook.com",
+    "twitter.com", "x.com",
+    "instagram.com", "www.instagram.com",
+    "linkedin.com", "www.linkedin.com",
+    "youtube.com", "www.youtube.com",
+    "mastodon.social",
+    "google.com", "www.google.com",
+    "goo.gl", "bit.ly",
+    "api.whatsapp.com", "web.whatsapp.com", "wa.me",
+    "t.me", "telegram.me",
+    "pinterest.com", "www.pinterest.com",
+    "reddit.com", "www.reddit.com",
+    "tiktok.com", "www.tiktok.com",
+    # Bruit CMS/thème (WordPress et cie) — trouvé en test réel sur Res Artis
+    # /listings/, qui s'est avéré rendu en JS (résultats = credits de thème,
+    # pas de membres réels). Filtré ici en attendant un fetch Playwright.
+    "gmpg.org", "wordpress.org", "wp.com",
+    "fonts.gstatic.com", "gstatic.com",
+    "pixelgrade.com", "cookiedatabase.org",
+    "jetpack.com", "gravatar.com", "automattic.com",
+}
+
+# Hubs vérifiés accessibles par recherche web le 2026-08-02 — ce sont déjà des
+# pages d'annuaire de membres (pas besoin de tester des suffixes comme
+# try_network_pages ci-dessous, l'URL est directement la bonne page).
+#
+# LIMITE CONSTATÉE EN TEST RÉEL (2026-08-02, fetch requests direct) : les deux
+# hubs ci-dessous renvoient 0 lien membre exploitable en HTML statique — Res
+# Artis /listings/ est rendu en JS (résultat = credits de thème WordPress),
+# d.c.a /membres liste probablement les centres sans lien externe direct sur
+# cette page agrégée (à vérifier page par page). Le mécanisme est correct et
+# testé (cf. try_hub_links), mais ces deux entrées ont un rendement nul tant
+# qu'elles ne sont pas migrées vers un fetch Playwright (comme e-flux dans
+# sources.yml) — laissées en l'état comme point ouvert plutôt que masquées.
+HUBS = [
+    {
+        "label": "Res Artis — Listings (annuaire des ~700 membres résidences)",
+        "url": "https://resartis.org/listings/",
+        "domaine_exclu": {"resartis.org"},
+    },
+    {
+        "label": "d.c.a — membres (centres d'art contemporain, FR)",
+        "url": "https://dca-art.com/les-centres-d-art-contemporain/membres",
+        "domaine_exclu": {"dca-art.com", "www.dca-art.com"},
+    },
+]
 
 
 def _load_candidates() -> dict:
@@ -75,13 +135,34 @@ def try_network_pages(base_url: str) -> list[tuple[str, str]]:
             links = LINK_RE.findall(r.text)
             base_domain = urlparse(base_url).netloc
             for link in links:
-                link_domain = urlparse(link).netloc
-                if link_domain and link_domain != base_domain:
+                link_domain = urlparse(link).netloc.lower()
+                if link_domain and link_domain != base_domain and link_domain not in DOMAINES_BRUIT:
                     results.append((candidate_url, link))
         except Exception:
             continue
         time.sleep(DELAY)
     return results
+
+
+def try_hub_links(hub: dict) -> list[str]:
+    """Fetch direct d'une page hub (déjà une page d'annuaire), retourne les
+    domaines tiers distincts qu'elle référence."""
+    url = hub["url"]
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
+        if r.status_code != 200 or "text/html" not in r.headers.get("Content-Type", ""):
+            return []
+    except Exception:
+        return []
+
+    exclus = DOMAINES_BRUIT | set(hub.get("domaine_exclu") or set())
+    vus: dict[str, str] = {}
+    for link in LINK_RE.findall(r.text):
+        domain = urlparse(link).netloc.lower()
+        if not domain or domain in exclus:
+            continue
+        vus.setdefault(domain, link)
+    return list(vus.values())
 
 
 def main():
@@ -108,6 +189,24 @@ def main():
             }
             if merge_candidate(data, cand):
                 n_added += 1
+
+    for hub in HUBS:
+        links = try_hub_links(hub)
+        print(f"  hub {hub['label']} → {len(links)} domaine(s) tiers repéré(s)")
+        for found in links:
+            cand = {
+                "url": found,
+                "type": "network_hub",
+                "seen_count": 1,
+                "found_from": {
+                    "hub": hub["label"],
+                    "hub_url": hub["url"],
+                    "timestamp": now,
+                },
+            }
+            if merge_candidate(data, cand):
+                n_added += 1
+        time.sleep(DELAY)
 
     _save_candidates(data)
     print(f"discovery_network_pages : {n_added} nouvelles URLs ajoutées aux candidats.")

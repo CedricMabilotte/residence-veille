@@ -530,3 +530,68 @@ sources:
     type: deep_html
     max_pages: 20
     min_interval_days: 14
+
+  # ── K. DRAC régionales — aide individuelle à la création arts plastiques ──
+  # Ajout 2026-08-02, en réponse à la demande "chercher plus d'offres dans les
+  # petits réseaux artistiques". Complète la DRAC Nouvelle-Aquitaine (section H)
+  # avec 7 régions supplémentaires. URLs vérifiées accessibles par recherche web
+  # en session — PAS encore validées par `probe_source.py` (accès réseau direct,
+  # plus fiable). Chaque page est une campagne annuelle d'aide individuelle
+  # (AIC/AIA), pas un annuaire — dates limites généralement en février/mars,
+  # d'où `peak_months`. À revalider au prochain run automatisé.
+
+  - label: "DRAC Auvergne-Rhône-Alpes — arts plastiques (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/Regions/Drac-Auvergne-Rhone-Alpes/Demarches-aides/Demande-de-subvention/Aides-arts-plastiques"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]
+
+  - label: "DRAC Occitanie — arts plastiques (AIC/AIA)"
+    url: "https://culture.gouv.fr/Regions/Drac-Occitanie/Aides-et-demarches/Subventions/Aides-Arts-plastiques"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]
+
+  - label: "DRAC Île-de-France — arts plastiques (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/Regions/Drac-Ile-de-France/Aides-et-demarches/Arts-plastiques"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]
+
+  - label: "DRAC Hauts-de-France — arts plastiques (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/Regions/Drac-Hauts-de-France/Aides-et-demarches/Arts-plastiques"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]
+
+  - label: "DRAC Normandie — arts plastiques (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/regions/drac-normandie/aides-et-demarches/aides-et-demarches-pour-la-creation-artistique-et-le-developpement-des-publics/aides-concernant-le-secteur-des-arts-plastiques2"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]
+
+  - label: "DRAC Bretagne — arts visuels (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/Regions/Drac-Bretagne/Aides-et-demarches/Arts-plastiques-cinema-livre-et-lecture-spectacle-vivant/Arts-visuels"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]
+
+  - label: "DRAC Grand Est — arts visuels (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/regions/drac-grand-est/services/creation/arts-visuels"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]
+
+  - label: "DRAC PACA — aides aux artistes plasticiens (AIC/AIA)"
+    url: "https://www.culture.gouv.fr/regions/Drac-Provence-Alpes-Cote-d-Azur/aides-demarches/aides-financieres/aides-aux-artistes-plasticiens"
+    type: deep_html
+    max_pages: 10
+    min_interval_days: 21
+    peak_months: [1, 2, 3]

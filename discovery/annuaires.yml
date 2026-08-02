@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# annuaires.yml — Pages "annuaire" à crawler pour la découverte petits réseaux
+# ─────────────────────────────────────────────────────────────────────────────
+# Consommé par scripts/discovery_institutional_directories.py (§12.3/M de
+# INSTRUCTION-DEMARRAGE.md). Une "annuaire" ici = une page qui liste PAR NATURE
+# de nombreuses structures (organismes), pas une page d'appel individuel — le
+# script en extrait les liens sortants et les ajoute à discovery/candidates.yml.
+#
+# Fichier ÉDITABLE : ajouter une entrée suffit, aucun code à toucher. Chaque
+# entrée DOIT avoir été vérifiée accessible (recherche web ou probe manuel)
+# avant ajout — ne jamais deviner une URL d'annuaire (cf. leçon L5 :
+# lecons-Residences-artistiques.md, une page unique prise pour un flux vivant).
+#
+# Champ `domaine_exclu` (optionnel) : domaines à ignorer dans les liens
+# extraits, en plus de la liste globale de bruit (réseaux sociaux, etc.)
+# codée dans le script — utile quand l'annuaire lui-même a des liens de nav
+# répétitifs vers son propre domaine ou des partenaires institutionnels déjà
+# archi-connus (culture.gouv.fr, etc.) qu'on ne veut pas re-proposer.
+# ─────────────────────────────────────────────────────────────────────────────
+
+annuaires:
+
+  - label: "CNAP — annuaire des lieux (centres d'art, FRAC, écoles, assos)"
+    url: "https://www.cnap.fr/annuaire/"
+    note: >
+      Vérifié accessible par recherche web le 2026-08-02 (résultat de recherche
+      pointant vers une fiche individuelle, ex. andea, confirme l'existence du
+      système d'annuaire). Rendement attendu élevé — gisement direct
+      d'organismes déjà qualifiés par le CNAP lui-même.
+    domaine_exclu: ["cnap.fr"]
+
+  - label: "ANdEA — membres (44 écoles supérieures d'art)"
+    url: "https://andea.fr/en/andea/general-assembly/"
+    note: >
+      RENDEMENT NUL testé en session le 2026-08-02 : cette page ("General
+      Assembly") ne contient aucun lien externe en HTML statique (29 hrefs,
+      tous internes à andea.fr) — probablement une liste de noms sans lien
+      vers le site de chaque école. Laissée en l'état (le crawl échoue
+      silencieusement à 0 candidat, sans nuire) mais la vraie page annuaire
+      des écoles avec liens reste à trouver — point ouvert, ne pas deviner
+      une autre URL sans la vérifier (cf. leçon L5).
+    domaine_exclu: ["andea.fr"]
+
+  - label: "UFISC — nos membres (lieux intermédiaires, fabriques)"
+    url: "https://www.ufisc.org/l-union/membres/"
+    note: >
+      Vérifié accessible le 2026-08-02. Rendement incertain côté arts
+      plastiques stricto sensu (plusieurs réseaux membres sont centrés
+      musiques actuelles) — laisser le tri disciplinaire habituel
+      (detect_type.py, hard_filters) faire le travail plutôt que d'exclure
+      cette source a priori.
+    domaine_exclu: ["ufisc.org"]
