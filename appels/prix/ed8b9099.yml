@@ -2,7 +2,7 @@ uid: ed8b9099
 type: prix
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf
 fetched_at: '2026-05-21T11:08:03+00:00'
-score: 7
+score: 4
 status: indetermine
 opportunite:
   nom: OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH
@@ -95,20 +95,55 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: Aucune rémunération, bourse, per diem ou dotation monétaire mentionnée
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: non
-  justification: Pas de logement fourni. Laboratoire tenu aux installations Medialab
-    à Matadero Madrid
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: '''a workspace in which to develop each project'' et ''a workspace
-    in which to develop each project'' fourni pour chaque groupe de travail'
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: non
-  justification: Aucune mention de prise en charge des frais de voyage, production,
-    transport de matériel ou d'œuvres
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _meta:
   extracted_confidence: 0.55
   extracted_notes: 'Document incomplet, s''arrête en milieu de phrase. Date limite

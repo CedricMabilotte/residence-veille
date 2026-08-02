@@ -2,7 +2,7 @@ uid: 3e4357d9
 type: residence
 source_url: https://ocastroartvillage.com/creative-residency-at-o-castro-art-village/
 fetched_at: '2026-08-01T15:15:00+00:00'
-score: 6
+score: 4
 status: ouverte-continue
 opportunite:
   nom: Self-funded Creative Residency — O Castro Art Village
@@ -80,22 +80,69 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: Résidence autofinancée, aucune rémunération.
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: Dôme géodésique climatisé fourni (payant).
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: Studio partagé sur site.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: non
-  justification: Aucune prise en charge de frais — coût entièrement à la charge de
-    l'artiste.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: true
   signaux:
-  - territoire rural / paysan
+  - rural
+  - collectif
   - matériaux locaux
-  - dimension collective ou participative
   bonus_score: 1

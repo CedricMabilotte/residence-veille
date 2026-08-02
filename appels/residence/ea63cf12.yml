@@ -2,7 +2,7 @@ uid: ea63cf12
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/Bases%20convocatoria%20proyectos%20audiovisuales%20CINETECA.pdf
 fetched_at: '2026-05-20T11:06:21+00:00'
-score: 5
+score: 4
 status: indetermine
 opportunite:
   nom: IV CONVOCATORIA CONJUNTA ENTRE CINETECA Y EL CENTRO DE RESIDENCIAS ARTÍSTICAS
@@ -104,19 +104,64 @@ organismo_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: No hay mención explícita de remuneración, beca o dotación en el extracto
-    disponible
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: Las condiciones de alojamiento no se especifican en el documento
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: 'Se proporcionan espacios de producción: ''proporcionando espacios,
-    facilitando la producción, la investigación'''
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: No hay información sobre cobertura de viajes, producción o transporte
-    de obras
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

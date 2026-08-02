@@ -2,7 +2,7 @@ uid: 13cffca0
 type: prix
 source_url: https://www.fondationdesartistes.fr/wp-content/uploads/2026/03/Reglement-Interieur-de-la-commission-2026-1.pdf
 fetched_at: '2026-05-21T10:47:11+00:00'
-score: 8
+score: 4
 status: indetermine
 opportunite:
   nom: Aides à la production d'œuvres d'art - Commission mécénat de la Fondation des
@@ -90,21 +90,55 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: « aide financière » et « montant de l'aide à accorder » mentionnés
-    explicitement
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: partiel
-  justification: '« résidence » mentionnée (exemple : Moly-Sabata) mais conditions
-    de fourniture de logement non précisées'
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: « espace de production (atelier, studio, équipements) » et « attribution
-    d'un atelier » mentionnés
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: partiel
-  justification: « besoins en production (technique, matériel, résidence, locaux)
-    » financés mais étendue exacte non détaillée
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

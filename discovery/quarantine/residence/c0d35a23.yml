@@ -1,0 +1,129 @@
+uid: c0d35a23
+type: residence
+source_url: https://www.mataderomadrid.org/convocatorias/convocatoria-de-proyectos-de-investigacion-situada-2027
+fetched_at: '2026-08-02T09:27:30+00:00'
+score: 8
+status: ouverte
+opportunite:
+  nom: Convocatoria de proyectos de Investigación Situada 2027
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territoire: Madrid
+  nom_fr: Appel à projets d'Investigations Situées 2027
+  affichage_titre: Convocatoria de proyectos de Investigación Situada 2027 [Appel à projets d'Investigations Situées 2027]
+candidature:
+  date_limite: '2026-09-27'
+  date_limite_precision: day
+  langue_dossier:
+  - es
+  - en
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - diseño
+  - arte
+  - arquitectura
+  - urbanismo
+  - economía
+  - cine
+  - fotografía
+  - periodismo
+  - medios digitales
+  - ciencias medioambientales
+  - filosofía
+  - ingeniería
+  - estudios sociales
+  - ciencias políticas
+  - programación
+  - ciencias de materiales
+  - activismo
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: enero a julio de 2027
+  hebergement: false
+  atelier: 'Acceso a la infraestructura del Medialab Matadero: Fablab, materiales técnicos y espacio de trabajo individual.'
+  remuneration:
+    montant: 10000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: 'Producción de conocimientos públicos a través de actividades abiertas al público (seminarios, talleres, conversatorios),
+    publicaciones y materiales documentales en formato de: manuales o instrucciones, formatos documentales (informe, reportaje,
+    ensayo, documental audio o audiovisual), o documentación artística como proceso de aprendizaje colectivo.'
+partenaires:
+- Medialab Matadero
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: Información extraída del texto de la convocatoria. El documento original parece truncado al final (última
+    pregunta incompleta). Detalles adicionales pueden encontrarse en las bases legales completas no incluidas en este extracto.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T09:27:30+00:00'
+  source_lang: es
+  resume_fr: Medialab Matadero lance la cinquième édition de son programme de résidences d'Investigations Situées. L'appel
+    sélectionnera 3 projets de recherche et création explorant les relations entre art contemporain, design, science, technologie
+    et société. Les inscriptions sont ouvertes jusqu'au 27 septembre à 23:59h, et les résidences se dérouleront entre janvier
+    et juillet 2027 avec une dotation de 10.000 € (hors impôts). Les projets doivent s'inscrire dans les thématiques des programmes
+    précédents du Medialab et contribuer aux Objectifs de Développement Durable.
+  detection_confidence: 0.9375
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
+analyse:
+  synthese: 'Medialab Matadero lance la cinquième édition de son programme de résidences de recherche située pour 2027. Le
+    programme sélectionnera 3 projets explorant l''intersection entre art contemporain, design, science, technologie et société,
+    dotés de 10 000 € chacun (hors impôts). Les résidents disposent de l''infrastructure du Medialab Matadero incluant Fablab
+    et espace de travail individuel. La résidence s''étend de janvier à juillet 2027 et exige une restitution publique significative
+    : activités ouvertes (séminaires, ateliers), publications et documentations. Les candidatures sont acceptées jusqu''au
+    27 septembre 2026 en espagnol ou anglais.'
+  pour_qui: Artistes, designers, architectes, urbanistes, scientifiques, ingénieurs, journalistes, programmeurs et professionnels
+    d'autres domaines afins meneurs de recherche transdisciplinaire innovante et collaborative, tous niveaux de carrière confondus
+    (profils émergents et confirmés).
+a_savoir:
+- Résidence de 7 mois en régime de présence obligatoire, avec recommandation d'une présence importante entre mars et juin.
+- 'Restitution publique significative : activités publiques obligatoires (séminaires, ateliers, conversatorios) et production
+  de matériaux documentaux requis.'
+- Pas d'hébergement mentionné dans la convocatoire.
+- 'Les propositions doivent se connecter explicitement avec un ou plusieurs des thèmes spécifiques de Medialab : Medios Sintientes,
+  El Sublime Metabólico, Mentes Sintéticas, Futuros Raros, La Mecánica de la Verdad.'
+organisme_details:
+  site_web: https://www.mataderomadrid.org
+  adresse: null
+  ville: Madrid
+  contact_email: info.m@medialab-matadero.es
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Dotation économique de 10 000 € (impôts à part) versée à chaque projet résidant.
+- id: hebergement
+  rempli: non
+  justification: Aucune mention d'hébergement fourni dans les informations disponibles de la convocatoire.
+- id: atelier
+  rempli: oui
+  justification: 'Accès à l''infrastructure matérielle de Medialab Matadero : accès au Fablab, matériaux techniques et espace
+    de travail individuel pour chaque résident.'
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Medialab fournit appui logistique et économique pour les activités publiques programmées, mais le voyage
+    des résidents n'est pas mentionné comme pris en charge.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

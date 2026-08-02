@@ -2,7 +2,7 @@ uid: 64ec9c9e
 type: prix
 source_url: https://p-a-c.fr/ressources/opportunites/prix-murlot
 fetched_at: '2026-08-01T18:00:00+00:00'
-score: 5
+score: 4
 status: ouverte
 opportunite:
   nom: Prix Mourlot 2026 (15e édition) — peinture
@@ -78,19 +78,57 @@ organisme_details:
   contact_email: assomourlot@gmail.com
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: 1er prix 3000€ + exposition personnelle 2027 ; 600€ pour les 4 autres
-    artistes sélectionné·es.
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: non
-  justification: Pas de résidence associée, uniquement exposition collective.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: non
-  justification: Non applicable.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: non
-  justification: Transport de l'œuvre à la charge de l'artiste pour la semaine d'accrochage.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - collectif
   bonus_score: 0

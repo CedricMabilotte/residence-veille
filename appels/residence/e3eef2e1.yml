@@ -2,7 +2,7 @@ uid: e3eef2e1
 type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_def.pdf
 fetched_at: '2026-05-21T11:09:08+00:00'
-score: 9
+score: 4
 status: indetermine
 opportunite:
   nom: BASES REGULADORAS DE LA CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE
@@ -95,20 +95,64 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Mention de 'recursos económicos' mais sans précision de montant,
-    nature (bourse, per diem, allocation) ou conditions de versement aux résidents.
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: Référence implicite via 'los residentes convivirán con otros artistas'
-    mais l'hébergement n'est pas explicitement énoncé comme fourni par l'organisme.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: '''proporcionando espacios, facilitando la producción'' dans les
-    locaux du Centro de residencias artísticas.'
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: non
-  justification: Aucune mention de prise en charge du voyage, transport d'œuvres ou
-    matériel.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux:

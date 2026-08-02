@@ -2,7 +2,7 @@ uid: 82ac6b64
 type: residence
 source_url: https://tada-residency.ch/en/residence
 fetched_at: '2026-08-01T18:00:00+00:00'
-score: 7
+score: 4
 status: bientot-fermee
 opportunite:
   nom: TaDA Residency 2027
@@ -81,21 +81,68 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: partiel
-  justification: Contribution aux frais de vie mentionnée mais montant non précisé
-    dans les sources consultées.
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: Chambre privée fournie dans l'ancienne usine Saurer.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: Atelier fourni, accès à des équipements/savoir-faire textiles industriels.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: oui
-  justification: Voyage pris en charge (détail du plafond non précisé).
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: true
   signaux:
   - textile
-  - matériaux/savoir-faire locaux
+  - matériaux locaux
   bonus_score: 1

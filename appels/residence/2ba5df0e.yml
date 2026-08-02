@@ -1,12 +1,12 @@
 uid: 2ba5df0e
 type: residence
 source_url: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
-fetched_at: '2026-08-02T08:28:39+00:00'
-score: 8
+fetched_at: '2026-08-02T18:08:27+00:00'
+score: 4
 status: ouverte
 opportunite:
   nom: 'Résidence d''artiste 2027 : Photographie - Traverse'
-  organisme: Traverse
+  organisme: Centre national des arts plastiques (CNAP)
   lieu:
     ville: Bagnères-de-Bigorre
     pays: France
@@ -14,22 +14,21 @@ opportunite:
 candidature:
   date_limite: '2026-09-10'
   date_limite_precision: day
-  langue_dossier:
-  - fr
+  langue_dossier: null
   frais_inscription: null
   pieces_demandees: null
   url_candidature: https://traversiens.com/event/appel-a-projet-residence-photo-2027/
 eligibilite:
   disciplines:
   - Photographie
-  niveau_carriere: tous
+  niveau_carriere: null
   age_max: null
-  nationalite: sans restriction
+  nationalite: null
   residence_administrative: null
 conditions_residence:
   duree:
-    semaines: 8
-    dates: printemps 2027
+    semaines: null
+    dates: Printemps 2027
   hebergement: null
   atelier: null
   remuneration:
@@ -40,59 +39,106 @@ conditions_residence:
     pris_en_charge: false
     plafond: null
     devise: EUR
-  restitution: Projet artistique participatif élaboré pour le territoire de la Haute-Bigorre
-partenaires: []
+  restitution: Projet artistique participatif élaboré pour le territoire de Haute-Bigorre
+partenaires:
+- Traversiens
 _meta:
-  extracted_confidence: 0.65
-  extracted_notes: Informations basiques confirmées (montant, dates, lieu, discipline).
-    Conditions matérielles (hébergement, atelier) non explicitement confirmées. Organisme
-    identifié par le titre et le domaine.
+  extracted_confidence: 0.72
+  extracted_notes: Informations essentielles claires (durée, lieu, dotation, deadline).
+    Manquent détails sur critères de sélection, hébergement, atelier, prise en charge
+    voyage, et modalités post-candidature.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T08:28:39+00:00'
+  extracted_at: '2026-08-02T18:08:27+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
   last_status_check: '2026-08-02'
 analyse:
-  synthese: 'Résidence de territoire de 2 mois pour artistes photographes au printemps
-    2027, basée à Bagnères-de-Bigorre en Haute-Bigorre. Le programme offre une dotation
-    de 6 000 € TTC. L''axe principal est la dimension participative : le projet doit
-    être spécifiquement élaboré pour le territoire des 24 communes rurales au pied
-    des Pyrénées. Le thème de cette édition est « Perspective(s) ». Date limite de
-    candidature : 10 septembre 2026.'
-  pour_qui: Artistes photographes ayant un projet de création participatif enraciné
-    territorialement.
+  synthese: Programme de résidence territorialisée pour un·e artiste photographe à
+    Bagnères-de-Bigorre (Haute-Bigorre), lancé par le CNAP. La résidence dure 2 mois
+    au printemps 2027, avec une dotation de 6 000 € TTC. Le projet doit avoir une
+    dimension participative et être élaboré pour le territoire composé de 24 communes
+    rurales au pied des Pyrénées. Le thème de cette édition est « Perspective(s) ».
+  pour_qui: Artistes photographes capables de développer un projet artistique participatif
+    ancré dans une logique de rencontre territoriale.
 a_savoir:
-- 'Dimension participative exigée : le projet doit être spécifiquement élaboré pour
-  le territoire local, pas générique'
-- Conditions matérielles (hébergement, atelier, espace de travail) non explicitement
-  confirmées
-- Organisme porteur identifié par le titre et le domaine, pas nommé directement dans
-  le texte
+- Pas d'information explicite sur la prise en charge de l'hébergement, bien que typique
+  en résidence
+- Pas de mention de prise en charge des frais de voyage ou de transport
+- Pas de critères de sélection explicitement énoncés
+- Pas de délai annoncé pour la notification des résultats
+- Dimension participative imposée du projet, pouvant impliquer des obligations au-delà
+  de la production individuelle
+- 'Thématique imposée : « Perspective(s) »'
 organisme_details:
-  site_web: https://traversiens.com
+  site_web: null
   adresse: null
   ville: null
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: « Montant proposé 6 000 € TTC »
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: Pas de mention explicite d'un logement fourni pendant la résidence
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: Pas de mention explicite d'un espace de travail, d'un atelier ou
-    d'équipements fournis
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: non
-  justification: Aucune mention de prise en charge des frais de voyage, de production
-    ou de transport d'œuvres
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
-  match: true
+  match: false
   signaux:
   - rural
-  - long séjour
-  bonus_score: 1
+  bonus_score: 0

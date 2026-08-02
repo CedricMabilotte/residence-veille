@@ -2,7 +2,7 @@ uid: 5e45e170
 type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725
 fetched_at: '2026-05-22T14:59:36+00:00'
-score: 9
+score: 4
 status: indetermine
 opportunite:
   nom: Show Your Work With BobCat Gallery in Putney
@@ -103,21 +103,55 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: 'L''artiste paie £100/mois; aucune rémunération, bourse ou dotation
-    versée par l''organisme. Seule rétention : 20% de commission sur ventes.'
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: non
-  justification: Aucun logement ou hébergement mentionné dans les conditions.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: non
-  justification: Il s'agit d'une galerie commerciale pour exposition et vente; aucun
-    espace de production ou d'équipements fourni.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: non
-  justification: 'Conditions explicites: «The Artist is responsible for arranging
-    transportation» et «Charges for transportation, insurance costs, and risk of loss
-    or damage...are the responsibility of the Artist».'
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: true
   signaux:

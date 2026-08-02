@@ -2,7 +2,7 @@ uid: dbe5b36f
 type: bourse
 source_url: https://villa-albertine.org/va/fr/professionals/etant-donnes-pour-lart-contemporain
 fetched_at: '2026-05-22T15:51:10+00:00'
-score: 8
+score: 4
 status: indetermine
 opportunite:
   nom: Etant donnés pour l'Art contemporain
@@ -79,21 +79,65 @@ organisme_details:
   contact_email: guillaume.lefevre@villa-albertine.org
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: Subventions aux institutions, bourses aux conservateurs, soutien
-    financier des résidences artistiques
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: Les résidences couvrent 2 à 4 mois mais aucune mention explicite
-    d'un logement fourni
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: partiel
-  justification: Les artistes développent des projets avec des partenaires américains,
-    mais pas d'atelier ou équipement explicitement fourni
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: oui
-  justification: Subventions aux institutions couvrent les frais de projet ; bourses
-    aux conservateurs couvrent frais de voyage et de mission
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

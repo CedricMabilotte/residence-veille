@@ -2,7 +2,7 @@ uid: 07e1d362
 type: bourse
 source_url: https://www.adagp.fr/fr/actualites/ladagp-soutient-les-3-laureats-de-la-bourse-post-master-intelligence-artificielle-2025
 fetched_at: '2026-05-22T15:36:47+00:00'
-score: 8
+score: 4
 status: indetermine
 opportunite:
   nom: Bourse Post-Master Intelligence Artificielle 2025-2026 de l'ENSP Arles
@@ -72,17 +72,65 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: Les lauréats reçoivent chacun 4000€
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: Aucune mention d'hébergement fourni
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: Aucune mention explicite d'espace de production fourni
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune mention de prise en charge de frais de voyage ou de production
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

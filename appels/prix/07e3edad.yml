@@ -2,7 +2,7 @@ uid: 07e3edad
 type: prix
 source_url: https://www.cnap.fr/acquisitions-et-commandes-photographie-et-images-animees-2025
 fetched_at: '2026-05-22T13:59:25+00:00'
-score: 9
+score: 4
 status: indetermine
 opportunite:
   nom: Acquisitions et commandes Photographie et images animées - 2025
@@ -71,19 +71,55 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: 'Les 22 artistes ont reçu une rétribution monétaire : mentions répétées
-    « Achat à l''artiste » pour les acquisitions à titre onéreux.'
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: Aucune mention d'hébergement fourni.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: Aucune mention d'espace de travail ou d'atelier fourni.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune mention de prise en charge des frais de production, voyage
-    ou transport.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

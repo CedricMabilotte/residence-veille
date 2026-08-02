@@ -1,12 +1,12 @@
 uid: 6c77a484
 type: residence
 source_url: https://www.cnap.fr/annonces/residence-dartiste-venissieux
-fetched_at: '2026-08-02T08:25:27+00:00'
-score: 7
+fetched_at: '2026-08-02T18:03:15+00:00'
+score: 4
 status: ouverte
 opportunite:
   nom: Résidence d'artiste à Vénissieux
-  organisme: Centre d'art Madeleine Lambert
+  organisme: Centre d'art Madeleine-Lambert Vénissieux
   lieu:
     ville: Vénissieux
     pays: France
@@ -20,25 +20,25 @@ candidature:
   pieces_demandees:
   - CV
   - Dossier de présentation du travail artistique avec visuels
-  - Note d'intention (max 1500 signes)
-  - Tout document jugé intéressant
-  url_candidature: null
+  - Note d'intention (max 1500 signes espaces compris)
+  - Justificatif d'immatriculation (avis de situation SIRENE, extrait Kbis ou document
+    équivalent)
+  url_candidature: mailto:centredart@ville-venissieux.fr
 eligibilite:
   disciplines:
   - arts plastiques
   niveau_carriere: confirmé·e
   age_max: null
   nationalite: sans restriction
-  residence_administrative: null
+  residence_administrative: sans restriction
 conditions_residence:
   duree:
     semaines: null
     dates: null
   hebergement: false
-  atelier: Appui logistique, matériel et outillage du Centre d'art. Accès aux services
-    municipaux (espaces verts, ateliers techniques, archives, etc.)
+  atelier: Appui logistique, matériel et outillage du Centre d'art
   remuneration:
-    montant: 2000
+    montant: 3500
     devise: EUR
     periodicite: forfait
   voyage:
@@ -49,31 +49,32 @@ conditions_residence:
 partenaires: []
 _meta:
   extracted_confidence: 0.85
-  extracted_notes: Résidence bien documentée avec conditions claires. Durée non précisée,
-    hébergement non mentionné. Aide à la production de 1500 € mentionnée en plus de
-    la rémunération de base (2000 €).
+  extracted_notes: Montants et pièces demandées explicites. Durée, hébergement et
+    critères de sélection absents. Rémunération en deux volets.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T08:25:27+00:00'
+  extracted_at: '2026-08-02T18:03:15+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
   last_status_check: '2026-08-02'
 analyse:
-  synthese: Résidence d'artiste offerte par le Centre d'art Madeleine Lambert à Vénissieux,
-    s'adressant aux artistes plasticien·nes ayant une expérience professionnelle établie.
-    La résidence propose une rémunération de 2000 € et une aide à la production de
-    1500 €. L'artiste bénéficie d'un appui logistique, du matériel et de l'outillage
-    du Centre d'art, ainsi que de l'accès aux services municipaux. La durée de la
-    résidence n'est pas précisée. Les candidatures sont à envoyer par email avant
-    le 7 septembre 2026 à minuit (GMT+1).
-  pour_qui: Artistes plasticien·nes confirmé·es ayant une expérience professionnelle
-    établie et une immatriculation légale.
+  synthese: Cette résidence offre une aide financière de 3500 € (2000 € de rémunération
+    + 1500 € d'aide à la production), l'accès aux équipements et au matériel du Centre
+    d'art, ainsi qu'un accompagnement des équipes dans la réalisation du projet. Elle
+    s'adresse aux artistes plasticien·nes possédant un statut professionnel établi,
+    justifié par un document d'immatriculation (SIRENE ou Kbis). La durée de la résidence
+    n'est pas précisée dans l'appel. Les candidatures doivent être envoyées par mail
+    avant le 7 septembre 2026 à minuit.
+  pour_qui: Artistes plasticien·nes ayant une démarche professionnelle établie et
+    disposant d'une immatriculation professionnelle.
 a_savoir:
-- Durée de la résidence non spécifiée
-- Hébergement non mentionné
-- Justificatif d'immatriculation requis (SIRENE ou Kbis)
-- Candidatures par email uniquement ; envois postaux non acceptés
+- Durée de résidence non précisée
+- Pas d'hébergement fourni
+- Pas de prise en charge du voyage ou des frais de déplacement
+- Accès réservé aux artistes avec statut professionnel formel (SIRENE/Kbis requis)
+- Aucun critère de sélection explicite énoncé
+- Pas de date annoncée pour les résultats
 organisme_details:
   site_web: https://culture.venissieux.fr/centre-dart-madeleine-lambert/
   adresse: null
@@ -81,17 +82,65 @@ organisme_details:
   contact_email: centredart@ville-venissieux.fr
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: 2000 € de rémunération + 1500 € d'aide à la production
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: non
-  justification: Non mentionné dans l'appel
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: Appui logistique, matériel et outillage du Centre d'art fournis
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: partiel
-  justification: Aide à la production de 1500 € couverte ; voyage non mentionné
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

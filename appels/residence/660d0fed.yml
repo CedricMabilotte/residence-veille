@@ -2,7 +2,7 @@ uid: 660d0fed
 type: residence
 source_url: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama
 fetched_at: '2026-08-02T09:04:54+00:00'
-score: 9
+score: 4
 status: indetermine
 opportunite:
   nom: Résidences à la Villa Kujoyama
@@ -111,20 +111,65 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: Aucune mention de rémunération, bourse, per diem ou dotation financière.
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: La Villa Kujoyama est une résidence artistique ; les résidents sont
-    logés pendant la durée du programme de 4 à 6 mois.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: partiel
-  justification: Programme décrit comme séjour d'immersion et de recherche, suggérant
-    accès à un espace de travail, mais sans précision explicite.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune information concernant la prise en charge du voyage, des frais
-    de production ou du transport de matériel.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

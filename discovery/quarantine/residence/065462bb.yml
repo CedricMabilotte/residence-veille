@@ -1,0 +1,102 @@
+uid: 065462bb
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_3m_mad_def.pdf
+fetched_at: '2026-05-21T11:11:11+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE DOS (2) RESIDENCIAS TRIMESTRALES
+    DE PRODUCCIÓN ARTÍSTICA DESTINADAS A ARTISTAS VISUALES RESIDENTES EN LA COMUNIDAD DE MADRID 2026
+  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
+  lieu:
+    ville: Madrid
+    pays: España
+    territoire: Comunidad de Madrid
+  nom_fr: BASES
+  affichage_titre: BASES [BASES]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Comunidad de Madrid
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 2026-04-14 à 2026-07-10
+  hebergement: null
+  atelier: espaces de travail fournis
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Document incomplet (coupé à page 3). Date limite de candidature non trouvée. Rémunération mentionnée sans
+    détails de montant. Hébergement non explicitement mentionné.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-21T11:11:11+00:00'
+  source_lang: es
+  resume_fr: Appel à candidatures pour 2 résidences de production artistique au Matadero Madrid, destiné aux artistes visuels
+    résidant à la Communauté de Madrid. Les résidences dureront 3 mois, du 14 avril au 10 juillet 2026. Le programme fournira
+    des espaces, des ressources économiques et un accompagnement professionnel et institutionnel aux artistes sélectionnés.
+    L'objectif est de soutenir le développement professionnel des créateurs visuels et de faciliter leurs processus de création.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
+analyse:
+  synthese: Le Centre de Résidences Artistiques de Matadero Madrid propose 2 résidences trimestrales de 3 mois (14 avril-10
+    juillet 2026) pour artistes visuels. Les résidents bénéficient d'espaces de travail, de ressources économiques et d'accompagnement
+    curatorial. Programme destiné aux artistes résidant en Comunidad de Madrid. Résultats communiqués en novembre 2025.
+  pour_qui: Artistes visuels individuels ou collectifs résidant en Comunidad de Madrid.
+a_savoir:
+- 'Durée courte : 3 mois seulement'
+- Accès restreint à la Comunidad de Madrid
+- Montant des ressources économiques non précisé
+- Hébergement non mentionné dans le document
+organisme_details:
+  site_web: https://www.mataderomadrid.org
+  adresse: Calle Conde Duque 9-11, 28015 Madrid
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: Le texte mentionne « recursos económicos » (ressources économiques) mais sans détails sur le montant ou la
+    nature de cette rémunération.
+- id: hebergement
+  rempli: inconnu
+  justification: Aucune mention explicite d'un hébergement fourni. Le texte indique que « Los residentes convivirán con otros
+    artistas » (les résidents cohabiteront avec d'autres artistes) mais ne clarifie pas si un logement est fourni.
+- id: atelier
+  rempli: oui
+  justification: « Proporcionando espacios » (fournissant des espaces) et « espacios para realizar la residencia » (espaces
+    pour réaliser la résidence) sont explicitement mentionnés.
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: L'espace de travail est fourni. Le texte ne mentionne pas la prise en charge du voyage ou des frais de matériel/production.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

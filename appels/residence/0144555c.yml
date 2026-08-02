@@ -2,7 +2,7 @@ uid: 0144555c
 type: residence
 source_url: https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf
 fetched_at: '2026-05-21T10:49:15+00:00'
-score: 7
+score: 4
 status: indetermine
 opportunite:
   nom: null
@@ -103,21 +103,65 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: « The awarding of a residency grant to the artist » (Article 1, point
-    5)
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: « The provision of accommodation and a workspace for the artist »
-    (Article 1, point 1)
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: « The provision of accommodation and a workspace for the artist »
-    (Article 1, point 1)
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Document cadre ne précise pas les détails spécifiques concernant
-    la prise en charge du voyage ou des frais de production
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux:

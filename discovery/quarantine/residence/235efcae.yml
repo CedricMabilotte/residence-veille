@@ -13,8 +13,7 @@ opportunite:
     territoire: Désert d'Atacama
 candidature:
   date_limite: '2026-09-27'
-  date_limite_precision: sessions glissantes confirmées fin 2026 (27 septembre, 24
-    octobre, 20 novembre 2026)
+  date_limite_precision: sessions glissantes confirmées fin 2026 (27 septembre, 24 octobre, 20 novembre 2026)
   langue_dossier:
   - en
   frais_inscription:
@@ -29,8 +28,8 @@ eligibilite:
   - pratiques collaboratives/participatives
   niveau_carriere: null
   age_max: null
-  nationalite: places réduites réservées en priorité aux candidat·es d'Amérique latine
-    et BIPOC — ne semble pas exclure les autres candidatures
+  nationalite: places réduites réservées en priorité aux candidat·es d'Amérique latine et BIPOC — ne semble pas exclure les
+    autres candidatures
   residence_administrative: null
 conditions_residence:
   duree:
@@ -51,29 +50,27 @@ partenaires: []
 _meta:
   extracted_by: claude-sonnet-5-manuel
   extracted_confidence: 0.4
-  extracted_notes: 'Modèle de coût peu clair (« sliding scale ») — montant exact non
-    confirmé en session, traité prudemment comme autofinancé (frais_inscription: 0,
-    coût réel du séjour non chiffré). Priorité affichée aux candidat·es d''Amérique
-    latine/BIPOC, sans que cela semble exclure formellement les autres profils — à
-    vérifier directement avant de présenter cette opportunité comme accessible à toustes.
-    Score volontairement bas (4) tant que le modèle de coût n''est pas clarifié.'
+  extracted_notes: 'Modèle de coût peu clair (« sliding scale ») — montant exact non confirmé en session, traité prudemment
+    comme autofinancé (frais_inscription: 0, coût réel du séjour non chiffré). Priorité affichée aux candidat·es d''Amérique
+    latine/BIPOC, sans que cela semble exclure formellement les autres profils — à vérifier directement avant de présenter
+    cette opportunité comme accessible à toustes. Score volontairement bas (4) tant que le modèle de coût n''est pas clarifié.'
   extracted_at: '2026-08-01T18:00:00+00:00'
   source_lang: en
-  resume_fr: Résidence de 3 semaines dans le désert d'Atacama (Chili), axée écologie
-    et pratiques collaboratives, avec un tarif variable selon la situation du candidat.
-    Priorité donnée aux candidat·es d'Amérique latine et BIPOC. Voyage non pris en
-    charge.
+  resume_fr: Résidence de 3 semaines dans le désert d'Atacama (Chili), axée écologie et pratiques collaboratives, avec un
+    tarif variable selon la situation du candidat. Priorité donnée aux candidat·es d'Amérique latine et BIPOC. Voyage non
+    pris en charge.
   last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
 analyse:
-  synthese: Résidence écologique et collaborative dans le désert d'Atacama, avec un
-    modèle tarifaire adaptatif et une priorité donnée à certains profils de candidat·es.
-  pour_qui: Artistes visuel·les intéressé·es par l'écologie et les pratiques collaboratives,
-    avec priorité aux candidat·es d'Amérique latine et BIPOC.
+  synthese: Résidence écologique et collaborative dans le désert d'Atacama, avec un modèle tarifaire adaptatif et une priorité
+    donnée à certains profils de candidat·es.
+  pour_qui: Artistes visuel·les intéressé·es par l'écologie et les pratiques collaboratives, avec priorité aux candidat·es
+    d'Amérique latine et BIPOC.
 a_savoir:
-- Modèle de coût « sliding scale » — montant exact non confirmé, à clarifier avant
-  candidature
-- Priorité affichée aux candidat·es d'Amérique latine et BIPOC (sans exclusion formelle
-  apparente des autres profils)
+- Modèle de coût « sliding scale » — montant exact non confirmé, à clarifier avant candidature
+- Priorité affichée aux candidat·es d'Amérique latine et BIPOC (sans exclusion formelle apparente des autres profils)
 - Voyage non pris en charge
 organisme_details:
   site_web: https://www.lawayakacurrent.com

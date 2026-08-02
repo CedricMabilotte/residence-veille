@@ -2,7 +2,7 @@ uid: dd09fac5
 type: bourse
 source_url: https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart
 fetched_at: '2026-05-22T14:02:24+00:00'
-score: 9
+score: 4
 status: ouverte
 opportunite:
   nom: Aider à la production d'oeuvres d'art
@@ -77,19 +77,65 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: L'aide est versée directement à l'artiste (75% après la décision
-    de la commission, solde au moment de la première présentation de l'œuvre)
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: non
-  justification: Aucune mention d'un logement mis à disposition
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: non
-  justification: Aucune mention d'un espace de production ou atelier fourni
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: partiel
-  justification: L'aide couvre les dépenses de production ; aucune dépense de post-production
-    ou diffusion n'est prise en compte
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

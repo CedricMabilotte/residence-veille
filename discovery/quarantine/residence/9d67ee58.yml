@@ -1,0 +1,102 @@
+uid: 9d67ee58
+type: residence
+source_url: https://www.cnap.fr/annonces/appel-residence-entre-autres-20262027
+fetched_at: '2026-08-02T08:22:02+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Appel à résidence - Entre-Autres 2026/2027
+  organisme: Domaine du Rayol
+  lieu:
+    ville: Rayol-Canadel-sur-Mer
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-28'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts
+  - sciences naturelles
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 6
+    dates: octobre 2026 à juin 2027
+  hebergement: true
+  atelier: espace mis à disposition pour l'expérimentation et les travaux de recherche au Domaine du Rayol
+  remuneration:
+    montant: 10000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: ateliers pratiques, rencontres et échanges avec les élèves du Lycée du Golfe de Saint-Tropez, moments de médiation
+    avec les visiteurs du Domaine du Rayol
+partenaires:
+- DRAC PACA
+- Lycée du Golfe de Saint-Tropez
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Information complète sur les conditions principales. Texte source interrompu en fin. URL de candidature
+    et contact direct non fournis. Montant forfaitaire pour le duo complet (2 personnes).
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T08:22:02+00:00'
+  source_lang: fr
+  detection_confidence: 0.7333333333333333
+  detection_method: heuristic
+  source_label: CNAP — annonces filtrées « Résidence d'artiste »
+  last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
+analyse:
+  synthese: Cette résidence accueille un duo artiste-chercheur pour 6 semaines réparties d'octobre 2026 à juin 2027 au Domaine
+    du Rayol. Elle finance le projet à hauteur de 10 000 € pour le duo, couvre l'hébergement à la Villa Rayolet et les frais
+    de déplacement et repas. Le projet explore la communication dans le vivant non-humain avec une approche interdisciplinaire,
+    incluant une composante pédagogique auprès des élèves du Lycée du Golfe de Saint-Tropez et des visiteurs du Domaine.
+  pour_qui: Artiste travaillant sur les sciences naturelles et les arts, avec une expérience en transmission et travail avec
+    publics scolaires, candidatant en duo avec un chercheur.
+a_savoir:
+- Possession d'un véhicule obligatoire en raison de l'isolement géographique du Domaine (environ 45 minutes de la gare la
+  plus proche)
+- Logement classé situé à l'extrémité du jardin, dans un environnement très isolé et au cœur de la nature
+- Le duo doit être constitué avant candidature ; l'organisme n'assure pas de mise en relation entre artistes et chercheurs
+- Durée répartie sur plusieurs mois (3 semaines avec élèves, 3 semaines recherche/préparation), non continue
+- Forte charge en transmission pédagogique et médiation avec publics multiples
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Rayol-Canadel-sur-Mer
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'Bourse de résidence pour soutenir le travail des résidents : 10 000 € pour le duo'
+- id: hebergement
+  rempli: oui
+  justification: Les résidents seront logés à la Villa Rayolet, disposant de deux chambres avec lit double et salle de bain
+    attenante
+- id: atelier
+  rempli: oui
+  justification: Un espace est mis à disposition pour l'expérimentation et les travaux de recherche
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Frais de déplacement et repas pris en charge pour la durée de la résidence
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

@@ -1,0 +1,104 @@
+uid: 53aebf91
+type: residence
+source_url: https://www.mataderomadrid.org/convocatorias/residencia-en-torno-al-arte-y-la-educacion-2026
+fetched_at: '2026-05-22T14:51:11+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN 2026
+  organisme: Matadero Madrid
+  lieu:
+    ville: Madrid
+    pays: España
+    territorio: Comunidad de Madrid
+  nom_fr: RÉSIDENCE AUTOUR DE L'ART ET DE L'ÉDUCATION 2026
+  affichage_titre: RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN 2026 [RÉSIDENCE AUTOUR DE L'ART ET DE L'ÉDUCATION 2026]
+candidatura:
+  date_limite: '2026-04-27'
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidatura: null
+eligibilite:
+  disciplines:
+  - arte
+  - educación
+  - mediación
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Comunidad de Madrid
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: instalaciones del recinto cultural
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: programa de mediación, arte y educación que se desarrolle en las instalaciones del recinto cultural
+partenaires: []
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: 'Informations partielles. Manquent : durée exacte, rémunération, hébergement fourni, frais d''inscription.
+    Texte consulté limité aux bases générales ; les détails complets figurent dans le PDF des bases de convocatoria non inclus.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:51:11+00:00'
+  source_lang: es
+  resume_fr: 'Matadero Madrid (Centre de créations contemporaines) lance un appel à candidatures pour une résidence artistique
+    destinée aux créateurs et collectifs de la Communauté de Madrid travaillant dans l''art et l''éducation. Les inscriptions
+    sont ouvertes jusqu''au 27 avril à 14h. La résidence propose deux axes de recherche : la médiation autour des urgences
+    contemporaines (dissidences du corps, activisme antirraciste, urgence climatique, transformations du travail, santé mentale),
+    ou la recherche sur la médiation et les croisements entre art et éducation. Une séance informative en ligne aura lieu
+    le 19 mars de 11h à 12h. Le projet retenu mènera un processus de réflexion et un programme de médiation intégré aux installations
+    de Matadero Madrid.'
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
+analyse:
+  synthese: Résidence d'artistes de Matadero Madrid destinée aux créateurs ou collectifs de la Comunidad de Madrid exerçant
+    dans l'art et l'éducation. Le programme comprend un processus de recherche et d'investigation associé à l'activation d'un
+    programme de médiation art-éducation développé dans les installations du centre. Les projets peuvent aborder les enjeux
+    contemporains (disidencias del cuerpo, activisme antirraciste, urgence climatique, transformations du travail, santé mentale)
+    ou explorer les croisements entre art et éducation. Les installations du recinto cultural sont mises à disposition. Inscriptions
+    jusqu'au 27 avril 2026 à 14h.
+  pour_qui: Créateurs ou collectifs de la Comunidad de Madrid pratiquant la médiation, l'art et l'éducation dans un contexte
+    de recherche et action.
+a_savoir:
+- Résidence réservée aux créateurs de la Comunidad de Madrid (restriction géographique stricte)
+- 'Nombreuses conditions non précisées : durée exacte, rémunération, hébergement, frais d''inscription, transport'
+- Dossier probablement en espagnol (non confirmé dans le texte consulté)
+organisme_details:
+  site_web: https://www.mataderomadrid.org
+  adresse: null
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire.
+- id: hebergement
+  rempli: non
+  justification: Aucune mention d'un logement fourni.
+- id: atelier
+  rempli: oui
+  justification: « se desarrolle en las instalaciones del recinto cultural » — espace de production fourni.
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge de voyage, production ou frais associés.
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

@@ -2,7 +2,7 @@ uid: 0c311ef8
 type: bourse
 source_url: https://www.fondationdesartistes.fr/missions/promouvoir-la-scene-francaise
 fetched_at: '2026-05-22T11:32:19+00:00'
-score: 9
+score: 4
 status: indetermine
 opportunite:
   nom: Résidence annuelle Fondation des Artistes à l'étranger
@@ -79,20 +79,64 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune mention de montant, rémunération, bourse monétaire ou per
-    diem.
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: « Une résidence située sur une plage, à la pointe nord de l'île d'Itaparica
-    » et « résidences de création ».
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: « L'un des ateliers de Sacatar sur l'île d'Itaparica » et évocation
-    de « résidences de création ».
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Fondation finance résidences, mais type de frais couverts (transport,
-    production) non spécifié.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

@@ -1,7 +1,5 @@
-edges_count: 130
-partenaires_distincts: 113
+edges_count: 108
+partenaires_distincts: 96
 candidats_a_instruire:
 - nom: Ministère de la Culture
   occurrences: 8
-- nom: Institut français d'Indonésie
-  occurrences: 3

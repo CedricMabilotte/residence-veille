@@ -28,8 +28,8 @@ eligibilite:
 conditions_exposition:
   lieux:
   - MABA (Nogent-sur-Marne)
-  dates_exposition: '3 expositions par an : début d''année (création contemporaine),
-    printemps (image fixe et animée), automne (design graphique)'
+  dates_exposition: '3 expositions par an : début d''année (création contemporaine), printemps (image fixe et animée), automne
+    (design graphique)'
   format: collective
   prise_en_charge:
     production: null
@@ -49,10 +49,9 @@ partenaires:
 - Théâtre Watteau
 _meta:
   extracted_confidence: 0.2
-  extracted_notes: Cette page est une présentation générale du centre d'art MABA et
-    non un appel à candidature formellement structuré. Aucune procédure de candidature,
-    date limite, frais ou cahier des charges n'est explicité. Les conditions de participation
-    des artistes ne sont pas documentées sur cette page.
+  extracted_notes: Cette page est une présentation générale du centre d'art MABA et non un appel à candidature formellement
+    structuré. Aucune procédure de candidature, date limite, frais ou cahier des charges n'est explicité. Les conditions de
+    participation des artistes ne sont pas documentées sur cette page.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T09:55:37+00:00'
   source_lang: fr
@@ -60,22 +59,21 @@ _meta:
   detection_method: claude
   source_label: Fondation des Artistes
   last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
 analyse:
-  synthese: La MABA est un centre d'art de la Fondation des Artistes créé en 2006
-    pour accompagner la production et la diffusion de la création contemporaine. Le
-    centre organise 3 expositions par an de format monographique ou collectif, destinées
-    à promouvoir les projets expérimentaux d'artistes de toutes nationalités. La programmation
-    s'articule autour de la création contemporaine, de l'image fixe et animée, et
-    du design graphique, accompagnée d'actions de médiation (visites-découvertes,
-    rencontres avec artistes, conférences). Les expositions font l'objet d'une itinérance
-    dans des écoles d'art partenaires.
-  pour_qui: Cette page ne cible pas les artistes candidats mais décrit plutôt les
-    missions et fonctionnement du centre pour le public général.
+  synthese: La MABA est un centre d'art de la Fondation des Artistes créé en 2006 pour accompagner la production et la diffusion
+    de la création contemporaine. Le centre organise 3 expositions par an de format monographique ou collectif, destinées
+    à promouvoir les projets expérimentaux d'artistes de toutes nationalités. La programmation s'articule autour de la création
+    contemporaine, de l'image fixe et animée, et du design graphique, accompagnée d'actions de médiation (visites-découvertes,
+    rencontres avec artistes, conférences). Les expositions font l'objet d'une itinérance dans des écoles d'art partenaires.
+  pour_qui: Cette page ne cible pas les artistes candidats mais décrit plutôt les missions et fonctionnement du centre pour
+    le public général.
 a_savoir:
-- Aucune procédure de candidature n'est décrite sur cette page — il s'agit d'une présentation
-  institutionnelle, non d'un appel à projets
-- Les conditions concrètes de participation des artistes (rémunération, droits, responsabilités)
-  ne sont pas documentées
+- Aucune procédure de candidature n'est décrite sur cette page — il s'agit d'une présentation institutionnelle, non d'un appel
+  à projets
+- Les conditions concrètes de participation des artistes (rémunération, droits, responsabilités) ne sont pas documentées
 - 'Contact : visite@fondationdesartistes.fr ou 01 45 63 59 02'
 organisme_details:
   site_web: https://www.fondationdesartistes.fr
@@ -85,8 +83,7 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune mention de rémunération, bourse ou dotation monétaire pour
-    les artistes exposés
+  justification: Aucune mention de rémunération, bourse ou dotation monétaire pour les artistes exposés
 - id: hebergement
   rempli: inconnu
   justification: La MABA n'est pas une résidence ; aucun logement mentionné

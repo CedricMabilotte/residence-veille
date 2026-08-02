@@ -34,11 +34,10 @@ eligibilite:
 conditions_residence:
   duree:
     semaines: null
-    dates: 6 à 8 semaines (recherche/expérimentation), 2 à 6 semaines (production),
-      2 à 4 semaines (écriture/commissariat) — durée selon le volet choisi
+    dates: 6 à 8 semaines (recherche/expérimentation), 2 à 6 semaines (production), 2 à 4 semaines (écriture/commissariat)
+      — durée selon le volet choisi
   hebergement: true
-  atelier: maison meublée + ateliers de production + archive vivante + bibliothèque
-    sur site
+  atelier: maison meublée + ateliers de production + archive vivante + bibliothèque sur site
   remuneration:
     montant: 375
     devise: EUR
@@ -52,23 +51,21 @@ partenaires: []
 _meta:
   extracted_by: claude-sonnet-5-manuel
   extracted_confidence: 0.75
-  extracted_notes: Trois volets de résidence distincts (recherche/expérimentation,
-    production, écriture/commissariat) avec durées différentes ; conditions financières
-    ci-dessus s'appliquent globalement au programme. Frais de production supplémentaires
-    possibles jusqu'à 2500€ (non repris dans le champ remuneration, qui documente
-    la bourse vie/travail).
+  extracted_notes: Trois volets de résidence distincts (recherche/expérimentation, production, écriture/commissariat) avec
+    durées différentes ; conditions financières ci-dessus s'appliquent globalement au programme. Frais de production supplémentaires
+    possibles jusqu'à 2500€ (non repris dans le champ remuneration, qui documente la bourse vie/travail).
   extracted_at: '2026-08-01T18:00:00+00:00'
   source_lang: fr
-  resume_fr: Résidences de recherche, production ou écriture à Cognac, dans une maison-atelier
-    de la Fondation d'entreprise Martell. Bourse de 375€/semaine, jusqu'à 2500€ de
-    frais de production, voyage pris en charge (jusqu'à 1500€).
+  resume_fr: Résidences de recherche, production ou écriture à Cognac, dans une maison-atelier de la Fondation d'entreprise
+    Martell. Bourse de 375€/semaine, jusqu'à 2500€ de frais de production, voyage pris en charge (jusqu'à 1500€).
   last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
 analyse:
-  synthese: Programme de résidences pluridisciplinaires (arts visuels et SHS) à Cognac,
-    avec trois formats possibles selon le stade du projet (recherche, production,
-    écriture/commissariat).
-  pour_qui: Artistes et chercheur·ses en arts visuels ou sciences humaines et sociales,
-    candidatures individuelles ou collectives.
+  synthese: Programme de résidences pluridisciplinaires (arts visuels et SHS) à Cognac, avec trois formats possibles selon
+    le stade du projet (recherche, production, écriture/commissariat).
+  pour_qui: Artistes et chercheur·ses en arts visuels ou sciences humaines et sociales, candidatures individuelles ou collectives.
 a_savoir:
 - Trois volets distincts (recherche, production, écriture) avec durées différentes
 - Jusqu'à 2500€ de frais de production en plus de la bourse vie/travail

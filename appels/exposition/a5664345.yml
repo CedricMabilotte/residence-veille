@@ -2,7 +2,7 @@ uid: a5664345
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique
 fetched_at: '2026-08-02T08:56:28+00:00'
-score: 9
+score: 4
 status: ouverte
 opportunite:
   nom: PIDA - Programme International de Diffusion Artistique
@@ -89,18 +89,54 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Pas de mention d'une rémunération, bourse ou dotation monétaire dans
-    le texte fourni
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: non
-  justification: Aucune mention de logement fourni par l'organisme
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: non
-  justification: Aucune mention d'espace de production ou d'équipements fournis
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Le programme accompagne les projets, mais pas de précision sur couverture
-    voyage, production ou transport
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux:

@@ -1,0 +1,100 @@
+uid: b7074aef
+type: residence
+source_url: https://ars.electronica.art/export/en/ecoc2028-ars-biologica-art-science-residency/
+fetched_at: '2026-08-01T18:00:00+00:00'
+score: 6
+status: ouverte
+opportunite:
+  nom: Ars Biologica — ArtXScience Residency (ECOC2028)
+  organisme: Ars Electronica / Biology Centre CAS (ECOC2028)
+  lieu:
+    ville: České Budějovice
+    pays: République tchèque
+    territoire: null
+candidature:
+  date_limite: '2026-09-28'
+  date_limite_precision: minuit CET ; résultats annoncés en novembre 2026
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://ars.electronica.art/export/en/ecoc2028-ars-biologica-art-science-residency/
+eligibilite:
+  disciplines:
+  - art et science
+  - écologie microbienne
+  - agriculture durable
+  - permaculture
+  niveau_carriere: 5 ans et plus d'expérience professionnelle documentée en collaboration art-science
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: sessions réparties entre 2027 et 2028, jusqu'à 1 mois par session, 2 à 3 sessions
+  hebergement: null
+  atelier: laboratoire du Biology Centre de l'Académie tchèque des sciences
+  remuneration:
+    montant: 6000
+    devise: EUR
+    periodicite: honoraires artiste (fee), + jusqu'à 15 000€ de production et jusqu'à 3 000€ de transport/frais — dotation
+      totale 24 000€
+  voyage:
+    pris_en_charge: true
+    plafond: 3000
+    devise: EUR
+  restitution: null
+partenaires:
+- Biology Centre de l'Académie tchèque des sciences
+- ECOC2028 (Capitale européenne de la culture)
+_meta:
+  extracted_by: claude-sonnet-5-manuel
+  extracted_confidence: 0.6
+  extracted_notes: Barre d'entrée élevée (5+ ans d'expérience documentée en collaboration art-science) et seulement 2 places
+    — programme exigeant, à ne présenter qu'à un profil déjà engagé dans des collaborations art-science. Clause d'éligibilité
+    précise non vérifiée intégralement en session (limite outil web_fetch), mais montants de dotation et date limite confirmés
+    avec un bon niveau de confiance.
+  extracted_at: '2026-08-01T18:00:00+00:00'
+  source_lang: en
+  resume_fr: Résidence art-science autour de l'écologie microbienne et de l'agriculture durable, au Biology Centre de l'Académie
+    tchèque des sciences, dans le cadre d'ECOC2028. Dotation totale de 24 000€ (honoraires + production + frais), 2 places
+    seulement, exige une expérience préalable de collaboration art-science.
+  last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
+analyse:
+  synthese: Résidence de recherche art-science sur les thématiques de l'écologie microbienne, de l'agriculture durable et
+    de la permaculture, avec une dotation substantielle mais un niveau d'exigence élevé.
+  pour_qui: Artistes ayant 5 ans ou plus d'expérience documentée en collaboration art-science.
+a_savoir:
+- Seulement 2 places disponibles — sélectivité élevée
+- Dotation totale 24 000€ (6000€ honoraires + jusqu'à 15 000€ production + jusqu'à 3000€ transport/frais)
+- Clause d'éligibilité précise (5+ ans d'expérience art-science documentée) non vérifiée intégralement en session — à confirmer
+  avant candidature
+organisme_details:
+  site_web: https://ars.electronica.art
+  adresse: null
+  ville: České Budějovice
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Dotation totale 24 000€ incluant 6000€ d'honoraires artiste.
+- id: hebergement
+  rempli: inconnu
+  justification: Non précisé dans les sources consultées.
+- id: atelier
+  rempli: oui
+  justification: Accès au laboratoire du Biology Centre de l'Académie tchèque des sciences.
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Jusqu'à 3000€ de transport/frais pris en charge, inclus dans la dotation totale.
+_interne_affinite:
+  match: true
+  signaux:
+  - art et écologie / land art
+  bonus_score: 1

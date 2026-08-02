@@ -2,7 +2,7 @@ uid: a2b6bce5
 type: residence
 source_url: https://www.fondationdesartistes.fr/missions/attribuer-un-atelier
 fetched_at: '2026-05-22T14:03:35+00:00'
-score: 8
+score: 4
 status: indetermine
 opportunite:
   nom: Attribuer des ateliers
@@ -78,22 +78,65 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: non
-  justification: Aucune rémunération, bourse ou dotation mentionnée. Un loyer mensuel
-    est à payer après attribution de l'atelier.
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: partiel
-  justification: 'Certains ateliers incluent un logement (« ateliers-logements » :
-    35 à Nogent-sur-Marne, 16 à Paris), d''autres sont des ateliers seuls sans logement.'
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: Des espaces de travail (ateliers individuels) sont fournis pour tous
-    les 91 ateliers, « destinés à accueillir des artistes plasticiens en activité
-    » et « propices à leur travail de création ».
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: non
-  justification: Aucune prise en charge de frais relatifs au voyage, production ou
-    transport d'œuvres mentionnée.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

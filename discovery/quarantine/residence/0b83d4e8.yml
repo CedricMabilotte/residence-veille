@@ -5,8 +5,8 @@ fetched_at: '2026-05-21T10:57:06+00:00'
 score: 7
 status: indetermine
 opportunite:
-  nom: VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
-    LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)
+  nom: VI CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE UNA (1) RESIDENCIA EN
+    TORNO AL ARTE Y LA EDUCACIÓN (2026-2027)
   organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
   lieu:
     ville: Madrid
@@ -56,42 +56,38 @@ partenaires:
 - Matadero Madrid
 _meta:
   extracted_confidence: 0.65
-  extracted_notes: Document partiel (page 3 coupée). Date limite de candidature, frais,
-    hébergement et rémunération non mentionnés. Restriction à Comunidad de Madrid
-    confirmée.
+  extracted_notes: Document partiel (page 3 coupée). Date limite de candidature, frais, hébergement et rémunération non mentionnés.
+    Restriction à Comunidad de Madrid confirmée.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-21T10:57:06+00:00'
   source_lang: es
-  resume_fr: 'Matadero Madrid propose une (1) résidence artistique d''une durée de
-    9 mois du 1er octobre 2026 au 30 juin 2027, destinée à des créateurs, collectifs
-    ou agents culturels travaillant autour de l''art et l''éducation. La résidence
-    porte sur deux axes : la médiation étendue et l''art-éducation appliqués aux urgences
-    contemporaines (dissidences du corps, activismes antirracistes, urgence climatique,
-    transformations du travail, santé mentale), ou la recherche sur la médiation et
-    les croisements art-éducation. Les projets doivent être cohérents avec la trajectoire
-    du candidat et avoir une forte composante expérimentale. Les projets exclusivement
-    destinés à la médiation d''expositions, aux centres éducatifs, aux arts scéniques
-    ou à la création cinématographique ne sont pas acceptés.'
+  resume_fr: 'Matadero Madrid propose une (1) résidence artistique d''une durée de 9 mois du 1er octobre 2026 au 30 juin 2027,
+    destinée à des créateurs, collectifs ou agents culturels travaillant autour de l''art et l''éducation. La résidence porte
+    sur deux axes : la médiation étendue et l''art-éducation appliqués aux urgences contemporaines (dissidences du corps,
+    activismes antirracistes, urgence climatique, transformations du travail, santé mentale), ou la recherche sur la médiation
+    et les croisements art-éducation. Les projets doivent être cohérents avec la trajectoire du candidat et avoir une forte
+    composante expérimentale. Les projets exclusivement destinés à la médiation d''expositions, aux centres éducatifs, aux
+    arts scéniques ou à la création cinématographique ne sont pas acceptés.'
   detection_confidence: 0.8611111111111112
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
 analyse:
-  synthese: Cette résidence en art et éducation propose un accompagnement curatorial
-    et de production durant 9 mois du 1er octobre 2026 au 30 juin 2027. Le programme
-    exige une recherche et l'activation d'un programme public comprenant 6 à 10 sessions
-    publiques. Les candidats doivent résider ou avoir leur domaine d'action principal
-    en Comunidad de Madrid et développer des pédagogies critiques ou des pratiques
-    artistiques éducatives innovantes. Un espace de travail au Centro de residencias
+  synthese: Cette résidence en art et éducation propose un accompagnement curatorial et de production durant 9 mois du 1er
+    octobre 2026 au 30 juin 2027. Le programme exige une recherche et l'activation d'un programme public comprenant 6 à 10
+    sessions publiques. Les candidats doivent résider ou avoir leur domaine d'action principal en Comunidad de Madrid et développer
+    des pédagogies critiques ou des pratiques artistiques éducatives innovantes. Un espace de travail au Centro de residencias
     artísticas et au Taller est fourni. Aucune rémunération de l'artiste n'est mentionnée.
-  pour_qui: Créateurs, collectifs ou agents culturals actifs en Comunidad de Madrid,
-    tout niveau de carrière, travaillant dans l'art, l'éducation et la médiation.
+  pour_qui: Créateurs, collectifs ou agents culturals actifs en Comunidad de Madrid, tout niveau de carrière, travaillant
+    dans l'art, l'éducation et la médiation.
 a_savoir:
 - Date limite de candidature non mentionnée dans ce document partiel
 - Aucune rémunération de l'artiste mentionnée
 - 'Restitution obligatoire: 6 à 10 sessions publiques requises'
-- 'Restriction géographique stricte: résidence administrative en Comunidad de Madrid
-  obligatoire'
+- 'Restriction géographique stricte: résidence administrative en Comunidad de Madrid obligatoire'
 - Pas d'hébergement mentionné
 - Document fourni coupé (page 3 incomplète)
 organisme_details:
@@ -108,8 +104,8 @@ criteres_programme:
   justification: Aucune mention explicite de fourniture de logement
 - id: atelier
   rempli: oui
-  justification: Los espacios en los que se podrá desarrollar el programa serán principalmente
-    los del Centro de residencias artísticas y el Taller
+  justification: Los espacios en los que se podrá desarrollar el programa serán principalmente los del Centro de residencias
+    artísticas y el Taller
 - id: frais_pris_en_charge
   rempli: inconnu
   justification: Aucune mention de prise en charge des frais de voyage ou de production

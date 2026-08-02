@@ -2,7 +2,7 @@ uid: b2fced6d
 type: residence
 source_url: https://www.citeinternationaledesarts.fr/en/appels-a-candidature/institut-francais-x-cite-internationale-des-arts/
 fetched_at: '2026-08-01T15:00:00+00:00'
-score: 8
+score: 4
 status: ouverte
 opportunite:
   nom: Institut français x Cité internationale des arts 2027
@@ -85,22 +85,67 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: Bourse de résidence d'au moins 1100€/mois versée par la structure
-    partenaire.
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: Live-in studio fourni au Marais.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: Studio de 25 à 40 m² combinant travail et vie quotidienne.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: oui
-  justification: Voyage international, assurance et visas pris en charge par la structure
-    partenaire.
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
-  match: true
+  match: false
   signaux:
-  - dimension collective ou participative
-  - durée longue
-  bonus_score: 1
+  - collectif
+  bonus_score: 0

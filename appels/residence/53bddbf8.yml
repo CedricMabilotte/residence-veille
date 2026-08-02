@@ -2,7 +2,7 @@ uid: 53bddbf8
 type: residence
 source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite
 fetched_at: '2026-08-02T09:13:06+00:00'
-score: 8
+score: 4
 status: ouverte
 opportunite:
   nom: Institut français x Cité internationale des arts
@@ -115,23 +115,65 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: oui
-  justification: Le partenaire s'engage à financer une allocation de résidence de
-    minimum 1100€ par mois, versée directement à l'artiste
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: Les lauréats sont accueillis dans les ateliers-logements de 25 à
-    40 m² situés sur le site du Marais de la Cité internationale des arts
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
-  rempli: oui
-  justification: Les ateliers-logements comprennent une pièce de travail conçue pour
-    la recherche-création. L'Institut français prend en charge les prestations mensuelles
-    liées aux ateliers-logements
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: partiel
-  justification: Le partenaire finance le voyage international de l'artiste et son
-    assurance (santé, rapatriement, responsabilité civile). Les autres prestations
-    complémentaires sont à charge de l'artiste
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

@@ -1,0 +1,126 @@
+uid: 49331d08
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_ES.pdf
+fetched_at: '2026-05-21T10:53:38+00:00'
+score: 8
+status: indetermine
+opportunite:
+  nom: Convocatoria de Proyectos y Colaboradores/as para el Laboratorio de Prototipado Colaborativo del LAB 5 La mecánica
+    de la verdad
+  organisme: Medialab Matadero
+  lieu:
+    ville: Madrid
+    pays: Espagne
+    territorio: null
+  nom_fr: BASES DE L'APPEL À CANDIDATURES
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES DE L'APPEL À CANDIDATURES]
+candidature:
+  date_limite: null
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - diseño
+  - arte
+  - arquitectura
+  - urbanismo
+  - economía
+  - cine
+  - fotografía
+  - periodismo
+  - medios digitales
+  - ciencias medioambientales
+  - filosofía
+  - ingeniería
+  - estudios sociales
+  - ciencias políticas
+  - programación
+  - ciencia de los materiales
+  nivel_carriere: todos
+  age_max: null
+  nationalite: sans restriction
+  residence_administrativa: sans restriction
+conditions_residence:
+  duree:
+    semanas: 2
+    dates: 12-25 novembre 2026
+  hebergement: null
+  atelier: Contarán con un espacio de trabajo para el desarrollo de cada proyecto
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Presentación pública de los proyectos resultantes en el marco del festival OpenLAB (26-28 novembre 2026)
+partenaires:
+- Medialab Matadero
+- Matadero Madrid
+_meta:
+  extracted_confidence: 0.7
+  extracted_notes: 'Document incomplet (texte coupé en fin de page). Informations très limitées sur les modalités pratiques
+    : aucune date limite de candidature, pas de rémunération, hébergement ou frais d''inscription mentionnés, URL de candidature
+    absent.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-21T10:53:38+00:00'
+  source_lang: es
+  resume_fr: LAB 5 est le cinquième laboratoire de recherche collaborative développé par Medialab Matadero depuis 2022, consacré
+    au thème « La mécanique de la vérité ». Cet appel public international vise à sélectionner un maximum de 5 projets expérimentaux
+    et 20 collaborateurs/collaboratrices (jusqu'à 4 par projet) pour un atelier intensif de 2 semaines. Le Laboratorio de
+    Prototipado Colaborativo se déroulera du 12 au 25 novembre 2026 à Medialab Matadero Madrid, avec une présentation publique
+    des projets du 26 au 28 novembre 2026. Une session Q&R en ligne est programmée le jeudi 28 mai 2026 à 18h pour les personnes
+    intéressées.
+  detection_confidence: 0.95
+  detection_method: claude
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
+analyse:
+  synthese: LAB 5 La mecánica de la verdad est un laboratoire de prototypage collaboratif intensif de 2 semaines sélectionnant
+    jusqu'à 5 projets et 20 collaborateurs/as multidisciplinaires. Le laboratoire se déroulera du 12 au 25 novembre 2026 à
+    Medialab Matadero à Madrid, avec présentation publique du 26 au 28 novembre 2026 au festival OpenLAB. Chaque projet bénéficie
+    d'un espace de travail dédié et d'un accompagnement par mentors experts, fonctionnant en groupes interdisciplinaires.
+    Le programme accueille des créateurs et chercheurs de toute discipline du monde entier. Les projets doivent s'inscrire
+    dans la thématique « La mecánica de la verdad » abordant la technologie, les représentations alternatives de la réalité
+    et leurs impacts démocratiques.
+  pour_qui: Personnes majeures de toute discipline et du monde entier intéressées par la création collaborative autour de
+    la technologie, de la vérité partagée et de la démocratie.
+a_savoir:
+- Pas de date limite de candidature mentionnée (document potentiellement incomplet)
+- Aucune information sur la rémunération, allocation ou per diem
+- Aucune information sur la fourniture d'hébergement
+- Aucune information sur les frais d'inscription ou URL candidature
+- 'Laboratoire intensif très concentré : 2 semaines du lundi au samedi'
+- Présentation publique obligatoire en fin de programme
+- Document source semble coupé à la fin (dernière phrase incomplète)
+organisme_details:
+  site_web: https://www.medialab-matadero.es
+  adresse: null
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire dans le document
+- id: hebergement
+  rempli: inconnu
+  justification: L'hébergement n'est pas mentionné dans le texte fourni
+- id: atelier
+  rempli: oui
+  justification: « Contarán con un espacio de trabajo para el desarrollo de cada proyecto »
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Aucune mention de prise en charge des frais de voyage, production ou transport
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

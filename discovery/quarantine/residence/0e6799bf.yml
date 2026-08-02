@@ -13,9 +13,9 @@ opportunite:
     territoire: Andalousie, écovillage
 candidature:
   date_limite: null
-  date_limite_precision: indiqué « courant septembre 2026 » sur la page officielle,
-    sans jour précis confirmé (une source secondaire cite le 12 septembre, non vérifiée
-    indépendamment) — à confirmer directement auprès de l'organisme avant de candidater
+  date_limite_precision: indiqué « courant septembre 2026 » sur la page officielle, sans jour précis confirmé (une source
+    secondaire cite le 12 septembre, non vérifiée indépendamment) — à confirmer directement auprès de l'organisme avant de
+    candidater
   langue_dossier:
   - en
   frais_inscription:
@@ -53,27 +53,27 @@ partenaires: []
 _meta:
   extracted_by: claude-sonnet-5-manuel
   extracted_confidence: 0.4
-  extracted_notes: 'RÉSIDENCE AUTOFINANCÉE : coût de 500 à 2650€ selon la durée choisie
-    (2/4/6 semaines), à la charge de l''artiste. Date limite non confirmée avec précision
-    (voir date_limite_precision) — date_limite laissée à null par prudence plutôt
-    que de fixer une date non vérifiée, conformément au garde-fou anti-faux-positif
-    du projet. Statut classé « indetermine » pour cette raison, à corriger dès confirmation
-    directe de la date.'
+  extracted_notes: 'RÉSIDENCE AUTOFINANCÉE : coût de 500 à 2650€ selon la durée choisie (2/4/6 semaines), à la charge de l''artiste.
+    Date limite non confirmée avec précision (voir date_limite_precision) — date_limite laissée à null par prudence plutôt
+    que de fixer une date non vérifiée, conformément au garde-fou anti-faux-positif du projet. Statut classé « indetermine
+    » pour cette raison, à corriger dès confirmation directe de la date.'
   extracted_at: '2026-08-01T18:00:00+00:00'
   source_lang: en
-  resume_fr: Résidence autofinancée dans un écovillage andalou, ateliers bois/métal/upcycling
-    et permaculture, séjours de 2 à 6 semaines. Coût de 500 à 2650€ selon la durée.
-    Date limite précise non confirmée — à vérifier avant candidature.
+  resume_fr: Résidence autofinancée dans un écovillage andalou, ateliers bois/métal/upcycling et permaculture, séjours de
+    2 à 6 semaines. Coût de 500 à 2650€ selon la durée. Date limite précise non confirmée — à vérifier avant candidature.
   last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
 analyse:
-  synthese: Résidence rurale autofinancée dans un écovillage andalou, orientée vers
-    les pratiques d'upcycling, le travail du bois/métal et la permaculture.
-  pour_qui: Artistes visuel·les intéressé·es par les pratiques d'upcycling, de permaculture
-    et de vie en écovillage, prêt·es à financer leur propre séjour.
+  synthese: Résidence rurale autofinancée dans un écovillage andalou, orientée vers les pratiques d'upcycling, le travail
+    du bois/métal et la permaculture.
+  pour_qui: Artistes visuel·les intéressé·es par les pratiques d'upcycling, de permaculture et de vie en écovillage, prêt·es
+    à financer leur propre séjour.
 a_savoir:
 - 'AUTOFINANCÉ : coût de 500 à 2650€ selon la durée choisie'
-- Date limite précise non confirmée sur la page officielle — vérifier directement
-  auprès de l'organisme (contact@rec-on.eu) avant de candidater
+- Date limite précise non confirmée sur la page officielle — vérifier directement auprès de l'organisme (contact@rec-on.eu)
+  avant de candidater
 - Cadre rural/écovillage, forte résonance avec les matériaux locaux et l'upcycling
 organisme_details:
   site_web: https://www.rec-on.es

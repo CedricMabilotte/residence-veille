@@ -8,14 +8,6 @@
     "nom": "MO.CO Esba x Cité internationale des arts (programme « Artistes Demain »)"
   },
   {
-    "path": "appels/residence/225583d7.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 28,
-    "type": "residence",
-    "uid": "225583d7",
-    "nom": "Bridges"
-  },
-  {
     "path": "appels/residence/4dc8fd2e.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 28,
@@ -30,22 +22,6 @@
     "type": "residence",
     "uid": "5de27397",
     "nom": "Kota — Institut français d'Indonésie x Cité internationale des arts"
-  },
-  {
-    "path": "appels/residence/97c67394.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 21,
-    "type": "residence",
-    "uid": "97c67394",
-    "nom": "Résidences Création & Transitions — Fondation d'entreprise Martell"
-  },
-  {
-    "path": "appels/residence/9d67ee58.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 26,
-    "type": "residence",
-    "uid": "9d67ee58",
-    "nom": "Appel à résidence - Entre-Autres 2026/2027"
   },
   {
     "path": "appels/residence/c16312c6.yml",

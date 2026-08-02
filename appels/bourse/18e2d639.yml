@@ -2,7 +2,7 @@ uid: 18e2d639
 type: bourse
 source_url: https://on-the-move.org/resources/funding/mobility-funding-guide-asia
 fetched_at: '2026-05-22T11:16:42+00:00'
-score: 6
+score: 4
 status: indetermine
 opportunite:
   nom: Mobility Funding Guide to Asia
@@ -83,20 +83,64 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Le guide agrège des ressources but ne détaille pas les conditions
-    spécifiques de chaque opportunité listée.
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: Le guide agrège des ressources but ne détaille pas les conditions
-    spécifiques de chaque opportunité listée.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: Le guide agrège des ressources but ne détaille pas les conditions
-    spécifiques de chaque opportunité listée.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Le guide agrège des ressources but ne détaille pas les conditions
-    spécifiques de chaque opportunité listée.
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
 _interne_affinite:
   match: false
   signaux: []

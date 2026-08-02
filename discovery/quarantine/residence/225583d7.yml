@@ -53,8 +53,7 @@ partenaires:
 - Archives de la Critique d'Art
 _meta:
   extracted_confidence: 0.95
-  extracted_notes: Programme bien documenté avec informations claires sur les dates,
-    montants et conditions
+  extracted_notes: Programme bien documenté avec informations claires sur les dates, montants et conditions
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-08-02T09:16:20+00:00'
   source_lang: fr
@@ -62,16 +61,16 @@ _meta:
   detection_method: claude
   source_label: Cité internationale des arts — appels à candidature ouverts
   last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
 analyse:
-  synthese: 'Programme de résidence pour critiques d''art internationaux co-construit
-    par AICA International et la Cité internationale des arts. Durée de 3 mois (du
-    2 avril au 28 juin 2027) à Paris. Bénéfices : atelier-logement de 20-35m² meublé,
-    bourse mensuelle de 1000 euros nets, prise en charge du transport international
-    aller/retour et de l''assurance voyage/visa (jusqu''à 1000 euros). Critères :
-    justifier d''au moins 5 années de pratique professionnelle en critique d''art,
-    être membre AICA, résider hors de France hexagonale.'
-  pour_qui: Critiques d'art professionnels internationaux justifiant d'au moins 5
-    années d'expérience et membres de l'AICA.
+  synthese: 'Programme de résidence pour critiques d''art internationaux co-construit par AICA International et la Cité internationale
+    des arts. Durée de 3 mois (du 2 avril au 28 juin 2027) à Paris. Bénéfices : atelier-logement de 20-35m² meublé, bourse
+    mensuelle de 1000 euros nets, prise en charge du transport international aller/retour et de l''assurance voyage/visa (jusqu''à
+    1000 euros). Critères : justifier d''au moins 5 années de pratique professionnelle en critique d''art, être membre AICA,
+    résider hors de France hexagonale.'
+  pour_qui: Critiques d'art professionnels internationaux justifiant d'au moins 5 années d'expérience et membres de l'AICA.
 a_savoir:
 - Espace de travail/résidence limité (20-35m²)
 - Non accessible aux personnes en situation de handicap selon les normes actuelles
@@ -88,15 +87,14 @@ criteres_programme:
   justification: Une bourse de vie mensuelle d'un montant de 1000 euros nets de taxes
 - id: hebergement
   rempli: oui
-  justification: Un atelier-logement sur le site du Marais de la Cité internationale
-    des arts
+  justification: Un atelier-logement sur le site du Marais de la Cité internationale des arts
 - id: atelier
   rempli: oui
   justification: Espace meublé unique de travail et de vie composant l'atelier-logement
 - id: frais_pris_en_charge
   rempli: oui
-  justification: Prise en charge du transport international aller/retour jusqu'aux
-    aéroports de Paris et des frais d'assurance voyage et de visa jusqu'à 1000 euros
+  justification: Prise en charge du transport international aller/retour jusqu'aux aéroports de Paris et des frais d'assurance
+    voyage et de visa jusqu'à 1000 euros
 _interne_affinite:
   match: true
   signaux:

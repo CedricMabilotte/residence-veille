@@ -46,9 +46,8 @@ partenaires:
 - Académie des beaux-arts
 _meta:
   extracted_confidence: 0.35
-  extracted_notes: Ce document présente la programmation établie du Programme Suite
-    2026 et non un appel à candidature ouvert. Les 7 artistes et leurs expositions
-    sont déjà déterminés. Aucune information sur les conditions de candidature initiale,
+  extracted_notes: Ce document présente la programmation établie du Programme Suite 2026 et non un appel à candidature ouvert.
+    Les 7 artistes et leurs expositions sont déjà déterminés. Aucune information sur les conditions de candidature initiale,
     les frais, les modalités financières ou les pièces requises n'est fournie.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T13:55:29+00:00'
@@ -57,22 +56,21 @@ _meta:
   detection_method: claude
   source_label: CNAP — soutien à la création
   last_status_check: '2026-08-02'
+  quarantine_reason: discipline incompatible (pratique non-plastique, ex. critique/théorie/commissariat)
+  quarantined_at: '2026-08-02T18:27:27+00:00'
+  quarantined_by: rescore_existing.py (resserrement filtre discipline, leçon L8)
 analyse:
-  synthese: Programme Suite 2026 est une exposition collective de 7 artistes soutenus
-    par le Centre national des arts plastiques (Cnap), en partenariat avec l'Académie
-    des beaux-arts. L'exposition se déploie du 16 mai 2026 au 30 avril 2027 dans 6
-    lieux en France et 1 à l'international (Berlin). Le programme vise à donner une
-    visibilité publique à des projets ayant bénéficié d'un soutien du Cnap et à irriguer
-    le territoire français en matière d'arts visuels, avec une attention particulière
+  synthese: Programme Suite 2026 est une exposition collective de 7 artistes soutenus par le Centre national des arts plastiques
+    (Cnap), en partenariat avec l'Académie des beaux-arts. L'exposition se déploie du 16 mai 2026 au 30 avril 2027 dans 6
+    lieux en France et 1 à l'international (Berlin). Le programme vise à donner une visibilité publique à des projets ayant
+    bénéficié d'un soutien du Cnap et à irriguer le territoire français en matière d'arts visuels, avec une attention particulière
     aux quartiers prioritaires et aux territoires ruraux.
-  pour_qui: Ce programme s'adresse aux artistes visuels ayant bénéficié antérieurement
-    d'un soutien à un projet artistique ou à la photographie documentaire contemporaine
-    du Cnap.
+  pour_qui: Ce programme s'adresse aux artistes visuels ayant bénéficié antérieurement d'un soutien à un projet artistique
+    ou à la photographie documentaire contemporaine du Cnap.
 a_savoir:
 - 'Ce n''est pas un appel à candidature ouvert : les 7 artistes sont déjà sélectionnés'
 - C'est la 12e édition du programme Suite
-- Aucun détail fourni sur les modalités financières, l'hébergement, la prise en charge
-  des frais ou les pièces demandées
+- Aucun détail fourni sur les modalités financières, l'hébergement, la prise en charge des frais ou les pièces demandées
 organisme_details:
   site_web: https://www.cnap.fr/
   adresse: null
@@ -81,20 +79,18 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Le texte mentionne un « accompagnement » des artistes mais ne précise
-    pas si une rémunération, bourse ou dotation monétaire est versée.
+  justification: Le texte mentionne un « accompagnement » des artistes mais ne précise pas si une rémunération, bourse ou
+    dotation monétaire est versée.
 - id: hebergement
   rempli: non
   justification: Aucune mention de fourniture d'hébergement dans le texte.
 - id: atelier
   rempli: partiel
-  justification: Antoine Dochniak bénéficie d'une résidence au « Semis, lieu de fabrication
-    » du 7 au 20 septembre 2026, mais les autres artistes disposent uniquement d'espaces
-    d'exposition.
+  justification: Antoine Dochniak bénéficie d'une résidence au « Semis, lieu de fabrication » du 7 au 20 septembre 2026, mais
+    les autres artistes disposent uniquement d'espaces d'exposition.
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Le texte ne détaille pas la prise en charge des frais de voyage,
-    production ou transport d'œuvres.
+  justification: Le texte ne détaille pas la prise en charge des frais de voyage, production ou transport d'œuvres.
 _interne_affinite:
   match: false
   signaux:
