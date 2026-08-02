@@ -93,6 +93,7 @@ h3 { font-size:1.15rem; margin:1.4rem 0 .5rem; }
 .deadline { font-size:.85rem; color:var(--accent); font-weight:600;
   font-family:-apple-system,system-ui,sans-serif; }
 .card.indetermine .deadline { color:var(--faint); font-weight:normal; font-style:italic; }
+.card.ouverte-continue .deadline { color:var(--accent); font-weight:600; font-style:normal; }
 .card h3 { margin:.5rem 0 .3rem; font-size:1.18rem; line-height:1.3; }
 .card h3 a { text-decoration:none; color:var(--ink); } .card h3 a:hover { color:var(--accent); }
 .card .meta { font-size:.9rem; color:var(--muted); font-family:-apple-system,system-ui,sans-serif; }
@@ -347,12 +348,16 @@ def page_shell(title: str, body: str, active: str = "") -> str:
 </html>'''
 
 
-def deadline_html(dl) -> str:
+def deadline_html(dl, status: str | None = None) -> str:
     if dl:
         d = _date(dl)
         if d:
             return f'<span class="deadline">Échéance {d.day:02d}/{d.month:02d}/{d.year}</span>'
         return f'<span class="deadline">Échéance {_esc(dl)}</span>'
+    if status == "ouverte-continue":
+        # Candidature réellement continue (autofinancée ou au fil de l'eau) —
+        # distinct de "échéance à confirmer" (donnée manquante). Voir L3.
+        return '<span class="deadline">Candidature continue</span>'
     return '<span class="deadline">échéance à confirmer</span>'
 
 
@@ -377,7 +382,7 @@ def render_card(ff: dict) -> str:
     data-search="{_esc(blob)}">
   <div class="row1">
     <span class="tag {_esc(t)}">{_esc(TYPE_LABEL_FR.get(t, t))}</span>
-    {deadline_html(ff['date_limite'])}{score_html}
+    {deadline_html(ff['date_limite'], ff['status'])}{score_html}
   </div>
   <h3><a href="/o/{_esc(ff['uid'])}.html">{_esc(ff['affichage'])}</a></h3>
   <div class="meta">{org_html}{' — ' if ff['organisme'] and lieu else ''}{_esc(lieu)}
@@ -458,7 +463,7 @@ def render_fiche_item(ff: dict) -> str:
 <div class="fiche-head">
   <div class="row1">
     <span class="tag {_esc(t)}">{_esc(TYPE_LABEL_FR.get(t, t))}</span>
-    {deadline_html(ff['date_limite'])}{score_html}
+    {deadline_html(ff['date_limite'], ff['status'])}{score_html}
   </div>
   <h2>{_esc(ff['affichage'])}</h2>
   <div class="sub">{org_link}{' — ' if ff['organisme'] and lieu else ''}{lieu_link}
@@ -468,7 +473,7 @@ def render_fiche_item(ff: dict) -> str:
   <dt>Type</dt><dd>{_esc(TYPE_LABEL_FR.get(t, t))}</dd>
   <dt>Organisme</dt><dd>{org_link}</dd>
   <dt>Lieu</dt><dd>{lieu_link or '—'}</dd>
-  <dt>Date limite</dt><dd>{_esc(ff['date_limite']) or 'à confirmer'}</dd>
+  <dt>Date limite</dt><dd>{_esc(ff['date_limite']) or ('candidature continue (sans date limite fixe)' if ff['status'] == 'ouverte-continue' else 'à confirmer')}</dd>
 </dl></div>
 <h2 class="sec">Analyse du programme</h2>
 {analyse_html}

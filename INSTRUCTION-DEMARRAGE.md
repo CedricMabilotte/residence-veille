@@ -401,6 +401,14 @@ opportunite:
 
 candidature:
   date_limite: "2026-07-15"
+  # candidature_continue (ajouté 2026-08-02, leçon L3) : true si l'opportunité
+  # n'a délibérément PAS de date limite fixe — candidature au fil de l'eau,
+  # généralement une résidence autofinancée (ex. O Castro Art Village). Distinct
+  # d'une simple absence de date_limite par lacune d'extraction : deadline_tracker.py
+  # calcule le statut "ouverte-continue" uniquement si ce champ est explicitement
+  # true, sinon une fiche sans date_limite reste "indetermine" (donnée à corriger).
+  # Champ optionnel, absent ou false par défaut.
+  candidature_continue: false
   langue_dossier: ["fr", "en"]
   langue_source: "en"           # langue de la page d'appel (pour résumé FR si != fr)
   frais_inscription: { montant: 0, devise: "EUR" }

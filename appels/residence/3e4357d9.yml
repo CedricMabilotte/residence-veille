@@ -3,7 +3,7 @@ type: residence
 source_url: https://ocastroartvillage.com/creative-residency-at-o-castro-art-village/
 fetched_at: '2026-08-01T15:15:00+00:00'
 score: 6
-status: indetermine
+status: ouverte-continue
 opportunite:
   nom: Self-funded Creative Residency — O Castro Art Village
   organisme: O Castro Art Village
@@ -15,6 +15,7 @@ candidature:
   date_limite: null
   date_limite_precision: candidature continue (au fil de l'eau, pas de date limite
     fixe)
+  candidature_continue: true
   langue_dossier:
   - en
   frais_inscription:

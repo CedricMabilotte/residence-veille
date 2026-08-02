@@ -122,13 +122,23 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python scripts/discovery_audit.py || echo "  audit skipped"
 
-      - name: "Discovery (Mastodon, network_pages)"
-        if: ${{ steps.params.outputs.dry_run != 'true' }}
+      - name: "Discovery hebdomadaire (Mastodon, network_pages)"
+        # 2026-08-02 : ce step tournait tous les jours alors que INSTRUCTION-DEMARRAGE.md
+        # §12.1 documente une cadence Hebdo pour discovery_mastodon.py (network_pages n'a
+        # pas de cadence documentée, rattaché ici par cohérence). L'input do_discovery_weekly
+        # existait dans workflow_dispatch et était calculé par l'étape "params" (vrai les
+        # lundis en cron) mais n'était consommé par aucun step — branché maintenant pour
+        # que la cadence documentée corresponde à la cadence réelle. La veille principale
+        # (scraping des sources déjà connues) reste quotidienne — seule la découverte de
+        # *nouvelles* sources candidates passe à l'hebdomadaire.
+        if: ${{ steps.params.outputs.dry_run != 'true' && steps.params.outputs.do_weekly == 'true' }}
         run: |
           python scripts/discovery_mastodon.py       || echo "  mastodon skipped"
           python scripts/discovery_network_pages.py  || echo "  network_pages skipped"
 
-      - name: "Discovery hebdomadaire/mensuelle (LLM suggest, blind spots)"
+      - name: "Discovery mensuelle (LLM suggest, blind spots)"
+        # Nom corrigé le 2026-08-02 : ce step ne tournait déjà que mensuellement
+        # (condition do_monthly ci-dessous) — le nom "hebdomadaire/mensuelle" était trompeur.
         if: ${{ steps.params.outputs.do_monthly == 'true' }}
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}

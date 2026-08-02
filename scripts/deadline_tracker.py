@@ -42,9 +42,22 @@ def _parse_date(s: str | None) -> _dt.date | None:
         return None
 
 
-def compute_status(date_limite: _dt.date | None, today: _dt.date) -> str:
+def compute_status(
+    date_limite: _dt.date | None,
+    today: _dt.date,
+    candidature_continue: bool = False,
+) -> str:
+    """
+    - candidature_continue=True + pas de date_limite → "ouverte-continue" :
+      candidature réellement continue (autofinancée ou au fil de l'eau), pas
+      une donnée manquante. Distinct de "indetermine" depuis 2026-08-02 (L3) :
+      auparavant les deux cas étaient confondus, noyant les vraies opportunités
+      ouvertes en continu dans le bruit des fiches à date manquante par erreur
+      d'extraction. Voir lecons-Residences-artistiques.md.
+    - Sinon, pas de date_limite → "indetermine" (donnée manquante, à corriger).
+    """
     if date_limite is None:
-        return "indetermine"
+        return "ouverte-continue" if candidature_continue else "indetermine"
     if date_limite < today:
         return "expiree"
     delta = (date_limite - today).days
@@ -65,8 +78,10 @@ def list_fiches() -> list[Path]:
 def update_one(path: Path, today: _dt.date) -> dict:
     """Met à jour le status d'une fiche. Retourne {path, status, days_to_deadline}."""
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    date_lim = _parse_date((data.get("candidature") or {}).get("date_limite"))
-    new_status = compute_status(date_lim, today)
+    cand = data.get("candidature") or {}
+    date_lim = _parse_date(cand.get("date_limite"))
+    candidature_continue = bool(cand.get("candidature_continue"))
+    new_status = compute_status(date_lim, today, candidature_continue)
     data["status"] = new_status
     data.setdefault("_meta", {})
     data["_meta"]["last_status_check"] = today.isoformat()
@@ -129,6 +144,7 @@ def main():
         "total": len(records),
         "ouvertes": sum(1 for r in records if r["status"] == "ouverte"),
         "bientot_fermees": sum(1 for r in records if r["status"] == "bientot-fermee"),
+        "ouvertes_continues": sum(1 for r in records if r["status"] == "ouverte-continue"),
         "expirees_archivees": sum(1 for r in records if r.get("archived")),
         "indetermine": sum(1 for r in records if r["status"] == "indetermine"),
     }
