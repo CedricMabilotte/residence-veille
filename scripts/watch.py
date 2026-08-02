@@ -216,6 +216,12 @@ def process_item(item: dict, source_label: str) -> dict | None:
     # 5. Scoring
     sc = score_opportunity.score_fiche(fiche)
     fiche["score"] = sc["score"]
+    # Barème public (config/criteres.yml) — schéma déjà attendu par
+    # generate_site.py::fiche_fields/render_fiche_item (table "Critères
+    # recherchés"), qui existait côté rendu mais n'était jamais peuplé avant
+    # le 2026-08-02. Distinct de _interne_affinite : jamais préfixé _, car
+    # factuel et public par conception (cf. config/criteres.yml).
+    fiche["criteres_programme"] = sc["criteres_programme"]
     fiche["_interne_affinite"] = {
         "match": sc["bonus_profil_interne"] > 0,
         "signaux": sc["signaux_profil_interne"],
