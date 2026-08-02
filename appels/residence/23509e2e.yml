@@ -1,0 +1,107 @@
+uid: 23509e2e
+type: residence
+source_url: https://www.cnap.fr/annonces/residence-tiny-spaces
+fetched_at: '2026-08-02T08:37:12+00:00'
+score: 6
+status: ouverte
+opportunite:
+  nom: Résidence Tiny Spaces
+  organisme: Tiny Spaces
+  lieu:
+    ville: Oulu, Athènes, Potsdam
+    pays: Allemagne, Grèce, Finlande
+    territoire: null
+candidature:
+  date_limite: '2026-12-31'
+  date_limite_precision: day
+  langue_dossier: []
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: []
+  url_candidature: https://tinyspaces.eu/open-call/
+eligibilite:
+  disciplines:
+  - arts visuels
+  - textes
+  - techniques mixtes
+  - son
+  - audiovisuel
+  - numérique
+  - théâtre
+  - danse
+  - performance
+  - musique
+  - écriture
+  - création
+  - design
+  niveau_carriere: tous
+  age_max: null
+  nationalite: résidant dans un pays de l'UE ou d'Europe créative
+  residence_administrative: UE ou Europe créative
+conditions_residence:
+  duree:
+    semaines: null
+    dates: mai à août 2026
+  hebergement: true
+  atelier: Ateliers d'artistes à Oulu, Athènes et Potsdam aménagés dans d'anciens
+    bâtiments désaffectés
+  remuneration:
+    montant: 3000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: Archivage des œuvres sur le site web, présentation sur une plateforme
+    numérique, exposition collective lors du symposium à Oulu en août 2026
+partenaires:
+- Trans Europe Halles
+_meta:
+  extracted_confidence: 0.88
+  extracted_notes: Programme bien documenté. Langue du dossier non spécifiée. Lien
+    vers candidature disponible.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T08:37:12+00:00'
+  source_lang: fr
+  detection_confidence: 0.8125
+  detection_method: heuristic
+  source_label: CNAP — annonces filtrées « Résidence d'artiste »
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: La Résidence Tiny Spaces sélectionne six artistes pour une résidence d'un
+    mois en Allemagne, Grèce et Finlande, entre mai et août 2026. Chaque artiste reçoit
+    3000€ plus les frais de voyage, d'hébergement et dépenses quotidiennes. Le voyage
+    par train et ferry est intégré au processus créatif avec visites d'institutions
+    culturelles. Une exposition collective et un symposium clôturent le programme
+    à Oulu en août 2026.
+  pour_qui: Artistes et créateurs résidant en UE ou pays du programme Europe créative,
+    travaillant sur le processus et la création in situ, toutes disciplines confondues.
+a_savoir:
+- Seulement 6 résidences disponibles - sélection très compétitive.
+- Langue du dossier de candidature non spécifiée.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Chaque artiste reçoit une rémunération de 3 000 € pour un mois
+- id: hebergement
+  rempli: oui
+  justification: Cabines et ateliers fournis; frais d'hébergement couverts
+- id: atelier
+  rempli: oui
+  justification: Ateliers d'artistes à Oulu, Athènes et Potsdam aménagés dans d'anciens
+    bâtiments désaffectés
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Frais de voyage, d'hébergement et dépenses quotidiennes pris en charge
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

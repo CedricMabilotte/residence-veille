@@ -1,0 +1,26 @@
+uid: tiny-spaces-3fbfc17b
+nom_canonique: Tiny Spaces
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 23509e2e
+  type: residence
+  nom: Résidence Tiny Spaces
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: trans-europe-halles
+  occurrences: 1
+  nom_brut: Trans Europe Halles
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-02'
+  last_updated: '2026-08-02'
+  status: actif
+  nouveaux_entrants: true

@@ -1,0 +1,98 @@
+uid: 2ba5df0e
+type: residence
+source_url: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
+fetched_at: '2026-08-02T08:28:39+00:00'
+score: 8
+status: ouverte
+opportunite:
+  nom: 'Résidence d''artiste 2027 : Photographie - Traverse'
+  organisme: Traverse
+  lieu:
+    ville: Bagnères-de-Bigorre
+    pays: France
+    territoire: Haute-Bigorre
+candidature:
+  date_limite: '2026-09-10'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://traversiens.com/event/appel-a-projet-residence-photo-2027/
+eligibilite:
+  disciplines:
+  - Photographie
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: 8
+    dates: printemps 2027
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: 6000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Projet artistique participatif élaboré pour le territoire de la Haute-Bigorre
+partenaires: []
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Informations basiques confirmées (montant, dates, lieu, discipline).
+    Conditions matérielles (hébergement, atelier) non explicitement confirmées. Organisme
+    identifié par le titre et le domaine.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T08:28:39+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: CNAP — annonces filtrées « Résidence d'artiste »
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: 'Résidence de territoire de 2 mois pour artistes photographes au printemps
+    2027, basée à Bagnères-de-Bigorre en Haute-Bigorre. Le programme offre une dotation
+    de 6 000 € TTC. L''axe principal est la dimension participative : le projet doit
+    être spécifiquement élaboré pour le territoire des 24 communes rurales au pied
+    des Pyrénées. Le thème de cette édition est « Perspective(s) ». Date limite de
+    candidature : 10 septembre 2026.'
+  pour_qui: Artistes photographes ayant un projet de création participatif enraciné
+    territorialement.
+a_savoir:
+- 'Dimension participative exigée : le projet doit être spécifiquement élaboré pour
+  le territoire local, pas générique'
+- Conditions matérielles (hébergement, atelier, espace de travail) non explicitement
+  confirmées
+- Organisme porteur identifié par le titre et le domaine, pas nommé directement dans
+  le texte
+organisme_details:
+  site_web: https://traversiens.com
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: « Montant proposé 6 000 € TTC »
+- id: hebergement
+  rempli: inconnu
+  justification: Pas de mention explicite d'un logement fourni pendant la résidence
+- id: atelier
+  rempli: inconnu
+  justification: Pas de mention explicite d'un espace de travail, d'un atelier ou
+    d'équipements fournis
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Aucune mention de prise en charge des frais de voyage, de production
+    ou de transport d'œuvres
+_interne_affinite:
+  match: true
+  signaux:
+  - rural
+  - long séjour
+  bonus_score: 1

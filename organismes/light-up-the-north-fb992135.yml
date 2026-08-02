@@ -13,7 +13,12 @@ opportunites_liees:
 - uid: d2f73f96
   type: exposition
   nom: Light Up The North SPARK - Early Career Artist and Producer Programme 2026
-track_record: {}
+track_record:
+  exposition:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-03-23 → 2027-07-21
 partenaires_mentionnes:
 - organisme_uid: light-up-lancaster
   occurrences: 2
@@ -24,6 +29,6 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-05-22'
+  last_updated: '2026-08-02'
   status: actif
   nouveaux_entrants: true

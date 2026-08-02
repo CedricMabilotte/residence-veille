@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Residence//actitude.org//FR
 BEGIN:VEVENT
 UID:0689a10d@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:[Résidence] MO.CO Esba x Cité internationale des arts (programme « Artistes Demain »)
@@ -11,23 +11,55 @@ URL:https://residence.actitude.org/o/0689a10d.html
 END:VEVENT
 BEGIN:VEVENT
 UID:1a3f71ff@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260407
 DTEND;VALUE=DATE:20260408
 SUMMARY:[Résidence] Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résidences trimestrielles pour des projets sur l'environnement 2026]
 URL:https://residence.actitude.org/o/1a3f71ff.html
 END:VEVENT
 BEGIN:VEVENT
+UID:225583d7@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:[Résidence] Bridges
+URL:https://residence.actitude.org/o/225583d7.html
+END:VEVENT
+BEGIN:VEVENT
+UID:23509e2e@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:[Résidence] Résidence Tiny Spaces
+URL:https://residence.actitude.org/o/23509e2e.html
+END:VEVENT
+BEGIN:VEVENT
 UID:235efcae@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:[Résidence] La Wayaka Current — Atacama Residency
 URL:https://residence.actitude.org/o/235efcae.html
 END:VEVENT
 BEGIN:VEVENT
+UID:2ba5df0e@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:[Résidence] Résidence d'artiste 2027 : Photographie - Traverse
+URL:https://residence.actitude.org/o/2ba5df0e.html
+END:VEVENT
+BEGIN:VEVENT
+UID:41be1cd6@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:[Résidence] Résidence de création participative 2027
+URL:https://residence.actitude.org/o/41be1cd6.html
+END:VEVENT
+BEGIN:VEVENT
 UID:4dc8fd2e@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] École des Beaux-Arts de Bretagne (EESAB) x Cité internationale des arts
@@ -35,15 +67,23 @@ URL:https://residence.actitude.org/o/4dc8fd2e.html
 END:VEVENT
 BEGIN:VEVENT
 UID:53aebf91@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 SUMMARY:[Résidence] RESIDENCIA EN TORNO AL ARTE Y LA EDUCACIÓN 2026 [RÉSIDENCE AUTOUR DE L'ART ET DE L'ÉDUCATION 2026]
 URL:https://residence.actitude.org/o/53aebf91.html
 END:VEVENT
 BEGIN:VEVENT
+UID:53bddbf8@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:[Résidence] Institut français x Cité internationale des arts
+URL:https://residence.actitude.org/o/53bddbf8.html
+END:VEVENT
+BEGIN:VEVENT
 UID:58ee772e@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:[Résidence] Proyecto'ACE — Production Residencies
@@ -51,23 +91,39 @@ URL:https://residence.actitude.org/o/58ee772e.html
 END:VEVENT
 BEGIN:VEVENT
 UID:5de27397@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] Kota — Institut français d'Indonésie x Cité internationale des arts
 URL:https://residence.actitude.org/o/5de27397.html
 END:VEVENT
 BEGIN:VEVENT
+UID:6c77a484@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:[Résidence] Résidence d'artiste à Vénissieux
+URL:https://residence.actitude.org/o/6c77a484.html
+END:VEVENT
+BEGIN:VEVENT
 UID:73de5a6b@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:[Résidence] Nocefresca Artist Residency 2027
 URL:https://residence.actitude.org/o/73de5a6b.html
 END:VEVENT
 BEGIN:VEVENT
+UID:762972f7@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:[Résidence] Résidences Institut français x Cité internationale des arts
+URL:https://residence.actitude.org/o/762972f7.html
+END:VEVENT
+BEGIN:VEVENT
 UID:764f21eb@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:[Résidence] Association Françoise pour l'œuvre contemporaine x Cité internationale des arts
@@ -75,7 +131,7 @@ URL:https://residence.actitude.org/o/764f21eb.html
 END:VEVENT
 BEGIN:VEVENT
 UID:82ac6b64@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 SUMMARY:[Résidence] TaDA Residency 2027
@@ -83,15 +139,23 @@ URL:https://residence.actitude.org/o/82ac6b64.html
 END:VEVENT
 BEGIN:VEVENT
 UID:97c67394@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:[Résidence] Résidences Création & Transitions — Fondation d'entreprise Martell
 URL:https://residence.actitude.org/o/97c67394.html
 END:VEVENT
 BEGIN:VEVENT
+UID:9d67ee58@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:[Résidence] Appel à résidence - Entre-Autres 2026/2027
+URL:https://residence.actitude.org/o/9d67ee58.html
+END:VEVENT
+BEGIN:VEVENT
 UID:b2fced6d@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:[Résidence] Institut français x Cité internationale des arts 2027
@@ -99,15 +163,31 @@ URL:https://residence.actitude.org/o/b2fced6d.html
 END:VEVENT
 BEGIN:VEVENT
 UID:b7074aef@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:[Résidence] Ars Biologica — ArtXScience Residency (ECOC2028)
 URL:https://residence.actitude.org/o/b7074aef.html
 END:VEVENT
 BEGIN:VEVENT
+UID:c0d35a23@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:[Résidence] Convocatoria de proyectos de Investigación Situada 2027 [Appel à projets d'Investigations Situées 2027]
+URL:https://residence.actitude.org/o/c0d35a23.html
+END:VEVENT
+BEGIN:VEVENT
+UID:c16312c6@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:[Résidence] République dominicaine x Cité internationale des arts
+URL:https://residence.actitude.org/o/c16312c6.html
+END:VEVENT
+BEGIN:VEVENT
 UID:c781ae19@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] République dominicaine x Cité internationale des arts
@@ -115,23 +195,39 @@ URL:https://residence.actitude.org/o/c781ae19.html
 END:VEVENT
 BEGIN:VEVENT
 UID:cc05d124@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:[Résidence] Westwerk International Residency Program
 URL:https://residence.actitude.org/o/cc05d124.html
 END:VEVENT
 BEGIN:VEVENT
+UID:eb0a78fc@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:[Résidence] Programme de résidence de création et de recherche pour artistes timorais
+URL:https://residence.actitude.org/o/eb0a78fc.html
+END:VEVENT
+BEGIN:VEVENT
 UID:fc738c65@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] Timor-Leste — Institut français d'Indonésie / Fundação Oriente x Cité internationale des arts
 URL:https://residence.actitude.org/o/fc738c65.html
 END:VEVENT
 BEGIN:VEVENT
+UID:8030ae41@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:[Bourse] Fonds culturel franco-allemand
+URL:https://residence.actitude.org/o/8030ae41.html
+END:VEVENT
+BEGIN:VEVENT
 UID:dd09fac5@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:[Bourse] Aider à la production d'oeuvres d'art
@@ -139,7 +235,7 @@ URL:https://residence.actitude.org/o/dd09fac5.html
 END:VEVENT
 BEGIN:VEVENT
 UID:64ec9c9e@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:[Prix] Prix Mourlot 2026 (15e édition) — peinture
@@ -147,7 +243,7 @@ URL:https://residence.actitude.org/o/64ec9c9e.html
 END:VEVENT
 BEGIN:VEVENT
 UID:dbe956b7@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:[Prix] Talents Contemporains « La Terre » — Fondation François Schneider
@@ -155,10 +251,18 @@ URL:https://residence.actitude.org/o/dbe956b7.html
 END:VEVENT
 BEGIN:VEVENT
 UID:0f91c90f@residence.actitude.org
-DTSTAMP:20260801T215355Z
+DTSTAMP:20260802T095627Z
 DTSTART;VALUE=DATE:20260809
 DTEND;VALUE=DATE:20260810
 SUMMARY:[Appel à exposition] Salon des Arts de Cholet 2026
 URL:https://residence.actitude.org/o/0f91c90f.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a5664345@residence.actitude.org
+DTSTAMP:20260802T095627Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:[Appel à exposition] PIDA - Programme International de Diffusion Artistique
+URL:https://residence.actitude.org/o/a5664345.html
 END:VEVENT
 END:VCALENDAR

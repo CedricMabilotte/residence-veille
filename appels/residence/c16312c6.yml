@@ -1,0 +1,126 @@
+uid: c16312c6
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/republique-dominicaine-x-cite-internationale-des-arts
+fetched_at: '2026-08-02T09:11:33+00:00'
+score: 9
+status: bientot-fermee
+opportunite:
+  nom: République dominicaine x Cité internationale des arts
+  organisme: Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-30'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - Curriculum vitæ (4 pages maximum, format PDF)
+  - Dossier artistique avec une dizaine de visuels d'œuvres avec légendes (10 pages
+    maximum, format PDF, 10 Mo max, avec liens vidéo et/ou fichiers audio .mp3, .avi
+    si possible)
+  - Lettre d'intention (3 pages maximum, format PDF) présentant les éléments clés
+    du parcours artistique, le projet pour la résidence, les raisons justifiant la
+    résidence à Paris, les motivations d'être accueilli à la Cité
+  url_candidature: https://www.citeinternationaledesarts.fr/appels-a-candidature/republique-dominicaine-x-cite-internationale-des-arts
+eligibilite:
+  disciplines:
+  - peinture
+  - sculpture
+  - installation
+  - photographie
+  - art vidéo
+  - art numérique
+  - performance
+  - pratique transdisciplinaire
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: Dominicaine
+  residence_administrative: République dominicaine depuis au moins deux ans
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: 5 janvier au 26 mars 2027 ou 2 avril au 28 juin 2027
+  hebergement: true
+  atelier: Atelier-logement sur le site du Marais de la Cité internationale des arts,
+    20-35 m² meublé, composé d'une pièce de travail, une cuisine, une salle de bains
+    et un espace nuit
+  remuneration:
+    montant: 1000
+    devise: EUR
+    periodicite: mois
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: Compte rendu faisant état des activités réalisées et du processus créatif
+    engagé (visuelle et textuelle). Engagement dans les open studios hebdomadaires
+    de la Cité.
+partenaires:
+- Ambassade de la République dominicaine en France
+- Banco de Reservas de la República Dominicana
+- Banco Múltiple
+- Centre culturel Banreservas
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Appel à candidatures détaillé et structuré. Dates précises, montants
+    explicites, critères d'éligibilité clairs. Peu d'ambiguïtés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T09:11:33+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Cité internationale des arts — appels à candidature ouverts
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: La Cité internationale des arts, en partenariat avec l'Ambassade de la
+    République dominicaine en France et Banco de Reservas, propose 2 résidences de
+    3 mois à Paris en 2027 (5 janvier au 26 mars et 2 avril au 28 juin) destinées
+    aux artistes visuels dominicains. Les résidents reçoivent un atelier-logement
+    de 20-35 m², une bourse mensuelle de 1000 euros nets, la prise en charge du transport
+    international et une assurance voyage/santé. Le programme offre un accompagnement,
+    une mise en réseau et la possibilité de restituer la recherche via les open studios
+    hebdomadaires.
+  pour_qui: Artistes visuels de nationalité dominicaine, résidant en République dominicaine
+    depuis au moins 2 ans, justifiant au minimum 3 ans d'expérience professionnelle,
+    et parlant anglais ou français.
+a_savoir:
+- Nationalité dominicaine obligatoire et résidence en République dominicaine requise
+  depuis au moins 2 ans
+- Durée fixe de 3 mois sur deux périodes déterminées
+- Frais de passeport, visa et modification de billets non couverts par l'organisme
+- Ateliers-logements ne répondent pas aux normes actuelles d'accessibilité pour personnes
+  en situation de handicap
+- Engagement complet requis pendant toute la résidence et restitution obligatoire
+  du processus créatif
+- Seules 2 places disponibles au total
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: Site du Marais, Paris
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Une bourse de vie mensuelle d'un montant de 1000 euros nets de taxes
+- id: hebergement
+  rempli: oui
+  justification: Un atelier-logement sur le site du Marais de la Cité internationale
+    des arts
+- id: atelier
+  rempli: oui
+  justification: Atelier-logement composé d'un espace meublé unique de travail et
+    de vie, de 20-35 m²
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Prise en charge du transport international aller/retour en classe
+    économique jusqu'aux aéroports de Paris et frais d'assurance voyage et de santé
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

@@ -16,12 +16,17 @@ opportunites_liees:
 - uid: 88d8f72a
   type: exposition
   nom: Pink 2026, International Photography Exhibition
-track_record: {}
+track_record:
+  exposition:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-03-23 → 2027-07-21
 partenaires_mentionnes: []
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-05-22'
+  last_updated: '2026-08-02'
   status: actif
   nouveaux_entrants: true
 ville: Glasgow

@@ -49,7 +49,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: ADAGP — actualités (appels, bourses, prix)
-  last_status_check: '2026-08-01'
+  last_status_check: '2026-08-02'
 analyse:
   synthese: L'ENSP Arles propose un programme d'accompagnement post-diplôme explorant
     les intersections entre l'intelligence artificielle et la création artistique.

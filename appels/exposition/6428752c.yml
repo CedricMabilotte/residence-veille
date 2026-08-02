@@ -56,7 +56,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: claude
   source_label: CNAP — soutien à la création
-  last_status_check: '2026-08-01'
+  last_status_check: '2026-08-02'
 analyse:
   synthese: Programme Suite 2026 est une exposition collective de 7 artistes soutenus
     par le Centre national des arts plastiques (Cnap), en partenariat avec l'Académie

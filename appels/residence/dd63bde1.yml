@@ -1,11 +1,11 @@
 uid: dd63bde1
 type: residence
 source_url: https://www.pollen-monflanquin.com/residences
-fetched_at: '2026-05-22T14:38:13+00:00'
-score: 6
+fetched_at: '2026-08-02T09:17:01+00:00'
+score: 7
 status: indetermine
 opportunite:
-  nom: null
+  nom: Artistes en résidence à Pollen
   organisme: Pollen
   lieu:
     ville: Monflanquin
@@ -15,59 +15,49 @@ candidature:
   date_limite: null
   date_limite_precision: null
   langue_dossier: null
-  frais_inscription:
-    montant: null
-    devise: null
+  frais_inscription: null
   pieces_demandees: null
   url_candidature: null
 eligibilite:
   disciplines:
   - arts plastiques
-  niveau_carriere: tous
+  niveau_carriere: null
   age_max: null
   nationalite: sans restriction
   residence_administrative: null
 conditions_residence:
-  duree:
-    semaines: null
-    dates: null
+  duree: null
   hebergement: null
   atelier: null
-  remuneration:
-    montant: null
-    devise: null
-    periodicite: null
-  voyage:
-    pris_en_charge: null
-    plafond: null
-    devise: null
+  remuneration: null
+  voyage: null
   restitution: null
-partenaires: null
+partenaires: []
 _meta:
-  extracted_confidence: 0.2
-  extracted_notes: 'Contenu fragmenté : page d''accueil générale, non appel à candidatures
-    détaillé. Informations manquantes : dates limites, modalités de candidature, conditions
-    de résidence spécifiques, rémunération, hébergement.'
+  extracted_confidence: 0.15
+  extracted_notes: 'Contenu fragmentaire et s''arrête au milieu d''une phrase. Seules
+    informations accessibles : organisme depuis 1991, lieu géographique, disciplines
+    et ouverture aux artistes de toutes nationalités. Manquent : date limite, frais,
+    durée, hébergement, rémunération, modalités de candidature.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T14:38:13+00:00'
+  extracted_at: '2026-08-02T09:17:01+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Pollen — résidence (Monflanquin)
-  last_status_check: '2026-08-01'
+  last_status_check: '2026-08-02'
 analyse:
-  synthese: Pollen accueille depuis 1991 des artistes plasticien.nes de toutes nationalités
-    en Lot-et-Garonne pour réaliser un projet spécifique ou poursuivre une recherche
-    personnelle. La structure se présente comme une plate-forme d'expérimentation
-    et un lieu d'approfondissement du travail artistique. Le contenu consulté est
-    une page d'introduction générale sans détails spécifiques sur l'appel à candidatures
-    actuel.
-  pour_qui: Artistes plasticien.nes de toutes nationalités.
+  synthese: Pollen est une plateforme d'expérimentation artistique en Lot-et-Garonne
+    accueillant depuis 1991 des artistes plasticiens de toutes nationalités. Le programme
+    permet aux artistes de réaliser un projet spécifique ou de poursuivre une recherche
+    personnelle dans un lieu d'accomplissement et d'approfondissement du travail.
+    Les détails des conditions de résidence (durée, hébergement, rémunération, modalités
+    de candidature) ne sont pas disponibles dans le texte source.
+  pour_qui: Artistes plasticiens de toutes nationalités en quête d'un espace de production
+    et d'expérimentation pour un projet spécifique ou une recherche personnelle.
 a_savoir:
-- 'Page d''accueil générique : l''appel à candidatures détaillé n''est pas accessible
-  via ce contenu.'
-- Aucune information sur les conditions concrètes de la résidence (durée, hébergement,
-  rémunération, frais).
+- 'Contenu source incomplet : impossible de vérifier les conditions essentielles (durée
+  de résidence, hébergement, rémunération, date limite de candidature).'
 organisme_details:
   site_web: https://www.pollen-monflanquin.com
   adresse: null
@@ -76,17 +66,18 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune mention de rémunération, bourse ou dotation.
+  justification: Aucune information sur rémunération, bourse ou dotation monétaire
+    dans le texte disponible.
 - id: hebergement
   rempli: inconnu
-  justification: Pas d'information sur logement fourni.
+  justification: Aucune mention explicite de logement fourni.
 - id: atelier
-  rempli: inconnu
-  justification: Texte évoque un 'lieu propice à l'accomplissement' mais sans détail
-    sur équipements ou espace fourni.
+  rempli: partiel
+  justification: 'Mentionné implicitement : « lieu propice à l''accomplissement et
+    l''approfondissement d''un travail » et « plate-forme d''expérimentation ».'
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune précision sur couverture voyage, production ou frais.
+  justification: Aucune information sur couverture des frais de voyage ou de production.
 _interne_affinite:
   match: false
   signaux: []

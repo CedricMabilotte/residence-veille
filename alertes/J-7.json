@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "path": "appels/exposition/0f91c90f.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 7,
+    "type": "exposition",
+    "uid": "0f91c90f",
+    "nom": "Salon des Arts de Cholet 2026"
+  }
+]

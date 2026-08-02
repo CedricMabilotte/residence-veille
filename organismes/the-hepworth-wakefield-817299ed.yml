@@ -19,12 +19,17 @@ opportunites_liees:
 - uid: 06ec46f8
   type: exposition
   nom: The Hepworth Wakefield Harvest Festival 2026
-track_record: {}
+track_record:
+  exposition:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-03-26 → 2027-07-24
 partenaires_mentionnes: []
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-05-22'
+  last_updated: '2026-08-02'
   status: actif
   nouveaux_entrants: true
 ville: Wakefield

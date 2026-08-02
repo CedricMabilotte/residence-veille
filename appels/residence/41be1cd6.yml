@@ -1,0 +1,112 @@
+uid: 41be1cd6
+type: residence
+source_url: https://www.cnap.fr/annonces/residence-de-creation-participative-2027
+fetched_at: '2026-08-02T08:27:08+00:00'
+score: 7
+status: ouverte
+opportunite:
+  nom: Résidence de création participative 2027
+  organisme: Centre Psychothérapique de l'Ain (CPA)
+  lieu:
+    ville: Bourg-en-Bresse
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-09-08'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: https://www.cpa01.fr/app/uploads/sites/10/10/2026/06/Appel-a-projet-20277.pdf
+eligibilite:
+  disciplines:
+  - arts plastiques
+  - sculpture
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: Premier semestre 2027
+  hebergement: true
+  atelier: Salle d'atelier mise à disposition. Accès facilité à certaines ressources
+    techniques du site. Possibilité de partenariat avec l'ESAT de la Ferme Dienet
+    pour accompagner la réalisation de certains éléments techniques.
+  remuneration:
+    montant: 8000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: Sculpture monumentale originale conçue en co-création et installée
+    durablement dans le parc du CPA, avec durabilité minimale de 5 ans. Participation
+    à l'inauguration publique début juin 2027 dans le cadre de l'événement national
+    'Rendez-vous aux Jardins'. Intégration au parcours artistique 'Chemin des Arts'.
+partenaires:
+- ORSAC
+- ESAT de la Ferme Dienet
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Appel à projet structuré et complet. Informations claires sur budget,
+    calendrier et conditions. Pas de détail spécifié sur les pièces demandées au stade
+    initial.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T08:27:08+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: CNAP — annonces filtrées « Résidence d'artiste »
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: Ce programme invite les artistes plasticiens et sculpteurs professionnels
+    à concevoir une sculpture monumentale participative pour le parc du Centre Psychothérapique
+    de l'Ain. L'enveloppe attribuée s'élève à 8 000 € TTC, couvrant honoraires, matériaux,
+    production, animation des ateliers et frais de déplacement/hébergement. La réalisation
+    est prévue au premier semestre 2027, avec une inauguration début juin 2027 lors
+    de l'événement 'Rendez-vous aux Jardins'. Le projet doit intégrer une dimension
+    participative forte, associant patients, professionnels de l'hôpital et habitants
+    à la co-création. Une salle d'atelier et des ressources techniques du site sont
+    mises à disposition.
+  pour_qui: Artistes plasticiens et sculpteurs professionnels ayant une expérience
+    de co-création et intéressés par des projets participatifs en contexte hospitalier.
+a_savoir:
+- 'Calendrier très serré : date limite 8 septembre 2026, réalisation au premier semestre
+  2027.'
+- Enveloppe globale de 8 000 € TTC pour tous les postes (honoraires, matériaux, production,
+  ateliers, installation, déplacement, hébergement) — budget potentiellement restrictif
+  pour une œuvre monumentale.
+- Forte implication requise en animation d'ateliers de co-création avec publics diversifiés
+  et hospitaliers.
+- Œuvre en extérieur avec durabilité minimale de 5 ans — expertise en matériaux pérennes
+  et résistance aux conditions climatiques requise.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Bourg-en-Bresse
+  contact_email: culture.nomad@orsac-cpa01.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: La dotation attribuée à l'artiste retenu s'élève à 8 000 € TTC.
+- id: hebergement
+  rempli: oui
+  justification: Les frais de déplacement et d'hébergement font partie de l'enveloppe
+    couverte par le programme.
+- id: atelier
+  rempli: oui
+  justification: Le CPA mettra à disposition une salle d'atelier et facilitera l'accès
+    à certaines ressources techniques du site.
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Cette enveloppe comprend l'ensemble des honoraires, les matériaux,
+    les frais de production, l'animation des ateliers participatifs, l'installation
+    de l'œuvre ainsi que les éventuels frais de déplacement et d'hébergement.
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

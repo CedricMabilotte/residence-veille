@@ -1,0 +1,25 @@
+uid: centre-d-art-madeleine-lambert-3c7d081b
+nom_canonique: Centre d'art Madeleine Lambert
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://culture.venissieux.fr/centre-dart-madeleine-lambert/
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 6c77a484
+  type: residence
+  nom: Résidence d'artiste à Vénissieux
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-02'
+  last_updated: '2026-08-02'
+  status: actif
+  nouveaux_entrants: true
+ville: Vénissieux
+contact_email: centredart@ville-venissieux.fr

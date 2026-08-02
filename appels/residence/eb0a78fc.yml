@@ -1,0 +1,113 @@
+uid: eb0a78fc
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste
+fetched_at: '2026-08-02T09:14:41+00:00'
+score: 8
+status: bientot-fermee
+opportunite:
+  nom: Programme de résidence de création et de recherche pour artistes timorais
+  organisme: Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-30'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - Curriculum vitae détaillé (4 pages maximum)
+  - Dossier artistique avec visuels (15 pages maximum)
+  - Note d'intention (3 pages maximum)
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts visuels
+  - performance
+  - musiques
+  - recherches sonores
+  - spectacle vivant
+  - écritures
+  - design
+  - architecture-urbanisme
+  - commissariat
+  - critique d'art
+  niveau_carriere: tous
+  age_max: null
+  nationalite: Timoraise
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: 02 février 2027 - 27 avril 2027
+  hebergement: true
+  atelier: Espace meublé de travail et de vie de 25-40m² composé d'une pièce de travail,
+    d'une cuisine, d'une salle de bains et d'un espace nuit
+  remuneration:
+    montant: 850
+    devise: EUR
+    periodicite: mois
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: Compte rendu d'expérience en fin de résidence
+partenaires:
+- Institut français d'Indonésie
+- Fundação Oriente
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Toutes les informations clés sont explicitement documentées. Montants,
+    dates, conditions de résidence et critères d'éligibilité clairement énoncés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T09:14:41+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Cité internationale des arts — appels à candidature ouverts
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: Résidence de trois mois à Paris (2 février - 27 avril 2027) pour artistes
+    timorais, offrant un atelier-logement de 25-40m², une bourse mensuelle de 850
+    euros nets, la prise en charge du transport international et de l'assurance voyage,
+    accompagnement et mise en réseau par les partenaires. Destiné aux artistes de
+    toutes disciplines ayant une pratique professionnelle depuis au moins 5 ans. Un
+    seul lauréat sélectionné.
+  pour_qui: Artistes timorais de toutes disciplines justifiant d'une activité artistique
+    depuis au moins 5 ans et maîtrisant l'anglais ou le français.
+a_savoir:
+- Programme réservé aux ressortissants timorais uniquement
+- Un seul lauréat sélectionné (forte sélectivité)
+- Transport d'œuvres et de matériel d'expérimentation non pris en charge
+- Accessibilité des espaces non conforme aux normes actuelles pour personnes en situation
+  de handicap
+- Aide à l'arrivée de 200 euros fournie en attente du versement de la première bourse
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Bourse de vie mensuelle de 850 euros nets de taxes, plus enveloppe
+    d'arrivée de 200 euros
+- id: hebergement
+  rempli: oui
+  justification: Un atelier-logement sur le site du Marais de la Cité internationale
+    des arts
+- id: atelier
+  rempli: oui
+  justification: Espace meublé unique de travail et de vie de 25-40m²
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Transport international aller-retour et frais d'assurance voyage
+    et visa pris en charge ; transport d'œuvres ou de matériel non pris en charge
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

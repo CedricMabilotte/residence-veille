@@ -1,0 +1,98 @@
+uid: 6c77a484
+type: residence
+source_url: https://www.cnap.fr/annonces/residence-dartiste-venissieux
+fetched_at: '2026-08-02T08:25:27+00:00'
+score: 7
+status: ouverte
+opportunite:
+  nom: Résidence d'artiste à Vénissieux
+  organisme: Centre d'art Madeleine Lambert
+  lieu:
+    ville: Vénissieux
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-09-07'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees:
+  - CV
+  - Dossier de présentation du travail artistique avec visuels
+  - Note d'intention (max 1500 signes)
+  - Tout document jugé intéressant
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: false
+  atelier: Appui logistique, matériel et outillage du Centre d'art. Accès aux services
+    municipaux (espaces verts, ateliers techniques, archives, etc.)
+  remuneration:
+    montant: 2000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Résidence bien documentée avec conditions claires. Durée non précisée,
+    hébergement non mentionné. Aide à la production de 1500 € mentionnée en plus de
+    la rémunération de base (2000 €).
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T08:25:27+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: CNAP — annonces filtrées « Résidence d'artiste »
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: Résidence d'artiste offerte par le Centre d'art Madeleine Lambert à Vénissieux,
+    s'adressant aux artistes plasticien·nes ayant une expérience professionnelle établie.
+    La résidence propose une rémunération de 2000 € et une aide à la production de
+    1500 €. L'artiste bénéficie d'un appui logistique, du matériel et de l'outillage
+    du Centre d'art, ainsi que de l'accès aux services municipaux. La durée de la
+    résidence n'est pas précisée. Les candidatures sont à envoyer par email avant
+    le 7 septembre 2026 à minuit (GMT+1).
+  pour_qui: Artistes plasticien·nes confirmé·es ayant une expérience professionnelle
+    établie et une immatriculation légale.
+a_savoir:
+- Durée de la résidence non spécifiée
+- Hébergement non mentionné
+- Justificatif d'immatriculation requis (SIRENE ou Kbis)
+- Candidatures par email uniquement ; envois postaux non acceptés
+organisme_details:
+  site_web: https://culture.venissieux.fr/centre-dart-madeleine-lambert/
+  adresse: null
+  ville: Vénissieux
+  contact_email: centredart@ville-venissieux.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 2000 € de rémunération + 1500 € d'aide à la production
+- id: hebergement
+  rempli: non
+  justification: Non mentionné dans l'appel
+- id: atelier
+  rempli: oui
+  justification: Appui logistique, matériel et outillage du Centre d'art fournis
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Aide à la production de 1500 € couverte ; voyage non mentionné
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

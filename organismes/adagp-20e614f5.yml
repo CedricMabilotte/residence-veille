@@ -27,7 +27,12 @@ opportunites_liees:
 - uid: bcd3a041
   type: residence
   nom: Atelier ADAGP
-track_record: {}
+track_record:
+  bourse:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-05-16 → 2027-09-13
 partenaires_mentionnes:
 - organisme_uid: institut-francais-de-madrid
   occurrences: 2
@@ -41,7 +46,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-05-22'
+  last_updated: '2026-08-02'
   status: actif
   nouveaux_entrants: true
 contact_email: connexionadagp@institutfrancais.es

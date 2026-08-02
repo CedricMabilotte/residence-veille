@@ -1,0 +1,31 @@
+uid: centre-psychotherapique-de-l-ain-cpa-150930b9
+nom_canonique: Centre Psychothérapique de l'Ain (CPA)
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 41be1cd6
+  type: residence
+  nom: Résidence de création participative 2027
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: orsac
+  occurrences: 1
+  nom_brut: ORSAC
+- organisme_uid: esat-de-la-ferme-dienet
+  occurrences: 1
+  nom_brut: ESAT de la Ferme Dienet
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-02'
+  last_updated: '2026-08-02'
+  status: actif
+  nouveaux_entrants: true
+ville: Bourg-en-Bresse
+contact_email: culture.nomad@orsac-cpa01.fr

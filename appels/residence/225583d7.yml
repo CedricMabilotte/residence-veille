@@ -1,0 +1,105 @@
+uid: 225583d7
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/bridges
+fetched_at: '2026-08-02T09:16:20+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Bridges
+  organisme: Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-30'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees:
+  - Curriculum vitæ avec biographie (4 pages maximum)
+  - Note d'intention présentant le projet de recherche
+  - Sélection de cinq textes en français ou en anglais
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - critique d'art
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: hors de France hexagonale
+conditions_residence:
+  duree:
+    semaines: 13
+    dates: 2027-04-02 à 2027-06-28
+  hebergement: true
+  atelier: Espace meublé unique de travail et de vie, 20-35m²
+  remuneration:
+    montant: 1000
+    devise: EUR
+    periodicite: mois
+  voyage:
+    pris_en_charge: true
+    plafond: 1000
+    devise: EUR
+  restitution: null
+partenaires:
+- AICA International
+- INHA
+- Archives de la Critique d'Art
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Programme bien documenté avec informations claires sur les dates,
+    montants et conditions
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T09:16:20+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: claude
+  source_label: Cité internationale des arts — appels à candidature ouverts
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: 'Programme de résidence pour critiques d''art internationaux co-construit
+    par AICA International et la Cité internationale des arts. Durée de 3 mois (du
+    2 avril au 28 juin 2027) à Paris. Bénéfices : atelier-logement de 20-35m² meublé,
+    bourse mensuelle de 1000 euros nets, prise en charge du transport international
+    aller/retour et de l''assurance voyage/visa (jusqu''à 1000 euros). Critères :
+    justifier d''au moins 5 années de pratique professionnelle en critique d''art,
+    être membre AICA, résider hors de France hexagonale.'
+  pour_qui: Critiques d'art professionnels internationaux justifiant d'au moins 5
+    années d'expérience et membres de l'AICA.
+a_savoir:
+- Espace de travail/résidence limité (20-35m²)
+- Non accessible aux personnes en situation de handicap selon les normes actuelles
+- Candidatures collectives non recevables
+- La candidature ne peut pas être modifiée après finalisation
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: Site du Marais, Paris
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Une bourse de vie mensuelle d'un montant de 1000 euros nets de taxes
+- id: hebergement
+  rempli: oui
+  justification: Un atelier-logement sur le site du Marais de la Cité internationale
+    des arts
+- id: atelier
+  rempli: oui
+  justification: Espace meublé unique de travail et de vie composant l'atelier-logement
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: Prise en charge du transport international aller/retour jusqu'aux
+    aéroports de Paris et des frais d'assurance voyage et de visa jusqu'à 1000 euros
+_interne_affinite:
+  match: true
+  signaux:
+  - collectif
+  - long séjour
+  bonus_score: 1

@@ -1,81 +1,86 @@
 uid: a5664345
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique
-fetched_at: '2026-05-22T11:39:00+00:00'
-score: 7
-status: indetermine
+fetched_at: '2026-08-02T08:56:28+00:00'
+score: 9
+status: ouverte
 opportunite:
-  nom: Programme International de Diffusion Artistique (PIDA)
+  nom: PIDA - Programme International de Diffusion Artistique
   organisme: Institut français
   lieu:
     ville: null
     pays: France
 candidature:
-  date_limite: null
-  langue_dossier:
-  - français
+  date_limite: '2026-10-30'
+  langue_dossier: null
   frais_inscription: null
-  pieces_demandees: null
-  url_candidature: null
+  pieces_demandees: []
+  url_candidature: https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique
 eligibilite:
   disciplines:
-  - Architecture
-  - Arts Visuels
-  - Photographie
-  - Création numérique
-  - Design
-  - Métiers d'art
-  - Musique
-  - Spectacle vivant
+  - architecture
+  - arts visuels
+  - création numérique
+  - photographie
+  - design
+  - métiers d'art
+  - musiques
+  - spectacle vivant
   niveau_carriere: null
   age_max: null
-  nationalite: Française
-  residence_administrative: France
+  nationalite: Artistes français ou basés en France
+  residence_administrative: null
 conditions_exposition:
-  lieux: null
+  lieux: []
   dates_exposition: null
   format: null
   prise_en_charge:
-    production: null
+    production: false
     transport:
-      pris_en_charge: null
+      pris_en_charge: false
       plafond: null
       devise: EUR
-    per_diem: null
-    hebergement_vernissage: null
-partenaires: null
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- Ministère de l'Europe et des Affaires étrangères
+- Ministère de la Culture
 _meta:
-  extracted_confidence: 0.3
-  extracted_notes: 'Page de présentation générale du programme. Informations essentielles
-    manquantes : date limite de candidature, frais d''inscription, conditions précises
-    de prise en charge, URL de candidature, email de contact. Dates mentionnées (19
-    sept - 6 nov 2025) correspondent à la période d''ouverture de l''appel à projets,
-    non à une exposition.'
+  extracted_confidence: 0.4
+  extracted_notes: Page d'informations générale du programme PIDA, pas appel d'offres
+    détaillé. Absence d'informations sur frais d'inscription, rémunération, hébergement,
+    ou prise en charge des frais. Langue du dossier non mentionnée. Contenu présente
+    le programme et des exemples de projets soutenus, non les modalités complètes
+    de candidature.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T11:39:00+00:00'
+  extracted_at: '2026-08-02T08:56:28+00:00'
   source_lang: fr
   detection_confidence: 0.8333333333333334
   detection_method: heuristic
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-08-01'
+  last_status_check: '2026-08-02'
 analyse:
-  synthese: Le PIDA est un appel à projets lancé par l'Institut français pour soutenir
-    la diffusion de la création artistique française à l'international. Il s'adresse
-    aux structures culturelles françaises, équipes artistiques, artistes, collectifs
-    et institutions étrangères accueillant des artistes français. Le programme couvre
-    huit disciplines (architecture, arts visuels, photographie, création numérique,
-    design, métiers d'art, musique, spectacle vivant). Les conditions précises de
-    financement et les modalités d'accompagnement des projets ne sont pas détaillées
-    dans ce document de présentation générale.
-  pour_qui: Artistes, collectifs et structures culturels français ou basés en France,
-    ainsi que structures culturelles étrangères accueillant la création artistique
-    française pour des projets de diffusion et coopération internationale.
+  synthese: Le PIDA (Programme International de Diffusion Artistique) est un appel
+    à projets de l'Institut français ouvert du 1er juillet au 30 octobre 2026, soutenu
+    par le ministère de l'Europe et des Affaires étrangères et le ministère de la
+    Culture. Il accompagne des projets de diffusion, de coopération ainsi que la présence
+    d'artistes français au sein de grandes manifestations prescriptrices internationales.
+    Il s'adresse au réseau culturel français à l'international, aux structures culturelles
+    françaises, aux artistes français ou basés en France, et aux structures culturelles
+    étrangères. Les huit disciplines couvertes sont l'architecture, les arts visuels,
+    la création numérique, la photographie, le design, les métiers d'art, la musique
+    et le spectacle vivant.
+  pour_qui: Artistes français ou basés en France, structures culturelles françaises
+    ou étrangères, réseau diplomatique français, et commissaires d'exposition ou collectifs
+    souhaitant promouvoir la création artistique française à l'international.
 a_savoir:
-- Appel à projets sans détails spécifiques sur les montants d'aide, frais d'inscription
-  ou conditions de prise en charge
-- Pas de date limite de candidature mentionnée dans ce document
-- Éligibilité requérant la nationalité française ou une implantation en France
-- Programme très généraliste sans critères précis d'évaluation ou de sélection visibles
+- Page d'informations générale sans détails complets sur modalités et conditions de
+  soutien
+- Pas de précision sur frais d'inscription, rémunération, hébergement, ou prise en
+  charge financière
+- Programme d'aide à la diffusion (diffusion de projets existants), non une exposition
+  directement organisée
+- Langue du dossier de candidature non précisée
 organisme_details:
   site_web: https://www.institutfrancais.com
   adresse: null
@@ -84,18 +89,18 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: Aucune mention de rémunération, bourse, per diem ou dotation monétaire
-    dans le texte fourni
+  justification: Pas de mention d'une rémunération, bourse ou dotation monétaire dans
+    le texte fourni
 - id: hebergement
-  rempli: inconnu
-  justification: Aucune mention de logement fourni aux artistes
+  rempli: non
+  justification: Aucune mention de logement fourni par l'organisme
 - id: atelier
-  rempli: inconnu
-  justification: Aucune mention d'espace de production, atelier ou équipements fournis
+  rempli: non
+  justification: Aucune mention d'espace de production ou d'équipements fournis
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: Aucune mention de prise en charge du voyage, production, transport
-    d'œuvres ou matériel
+  justification: Le programme accompagne les projets, mais pas de précision sur couverture
+    voyage, production ou transport
 _interne_affinite:
   match: false
   signaux:

@@ -1,0 +1,92 @@
+uid: 8030ae41
+type: bourse
+source_url: https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand
+fetched_at: '2026-08-02T08:55:11+00:00'
+score: 8
+status: ouverte
+opportunite:
+  nom: Fonds culturel franco-allemand
+  organisme: Institut français
+  lieu:
+    ville: null
+    pays: France
+candidature:
+  date_limite: '2026-10-30'
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand
+eligibilite:
+  disciplines:
+  - Architecture
+  - Arts Visuels / Photographie
+  - Cinéma
+  - Création numérique
+  - Débat d'idées
+  - Livre
+  - Métiers d'art / Design
+  - Spectacle vivant / Musique
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_bourse:
+  montant:
+    montant: null
+    devise: EUR
+  finalite: mobilite
+  calendrier_usage: null
+  obligations_rendu: []
+partenaires:
+- Institut français
+- Gouvernement français
+- Gouvernement allemand
+_meta:
+  extracted_confidence: 0.4
+  extracted_notes: Contenu partiellement accessible. Informations détaillées réservées
+    aux membres du réseau culturel. Montants, critères précis de sélection, conditions
+    d'attribution non visibles sur cette page publique.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T08:55:11+00:00'
+  source_lang: fr
+  detection_confidence: 0.92
+  detection_method: claude
+  source_label: Institut français — résidences internationales
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: Le Fonds culturel franco-allemand (FCFA), institué en 2003, soutient des
+    initiatives de coopération culturelle franco-allemandes conduites dans des pays
+    tiers par les réseaux diplomatiques et culturels français et allemands. Depuis
+    40 ans, plus de 1200 projets ont été financés dans 144 pays, accompagnant près
+    de 300 artistes et intellectuels chaque année. Le fonds couvre 8 disciplines artistiques
+    et est abondé à parité par la France et l'Allemagne.
+  pour_qui: Artistes, intellectuels et porteurs de projets engagés dans des initiatives
+    de coopération culturelle franco-allemande en pays tiers.
+a_savoir:
+- Contenu réservé aux membres du réseau — informations détaillées non visibles sur
+  la page publique
+- Programme historique (institué en 2003) soutenant la coopération franco-allemande
+- 'Portée internationale : projets financés dans 144 pays'
+organisme_details:
+  site_web: https://www.institutfrancais.com/
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: Aucune information sur rémunération ou dotation monétaire dans le
+    contenu accessible
+- id: hebergement
+  rempli: inconnu
+  justification: Non mentionné dans le contenu accessible
+- id: atelier
+  rempli: inconnu
+  justification: Non mentionné dans le contenu accessible
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: Non mentionné dans le contenu accessible
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

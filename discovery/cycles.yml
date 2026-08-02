@@ -1,1 +1,43 @@
-cycles: []
+cycles:
+- organisme_uid: adagp-20e614f5
+  type: bourse
+  millesime_archive: 2026
+  prochain_estimee: '2027-07-15'
+  fenetre_surveillance: 2027-05-16 → 2027-09-13
+  url_a_surveiller: https://www.adagp.fr/fr/actualites/appel-candidature-bourse-connexion-internationale-2026
+- organisme_uid: institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713
+  type: bourse
+  millesime_archive: 2027
+  prochain_estimee: '2027-06-22'
+  fenetre_surveillance: 2027-04-23 → 2027-08-21
+  url_a_surveiller: https://www.institutfrancais.com/fr/programme/saison-pologne-france-2027-sezon-francja-polska-2027
+- organisme_uid: the-hepworth-wakefield-817299ed
+  type: exposition
+  millesime_archive: 2026
+  prochain_estimee: '2027-05-25'
+  fenetre_surveillance: 2027-03-26 → 2027-07-24
+  url_a_surveiller: https://www.curatorspace.com/profiles/TheHepworthWakefield
+- organisme_uid: centre-national-des-arts-plastiques-cbca1064
+  type: exposition
+  millesime_archive: 2027
+  prochain_estimee: '2027-06-18'
+  fenetre_surveillance: 2027-04-19 → 2027-08-17
+  url_a_surveiller: https://www.cnap.fr/quinquennale-2027-soutien-frac-centres-dart
+- organisme_uid: the-horton-92e33604
+  type: exposition
+  millesime_archive: 2026
+  prochain_estimee: '2027-05-22'
+  fenetre_surveillance: 2027-03-23 → 2027-07-21
+  url_a_surveiller: https://www.curatorspace.com/opportunities/detail/places-and-spaces-art-exhibition/10521
+- organisme_uid: the-glasgow-gallery-of-photography-b866fc0d
+  type: exposition
+  millesime_archive: 2026
+  prochain_estimee: '2027-05-22'
+  fenetre_surveillance: 2027-03-23 → 2027-07-21
+  url_a_surveiller: https://www.curatorspace.com/opportunities/detail/pink--international-photography-exhibition/10545
+- organisme_uid: light-up-the-north-fb992135
+  type: exposition
+  millesime_archive: 2026
+  prochain_estimee: '2027-05-22'
+  fenetre_surveillance: 2027-03-23 → 2027-07-21
+  url_a_surveiller: https://www.curatorspace.com/opportunities/detail/light-up-the-north-spark--early-career-artist-and-producer-programme/10665

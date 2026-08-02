@@ -1,0 +1,30 @@
+uid: domaine-du-rayol-9923be05
+nom_canonique: Domaine du Rayol
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 9d67ee58
+  type: residence
+  nom: Appel à résidence - Entre-Autres 2026/2027
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: drac-paca
+  occurrences: 1
+  nom_brut: DRAC PACA
+- organisme_uid: lycee-du-golfe-de-saint-tropez
+  occurrences: 1
+  nom_brut: Lycée du Golfe de Saint-Tropez
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-02'
+  last_updated: '2026-08-02'
+  status: actif
+  nouveaux_entrants: true
+ville: Rayol-Canadel-sur-Mer

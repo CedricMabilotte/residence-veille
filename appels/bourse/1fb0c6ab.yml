@@ -59,7 +59,7 @@ _meta:
   detection_confidence: 0.7
   detection_method: claude
   source_label: On-the-Move — Funding (EN/FR/ES)
-  last_status_check: '2026-08-01'
+  last_status_check: '2026-08-02'
 analyse:
   synthese: This is a comprehensive funding guide published by On the Move in partnership
     with ASEF, listing cross-border mobility opportunities for artists and cultural

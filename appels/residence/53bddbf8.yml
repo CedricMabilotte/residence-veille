@@ -1,0 +1,138 @@
+uid: 53bddbf8
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite
+fetched_at: '2026-08-02T09:13:06+00:00'
+score: 8
+status: ouverte
+opportunite:
+  nom: Institut français x Cité internationale des arts
+  organisme: Institut français et Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: Île-de-France
+candidature:
+  date_limite: '2026-10-08'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Architecture, paysage, urbanisme
+  - Arts de la rue, cirque, marionnette
+  - Arts plastiques
+  - Cinéma
+  - Création numérique
+  - Critique d'art et commissariat d'exposition
+  - Danse, performance
+  - Design, graphisme
+  - Gastronomie
+  - Littérature
+  - Métiers d'art
+  - Mode
+  - Musique
+  - Photographie
+  - Théâtre
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Résider hors du territoire français de manière permanente
+    depuis au moins 5 ans
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3, 6 ou 9 mois entre avril 2027 et avril 2028
+  hebergement: true
+  atelier: Ateliers-logements de 25 à 40 m² comprenant une pièce de travail, cuisine,
+    salle de bains et espace nuit
+  remuneration:
+    montant: 1100
+    devise: EUR
+    periodicite: mois
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Instituts français
+- Alliances françaises
+- Services culturels des ambassades
+- Centres d'art
+- Associations
+- Galeries
+- Musées
+- Ateliers d'artistes
+- Théâtres
+- Salles de concert
+- Sociétés de production
+- Labels
+- Instituts de recherche
+- Bibliothèques
+- Maisons d'édition
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Informations détaillées et complètes. Date limite précise. Conditions
+    de résidence clairement énumérées. Aucune URL de candidature ni adresse/email
+    de contact fournis dans le texte.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-02T09:13:06+00:00'
+  source_lang: fr
+  detection_confidence: 0.95
+  detection_method: claude
+  source_label: Cité internationale des arts — appels à candidature ouverts
+  last_status_check: '2026-08-02'
+analyse:
+  synthese: Programme de résidence d'un à neuf mois à Paris accueillant environ 70
+    artistes du monde entier par an, dans toutes les disciplines artistiques. Les
+    lauréats bénéficient d'ateliers-logements de 25 à 40 m² incluant pièce de travail,
+    cuisine, salle de bains et espace nuit. Le partenaire de l'artiste finance une
+    allocation minimum de 1100€ mensuel, le voyage international et l'assurance. Les
+    candidatures doivent obligatoirement être portées par un partenaire associé (Institut
+    français, structures culturelles basées en France ou à l'étranger). Les artistes
+    doivent résider à l'étranger depuis au moins 5 ans et maîtriser le français ou
+    l'anglais à niveau professionnel.
+  pour_qui: Artistes professionnels de toutes nationalités et toutes disciplines,
+    résidant à l'étranger depuis au moins 5 ans, sans limite d'âge, ayant une démarche
+    professionnelle reconnue.
+a_savoir:
+- 'Candidatures obligatoirement portées par un partenaire associé : pas de candidature
+  directe de l''artiste'
+- Dossier exigé en français ou anglais à niveau professionnel
+- Les ateliers-logements ne répondent pas actuellement aux normes d'accessibilité
+  pour personnes en situation de handicap
+- L'Institut français prend en charge uniquement les prestations des ateliers-logements
+  ; autres frais à charge des artistes
+- Priorité donnée aux projets impliquant une structure francilienne (basée en Île-de-France)
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: Le partenaire s'engage à financer une allocation de résidence de
+    minimum 1100€ par mois, versée directement à l'artiste
+- id: hebergement
+  rempli: oui
+  justification: Les lauréats sont accueillis dans les ateliers-logements de 25 à
+    40 m² situés sur le site du Marais de la Cité internationale des arts
+- id: atelier
+  rempli: oui
+  justification: Les ateliers-logements comprennent une pièce de travail conçue pour
+    la recherche-création. L'Institut français prend en charge les prestations mensuelles
+    liées aux ateliers-logements
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Le partenaire finance le voyage international de l'artiste et son
+    assurance (santé, rapatriement, responsabilité civile). Les autres prestations
+    complémentaires sont à charge de l'artiste
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0
