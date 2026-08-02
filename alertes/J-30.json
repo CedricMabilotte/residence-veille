@@ -56,14 +56,6 @@
     "nom": "République dominicaine x Cité internationale des arts"
   },
   {
-    "path": "appels/residence/c781ae19.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 28,
-    "type": "residence",
-    "uid": "c781ae19",
-    "nom": "République dominicaine x Cité internationale des arts"
-  },
-  {
     "path": "appels/residence/cc05d124.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 25,
@@ -78,14 +70,6 @@
     "type": "residence",
     "uid": "eb0a78fc",
     "nom": "Programme de résidence de création et de recherche pour artistes timorais"
-  },
-  {
-    "path": "appels/residence/fc738c65.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 28,
-    "type": "residence",
-    "uid": "fc738c65",
-    "nom": "Timor-Leste — Institut français d'Indonésie / Fundação Oriente x Cité internationale des arts"
   },
   {
     "path": "appels/prix/dbe956b7.yml",
