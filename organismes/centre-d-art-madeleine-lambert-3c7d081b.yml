@@ -14,11 +14,14 @@ opportunites_liees:
   type: residence
   nom: Résidence d'artiste à Vénissieux
 track_record: {}
-partenaires_mentionnes: []
+partenaires_mentionnes:
+- organisme_uid: services-municipaux-de-venissieux
+  occurrences: 1
+  nom_brut: Services municipaux de Vénissieux
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-02'
-  last_updated: '2026-08-02'
+  last_updated: '2026-08-03'
   status: actif
   nouveaux_entrants: true
 ville: Vénissieux

@@ -16,15 +16,15 @@ opportunites_liees:
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: orsac
-  occurrences: 1
+  occurrences: 2
   nom_brut: ORSAC
 - organisme_uid: esat-de-la-ferme-dienet
-  occurrences: 1
+  occurrences: 2
   nom_brut: ESAT de la Ferme Dienet
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-02'
-  last_updated: '2026-08-02'
+  last_updated: '2026-08-03'
   status: actif
   nouveaux_entrants: true
 ville: Bourg-en-Bresse

@@ -1,12 +1,9 @@
-# Audit auto-promotion — 2026-08-02
+# Audit auto-promotion — 2026-08-03
 
 Échantillon : 20 entrées.
 
-⚠ 15 drift(s) détecté(s) :
+⚠ 13 drift(s) détecté(s) :
 
-- https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video — score logué 8 → maintenant 4 ()
-- https://villa-albertine.org/va/fr/professionals/etant-donnes-pour-lart-contemporain — score logué 8 → maintenant 4 ()
-- https://www.cnap.fr/annonces/residence-dartiste-venissieux — score logué 7 → maintenant 4 ()
 - https://www.cnap.fr/annonces/residence-de-creation-participative-2027 — score logué 7 → maintenant 4 ()
 - https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse — score logué 8 → maintenant 4 ()
 - https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand — score logué 8 → maintenant 4 ()
@@ -18,4 +15,5 @@
 - https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite — score logué 8 → maintenant 4 ()
 - https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste — score logué 8 → maintenant 4 ()
 - https://www.pollen-monflanquin.com/residences — score logué 7 → maintenant 4 ()
+- https://www.cnap.fr/annonces/residence-dartiste-venissieux — score logué 7 → maintenant 4 ()
 - https://www.cnap.fr/annonces/residence-dartiste-venissieux — score logué 7 → maintenant 4 ()

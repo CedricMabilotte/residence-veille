@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T18:31:16.692737+00:00",
+  "generated_at": "2026-08-03T10:41:29.689128+00:00",
   "n_ouvertes": 53,
   "n_archive": 13,
   "opportunites": [
@@ -499,8 +499,8 @@
       "uid": "23509e2e",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-tiny-spaces",
-      "fetched_at": "2026-08-02T08:37:12+00:00",
-      "score": 4,
+      "fetched_at": "2026-08-03T09:43:12+00:00",
+      "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence Tiny Spaces",
@@ -514,12 +514,9 @@
       "candidature": {
         "date_limite": "2026-12-31",
         "date_limite_precision": "day",
-        "langue_dossier": [],
-        "frais_inscription": {
-          "montant": null,
-          "devise": "EUR"
-        },
-        "pieces_demandees": [],
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
         "url_candidature": "https://tinyspaces.eu/open-call/"
       },
       "eligibilite": {
@@ -540,16 +537,16 @@
         ],
         "niveau_carriere": "tous",
         "age_max": null,
-        "nationalite": "résidant dans un pays de l'UE ou d'Europe créative",
+        "nationalite": "sans restriction",
         "residence_administrative": "UE ou Europe créative"
       },
       "conditions_residence": {
         "duree": {
-          "semaines": null,
-          "dates": "mai à août 2026"
+          "semaines": 4,
+          "dates": "mai-août 2026"
         },
         "hebergement": true,
-        "atelier": "Ateliers d'artistes à Oulu, Athènes et Potsdam aménagés dans d'anciens bâtiments désaffectés",
+        "atelier": "Ateliers à Oulu, Athènes et Potsdam dans d'anciens bâtiments désaffectés. Studios TISP recyclés/réaménagés pour la création.",
         "remuneration": {
           "montant": 3000,
           "devise": "EUR",
@@ -560,21 +557,23 @@
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "Archivage des œuvres sur le site web, présentation sur une plateforme numérique, exposition collective lors du symposium à Oulu en août 2026"
+        "restitution": "Exposition collective et symposium à Oulu en août 2026. Œuvres archivées sur site web du projet et plateforme numérique."
       },
       "partenaires": [
         "Trans Europe Halles"
       ],
       "analyse": {
-        "synthese": "La Résidence Tiny Spaces sélectionne six artistes pour une résidence d'un mois en Allemagne, Grèce et Finlande, entre mai et août 2026. Chaque artiste reçoit 3000€ plus les frais de voyage, d'hébergement et dépenses quotidiennes. Le voyage par train et ferry est intégré au processus créatif avec visites d'institutions culturelles. Une exposition collective et un symposium clôturent le programme à Oulu en août 2026.",
-        "pour_qui": "Artistes et créateurs résidant en UE ou pays du programme Europe créative, travaillant sur le processus et la création in situ, toutes disciplines confondues."
+        "synthese": "Résidence d'un mois proposée par le projet Tiny Spaces pour six artistes sélectionnés en Allemagne, Grèce et Finlande (mai-août 2026). Les artistes reçoivent une rémunération de 3 000 €, avec voyage en train et ferry, hébergement et dépenses quotidiennes couverts. Le programme intègre le voyage lent comme partie du processus créatif et offre des ateliers dans des bâtiments réaménagés. Les créations sont archivées numériquement et sélectionnées pour une exposition collective lors d'un symposium à Oulu en août 2026.",
+        "pour_qui": "Artistes et créateurs toutes disciplines confondues, résidant en UE ou Europe créative, privilégiant le processus et la création in situ."
       },
       "a_savoir": [
-        "Seulement 6 résidences disponibles - sélection très compétitive.",
-        "Langue du dossier de candidature non spécifiée."
+        "Éligibilité restreinte aux résidents de l'UE ou d'Europe créative",
+        "Durée courte : 1 mois uniquement",
+        "Voyage lent (train/ferry) intégré au processus résidentiel, sans alternative aérienne",
+        "Restitution en groupe (exposition collective) plutôt que vitrine individuelle"
       ],
       "organisme_details": {
-        "site_web": null,
+        "site_web": "https://tinyspaces.eu/",
         "adresse": null,
         "ville": null,
         "contact_email": null
@@ -582,85 +581,85 @@
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"montant\": 3000, \"devise\": \"EUR\", \"periodicite\": \"forfait\"",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Ateliers à Oulu, Athènes et Potsdam dans d'anciens bâtiments désaffectés. Studios TISP recyclés/réaménagés pour la création.\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"voyage\": {\"pris_en_charge\": true} et \"dépenses quotidiennes couverts\" (synthèse)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"montant\": 3000, \"duree\": {\"semaines\": 4} dans trois pays (Allemagne, Grèce, Finlande) à coût de vie variable — pas d'information sur per diem quotidien ou pouvoir d'achat réel",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "\"pour_qui\": \"...résidant en UE ou Europe créative, privilégiant le processus et la création in situ\" — seule orientation vague énoncée, pas de grille ou barème formel",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "Aucun champ relatif à délai de notification ou date de résultats",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "Aucune mention de notification aux candidats non retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"synthese\": \"Le programme intègre le voyage lent comme partie du processus créatif\" et Mentorat/rencontres \"prévus\" (optionnel, non imposé)",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "\"duree\": {\"semaines\": 4, \"dates\": \"mai-août 2026\"} — fenêtre large (4 mois) mais durée rigide par artiste (1 mois exactement, sans flexibilité individuelle)",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Exposition collective et symposium à Oulu en août 2026. Œuvres archivées sur site web du projet et plateforme numérique.\"",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"Œuvres archivées sur site web du projet et plateforme numérique\" — archivage documenté seulement, pas de réseau alumni actif ni accompagnement vers opportunités futures",
           "poids": 1,
           "famille": "debouche"
         }
@@ -670,12 +669,12 @@
       "uid": "2ba5df0e",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse",
-      "fetched_at": "2026-08-02T18:08:27+00:00",
-      "score": 4,
+      "fetched_at": "2026-08-03T09:33:07+00:00",
+      "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence d'artiste 2027 : Photographie - Traverse",
-        "organisme": "Centre national des arts plastiques (CNAP)",
+        "organisme": "Traverse",
         "lieu": {
           "ville": "Bagnères-de-Bigorre",
           "pays": "France",
@@ -687,22 +686,22 @@
         "date_limite_precision": "day",
         "langue_dossier": null,
         "frais_inscription": null,
-        "pieces_demandees": null,
+        "pieces_demandees": [],
         "url_candidature": "https://traversiens.com/event/appel-a-projet-residence-photo-2027/"
       },
       "eligibilite": {
         "disciplines": [
-          "Photographie"
+          "photographie"
         ],
-        "niveau_carriere": null,
+        "niveau_carriere": "tous",
         "age_max": null,
-        "nationalite": null,
-        "residence_administrative": null
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
       },
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "Printemps 2027"
+          "dates": "printemps 2027"
         },
         "hebergement": null,
         "atelier": null,
@@ -712,29 +711,29 @@
           "periodicite": "forfait"
         },
         "voyage": {
-          "pris_en_charge": false,
+          "pris_en_charge": null,
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "Projet artistique participatif élaboré pour le territoire de Haute-Bigorre"
+        "restitution": "Projet artistique participatif pour le territoire de Haute-Bigorre"
       },
       "partenaires": [
-        "Traversiens"
+        "Traverse",
+        "CNAP"
       ],
       "analyse": {
-        "synthese": "Programme de résidence territorialisée pour un·e artiste photographe à Bagnères-de-Bigorre (Haute-Bigorre), lancé par le CNAP. La résidence dure 2 mois au printemps 2027, avec une dotation de 6 000 € TTC. Le projet doit avoir une dimension participative et être élaboré pour le territoire composé de 24 communes rurales au pied des Pyrénées. Le thème de cette édition est « Perspective(s) ».",
-        "pour_qui": "Artistes photographes capables de développer un projet artistique participatif ancré dans une logique de rencontre territoriale."
+        "synthese": "La résidence Traverse Photographie 2027 propose un séjour de 2 mois au printemps 2027 à Bagnères-de-Bigorre, doté de 6 000 € TTC. Elle s'adresse aux artistes photographes souhaitant développer un projet participatif spécifiquement élaboré pour le territoire de Haute-Bigorre (24 communes rurales). Le thème de cette édition est « Perspective(s) ». Date limite : 10 septembre 2026.",
+        "pour_qui": "Artistes photographes disposés à co-créer un projet participatif ancré dans un contexte rural et territorial."
       },
       "a_savoir": [
-        "Pas d'information explicite sur la prise en charge de l'hébergement, bien que typique en résidence",
-        "Pas de mention de prise en charge des frais de voyage ou de transport",
-        "Pas de critères de sélection explicitement énoncés",
-        "Pas de délai annoncé pour la notification des résultats",
-        "Dimension participative imposée du projet, pouvant impliquer des obligations au-delà de la production individuelle",
-        "Thématique imposée : « Perspective(s) »"
+        "Thématique participative imposée : le projet doit être spécifiquement élaboré pour le territoire local, ce qui limite la liberté créative",
+        "Rémunération modeste : 6 000 € pour 2 mois",
+        "Hébergement et atelier non mentionnés explicitement",
+        "Aucun critère de sélection du jury n'est publié",
+        "Aucun délai ou date indicatifs de notification des résultats annoncés"
       ],
       "organisme_details": {
-        "site_web": null,
+        "site_web": "https://traversiens.com",
         "adresse": null,
         "ville": null,
         "contact_email": null
@@ -742,85 +741,85 @@
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 6000, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"hebergement\": null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"atelier\": null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"voyage\": {\"pris_en_charge\": null, \"plafond\": null}",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "6 000 € pour 2 mois (printemps 2027) = 3 000 €/mois en zone rurale Haute-Bigorre",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "\"a_savoir\": [\"Aucun critère de sélection du jury n'est publié\"]",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "\"a_savoir\": [\"Aucun délai ou date indicatifs de notification des résultats annoncés\"]",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "Pas de mention de notification aux candidats non retenus dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"Projet artistique participatif pour le territoire de Haute-Bigorre\" — liberté créative contrainte par impératif participatif",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "\"dates\": \"printemps 2027\" — fenêtre temporelle mais négociabilité des dates non mentionnée",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"restitution\": \"Projet artistique participatif pour le territoire de Haute-Bigorre\" — visibilité au-delà du territoire local non spécifiée",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "\"a_savoir\": [\"Aucun délai... annoncés\"] — aucune mention de réseau alumni ou accompagnement post-programme",
           "poids": 1,
           "famille": "debouche"
         }
@@ -993,8 +992,8 @@
       "uid": "41be1cd6",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-de-creation-participative-2027",
-      "fetched_at": "2026-08-02T08:27:08+00:00",
-      "score": 4,
+      "fetched_at": "2026-08-03T09:31:08+00:00",
+      "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence de création participative 2027",
@@ -1012,7 +1011,7 @@
           "fr"
         ],
         "frais_inscription": null,
-        "pieces_demandees": [],
+        "pieces_demandees": null,
         "url_candidature": "https://www.cpa01.fr/app/uploads/sites/10/10/2026/06/Appel-a-projet-20277.pdf"
       },
       "eligibilite": {
@@ -1028,10 +1027,10 @@
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "Premier semestre 2027"
+          "dates": "premier semestre 2027"
         },
         "hebergement": true,
-        "atelier": "Salle d'atelier mise à disposition. Accès facilité à certaines ressources techniques du site. Possibilité de partenariat avec l'ESAT de la Ferme Dienet pour accompagner la réalisation de certains éléments techniques.",
+        "atelier": "salle d'atelier mise à disposition par le CPA, avec accès possible à certaines ressources techniques du site et partenariat avec l'ESAT de la Ferme Dienet pour la réalisation technique",
         "remuneration": {
           "montant": 8000,
           "devise": "EUR",
@@ -1042,21 +1041,22 @@
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "Sculpture monumentale originale conçue en co-création et installée durablement dans le parc du CPA, avec durabilité minimale de 5 ans. Participation à l'inauguration publique début juin 2027 dans le cadre de l'événement national 'Rendez-vous aux Jardins'. Intégration au parcours artistique 'Chemin des Arts'."
+        "restitution": "sculpture monumentale installée dans le parc du CPA, avec inauguration publique envisagée début juin 2027 dans le cadre de l'événement national 'Rendez-vous aux Jardins'"
       },
       "partenaires": [
         "ORSAC",
         "ESAT de la Ferme Dienet"
       ],
       "analyse": {
-        "synthese": "Ce programme invite les artistes plasticiens et sculpteurs professionnels à concevoir une sculpture monumentale participative pour le parc du Centre Psychothérapique de l'Ain. L'enveloppe attribuée s'élève à 8 000 € TTC, couvrant honoraires, matériaux, production, animation des ateliers et frais de déplacement/hébergement. La réalisation est prévue au premier semestre 2027, avec une inauguration début juin 2027 lors de l'événement 'Rendez-vous aux Jardins'. Le projet doit intégrer une dimension participative forte, associant patients, professionnels de l'hôpital et habitants à la co-création. Une salle d'atelier et des ressources techniques du site sont mises à disposition.",
-        "pour_qui": "Artistes plasticiens et sculpteurs professionnels ayant une expérience de co-création et intéressés par des projets participatifs en contexte hospitalier."
+        "synthese": "Le CPA lance un appel à projet pour concevoir et réaliser une sculpture monumentale participative, quatrième œuvre du parcours 'Chemin des Arts'. L'artiste retenu travaille en co-création avec patients, soignants et habitants autour de la thématique 'La fabrique des récits'. Une salle d'atelier et ressources techniques sont mises à disposition. La dotation s'élève à 8 000 € TTC couvrant honoraires, matériaux, production, animation des ateliers et déplacement/hébergement. La réalisation est prévue au premier semestre 2027, avec inauguration publique en juin 2027.",
+        "pour_qui": "Artistes plasticiens et sculpteurs professionnels intéressés par la création participative et les projets culturels en contexte hospitalier favorisant l'ouverture sur le territoire."
       },
       "a_savoir": [
-        "Calendrier très serré : date limite 8 septembre 2026, réalisation au premier semestre 2027.",
-        "Enveloppe globale de 8 000 € TTC pour tous les postes (honoraires, matériaux, production, ateliers, installation, déplacement, hébergement) — budget potentiellement restrictif pour une œuvre monumentale.",
-        "Forte implication requise en animation d'ateliers de co-création avec publics diversifiés et hospitaliers.",
-        "Œuvre en extérieur avec durabilité minimale de 5 ans — expertise en matériaux pérennes et résistance aux conditions climatiques requise."
+        "Dotation modérée (8 000 € TTC) devant couvrir honoraires, matériaux, production, animation des ateliers, déplacement et hébergement d'une sculpture monumentale",
+        "Projet fortement participatif : ateliers co-créatifs obligatoires réunissant patients, soignants et habitants du territoire",
+        "Thématique imposée : 'La fabrique des récits' — l'artiste doit proposer une interprétation originale",
+        "Calendrier serré : conception et réalisation au premier semestre 2027 (environ 6 mois)",
+        "Sculpture destinée à l'extérieur avec durabilité minimale de 5 ans, soumise aux contraintes de sécurité et d'intégration au paysage"
       ],
       "organisme_details": {
         "site_web": null,
@@ -1067,85 +1067,85 @@
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "remuneration: montant 8000 EUR, periodicite forfait",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "hebergement: true",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "atelier: salle d'atelier mise à disposition par le CPA, avec accès à ressources techniques",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "voyage.pris_en_charge: true; synthese: dotation couvre honoraires, matériaux, production, déplacement/hébergement",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "remuneration: 8000 EUR forfait sur premier semestre 2027; absence de données sur coût de la vie à Bourg-en-Bresse et durée exacte du séjour",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "a_savoir: Thématique imposée 'La fabrique des récits'; jury décrit mais critères d'évaluation implicites (création originale, interprétation du thème, dimension participative)",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "candidature.date_limite: 2026-09-08; aucune date ou délai de notification des résultats n'est communiqué",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "Absence de mention concernant la notification individuelle aux candidat·es non retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "a_savoir: ateliers co-créatifs sont 'un élément central du concept', non une charge externe; projet centré sur la production artistique et la conception de l'œuvre",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "conditions_residence.duree.dates: premier semestre 2027 (fenêtre de 6 mois); aucune mention explicite de négociation des dates",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "restitution: inauguration publique début juin 2027 dans le cadre de l'événement national 'Rendez-vous aux Jardins'",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "Absence de mention d'un suivi documenté après la réalisation (réseau alumni, mentions ultérieures, accompagnement)",
           "poids": 1,
           "famille": "debouche"
         }
@@ -2380,12 +2380,12 @@
       "uid": "6c77a484",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-dartiste-venissieux",
-      "fetched_at": "2026-08-02T18:03:15+00:00",
-      "score": 4,
+      "fetched_at": "2026-08-03T09:28:27+00:00",
+      "score": 7,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence d'artiste à Vénissieux",
-        "organisme": "Centre d'art Madeleine-Lambert Vénissieux",
+        "organisme": "Centre d'art Madeleine Lambert",
         "lieu": {
           "ville": "Vénissieux",
           "pays": "France",
@@ -2398,12 +2398,16 @@
         "langue_dossier": [
           "fr"
         ],
-        "frais_inscription": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
         "pieces_demandees": [
           "CV",
           "Dossier de présentation du travail artistique avec visuels",
           "Note d'intention (max 1500 signes espaces compris)",
-          "Justificatif d'immatriculation (avis de situation SIRENE, extrait Kbis ou document équivalent)"
+          "Justificatif d'immatriculation (SIRENE, Kbis ou équivalent)",
+          "Tout document jugé intéressant (sauf œuvres originales)"
         ],
         "url_candidature": "mailto:centredart@ville-venissieux.fr"
       },
@@ -2421,32 +2425,35 @@
           "semaines": null,
           "dates": null
         },
-        "hebergement": false,
-        "atelier": "Appui logistique, matériel et outillage du Centre d'art",
+        "hebergement": null,
+        "atelier": "Appui logistique, matériel et outillage du Centre d'art. Accès selon les projets à d'autres services municipaux (espaces verts, ateliers techniques, archives, etc.)",
         "remuneration": {
           "montant": 3500,
           "devise": "EUR",
           "periodicite": "forfait"
         },
         "voyage": {
-          "pris_en_charge": false,
+          "pris_en_charge": null,
           "plafond": null,
           "devise": "EUR"
         },
         "restitution": null
       },
-      "partenaires": [],
+      "partenaires": [
+        "Centre d'art Madeleine Lambert",
+        "Services municipaux de Vénissieux"
+      ],
       "analyse": {
-        "synthese": "Cette résidence offre une aide financière de 3500 € (2000 € de rémunération + 1500 € d'aide à la production), l'accès aux équipements et au matériel du Centre d'art, ainsi qu'un accompagnement des équipes dans la réalisation du projet. Elle s'adresse aux artistes plasticien·nes possédant un statut professionnel établi, justifié par un document d'immatriculation (SIRENE ou Kbis). La durée de la résidence n'est pas précisée dans l'appel. Les candidatures doivent être envoyées par mail avant le 7 septembre 2026 à minuit.",
-        "pour_qui": "Artistes plasticien·nes ayant une démarche professionnelle établie et disposant d'une immatriculation professionnelle."
+        "synthese": "Le Centre d'art Madeleine Lambert à Vénissieux propose une résidence dotée de 2000 € de rémunération et 1500 € d'aide à la production. L'artiste accède aux ressources du Centre (matériel, outillage, services municipaux), accompagné par l'équipe. Le programme s'adresse aux artistes plasticien·nes engagé·es dans une démarche professionnelle, justifiée par un document d'immatriculation (SIRENE, Kbis ou équivalent). Date limite : 7 septembre 2026. La durée exacte de la résidence n'est pas précisée dans l'appel.",
+        "pour_qui": "Artistes plasticien·nes en démarche professionnelle avec justificatif d'immatriculation."
       },
       "a_savoir": [
-        "Durée de résidence non précisée",
-        "Pas d'hébergement fourni",
-        "Pas de prise en charge du voyage ou des frais de déplacement",
-        "Accès réservé aux artistes avec statut professionnel formel (SIRENE/Kbis requis)",
-        "Aucun critère de sélection explicite énoncé",
-        "Pas de date annoncée pour les résultats"
+        "Durée de la résidence non spécifiée (information critique manquante)",
+        "Hébergement non mentionné",
+        "Modalités de restitution ou visibilité publique non précisées",
+        "Critères de sélection du jury non publiés",
+        "Délai de notification aux candidat·es non communiqué",
+        "Procédure de candidature par email uniquement (pas de plateforme en ligne)"
       ],
       "organisme_details": {
         "site_web": "https://culture.venissieux.fr/centre-dart-madeleine-lambert/",
@@ -2457,85 +2464,85 @@
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 3500, \"devise\": \"EUR\", \"periodicite\": \"forfait\"} (2000 € rémunération + 1500 € aide production)",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"hebergement\": null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Appui logistique, matériel et outillage du Centre d'art. Accès selon les projets à d'autres services municipaux\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "Aide à la production 1500 €. \"voyage\": {\"pris_en_charge\": null} — frais de déplacement non couverts",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"duree\": {\"semaines\": null, \"dates\": null} — durée inconnue, impossible d'évaluer cohérence dotation/coût de vie",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\": [...] énumérées, mais \"Critères de sélection du jury non publiés\"",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "\"a_savoir\": \"Délai de notification aux candidat·es non communiqué\"",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "Aucune mention de notification aux candidat·es non retenu·es dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "\"L'artiste accède aux ressources du Centre... accompagné par l'équipe\" — accompagnement prévu, mais aucune obligation explicite d'ateliers publics ou événements imposés",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "\"duree\": {\"semaines\": null, \"dates\": null} — \"Durée de la résidence non spécifiée (information critique manquante)\"",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "\"restitution\": null — \"Modalités de restitution ou visibilité publique non précisées\"",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "Aucune mention de réseau alumni, suivi documenté ou accompagnement post-résidence",
           "poids": 1,
           "famille": "debouche"
         }
