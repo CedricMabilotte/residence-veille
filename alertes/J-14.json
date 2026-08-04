@@ -2,7 +2,7 @@
   {
     "path": "appels/residence/764f21eb.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 13,
+    "days_to_deadline": 12,
     "type": "residence",
     "uid": "764f21eb",
     "nom": "Association Françoise pour l'œuvre contemporaine x Cité internationale des arts"
@@ -10,7 +10,7 @@
   {
     "path": "appels/residence/82ac6b64.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 9,
+    "days_to_deadline": 8,
     "type": "residence",
     "uid": "82ac6b64",
     "nom": "TaDA Residency 2027"

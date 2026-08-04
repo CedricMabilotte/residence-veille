@@ -1,8 +1,8 @@
 uid: a5664345
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique
-fetched_at: '2026-08-02T08:56:28+00:00'
-score: 4
+fetched_at: '2026-08-04T09:23:18+00:00'
+score: 7
 status: ouverte
 opportunite:
   nom: PIDA - Programme International de Diffusion Artistique
@@ -14,73 +14,78 @@ candidature:
   date_limite: '2026-10-30'
   langue_dossier: null
   frais_inscription: null
-  pieces_demandees: []
-  url_candidature: https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique
+  pieces_demandees: null
+  url_candidature: null
 eligibilite:
   disciplines:
   - architecture
   - arts visuels
-  - création numérique
   - photographie
+  - création numérique
   - design
   - métiers d'art
   - musiques
   - spectacle vivant
   niveau_carriere: null
   age_max: null
-  nationalite: Artistes français ou basés en France
+  nationalite: artistes français ou basés en France
   residence_administrative: null
 conditions_exposition:
-  lieux: []
+  lieux:
+  - International
   dates_exposition: null
-  format: null
+  format: diffusion|coopération
   prise_en_charge:
-    production: false
+    production: null
     transport:
-      pris_en_charge: false
+      pris_en_charge: null
       plafond: null
       devise: EUR
-    per_diem: false
-    hebergement_vernissage: false
+    per_diem: null
+    hebergement_vernissage: null
 partenaires:
 - Ministère de l'Europe et des Affaires étrangères
 - Ministère de la Culture
 _meta:
-  extracted_confidence: 0.4
-  extracted_notes: Page d'informations générale du programme PIDA, pas appel d'offres
-    détaillé. Absence d'informations sur frais d'inscription, rémunération, hébergement,
-    ou prise en charge des frais. Langue du dossier non mentionnée. Contenu présente
-    le programme et des exemples de projets soutenus, non les modalités complètes
-    de candidature.
+  extracted_confidence: 0.55
+  extracted_notes: 'Programme classé comme ''exposition'' par schéma, mais il s''agit
+    en réalité d''une aide à projet pour la diffusion et la coopération artistique
+    à l''international, non d''une exposition au sens strict. Nombreuses informations
+    manquantes : montants de soutien, critères de sélection, conditions de prise en
+    charge, pièces demandées, langue de dossier. Seules certitudes : date limite (30
+    octobre 2026), disciplines, publics éligibles, organisme porteur (Institut français).
+    Les exemples de projets soutenus attestent une variété de formats (festivals,
+    tournées, expositions) mais sans garanties standardisées.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T08:56:28+00:00'
+  extracted_at: '2026-08-04T09:23:18+00:00'
   source_lang: fr
   detection_confidence: 0.8333333333333334
   detection_method: heuristic
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: Le PIDA (Programme International de Diffusion Artistique) est un appel
-    à projets de l'Institut français ouvert du 1er juillet au 30 octobre 2026, soutenu
-    par le ministère de l'Europe et des Affaires étrangères et le ministère de la
-    Culture. Il accompagne des projets de diffusion, de coopération ainsi que la présence
-    d'artistes français au sein de grandes manifestations prescriptrices internationales.
-    Il s'adresse au réseau culturel français à l'international, aux structures culturelles
-    françaises, aux artistes français ou basés en France, et aux structures culturelles
-    étrangères. Les huit disciplines couvertes sont l'architecture, les arts visuels,
-    la création numérique, la photographie, le design, les métiers d'art, la musique
-    et le spectacle vivant.
-  pour_qui: Artistes français ou basés en France, structures culturelles françaises
-    ou étrangères, réseau diplomatique français, et commissaires d'exposition ou collectifs
-    souhaitant promouvoir la création artistique française à l'international.
+  synthese: 'Le PIDA (Programme International de Diffusion Artistique) de l''Institut
+    français soutient des projets de diffusion, de coopération et la présence d''artistes
+    français dans de grandes manifestations internationales. Il s''adresse au réseau
+    culturel français à l''international, aux institutions et structures culturelles
+    françaises (musées, festivals, studios, labels), aux artistes et collectifs français,
+    ainsi qu''aux structures étrangères accueillant des artistes français. Le programme
+    couvre 8 disciplines : architecture, arts visuels, photographie, création numérique,
+    design, métiers d''art, musiques et spectacle vivant. Il est soutenu par le ministère
+    de l''Europe et des Affaires étrangères et le ministère de la Culture. La date
+    limite de dépôt est le 30 octobre 2026.'
+  pour_qui: Artistes français, équipes artistiques basées en France, structures culturelles
+    françaises ou étrangères souhaitant accueillir ou diffuser des artistes français
+    à l'international.
 a_savoir:
-- Page d'informations générale sans détails complets sur modalités et conditions de
-  soutien
-- Pas de précision sur frais d'inscription, rémunération, hébergement, ou prise en
-  charge financière
-- Programme d'aide à la diffusion (diffusion de projets existants), non une exposition
-  directement organisée
-- Langue du dossier de candidature non précisée
+- 'Programme rebaptisé PIDA en 2026 (anciennement IF Export) : vérifier la continuité
+  des conditions et du suivi.'
+- Aucune information sur les montants de soutien fournie dans l'appel public.
+- Critères de sélection du jury non communiqués publiquement.
+- Pas de délai de notification des résultats annoncé.
+- Pas de détails sur la prise en charge des frais de production, transport ou logistique.
+- 'Format de diffusion très varié (festivals, biennales, tournées, exposition) selon
+  les projets : conditions non standardisées.'
 organisme_details:
   site_web: https://www.institutfrancais.com
   adresse: null
@@ -89,52 +94,60 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: inconnu
-  justification: ''
+  justification: Aucune information sur les montants de soutien fournie dans l'appel
+    public.
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'prise_en_charge.hebergement_vernissage: null'
   poids: 2
   famille: conditions_materielles
 - id: atelier
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Aucun espace de travail ou studio n'est mentionné comme fourni par
+    le programme.
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: ''
+  justification: Pas de détails sur la prise en charge des frais de production, transport
+    ou logistique.
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: inconnu
-  justification: ''
+  justification: Aucune information sur les montants de soutien fournie dans l'appel
+    public.
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Critères de sélection du jury non communiqués publiquement.
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Pas de délai de notification des résultats annoncé.
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Aucune mention d'une notification individuelle aux candidat·es non
+    retenu·es.
   poids: 1
   famille: transparence_administrative
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: Exemples de projets soutenus (La Gran fiesta franco-mexicana, Baro
+    d'Evel, festivals Santiago a Mil) suggèrent une visibilité, mais non garanti par
+    l'appel.
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: inconnu
-  justification: ''
+  justification: Aucune mention d'un suivi documenté après la fin du programme (réseau
+    alumni, collection, accompagnement).
   poids: 1
   famille: debouche
 _interne_affinite:

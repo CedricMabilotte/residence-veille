@@ -62,28 +62,28 @@ partenaires_mentionnes:
   occurrences: 3
   nom_brut: Ambassade de France en Pologne
 - organisme_uid: ministere-de-la-culture-france
-  occurrences: 9
+  occurrences: 11
   nom_brut: Ministère de la Culture (France)
 - organisme_uid: ministere-des-affaires-etrangeres-france
   occurrences: 2
   nom_brut: Ministère des Affaires étrangères (France)
 - organisme_uid: ministere-de-l-europe-et-des-affaires-etrangeres
-  occurrences: 7
+  occurrences: 9
   nom_brut: Ministère de l'Europe et des Affaires étrangères
 - organisme_uid: delegation-interministerielle-a-la-mediterranee
-  occurrences: 3
+  occurrences: 4
   nom_brut: Délégation interministérielle à la Méditerranée
 - organisme_uid: cite-internationale-des-arts
-  occurrences: 3
+  occurrences: 5
   nom_brut: Cité internationale des arts
 - organisme_uid: institut-francais
-  occurrences: 1
+  occurrences: 2
   nom_brut: Institut français
 - organisme_uid: institut-francais-du-japon
   occurrences: 4
   nom_brut: Institut français du Japon
 - organisme_uid: fondation-bettencourt-schueller
-  occurrences: 4
+  occurrences: 5
   nom_brut: Fondation Bettencourt Schueller
 - organisme_uid: ministere-de-la-culture-pologne
   occurrences: 1
@@ -125,7 +125,7 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Villa Gillet
 - organisme_uid: festival-d-avignon
-  occurrences: 1
+  occurrences: 2
   nom_brut: Festival d'Avignon
 - organisme_uid: theatre-des-baumettes
   occurrences: 1
@@ -260,7 +260,7 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Festival de Marseille
 - organisme_uid: festival-d-aix-en-provence
-  occurrences: 1
+  occurrences: 2
   nom_brut: Festival d'Aix-en-Provence
 - organisme_uid: festival-du-cinema-mediterraneen-de-montpellier
   occurrences: 1
@@ -343,15 +343,22 @@ partenaires_mentionnes:
 - organisme_uid: maisons-d-edition
   occurrences: 1
   nom_brut: Maisons d'édition
+- organisme_uid: les-suds-a-arles
+  occurrences: 1
+  nom_brut: Les Suds à Arles
+- organisme_uid: rencontres-photographiques-d-arles
+  occurrences: 1
+  nom_brut: Rencontres photographiques d'Arles
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-04'
   status: actif
   nouveaux_entrants: true
 ville: Paris
 noms_alternatifs:
 - Institut français, Villa Kujoyama
 - Institut français et Cité internationale des arts
+- Institut français, Cité internationale des arts
 contact_email: Pôle Saisons et Temps forts de l'Institut français (contact non spécifié)
 adresse: 18 rue de l'Hôtel de Ville, 75004 (Cité internationale des arts)

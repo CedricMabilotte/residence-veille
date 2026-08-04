@@ -1,8 +1,8 @@
 uid: 762972f7
 type: residence
 source_url: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale
-fetched_at: '2026-08-02T09:01:16+00:00'
-score: 4
+fetched_at: '2026-08-04T09:30:39+00:00'
+score: 6
 status: ouverte
 opportunite:
   nom: Résidences Institut français x Cité internationale des arts
@@ -10,7 +10,7 @@ opportunite:
   lieu:
     ville: Paris
     pays: France
-    territoire: null
+    territoire: Cité internationale des arts, site du Marais
 candidature:
   date_limite: '2026-10-08'
   date_limite_precision: day
@@ -32,17 +32,17 @@ eligibilite:
   niveau_carriere: confirmé·e
   age_max: null
   nationalite: sans restriction
-  residence_administrative: résider hors du territoire français de manière permanente
+  residence_administrative: Résider hors du territoire français de manière permanente
     depuis au moins 5 ans
 conditions_residence:
   duree:
     semaines: null
-    dates: '3, 6 ou 9 mois. Périodes : 9 avril – 5 juillet 2027 ; 9 juillet – 4 octobre
-      2027 ; 8 octobre 2027 – 3 janvier 2028 ; 7 janvier – 3 avril 2028'
+    dates: 'Quatre périodes : 09/04-05/07/2027, 09/07-04/10/2027, 08/10/2027-03/01/2028,
+      07/01-03/04/2028. Durées : 3, 6 ou 9 mois (1, 2 ou 3 trimestres consécutifs)'
   hebergement: true
-  atelier: Ateliers-logements individuels meublés à la Cité internationale des arts,
-    équipés d'une connexion Wifi, comprenant une pièce de travail, une chambre, une
-    salle de bain et une kitchenette
+  atelier: Ateliers-logements individuels meublés à la Cité internationale des arts
+    (18 rue de l'Hôtel de Ville, Paris 4e), avec pièce de travail, chambre, salle
+    de bain, kitchenette, connexion Wifi
   remuneration:
     montant: 1100
     devise: EUR
@@ -56,103 +56,112 @@ partenaires:
 - Institut français
 - Cité internationale des arts
 _meta:
-  extracted_confidence: 0.95
-  extracted_notes: Données explicites et complètes. Candidature obligatoirement soutenue
-    par au moins un partenaire associé. Frais d'inscription non mentionnés.
+  extracted_confidence: 0.82
+  extracted_notes: Page structurée et détaillée. Informations principales complètes.
+    Pièces demandées non énumérées; délai de réponse des résultats non précisé; restitution
+    non mentionnée.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T09:01:16+00:00'
+  extracted_at: '2026-08-04T09:30:39+00:00'
   source_lang: fr
   detection_confidence: 0.8571428571428571
   detection_method: heuristic
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: 'Le programme de résidences Institut français x Cité internationale des
-    arts propose des séjours de 3, 6 ou 9 mois à Paris pour artistes confirmés résidant
-    à l''étranger depuis au moins 5 ans. L''Institut français prend en charge l''hébergement
-    en ateliers-logements meublés à la Cité internationale des arts et les partenaires
-    versent une allocation minimale de 1100 € par mois, couvrant également le voyage
-    international et l''assurance. Sept disciplines artistiques sont éligibles : Architecture,
-    Arts Visuels/Photographie, Cinéma, Création numérique, Livre, Métiers d''art/Design,
-    Spectacle vivant/Musique. L''appel à candidatures s''étend du 1er juillet au 8
-    octobre 2026 pour des résidences entre avril 2027 et avril 2028.'
-  pour_qui: Artistes professionnels confirmés résidant à l'étranger depuis au moins
-    5 ans, libérés de toute activité professionnelle et souhaitant développer un projet
-    de recherche et création à Paris avec le soutien d'au moins un partenaire associé.
+  synthese: 'Programme de résidences de 3, 6 ou 9 mois à Paris pour artistes et professionnels
+    de la culture résidant hors de France depuis au moins 5 ans. Hébergement meublé
+    fourni à la Cité internationale des arts, avec atelier-logement individuel (pièce
+    de travail, chambre, salle de bain, kitchenette). Partenaires associés doivent
+    couvrir allocation minimum 1100 € par mois, voyage international, assurance et
+    frais de visa. Sélection sur dossier : parcours professionnel, qualité artistique
+    du projet, protocole de travail, lien avec scène française. Inscription jusqu''au
+    8 octobre 2026 pour séjours entre avril 2027 et avril 2028.'
+  pour_qui: Artistes et professionnels de la culture de niveau professionnel reconnu,
+    résidant de manière permanente hors du territoire français depuis au moins 5 ans.
 a_savoir:
-- Candidature obligatoirement soutenue par au moins un partenaire associé qui s'engage
-  sur l'allocation mensuelle, le voyage et l'assurance
-- Libération complète d'activité professionnelle requise durant toute la durée de
-  la résidence
-- Maîtrise du français et/ou de l'anglais au niveau professionnel obligatoire
-- Les prestations complémentaires (accompagnateur, studios de répétition, ateliers
-  collectifs, cours de français) restent à la charge de l'artiste
-- Les dates de résidence doivent respecter un calendrier précis en trimestres consécutifs,
-  avec possibilité limitée de préférences
+- Allocation mensuelle modérée (1100€ minimum) pour Paris, ville à coût de la vie
+  élevé
+- Financement reposant entièrement sur les partenaires associés de l'artiste, pas
+  directement l'Institut français
+- Exigence de maîtrise du français ou de l'anglais à niveau professionnel
+- Obligation d'être totalement libéré de toute activité professionnelle durant la
+  résidence
+- Aucun délai ou date de notification des résultats indiqué
+- Pièces demandées non précisées dans l'appel (consulter FAQ)
 organisme_details:
-  site_web: https://www.institutfrancais.com
-  adresse: 18 rue de l'Hôtel de Ville, Paris 4e
+  site_web: https://www.institutfrancais.com/
+  adresse: 18 rue de l'Hôtel de Ville, 75004 Paris
   ville: Paris
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'remuneration: montant 1100 EUR par mois'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'hebergement: true; atelier: Ateliers-logements individuels meublés
+    à la Cité internationale des arts'
   poids: 2
   famille: conditions_materielles
 - id: atelier
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'atelier: pièce de travail, chambre, salle de bain, kitchenette,
+    connexion Wifi'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'voyage.pris_en_charge: true; analyse: voyage international, assurance
+    et frais de visa pris en charge par le partenaire associé'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'a_savoir: Allocation mensuelle modérée (1100€ minimum) pour Paris,
+    ville à coût de la vie élevé'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'analyse.synthese: Sélection sur dossier : parcours professionnel,
+    qualité artistique du projet, protocole de travail, lien avec scène française'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'a_savoir: Aucun délai ou date de notification des résultats indiqué'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: inconnu
-  justification: ''
+  justification: Aucune mention dans la fiche de notification individualisée aux candidat·es
+    non retenu·es
   poids: 1
   famille: transparence_administrative
 - id: production_libre
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'a_savoir: Obligation d''être totalement libéré de toute activité
+    professionnelle durant la résidence; prestations complémentaires non imposées'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'conditions_residence.duree.dates: Quatre périodes proposées; Durées
+    flexibles de 3, 6 ou 9 mois'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'restitution: null; a_savoir: Aucune mention de restitution publique,
+    exposition ou présentation finale'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'a_savoir: Pas de mention de suivi documenté après le programme,
+    réseau alumni ou accompagnement vers d''autres opportunités'
   poids: 1
   famille: debouche
 _interne_affinite:

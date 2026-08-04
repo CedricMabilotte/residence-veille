@@ -1,14 +1,14 @@
 uid: 966f8ed7
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026
-fetched_at: '2026-08-02T08:59:18+00:00'
-score: 4
+fetched_at: '2026-08-04T09:26:01+00:00'
+score: 6
 status: indetermine
 opportunite:
   nom: Saison Méditerranée 2026
   organisme: Institut français
   lieu:
-    ville: Marseille
+    ville: Marseille (ouverture), puis territoire français et rives méditerranéennes
     pays: France
 candidature:
   date_limite: null
@@ -19,7 +19,7 @@ candidature:
 eligibilite:
   disciplines:
   - Architecture
-  - Arts Visuels
+  - Arts visuels
   - Photographie
   - Cinéma
   - Création numérique
@@ -36,50 +36,67 @@ eligibilite:
 conditions_exposition:
   lieux:
   - Marseille
-  - France (ensemble du territoire)
-  - Rives de la Méditerranée
-  dates_exposition: 15 mai 2026 - 31 octobre 2026
-  format: null
+  - Aix-en-Provence
+  - Arles
+  - Avignon
+  - Lille
+  - territoire français
+  dates_exposition: 15 mai - 31 octobre 2026
+  format: festival
   prise_en_charge:
-    production: false
+    production: null
     transport:
-      pris_en_charge: false
+      pris_en_charge: null
       plafond: null
       devise: EUR
-    per_diem: false
-    hebergement_vernissage: false
+    per_diem: null
+    hebergement_vernissage: null
 partenaires:
+- Festival d'Aix-en-Provence
+- Les Suds à Arles
+- Rencontres photographiques d'Arles
+- Festival d'Avignon
 - Ministère de l'Europe et des Affaires étrangères
 - Ministère de la Culture
 - Délégation interministérielle à la Méditerranée
 _meta:
-  extracted_confidence: 0.2
-  extracted_notes: Page d'information sur une saison culturelle dont l'appel à projets
-    est désormais clos. Ne présente pas d'appel à candidatures ouvert pour des artistes
-    individuels.
+  extracted_confidence: 0.3
+  extracted_notes: Page de présentation générale d'une saison culturelle, non un appel
+    à candidature actif. L'appel à projets s'est déroulé en deux phases et est désormais
+    clos. Seuls les résultats (structures labellisées) sont visibles. Aucune information
+    relative aux candidatures individuelles d'artistes, frais, délais, critères de
+    sélection ou conditions d'hébergement/rétribution n'est mentionnée.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T08:59:18+00:00'
+  extracted_at: '2026-08-04T09:26:01+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: La Saison Méditerranée 2026 est une initiative nationale française du
-    15 mai au 31 octobre 2026 portée par l'Institut français, regroupant plus de 500
-    événements pluridisciplinaires. Elle célèbre les cultures et artistes des rives
-    méditerranéennes (architecture, arts visuels, cinéma, musique, spectacle vivant,
-    etc.) organisés sur l'ensemble du territoire français avec rayonnement en Méditerranée.
-    L'appel à projets s'est déroulé en deux phases et est désormais clos.
-  pour_qui: Les structures culturelles, artistes et créateurs intéressés par les coopérations
-    et projets autour des cultures méditerranéennes.
+  synthese: 'La Saison Méditerranée 2026 est une initiative gouvernementale française
+    (ministères de l''Europe, Affaires étrangères et Culture) mise en œuvre par l''Institut
+    français, qui se déploie du 15 mai au 31 octobre 2026 sur le territoire français
+    et sur les rives méditerranéennes. Elle célèbre les cultures, artistes et jeunes
+    talents des régions méditerranéennes via plus de 500 événements autour de cinq
+    thématiques : utopies spéculatives, identités plurielles, spiritualités contemporaines,
+    migrations, construction des récits. L''appel à projets pour structures (organisations
+    culturelles, festivals, centres d''arts) est désormais clos ; les résultats (structures
+    labellisées) sont publiés.'
+  pour_qui: Structures culturelles, festivals, organisations artistiques et créateurs
+    collectifs des rives méditerranéennes et de France souhaitant participer à une
+    saison de coopération culturelle et échanges transnationaux (appel clos).
 a_savoir:
-- L'appel à projets est désormais clos.
-- Cette page ne présente pas d'appel à candidatures ouvert.
+- Appel à projets clos — aucune candidature en cours. Cette page présente les résultats,
+  non un appel actif.
+- Cet appel était destiné à des structures et organisations, non à des artistes individuels.
+- 'Plus de 500 événements prévus : amplitude très large, diversité disciplinaire complète.'
+- Coopération gouvernementale multinationale (Maroc, Algérie, Tunisie, Égypte, Liban
+  mentionnés comme partenaires prioritaires).
 organisme_details:
   site_web: http://www.saisonmediterranee2026.com/
   adresse: null
-  ville: null
+  ville: Paris
   contact_email: null
 criteres_programme:
 - id: retribution
@@ -134,5 +151,6 @@ criteres_programme:
   famille: debouche
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - collectif
   bonus_score: 0

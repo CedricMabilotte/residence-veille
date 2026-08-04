@@ -16,11 +16,12 @@ opportunites_liees:
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: trans-europe-halles
-  occurrences: 2
+  occurrences: 3
   nom_brut: Trans Europe Halles
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-02'
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-04'
   status: actif
   nouveaux_entrants: true
+ville: Oulu

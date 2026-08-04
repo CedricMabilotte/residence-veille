@@ -1,8 +1,8 @@
 uid: 23509e2e
 type: residence
 source_url: https://www.cnap.fr/annonces/residence-tiny-spaces
-fetched_at: '2026-08-03T09:43:12+00:00'
-score: 6
+fetched_at: '2026-08-04T08:59:49+00:00'
+score: 7
 status: ouverte
 opportunite:
   nom: Résidence Tiny Spaces
@@ -15,7 +15,9 @@ candidature:
   date_limite: '2026-12-31'
   date_limite_precision: day
   langue_dossier: null
-  frais_inscription: null
+  frais_inscription:
+    montant: null
+    devise: null
   pieces_demandees: null
   url_candidature: https://tinyspaces.eu/open-call/
 eligibilite:
@@ -35,15 +37,15 @@ eligibilite:
   - design
   niveau_carriere: tous
   age_max: null
-  nationalite: sans restriction
-  residence_administrative: UE ou Europe créative
+  nationalite: résidents de l'UE ou d'Europe créative
+  residence_administrative: résidents de l'UE ou d'Europe créative
 conditions_residence:
   duree:
     semaines: 4
-    dates: mai-août 2026
+    dates: mai à août 2026
   hebergement: true
-  atelier: Ateliers à Oulu, Athènes et Potsdam dans d'anciens bâtiments désaffectés.
-    Studios TISP recyclés/réaménagés pour la création.
+  atelier: Ateliers d'artistes à Oulu, Athènes et Potsdam aménagés dans d'anciens
+    bâtiments désaffectés
   remuneration:
     montant: 3000
     devise: EUR
@@ -52,45 +54,49 @@ conditions_residence:
     pris_en_charge: true
     plafond: null
     devise: EUR
-  restitution: Exposition collective et symposium à Oulu en août 2026. Œuvres archivées
-    sur site web du projet et plateforme numérique.
+  restitution: Exposition collective et symposium à Oulu en août 2026; archivage des
+    œuvres sur site web et présentation sur plateforme numérique
 partenaires:
 - Trans Europe Halles
 _meta:
-  extracted_confidence: 0.85
-  extracted_notes: Informations structurées. Manquent pièces précises demandées, langues
-    acceptées, délais de réponse et notification des non-retenus.
+  extracted_confidence: 0.8
+  extracted_notes: 'Appel bien structuré avec montants et lieux clairs. Manquent :
+    critères de sélection explicites, délai de notification, pièces requises, langue
+    du dossier.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-03T09:43:12+00:00'
+  extracted_at: '2026-08-04T08:59:49+00:00'
   source_lang: fr
   detection_confidence: 0.8125
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: Résidence d'un mois proposée par le projet Tiny Spaces pour six artistes
-    sélectionnés en Allemagne, Grèce et Finlande (mai-août 2026). Les artistes reçoivent
-    une rémunération de 3 000 €, avec voyage en train et ferry, hébergement et dépenses
-    quotidiennes couverts. Le programme intègre le voyage lent comme partie du processus
-    créatif et offre des ateliers dans des bâtiments réaménagés. Les créations sont
-    archivées numériquement et sélectionnées pour une exposition collective lors d'un
-    symposium à Oulu en août 2026.
-  pour_qui: Artistes et créateurs toutes disciplines confondues, résidant en UE ou
-    Europe créative, privilégiant le processus et la création in situ.
+  synthese: 'Résidence Tiny Spaces sélectionne six artistes pour un séjour d''un mois
+    entre mai et août 2026, dans des ateliers rénovés à Oulu, Athènes et Potsdam.
+    La résidence comprend 3 000 € de rémunération, l''hébergement, les frais de voyage
+    (train et ferry), et les dépenses quotidiennes. Les artistes participent à une
+    exposition collective et un symposium à Oulu en août 2026, avec archivage numérique
+    des œuvres. Le programme explore des méthodes pour des résidences plus durables,
+    axées sur le processus et la création in situ. Éligibilité : artistes résidant
+    en UE ou Europe créative, toutes disciplines.'
+  pour_qui: Artistes et créateurs résidant en UE ou Europe créative, toutes disciplines
+    (visuels, textes, son, audiovisuel, numérique, théâtre, danse, performance, musique,
+    écriture, design), dont la pratique est axée sur le processus et la création in
+    situ.
 a_savoir:
-- Éligibilité restreinte aux résidents de l'UE ou d'Europe créative
-- 'Durée courte : 1 mois uniquement'
-- Voyage lent (train/ferry) intégré au processus résidentiel, sans alternative aérienne
-- Restitution en groupe (exposition collective) plutôt que vitrine individuelle
+- Critères de sélection du jury non publiés
+- Pas de délai de notification des résultats communiqué
+- Aucune mention de notification aux candidats non retenus
+- Voyage en train et ferry uniquement, sans vols
 organisme_details:
-  site_web: https://tinyspaces.eu/
+  site_web: null
   adresse: null
-  ville: null
+  ville: Oulu
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: '"montant": 3000, "devise": "EUR", "periodicite": "forfait"'
+  justification: '"remuneration": {"montant": 3000, "devise": "EUR"}'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
@@ -100,63 +106,61 @@ criteres_programme:
   famille: conditions_materielles
 - id: atelier
   rempli: oui
-  justification: '"atelier": "Ateliers à Oulu, Athènes et Potsdam dans d''anciens
-    bâtiments désaffectés. Studios TISP recyclés/réaménagés pour la création."'
+  justification: '"atelier": "Ateliers d''artistes à Oulu, Athènes et Potsdam aménagés
+    dans d''anciens bâtiments désaffectés"'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: oui
-  justification: '"voyage": {"pris_en_charge": true} et "dépenses quotidiennes couverts"
-    (synthèse)'
+  justification: '"voyage": {"pris_en_charge": true} et synthèse: "frais de voyage
+    (train et ferry), et les dépenses quotidiennes"'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
-  rempli: inconnu
-  justification: '"montant": 3000, "duree": {"semaines": 4} dans trois pays (Allemagne,
-    Grèce, Finlande) à coût de vie variable — pas d''information sur per diem quotidien
-    ou pouvoir d''achat réel'
+  rempli: oui
+  justification: '"remuneration": 3000 EUR + hébergement + voyage + dépenses quotidiennes
+    tous couverts'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: partiel
-  justification: '"pour_qui": "...résidant en UE ou Europe créative, privilégiant
-    le processus et la création in situ" — seule orientation vague énoncée, pas de
-    grille ou barème formel'
+  rempli: non
+  justification: '"a_savoir": ["Critères de sélection du jury non publiés", ...]'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
   rempli: non
-  justification: Aucun champ relatif à délai de notification ou date de résultats
+  justification: '"a_savoir": ["Pas de délai de notification des résultats communiqué",
+    ...]'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: non
-  justification: Aucune mention de notification aux candidats non retenu·es
+  justification: '"a_savoir": ["Aucune mention de notification aux candidats non retenus",
+    ...]'
   poids: 1
   famille: transparence_administrative
 - id: production_libre
   rempli: oui
-  justification: '"synthese": "Le programme intègre le voyage lent comme partie du
-    processus créatif" et Mentorat/rencontres "prévus" (optionnel, non imposé)'
+  justification: 'synthèse: "axées sur le processus et la création in situ" ; mentorat
+    et rencontres proposés, non imposés'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
   rempli: partiel
-  justification: '"duree": {"semaines": 4, "dates": "mai-août 2026"} — fenêtre large
-    (4 mois) mais durée rigide par artiste (1 mois exactement, sans flexibilité individuelle)'
+  justification: '"duree": {"semaines": 4, "dates": "mai à août 2026"} — fenêtre large
+    mais durée fixe de 4 semaines'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
   rempli: oui
   justification: '"restitution": "Exposition collective et symposium à Oulu en août
-    2026. Œuvres archivées sur site web du projet et plateforme numérique."'
+    2026; archivage des œuvres sur site web et présentation sur plateforme numérique"'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: partiel
-  justification: '"restitution": "Œuvres archivées sur site web du projet et plateforme
-    numérique" — archivage documenté seulement, pas de réseau alumni actif ni accompagnement
-    vers opportunités futures'
+  justification: archivage et présentation numérique mentionnés ; "pas d'alumni network
+    ou accompagnement ultérieur mentionné"
   poids: 1
   famille: debouche
 _interne_affinite:

@@ -1,11 +1,11 @@
 uid: eb0a78fc
 type: residence
 source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste
-fetched_at: '2026-08-02T09:14:41+00:00'
-score: 4
+fetched_at: '2026-08-04T09:47:59+00:00'
+score: 6
 status: bientot-fermee
 opportunite:
-  nom: Programme de résidence de création et de recherche pour artistes timorais
+  nom: Programme de résidence Timor-Leste
   organisme: Cité internationale des arts
   lieu:
     ville: Paris
@@ -20,32 +20,33 @@ candidature:
   frais_inscription: null
   pieces_demandees:
   - Curriculum vitae détaillé (4 pages maximum)
-  - Dossier artistique avec visuels (15 pages maximum)
-  - Note d'intention (3 pages maximum)
-  url_candidature: null
+  - Dossier artistique en français ou en anglais comprenant des visuels d'œuvres avec
+    légendes complètes (15 pages maximum), avec liens vidéo, fichiers audio représentatifs
+  - Note d'intention exposant le projet de recherche, motivations et intérêt à intégrer
+    le programme (3 pages maximum)
+  url_candidature: https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste
 eligibilite:
   disciplines:
   - arts visuels
   - performance
-  - musiques
-  - recherches sonores
+  - musiques et recherches sonores
   - spectacle vivant
   - écritures
   - design
   - architecture-urbanisme
   - commissariat
   - critique d'art
-  niveau_carriere: tous
+  niveau_carriere: confirmé·e
   age_max: null
-  nationalite: Timoraise
+  nationalite: timoraise
   residence_administrative: sans restriction
 conditions_residence:
   duree:
-    semaines: 12
-    dates: 02 février 2027 - 27 avril 2027
+    semaines: null
+    dates: 2027-02-02 au 2027-04-27
   hebergement: true
-  atelier: Espace meublé de travail et de vie de 25-40m² composé d'une pièce de travail,
-    d'une cuisine, d'une salle de bains et d'un espace nuit
+  atelier: Atelier-logement meublé de 25 à 40 m² composé d'une pièce de travail, cuisine,
+    salle de bains et espace nuit, situé site du Marais
   remuneration:
     montant: 850
     devise: EUR
@@ -54,37 +55,39 @@ conditions_residence:
     pris_en_charge: true
     plafond: null
     devise: EUR
-  restitution: Compte rendu d'expérience en fin de résidence
+  restitution: Compte rendu d'expérience demandé en fin de résidence
 partenaires:
 - Institut français d'Indonésie
 - Fundação Oriente
+- Cité internationale des arts
 _meta:
   extracted_confidence: 0.95
-  extracted_notes: Toutes les informations clés sont explicitement documentées. Montants,
-    dates, conditions de résidence et critères d'éligibilité clairement énoncés.
+  extracted_notes: Page complète avec informations détaillées. Adresse précise manquante,
+    contact email non fourni. Une seule place disponible.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T09:14:41+00:00'
+  extracted_at: '2026-08-04T09:47:59+00:00'
   source_lang: fr
   detection_confidence: 0.98
   detection_method: claude
   source_label: Cité internationale des arts — appels à candidature ouverts
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: Résidence de trois mois à Paris (2 février - 27 avril 2027) pour artistes
-    timorais, offrant un atelier-logement de 25-40m², une bourse mensuelle de 850
-    euros nets, la prise en charge du transport international et de l'assurance voyage,
-    accompagnement et mise en réseau par les partenaires. Destiné aux artistes de
-    toutes disciplines ayant une pratique professionnelle depuis au moins 5 ans. Un
-    seul lauréat sélectionné.
-  pour_qui: Artistes timorais de toutes disciplines justifiant d'une activité artistique
-    depuis au moins 5 ans et maîtrisant l'anglais ou le français.
+  synthese: 'La Cité internationale des arts propose une résidence de trois mois à
+    Paris (02 février au 27 avril 2027) destinée à un artiste timorais sélectionné
+    parmi les candidatures. Le lauréat reçoit un logement-atelier meublé (25-40 m²),
+    une bourse mensuelle de 850 euros nets, une enveloppe d''accueil de 200 euros,
+    le transport international aller-retour, l''assurance voyage et les frais de visa.
+    Éligibilité : nationalité timoraise, pratique artistique documentée depuis minimum
+    5 ans, maîtrise de l''anglais ou du français. Dépôt de candidature jusqu''au 30
+    août 2026 ; résultats en novembre 2026.'
+  pour_qui: Artistes timorais ayant une pratique artistique ou de recherche documentée
+    depuis au moins 5 ans, toutes disciplines confondues.
 a_savoir:
-- Programme réservé aux ressortissants timorais uniquement
-- Un seul lauréat sélectionné (forte sélectivité)
-- Transport d'œuvres et de matériel d'expérimentation non pris en charge
-- Accessibilité des espaces non conforme aux normes actuelles pour personnes en situation
-  de handicap
-- Aide à l'arrivée de 200 euros fournie en attente du versement de la première bourse
+- 'Une seule place disponible : programme hautement compétitif'
+- 'Durée courte : trois mois seulement'
+- Transport des œuvres ou du matériel d'expérimentation non pris en charge
+- Compte rendu d'expérience requis à la fin de la résidence
+- Dossier obligatoirement en français ou anglais
 organisme_details:
   site_web: https://www.citeinternationaledesarts.fr
   adresse: null
@@ -153,6 +156,5 @@ criteres_programme:
   famille: debouche
 _interne_affinite:
   match: false
-  signaux:
-  - long séjour
+  signaux: []
   bonus_score: 0

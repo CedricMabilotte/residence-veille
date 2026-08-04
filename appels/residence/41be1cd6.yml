@@ -59,7 +59,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
   synthese: Le CPA lance un appel à projet pour concevoir et réaliser une sculpture
     monumentale participative, quatrième œuvre du parcours 'Chemin des Arts'. L'artiste

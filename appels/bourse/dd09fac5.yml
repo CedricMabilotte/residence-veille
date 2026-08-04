@@ -1,139 +1,152 @@
 uid: dd09fac5
 type: bourse
 source_url: https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart
-fetched_at: '2026-05-22T14:02:24+00:00'
-score: 4
+fetched_at: '2026-08-04T09:16:14+00:00'
+score: 7
 status: ouverte
 opportunite:
   nom: Aider à la production d'oeuvres d'art
   organisme: Fondation des Artistes
   lieu:
-    ville: Nogent-sur-Marne
+    ville: null
     pays: France
 candidature:
   date_limite: '2026-09-11'
   langue_dossier:
-  - fr
+  - français
   frais_inscription: null
   pieces_demandees:
   - Curriculum vitae
-  - Éléments portant sur les travaux récents ou plus anciens les plus importants
-  - Descriptif détaillé du projet accompagné éventuellement d'éléments iconographiques
+  - Éléments portant sur travaux récents ou anciens les plus importants
+  - Descriptif détaillé du projet
+  - Éléments iconographiques
   - Budget précis en dépenses et recettes
   url_candidature: null
 eligibilite:
   disciplines:
   - arts plastiques
+  - vidéo
+  - film
   niveau_carriere: null
   age_max: null
   nationalite: null
-  residence_administrative: France (travaillant ou ayant un projet de longue durée)
+  residence_administrative: France
 conditions_bourse:
   montant:
     montant: null
     devise: EUR
   finalite: production
-  calendrier_usage: Phase de préparation (recherche résidence, production). Exclusion
-    des frais de post-production et diffusion.
+  calendrier_usage: phase de préparation du projet (recherche, résidence, production)
   obligations_rendu:
   - Première présentation de l'œuvre
   - Présentation du budget définitif
   - Justificatifs des dépenses
 partenaires:
-- Ministère de la Culture (Direction générale de la création artistique et Inspection
-  générale de la création artistique)
+- Ministère de la Culture - Direction générale de la création artistique
+- Ministère de la Culture - Inspection générale de la création artistique
 _meta:
   extracted_confidence: 0.85
-  extracted_notes: Programme d'aide à la production existant depuis 2011. Date limite
-    spécifique pour l'automne 2026. Montant individuel d'aide variable jusqu'à 80%
-    des dépenses. URL de candidature non spécifiée précisément, plateforme en ligne
-    mentionnée sans lien.
+  extracted_notes: Aide à la production variable jusqu'à 80% des dépenses. Versement
+    en deux fois (75% après décision, solde à présentation). Prochaine commission
+    automne 2026.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-05-22T14:02:24+00:00'
+  extracted_at: '2026-08-04T09:16:14+00:00'
   source_lang: fr
-  detection_confidence: 0.98
+  detection_confidence: 0.95
   detection_method: claude
   source_label: Fondation des Artistes
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: La Fondation des Artistes propose une aide à la production d'œuvres d'art
-    destinée aux plasticiens travaillant ou ayant un projet en France. L'organisme
-    verse une bourse couvrant jusqu'à 80% des dépenses de production, hors frais de
-    post-production et diffusion. L'aide intervient au premier stade de développement
-    du projet. Aucun critère d'âge, de nationalité ou de pratique n'est exigé. Les
-    candidatures pour l'automne 2026 se font entre le 10 août et le 11 septembre 2026.
-  pour_qui: Plasticiens travaillant ou ayant un projet de longue durée en France,
-    sans limite d'âge ou de nationalité.
+  synthese: 'La Fondation des Artistes propose une aide à la production d''oeuvres
+    d''art pour les plasticiens ayant un projet de longue durée en France, dotée d''une
+    enveloppe annuelle de 500 000 €. L''aide couvre jusqu''à 80 % des dépenses de
+    production et intervient en phase de préparation du projet. Aucun critère d''âge,
+    de nationalité ou de pratique n''est requis. Le versement s''effectue en deux
+    fois : 75 % après décision de la commission, le solde lors de la première présentation
+    de l''œuvre sur présentation de justificatifs. La prochaine commission aura lieu
+    à l''automne 2026 avec appel à candidatures du 10 août au 11 septembre 2026.'
+  pour_qui: Plasticiens (arts plastiques, vidéo, film, etc.) travaillant ou ayant
+    un projet de longue durée en France, sans limite d'âge ni critère de nationalité.
 a_savoir:
-- L'aide ne couvre que les frais de production, pas la post-production ou la diffusion
-- L'aide ne peut pas dépasser 80% des dépenses de production globale
-- 'Versement en deux fois : 75% après décision, solde à la première présentation de
-  l''œuvre'
-- Programme établi depuis 2011 avec historique de soutien de 687 projets
+- Aide limitée à la production, exclusion explicite des frais de post-production et
+  diffusion
+- Montant maximum limité à 80 % des dépenses de production
+- Organisme établi depuis 2011 avec historique de soutien (687 projets soutenus pour
+  7,6 millions €)
+- Solde versé seulement après présentation de l'œuvre et justification des dépenses
 organisme_details:
-  site_web: https://www.fondationdesartistes.fr
+  site_web: null
   adresse: null
   ville: Nogent-sur-Marne
-  contact_email: null
+  contact_email: visite@fondationdesartistes.fr
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: L'aide est versée directement à l'artiste (75% après la décision
+    de la commission, le solde lors de la première présentation de l'œuvre)
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Aucun hébergement mentionné dans le programme
   poids: 2
   famille: conditions_materielles
 - id: atelier
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Aucun espace de travail ou atelier fourni mentionné
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'L''aide couvre jusqu''à 80 % des dépenses de production (a_savoir:
+    Montant maximum limité à 80 % des dépenses de production)'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: inconnu
-  justification: ''
+  justification: 'conditions_bourse.montant.montant: null — aucun montant spécifié'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'Critères publiés : qualité artistique du projet, réalisme du budget,
+    implication des diffuseurs, perspectives de visibilité en France et à l''international'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Aucun délai ou date de notification des résultats n'est communiqué
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: Pas de mention d'une notification individuelle aux candidats non
+    retenus
   poids: 1
   famille: transparence_administrative
 - id: production_libre
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: L'aide vise à favoriser le développement de projets ambitieux dans
+    leur phase de préparation sans obligations de médiation ou d'événements imposés
+    mentionnées
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
   rempli: inconnu
-  justification: ''
+  justification: Aucune indication sur la flexibilité des dates ou calendrier d'usage
+    des fonds
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: Perspectives de visibilité en France et à l'international sont un
+    critère de sélection, mais pas une garantie de restitution publique
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: Organisme établi depuis 2011 avec historique de soutien (687 projets
+    soutenus); liste publique des artistes ayant bénéficié d'un soutien
   poids: 1
   famille: debouche
 _interne_affinite:

@@ -1,8 +1,8 @@
 uid: c16312c6
 type: residence
 source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/republique-dominicaine-x-cite-internationale-des-arts
-fetched_at: '2026-08-02T09:11:33+00:00'
-score: 4
+fetched_at: '2026-08-04T09:43:36+00:00'
+score: 7
 status: bientot-fermee
 opportunite:
   nom: République dominicaine x Cité internationale des arts
@@ -20,12 +20,9 @@ candidature:
   frais_inscription: null
   pieces_demandees:
   - Curriculum vitæ (4 pages maximum, format PDF)
-  - Dossier artistique avec une dizaine de visuels d'œuvres avec légendes (10 pages
-    maximum, format PDF, 10 Mo max, avec liens vidéo et/ou fichiers audio .mp3, .avi
-    si possible)
-  - Lettre d'intention (3 pages maximum, format PDF) présentant les éléments clés
-    du parcours artistique, le projet pour la résidence, les raisons justifiant la
-    résidence à Paris, les motivations d'être accueilli à la Cité
+  - Dossier artistique comprenant une dizaine de visuels d'œuvres passées avec légendes
+    (10 pages maximum, format PDF, 10 Mo max.)
+  - Lettre d'intention (3 pages maximum, format PDF)
   url_candidature: https://www.citeinternationaledesarts.fr/appels-a-candidature/republique-dominicaine-x-cite-internationale-des-arts
 eligibilite:
   disciplines:
@@ -39,16 +36,15 @@ eligibilite:
   - pratique transdisciplinaire
   niveau_carriere: confirmé·e
   age_max: null
-  nationalite: Dominicaine
+  nationalite: dominicaine
   residence_administrative: République dominicaine depuis au moins deux ans
 conditions_residence:
   duree:
     semaines: 12
     dates: 5 janvier au 26 mars 2027 ou 2 avril au 28 juin 2027
   hebergement: true
-  atelier: Atelier-logement sur le site du Marais de la Cité internationale des arts,
-    20-35 m² meublé, composé d'une pièce de travail, une cuisine, une salle de bains
-    et un espace nuit
+  atelier: Espace meublé unique de travail et de vie de 20 à 35m², composé d'une pièce
+    de travail, cuisine, salle de bains et espace nuit
   remuneration:
     montant: 1000
     devise: EUR
@@ -57,111 +53,118 @@ conditions_residence:
     pris_en_charge: true
     plafond: null
     devise: EUR
-  restitution: Compte rendu faisant état des activités réalisées et du processus créatif
-    engagé (visuelle et textuelle). Engagement dans les open studios hebdomadaires
-    de la Cité.
+  restitution: Restitution de la recherche dans les open studios hebdomadaires de
+    la Cité et remise d'un compte rendu détaillé des activités réalisées et du processus
+    créatif engagé
 partenaires:
 - Ambassade de la République dominicaine en France
-- Banco de Reservas de la República Dominicana
-- Banco Múltiple
+- Banco de Reservas
 - Centre culturel Banreservas
 _meta:
   extracted_confidence: 0.95
-  extracted_notes: Appel à candidatures détaillé et structuré. Dates précises, montants
-    explicites, critères d'éligibilité clairs. Peu d'ambiguïtés.
+  extracted_notes: Appel très structuré avec critères et conditions précisément énoncés.
+    Dates calendaires exactes et montants chiffrés fournis.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T09:11:33+00:00'
+  extracted_at: '2026-08-04T09:43:36+00:00'
   source_lang: fr
   detection_confidence: 0.98
   detection_method: claude
   source_label: Cité internationale des arts — appels à candidature ouverts
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: La Cité internationale des arts, en partenariat avec l'Ambassade de la
-    République dominicaine en France et Banco de Reservas, propose 2 résidences de
-    3 mois à Paris en 2027 (5 janvier au 26 mars et 2 avril au 28 juin) destinées
-    aux artistes visuels dominicains. Les résidents reçoivent un atelier-logement
-    de 20-35 m², une bourse mensuelle de 1000 euros nets, la prise en charge du transport
-    international et une assurance voyage/santé. Le programme offre un accompagnement,
-    une mise en réseau et la possibilité de restituer la recherche via les open studios
-    hebdomadaires.
-  pour_qui: Artistes visuels de nationalité dominicaine, résidant en République dominicaine
-    depuis au moins 2 ans, justifiant au minimum 3 ans d'expérience professionnelle,
-    et parlant anglais ou français.
+  synthese: Résidence de recherche de trois mois à Paris pour artistes visuels dominicains,
+    co-organisée par l'Ambassade de la République dominicaine et la Cité internationale
+    des arts. Deux sessions proposées en 2027 (janvier-mars et avril-juin). Le programme
+    fournit atelier-logement de 20 à 35m², bourse mensuelle de 1000 euros nets, transport
+    aérien aller-retour jusqu'à Paris et assurance voyage et santé. Restitution obligatoire
+    via open studios et compte rendu détaillé des activités.
+  pour_qui: Artistes visuels dominicains ayant au minimum 3 ans d'expérience professionnelle,
+    de nationalité dominicaine, résidant en République dominicaine depuis 2 ans, et
+    maîtrisant l'anglais ou le français en contexte professionnel.
 a_savoir:
-- Nationalité dominicaine obligatoire et résidence en République dominicaine requise
-  depuis au moins 2 ans
-- Durée fixe de 3 mois sur deux périodes déterminées
-- Frais de passeport, visa et modification de billets non couverts par l'organisme
-- Ateliers-logements ne répondent pas aux normes actuelles d'accessibilité pour personnes
-  en situation de handicap
-- Engagement complet requis pendant toute la résidence et restitution obligatoire
-  du processus créatif
-- Seules 2 places disponibles au total
+- Nationalité dominicaine strictement requise
+- Résidence administrative obligatoire en République dominicaine depuis au moins deux
+  ans au moment de la candidature
+- 'Niveau de carrière : minimum 3 ans d''expérience professionnelle exigés'
+- Inéligibilité des artistes ayant déjà bénéficié d'une résidence à la Cité internationale
+  des arts
+- Engagement de restitution obligatoire et compte rendu détaillé exigé
+- 'Accessibilité limitée : ateliers-logements non conformes aux normes actuelles d''accessibilité
+  pour personnes en situation de handicap'
 organisme_details:
   site_web: https://www.citeinternationaledesarts.fr
-  adresse: Site du Marais, Paris
+  adresse: null
   ville: Paris
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'remuneration: montant 1000 EUR, periodicite mois'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'conditions_residence.hebergement: true'
   poids: 2
   famille: conditions_materielles
 - id: atelier
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'conditions_residence.atelier: Espace meublé unique de travail et
+    de vie de 20 à 35m²'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'conditions_residence.voyage.pris_en_charge: true (transport aérien
+    aller-retour, assurance voyage et santé)'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'remuneration: 1000 EUR/mois + hebergement fourni; lieu Paris (coût
+    de vie élevé, montant juste)'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: La fiche énonce conditions d'éligibilité et pièces demandées, mais
+    n'énonce pas les critères de sélection du jury
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
   rempli: inconnu
-  justification: ''
+  justification: 'candidature: aucune mention d''un délai ou d''une date de notification
+    des résultats'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'candidature: aucune mention d''une notification individuelle aux
+    candidats non retenus'
   poids: 1
   famille: transparence_administrative
 - id: production_libre
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'conditions_residence.restitution: obligatoire dans les open studios
+    hebdomadaires et compte rendu détaillé exigé'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'conditions_residence.duree.dates: deux périodes fixes proposées
+    (5 jan-26 mars 2027 OU 2 avril-28 juin 2027) sans flexibilité individuelle'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'conditions_residence.restitution: open studios hebdomadaires de
+    la Cité (visibilité locale, rayonnement externe non garanti)'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: aucune mention dans la fiche de suivi post-programme, réseau alumni
+    ou accompagnement ultérieur
   poids: 1
   famille: debouche
 _interne_affinite:

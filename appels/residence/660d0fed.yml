@@ -1,8 +1,8 @@
 uid: 660d0fed
 type: residence
 source_url: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama
-fetched_at: '2026-08-02T09:04:54+00:00'
-score: 4
+fetched_at: '2026-08-04T09:36:36+00:00'
+score: 6
 status: indetermine
 opportunite:
   nom: Résidences à la Villa Kujoyama
@@ -18,35 +18,29 @@ candidature:
   frais_inscription:
     montant: null
     devise: null
-  pieces_demandees: []
+  pieces_demandees: null
   url_candidature: null
 eligibilite:
   disciplines:
   - Architecture
-  - Arts Visuels
+  - Arts visuels
   - Photographie
   - Cinéma
   - Création numérique
   - Débat d'idées
   - Livre
-  - Littérature
   - Métiers d'art
   - Design
-  - Graphisme
   - Spectacle vivant
   - Musique
+  - Commissariat d'exposition
+  - Gastronomie
+  - Littérature
   - Danse
   - Théâtre
   - Arts de la rue
   - Cirque
   - Marionnette
-  - Gastronomie
-  - Commissariat d'exposition
-  - Paysage
-  - Urbanisme
-  - Sciences
-  - Bande dessinée
-  - Mode
   niveau_carriere: confirmé·e
   age_max: null
   nationalite: sans restriction
@@ -54,8 +48,9 @@ eligibilite:
 conditions_residence:
   duree:
     semaines: null
-    dates: 4 à 6 mois
-  hebergement: true
+    dates: 4 à 6 mois pour les résidences régulières, 1 mois pour le Prix Liliane
+      Bettencourt
+  hebergement: null
   atelier: null
   remuneration:
     montant: null
@@ -65,109 +60,114 @@ conditions_residence:
     pris_en_charge: null
     plafond: null
     devise: null
-  restitution: Engagement auprès des acteurs professionnels, universitaires, artistiques
-    et culturels de Kyoto, du Kansai et de l'archipel ; dialogue actif avec les milieux
-    locaux
+  restitution: null
 partenaires:
 - Fondation Bettencourt Schueller
-- Institut français du Japon
-- Ministère de la Culture
 _meta:
-  extracted_confidence: 0.65
-  extracted_notes: 'Données de base confirmées (lieu, organisme, disciplines, durée,
-    profil). Informations critiques absentes : date limite, URL candidature, frais,
-    rémunération, langue dossier.'
+  extracted_confidence: 0.35
+  extracted_notes: 'Page descriptive des résidences et listing de lauréats passés
+    et futurs, pas appel à candidature complet. Manquent: date limite, URL candidature,
+    conditions financières, hébergement, prise en charge des frais.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T09:04:54+00:00'
+  extracted_at: '2026-08-04T09:36:36+00:00'
   source_lang: fr
-  detection_confidence: 0.98
+  detection_confidence: 0.99
   detection_method: claude
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-08-03'
+  last_status_check: '2026-08-04'
 analyse:
-  synthese: La Villa Kujoyama, première résidence artistique française de recherche
-    pluridisciplinaire implantée en Asie, accueille chaque année environ 15 lauréats
-    et lauréates pour des résidences de 4 à 6 mois. Le programme s'adresse à des artistes,
-    créateurs et créatrices confirmés, ainsi qu'à des scientifiques (en duo ou binôme
-    avec des artistes), porteurs de projets de recherche originaux et singuliers.
-    Les candidatures peuvent être proposées en solo, en binôme, ou en duo franco-japonais.
-    Le projet doit présenter un lien avec les enjeux du territoire et susciter un
-    dialogue actif avec les acteurs locaux.
-  pour_qui: Artistes, créateurs et créatrices confirmés, ainsi que scientifiques (en
-    duo ou binôme avec des artistes), porteurs de projets de recherche singuliers
-    et pluridisciplinaires.
+  synthese: La Villa Kujoyama est une résidence artistique française implantée à Kyoto
+    depuis 1992, proposant des séjours de 4 à 6 mois. Elle accueille environ 15 lauréats
+    par an pour des projets de recherche pluridisciplinaires. S'adresse à des artistes
+    et créateurs confirmés portant un projet singulier avec lien au territoire. Accepte
+    candidatures en solo, binôme ou duo franco-japonais. Aucune information sur conditions
+    financières, hébergement ou date limite de candidature n'est fournie dans le texte.
+  pour_qui: Artistes, créateurs et créatrices confirmés, ainsi que scientifiques en
+    binôme ou duo avec des artistes, portant un projet de recherche singulier nécessitant
+    une immersion et des recherches au Japon.
 a_savoir:
-- Aucune information sur la date limite de candidature ; se renseigner directement
-  auprès de l'organisme.
-- Pas de mention de frais d'inscription ou de rémunération pour les résidents.
-- Processus de sélection très sélectif avec experts spécialisés pour chaque discipline.
-- Durée longue des résidences (4 à 6 mois) implique un engagement important.
-- 'Attente explicite d''engagement dans la communauté locale : dialogue actif avec
-  les acteurs professionnels, universitaires, artistiques et culturels du territoire.'
+- Page listing des lauréats passés et futurs plutôt qu'appel à candidature ouvert
+  avec deadline explicite
+- Aucune mention de rémunération, hébergement, frais d'inscription ou prise en charge
+  des frais
+- Pas d'URL de candidature ou formulaire de dépôt indiqué
+- Conditions d'accueil (hébergement, atelier, restitution) non précisées explicitement
 organisme_details:
-  site_web: https://www.institutfrancais.com
+  site_web: null
   adresse: null
   ville: Kyoto
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'synthese: ''Aucune information sur conditions financières'' + a_savoir:
+    ''Aucune mention de rémunération'''
   poids: 3
   famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: ''
+  justification: 'synthese: ''Aucune information sur [...] hébergement n''est fournie
+    dans le texte'''
   poids: 2
   famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: ''
+  justification: 'a_savoir: ''Conditions d''accueil (hébergement, atelier, restitution)
+    non précisées explicitement'''
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'a_savoir: ''Aucune mention de [...] prise en charge des frais'''
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: inconnu
-  justification: ''
+  justification: 'criteres_programme: ''Impossible à évaluer sans information sur
+    la rémunération ou per diem'''
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'pour_qui: ''Artistes [...] portant un projet de recherche singulier''
+    (critères implicites), mais pas énumération explicite des critères de sélection'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'candidature.date_limite: null + a_savoir: ''Page listing des lauréats
+    passés et futurs plutôt qu''appel à candidature ouvert avec deadline explicite'''
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: inconnu
-  justification: ''
+  justification: 'synthese: ''Aucune information sur [...] date limite de candidature
+    n''est fournie'' (absence de mention du retour aux non-retenu·es)'
   poids: 1
   famille: transparence_administrative
 - id: production_libre
   rempli: inconnu
-  justification: ''
+  justification: 'synthese: ''séjours de 4 à 6 mois [...] pour des projets de recherche''
+    mais conditions_residence.restitution: null (obligations de médiation ou ateliers
+    publics non précisées)'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'conditions_residence.duree.dates: ''4 à 6 mois pour les résidences
+    régulières, 1 mois pour le Prix Liliane Bettencourt'' (durées fixes)'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
   rempli: inconnu
-  justification: ''
+  justification: 'conditions_residence.restitution: null + a_savoir: ''Conditions
+    d''accueil [...] restitution non précisées explicitement'''
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: inconnu
-  justification: ''
+  justification: 'synthese: absence totale de mention d''accompagnement post-résidence,
+    réseau alumni ou suivi documenté'
   poids: 1
   famille: debouche
 _interne_affinite:

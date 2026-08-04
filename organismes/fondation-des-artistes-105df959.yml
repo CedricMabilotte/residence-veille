@@ -115,7 +115,7 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: Ministère des Affaires étrangères
 - organisme_uid: ministere-de-la-culture-direction-generale-de-la-creation-ar
-  occurrences: 1
+  occurrences: 2
   nom_brut: Ministère de la Culture (Direction générale de la création artistique et Inspection générale de la création artistique)
 - organisme_uid: maba
   occurrences: 1
@@ -123,10 +123,13 @@ partenaires_mentionnes:
 - organisme_uid: bernard-chauveau-editions
   occurrences: 1
   nom_brut: Bernard Chauveau Editions
+- organisme_uid: ministere-de-la-culture-inspection-generale-de-la-creation-a
+  occurrences: 1
+  nom_brut: Ministère de la Culture - Inspection générale de la création artistique
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-05-22'
+  last_updated: '2026-08-04'
   status: actif
   nouveaux_entrants: true
 ville: Nogent-sur-Marne
