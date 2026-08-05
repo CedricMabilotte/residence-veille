@@ -1,0 +1,173 @@
+uid: 35dd75da
+type: residence
+source_url: https://resartis.org/open-call/art-residency-available-march-2027-colombia
+fetched_at: '2026-08-05T08:49:45+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Art Residency Available – MARCH 2027 – Colombia
+  organisme: Fundación ArteSumapaz
+  lieu:
+    ville: null
+    pays: Colombia
+    territoire: null
+  nom_fr: Résidence artistique disponible – MARS 2027 – Colombie
+  affichage_titre: Art Residency Available – MARCH 2027 – Colombia [Résidence artistique
+    disponible – MARS 2027 – Colombie]
+candidature:
+  date_limite: '2026-08-07'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform
+eligibilite:
+  disciplines:
+  - arts visuels
+  - musique
+  - écriture
+  - architecture
+  - céramique
+  - arts de la scène
+  - sculpture
+  - danse
+  - théâtre
+  - gravure
+  - cinéma
+  - programmes éducatifs
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 2027-03-01 à 2027-03-31
+  hebergement: true
+  atelier: Studio de peinture (partagé), studio 3D (partagé), studio de mouvement
+    (partagé), deux salles privées pour écrivains, studio de musique (partagé)
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Participation optionnelle à des critiques de groupe hebdomadaires,
+    ateliers ou expositions avec la communauté artistique locale
+partenaires: []
+_meta:
+  extracted_confidence: 0.93
+  extracted_notes: 'Données claires et complètes. Manquent : critères de sélection
+    explicites, délai de notification, contact de l''organisme. Programme pay-to-play.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T08:49:45+00:00'
+  source_lang: en
+  resume_fr: ArteSumapaz propose une résidence artistique en Colombie pour mars 2027
+    accueillant divers créateurs. La résidence, d'une durée de 1 à 3 meses, offre
+    une chambre privée et l'accès à des studios sur un campus de 230 acres. Les frais
+    s'élèvent à 1095 USD ou 1195 USD, avec 3 repas végétariens quotidiens inclus.
+    La date limite de candidature est le 2026-08-07, et la résidence s'étend du 2027-03-01
+    au 2027-03-31.
+  detection_confidence: 0.9090909090909091
+  detection_method: heuristic
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: Le programme propose une résidence de 1 à 3 mois en Colombie (mars 2027),
+    offrant logement privé avec salle de bain privée, eau chaude, trois repas végétariens
+    quotidiens, et accès à plusieurs studios (peinture, 3D, mouvement, écriture, musique).
+    Les artistes disposent de pleine liberté pour organiser leur temps et peuvent
+    optionnellement participer à des critiques hebdomadaires, ateliers ou expositions.
+    Le coût du logement est 1095 USD ou 1195 USD par mois selon la chambre. Frais
+    de voyage et matériaux de production ne sont pas couverts.
+  pour_qui: Tous les artistes visuels, musiciens, écrivains, architectes, céramistes,
+    performeurs et créateurs, sans restriction de nationalité ni de niveau de carrière.
+a_savoir:
+- 'Programme pay-to-play : artistes paient 1095-1195 USD/mois pour le logement.'
+- Frais de voyage et production non couverts.
+- Critères de sélection non explicites.
+- Date limite très proche (2026-08-07).
+- Pas de notification annoncée aux candidats non retenus.
+- Durée flexible (1-3 mois) mais dates de résidence fixes (mars 2027).
+organisme_details:
+  site_web: https://artesumapaz.org/
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"remuneration": {"montant": null, "devise": "EUR", "periodicite":
+    null}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Studio de peinture (partagé), studio 3D (partagé), studio
+    de mouvement (partagé), deux salles privées pour écrivains, studio de musique
+    (partagé)"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false} et "Frais de voyage et matériaux
+    de production ne sont pas couverts."'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"montant": null — "Le coût du logement est 1095 USD ou 1195 USD
+    par mois selon la chambre"'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"Critères de sélection non explicites." (a_savoir)'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucune mention de date ou délai de notification dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: '"Pas de notification annoncée aux candidats non retenus." (a_savoir)'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"Participation optionnelle à des critiques de groupe hebdomadaires,
+    ateliers ou expositions"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"dates": "2027-03-01 à 2027-03-31" (fixes) mais "Durée flexible
+    (1-3 mois)" (a_savoir)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"Participation optionnelle à [...] expositions avec la communauté
+    artistique locale" — visibilité limitée au contexte local'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention de suivi post-programme, réseau alumni ou accompagnement
+    futur
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

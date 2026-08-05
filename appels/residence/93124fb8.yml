@@ -1,0 +1,178 @@
+uid: 93124fb8
+type: residence
+source_url: https://resartis.org/open-call/art-residency-available-july-2027-colombia
+fetched_at: '2026-08-05T09:02:00+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Art Residency Available – JULY 2027 – Colombia
+  organisme: Fundación ArteSumapaz
+  lieu:
+    ville: null
+    pays: Colombia
+    territoire: null
+  nom_fr: Résidence d'artiste disponible – JUILLET 2027 – Colombie
+  affichage_titre: Art Residency Available – JULY 2027 – Colombia [Résidence d'artiste
+    disponible – JUILLET 2027 – Colombie]
+candidature:
+  date_limite: '2026-08-07'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform
+eligibilite:
+  disciplines:
+  - visual arts
+  - sculpture
+  - ceramics
+  - dance
+  - theater
+  - engraving
+  - performing arts
+  - music
+  - writing
+  - film
+  - architecture
+  - educational programs
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 2027-07-01 to 2027-07-31
+  hebergement: true
+  atelier: Painting studio (shared), 3D studio (shared), movement studio (shared),
+    two private rooms for writers, music studio (shared)
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: Artists are welcome to participate in weekly open critique sessions,
+    share workshops or exhibitions with ArteSumapaz's artist community or nearby communities
+    of San Bernardo, Cundinamarca, and Pandi
+partenaires:
+- Fundación ArteSumapaz
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: Core information clearly stated. Duration flexible 1-3 months but
+    specific session fixed to July 2027. Selection criteria and evaluation process
+    not detailed. No follow-up or alumni program mentioned.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T09:02:00+00:00'
+  source_lang: en
+  resume_fr: Résidence artistique d'1 à 3 mois en Colombie sur un campus de 230 acres
+    avec studios multidisciplinaires. L'hébergement comprend une chambre privée avec
+    salle de bain et trois repas végétariens quotidiens, à partir de 1095 USD ou 1195
+    USD selon le type de chambre. Les artistes de toutes disciplines sont les bienvenus
+    et peuvent participer à des critiques hebdomadaires. La date limite de candidature
+    est le 2026-08-07, et la résidence débute le 2027-07-01 pour se terminer le 2027-07-31.
+  detection_confidence: 0.9090909090909091
+  detection_method: heuristic
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: Self-directed residency program of 1-3 months in Colombia offering private
+    accommodation (1095-1195 USD/month) and access to diverse workspaces (painting,
+    music, dance, writing, 3D studios). Three vegetarian meals provided daily. Open
+    to visual artists, musicians, writers, architects, ceramicists, performers and
+    other creators of all career levels and nationalities. Participation in weekly
+    critique sessions, workshops and exhibitions is encouraged but optional; only
+    the weekly community meeting is mandatory.
+  pour_qui: Visual artists, musicians, writers, architects, ceramicists, performers
+    and creators of all career levels and nationalities.
+a_savoir:
+- Artists must pay monthly accommodation fees (1095 USD or 1195 USD depending on room
+  type); no remuneration or bourse offered.
+- No published selection criteria or detailed evaluation process.
+- Travel costs not covered by the organization.
+- No post-program follow-up or alumni network mentioned.
+- Flexible duration (1-3 months) but specific session dates fixed to July 1-31, 2027.
+organisme_details:
+  site_web: https://artesumapaz.org/artists-in-residencies/?cache=0
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"no remuneration or bourse offered" (a_savoir)'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true et "private accommodation (1095-1195 USD/month)"
+    (synthese)'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"Painting studio (shared), 3D studio (shared), movement studio (shared),
+    two private rooms for writers, music studio (shared)" (conditions_residence.atelier)'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"Three vegetarian meals provided daily" (synthese) mais "voyage":
+    {"pris_en_charge": false} (conditions_residence)'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"Artists must pay monthly accommodation fees (1095-1195 USD depending
+    on room type); no remuneration or bourse offered" (a_savoir)'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"No published selection criteria or detailed evaluation process"
+    (a_savoir)'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: Pas de champ candidature.delai_reponse ni mention dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas de mention de notification aux candidats non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"only the weekly community meeting is mandatory" et "Participation
+    in weekly critique sessions, workshops and exhibitions is encouraged but optional"
+    (synthese)'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"Flexible duration (1-3 months) but specific session dates fixed
+    to July 1-31, 2027" (a_savoir)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: non
+  justification: '"Restitution limited to ArteSumapaz community and nearby towns (San
+    Bernardo, Cundinamarca, Pandi). No mention of broader visibility, press coverage
+    or catalog publication" (analyse.criteres_programme)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: '"No post-program follow-up or alumni network mentioned" (a_savoir)'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

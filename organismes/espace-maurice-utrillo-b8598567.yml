@@ -1,0 +1,29 @@
+uid: espace-maurice-utrillo-b8598567
+nom_canonique: Espace Maurice Utrillo
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: fe28339c
+  type: residence
+  nom: Résidence d'Artiste mise à disposition atelier longue durée
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: ville-de-saint-denis
+  occurrences: 1
+  nom_brut: Ville de Saint-Denis
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-05'
+  last_updated: '2026-08-05'
+  status: actif
+  nouveaux_entrants: true
+adresse: Place Jean Jaurès, 93380 Pierrefitte-sur-Seine
+ville: Pierrefitte-sur-Seine
+contact_email: espaceculturelutrillo@saintdenis.fr

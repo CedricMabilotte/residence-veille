@@ -1,5 +1,7 @@
-edges_count: 97
-partenaires_distincts: 85
+edges_count: 99
+partenaires_distincts: 89
 candidats_a_instruire:
 - nom: Ministère de la Culture
   occurrences: 7
+- nom: Fundación ArteSumapaz
+  occurrences: 4

@@ -1,0 +1,174 @@
+uid: c3d60ea9
+type: residence
+source_url: https://resartis.org/open-call/open-call-2026-27-live-create-exhibit-in-venice-fully-partially-sponsored-residencies-special-program
+fetched_at: '2026-08-05T08:30:05+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: La Storta Winter Partially Funded Residencies in the heart of Venice
+  organisme: Venezia Contemporanea in partnership with Galleria ScalaMata
+  lieu:
+    ville: Venice
+    pays: Italy
+    territoire: null
+  nom_fr: Résidences partiellement financées d'hiver de La Storta au cœur de Venise
+  affichage_titre: La Storta Winter Partially Funded Residencies in the heart of Venice
+    [Résidences partiellement financées d'hiver de La Storta au cœur de Venise]
+candidature:
+  date_limite: '2026-08-06'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - A few lines about yourself
+  - Brief description of plan for the residency
+  - Links to your work online (no PDF)
+  - Your preferable dates
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - visual arts
+  - writing
+  - research
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: Minimum 2 weeks, maximum 6 weeks; residency window 2026-12-01 to 2027-03-31
+  hebergement: true
+  atelier: Live-in studio with street-level gallery featuring large vitrine window,
+    basic art supplies, two projectors, installation tools, light curatorial support
+    for exhibitions
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Exhibitions, open-studio events, and process-based displays at the
+    gallery space
+partenaires:
+- Venezia Contemporanea
+- Galleria ScalaMata
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Comprehensive program details. Partially funded with 50% artist
+    cost-share (€1,200/week). Tension between stated rolling applications and explicit
+    2026-08-06 deadline; latter appears specific to winter 2026-27 edition.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T08:30:05+00:00'
+  source_lang: en
+  resume_fr: La Storta est une résidence artistique partiellement financée dans le
+    Ghetto historique de Venise, accueillant artistes visuels, écrivains et chercheurs.
+    Les séjours durent de 2 à 6 semaines, avec un coût de 1 200€ par semaine pour
+    l'artiste (Venezia Contemporanea couvrant 50% des 2 400€ par semaine). L'espace
+    inclut studio, galerie, fournitures d'art de base et soutien curatorial léger,
+    mais exclut vols et frais de voyage. Les candidatures sont ouvertes toute l'année
+    sans date limite.
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: La Storta offers a 2-6 week residency in Venice's historic Ghetto, in
+    a 500-year-old Renaissance building. Venezia Contemporanea covers 50% of €2,400
+    per week; artists contribute €1,200 per week. Includes live-in studio, street-level
+    gallery with vitrine window, basic art supplies, two projectors, and light curatorial
+    support. Applications accepted year-round on rolling basis. Flights, travel, per
+    diem, and additional art supplies not covered.
+  pour_qui: Visual artists, writers, and researchers of all career levels seeking
+    to live, create, and exhibit in central Venice with partial cost-sharing.
+a_savoir:
+- Artist must cover 50% of €2,400 weekly costs (€1,200/week minimum)
+- Travel, flights, per diem, and additional art supplies not covered
+- Resident cat Campari present—unsuitable for those with cat allergies
+- Minimum 2-week commitment required
+- Exhibition limited to local La Storta gallery; no visibility guarantee beyond organization
+- No jury criteria or selection transparency provided
+- Tension between 'rolling basis' claims and application deadline of 2026-08-06
+organisme_details:
+  site_web: www.veneziacontemporanea.com
+  adresse: null
+  ville: Venice
+  contact_email: Info@veneziacontemporanea.com
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"no direct artist compensation, salary, or stipend" — Venezia Contemporanea
+    covers 50% via cost-sharing, not direct payment'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"Live-in studio accommodation in Renaissance building in Venice
+    Ghetto provided"'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"Live-in studio with street-level gallery featuring large vitrine
+    window, basic art supplies, two projectors, installation tools"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"Venezia Contemporanea covers 50% of €2,400 per week; flights, travel,
+    per diem, and additional art supplies not covered"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"Artist pays €1,200/week for Venice accommodation; adequacy relative
+    to local living costs indeterminate from text"'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"No explicit jury criteria, evaluation process, or weighting published"
+    — seul le format du dossier est spécifié'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"No timeline for response or result notification provided"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: '"No mention of individual feedback or notification to rejected applicants"'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"Artists granted full flexibility in working hours and presentations;
+    encouraged to focus on creative work"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: oui
+  justification: '"Applications accepted year-round on rolling basis; flexible stay
+    2-6 weeks; residency window 2026-12-01 to 2027-03-31"'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"Exhibitions held at local La Storta gallery; no visibility guarantee
+    beyond organization"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: '"No alumni network, follow-up support, documentation, or post-residency
+    opportunities mentioned"'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

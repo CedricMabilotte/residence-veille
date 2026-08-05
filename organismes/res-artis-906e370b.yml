@@ -1,0 +1,24 @@
+uid: res-artis-906e370b
+nom_canonique: Res Artis
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 56a23acc
+  type: residence
+  nom: PATAGONIA ARGENTINA – 2027 multidisciplinary program
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-05'
+  last_updated: '2026-08-05'
+  status: actif
+  nouveaux_entrants: true
+ville: Bariloche

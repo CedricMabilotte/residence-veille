@@ -1,0 +1,190 @@
+uid: d581b7b0
+type: residence
+source_url: https://resartis.org/open-call/residency-available-october-2026-colombia
+fetched_at: '2026-08-05T08:37:53+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Residency Available – OCTOBER 2026 – Colombia
+  organisme: ArteSumapaz
+  lieu:
+    ville: null
+    pays: Colombia
+    territoire: Andean mountains, approximately 4 hours south of Bogotá, Cundinamarca
+  nom_fr: Residency Available – OCTOBER 2026 – Colombia | Résidence disponible – OCTOBRE
+    2026 – Colombie
+  affichage_titre: Residency Available – OCTOBER 2026 – Colombia [Residency Available
+    – OCTOBER 2026 – Colombia | Résidence disponible – OCTOBRE 2026 – Colombie]
+candidature:
+  date_limite: '2026-08-07'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: []
+  url_candidature: https://artesumapaz.org/artists-in-residencies/?cache=0
+eligibilite:
+  disciplines:
+  - painting
+  - mixed media
+  - conceptual
+  - film
+  - drawing
+  - music
+  - writing
+  - architecture
+  - clay
+  - performance
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 2026-10-01 to 2026-10-31
+  hebergement: true
+  atelier: Shared painting studio, shared 3D studio, shared movement studio, two private
+    writer's rooms, shared music studio. Full access to studio spaces for visual art,
+    music, movement, writing. Campus spans approximately 230 acres.
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: Optional participation in weekly open critique sessions and optional
+    sharing of workshops or exhibitions with ArteSumapaz artist community or nearby
+    towns (San Bernardo Cundinamarca, Pandi).
+partenaires: []
+_meta:
+  extracted_confidence: 0.78
+  extracted_notes: 'Information claire sur l''offre de base. Manquent : critères de
+    sélection détaillés, délai de notification, clarification du coût par mois, contact
+    précis, histoire de l''organisme, conditions de modification des dates.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T08:37:53+00:00'
+  source_lang: en
+  resume_fr: ArteSumapaz est une organisation à but non-lucratif située dans les Andes
+    colombiennes, à environ 4 heures de Bogotá, proposant des résidences artistiques
+    auto-dirigées pour artistes visuels, musiciens, écrivains, architectes et autres
+    créateurs. Les résidences durent 1-3 mois, du 2026-10-01 au 2026-10-31, avec logement
+    en chambre privée et accès à des studios partagés (peinture, 3D, mouvement, musique)
+    et salles d'écrivains privées sur un campus de 230 acres incluant un parc naturel.
+    Les tarifs mensuels sont de $945.00 USD (chambre back wing) ou $1,045.00 USD (chambre
+    front wing solo). La date limite de candidature est le 2026-08-07.
+  detection_confidence: 0.8888888888888888
+  detection_method: heuristic
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: 'ArteSumapaz est un programme de résidence autogéré en Colombie, dans
+    les Andes à 4 heures de Bogotá, accueillant des artistes visuels, musiciens, écrivains,
+    architectes et autres créateurs pour 1 à 3 mois. Les artistes bénéficient d''une
+    chambre privée avec salle de bain et bureau, ainsi que d''accès à des studios
+    partagés et privés (peinture, 3D, mouvement, écriture, musique). La participation
+    aux critiques de groupe et aux échanges avec les communautés locales est optionnelle.
+    Le séjour est payant : $945.00–$1045.00 USD selon le type de logement. Sélection
+    par comité ; date limite 7 août 2026, résidence en octobre 2026.'
+  pour_qui: Artistes visuels, musiciens, écrivains, architectes et créateurs en quête
+    d'espace autogéré de production et d'exploration en Colombie, disposant des moyens
+    financiers pour autofinancer leur séjour.
+a_savoir:
+- 'Pay-to-stay : pas de rémunération ni per diem ; artistes financent entièrement
+  leur séjour ($945.00–$1045.00 USD selon le type de logement).'
+- Pas de prise en charge du voyage, des frais de production ou du matériel.
+- 'Critères de sélection peu détaillés ; seule mention : ''Selection is by committee''
+  sans explicitation des critères d''évaluation.'
+- Pas de délai de réponse annoncé.
+- Restitution optionnelle sans visibilité externe garantie ; aucun suivi post-résidence
+  mentionné.
+- Première édition identifiée pour octobre 2026 ; peu de recul sur la fiabilité de
+  l'organisme.
+organisme_details:
+  site_web: https://artesumapaz.org/
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"remuneration": {"montant": null, "devise": null, "periodicite":
+    null} — Aucune rétribution, bourse ou per diem mentionnée.'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true — "Private room with queen size bed, private
+    bathroom with hot water, and desk"'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Shared painting studio, shared 3D studio, shared movement
+    studio, two private writer''s rooms, shared music studio. Full access to studio
+    spaces"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false} — "Pas de prise en charge du
+    voyage, des frais de production, du transport d''œuvres ou du matériel"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: Coût d'accès $945.00–$1045.00 USD ; pas de dotation offerte, programme
+    payant. Impossible d'évaluer la cohérence avec le coût de vie local.
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: '"Selection is by committee" — mentionné mais aucun critère d''évaluation
+    détaillé n''est publié'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucun délai de réponse ou date de notification des résultats mentionné
+    dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention d'un retour individualisé aux candidat·es non retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"restitution": "Optional participation in weekly open critique sessions..."
+    — résidence autogérée avec participation optionnelle'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"dates": "2026-10-01 to 2026-10-31" — calendrier spécifique à octobre
+    2026, mais durée 1–3 mois offre une fenêtre théorique; mention d''options négociables'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: non
+  justification: '"Restitution optionnelle... avec ArteSumapaz artist community ou
+    nearby towns (San Bernardo, Pandi)" — aucune visibilité au-delà du réseau local
+    ou reconnaissance institutionnelle'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention de réseau alumni, suivi documenté, ou accompagnement
+    vers d'autres opportunités après le programme
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

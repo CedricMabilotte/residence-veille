@@ -3,7 +3,7 @@ nom_canonique: Centre Psychothérapique de l'Ain (CPA)
 acronymes: []
 pays: null
 type_organisme: null
-url_canonique: null
+url_canonique: https://www.cpa01.fr
 urls_secondaires: []
 description_courte: null
 disciplines_proposees: []
@@ -19,13 +19,18 @@ partenaires_mentionnes:
   occurrences: 2
   nom_brut: ORSAC
 - organisme_uid: esat-de-la-ferme-dienet
-  occurrences: 2
+  occurrences: 3
   nom_brut: ESAT de la Ferme Dienet
+- organisme_uid: association-orsac
+  occurrences: 1
+  nom_brut: Association ORSAC
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-02'
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-05'
   status: actif
   nouveaux_entrants: true
 ville: Bourg-en-Bresse
 contact_email: culture.nomad@orsac-cpa01.fr
+noms_alternatifs:
+- Centre Psychothérapique de l'Ain (CPA), établissement de santé privé d'intérêt collectif géré par l'association ORSAC

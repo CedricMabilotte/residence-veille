@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T10:08:33.087363+00:00",
-  "n_ouvertes": 53,
+  "generated_at": "2026-08-05T10:00:59.695949+00:00",
+  "n_ouvertes": 69,
   "n_archive": 13,
   "opportunites": [
     {
@@ -669,10 +669,179 @@
       ]
     },
     {
+      "uid": "2acaf33f",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/residency-available-september-2026-colombia",
+      "fetched_at": "2026-08-05T08:40:09+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Residency Available – SEPTEMBER 2026 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": null
+        },
+        "nom_fr": "Résidence Disponible – SEPTEMBRE 2026 – Colombie",
+        "affichage_titre": "Residency Available – SEPTEMBER 2026 – Colombia [Résidence Disponible – SEPTEMBRE 2026 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "artes visuales",
+          "escultura",
+          "cerámica",
+          "danza",
+          "teatro",
+          "grabado",
+          "artes escénicas",
+          "música",
+          "escritura",
+          "cine",
+          "arquitectura",
+          "programas educativos"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2026-09-01 à 2026-09-30"
+        },
+        "hebergement": true,
+        "atelier": "Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido)",
+        "remuneration": {
+          "montant": null,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Participación opcional en críticas de arte semanales, talleres y exposiciones"
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "ArteSumapaz offre une résidence artistique auto-dirigée en Colombie de 1 à 3 mois (septembre 2026). L'organisme fournit un hébergement privé (945-1045 USD/mois), trois repas végétariens quotidiens et l'accès à plusieurs studios de création (peinture, 3D, mouvement, écriture, musique). Les artistes conservent la liberté totale dans l'organisation de leur temps et peuvent participer facultativement à des critiques collectives, ateliers ou expositions. Aucune rémunération n'est proposée : le modèle repose sur une contribution de l'artiste aux frais d'hébergement et de repas.",
+        "pour_qui": "Artistes visuels, musiciens, écrivains, architectes, céramistes, performeurs et autres créateurs de tous niveaux de carrière, disposés à autofinancer leur résidence en Colombie (945-1045 USD/mois)."
+      },
+      "a_savoir": [
+        "Modèle pay-to-play : pas de rémunération, frais d'hébergement de 945-1045 USD/mois à charge de l'artiste",
+        "Frais de voyage non couverts",
+        "Date limite très proche : 2026-08-07 (2 jours)",
+        "Critères de sélection et délai de réponse aux candidatures non communiqués"
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/artists-in-residencies/?cache=0",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "remuneration.montant: null; synthèse: « Aucune rémunération n'est proposée »",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true; atelier: « Una habitación privada que cuenta con una cama tamaño queen, baño privado con agua caliente »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: « Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido) »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "voyage.pris_en_charge: false; synthèse: « trois repas végétariens quotidiens » inclus",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "remuneration.montant: null; conditions_residence: hébergement 945-1045 USD/mois à charge de l'artiste",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "a_savoir: « Critères de sélection et délai de réponse aux candidatures non communiqués »",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: « délai de réponse aux candidatures non communiqué »",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'une notification individuelle aux candidat·es non retenu·es dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "restitution: « Participación opcional en críticas de arte semanales, talleres y exposiciones »",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "duree.dates: « 2026-09-01 à 2026-09-30 » (fixe pour cette convocation); synthèse: programme flexible « 1 à 3 mois »",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "criteres_programme: « expositions restent dans le cadre de la communauté interne d'ArteSumapaz et des villes voisines (San Bernardo, Pandi), sans indication de diffusion ou reconnaissance presse/catalogue »",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'un réseau alumni, suivi documenté ou accompagnement après la résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "2ba5df0e",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse",
-      "fetched_at": "2026-08-03T09:33:07+00:00",
+      "fetched_at": "2026-08-05T09:35:20+00:00",
       "score": 6,
       "status": "ouverte",
       "opportunite": {
@@ -689,14 +858,14 @@
         "date_limite_precision": "day",
         "langue_dossier": null,
         "frais_inscription": null,
-        "pieces_demandees": [],
+        "pieces_demandees": null,
         "url_candidature": "https://traversiens.com/event/appel-a-projet-residence-photo-2027/"
       },
       "eligibilite": {
         "disciplines": [
           "photographie"
         ],
-        "niveau_carriere": "tous",
+        "niveau_carriere": null,
         "age_max": null,
         "nationalite": "sans restriction",
         "residence_administrative": "sans restriction"
@@ -713,30 +882,193 @@
           "devise": "EUR",
           "periodicite": "forfait"
         },
-        "voyage": {
-          "pris_en_charge": null,
-          "plafond": null,
-          "devise": "EUR"
-        },
-        "restitution": "Projet artistique participatif pour le territoire de Haute-Bigorre"
+        "voyage": null,
+        "restitution": "Projet artistique participatif, thème : Perspective(s)"
       },
       "partenaires": [
-        "Traverse",
-        "CNAP"
+        "Traverse"
       ],
       "analyse": {
-        "synthese": "La résidence Traverse Photographie 2027 propose un séjour de 2 mois au printemps 2027 à Bagnères-de-Bigorre, doté de 6 000 € TTC. Elle s'adresse aux artistes photographes souhaitant développer un projet participatif spécifiquement élaboré pour le territoire de Haute-Bigorre (24 communes rurales). Le thème de cette édition est « Perspective(s) ». Date limite : 10 septembre 2026.",
-        "pour_qui": "Artistes photographes disposés à co-créer un projet participatif ancré dans un contexte rural et territorial."
+        "synthese": "Résidence de 2 mois au printemps 2027 pour artistes photographes, basée en Haute-Bigorre (24 communes rurales). Le programme propose 6 000 € TTC pour développer un projet artistique participatif ancré dans le territoire local. La dimension participative et les rencontres avec le contexte constituant l'axe principal de la résidence. Date limite de candidature : 10 septembre 2026. Thème de l'édition : « Perspective(s) ».",
+        "pour_qui": "Artistes photographes souhaitant développer un projet participatif en contexte rural montagnard et capable d'engager des échanges avec le territoire d'accueil."
       },
       "a_savoir": [
-        "Thématique participative imposée : le projet doit être spécifiquement élaboré pour le territoire local, ce qui limite la liberté créative",
-        "Rémunération modeste : 6 000 € pour 2 mois",
-        "Hébergement et atelier non mentionnés explicitement",
-        "Aucun critère de sélection du jury n'est publié",
-        "Aucun délai ou date indicatifs de notification des résultats annoncés"
+        "Dimension participative obligatoire : le projet doit être spécifiquement élaboré pour le territoire et implique une logique de rencontre avec les habitants.",
+        "Résidence en zone rurale montagnarde : accès limité aux services urbains, infrastructure et ressources comparés à un contexte de ville moyenne.",
+        "Thème imposé pour cette édition : « Perspective(s) »."
       ],
       "organisme_details": {
-        "site_web": "https://traversiens.com",
+        "site_web": null,
+        "adresse": null,
+        "ville": "Bagnères-de-Bigorre",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration.montant: 6000 EUR, periodicite: forfait",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "conditions_residence.hebergement: null (aucune mention)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "conditions_residence.atelier: null (aucune mention)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "conditions_residence.voyage: null — aucun coût de transport ou production mentionné",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "6 000 € forfait pour ~2 mois (printemps 2027) en zone rurale montagnarde — dépend de l'hébergement/atelier fournis (non clarifiés)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "Absence de critères de jury dans candidature, eligibilite ou a_savoir — seules les pièces demandées ne sont pas spécifiées (pieces_demandees: null)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "candidature.date_limite: 2026-09-10 — aucune date de notification des résultats",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune mention dans a_savoir ou candidature d'une notification aux non-retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "restitution: 'Projet artistique participatif' — a_savoir: 'Dimension participative obligatoire' suggère médiation importante mais temps exact de production autonome non précisé",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "conditions_residence.duree.dates: 'printemps 2027' — fenêtre large mais imposée, dates non négociables",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "restitution: 'Projet artistique participatif, thème : Perspective(s)' — aucune mention de diffusion presse, catalogue ou visibilité externe",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Absence totale de mention d'alumni, suivi documenté ou accompagnement post-résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "340f0f4d",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-april-2027-colombia",
+      "fetched_at": "2026-08-05T08:52:13+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – APRIL 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": "Cundinamarca"
+        },
+        "nom_fr": "Art Residency Available – APRIL 2027 – Colombia / Résidence Artistique Disponible – AVRIL 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – APRIL 2027 – Colombia [Art Residency Available – APRIL 2027 – Colombia / Résidence Artistique Disponible – AVRIL 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [],
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual art",
+          "sculpture",
+          "ceramic",
+          "dance",
+          "theater",
+          "printmaking",
+          "performance art",
+          "music",
+          "writing",
+          "film",
+          "architecture",
+          "educational programs"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 4,
+          "dates": "2027-04-01 to 2027-04-30"
+        },
+        "hebergement": true,
+        "atelier": "Studio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido)",
+        "remuneration": null,
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Artistas invitados a participar en críticas semanales, impartir talleres u organizar exposiciones, pero nada de esto es obligatorio."
+      },
+      "partenaires": [
+        "Fundación ArteSumapaz"
+      ],
+      "analyse": {
+        "synthese": "Ce programme offre une résidence artistique auto-dirigée d'un mois (avril 2027) en Colombie, avec hébergement privé et accès à cinq studios multidisciplinaires. Les coûts de résidence sont 1095 USD (habitación ala trasera) ou 1195 USD (habitación ala delantera), incluant trois repas végétariens quotidiens. La participation à des critiques de groupe, ateliers et expositions est encouragée mais optionnelle, hormis une réunion communautaire hebdomadaire obligatoire. Aucune rémunération ni prise en charge des frais de voyage ne sont mentionnées.",
+        "pour_qui": "Artistes visuels, musiciens, écrivains, architectes, céramistes, danseurs et autres créateurs cherchant une résidence auto-dirigée au sein d'une communauté artistique établie."
+      },
+      "a_savoir": [
+        "Hébergement payant (1095–1195 USD/mois) sans rémunération ni dotation",
+        "Pas de prise en charge des frais de voyage",
+        "Réunion communautaire hebdomadaire obligatoire",
+        "Critères de sélection du jury et délai de notification non publiés",
+        "Trois repas végétariens fournis quotidiennement"
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/artists-in-residencies/?cache=0",
         "adresse": null,
         "ville": null,
         "contact_email": null
@@ -744,85 +1076,258 @@
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "oui",
-          "justification": "\"remuneration\": {\"montant\": 6000, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
+          "rempli": "non",
+          "justification": "\"remuneration\": null",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "\"hebergement\": null",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true; logement privé fourni (chambre, salle de bain, bureau)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "\"atelier\": null",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Studio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido)\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "\"voyage\": {\"pris_en_charge\": null, \"plafond\": null}",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false}",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
-          "rempli": "partiel",
-          "justification": "6 000 € pour 2 mois (printemps 2027) = 3 000 €/mois en zone rurale Haute-Bigorre",
+          "rempli": "non",
+          "justification": "\"remuneration\": null; pas de dotation pour évaluer le rapport avec le coût de la vie local",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "non",
-          "justification": "\"a_savoir\": [\"Aucun critère de sélection du jury n'est publié\"]",
+          "justification": "\"pieces_demandees\": [] (liste vide, aucun critère de sélection énoncé)",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "non",
-          "justification": "\"a_savoir\": [\"Aucun délai ou date indicatifs de notification des résultats annoncés\"]",
+          "rempli": "inconnu",
+          "justification": "date limite de candidature annoncée (2026-08-07), mais aucune date de notification des résultats mentionnée",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "inconnu",
-          "justification": "Pas de mention de notification aux candidats non retenus dans la fiche",
+          "justification": "aucune mention dans la fiche d'une notification individuelle aux candidats non retenus",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Artistas invitados a participar en críticas semanales, impartir talleres u organizar exposiciones, pero nada de esto es obligatorio\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"dates\": \"2027-04-01 to 2027-04-30\" (calendrier rigide, aucune flexibilité mentionnée)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
           "rempli": "partiel",
-          "justification": "\"restitution\": \"Projet artistique participatif pour le territoire de Haute-Bigorre\" — liberté créative contrainte par impératif participatif",
+          "justification": "\"synthese\": \"...Critiques de groupe, ateliers et expositions...\"; visibilité locale avec la communauté d'ArteSumapaz et villes voisines, pas de diffusion presse ni reconnaissance au-delà du contexte local",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "aucune mention dans la fiche d'un suivi documenté, réseau alumni actif, ou accompagnement après le programme",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "35dd75da",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-march-2027-colombia",
+      "fetched_at": "2026-08-05T08:49:45+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – MARCH 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": null
+        },
+        "nom_fr": "Résidence artistique disponible – MARS 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – MARCH 2027 – Colombia [Résidence artistique disponible – MARS 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "musique",
+          "écriture",
+          "architecture",
+          "céramique",
+          "arts de la scène",
+          "sculpture",
+          "danse",
+          "théâtre",
+          "gravure",
+          "cinéma",
+          "programmes éducatifs"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2027-03-01 à 2027-03-31"
+        },
+        "hebergement": true,
+        "atelier": "Studio de peinture (partagé), studio 3D (partagé), studio de mouvement (partagé), deux salles privées pour écrivains, studio de musique (partagé)",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Participation optionnelle à des critiques de groupe hebdomadaires, ateliers ou expositions avec la communauté artistique locale"
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Le programme propose une résidence de 1 à 3 mois en Colombie (mars 2027), offrant logement privé avec salle de bain privée, eau chaude, trois repas végétariens quotidiens, et accès à plusieurs studios (peinture, 3D, mouvement, écriture, musique). Les artistes disposent de pleine liberté pour organiser leur temps et peuvent optionnellement participer à des critiques hebdomadaires, ateliers ou expositions. Le coût du logement est 1095 USD ou 1195 USD par mois selon la chambre. Frais de voyage et matériaux de production ne sont pas couverts.",
+        "pour_qui": "Tous les artistes visuels, musiciens, écrivains, architectes, céramistes, performeurs et créateurs, sans restriction de nationalité ni de niveau de carrière."
+      },
+      "a_savoir": [
+        "Programme pay-to-play : artistes paient 1095-1195 USD/mois pour le logement.",
+        "Frais de voyage et production non couverts.",
+        "Critères de sélection non explicites.",
+        "Date limite très proche (2026-08-07).",
+        "Pas de notification annoncée aux candidats non retenus.",
+        "Durée flexible (1-3 mois) mais dates de résidence fixes (mars 2027)."
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null, \"devise\": \"EUR\", \"periodicite\": null}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Studio de peinture (partagé), studio 3D (partagé), studio de mouvement (partagé), deux salles privées pour écrivains, studio de musique (partagé)\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} et \"Frais de voyage et matériaux de production ne sont pas couverts.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"montant\": null — \"Le coût du logement est 1095 USD ou 1195 USD par mois selon la chambre\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Critères de sélection non explicites.\" (a_savoir)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucune mention de date ou délai de notification dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "\"Pas de notification annoncée aux candidats non retenus.\" (a_savoir)",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"Participation optionnelle à des critiques de groupe hebdomadaires, ateliers ou expositions\"",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
           "rempli": "partiel",
-          "justification": "\"dates\": \"printemps 2027\" — fenêtre temporelle mais négociabilité des dates non mentionnée",
+          "justification": "\"dates\": \"2027-03-01 à 2027-03-31\" (fixes) mais \"Durée flexible (1-3 mois)\" (a_savoir)",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "\"restitution\": \"Projet artistique participatif pour le territoire de Haute-Bigorre\" — visibilité au-delà du territoire local non spécifiée",
+          "rempli": "partiel",
+          "justification": "\"Participation optionnelle à [...] expositions avec la communauté artistique locale\" — visibilité limitée au contexte local",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "non",
-          "justification": "\"a_savoir\": [\"Aucun délai... annoncés\"] — aucune mention de réseau alumni ou accompagnement post-programme",
+          "justification": "Aucune mention de suivi post-programme, réseau alumni ou accompagnement futur",
           "poids": 1,
           "famille": "debouche"
         }
@@ -995,12 +1500,12 @@
       "uid": "41be1cd6",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-de-creation-participative-2027",
-      "fetched_at": "2026-08-03T09:31:08+00:00",
-      "score": 6,
+      "fetched_at": "2026-08-05T09:33:01+00:00",
+      "score": 7,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence de création participative 2027",
-        "organisme": "Centre Psychothérapique de l'Ain (CPA)",
+        "organisme": "Centre Psychothérapique de l'Ain (CPA), établissement de santé privé d'intérêt collectif géré par l'association ORSAC",
         "lieu": {
           "ville": "Bourg-en-Bresse",
           "pays": "France",
@@ -1030,10 +1535,10 @@
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "premier semestre 2027"
+          "dates": "Premier semestre 2027, inauguration début juin 2027"
         },
         "hebergement": true,
-        "atelier": "salle d'atelier mise à disposition par le CPA, avec accès possible à certaines ressources techniques du site et partenariat avec l'ESAT de la Ferme Dienet pour la réalisation technique",
+        "atelier": "Salle d'atelier mise à disposition par le CPA ; accès possible aux ressources techniques du site selon les besoins du projet",
         "remuneration": {
           "montant": 8000,
           "devise": "EUR",
@@ -1044,25 +1549,25 @@
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "sculpture monumentale installée dans le parc du CPA, avec inauguration publique envisagée début juin 2027 dans le cadre de l'événement national 'Rendez-vous aux Jardins'"
+        "restitution": "Inauguration publique de la sculpture monumentale en juin 2027 dans le cadre de l'événement national « Rendez-vous aux Jardins »"
       },
       "partenaires": [
-        "ORSAC",
+        "Association ORSAC",
         "ESAT de la Ferme Dienet"
       ],
       "analyse": {
-        "synthese": "Le CPA lance un appel à projet pour concevoir et réaliser une sculpture monumentale participative, quatrième œuvre du parcours 'Chemin des Arts'. L'artiste retenu travaille en co-création avec patients, soignants et habitants autour de la thématique 'La fabrique des récits'. Une salle d'atelier et ressources techniques sont mises à disposition. La dotation s'élève à 8 000 € TTC couvrant honoraires, matériaux, production, animation des ateliers et déplacement/hébergement. La réalisation est prévue au premier semestre 2027, avec inauguration publique en juin 2027.",
-        "pour_qui": "Artistes plasticiens et sculpteurs professionnels intéressés par la création participative et les projets culturels en contexte hospitalier favorisant l'ouverture sur le territoire."
+        "synthese": "Le Centre Psychothérapique de l'Ain lance un appel à projet destiné aux artistes plasticiens et sculpteurs professionnels pour concevoir la quatrième sculpture monumentale du « Chemin des Arts », parcours ouvert dans son parc. L'œuvre doit être développée en co-création avec les patients, professionnels de l'hôpital et habitants, autour de la thématique « La fabrique des récits ». Une dotation forfaitaire de 8 000 € TTC couvre les honoraires, matériaux, production, ateliers participatifs, installation et éventuels frais de déplacement et hébergement. La réalisation est prévue au premier semestre 2027, avec inauguration en juin 2027 lors de l'événement national « Rendez-vous aux Jardins ».",
+        "pour_qui": "Artistes plasticiens et sculpteurs professionnels intéressés par la création participative, la rencontre avec des publics diversifiés et les projets impliquant une dimension sociale ou thérapeutique."
       },
       "a_savoir": [
-        "Dotation modérée (8 000 € TTC) devant couvrir honoraires, matériaux, production, animation des ateliers, déplacement et hébergement d'une sculpture monumentale",
-        "Projet fortement participatif : ateliers co-créatifs obligatoires réunissant patients, soignants et habitants du territoire",
-        "Thématique imposée : 'La fabrique des récits' — l'artiste doit proposer une interprétation originale",
-        "Calendrier serré : conception et réalisation au premier semestre 2027 (environ 6 mois)",
-        "Sculpture destinée à l'extérieur avec durabilité minimale de 5 ans, soumise aux contraintes de sécurité et d'intégration au paysage"
+        "Dotation de 8 000 € couvrant tous les frais (honoraires, matériaux, production, ateliers, installation) : enveloppe unique à répartir.",
+        "Thématique imposée (« La fabrique des récits ») : pas de liberté de sujet.",
+        "Participation et co-création obligatoires avec les patients et habitants : temps limité à la production libre.",
+        "Calendrier fixe (premier semestre 2027) : pas de flexibilité de dates.",
+        "Restitution majeure et publique : l'œuvre s'installe en extérieur dans le parc et inauguration nationale."
       ],
       "organisme_details": {
-        "site_web": null,
+        "site_web": "https://www.cpa01.fr",
         "adresse": null,
         "ville": "Bourg-en-Bresse",
         "contact_email": "culture.nomad@orsac-cpa01.fr"
@@ -1071,84 +1576,84 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "remuneration: montant 8000 EUR, periodicite forfait",
+          "justification": "\"remuneration\": {\"montant\": 8000, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "oui",
-          "justification": "hebergement: true",
+          "rempli": "partiel",
+          "justification": "\"Éventuels frais de déplacement et d'hébergement inclus dans l'enveloppe forfaitaire\" (conditions_residence → voyage: pris_en_charge = true, mais inclus dans les 8000€)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "atelier: salle d'atelier mise à disposition par le CPA, avec accès à ressources techniques",
+          "justification": "\"Salle d'atelier mise à disposition par le CPA ; accès possible aux ressources techniques du site selon les besoins du projet\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "oui",
-          "justification": "voyage.pris_en_charge: true; synthese: dotation couvre honoraires, matériaux, production, déplacement/hébergement",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": true} ; mais \"8 000 € TTC couvre les honoraires, matériaux, production, ateliers participatifs, installation\" — enveloppe unique forfaitaire, pas des prises en charge dédiées",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
-          "rempli": "inconnu",
-          "justification": "remuneration: 8000 EUR forfait sur premier semestre 2027; absence de données sur coût de la vie à Bourg-en-Bresse et durée exacte du séjour",
+          "rempli": "non",
+          "justification": "\"Dotation de 8 000 € couvrant tous les frais (honoraires, matériaux, production, ateliers, installation) : enveloppe unique à répartir\" — montant serré pour un projet de sculpture monumentale en semi-résidence",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "partiel",
-          "justification": "a_savoir: Thématique imposée 'La fabrique des récits'; jury décrit mais critères d'évaluation implicites (création originale, interprétation du thème, dimension participative)",
+          "rempli": "non",
+          "justification": "Aucun critère d'évaluation énoncé explicitement dans l'appel ; seul est mentionné le jury composé de professionnels et usagers, sans détail des critères",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "candidature.date_limite: 2026-09-08; aucune date ou délai de notification des résultats n'est communiqué",
+          "justification": "\"date_limite\": \"2026-09-08\" annoncée, mais aucune date ou délai de notification des résultats mentionné",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "non",
-          "justification": "Absence de mention concernant la notification individuelle aux candidat·es non retenu·es",
+          "justification": "Aucune mention dans la fiche d'une notification individuelle aux candidat·es non retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "oui",
-          "justification": "a_savoir: ateliers co-créatifs sont 'un élément central du concept', non une charge externe; projet centré sur la production artistique et la conception de l'œuvre",
+          "rempli": "non",
+          "justification": "\"Participation et co-création obligatoires avec les patients et habitants\" ; \"Des ateliers de co-création [...] seront organisés sous la conduite de l'artiste\"",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "partiel",
-          "justification": "conditions_residence.duree.dates: premier semestre 2027 (fenêtre de 6 mois); aucune mention explicite de négociation des dates",
+          "rempli": "non",
+          "justification": "\"La réalisation de l'œuvre est prévue au premier semestre 2027, avec inauguration début juin 2027\" — calendrier imposé sans indication de flexibilité",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "oui",
-          "justification": "restitution: inauguration publique début juin 2027 dans le cadre de l'événement national 'Rendez-vous aux Jardins'",
+          "justification": "\"Inauguration publique de la sculpture monumentale en juin 2027 dans le cadre de l'événement national « Rendez-vous aux Jardins »\"",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "non",
-          "justification": "Absence de mention d'un suivi documenté après la réalisation (réseau alumni, mentions ultérieures, accompagnement)",
+          "justification": "Aucune mention d'un suivi après l'inauguration (réseau alumni, collection, suivi documenté, etc.)",
           "poids": 1,
           "famille": "debouche"
         }
@@ -1492,6 +1997,176 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "Aucune mention de réseau alumni, collection, ou accompagnement post-résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "56a23acc",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/patagonia-argentina-2027-multidisciplinary-program-2",
+      "fetched_at": "2026-08-05T08:22:32+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "PATAGONIA ARGENTINA – 2027 multidisciplinary program",
+        "organisme": "Res Artis",
+        "lieu": {
+          "ville": "Bariloche",
+          "pays": "Argentina",
+          "territorio": null
+        },
+        "nom_fr": "PATAGONIA ARGENTINA – 2027 Programme multidisciplinaire",
+        "affichage_titre": "PATAGONIA ARGENTINA – 2027 multidisciplinary program [PATAGONIA ARGENTINA – 2027 Programme multidisciplinaire]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual arts",
+          "photography",
+          "film",
+          "curation",
+          "writing",
+          "research",
+          "sound art"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 3,
+          "dates": "April 15 to May 6, 2027 (2 weeks possible upon request)"
+        },
+        "hebergement": true,
+        "atelier": "Indoors and outdoors studio/workspace. Large communal lounges with panoramic windows overlooking the lake and southern mountains, heated common areas for indoor workshops, access to endless gardens by the lake.",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Optional organic and organized talks and sharing sessions where participants share works-in-progress and engage in informal group conversations; welcome and farewell dinners with group and on-site curator."
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Résidence de 3 semaines du 15 avril au 6 mai 2027 au bord du lac Moreno à Bariloche (Patagonie, Argentine), sur un domaine de 2.5 acres. Chaque artiste dispose d'une chambre privée avec salle de bain, d'accès à des espaces de travail communs chauffés, et d'une supervision curatoriale sur site. Le programme inclut des visites de sites culturels et écologiques (optionnelles), des repas de bienvenue et d'adieu, et un transfert depuis l'aéroport local. Coût total : 2980 USD, payable 50% après acceptation et 50% 60 jours avant l'arrivée.",
+        "pour_qui": "Créateurs de toutes disciplines (artistes visuels, photographes, cinéastes, écrivains, chercheurs, artistes sonores) en quête d'immersion dans un environnement naturel pour approfondir leur processus créatif."
+      },
+      "a_savoir": [
+        "Pay-to-play sans dotation : coût de 2980 USD sans rémunération, bourse ou per diem de l'organisme",
+        "Pas de date limite de candidature mentionnée dans le texte",
+        "Critères de sélection du jury/comité non publiés",
+        "Transfert depuis aéroport limité à un jour et heure spécifiques ; autres vols non couverts",
+        "Repas non inclus sauf bienvenue et adieu ; cuisine commune disponible",
+        "Calendrier rigide (15 avril – 6 mai 2027) ; flexibilité mineure (2 semaines sur demande)",
+        "Aucun délai de notification des résultats annoncé",
+        "Restitution informelle et optionnelle (sharing sessions) sans rayonnement public"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Bariloche",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Pay-to-play sans dotation : coût de 2980 USD sans rémunération, bourse ou per diem de l'organisme",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Accommodation consists of comfortable private rooms with private bathrooms for every artist, included in the standard price",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Studio / Workspace Indoors and outdoors. Large communal lounges featuring panoramic windows overlooking the lake and southern mountains, heated common areas for indoor workshops",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "Transportation from San Carlos de Bariloche Airport (BRC) to the venue will be available... Other airports, locations, dates, or times different from the official organized one will not be covered",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "Pay-to-play sans dotation : coût de 2980 USD sans rémunération, bourse ou per diem de l'organisme",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "Critères de sélection du jury/comité non publiés",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucun délai de notification des résultats annoncé",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention d'une notification individuelle aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "All activities, included or not, are optional, to respect the flow of each participant. Operating under the premise of freedom of inquiry and exploration of our creative mind and projects",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "April 15 to May 6, 2027 (2 weeks possible upon request)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "Restitution informelle et optionnelle (sharing sessions) sans rayonnement public",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de suivi post-programme, réseau alumni, accompagnement vers d'autres opportunités ou entrée en collection",
           "poids": 1,
           "famille": "debouche"
         }
@@ -2175,6 +2850,177 @@
       ]
     },
     {
+      "uid": "66443a2e",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-february-2027-colombia",
+      "fetched_at": "2026-08-05T08:46:39+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – FEBRUARY 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territorio": "Cundinamarca"
+        },
+        "nom_fr": "Résidence Artistique Disponible – FÉVRIER 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – FEBRUARY 2027 – Colombia [Résidence Artistique Disponible – FÉVRIER 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [],
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "artes visuales",
+          "escultura",
+          "cerámica",
+          "danza",
+          "teatro",
+          "grabado",
+          "artes escénicas",
+          "música",
+          "escritura",
+          "cine",
+          "arquitectura",
+          "programas educativos"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2027-02-01 to 2027-02-28 (1–3 meses)"
+        },
+        "hebergement": true,
+        "atelier": "Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido)",
+        "remuneration": null,
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": "Participación opcional en críticas semanales, talleres y exposiciones con la comunidad de ArteSumapaz y pueblos cercanos (San Bernardo, Pandi)"
+      },
+      "partenaires": [
+        "Fundación ArteSumapaz"
+      ],
+      "analyse": {
+        "synthese": "ArteSumapaz propose une résidence d'artistes d'1 à 3 mois en Colombie (février 2027) sur un campus de 230 acres incluant un parc naturel. Le programme offre hébergement privé, accès à studios partagés ou privés (peinture, sculpture, musique, mouvement, écriture), et 3 repas végétariens quotidiens. Les coûts sont de 1095 USD (chambre arrière) ou 1195 USD (chambre avant) par mois. La participation aux critiques hebdomadaires, ateliers et expositions est encouragée mais facultative ; les artistes définissent eux-mêmes l'emploi du temps de leur résidence.",
+        "pour_qui": "Artistes visuels, musiciens, écrivains, architectes, performeurs ou créateurs de toute discipline et niveau de carrière, recherchant une résidence autogérée dans un environnement communautaire."
+      },
+      "a_savoir": [
+        "Programme pay-to-play : coûts de 1095–1195 USD/mois (sans bourse, ni aide financière mentionnée).",
+        "Aucun critère de sélection publié : processus d'évaluation non transparent.",
+        "Pas de délai de réponse annoncé aux candidatures.",
+        "Dossier en anglais (formulaire Google) pour une organisation basée en Amérique latine hispanophone.",
+        "Participations à des activités communautaires facultatives, sauf réunion communautaire hebdomadaire obligatoire.",
+        "Aucun suivi ou accompagnement après programme mentionné."
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/artists-in-residencies/?cache=0",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": null ; \"Programme pay-to-play : coûts de 1095–1195 USD/mois (sans bourse, ni aide financière mentionnée)\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true ; \"Habitación privada con cama de matrimonio, baño privado con agua caliente\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido)\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} ; \"3 repas végétariens quotidiens\" fournis",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"remuneration\": null ; \"Les coûts sont de 1095 USD ou 1195 USD par mois\" (artistes paient, pas de dotation)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Aucun critère de sélection publié : processus d'évaluation non transparent\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"Pas de délai de réponse annoncé aux candidatures\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention de notification individuelle aux candidats non retenus dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"Self-directed residency\" ; \"Cada artista decide cómo emplear su tiempo\" ; \"Participaciones a actividades comunitarias facultativas\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "\"duree\": {\"dates\": \"2027-02-01 to 2027-02-28 (1–3 meses)\"}",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"Participación opcional en críticas semanales, talleres y exposiciones con la comunidad de ArteSumapaz y pueblos cercanos\" (exposition locale, optionnelle, pas de rayonnement externe)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "\"Aucun suivi ou accompagnement après programme mentionné\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "6ba8743c",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf",
@@ -2360,12 +3206,12 @@
       "uid": "6c77a484",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-dartiste-venissieux",
-      "fetched_at": "2026-08-04T08:43:47+00:00",
+      "fetched_at": "2026-08-05T09:31:24+00:00",
       "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence d'artiste à Vénissieux",
-        "organisme": "Centre d'art Madeleine Lambert",
+        "organisme": "Centre d'art Madeleine-Lambert",
         "lieu": {
           "ville": "Vénissieux",
           "pays": "France",
@@ -2382,10 +3228,10 @@
         "pieces_demandees": [
           "CV",
           "Dossier de présentation du travail artistique avec des visuels",
-          "Note d'intention présentant la démarche de l'artiste pour cette résidence (max 1500 signes)",
-          "Documents complémentaires jugés intéressants"
+          "Note d'intention (max 1 500 signes espaces compris)",
+          "Justificatif d'immatriculation (avis de situation SIRENE, extrait Kbis ou document équivalent)"
         ],
-        "url_candidature": "centredart@ville-venissieux.fr"
+        "url_candidature": "mailto:centredart@ville-venissieux.fr"
       },
       "eligibilite": {
         "disciplines": [
@@ -2401,8 +3247,8 @@
           "semaines": null,
           "dates": null
         },
-        "hebergement": false,
-        "atelier": "Appui logistique, matériel et outillage du Centre d'art",
+        "hebergement": null,
+        "atelier": "Appui logistique, matériel et outillage du Centre d'art ; accès potentiel à d'autres services municipaux (espaces verts, ateliers techniques, archives)",
         "remuneration": {
           "montant": 3500,
           "devise": "EUR",
@@ -2415,16 +3261,21 @@
         },
         "restitution": null
       },
-      "partenaires": [],
+      "partenaires": [
+        "Centre d'art Madeleine-Lambert"
+      ],
       "analyse": {
-        "synthese": "Le Centre d'art Madeleine Lambert à Vénissieux propose une résidence d'artiste dotée d'une rémunération de 2000 € complétée d'une aide à la production de 1500 €. L'artiste bénéficie de l'accès aux ressources, à l'équipe et au réseau du centre, ainsi qu'à l'appui logistique et au matériel disponible. Ce programme s'adresse aux artistes plasticien·nes engagé·es dans une démarche professionnelle qui doivent justifier d'une immatriculation (SIRENE, Kbis ou équivalent). La date limite de candidature est le 7 septembre 2026.",
-        "pour_qui": "Artistes plasticien·nes ayant une démarche professionnelle documentée et immatriculé·es."
+        "synthese": "Le Centre d'art Madeleine-Lambert à Vénissieux propose une résidence d'artiste dotée d'une rémunération de 2000 € et d'une aide à la production de 1500 €. L'artiste bénéficie de l'accompagnement des équipes du centre, d'accès au matériel et à l'outillage, ainsi qu'à d'autres ressources municipales selon ses besoins. L'appel s'adresse aux artistes plasticiens ayant déjà un engagement professionnel justifié. La date limite de candidature est le 7 septembre 2026. Cependant, la durée de la résidence, les conditions d'hébergement et les modalités de restitution ne sont pas précisées.",
+        "pour_qui": "Artistes plasticiens ayant déjà un engagement professionnel justifié et immatriculés (SIRENE, Kbis ou équivalent)."
       },
       "a_savoir": [
-        "Durée de la résidence et conditions d'hébergement non spécifiés dans l'appel.",
-        "Justificatif d'immatriculation obligatoire (SIRENE, Kbis ou document équivalent).",
-        "Pas de critères de sélection explicites publiés ; seules les pièces à fournir sont énumérées.",
-        "Pas de délai annoncé pour la notification des résultats."
+        "Durée de la résidence non spécifiée",
+        "Hébergement non mentionné (l'artiste devra peut-être se loger à ses frais)",
+        "Conditions de restitution / exposition non mentionnées",
+        "Critères de sélection du jury non publiés",
+        "Pas de délai de notification des résultats annoncé",
+        "Dossier d'immatriculation professionnel obligatoire (barrière potentielle pour les jeunes artistes)",
+        "Candidature par email uniquement (pas de plateforme dédiée)"
       ],
       "organisme_details": {
         "site_web": "https://culture.venissieux.fr/centre-dart-madeleine-lambert/",
@@ -2436,84 +3287,84 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "remuneration.montant: 3500 EUR (forfait) — détaillé en 2000 € rémunération + 1500 € aide à la production",
+          "justification": "\"montant\": 3500, \"devise\": \"EUR\", \"periodicite\": \"forfait\"",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "non",
-          "justification": "hebergement: false",
+          "rempli": "inconnu",
+          "justification": "\"hebergement\": null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "atelier: Appui logistique, matériel et outillage du Centre d'art",
+          "justification": "\"atelier\": \"Appui logistique, matériel et outillage du Centre d'art\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "partiel",
-          "justification": "voyage.pris_en_charge: false; aide à la production de 1500 € incluse dans la dotation totale",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} — aide à la production incluse mais trajet non couvert",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "inconnu",
-          "justification": "duree.semaines: null, duree.dates: null — durée non spécifiée, impossible d'évaluer le ratio dotation/coût de vie",
+          "justification": "\"duree\": {\"semaines\": null, \"dates\": null} — impossible d'évaluer sans connaître la durée",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "non",
-          "justification": "a_savoir[2]: Pas de critères de sélection explicites publiés ; seules les pièces à fournir sont énumérées",
+          "justification": "\"Critères de sélection du jury non publiés\" (a_savoir)",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "a_savoir[3]: Pas de délai annoncé pour la notification des résultats",
+          "justification": "\"Pas de délai de notification des résultats annoncé\" (a_savoir)",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "non",
-          "justification": "L'appel n'indique pas que les candidat·es non retenu·es recevront une notification individuelle",
+          "justification": "Aucune mention de notification individualisée aux candidat·es non retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "partiel",
-          "justification": "analyse.synthese: accès aux ressources, équipe et réseau du centre ; aucune obligation d'ateliers publics ou médiation n'est spécifiée",
+          "rempli": "inconnu",
+          "justification": "\"accompagnement des équipes du centre\" mentionné, mais ampleur des obligations de médiation non précisée",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "inconnu",
-          "justification": "duree.dates: null — calendrier du séjour et sa négociabilité ne sont pas précisés",
+          "rempli": "non",
+          "justification": "\"duree\": {\"semaines\": null, \"dates\": null} — pas de flexibilité calendaire annoncée",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "restitution: null — aucune modalité ou visibilité de la restitution n'est mentionnée",
+          "rempli": "non",
+          "justification": "\"restitution\": null — « Conditions de restitution / exposition non mentionnées » (a_savoir)",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "non",
-          "justification": "L'appel ne mentionne aucun réseau alumni, suivi documenté ou accompagnement après le programme",
+          "justification": "Aucun suivi documenté après le programme (alumni, accompagnement futur) mentionné",
           "poids": 1,
           "famille": "debouche"
         }
@@ -3342,6 +4193,352 @@
       ]
     },
     {
+      "uid": "8f71ec94",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-may-2027-colombia",
+      "fetched_at": "2026-08-05T08:56:01+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – MAY 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": "Cundinamarca"
+        },
+        "nom_fr": "Résidence Artistique Disponible – MAI 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – MAY 2027 – Colombia [Résidence Artistique Disponible – MAI 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [],
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual arts",
+          "music",
+          "writing",
+          "architecture",
+          "sculpture",
+          "ceramics",
+          "dance",
+          "theater",
+          "printmaking",
+          "film",
+          "performance"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2027-05-01 to 2027-05-31"
+        },
+        "hebergement": true,
+        "atelier": "Shared studios (painting, 3D, movement, music) and two private rooms for writers. Workspace assignments reviewed and adjusted monthly based on each artist's practice.",
+        "remuneration": {
+          "montant": null,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": "Artists are cordially invited but not required to participate in weekly open critique sessions, teach workshops, or organize exhibitions."
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Ce programme offre une résidence artistique auto-dirigée en Colombie pour mai 2027. Les artistes de toutes disciplines reçoivent un logement privé, trois repas végétariens quotidiens et accès à plusieurs espaces de travail (studios partagés et salles privées). Les frais de participation sont 1095 USD (chambre arrière) ou 1195 USD (chambre avant) par mois pour une durée de 1 à 3 mois. Les artistes s'auto-dirigent ; la participation à critiques hebdomadaires, ateliers et expositions est optionnelle.",
+        "pour_qui": "Artistes de toute discipline et niveau cherchant un espace de création flexible en Colombie au sein d'une communauté interdisciplinaire, capables de financer leur séjour (1095–1195 USD/mois)."
+      },
+      "a_savoir": [
+        "Modèle 'artist pays' : les artistes paient 1095–1195 USD/mois (logement et repas inclus); aucune rémunération ou bourse.",
+        "Pas de prise en charge du voyage ou des frais de production/transport d'œuvres.",
+        "Délai de candidature très court : deadline 2026-08-07.",
+        "Critères de sélection du jury non publicisés.",
+        "Pas de suivi post-programme mentionné (réseau alumni, accompagnement, mentions).",
+        "Restitution (expositions, ateliers) optionnelle et visibilité limitée au réseau local."
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"Modèle 'artist pays' : les artistes paient 1095–1195 USD/mois (logement et repas inclus); aucune rémunération ou bourse.\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"Habitación privada con cama de matrimonio, baño privado con agua caliente, escritorio y espacio de almacenamiento.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"Shared studios (painting, 3D, movement, music) and two private rooms for writers. Workspace assignments reviewed and adjusted monthly based on each artist's practice.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"Repas inclus ('Ofrecemos tres comidas vegetarianas al día'), mais voyage et frais de production non couverts.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"Pas de dotation monétaire : l'artiste paie le séjour. Aucune allocation ou per diem pour compenser le coût de la vie.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Critères de sélection du jury non publicisés.\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"Pas de date ou délai de notification des résultats communiqué.\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "\"Aucune mention d'une notification individuelle aux candidats non retenus.\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"Artists are cordially invited but not required to participate in weekly open critique sessions, teach workshops, or organize exhibitions.\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"Durée flexible (1–3 mois), mais période fixée rigoureusement en mai 2027 (1er–31 mai); aucune fenêtre de dates alternative.\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"Expositions possibles et optionnelles, visibilité limitée à la communauté artistique locale et aux villes voisines; aucune diffusion presse ou catalogue mentionné.\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "\"Aucun suivi documenté, réseau alumni, entrée en collection ou accompagnement vers d'autres opportunités mentionné.\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "93124fb8",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-july-2027-colombia",
+      "fetched_at": "2026-08-05T09:02:00+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – JULY 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": null
+        },
+        "nom_fr": "Résidence d'artiste disponible – JUILLET 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – JULY 2027 – Colombia [Résidence d'artiste disponible – JUILLET 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual arts",
+          "sculpture",
+          "ceramics",
+          "dance",
+          "theater",
+          "engraving",
+          "performing arts",
+          "music",
+          "writing",
+          "film",
+          "architecture",
+          "educational programs"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2027-07-01 to 2027-07-31"
+        },
+        "hebergement": true,
+        "atelier": "Painting studio (shared), 3D studio (shared), movement studio (shared), two private rooms for writers, music studio (shared)",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": "Artists are welcome to participate in weekly open critique sessions, share workshops or exhibitions with ArteSumapaz's artist community or nearby communities of San Bernardo, Cundinamarca, and Pandi"
+      },
+      "partenaires": [
+        "Fundación ArteSumapaz"
+      ],
+      "analyse": {
+        "synthese": "Self-directed residency program of 1-3 months in Colombia offering private accommodation (1095-1195 USD/month) and access to diverse workspaces (painting, music, dance, writing, 3D studios). Three vegetarian meals provided daily. Open to visual artists, musicians, writers, architects, ceramicists, performers and other creators of all career levels and nationalities. Participation in weekly critique sessions, workshops and exhibitions is encouraged but optional; only the weekly community meeting is mandatory.",
+        "pour_qui": "Visual artists, musicians, writers, architects, ceramicists, performers and creators of all career levels and nationalities."
+      },
+      "a_savoir": [
+        "Artists must pay monthly accommodation fees (1095 USD or 1195 USD depending on room type); no remuneration or bourse offered.",
+        "No published selection criteria or detailed evaluation process.",
+        "Travel costs not covered by the organization.",
+        "No post-program follow-up or alumni network mentioned.",
+        "Flexible duration (1-3 months) but specific session dates fixed to July 1-31, 2027."
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/artists-in-residencies/?cache=0",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"no remuneration or bourse offered\" (a_savoir)",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true et \"private accommodation (1095-1195 USD/month)\" (synthese)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"Painting studio (shared), 3D studio (shared), movement studio (shared), two private rooms for writers, music studio (shared)\" (conditions_residence.atelier)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"Three vegetarian meals provided daily\" (synthese) mais \"voyage\": {\"pris_en_charge\": false} (conditions_residence)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"Artists must pay monthly accommodation fees (1095-1195 USD depending on room type); no remuneration or bourse offered\" (a_savoir)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"No published selection criteria or detailed evaluation process\" (a_savoir)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "inconnu",
+          "justification": "Pas de champ candidature.delai_reponse ni mention dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention de notification aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"only the weekly community meeting is mandatory\" et \"Participation in weekly critique sessions, workshops and exhibitions is encouraged but optional\" (synthese)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"Flexible duration (1-3 months) but specific session dates fixed to July 1-31, 2027\" (a_savoir)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "\"Restitution limited to ArteSumapaz community and nearby towns (San Bernardo, Cundinamarca, Pandi). No mention of broader visibility, press coverage or catalog publication\" (analyse.criteres_programme)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "\"No post-program follow-up or alumni network mentioned\" (a_savoir)",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "96722c2c",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf",
@@ -3500,6 +4697,183 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "a0590b85",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/residency-available-november-2026-colombia",
+      "fetched_at": "2026-08-05T08:35:11+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Residency Available – NOVEMBER 2026 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": "Cundinamarca"
+        },
+        "nom_fr": "Résidence disponible – NOVEMBRE 2026 – Colombie",
+        "affichage_titre": "Residency Available – NOVEMBER 2026 – Colombia [Résidence disponible – NOVEMBRE 2026 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": "USD"
+        },
+        "pieces_demandees": [],
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "sculpture",
+          "céramique",
+          "danse",
+          "théâtre",
+          "gravure",
+          "arts de la scène",
+          "musique",
+          "écriture",
+          "cinéma",
+          "architecture"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2026-11-01 à 2026-11-30 (1 à 3 mois, flexible)"
+        },
+        "hebergement": true,
+        "atelier": "Ateliers partagés de peinture, 3D, mouvement, studios de musique, et deux salles privées pour écrivains. Allocation mensuelle des espaces selon les besoins.",
+        "remuneration": {
+          "montant": null,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Participation optionnelle à des critiques d'art hebdomadaires et possibilité de partager des ateliers ou expositions avec la communauté d'ArteSumapaz et les villes voisines de San Bernardo et Pandi."
+      },
+      "partenaires": [
+        "Fundación ArteSumapaz"
+      ],
+      "analyse": {
+        "synthese": "La résidence d'ArteSumapaz en Colombie accueille artistes visuels, musiciens, écrivains, architectes et autres créateurs. Implantée sur un campus de 230 acres avec parc naturel, elle offre espaces de travail diversifiés (ateliers de peinture, 3D, mouvement, studios de musique, salles d'écriture) et hébergement privé avec trois repas végétariens quotidiens inclus. La durée est flexible (1 à 3 mois) en novembre 2026, au tarif de 945 à 1045 USD/mois pour le logement. Les artistes conservent liberté totale de gérer leur emploi du temps; participation aux critiques hebdomadaires, ateliers ou expositions reste optionnelle. Aucune rémunération ou allocation n'est versée.",
+        "pour_qui": "Artistes confirmés ou émergents de tous horizons en capacité de financer leur séjour (945-1045 USD/mois) et recherchant une expérience de création autogérée en environnement collectif."
+      },
+      "a_savoir": [
+        "Résidence payante : les artistes doivent financer leur séjour (945-1045 USD/mois); ce n'est pas une opportunité subventionnée",
+        "Aucune rémunération ou allocation fournie",
+        "Critères de sélection non publiés sur la page d'appel",
+        "Délai de réponse aux candidatures non communiqué",
+        "Participation aux activités collectives entièrement optionnelle",
+        "Dossier requis probablement en anglais et/ou espagnol"
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/artists-in-residencies/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null, \"devise\": \"USD\", \"periodicite\": null} — Aucune rémunération versée",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true — Logement privé avec trois repas végétariens quotidiens inclus",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Ateliers partagés de peinture, 3D, mouvement, studios de musique, et deux salles privées pour écrivains\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} — Aucune prise en charge du voyage ou des frais de production",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null} — Pas de dotation versée; les artistes paient 945-1045 USD/mois sans allocation complémentaire",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"a_savoir\": \"Critères de sélection non publiés sur la page d'appel\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"a_savoir\": \"Délai de réponse aux candidatures non communiqué\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention dans la fiche relative à la notification individuelle des non-retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Participation optionnelle à des critiques d'art hebdomadaires et possibilité de partager des ateliers ou expositions\" — Résidence auto-dirigée, pas d'obligations imposées",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"dates\": \"2026-11-01 à 2026-11-30 (1 à 3 mois, flexible)\" — Dates fixes (novembre) mais durée individuelle flexible",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"possibilité de partager des ateliers ou expositions avec la communauté d'ArteSumapaz et les villes voisines\" — Visibilité locale, pas de rayonnement presse ou catalogue",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de réseau alumni, suivi documenté ou accompagnement vers d'autres opportunités après le programme",
           "poids": 1,
           "famille": "debouche"
         }
@@ -4168,6 +5542,179 @@
       ]
     },
     {
+      "uid": "c3d60ea9",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/open-call-2026-27-live-create-exhibit-in-venice-fully-partially-sponsored-residencies-special-program",
+      "fetched_at": "2026-08-05T08:30:05+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "La Storta Winter Partially Funded Residencies in the heart of Venice",
+        "organisme": "Venezia Contemporanea in partnership with Galleria ScalaMata",
+        "lieu": {
+          "ville": "Venice",
+          "pays": "Italy",
+          "territoire": null
+        },
+        "nom_fr": "Résidences partiellement financées d'hiver de La Storta au cœur de Venise",
+        "affichage_titre": "La Storta Winter Partially Funded Residencies in the heart of Venice [Résidences partiellement financées d'hiver de La Storta au cœur de Venise]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-06",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "A few lines about yourself",
+          "Brief description of plan for the residency",
+          "Links to your work online (no PDF)",
+          "Your preferable dates"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual arts",
+          "writing",
+          "research"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "Minimum 2 weeks, maximum 6 weeks; residency window 2026-12-01 to 2027-03-31"
+        },
+        "hebergement": true,
+        "atelier": "Live-in studio with street-level gallery featuring large vitrine window, basic art supplies, two projectors, installation tools, light curatorial support for exhibitions",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Exhibitions, open-studio events, and process-based displays at the gallery space"
+      },
+      "partenaires": [
+        "Venezia Contemporanea",
+        "Galleria ScalaMata"
+      ],
+      "analyse": {
+        "synthese": "La Storta offers a 2-6 week residency in Venice's historic Ghetto, in a 500-year-old Renaissance building. Venezia Contemporanea covers 50% of €2,400 per week; artists contribute €1,200 per week. Includes live-in studio, street-level gallery with vitrine window, basic art supplies, two projectors, and light curatorial support. Applications accepted year-round on rolling basis. Flights, travel, per diem, and additional art supplies not covered.",
+        "pour_qui": "Visual artists, writers, and researchers of all career levels seeking to live, create, and exhibit in central Venice with partial cost-sharing."
+      },
+      "a_savoir": [
+        "Artist must cover 50% of €2,400 weekly costs (€1,200/week minimum)",
+        "Travel, flights, per diem, and additional art supplies not covered",
+        "Resident cat Campari present—unsuitable for those with cat allergies",
+        "Minimum 2-week commitment required",
+        "Exhibition limited to local La Storta gallery; no visibility guarantee beyond organization",
+        "No jury criteria or selection transparency provided",
+        "Tension between 'rolling basis' claims and application deadline of 2026-08-06"
+      ],
+      "organisme_details": {
+        "site_web": "www.veneziacontemporanea.com",
+        "adresse": null,
+        "ville": "Venice",
+        "contact_email": "Info@veneziacontemporanea.com"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"no direct artist compensation, salary, or stipend\" — Venezia Contemporanea covers 50% via cost-sharing, not direct payment",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"Live-in studio accommodation in Renaissance building in Venice Ghetto provided\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"Live-in studio with street-level gallery featuring large vitrine window, basic art supplies, two projectors, installation tools\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"Venezia Contemporanea covers 50% of €2,400 per week; flights, travel, per diem, and additional art supplies not covered\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"Artist pays €1,200/week for Venice accommodation; adequacy relative to local living costs indeterminate from text\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"No explicit jury criteria, evaluation process, or weighting published\" — seul le format du dossier est spécifié",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"No timeline for response or result notification provided\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "\"No mention of individual feedback or notification to rejected applicants\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"Artists granted full flexibility in working hours and presentations; encouraged to focus on creative work\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "\"Applications accepted year-round on rolling basis; flexible stay 2-6 weeks; residency window 2026-12-01 to 2027-03-31\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"Exhibitions held at local La Storta gallery; no visibility guarantee beyond organization\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "\"No alumni network, follow-up support, documentation, or post-residency opportunities mentioned\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "c9b469ac",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/09/bases_aavv_2026_6m_mad_def.pdf",
@@ -4490,6 +6037,167 @@
       ]
     },
     {
+      "uid": "cb215963",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-january-2027-colombia",
+      "fetched_at": "2026-08-05T08:44:36+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – January 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": "Cundinamarca"
+        },
+        "nom_fr": "Résidence Artistique Disponible – JANVIER 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – JANUARY 2027 – Colombia [Résidence Artistique Disponible – JANVIER 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual arts",
+          "sculpture",
+          "ceramics",
+          "dance",
+          "theatre",
+          "printmaking",
+          "performing arts",
+          "music",
+          "writing",
+          "film",
+          "architecture",
+          "educational programs"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "1 to 3 months (program window: January 2027, 2027-01-01 to 2027-01-31)"
+        },
+        "hebergement": true,
+        "atelier": "Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido). Habitación privada con cama de matrimonio, baño privado con agua caliente, escritorio y espacio de almacenamiento. Tres comidas vegetarianas al día incluidas.",
+        "remuneration": null,
+        "voyage": null,
+        "restitution": "Participación opcional en críticas de arte semanales, impartición de talleres y organización de exposiciones con la comunidad de artistas de ArteSumapaz y comunidades cercanas."
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Fundación ArteSumapaz propose une résidence artistique autogérée de 1 à 3 mois en Cundinamarca, Colombie, destinée aux artistes visuels, musiciens, écrivains, architectes, céramistes, performeurs et autres créateurs. L'hébergement privé avec salle de bain coûte 1.095 ou 1.195 USD par mois selon la chambre, auquel s'ajoutent trois repas végétariens quotidiens. Les résidents ont accès à plusieurs espaces de travail (studios partagés et salles privées selon la discipline), et la participation aux critiques d'art hebdomadaires et événements est optionnelle. Une seule réunion obligatoire : la réunion communautaire hebdomadaire. Le programme se déploie sur un campus de 230 acres incluant un parc naturel, situé près de San Bernardo et Pandi.",
+        "pour_qui": "Artistes émergents ou consolidés de toutes disciplines et nationalités, cherchant une résidence autogérée et communautaire dans un environnement rural colombien."
+      },
+      "a_savoir": [
+        "Pas de rémunération ; les frais de logement (1.095–1.195 USD/mois) constituent les seuls revenus mentionnés.",
+        "Calendrier fixe : résidence limitée à janvier 2027 uniquement.",
+        "Critères de sélection non publiés.",
+        "Pas de délai annoncé pour la notification des résultats de candidature."
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Pas de rémunération ; les frais de logement (1.095–1.195 USD/mois) constituent les seuls revenus mentionnés. (a_savoir[0])",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Habitación privada con cama de matrimonio, baño privado con agua caliente, escritorio y espacio de almacenamiento. (conditions_residence.atelier)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido). (conditions_residence.atelier)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "Habitación privada... Tres comidas vegetarianas al día incluidas. (conditions_residence.atelier) - voyage non couvert",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "Pas d'information sur le coût de la vie local en Cundinamarca ou si 1.095–1.195 USD mensuels permettent de vivre sans déficit net. (a_savoir[0])",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "Critères de sélection non publiés. (a_savoir[2]) - seules les disciplines acceptées sont énumérées",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Pas de délai annoncé pour la notification des résultats de candidature. (a_savoir[3])",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Absence d'indication dans la fiche concernant une notification individuelle aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "Participación opcional en críticas de arte semanales... Una sola réunion obligatoria: la reunión comunitaria semanal. (conditions_residence.restitution)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "1 to 3 months (program window: January 2027, 2027-01-01 to 2027-01-31) (conditions_residence.duree.dates) - durée flexible mais période fixe",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "Participación opcional... organización de exposiciones con la comunidad de artistas de ArteSumapaz y comunidades cercanas. (conditions_residence.restitution) - visibilité limitée au local",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucun suivi documenté, réseau alumni, ou accompagnement post-programme ne sont mentionnés dans la fiche",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "cc05d124",
       "type": "residence",
       "source_url": "https://westwerk.org/residency.html",
@@ -4654,6 +6362,180 @@
       ]
     },
     {
+      "uid": "d581b7b0",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/residency-available-october-2026-colombia",
+      "fetched_at": "2026-08-05T08:37:53+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Residency Available – OCTOBER 2026 – Colombia",
+        "organisme": "ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": "Andean mountains, approximately 4 hours south of Bogotá, Cundinamarca"
+        },
+        "nom_fr": "Residency Available – OCTOBER 2026 – Colombia | Résidence disponible – OCTOBRE 2026 – Colombie",
+        "affichage_titre": "Residency Available – OCTOBER 2026 – Colombia [Residency Available – OCTOBER 2026 – Colombia | Résidence disponible – OCTOBRE 2026 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": [],
+        "url_candidature": "https://artesumapaz.org/artists-in-residencies/?cache=0"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "painting",
+          "mixed media",
+          "conceptual",
+          "film",
+          "drawing",
+          "music",
+          "writing",
+          "architecture",
+          "clay",
+          "performance"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2026-10-01 to 2026-10-31"
+        },
+        "hebergement": true,
+        "atelier": "Shared painting studio, shared 3D studio, shared movement studio, two private writer's rooms, shared music studio. Full access to studio spaces for visual art, music, movement, writing. Campus spans approximately 230 acres.",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": "Optional participation in weekly open critique sessions and optional sharing of workshops or exhibitions with ArteSumapaz artist community or nearby towns (San Bernardo Cundinamarca, Pandi)."
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "ArteSumapaz est un programme de résidence autogéré en Colombie, dans les Andes à 4 heures de Bogotá, accueillant des artistes visuels, musiciens, écrivains, architectes et autres créateurs pour 1 à 3 mois. Les artistes bénéficient d'une chambre privée avec salle de bain et bureau, ainsi que d'accès à des studios partagés et privés (peinture, 3D, mouvement, écriture, musique). La participation aux critiques de groupe et aux échanges avec les communautés locales est optionnelle. Le séjour est payant : $945.00–$1045.00 USD selon le type de logement. Sélection par comité ; date limite 7 août 2026, résidence en octobre 2026.",
+        "pour_qui": "Artistes visuels, musiciens, écrivains, architectes et créateurs en quête d'espace autogéré de production et d'exploration en Colombie, disposant des moyens financiers pour autofinancer leur séjour."
+      },
+      "a_savoir": [
+        "Pay-to-stay : pas de rémunération ni per diem ; artistes financent entièrement leur séjour ($945.00–$1045.00 USD selon le type de logement).",
+        "Pas de prise en charge du voyage, des frais de production ou du matériel.",
+        "Critères de sélection peu détaillés ; seule mention : 'Selection is by committee' sans explicitation des critères d'évaluation.",
+        "Pas de délai de réponse annoncé.",
+        "Restitution optionnelle sans visibilité externe garantie ; aucun suivi post-résidence mentionné.",
+        "Première édition identifiée pour octobre 2026 ; peu de recul sur la fiabilité de l'organisme."
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null, \"devise\": null, \"periodicite\": null} — Aucune rétribution, bourse ou per diem mentionnée.",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true — \"Private room with queen size bed, private bathroom with hot water, and desk\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Shared painting studio, shared 3D studio, shared movement studio, two private writer's rooms, shared music studio. Full access to studio spaces\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} — \"Pas de prise en charge du voyage, des frais de production, du transport d'œuvres ou du matériel\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "Coût d'accès $945.00–$1045.00 USD ; pas de dotation offerte, programme payant. Impossible d'évaluer la cohérence avec le coût de vie local.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "\"Selection is by committee\" — mentionné mais aucun critère d'évaluation détaillé n'est publié",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucun délai de réponse ou date de notification des résultats mentionné dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention d'un retour individualisé aux candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Optional participation in weekly open critique sessions...\" — résidence autogérée avec participation optionnelle",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"dates\": \"2026-10-01 to 2026-10-31\" — calendrier spécifique à octobre 2026, mais durée 1–3 mois offre une fenêtre théorique; mention d'options négociables",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "\"Restitution optionnelle... avec ArteSumapaz artist community ou nearby towns (San Bernardo, Pandi)\" — aucune visibilité au-delà du réseau local ou reconnaissance institutionnelle",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de réseau alumni, suivi documenté, ou accompagnement vers d'autres opportunités après le programme",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "dd63bde1",
       "type": "residence",
       "source_url": "https://www.pollen-monflanquin.com/residences",
@@ -4790,6 +6672,357 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "dec9e730",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-june-2027-colombia",
+      "fetched_at": "2026-08-05T08:58:35+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – JUNE 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": "San Bernardo",
+          "pays": "Colombia",
+          "territoire": "Cundinamarca"
+        },
+        "nom_fr": "Résidence artistique disponible – JUIN 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – JUNE 2027 – Colombia [Résidence artistique disponible – JUIN 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [],
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual artists",
+          "musicians",
+          "writers",
+          "architects",
+          "clay artists",
+          "performers",
+          "artes visuales",
+          "escultura",
+          "cerámica",
+          "danza",
+          "teatro",
+          "grabado",
+          "artes escénicas",
+          "música",
+          "escritura",
+          "cine",
+          "cine",
+          "programas educativos"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2027-06-01 to 2027-06-30; flexible duration of 1–3 meses possible"
+        },
+        "hebergement": true,
+        "atelier": "Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido). Workspace assignments reviewed and adjusted monthly based on resident needs.",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Artists are invited to participate in weekly open critique sessions, share workshops or exhibitions with ArteSumapaz's artist community or nearby communities. Participation is entirely optional."
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "ArteSumapaz offers a self-directed artist residency in Colombia for 1–3 months, with a June 2027 session (June 1–30). The program welcomes artists across visual arts, music, writing, performance, architecture, and related disciplines, providing studio spaces (painting, 3D, movement, music, private writing rooms), private accommodation with hot water and meals (3 vegetarian meals daily), on a 230-acre campus with natural park. Artists decide freely how to spend their time; participation in weekly critiques, workshops, and exhibitions is invited but optional, with only a weekly community lunch meeting required. This is a pay-to-play residency: artists pay USD 1095–1195 per month for accommodation and meals, with no artist stipend, travel support, or published selection criteria.",
+        "pour_qui": "Visual artists, musicians, writers, architects, and other creative practitioners of all career levels seeking self-directed studio time in a collaborative community environment."
+      },
+      "a_savoir": [
+        "Pay-to-play model: artists must pay USD 1095–1195 per month; no artist stipend, per diem, or travel support provided",
+        "Application deadline 2026-08-07: only 2 days from today (2026-08-05)",
+        "No selection criteria published",
+        "No response timeline or notification deadline announced",
+        "Travel and production costs not covered",
+        "Restitution activities (exhibitions, workshops) optional, not guaranteed or curated for external visibility"
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/",
+        "adresse": null,
+        "ville": "San Bernardo",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "remuneration: {montant: null, devise: EUR} + synthese: 'No artist stipend, travel support... provided'",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true + conditions_residence: 'private accommodation with hot water and meals (3 vegetarian meals daily)'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: 'Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio de música (compartido)'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "voyage.pris_en_charge: false + conditions_residence: '3 vegetarian meals daily' (meals couverts, voyages non)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "remuneration.montant: null + a_savoir: 'artists must pay USD 1095–1195 per month; no artist stipend... provided'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "a_savoir: 'No selection criteria published'",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: 'No response timeline or notification deadline announced'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention dans la fiche de notification aux candidats non-retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "conditions_residence.restitution: 'Artists decide freely how to spend their time; participation in weekly critiques... is entirely optional'",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "conditions_residence.duree: '2027-06-01 to 2027-06-30; flexible duration of 1–3 meses possible'",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "conditions_residence.restitution: 'share workshops or exhibitions with ArteSumapaz's artist community or nearby communities' (rayonnement local, pas d'amplification externe garantie)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "a_savoir: 'No alumni network, continued support, documentation, or post-program follow-up mentioned'",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "e2910b41",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-august-2027-colombia",
+      "fetched_at": "2026-08-05T09:05:03+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – AUGUST 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": "Cundinamarca"
+        },
+        "nom_fr": "Résidence artistique disponible – AOÛT 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – AUGUST 2027 – Colombia [Résidence artistique disponible – AOÛT 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual art",
+          "sculpture",
+          "ceramics",
+          "dance",
+          "theater",
+          "printmaking",
+          "performing arts",
+          "music",
+          "writing",
+          "film",
+          "architecture",
+          "educational programs"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2027-08-01 to 2027-08-31 (duration negotiable 1–3 months)"
+        },
+        "hebergement": true,
+        "atelier": "Shared painting studio, shared 3D studio, shared movement studio, two private writing rooms, shared music studio. Spaces assigned monthly based on resident needs. Three vegetarian meals daily included.",
+        "remuneration": null,
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": "Artists are invited to participate in weekly open critique sessions and may share workshops or exhibitions with ArteSumapaz's artist community or nearby towns (San Bernardo, Pandi); participation is encouraged but not mandatory."
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Fundación ArteSumapaz offre une résidence artistique auto-dirigée d'1–3 mois en Colombie (août 2027), ouverte à artistes visuels, musiciens, écrivains, architectes, sculpteurs et créatifs de toutes disciplines. Les résidents bénéficient d'un logement privé, de trois repas végétariens quotidiens et d'accès à studios partagés ou privés selon leur pratique. Les tarifs mensuels s'élèvent à 1095 USD ou 1195 USD selon le type de chambre. La participation aux critiques hebdomadaires, ateliers et expositions est encouragée mais non obligatoire ; seule la réunion communautaire hebdomadaire est requise.",
+        "pour_qui": "Artistes de toutes disciplines ayant la capacité financière de financer leur résidence (1095–1195 USD/mois) et cherchant un environnement créatif collectif sans obligations médiation imposées."
+      },
+      "a_savoir": [
+        "Tarifs substantiels sans rémunération compensatrice : l'artiste paie intégralement son hébergement (1095–1195 USD/mois)",
+        "Date limite imminente : candidatures closes le 7 août 2026",
+        "Calendrier rigide : résidence fixée à août 2027, pas de flexibilité de dates mentionnée",
+        "Critères de sélection non publiés : aucun détail sur le barème ou les priorités du jury",
+        "Pas de suivi après programme : aucun réseau alumni, documentation ou accompagnement post-résidence mentionné",
+        "Délai de réponse non annoncé : pas de date indicative de notification aux candidats"
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": null — aucune rémunération, bourse ou per diem fourni",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true ; \"Three vegetarian meals daily included\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Shared painting studio, shared 3D studio, shared movement studio, two private writing rooms, shared music studio\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false, \"plafond\": null}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"remuneration\": null ; l'artiste paie 1095–1195 USD/mois pour logement et repas seulement",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"url_candidature\": \"Google Forms\" — formulaire seul, sans critères d'évaluation énoncés",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "inconnu",
+          "justification": "aucun champ délai ou date de notification dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "aucune mention de notification aux candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"participation is encouraged but not mandatory\" ; seule la réunion communautaire hebdomadaire est obligatoire",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"duree\": \"2027-08-01 to 2027-08-31 (duration negotiable 1–3 months)\" — dates août 2027 fixes, durée négociable",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"may share workshops or exhibitions with... nearby towns (San Bernardo, Pandi)\" — visibilité locale, pas régionale",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "aucun champ réseau alumni, suivi documenté ou accompagnement post-résidence dans la fiche",
           "poids": 1,
           "famille": "debouche"
         }
@@ -5292,6 +7525,531 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "f2e01230",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-september-2027-colombia",
+      "fetched_at": "2026-08-05T09:07:33+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – SEPTEMBER 2027 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territoire": null
+        },
+        "nom_fr": "Résidence Artistique Disponible – SEPTEMBRE 2027 – Colombie",
+        "affichage_titre": "Art Residency Available – SEPTEMBER 2027 – Colombia [Résidence Artistique Disponible – SEPTEMBRE 2027 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": [],
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual art",
+          "sculpture",
+          "ceramics",
+          "dance",
+          "theatre",
+          "printmaking",
+          "performing arts",
+          "music",
+          "writing",
+          "film-making",
+          "architecture",
+          "education programs"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2027-09-01 à 2027-09-30"
+        },
+        "hebergement": true,
+        "atelier": "Painting studio (shared), 3D studio (shared), Movement studio (shared), two private writer's rooms, Music studio (shared)",
+        "remuneration": {
+          "montant": null,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Participation optionnelle aux critiques hebdomadaires, ateliers et expositions avec la communauté ArteSumapaz et les villages voisins (San Bernardo, Pandi)"
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "ArteSumapaz propose une résidence artistique autogérée pour l'automne 2027 en Colombie, ouverte à tous les artistes (plasticiens, musiciens, écrivains, architectes, danseurs, performeurs, autres pratiques). La résidence fournit l'hébergement (chambre privée, salle de bain, bureau, rangement), l'accès à cinq studios partagés ou privés (peinture, 3D, mouvement, musique, écriture), et trois repas végétariens quotidiens. Les artistes paient USD 1 095–1 195 par mois selon la chambre, conservent une liberté totale d'organisation de leur travail, et les activités collectives (critiques, ateliers, expositions) restent optionnelles. Seule réunion obligatoire : l'assemblée communautaire hebdomadaire.",
+        "pour_qui": "Artistes de tous niveaux et toutes disciplines cherchant un environnement collectif, autogéré et immersif dans la nature colombienne."
+      },
+      "a_savoir": [
+        "Programme payant : les artistes ne reçoivent pas de rémunération mais paient USD 1 095–1 195 par mois pour participer",
+        "Pas de prise en charge des frais de voyage",
+        "Date limite imminente : 7 août 2026",
+        "Critères de sélection du jury non explicitement publiés",
+        "Délai de notification des résultats non indiqué",
+        "Possibilité d'options d'hébergement et de tarification alternatives non détaillées sur la page"
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Programme payant : les artistes ne reçoivent pas de rémunération mais paient USD 1 095–1 195 par mois pour participer",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "atelier: « A private room featuring a queen-size bed, private bathroom with hot water, as well as a desk and storage space »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: « Painting studio (shared), 3D studio (shared), Movement studio (shared), two private writer's rooms, Music studio (shared) »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "voyage.pris_en_charge: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "remuneration.montant: null — aucune dotation versée aux artistes ; modèle « pay-to-play »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "a_savoir: « Critères de sélection du jury non explicitement publiés »",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: « Délai de notification des résultats non indiqué »",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "organisme_details: pas de contact_email ni processus de notification individuelle explicité",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "analyse.synthese: « It is a self-directed residency, where artists have full access to studio spaces » et « Participation optionnelle aux critiques hebdomadaires »",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "conditions_residence.duree.dates: « 2027-09-01 à 2027-09-30 » (dates fixes) ; a_savoir: « Possibilité d'options d'hébergement et de tarification alternatives non détaillées »",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "restitution: « Participation optionnelle aux critiques hebdomadaires, ateliers et expositions avec la communauté ArteSumapaz et les villages voisins » — rayonnement interne uniquement",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "a_savoir et analyse: aucune mention de réseau alumni, suivi documenté ou accompagnement post-résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "fbc332d8",
+      "type": "residence",
+      "source_url": "https://resartis.org/open-call/art-residency-available-december-2026-colombia",
+      "fetched_at": "2026-08-05T08:41:35+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Art Residency Available – DECEMBER 2026 – Colombia",
+        "organisme": "Fundación ArteSumapaz",
+        "lieu": {
+          "ville": null,
+          "pays": "Colombia",
+          "territorio": "Campus rural near San Bernardo Cundinamarca and Pandi"
+        },
+        "nom_fr": "Résidence artistique disponible – DÉCEMBRE 2026 – Colombie",
+        "affichage_titre": "Art Residency Available – DECEMBER 2026 – Colombia [Résidence artistique disponible – DÉCEMBRE 2026 – Colombie]"
+      },
+      "candidature": {
+        "date_limite": "2026-08-07",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en",
+          "es"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual arts",
+          "sculpture",
+          "ceramics",
+          "dance",
+          "theater",
+          "printmaking",
+          "performing arts",
+          "music",
+          "writing",
+          "film",
+          "architecture",
+          "educational programs"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2026-12-01 to 2026-12-31"
+        },
+        "hebergement": true,
+        "atelier": "Shared painting studio, shared 3D studio, shared movement studio, two private writer rooms, shared music studio",
+        "remuneration": {
+          "montant": null,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Artists invited to participate in weekly open critique sessions and optional workshops or exhibitions with ArteSumapaz community or nearby towns"
+      },
+      "partenaires": null,
+      "analyse": {
+        "synthese": "ArteSumapaz offers a self-directed residency of 1 to 3 months in rural Colombia with private accommodation and access to shared studio spaces for visual arts, music, dance, writing, and other disciplines. The residency costs 945–1045 USD per month and includes three vegetarian meals daily. Artists have full creative freedom and may optionally participate in critiques, workshops, and exhibitions with the on-site artistic community. No artist stipend, travel funding, or production support is provided.",
+        "pour_qui": "Artistes émergents et confirmés de toutes disciplines disposant de ressources personnelles pour financer leur séjour (945–1045 USD/mois) et cherchant un espace de travail en communauté dans un environnement rural."
+      },
+      "a_savoir": [
+        "Résidence payante : pas de rémunération, de bourse ni de dotation pour l'artiste",
+        "Frais mensuels élevés (945–1045 USD) sans couverture des frais de voyage",
+        "Aucun critère de sélection public énoncé",
+        "Pas de délai de réponse ou de date de notification annoncée",
+        "Pas de mention de retour individualisé aux candidats non retenus",
+        "Dates de résidence fixes (décembre 2026), peu de flexibilité calendaire"
+      ],
+      "organisme_details": {
+        "site_web": "https://artesumapaz.org",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null} — Synthèse : \"No artist stipend, travel funding, or production support is provided.\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Shared painting studio, shared 3D studio, shared movement studio, two private writer rooms, shared music studio\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null} — Absence de dotation ; coût mensuel 945–1045 USD à charge de l'artiste",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\": null — a_savoir : \"Aucun critère de sélection public énoncé\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir : \"Pas de délai de réponse ou de date de notification annoncée\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "a_savoir : \"Pas de mention de retour individualisé aux candidats non retenus\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "Synthèse : \"Artists have full creative freedom\" — Restitution : \"optional workshops or exhibitions\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"duree\": {\"dates\": \"2026-12-01 to 2026-12-31\"} — Durée flexible (1–3 mois) mais dates de résidence fixes sans négociation",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"optional workshops or exhibitions with ArteSumapaz community or nearby towns\" — Visibilité locale uniquement",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "a_savoir : Aucune mention de réseau alumni, suivi documenté ou accompagnement post-résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "fe28339c",
+      "type": "residence",
+      "source_url": "https://www.cnap.fr/annonces/residence-dartiste-mise-disposition-atelier",
+      "fetched_at": "2026-08-05T09:23:18+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidence d'Artiste mise à disposition atelier longue durée",
+        "organisme": "Espace Maurice Utrillo",
+        "lieu": {
+          "ville": "Pierrefitte-sur-Seine",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-23",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Note d'intention (1 page maximum)",
+          "CV artistique mentionnant le numéro de SIRET",
+          "Portfolio (20 pages maximum)",
+          "Dossier complet en PDF unique (20 Mo maximum) à envoyer à espaceculturelutrillo@saintdenis.fr"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Peinture",
+          "Dessin",
+          "Théâtre",
+          "Écriture",
+          "Vidéo",
+          "Poésie"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 52,
+          "dates": "14 septembre 2026 au 20 août 2027"
+        },
+        "hebergement": false,
+        "atelier": "Espace individuel de création de 25m² accessible chaque jour",
+        "remuneration": {
+          "montant": 500,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Exposition de restitution du 5 au 25 juin 2027 présentant le résultat des travaux de recherche"
+      },
+      "partenaires": [
+        "Ville de Saint-Denis"
+      ],
+      "analyse": {
+        "synthese": "Résidence de 11 mois (14 septembre 2026 au 20 août 2027) offrant un atelier de 25m² en quartier prioritaire de Pierrefitte-sur-Seine. Dotation: 500€ d'aide à la production versée au premier trimestre, plus rémunérations pour stages (25€/h) et interventions pédagogiques EAC (50€/h). Artiste résident s'engage à 122 jours minimum de présence annuelle et participe aux missions éducatives de la structure (stages enfants/adultes, parcours EAC, médiations). Programme orienté vers les projets territorialement ancrés.",
+        "pour_qui": "Artistes ayant intérêt pour la transmission pédagogique et souhaitant développer un projet en lien avec les enjeux et populations du territoire de Saint-Denis/Pierrefitte."
+      },
+      "a_savoir": [
+        "Engagement éducatif important requis au-delà de la création (ateliers, stages, médiations imposés)",
+        "Présence physique minimale obligatoire : 122 jours/an soit environ 2,5 jours/semaine",
+        "Pas d'hébergement fourni",
+        "Calendrier strict pour les obligations pédagogiques (stages Pâques, EAC, exposition de restitution)",
+        "Rémunération principalement variable selon heures d'interventions effectuées",
+        "Candidature par email uniquement, pas de plateforme en ligne"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Place Jean Jaurès, 93380 Pierrefitte-sur-Seine",
+        "ville": "Pierrefitte-sur-Seine",
+        "contact_email": "espaceculturelutrillo@saintdenis.fr"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration: {montant: 500, devise: EUR, periodicite: forfait} + rémunérations pour stages (25€/h) et interventions pédagogiques EAC (50€/h)",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "hebergement: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: Espace individuel de création de 25m² accessible chaque jour",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "voyage: {pris_en_charge: false}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "montant: 500€ forfait en Île-de-France sans hébergement; rémunérations variables (25€/h stages + 50€/h EAC) selon heures effectuées, modeste pour 11 mois",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "inconnu",
+          "justification": "Pas de section explicite énumérant les critères de sélection du jury dans la fiche (seul un profil attendu décrit dans pour_qui)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "inconnu",
+          "justification": "Pas de délai ou date de notification annoncé dans les champs candidature",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention de notification individuelle aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "Espace personnel 25m² dédié; mais artiste s'engage à 122 jours minimum de présence et participe aux missions éducatives (stages obligatoires Pâques/juin, parcours EAC, médiations)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "dates de résidence fixes: 14 septembre 2026 au 20 août 2027; stages imposés à calendrier strict (5-9 avril, 13 juin); exposition à dates fixes (5-25 juin 2027)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "restitution: Exposition de restitution du 5 au 25 juin 2027; aucune mention de diffusion presse, catalogue, ou rayonnement au-delà de l'espace lui-même",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Pas de mention de réseau alumni, suivi post-résidence ou accompagnement vers opportunités ultérieures",
           "poids": 1,
           "famille": "debouche"
         }

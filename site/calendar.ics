@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Residence//actitude.org//FR
 BEGIN:VEVENT
 UID:0689a10d@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:[Résidence] MO.CO Esba x Cité internationale des arts (programme « Artistes Demain »)
@@ -11,7 +11,7 @@ URL:https://residence.actitude.org/o/0689a10d.html
 END:VEVENT
 BEGIN:VEVENT
 UID:1a3f71ff@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260407
 DTEND;VALUE=DATE:20260408
 SUMMARY:[Résidence] Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résidences trimestrielles pour des projets sur l'environnement 2026]
@@ -19,23 +19,47 @@ URL:https://residence.actitude.org/o/1a3f71ff.html
 END:VEVENT
 BEGIN:VEVENT
 UID:23509e2e@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:[Résidence] Résidence Tiny Spaces
 URL:https://residence.actitude.org/o/23509e2e.html
 END:VEVENT
 BEGIN:VEVENT
+UID:2acaf33f@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Residency Available – SEPTEMBER 2026 – Colombia [Résidence Disponible – SEPTEMBRE 2026 – Colombie]
+URL:https://residence.actitude.org/o/2acaf33f.html
+END:VEVENT
+BEGIN:VEVENT
 UID:2ba5df0e@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:[Résidence] Résidence d'artiste 2027 : Photographie - Traverse
 URL:https://residence.actitude.org/o/2ba5df0e.html
 END:VEVENT
 BEGIN:VEVENT
+UID:340f0f4d@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – APRIL 2027 – Colombia [Art Residency Available – APRIL 2027 – Colombia / Résidence Artistique Disponible – AVRIL 2027 – Colombie]
+URL:https://residence.actitude.org/o/340f0f4d.html
+END:VEVENT
+BEGIN:VEVENT
+UID:35dd75da@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – MARCH 2027 – Colombia [Résidence artistique disponible – MARS 2027 – Colombie]
+URL:https://residence.actitude.org/o/35dd75da.html
+END:VEVENT
+BEGIN:VEVENT
 UID:41be1cd6@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:[Résidence] Résidence de création participative 2027
@@ -43,7 +67,7 @@ URL:https://residence.actitude.org/o/41be1cd6.html
 END:VEVENT
 BEGIN:VEVENT
 UID:4dc8fd2e@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] École des Beaux-Arts de Bretagne (EESAB) x Cité internationale des arts
@@ -51,7 +75,7 @@ URL:https://residence.actitude.org/o/4dc8fd2e.html
 END:VEVENT
 BEGIN:VEVENT
 UID:53bddbf8@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:[Résidence] Institut français x Cité internationale des arts
@@ -59,7 +83,7 @@ URL:https://residence.actitude.org/o/53bddbf8.html
 END:VEVENT
 BEGIN:VEVENT
 UID:58ee772e@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:[Résidence] Proyecto'ACE — Production Residencies
@@ -67,15 +91,23 @@ URL:https://residence.actitude.org/o/58ee772e.html
 END:VEVENT
 BEGIN:VEVENT
 UID:5de27397@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] Kota — Institut français d'Indonésie x Cité internationale des arts
 URL:https://residence.actitude.org/o/5de27397.html
 END:VEVENT
 BEGIN:VEVENT
+UID:66443a2e@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – FEBRUARY 2027 – Colombia [Résidence Artistique Disponible – FÉVRIER 2027 – Colombie]
+URL:https://residence.actitude.org/o/66443a2e.html
+END:VEVENT
+BEGIN:VEVENT
 UID:6c77a484@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:[Résidence] Résidence d'artiste à Vénissieux
@@ -83,7 +115,7 @@ URL:https://residence.actitude.org/o/6c77a484.html
 END:VEVENT
 BEGIN:VEVENT
 UID:73de5a6b@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:[Résidence] Nocefresca Artist Residency 2027
@@ -91,7 +123,7 @@ URL:https://residence.actitude.org/o/73de5a6b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:762972f7@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:[Résidence] Résidences Institut français x Cité internationale des arts
@@ -99,7 +131,7 @@ URL:https://residence.actitude.org/o/762972f7.html
 END:VEVENT
 BEGIN:VEVENT
 UID:764f21eb@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:[Résidence] Association Françoise pour l'œuvre contemporaine x Cité internationale des arts
@@ -107,15 +139,39 @@ URL:https://residence.actitude.org/o/764f21eb.html
 END:VEVENT
 BEGIN:VEVENT
 UID:82ac6b64@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 SUMMARY:[Résidence] TaDA Residency 2027
 URL:https://residence.actitude.org/o/82ac6b64.html
 END:VEVENT
 BEGIN:VEVENT
+UID:8f71ec94@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – MAY 2027 – Colombia [Résidence Artistique Disponible – MAI 2027 – Colombie]
+URL:https://residence.actitude.org/o/8f71ec94.html
+END:VEVENT
+BEGIN:VEVENT
+UID:93124fb8@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – JULY 2027 – Colombia [Résidence d'artiste disponible – JUILLET 2027 – Colombie]
+URL:https://residence.actitude.org/o/93124fb8.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a0590b85@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Residency Available – NOVEMBER 2026 – Colombia [Résidence disponible – NOVEMBRE 2026 – Colombie]
+URL:https://residence.actitude.org/o/a0590b85.html
+END:VEVENT
+BEGIN:VEVENT
 UID:b2fced6d@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:[Résidence] Institut français x Cité internationale des arts 2027
@@ -123,31 +179,95 @@ URL:https://residence.actitude.org/o/b2fced6d.html
 END:VEVENT
 BEGIN:VEVENT
 UID:c16312c6@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] République dominicaine x Cité internationale des arts
 URL:https://residence.actitude.org/o/c16312c6.html
 END:VEVENT
 BEGIN:VEVENT
+UID:c3d60ea9@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:[Résidence] La Storta Winter Partially Funded Residencies in the heart of Venice [Résidences partiellement financées d'hiver de La Storta au cœur de Venise]
+URL:https://residence.actitude.org/o/c3d60ea9.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cb215963@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – JANUARY 2027 – Colombia [Résidence Artistique Disponible – JANVIER 2027 – Colombie]
+URL:https://residence.actitude.org/o/cb215963.html
+END:VEVENT
+BEGIN:VEVENT
 UID:cc05d124@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:[Résidence] Westwerk International Residency Program
 URL:https://residence.actitude.org/o/cc05d124.html
 END:VEVENT
 BEGIN:VEVENT
+UID:d581b7b0@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Residency Available – OCTOBER 2026 – Colombia [Residency Available – OCTOBER 2026 – Colombia | Résidence disponible – OCTOBRE 2026 – Colombie]
+URL:https://residence.actitude.org/o/d581b7b0.html
+END:VEVENT
+BEGIN:VEVENT
+UID:dec9e730@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – JUNE 2027 – Colombia [Résidence artistique disponible – JUIN 2027 – Colombie]
+URL:https://residence.actitude.org/o/dec9e730.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e2910b41@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – AUGUST 2027 – Colombia [Résidence artistique disponible – AOÛT 2027 – Colombie]
+URL:https://residence.actitude.org/o/e2910b41.html
+END:VEVENT
+BEGIN:VEVENT
 UID:eb0a78fc@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:[Résidence] Programme de résidence Timor-Leste
 URL:https://residence.actitude.org/o/eb0a78fc.html
 END:VEVENT
 BEGIN:VEVENT
+UID:f2e01230@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – SEPTEMBER 2027 – Colombia [Résidence Artistique Disponible – SEPTEMBRE 2027 – Colombie]
+URL:https://residence.actitude.org/o/f2e01230.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fbc332d8@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:[Résidence] Art Residency Available – DECEMBER 2026 – Colombia [Résidence artistique disponible – DÉCEMBRE 2026 – Colombie]
+URL:https://residence.actitude.org/o/fbc332d8.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fe28339c@residence.actitude.org
+DTSTAMP:20260805T100059Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:[Résidence] Résidence d'Artiste mise à disposition atelier longue durée
+URL:https://residence.actitude.org/o/fe28339c.html
+END:VEVENT
+BEGIN:VEVENT
 UID:8030ae41@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[Bourse] Fonds culturel franco-allemand
@@ -155,7 +275,7 @@ URL:https://residence.actitude.org/o/8030ae41.html
 END:VEVENT
 BEGIN:VEVENT
 UID:dd09fac5@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:[Bourse] Aider à la production d'oeuvres d'art
@@ -163,7 +283,7 @@ URL:https://residence.actitude.org/o/dd09fac5.html
 END:VEVENT
 BEGIN:VEVENT
 UID:64ec9c9e@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:[Prix] Prix Mourlot 2026 (15e édition) — peinture
@@ -171,7 +291,7 @@ URL:https://residence.actitude.org/o/64ec9c9e.html
 END:VEVENT
 BEGIN:VEVENT
 UID:dbe956b7@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:[Prix] Talents Contemporains « La Terre » — Fondation François Schneider
@@ -179,7 +299,7 @@ URL:https://residence.actitude.org/o/dbe956b7.html
 END:VEVENT
 BEGIN:VEVENT
 UID:0f91c90f@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20260809
 DTEND;VALUE=DATE:20260810
 SUMMARY:[Appel à exposition] Salon des Arts de Cholet 2026
@@ -187,7 +307,7 @@ URL:https://residence.actitude.org/o/0f91c90f.html
 END:VEVENT
 BEGIN:VEVENT
 UID:a5664345@residence.actitude.org
-DTSTAMP:20260804T100833Z
+DTSTAMP:20260805T100059Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[Appel à exposition] PIDA - Programme International de Diffusion Artistique

@@ -1,0 +1,61 @@
+uid: fundacion-artesumapaz-03e76f89
+nom_canonique: ArteSumapaz
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://artesumapaz.org/artists-in-residencies/
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: a0590b85
+  type: residence
+  nom: Residency Available – NOVEMBER 2026 – Colombia
+- uid: d581b7b0
+  type: residence
+  nom: Residency Available – OCTOBER 2026 – Colombia
+- uid: 2acaf33f
+  type: residence
+  nom: Residency Available – SEPTEMBER 2026 – Colombia
+- uid: fbc332d8
+  type: residence
+  nom: Art Residency Available – DECEMBER 2026 – Colombia
+- uid: cb215963
+  type: residence
+  nom: Art Residency Available – January 2027 – Colombia
+- uid: 66443a2e
+  type: residence
+  nom: Art Residency Available – FEBRUARY 2027 – Colombia
+- uid: 35dd75da
+  type: residence
+  nom: Art Residency Available – MARCH 2027 – Colombia
+- uid: 340f0f4d
+  type: residence
+  nom: Art Residency Available – APRIL 2027 – Colombia
+- uid: 8f71ec94
+  type: residence
+  nom: Art Residency Available – MAY 2027 – Colombia
+- uid: dec9e730
+  type: residence
+  nom: Art Residency Available – JUNE 2027 – Colombia
+- uid: 93124fb8
+  type: residence
+  nom: Art Residency Available – JULY 2027 – Colombia
+- uid: e2910b41
+  type: residence
+  nom: Art Residency Available – AUGUST 2027 – Colombia
+- uid: f2e01230
+  type: residence
+  nom: Art Residency Available – SEPTEMBER 2027 – Colombia
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-05'
+  last_updated: '2026-08-05'
+  status: actif
+  nouveaux_entrants: true
+noms_alternatifs: []
+ville: San Bernardo

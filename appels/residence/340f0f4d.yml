@@ -1,0 +1,182 @@
+uid: 340f0f4d
+type: residence
+source_url: https://resartis.org/open-call/art-residency-available-april-2027-colombia
+fetched_at: '2026-08-05T08:52:13+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Art Residency Available – APRIL 2027 – Colombia
+  organisme: Fundación ArteSumapaz
+  lieu:
+    ville: null
+    pays: Colombia
+    territoire: Cundinamarca
+  nom_fr: Art Residency Available – APRIL 2027 – Colombia / Résidence Artistique Disponible
+    – AVRIL 2027 – Colombie
+  affichage_titre: Art Residency Available – APRIL 2027 – Colombia [Art Residency
+    Available – APRIL 2027 – Colombia / Résidence Artistique Disponible – AVRIL 2027
+    – Colombie]
+candidature:
+  date_limite: '2026-08-07'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform
+eligibilite:
+  disciplines:
+  - visual art
+  - sculpture
+  - ceramic
+  - dance
+  - theater
+  - printmaking
+  - performance art
+  - music
+  - writing
+  - film
+  - architecture
+  - educational programs
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 4
+    dates: 2027-04-01 to 2027-04-30
+  hebergement: true
+  atelier: Studio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento
+    (compartido), Dos salas privadas para escritores, Estudio de música (compartido)
+  remuneration: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: USD
+  restitution: Artistas invitados a participar en críticas semanales, impartir talleres
+    u organizar exposiciones, pero nada de esto es obligatorio.
+partenaires:
+- Fundación ArteSumapaz
+_meta:
+  extracted_confidence: 0.7
+  extracted_notes: Critères de sélection et délai de notification non publiés; coûts
+    d'hébergement présumés mensuels mais non explicitement confirmés; pas de rémunération
+    ni prise en charge des frais de transport.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T08:52:13+00:00'
+  source_lang: en
+  resume_fr: ArteSumapaz accueille une résidence artistique en Colombie pour les artistes
+    de diverses disciplines (arts visuels, musique, écriture, danse, architecture,
+    etc.). La résidence, d'une durée de 1 à 3 meses, offre des studios partagés et
+    des espaces de travail sur un campus de 230 acres incluant un parc naturel. Les
+    frais de logement s'élèvent à 1095 USD ou 1195 USD par mois selon la chambre,
+    trois repas végétariens étant fournis quotidiennement. Les candidatures doivent
+    être soumises avant le 2026-08-07, pour une résidence prévue du 2027-04-01 au
+    2027-04-30. Les artistes doivent participer à une réunion communautaire hebdomadaire
+    obligatoire et peuvent participer optionnellement à des critiques d'art hebdomadaires
+    et des ateliers.
+  detection_confidence: 0.9
+  detection_method: heuristic
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: Ce programme offre une résidence artistique auto-dirigée d'un mois (avril
+    2027) en Colombie, avec hébergement privé et accès à cinq studios multidisciplinaires.
+    Les coûts de résidence sont 1095 USD (habitación ala trasera) ou 1195 USD (habitación
+    ala delantera), incluant trois repas végétariens quotidiens. La participation
+    à des critiques de groupe, ateliers et expositions est encouragée mais optionnelle,
+    hormis une réunion communautaire hebdomadaire obligatoire. Aucune rémunération
+    ni prise en charge des frais de voyage ne sont mentionnées.
+  pour_qui: Artistes visuels, musiciens, écrivains, architectes, céramistes, danseurs
+    et autres créateurs cherchant une résidence auto-dirigée au sein d'une communauté
+    artistique établie.
+a_savoir:
+- Hébergement payant (1095–1195 USD/mois) sans rémunération ni dotation
+- Pas de prise en charge des frais de voyage
+- Réunion communautaire hebdomadaire obligatoire
+- Critères de sélection du jury et délai de notification non publiés
+- Trois repas végétariens fournis quotidiennement
+organisme_details:
+  site_web: https://artesumapaz.org/artists-in-residencies/?cache=0
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"remuneration": null'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true; logement privé fourni (chambre, salle de bain,
+    bureau)'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Studio de pintura (compartido), Estudio 3D (compartido),
+    Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio
+    de música (compartido)"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"remuneration": null; pas de dotation pour évaluer le rapport avec
+    le coût de la vie local'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"pieces_demandees": [] (liste vide, aucun critère de sélection énoncé)'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: date limite de candidature annoncée (2026-08-07), mais aucune date
+    de notification des résultats mentionnée
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: aucune mention dans la fiche d'une notification individuelle aux
+    candidats non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"restitution": "Artistas invitados a participar en críticas semanales,
+    impartir talleres u organizar exposiciones, pero nada de esto es obligatorio"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"dates": "2027-04-01 to 2027-04-30" (calendrier rigide, aucune flexibilité
+    mentionnée)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"synthese": "...Critiques de groupe, ateliers et expositions...";
+    visibilité locale avec la communauté d''ArteSumapaz et villes voisines, pas de
+    diffusion presse ni reconnaissance au-delà du contexte local'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: aucune mention dans la fiche d'un suivi documenté, réseau alumni
+    actif, ou accompagnement après le programme
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - collectif
+  - long séjour
+  bonus_score: 1

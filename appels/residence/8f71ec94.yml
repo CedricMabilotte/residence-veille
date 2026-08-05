@@ -1,0 +1,183 @@
+uid: 8f71ec94
+type: residence
+source_url: https://resartis.org/open-call/art-residency-available-may-2027-colombia
+fetched_at: '2026-08-05T08:56:01+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Art Residency Available – MAY 2027 – Colombia
+  organisme: Fundación ArteSumapaz
+  lieu:
+    ville: null
+    pays: Colombia
+    territoire: Cundinamarca
+  nom_fr: Résidence Artistique Disponible – MAI 2027 – Colombie
+  affichage_titre: Art Residency Available – MAY 2027 – Colombia [Résidence Artistique
+    Disponible – MAI 2027 – Colombie]
+candidature:
+  date_limite: '2026-08-07'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform
+eligibilite:
+  disciplines:
+  - visual arts
+  - music
+  - writing
+  - architecture
+  - sculpture
+  - ceramics
+  - dance
+  - theater
+  - printmaking
+  - film
+  - performance
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 2027-05-01 to 2027-05-31
+  hebergement: true
+  atelier: Shared studios (painting, 3D, movement, music) and two private rooms for
+    writers. Workspace assignments reviewed and adjusted monthly based on each artist's
+    practice.
+  remuneration:
+    montant: null
+    devise: USD
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: Artists are cordially invited but not required to participate in weekly
+    open critique sessions, teach workshops, or organize exhibitions.
+partenaires: []
+_meta:
+  extracted_confidence: 0.77
+  extracted_notes: Self-directed residency with artist-pays model (1095–1195 USD/month
+    includes accommodation and meals). Selection criteria and post-program support
+    not specified. Imminent deadline.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T08:56:01+00:00'
+  source_lang: en
+  resume_fr: Résidence artistique en Colombie pour artistes visuels, musiciens, écrivains
+    et autres créateurs. La période disponible est de mai 2027 (2027-05-01 à 2027-05-31),
+    avec une durée de résidence possible de 1 à 3 mois. Le campus dispose d'environ
+    230 acres incluant un parc naturel, avec studios et espaces de travail pour diverses
+    disciplines. Les résidents reçoivent une chambre privée et trois repas végétariens
+    quotidiens, pour 1095 USD ou 1195 USD selon l'accommodation. Seule la réunion
+    communautaire hebdomadaire est obligatoire ; la date limite de candidature est
+    2026-08-07.
+  detection_confidence: 0.9090909090909091
+  detection_method: heuristic
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: Ce programme offre une résidence artistique auto-dirigée en Colombie pour
+    mai 2027. Les artistes de toutes disciplines reçoivent un logement privé, trois
+    repas végétariens quotidiens et accès à plusieurs espaces de travail (studios
+    partagés et salles privées). Les frais de participation sont 1095 USD (chambre
+    arrière) ou 1195 USD (chambre avant) par mois pour une durée de 1 à 3 mois. Les
+    artistes s'auto-dirigent ; la participation à critiques hebdomadaires, ateliers
+    et expositions est optionnelle.
+  pour_qui: Artistes de toute discipline et niveau cherchant un espace de création
+    flexible en Colombie au sein d'une communauté interdisciplinaire, capables de
+    financer leur séjour (1095–1195 USD/mois).
+a_savoir:
+- 'Modèle ''artist pays'' : les artistes paient 1095–1195 USD/mois (logement et repas
+  inclus); aucune rémunération ou bourse.'
+- Pas de prise en charge du voyage ou des frais de production/transport d'œuvres.
+- 'Délai de candidature très court : deadline 2026-08-07.'
+- Critères de sélection du jury non publicisés.
+- Pas de suivi post-programme mentionné (réseau alumni, accompagnement, mentions).
+- Restitution (expositions, ateliers) optionnelle et visibilité limitée au réseau
+  local.
+organisme_details:
+  site_web: https://artesumapaz.org
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"Modèle ''artist pays'' : les artistes paient 1095–1195 USD/mois
+    (logement et repas inclus); aucune rémunération ou bourse."'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"Habitación privada con cama de matrimonio, baño privado con agua
+    caliente, escritorio y espacio de almacenamiento."'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"Shared studios (painting, 3D, movement, music) and two private
+    rooms for writers. Workspace assignments reviewed and adjusted monthly based on
+    each artist''s practice."'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"Repas inclus (''Ofrecemos tres comidas vegetarianas al día''),
+    mais voyage et frais de production non couverts."'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"Pas de dotation monétaire : l''artiste paie le séjour. Aucune allocation
+    ou per diem pour compenser le coût de la vie."'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"Critères de sélection du jury non publicisés."'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"Pas de date ou délai de notification des résultats communiqué."'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: '"Aucune mention d''une notification individuelle aux candidats non
+    retenus."'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"Artists are cordially invited but not required to participate in
+    weekly open critique sessions, teach workshops, or organize exhibitions."'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"Durée flexible (1–3 mois), mais période fixée rigoureusement en
+    mai 2027 (1er–31 mai); aucune fenêtre de dates alternative."'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"Expositions possibles et optionnelles, visibilité limitée à la
+    communauté artistique locale et aux villes voisines; aucune diffusion presse ou
+    catalogue mentionné."'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: '"Aucun suivi documenté, réseau alumni, entrée en collection ou accompagnement
+    vers d''autres opportunités mentionné."'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

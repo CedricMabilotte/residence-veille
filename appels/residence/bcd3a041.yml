@@ -56,7 +56,7 @@ _meta:
   detection_confidence: 0.7
   detection_method: claude
   source_label: ADAGP — actualités (appels, bourses, prix)
-  last_status_check: '2026-08-04'
+  last_status_check: '2026-08-05'
 analyse:
   synthese: 'Ce document ne constitue pas un appel à candidature artistique. Il décrit
     l''Atelier ADAGP, un espace collaboratif ouvert en juin 2025 réservé aux adhérents

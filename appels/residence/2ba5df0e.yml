@@ -1,7 +1,7 @@
 uid: 2ba5df0e
 type: residence
 source_url: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
-fetched_at: '2026-08-03T09:33:07+00:00'
+fetched_at: '2026-08-05T09:35:20+00:00'
 score: 6
 status: ouverte
 opportunite:
@@ -16,12 +16,12 @@ candidature:
   date_limite_precision: day
   langue_dossier: null
   frais_inscription: null
-  pieces_demandees: []
+  pieces_demandees: null
   url_candidature: https://traversiens.com/event/appel-a-projet-residence-photo-2027/
 eligibilite:
   disciplines:
   - photographie
-  niveau_carriere: tous
+  niveau_carriere: null
   age_max: null
   nationalite: sans restriction
   residence_administrative: sans restriction
@@ -35,113 +35,112 @@ conditions_residence:
     montant: 6000
     devise: EUR
     periodicite: forfait
-  voyage:
-    pris_en_charge: null
-    plafond: null
-    devise: EUR
-  restitution: Projet artistique participatif pour le territoire de Haute-Bigorre
+  voyage: null
+  restitution: 'Projet artistique participatif, thème : Perspective(s)'
 partenaires:
 - Traverse
-- CNAP
 _meta:
-  extracted_confidence: 0.8
-  extracted_notes: 'Annonce structurée mais lacunaire : critères de sélection, délai
-    de réponse, hébergement et atelier non précisés. Formulaire hébergé sur domaine
-    tiers (traversiens.com).'
+  extracted_confidence: 0.82
+  extracted_notes: 'Informations claires sur durée, montant, date limite et objectifs
+    du programme. Manquent : détails sur fourniture d''hébergement, atelier, critères
+    de sélection explicites, délai de notification.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-03T09:33:07+00:00'
+  extracted_at: '2026-08-05T09:35:20+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-04'
+  last_status_check: '2026-08-05'
 analyse:
-  synthese: 'La résidence Traverse Photographie 2027 propose un séjour de 2 mois au
-    printemps 2027 à Bagnères-de-Bigorre, doté de 6 000 € TTC. Elle s''adresse aux
-    artistes photographes souhaitant développer un projet participatif spécifiquement
-    élaboré pour le territoire de Haute-Bigorre (24 communes rurales). Le thème de
-    cette édition est « Perspective(s) ». Date limite : 10 septembre 2026.'
-  pour_qui: Artistes photographes disposés à co-créer un projet participatif ancré
-    dans un contexte rural et territorial.
+  synthese: 'Résidence de 2 mois au printemps 2027 pour artistes photographes, basée
+    en Haute-Bigorre (24 communes rurales). Le programme propose 6 000 € TTC pour
+    développer un projet artistique participatif ancré dans le territoire local. La
+    dimension participative et les rencontres avec le contexte constituant l''axe
+    principal de la résidence. Date limite de candidature : 10 septembre 2026. Thème
+    de l''édition : « Perspective(s) ».'
+  pour_qui: Artistes photographes souhaitant développer un projet participatif en
+    contexte rural montagnard et capable d'engager des échanges avec le territoire
+    d'accueil.
 a_savoir:
-- 'Thématique participative imposée : le projet doit être spécifiquement élaboré pour
-  le territoire local, ce qui limite la liberté créative'
-- 'Rémunération modeste : 6 000 € pour 2 mois'
-- Hébergement et atelier non mentionnés explicitement
-- Aucun critère de sélection du jury n'est publié
-- Aucun délai ou date indicatifs de notification des résultats annoncés
+- 'Dimension participative obligatoire : le projet doit être spécifiquement élaboré
+  pour le territoire et implique une logique de rencontre avec les habitants.'
+- 'Résidence en zone rurale montagnarde : accès limité aux services urbains, infrastructure
+  et ressources comparés à un contexte de ville moyenne.'
+- 'Thème imposé pour cette édition : « Perspective(s) ».'
 organisme_details:
-  site_web: https://traversiens.com
+  site_web: null
   adresse: null
-  ville: null
+  ville: Bagnères-de-Bigorre
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: '"remuneration": {"montant": 6000, "devise": "EUR", "periodicite":
-    "forfait"}'
+  justification: 'remuneration.montant: 6000 EUR, periodicite: forfait'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: '"hebergement": null'
+  justification: 'conditions_residence.hebergement: null (aucune mention)'
   poids: 2
   famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: '"atelier": null'
+  justification: 'conditions_residence.atelier: null (aucune mention)'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: '"voyage": {"pris_en_charge": null, "plafond": null}'
+  rempli: non
+  justification: 'conditions_residence.voyage: null — aucun coût de transport ou production
+    mentionné'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: partiel
-  justification: 6 000 € pour 2 mois (printemps 2027) = 3 000 €/mois en zone rurale
-    Haute-Bigorre
+  justification: 6 000 € forfait pour ~2 mois (printemps 2027) en zone rurale montagnarde
+    — dépend de l'hébergement/atelier fournis (non clarifiés)
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
   rempli: non
-  justification: '"a_savoir": ["Aucun critère de sélection du jury n''est publié"]'
+  justification: 'Absence de critères de jury dans candidature, eligibilite ou a_savoir
+    — seules les pièces demandées ne sont pas spécifiées (pieces_demandees: null)'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
   rempli: non
-  justification: '"a_savoir": ["Aucun délai ou date indicatifs de notification des
-    résultats annoncés"]'
+  justification: 'candidature.date_limite: 2026-09-10 — aucune date de notification
+    des résultats'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: inconnu
-  justification: Pas de mention de notification aux candidats non retenus dans la
-    fiche
+  justification: Aucune mention dans a_savoir ou candidature d'une notification aux
+    non-retenu·es
   poids: 1
   famille: transparence_administrative
 - id: production_libre
   rempli: partiel
-  justification: '"restitution": "Projet artistique participatif pour le territoire
-    de Haute-Bigorre" — liberté créative contrainte par impératif participatif'
+  justification: 'restitution: ''Projet artistique participatif'' — a_savoir: ''Dimension
+    participative obligatoire'' suggère médiation importante mais temps exact de production
+    autonome non précisé'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
   rempli: partiel
-  justification: '"dates": "printemps 2027" — fenêtre temporelle mais négociabilité
-    des dates non mentionnée'
+  justification: 'conditions_residence.duree.dates: ''printemps 2027'' — fenêtre large
+    mais imposée, dates non négociables'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: '"restitution": "Projet artistique participatif pour le territoire
-    de Haute-Bigorre" — visibilité au-delà du territoire local non spécifiée'
+  rempli: non
+  justification: 'restitution: ''Projet artistique participatif, thème : Perspective(s)''
+    — aucune mention de diffusion presse, catalogue ou visibilité externe'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: non
-  justification: '"a_savoir": ["Aucun délai... annoncés"] — aucune mention de réseau
-    alumni ou accompagnement post-programme'
+  justification: Absence totale de mention d'alumni, suivi documenté ou accompagnement
+    post-résidence
   poids: 1
   famille: debouche
 _interne_affinite:

@@ -1,12 +1,13 @@
 uid: 41be1cd6
 type: residence
 source_url: https://www.cnap.fr/annonces/residence-de-creation-participative-2027
-fetched_at: '2026-08-03T09:31:08+00:00'
-score: 6
+fetched_at: '2026-08-05T09:33:01+00:00'
+score: 7
 status: ouverte
 opportunite:
   nom: Résidence de création participative 2027
-  organisme: Centre Psychothérapique de l'Ain (CPA)
+  organisme: Centre Psychothérapique de l'Ain (CPA), établissement de santé privé
+    d'intérêt collectif géré par l'association ORSAC
   lieu:
     ville: Bourg-en-Bresse
     pays: France
@@ -30,11 +31,10 @@ eligibilite:
 conditions_residence:
   duree:
     semaines: null
-    dates: premier semestre 2027
+    dates: Premier semestre 2027, inauguration début juin 2027
   hebergement: true
-  atelier: salle d'atelier mise à disposition par le CPA, avec accès possible à certaines
-    ressources techniques du site et partenariat avec l'ESAT de la Ferme Dienet pour
-    la réalisation technique
+  atelier: Salle d'atelier mise à disposition par le CPA ; accès possible aux ressources
+    techniques du site selon les besoins du projet
   remuneration:
     montant: 8000
     devise: EUR
@@ -43,124 +43,131 @@ conditions_residence:
     pris_en_charge: true
     plafond: null
     devise: EUR
-  restitution: sculpture monumentale installée dans le parc du CPA, avec inauguration
-    publique envisagée début juin 2027 dans le cadre de l'événement national 'Rendez-vous
-    aux Jardins'
+  restitution: Inauguration publique de la sculpture monumentale en juin 2027 dans
+    le cadre de l'événement national « Rendez-vous aux Jardins »
 partenaires:
-- ORSAC
+- Association ORSAC
 - ESAT de la Ferme Dienet
 _meta:
-  extracted_confidence: 0.78
-  extracted_notes: Appel bien structuré ; manquent les pièces de candidature détaillées,
-    le délai de notification des résultats et les critères d'évaluation explicites
+  extracted_confidence: 0.85
+  extracted_notes: 'Informations de base claires (date limite, dotation, lieu). Certains
+    détails absents du résumé texte : critères de sélection détaillés, pièces exactes
+    demandées, modalités précises de soumission. Appel à projet pour commande publique
+    plutôt que résidence classique. Participation requise des patients et habitants
+    à la conception.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-03T09:31:08+00:00'
+  extracted_at: '2026-08-05T09:33:01+00:00'
   source_lang: fr
-  detection_confidence: 0.98
+  detection_confidence: 0.95
   detection_method: claude
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-04'
+  last_status_check: '2026-08-05'
 analyse:
-  synthese: Le CPA lance un appel à projet pour concevoir et réaliser une sculpture
-    monumentale participative, quatrième œuvre du parcours 'Chemin des Arts'. L'artiste
-    retenu travaille en co-création avec patients, soignants et habitants autour de
-    la thématique 'La fabrique des récits'. Une salle d'atelier et ressources techniques
-    sont mises à disposition. La dotation s'élève à 8 000 € TTC couvrant honoraires,
-    matériaux, production, animation des ateliers et déplacement/hébergement. La réalisation
-    est prévue au premier semestre 2027, avec inauguration publique en juin 2027.
+  synthese: Le Centre Psychothérapique de l'Ain lance un appel à projet destiné aux
+    artistes plasticiens et sculpteurs professionnels pour concevoir la quatrième
+    sculpture monumentale du « Chemin des Arts », parcours ouvert dans son parc. L'œuvre
+    doit être développée en co-création avec les patients, professionnels de l'hôpital
+    et habitants, autour de la thématique « La fabrique des récits ». Une dotation
+    forfaitaire de 8 000 € TTC couvre les honoraires, matériaux, production, ateliers
+    participatifs, installation et éventuels frais de déplacement et hébergement.
+    La réalisation est prévue au premier semestre 2027, avec inauguration en juin
+    2027 lors de l'événement national « Rendez-vous aux Jardins ».
   pour_qui: Artistes plasticiens et sculpteurs professionnels intéressés par la création
-    participative et les projets culturels en contexte hospitalier favorisant l'ouverture
-    sur le territoire.
+    participative, la rencontre avec des publics diversifiés et les projets impliquant
+    une dimension sociale ou thérapeutique.
 a_savoir:
-- Dotation modérée (8 000 € TTC) devant couvrir honoraires, matériaux, production,
-  animation des ateliers, déplacement et hébergement d'une sculpture monumentale
-- 'Projet fortement participatif : ateliers co-créatifs obligatoires réunissant patients,
-  soignants et habitants du territoire'
-- 'Thématique imposée : ''La fabrique des récits'' — l''artiste doit proposer une
-  interprétation originale'
-- 'Calendrier serré : conception et réalisation au premier semestre 2027 (environ
-  6 mois)'
-- Sculpture destinée à l'extérieur avec durabilité minimale de 5 ans, soumise aux
-  contraintes de sécurité et d'intégration au paysage
+- 'Dotation de 8 000 € couvrant tous les frais (honoraires, matériaux, production,
+  ateliers, installation) : enveloppe unique à répartir.'
+- 'Thématique imposée (« La fabrique des récits ») : pas de liberté de sujet.'
+- 'Participation et co-création obligatoires avec les patients et habitants : temps
+  limité à la production libre.'
+- 'Calendrier fixe (premier semestre 2027) : pas de flexibilité de dates.'
+- 'Restitution majeure et publique : l''œuvre s''installe en extérieur dans le parc
+  et inauguration nationale.'
 organisme_details:
-  site_web: null
+  site_web: https://www.cpa01.fr
   adresse: null
   ville: Bourg-en-Bresse
   contact_email: culture.nomad@orsac-cpa01.fr
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: 'remuneration: montant 8000 EUR, periodicite forfait'
+  justification: '"remuneration": {"montant": 8000, "devise": "EUR", "periodicite":
+    "forfait"}'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: oui
-  justification: 'hebergement: true'
+  rempli: partiel
+  justification: '"Éventuels frais de déplacement et d''hébergement inclus dans l''enveloppe
+    forfaitaire" (conditions_residence → voyage: pris_en_charge = true, mais inclus
+    dans les 8000€)'
   poids: 2
   famille: conditions_materielles
 - id: atelier
   rempli: oui
-  justification: 'atelier: salle d''atelier mise à disposition par le CPA, avec accès
-    à ressources techniques'
+  justification: '"Salle d''atelier mise à disposition par le CPA ; accès possible
+    aux ressources techniques du site selon les besoins du projet"'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: oui
-  justification: 'voyage.pris_en_charge: true; synthese: dotation couvre honoraires,
-    matériaux, production, déplacement/hébergement'
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": true} ; mais "8 000 € TTC couvre les
+    honoraires, matériaux, production, ateliers participatifs, installation" — enveloppe
+    unique forfaitaire, pas des prises en charge dédiées'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
-  rempli: inconnu
-  justification: 'remuneration: 8000 EUR forfait sur premier semestre 2027; absence
-    de données sur coût de la vie à Bourg-en-Bresse et durée exacte du séjour'
+  rempli: non
+  justification: '"Dotation de 8 000 € couvrant tous les frais (honoraires, matériaux,
+    production, ateliers, installation) : enveloppe unique à répartir" — montant serré
+    pour un projet de sculpture monumentale en semi-résidence'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: partiel
-  justification: 'a_savoir: Thématique imposée ''La fabrique des récits''; jury décrit
-    mais critères d''évaluation implicites (création originale, interprétation du
-    thème, dimension participative)'
+  rempli: non
+  justification: Aucun critère d'évaluation énoncé explicitement dans l'appel ; seul
+    est mentionné le jury composé de professionnels et usagers, sans détail des critères
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
   rempli: non
-  justification: 'candidature.date_limite: 2026-09-08; aucune date ou délai de notification
-    des résultats n''est communiqué'
+  justification: '"date_limite": "2026-09-08" annoncée, mais aucune date ou délai
+    de notification des résultats mentionné'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: non
-  justification: Absence de mention concernant la notification individuelle aux candidat·es
-    non retenu·es
+  justification: Aucune mention dans la fiche d'une notification individuelle aux
+    candidat·es non retenu·es
   poids: 1
   famille: transparence_administrative
 - id: production_libre
-  rempli: oui
-  justification: 'a_savoir: ateliers co-créatifs sont ''un élément central du concept'',
-    non une charge externe; projet centré sur la production artistique et la conception
-    de l''œuvre'
+  rempli: non
+  justification: '"Participation et co-création obligatoires avec les patients et
+    habitants" ; "Des ateliers de co-création [...] seront organisés sous la conduite
+    de l''artiste"'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: partiel
-  justification: 'conditions_residence.duree.dates: premier semestre 2027 (fenêtre
-    de 6 mois); aucune mention explicite de négociation des dates'
+  rempli: non
+  justification: '"La réalisation de l''œuvre est prévue au premier semestre 2027,
+    avec inauguration début juin 2027" — calendrier imposé sans indication de flexibilité'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
   rempli: oui
-  justification: 'restitution: inauguration publique début juin 2027 dans le cadre
-    de l''événement national ''Rendez-vous aux Jardins'''
+  justification: '"Inauguration publique de la sculpture monumentale en juin 2027
+    dans le cadre de l''événement national « Rendez-vous aux Jardins »"'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: non
-  justification: Absence de mention d'un suivi documenté après la réalisation (réseau
-    alumni, mentions ultérieures, accompagnement)
+  justification: Aucune mention d'un suivi après l'inauguration (réseau alumni, collection,
+    suivi documenté, etc.)
   poids: 1
   famille: debouche
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - collectif
   bonus_score: 0

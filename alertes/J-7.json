@@ -1,8 +1,128 @@
 [
   {
+    "path": "appels/residence/2acaf33f.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "2acaf33f",
+    "nom": "Residency Available – SEPTEMBER 2026 – Colombia"
+  },
+  {
+    "path": "appels/residence/340f0f4d.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "340f0f4d",
+    "nom": "Art Residency Available – APRIL 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/35dd75da.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "35dd75da",
+    "nom": "Art Residency Available – MARCH 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/66443a2e.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "66443a2e",
+    "nom": "Art Residency Available – FEBRUARY 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/82ac6b64.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 7,
+    "type": "residence",
+    "uid": "82ac6b64",
+    "nom": "TaDA Residency 2027"
+  },
+  {
+    "path": "appels/residence/8f71ec94.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "8f71ec94",
+    "nom": "Art Residency Available – MAY 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/93124fb8.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "93124fb8",
+    "nom": "Art Residency Available – JULY 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/a0590b85.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "a0590b85",
+    "nom": "Residency Available – NOVEMBER 2026 – Colombia"
+  },
+  {
+    "path": "appels/residence/c3d60ea9.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 1,
+    "type": "residence",
+    "uid": "c3d60ea9",
+    "nom": "La Storta Winter Partially Funded Residencies in the heart of Venice"
+  },
+  {
+    "path": "appels/residence/cb215963.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "cb215963",
+    "nom": "Art Residency Available – January 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/d581b7b0.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "d581b7b0",
+    "nom": "Residency Available – OCTOBER 2026 – Colombia"
+  },
+  {
+    "path": "appels/residence/dec9e730.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "dec9e730",
+    "nom": "Art Residency Available – JUNE 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/e2910b41.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "e2910b41",
+    "nom": "Art Residency Available – AUGUST 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/f2e01230.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "f2e01230",
+    "nom": "Art Residency Available – SEPTEMBER 2027 – Colombia"
+  },
+  {
+    "path": "appels/residence/fbc332d8.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "residence",
+    "uid": "fbc332d8",
+    "nom": "Art Residency Available – DECEMBER 2026 – Colombia"
+  },
+  {
     "path": "appels/exposition/0f91c90f.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 5,
+    "days_to_deadline": 4,
     "type": "exposition",
     "uid": "0f91c90f",
     "nom": "Salon des Arts de Cholet 2026"

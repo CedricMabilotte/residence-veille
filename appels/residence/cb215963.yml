@@ -1,0 +1,183 @@
+uid: cb215963
+type: residence
+source_url: https://resartis.org/open-call/art-residency-available-january-2027-colombia
+fetched_at: '2026-08-05T08:44:36+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Art Residency Available – January 2027 – Colombia
+  organisme: Fundación ArteSumapaz
+  lieu:
+    ville: null
+    pays: Colombia
+    territoire: Cundinamarca
+  nom_fr: Résidence Artistique Disponible – JANVIER 2027 – Colombie
+  affichage_titre: Art Residency Available – JANUARY 2027 – Colombia [Résidence Artistique
+    Disponible – JANVIER 2027 – Colombie]
+candidature:
+  date_limite: '2026-08-07'
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform
+eligibilite:
+  disciplines:
+  - visual arts
+  - sculpture
+  - ceramics
+  - dance
+  - theatre
+  - printmaking
+  - performing arts
+  - music
+  - writing
+  - film
+  - architecture
+  - educational programs
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: '1 to 3 months (program window: January 2027, 2027-01-01 to 2027-01-31)'
+  hebergement: true
+  atelier: Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento
+    (compartido), Dos salas privadas para escritores, Estudio de música (compartido).
+    Habitación privada con cama de matrimonio, baño privado con agua caliente, escritorio
+    y espacio de almacenamiento. Tres comidas vegetarianas al día incluidas.
+  remuneration: null
+  voyage: null
+  restitution: Participación opcional en críticas de arte semanales, impartición de
+    talleres y organización de exposiciones con la comunidad de artistas de ArteSumapaz
+    y comunidades cercanas.
+partenaires: []
+_meta:
+  extracted_confidence: 0.75
+  extracted_notes: Información clara sobre infraestructura, duración y costos de alojamiento.
+    Criterios de selección no publicados explícitamente; ausencia de información sobre
+    plazos de notificación y seguimiento post-programa.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T08:44:36+00:00'
+  source_lang: en
+  resume_fr: Cette résidence artistique auto-dirigée en Colombie accueille des artistes
+    visuels, musiciens, écrivains, architectes et autres créateurs pour une durée
+    de 1 à 3 meses. Les résidents disposent d'un logement privé (1.095 USD/mois pour
+    l'aile arrière, 1.195 USD/mois pour l'aile avant), de trois repas végétariens
+    quotidiens, et d'accès à des studios partagés ou privés sur un campus de 230 acres.
+    La résidence débute le 2027-01-01 et se termine le 2027-01-31, avec une date limite
+    de candidature fixée au 2026-08-07. La participation aux critiques hebdomadales
+    et ateliers est encouragée mais facultative ; seule la réunion communautaire hebdomadaire
+    est obligatoire.
+  detection_confidence: 0.9090909090909091
+  detection_method: heuristic
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: 'Fundación ArteSumapaz propose une résidence artistique autogérée de 1
+    à 3 mois en Cundinamarca, Colombie, destinée aux artistes visuels, musiciens,
+    écrivains, architectes, céramistes, performeurs et autres créateurs. L''hébergement
+    privé avec salle de bain coûte 1.095 ou 1.195 USD par mois selon la chambre, auquel
+    s''ajoutent trois repas végétariens quotidiens. Les résidents ont accès à plusieurs
+    espaces de travail (studios partagés et salles privées selon la discipline), et
+    la participation aux critiques d''art hebdomadaires et événements est optionnelle.
+    Une seule réunion obligatoire : la réunion communautaire hebdomadaire. Le programme
+    se déploie sur un campus de 230 acres incluant un parc naturel, situé près de
+    San Bernardo et Pandi.'
+  pour_qui: Artistes émergents ou consolidés de toutes disciplines et nationalités,
+    cherchant une résidence autogérée et communautaire dans un environnement rural
+    colombien.
+a_savoir:
+- Pas de rémunération ; les frais de logement (1.095–1.195 USD/mois) constituent les
+  seuls revenus mentionnés.
+- 'Calendrier fixe : résidence limitée à janvier 2027 uniquement.'
+- Critères de sélection non publiés.
+- Pas de délai annoncé pour la notification des résultats de candidature.
+organisme_details:
+  site_web: https://artesumapaz.org/
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Pas de rémunération ; les frais de logement (1.095–1.195 USD/mois)
+    constituent les seuls revenus mentionnés. (a_savoir[0])
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: Habitación privada con cama de matrimonio, baño privado con agua
+    caliente, escritorio y espacio de almacenamiento. (conditions_residence.atelier)
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: Estudio de pintura (compartido), Estudio 3D (compartido), Estudio
+    de movimiento (compartido), Dos salas privadas para escritores, Estudio de música
+    (compartido). (conditions_residence.atelier)
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: Habitación privada... Tres comidas vegetarianas al día incluidas.
+    (conditions_residence.atelier) - voyage non couvert
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: Pas d'information sur le coût de la vie local en Cundinamarca ou
+    si 1.095–1.195 USD mensuels permettent de vivre sans déficit net. (a_savoir[0])
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: Critères de sélection non publiés. (a_savoir[2]) - seules les disciplines
+    acceptées sont énumérées
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Pas de délai annoncé pour la notification des résultats de candidature.
+    (a_savoir[3])
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Absence d'indication dans la fiche concernant une notification individuelle
+    aux candidats non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: 'Participación opcional en críticas de arte semanales... Una sola
+    réunion obligatoria: la reunión comunitaria semanal. (conditions_residence.restitution)'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '1 to 3 months (program window: January 2027, 2027-01-01 to 2027-01-31)
+    (conditions_residence.duree.dates) - durée flexible mais période fixe'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: Participación opcional... organización de exposiciones con la comunidad
+    de artistas de ArteSumapaz y comunidades cercanas. (conditions_residence.restitution)
+    - visibilité limitée au local
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucun suivi documenté, réseau alumni, ou accompagnement post-programme
+    ne sont mentionnés dans la fiche
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - rural
+  - collectif
+  bonus_score: 1

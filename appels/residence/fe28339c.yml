@@ -1,0 +1,168 @@
+uid: fe28339c
+type: residence
+source_url: https://www.cnap.fr/annonces/residence-dartiste-mise-disposition-atelier
+fetched_at: '2026-08-05T09:23:18+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Résidence d'Artiste mise à disposition atelier longue durée
+  organisme: Espace Maurice Utrillo
+  lieu:
+    ville: Pierrefitte-sur-Seine
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-08-23'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees:
+  - Note d'intention (1 page maximum)
+  - CV artistique mentionnant le numéro de SIRET
+  - Portfolio (20 pages maximum)
+  - Dossier complet en PDF unique (20 Mo maximum) à envoyer à espaceculturelutrillo@saintdenis.fr
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Peinture
+  - Dessin
+  - Théâtre
+  - Écriture
+  - Vidéo
+  - Poésie
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 52
+    dates: 14 septembre 2026 au 20 août 2027
+  hebergement: false
+  atelier: Espace individuel de création de 25m² accessible chaque jour
+  remuneration:
+    montant: 500
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Exposition de restitution du 5 au 25 juin 2027 présentant le résultat
+    des travaux de recherche
+partenaires:
+- Ville de Saint-Denis
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: Opportunité bien documentée avec conditions claires. Rémunération
+    variable pour stages et interventions au-delà du forfait 500€. Absence de mention
+    sur suivi post-programme.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T09:23:18+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: CNAP — annonces filtrées « Résidence d'artiste »
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: 'Résidence de 11 mois (14 septembre 2026 au 20 août 2027) offrant un atelier
+    de 25m² en quartier prioritaire de Pierrefitte-sur-Seine. Dotation: 500€ d''aide
+    à la production versée au premier trimestre, plus rémunérations pour stages (25€/h)
+    et interventions pédagogiques EAC (50€/h). Artiste résident s''engage à 122 jours
+    minimum de présence annuelle et participe aux missions éducatives de la structure
+    (stages enfants/adultes, parcours EAC, médiations). Programme orienté vers les
+    projets territorialement ancrés.'
+  pour_qui: Artistes ayant intérêt pour la transmission pédagogique et souhaitant
+    développer un projet en lien avec les enjeux et populations du territoire de Saint-Denis/Pierrefitte.
+a_savoir:
+- Engagement éducatif important requis au-delà de la création (ateliers, stages, médiations
+  imposés)
+- 'Présence physique minimale obligatoire : 122 jours/an soit environ 2,5 jours/semaine'
+- Pas d'hébergement fourni
+- Calendrier strict pour les obligations pédagogiques (stages Pâques, EAC, exposition
+  de restitution)
+- Rémunération principalement variable selon heures d'interventions effectuées
+- Candidature par email uniquement, pas de plateforme en ligne
+organisme_details:
+  site_web: null
+  adresse: Place Jean Jaurès, 93380 Pierrefitte-sur-Seine
+  ville: Pierrefitte-sur-Seine
+  contact_email: espaceculturelutrillo@saintdenis.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'remuneration: {montant: 500, devise: EUR, periodicite: forfait}
+    + rémunérations pour stages (25€/h) et interventions pédagogiques EAC (50€/h)'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: 'hebergement: false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: Espace individuel de création de 25m² accessible chaque
+    jour'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: 'voyage: {pris_en_charge: false}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: 'montant: 500€ forfait en Île-de-France sans hébergement; rémunérations
+    variables (25€/h stages + 50€/h EAC) selon heures effectuées, modeste pour 11
+    mois'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: Pas de section explicite énumérant les critères de sélection du jury
+    dans la fiche (seul un profil attendu décrit dans pour_qui)
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: Pas de délai ou date de notification annoncé dans les champs candidature
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas de mention de notification individuelle aux candidats non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: Espace personnel 25m² dédié; mais artiste s'engage à 122 jours minimum
+    de présence et participe aux missions éducatives (stages obligatoires Pâques/juin,
+    parcours EAC, médiations)
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: 'dates de résidence fixes: 14 septembre 2026 au 20 août 2027; stages
+    imposés à calendrier strict (5-9 avril, 13 juin); exposition à dates fixes (5-25
+    juin 2027)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: 'restitution: Exposition de restitution du 5 au 25 juin 2027; aucune
+    mention de diffusion presse, catalogue, ou rayonnement au-delà de l''espace lui-même'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: Pas de mention de réseau alumni, suivi post-résidence ou accompagnement
+    vers opportunités ultérieures
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

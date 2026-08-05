@@ -1,12 +1,12 @@
 uid: 6c77a484
 type: residence
 source_url: https://www.cnap.fr/annonces/residence-dartiste-venissieux
-fetched_at: '2026-08-04T08:43:47+00:00'
+fetched_at: '2026-08-05T09:31:24+00:00'
 score: 6
 status: ouverte
 opportunite:
   nom: Résidence d'artiste à Vénissieux
-  organisme: Centre d'art Madeleine Lambert
+  organisme: Centre d'art Madeleine-Lambert
   lieu:
     ville: Vénissieux
     pays: France
@@ -20,10 +20,10 @@ candidature:
   pieces_demandees:
   - CV
   - Dossier de présentation du travail artistique avec des visuels
-  - Note d'intention présentant la démarche de l'artiste pour cette résidence (max
-    1500 signes)
-  - Documents complémentaires jugés intéressants
-  url_candidature: centredart@ville-venissieux.fr
+  - Note d'intention (max 1 500 signes espaces compris)
+  - Justificatif d'immatriculation (avis de situation SIRENE, extrait Kbis ou document
+    équivalent)
+  url_candidature: mailto:centredart@ville-venissieux.fr
 eligibilite:
   disciplines:
   - arts plastiques
@@ -35,8 +35,9 @@ conditions_residence:
   duree:
     semaines: null
     dates: null
-  hebergement: false
-  atelier: Appui logistique, matériel et outillage du Centre d'art
+  hebergement: null
+  atelier: Appui logistique, matériel et outillage du Centre d'art ; accès potentiel
+    à d'autres services municipaux (espaces verts, ateliers techniques, archives)
   remuneration:
     montant: 3500
     devise: EUR
@@ -46,34 +47,40 @@ conditions_residence:
     plafond: null
     devise: EUR
   restitution: null
-partenaires: []
+partenaires:
+- Centre d'art Madeleine-Lambert
 _meta:
-  extracted_confidence: 0.75
-  extracted_notes: Durée de résidence et hébergement non spécifiés. Rémunération totale
-    de 3500 € (2000 € + 1500 € aide à la production).
+  extracted_confidence: 0.8
+  extracted_notes: 'Informations clés présentes (rémunération, deadline, pièces, éligibilité).
+    Manquent : durée de résidence, hébergement, conditions de restitution, critères
+    de sélection explicites.'
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-04T08:43:47+00:00'
+  extracted_at: '2026-08-05T09:31:24+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-04'
+  last_status_check: '2026-08-05'
 analyse:
-  synthese: Le Centre d'art Madeleine Lambert à Vénissieux propose une résidence d'artiste
-    dotée d'une rémunération de 2000 € complétée d'une aide à la production de 1500
-    €. L'artiste bénéficie de l'accès aux ressources, à l'équipe et au réseau du centre,
-    ainsi qu'à l'appui logistique et au matériel disponible. Ce programme s'adresse
-    aux artistes plasticien·nes engagé·es dans une démarche professionnelle qui doivent
-    justifier d'une immatriculation (SIRENE, Kbis ou équivalent). La date limite de
-    candidature est le 7 septembre 2026.
-  pour_qui: Artistes plasticien·nes ayant une démarche professionnelle documentée
-    et immatriculé·es.
+  synthese: Le Centre d'art Madeleine-Lambert à Vénissieux propose une résidence d'artiste
+    dotée d'une rémunération de 2000 € et d'une aide à la production de 1500 €. L'artiste
+    bénéficie de l'accompagnement des équipes du centre, d'accès au matériel et à
+    l'outillage, ainsi qu'à d'autres ressources municipales selon ses besoins. L'appel
+    s'adresse aux artistes plasticiens ayant déjà un engagement professionnel justifié.
+    La date limite de candidature est le 7 septembre 2026. Cependant, la durée de
+    la résidence, les conditions d'hébergement et les modalités de restitution ne
+    sont pas précisées.
+  pour_qui: Artistes plasticiens ayant déjà un engagement professionnel justifié et
+    immatriculés (SIRENE, Kbis ou équivalent).
 a_savoir:
-- Durée de la résidence et conditions d'hébergement non spécifiés dans l'appel.
-- Justificatif d'immatriculation obligatoire (SIRENE, Kbis ou document équivalent).
-- Pas de critères de sélection explicites publiés ; seules les pièces à fournir sont
-  énumérées.
-- Pas de délai annoncé pour la notification des résultats.
+- Durée de la résidence non spécifiée
+- Hébergement non mentionné (l'artiste devra peut-être se loger à ses frais)
+- Conditions de restitution / exposition non mentionnées
+- Critères de sélection du jury non publiés
+- Pas de délai de notification des résultats annoncé
+- Dossier d'immatriculation professionnel obligatoire (barrière potentielle pour les
+  jeunes artistes)
+- Candidature par email uniquement (pas de plateforme dédiée)
 organisme_details:
   site_web: https://culture.venissieux.fr/centre-dart-madeleine-lambert/
   adresse: null
@@ -82,71 +89,69 @@ organisme_details:
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: 'remuneration.montant: 3500 EUR (forfait) — détaillé en 2000 € rémunération
-    + 1500 € aide à la production'
+  justification: '"montant": 3500, "devise": "EUR", "periodicite": "forfait"'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: non
-  justification: 'hebergement: false'
+  rempli: inconnu
+  justification: '"hebergement": null'
   poids: 2
   famille: conditions_materielles
 - id: atelier
   rempli: oui
-  justification: 'atelier: Appui logistique, matériel et outillage du Centre d''art'
+  justification: '"atelier": "Appui logistique, matériel et outillage du Centre d''art"'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: partiel
-  justification: 'voyage.pris_en_charge: false; aide à la production de 1500 € incluse
-    dans la dotation totale'
+  justification: '"voyage": {"pris_en_charge": false} — aide à la production incluse
+    mais trajet non couvert'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: inconnu
-  justification: 'duree.semaines: null, duree.dates: null — durée non spécifiée, impossible
-    d''évaluer le ratio dotation/coût de vie'
+  justification: '"duree": {"semaines": null, "dates": null} — impossible d''évaluer
+    sans connaître la durée'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
   rempli: non
-  justification: 'a_savoir[2]: Pas de critères de sélection explicites publiés ; seules
-    les pièces à fournir sont énumérées'
+  justification: '"Critères de sélection du jury non publiés" (a_savoir)'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
   rempli: non
-  justification: 'a_savoir[3]: Pas de délai annoncé pour la notification des résultats'
+  justification: '"Pas de délai de notification des résultats annoncé" (a_savoir)'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: non
-  justification: L'appel n'indique pas que les candidat·es non retenu·es recevront
-    une notification individuelle
+  justification: Aucune mention de notification individualisée aux candidat·es non
+    retenu·es
   poids: 1
   famille: transparence_administrative
 - id: production_libre
-  rempli: partiel
-  justification: 'analyse.synthese: accès aux ressources, équipe et réseau du centre
-    ; aucune obligation d''ateliers publics ou médiation n''est spécifiée'
+  rempli: inconnu
+  justification: '"accompagnement des équipes du centre" mentionné, mais ampleur des
+    obligations de médiation non précisée'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: inconnu
-  justification: 'duree.dates: null — calendrier du séjour et sa négociabilité ne
-    sont pas précisés'
+  rempli: non
+  justification: '"duree": {"semaines": null, "dates": null} — pas de flexibilité
+    calendaire annoncée'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: 'restitution: null — aucune modalité ou visibilité de la restitution
-    n''est mentionnée'
+  rempli: non
+  justification: '"restitution": null — « Conditions de restitution / exposition non
+    mentionnées » (a_savoir)'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: non
-  justification: L'appel ne mentionne aucun réseau alumni, suivi documenté ou accompagnement
-    après le programme
+  justification: Aucun suivi documenté après le programme (alumni, accompagnement
+    futur) mentionné
   poids: 1
   famille: debouche
 _interne_affinite:

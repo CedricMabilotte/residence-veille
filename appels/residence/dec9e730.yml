@@ -1,0 +1,194 @@
+uid: dec9e730
+type: residence
+source_url: https://resartis.org/open-call/art-residency-available-june-2027-colombia
+fetched_at: '2026-08-05T08:58:35+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Art Residency Available – JUNE 2027 – Colombia
+  organisme: Fundación ArteSumapaz
+  lieu:
+    ville: San Bernardo
+    pays: Colombia
+    territoire: Cundinamarca
+  nom_fr: Résidence artistique disponible – JUIN 2027 – Colombie
+  affichage_titre: Art Residency Available – JUNE 2027 – Colombia [Résidence artistique
+    disponible – JUIN 2027 – Colombie]
+candidature:
+  date_limite: '2026-08-07'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: []
+  url_candidature: https://docs.google.com/forms/d/e/1FAIpQLScE1UGvPnLYiAreD5HFyDVLpCfaHa3IJQUEa3BWkKLXZCutJw/viewform
+eligibilite:
+  disciplines:
+  - visual artists
+  - musicians
+  - writers
+  - architects
+  - clay artists
+  - performers
+  - artes visuales
+  - escultura
+  - cerámica
+  - danza
+  - teatro
+  - grabado
+  - artes escénicas
+  - música
+  - escritura
+  - cine
+  - cine
+  - programas educativos
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 2027-06-01 to 2027-06-30; flexible duration of 1–3 meses possible
+  hebergement: true
+  atelier: Estudio de pintura (compartido), Estudio 3D (compartido), Estudio de movimiento
+    (compartido), Dos salas privadas para escritores, Estudio de música (compartido).
+    Workspace assignments reviewed and adjusted monthly based on resident needs.
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Artists are invited to participate in weekly open critique sessions,
+    share workshops or exhibitions with ArteSumapaz's artist community or nearby communities.
+    Participation is entirely optional.
+partenaires: []
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Application deadline imminent (2026-08-07). Pay-to-play model with
+    no artist stipend. Information clearly structured but lacks explicit selection
+    criteria and response timeline.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-08-05T08:58:35+00:00'
+  source_lang: en
+  resume_fr: La Fundación ArteSumapaz propose une résidence artistique autogérée en
+    Colombie pour artistes visuels, musiciens, écrivains, architectes, céramistes,
+    performeurs et autres créateurs. Le campus s'étend sur environ 230 acres avec
+    parc naturel et offre des studios spécialisés, ainsi qu'un hébergement privé avec
+    trois repas végétariens quotidiens. Les résidences durent de 1 à 3 meses, aux
+    tarifs de 1095 USD ou 1195 USD selon la chambre. La date limite de candidature
+    est le 2026-08-07 pour une résidence s'étendant du 2027-06-01 au 2027-06-30.
+  detection_confidence: 0.9090909090909091
+  detection_method: heuristic
+  source_label: Res Artis — Open calls (EN)
+  last_status_check: '2026-08-05'
+analyse:
+  synthese: 'ArteSumapaz offers a self-directed artist residency in Colombia for 1–3
+    months, with a June 2027 session (June 1–30). The program welcomes artists across
+    visual arts, music, writing, performance, architecture, and related disciplines,
+    providing studio spaces (painting, 3D, movement, music, private writing rooms),
+    private accommodation with hot water and meals (3 vegetarian meals daily), on
+    a 230-acre campus with natural park. Artists decide freely how to spend their
+    time; participation in weekly critiques, workshops, and exhibitions is invited
+    but optional, with only a weekly community lunch meeting required. This is a pay-to-play
+    residency: artists pay USD 1095–1195 per month for accommodation and meals, with
+    no artist stipend, travel support, or published selection criteria.'
+  pour_qui: Visual artists, musicians, writers, architects, and other creative practitioners
+    of all career levels seeking self-directed studio time in a collaborative community
+    environment.
+a_savoir:
+- 'Pay-to-play model: artists must pay USD 1095–1195 per month; no artist stipend,
+  per diem, or travel support provided'
+- 'Application deadline 2026-08-07: only 2 days from today (2026-08-05)'
+- No selection criteria published
+- No response timeline or notification deadline announced
+- Travel and production costs not covered
+- Restitution activities (exhibitions, workshops) optional, not guaranteed or curated
+  for external visibility
+organisme_details:
+  site_web: https://artesumapaz.org/
+  adresse: null
+  ville: San Bernardo
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: 'remuneration: {montant: null, devise: EUR} + synthese: ''No artist
+    stipend, travel support... provided'''
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: 'hebergement: true + conditions_residence: ''private accommodation
+    with hot water and meals (3 vegetarian meals daily)'''
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: ''Estudio de pintura (compartido), Estudio 3D (compartido),
+    Estudio de movimiento (compartido), Dos salas privadas para escritores, Estudio
+    de música (compartido)'''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: 'voyage.pris_en_charge: false + conditions_residence: ''3 vegetarian
+    meals daily'' (meals couverts, voyages non)'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: 'remuneration.montant: null + a_savoir: ''artists must pay USD 1095–1195
+    per month; no artist stipend... provided'''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'a_savoir: ''No selection criteria published'''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: ''No response timeline or notification deadline announced'''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention dans la fiche de notification aux candidats non-retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: 'conditions_residence.restitution: ''Artists decide freely how to
+    spend their time; participation in weekly critiques... is entirely optional'''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: 'conditions_residence.duree: ''2027-06-01 to 2027-06-30; flexible
+    duration of 1–3 meses possible'''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: 'conditions_residence.restitution: ''share workshops or exhibitions
+    with ArteSumapaz''s artist community or nearby communities'' (rayonnement local,
+    pas d''amplification externe garantie)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: 'a_savoir: ''No alumni network, continued support, documentation,
+    or post-program follow-up mentioned'''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0
