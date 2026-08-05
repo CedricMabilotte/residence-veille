@@ -69,6 +69,9 @@ DOMAINES_BRUIT = {
     "fonts.gstatic.com", "gstatic.com",
     "pixelgrade.com", "cookiedatabase.org",
     "jetpack.com", "gravatar.com", "automattic.com",
+    # Réseaux sociaux additionnels — bsky.app trouvé en test réel (profil
+    # Bluesky lié depuis la page membres d.c.a, capté avant ce correctif).
+    "bsky.app",
 }
 
 # Hubs vérifiés accessibles par recherche web le 2026-08-02 — ce sont déjà des

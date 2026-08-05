@@ -66,6 +66,7 @@ DOMAINES_BRUIT = {
     "pinterest.com", "www.pinterest.com",
     "reddit.com", "www.reddit.com",
     "tiktok.com", "www.tiktok.com",
+    "bsky.app",
 }
 
 

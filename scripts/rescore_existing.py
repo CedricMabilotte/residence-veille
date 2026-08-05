@@ -29,6 +29,18 @@ Deux issues possibles par fiche :
     deadline_tracker.py, pas de ce script).
 
 Écrit un rapport JSON dans reports/rescore_<date>.json.
+
+GARDE-FOU (ajouté 2026-08-05, suite à un incident réel) : le tout premier run
+de ce script (2026-08-02, déclenché en CI car l'auth Claude locale était
+expirée en session Cowork) a silencieusement échoué sur TOUS ses appels
+Claude — auth invalide côté CI ce jour-là aussi — et a donc écrasé les 53
+fiches traitées avec le score de repli neutre (4/10, criteres_programme tout
+"inconnu") au lieu d'un vrai score. Rien dans le script ne détectait cet échec
+systémique : hard_filters() ne dépend pas de Claude (les 15 mises en
+quarantaine ce jour-là étaient correctes), mais score_fiche() avale les
+exceptions Claude et retourne des valeurs de repli sans distinction entre
+"vraiment neutre" et "Claude a échoué". D'où le canary + circuit-breaker
+ci-dessous : mieux vaut échouer bruyamment que corrompre silencieusement.
 """
 
 from __future__ import annotations
@@ -49,17 +61,70 @@ TYPES = ["residence", "bourse", "prix", "exposition"]
 sys.path.insert(0, str(ROOT / "scripts"))
 import score_opportunity
 
+CANARY_PROMPT = 'Réponds uniquement par ce JSON, sans rien ajouter autour : {"ok": true}'
+
+# Circuit-breaker : au-delà de ce taux d'échec (et d'un minimum d'appels pour
+# que le taux soit significatif), on arrête le run plutôt que de continuer à
+# écrire des scores de repli neutres sur les fiches restantes.
+MAX_FAILURE_RATE = 0.5
+MIN_CALLS_BEFORE_CHECK = 4  # 2 fiches (2 appels Claude chacune) — testé : en cas
+# d'échec total, le canary bloque tout avant la première écriture ; ce seuil
+# limite le nombre de fiches pouvant être écrasées à repli neutre si Claude
+# tombe EN COURS de run (après un canary réussi) à ~2 fiches maximum.
+
+_stats = {"ok": 0, "fail": 0}
+_original_call_claude = score_opportunity._call_claude
+
+
+def _tracked_call_claude(prompt: str) -> str:
+    try:
+        result = _original_call_claude(prompt)
+        _stats["ok"] += 1
+        return result
+    except Exception:
+        _stats["fail"] += 1
+        raise
+
+
+def _circuit_open() -> bool:
+    total = _stats["ok"] + _stats["fail"]
+    return total >= MIN_CALLS_BEFORE_CHECK and (_stats["fail"] / total) > MAX_FAILURE_RATE
+
+
+def _canary_check() -> bool:
+    """Un appel Claude réel avant de toucher le moindre fichier. Si Claude ne
+    répond pas (auth expirée, CLI absent, etc.), on préfère échouer bruyamment
+    ici plutôt que d'écrire 50+ scores de repli neutres — cf. incident du
+    2026-08-02 documenté en tête de fichier."""
+    try:
+        raw = _original_call_claude(CANARY_PROMPT)
+        return "true" in raw.lower()
+    except Exception as e:
+        print(f"CANARY ÉCHEC — Claude indisponible, run annulé sans rien écrire : {e}", file=sys.stderr)
+        return False
+
 
 def main():
+    score_opportunity._call_claude = _tracked_call_claude
+
+    if not _canary_check():
+        print("rescore_existing : ABANDON — canary Claude en échec, aucune fiche modifiée.")
+        sys.exit(1)
+
     now = _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds")
     today = _dt.date.today().isoformat()
     updated, quarantined, unchanged, errors = [], [], [], []
+    circuit_tripped = False
 
     for type_id in TYPES:
+        if circuit_tripped:
+            break
         d = APPELS_DIR / type_id
         if not d.exists():
             continue
         for path in sorted(d.glob("*.yml")):
+            if circuit_tripped:
+                break
             try:
                 fiche = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
             except Exception as e:
@@ -71,6 +136,19 @@ def main():
             except Exception as e:
                 errors.append({"path": str(path), "error": f"score: {e}"})
                 continue
+
+            if _circuit_open():
+                # Le canary est passé mais le taux d'échec Claude grimpe en
+                # cours de run (auth expirée en cours de route, rate limit...).
+                # On s'arrête ici plutôt que de continuer à écrire des scores
+                # de repli neutres sur le reste des fiches — cette fiche-ci
+                # (déjà scorée, potentiellement en repli) N'EST PAS écrite.
+                circuit_tripped = True
+                errors.append({
+                    "path": str(path),
+                    "error": f"circuit-breaker déclenché (échecs Claude {_stats['fail']}/{_stats['ok']+_stats['fail']}) — run interrompu, fiches restantes non traitées",
+                })
+                break
 
             if not sc["hard_filter_pass"]:
                 if sc["hard_filter_reason"] == "date_limite passée":
@@ -117,6 +195,8 @@ def main():
 
     report = {
         "date": today,
+        "circuit_breaker_tripped": circuit_tripped,
+        "claude_calls_ok": _stats["ok"], "claude_calls_fail": _stats["fail"],
         "n_updated": len(updated), "n_unchanged": len(unchanged),
         "n_quarantined": len(quarantined), "n_errors": len(errors),
         "updated": updated, "quarantined": quarantined, "errors": errors,
@@ -128,6 +208,10 @@ def main():
     print(f"rescore_existing : {len(updated)} score(s) changé(s), "
           f"{len(unchanged)} inchangé(s), {len(quarantined)} mis en quarantaine, "
           f"{len(errors)} erreur(s). Rapport : {report_path.relative_to(ROOT)}")
+    if circuit_tripped:
+        print(f"⚠ CIRCUIT-BREAKER DÉCLENCHÉ ({_stats['fail']}/{_stats['ok']+_stats['fail']} échecs Claude) — "
+              f"run interrompu avant la fin, relancer une fois Claude rétabli.")
+        sys.exit(1)
     print("DONE")
 
 
