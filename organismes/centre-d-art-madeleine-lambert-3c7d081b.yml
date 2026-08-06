@@ -16,12 +16,12 @@ opportunites_liees:
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: services-municipaux-de-venissieux
-  occurrences: 1
+  occurrences: 2
   nom_brut: Services municipaux de Vénissieux
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-02'
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-06'
   status: actif
   nouveaux_entrants: true
 ville: Vénissieux

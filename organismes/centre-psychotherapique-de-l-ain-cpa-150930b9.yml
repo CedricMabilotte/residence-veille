@@ -19,7 +19,7 @@ partenaires_mentionnes:
   occurrences: 2
   nom_brut: ORSAC
 - organisme_uid: esat-de-la-ferme-dienet
-  occurrences: 3
+  occurrences: 4
   nom_brut: ESAT de la Ferme Dienet
 - organisme_uid: association-orsac
   occurrences: 1
@@ -27,7 +27,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-02'
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-06'
   status: actif
   nouveaux_entrants: true
 ville: Bourg-en-Bresse

@@ -15,10 +15,14 @@ disciplines_proposees:
 - art graphique
 types_opportunites_habituels:
 - exposition
+- residence
 opportunites_liees:
 - uid: 19d31b22
   type: exposition
   nom: Soutien à la production dans le cadre de la Quinquennale 2027
+- uid: 2ba5df0e
+  type: residence
+  nom: 'Résidence d''artiste 2027 : Photographie - Traverse'
 track_record:
   exposition:
     editions:
@@ -32,10 +36,15 @@ partenaires_mentionnes:
 - organisme_uid: centre-pompidou
   occurrences: 1
   nom_brut: Centre Pompidou
+- organisme_uid: traverse
+  occurrences: 1
+  nom_brut: Traverse
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-06'
   status: actif
   nouveaux_entrants: true
 contact_email: marie.chenel@cnap.fr
+noms_alternatifs:
+- CNAP (Centre national des arts plastiques)

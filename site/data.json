@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T10:00:59.695949+00:00",
-  "n_ouvertes": 69,
+  "generated_at": "2026-08-06T10:03:41.653280+00:00",
+  "n_ouvertes": 70,
   "n_archive": 13,
   "opportunites": [
     {
@@ -841,12 +841,12 @@
       "uid": "2ba5df0e",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse",
-      "fetched_at": "2026-08-05T09:35:20+00:00",
+      "fetched_at": "2026-08-06T08:39:37+00:00",
       "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence d'artiste 2027 : Photographie - Traverse",
-        "organisme": "Traverse",
+        "organisme": "CNAP (Centre national des arts plastiques)",
         "lieu": {
           "ville": "Bagnères-de-Bigorre",
           "pays": "France",
@@ -856,23 +856,25 @@
       "candidature": {
         "date_limite": "2026-09-10",
         "date_limite_precision": "day",
-        "langue_dossier": null,
+        "langue_dossier": [
+          "fr"
+        ],
         "frais_inscription": null,
-        "pieces_demandees": null,
+        "pieces_demandees": [],
         "url_candidature": "https://traversiens.com/event/appel-a-projet-residence-photo-2027/"
       },
       "eligibilite": {
         "disciplines": [
           "photographie"
         ],
-        "niveau_carriere": null,
+        "niveau_carriere": "tous",
         "age_max": null,
         "nationalite": "sans restriction",
         "residence_administrative": "sans restriction"
       },
       "conditions_residence": {
         "duree": {
-          "semaines": null,
+          "semaines": 8,
           "dates": "printemps 2027"
         },
         "hebergement": null,
@@ -883,108 +885,109 @@
           "periodicite": "forfait"
         },
         "voyage": null,
-        "restitution": "Projet artistique participatif, thème : Perspective(s)"
+        "restitution": "projet artistique participatif"
       },
       "partenaires": [
         "Traverse"
       ],
       "analyse": {
-        "synthese": "Résidence de 2 mois au printemps 2027 pour artistes photographes, basée en Haute-Bigorre (24 communes rurales). Le programme propose 6 000 € TTC pour développer un projet artistique participatif ancré dans le territoire local. La dimension participative et les rencontres avec le contexte constituant l'axe principal de la résidence. Date limite de candidature : 10 septembre 2026. Thème de l'édition : « Perspective(s) ».",
-        "pour_qui": "Artistes photographes souhaitant développer un projet participatif en contexte rural montagnard et capable d'engager des échanges avec le territoire d'accueil."
+        "synthese": "Le CNAP propose une résidence d'artiste photographe de 2 mois au printemps 2027 à Bagnères-de-Bigorre, dotée de 6 000 €, en partenariat avec Traverse. Le programme s'inscrit dans une logique participative autour du thème « Perspective(s) », avec un projet à développer spécifiquement pour le territoire de la Haute-Bigorre (24 communes rurales au pied des Pyrénées). La date limite de candidature est le 10 septembre 2026.",
+        "pour_qui": "Artistes photographes intéressés par une démarche participative capable de développer un projet en dialogue avec un territoire rural montagnard."
       },
       "a_savoir": [
-        "Dimension participative obligatoire : le projet doit être spécifiquement élaboré pour le territoire et implique une logique de rencontre avec les habitants.",
-        "Résidence en zone rurale montagnarde : accès limité aux services urbains, infrastructure et ressources comparés à un contexte de ville moyenne.",
-        "Thème imposé pour cette édition : « Perspective(s) »."
+        "Dimension participative obligatoire : le projet doit dialoguer avec le territoire local",
+        "Calendrier fixe : printemps 2027, sans flexibilité calendaire mentionnée",
+        "Hébergement et atelier fournis non explicitement confirmés",
+        "Dotation modérée (6 000 € pour 2 mois) : évaluer la viabilité budgétaire pour une zone rurale"
       ],
       "organisme_details": {
-        "site_web": null,
+        "site_web": "https://www.cnap.fr",
         "adresse": null,
-        "ville": "Bagnères-de-Bigorre",
+        "ville": null,
         "contact_email": null
       },
       "criteres_programme": [
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "remuneration.montant: 6000 EUR, periodicite: forfait",
+          "justification": "remuneration: montant 6000, devise EUR, periodicite forfait",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "conditions_residence.hebergement: null (aucune mention)",
+          "justification": "hebergement: null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "conditions_residence.atelier: null (aucune mention)",
+          "justification": "atelier: null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "non",
-          "justification": "conditions_residence.voyage: null — aucun coût de transport ou production mentionné",
+          "justification": "voyage: null (aucune prise en charge mentionnée)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "partiel",
-          "justification": "6 000 € forfait pour ~2 mois (printemps 2027) en zone rurale montagnarde — dépend de l'hébergement/atelier fournis (non clarifiés)",
+          "justification": "montant: 6000 EUR pour duree: 8 semaines en zone rurale montagnarde (Haute-Bigorre)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "non",
-          "justification": "Absence de critères de jury dans candidature, eligibilite ou a_savoir — seules les pièces demandées ne sont pas spécifiées (pieces_demandees: null)",
+          "justification": "pieces_demandees: [] vide, aucun critère de sélection explicité",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "candidature.date_limite: 2026-09-10 — aucune date de notification des résultats",
+          "justification": "Pas de date_limite pour la notification des résultats (différente de date_limite de candidature)",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "inconnu",
-          "justification": "Aucune mention dans a_savoir ou candidature d'une notification aux non-retenu·es",
+          "justification": "Aucune information sur la notification aux candidat·es non-retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
           "rempli": "partiel",
-          "justification": "restitution: 'Projet artistique participatif' — a_savoir: 'Dimension participative obligatoire' suggère médiation importante mais temps exact de production autonome non précisé",
+          "justification": "restitution: 'projet artistique participatif' avec obligation de dialogue avec le territoire local (logique participative plutôt que production autonome)",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "partiel",
-          "justification": "conditions_residence.duree.dates: 'printemps 2027' — fenêtre large mais imposée, dates non négociables",
+          "rempli": "non",
+          "justification": "duree: 8 semaines, dates: 'printemps 2027' (calendrier fixe sans marge)",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "non",
-          "justification": "restitution: 'Projet artistique participatif, thème : Perspective(s)' — aucune mention de diffusion presse, catalogue ou visibilité externe",
+          "rempli": "inconnu",
+          "justification": "restitution: 'projet artistique participatif' (pas de précision sur diffusion, catalogue, lieu reconnu ou visibilité au-delà de l'organisme)",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
-          "rempli": "non",
-          "justification": "Absence totale de mention d'alumni, suivi documenté ou accompagnement post-résidence",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de suivi alumni, d'accompagnement ultérieur ou de reconnaissance institutionnelle",
           "poids": 1,
           "famille": "debouche"
         }
@@ -1500,12 +1503,12 @@
       "uid": "41be1cd6",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-de-creation-participative-2027",
-      "fetched_at": "2026-08-05T09:33:01+00:00",
-      "score": 7,
+      "fetched_at": "2026-08-06T08:37:31+00:00",
+      "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence de création participative 2027",
-        "organisme": "Centre Psychothérapique de l'Ain (CPA), établissement de santé privé d'intérêt collectif géré par l'association ORSAC",
+        "organisme": "Centre Psychothérapique de l'Ain (CPA)",
         "lieu": {
           "ville": "Bourg-en-Bresse",
           "pays": "France",
@@ -1535,36 +1538,35 @@
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "Premier semestre 2027, inauguration début juin 2027"
+          "dates": "premier semestre 2027"
         },
-        "hebergement": true,
-        "atelier": "Salle d'atelier mise à disposition par le CPA ; accès possible aux ressources techniques du site selon les besoins du projet",
+        "hebergement": false,
+        "atelier": "salle d'atelier mise à disposition par le CPA",
         "remuneration": {
           "montant": 8000,
           "devise": "EUR",
           "periodicite": "forfait"
         },
         "voyage": {
-          "pris_en_charge": true,
+          "pris_en_charge": false,
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "Inauguration publique de la sculpture monumentale en juin 2027 dans le cadre de l'événement national « Rendez-vous aux Jardins »"
+        "restitution": "installation de l'œuvre et inauguration publique début juin 2027 lors de l'événement national « Rendez-vous aux Jardins »"
       },
       "partenaires": [
-        "Association ORSAC",
         "ESAT de la Ferme Dienet"
       ],
       "analyse": {
-        "synthese": "Le Centre Psychothérapique de l'Ain lance un appel à projet destiné aux artistes plasticiens et sculpteurs professionnels pour concevoir la quatrième sculpture monumentale du « Chemin des Arts », parcours ouvert dans son parc. L'œuvre doit être développée en co-création avec les patients, professionnels de l'hôpital et habitants, autour de la thématique « La fabrique des récits ». Une dotation forfaitaire de 8 000 € TTC couvre les honoraires, matériaux, production, ateliers participatifs, installation et éventuels frais de déplacement et hébergement. La réalisation est prévue au premier semestre 2027, avec inauguration en juin 2027 lors de l'événement national « Rendez-vous aux Jardins ».",
-        "pour_qui": "Artistes plasticiens et sculpteurs professionnels intéressés par la création participative, la rencontre avec des publics diversifiés et les projets impliquant une dimension sociale ou thérapeutique."
+        "synthese": "Programme de résidence artistique pour la création d'une sculpture monumentale participative dans le parc du Centre Psychothérapique de l'Ain à Bourg-en-Bresse, s'inscrivant dans le dispositif Culture NoMad depuis 2009. S'adresse aux artistes plasticiens et sculpteurs professionnels. Dotation de 8 000 € TTC couvrant honoraires, matériaux, production, animation d'ateliers participatifs et installation. La réalisation est prévue au premier semestre 2027 avec inauguration début juin dans le cadre de « Rendez-vous aux Jardins ». Une salle d'atelier est fournie ; des ateliers de co-création avec patients, soignants et habitants sont organisés sous la conduite de l'artiste autour de la thématique imposée « La fabrique des récits ».",
+        "pour_qui": "Artistes plasticiens ou sculpteurs professionnels intéressés par les projets participatifs et les créations monumentales en site-spécifique, particulièrement ceux engagés dans une démarche collaborative en milieu hospitalier."
       },
       "a_savoir": [
-        "Dotation de 8 000 € couvrant tous les frais (honoraires, matériaux, production, ateliers, installation) : enveloppe unique à répartir.",
-        "Thématique imposée (« La fabrique des récits ») : pas de liberté de sujet.",
-        "Participation et co-création obligatoires avec les patients et habitants : temps limité à la production libre.",
-        "Calendrier fixe (premier semestre 2027) : pas de flexibilité de dates.",
-        "Restitution majeure et publique : l'œuvre s'installe en extérieur dans le parc et inauguration nationale."
+        "Dotation très modeste (8 000 € pour l'ensemble : honoraires, matériaux, production, ateliers) pour une sculpture monumentale avec durée de vie minimale de 5 ans.",
+        "Calendrier imposé et serré : réalisation au premier semestre 2027 pour un projet d'envergure monumentale.",
+        "Thématique et processus très prescriptifs : création participative obligatoire avec patients et habitants constituant un élément central du projet.",
+        "Aucun délai de notification annoncé pour les candidat·es non retenu·es ; critères de sélection du jury non détaillés publiquement.",
+        "Frais de déplacement et hébergement à financer sur la dotation unique, réduisant la part disponible pour la réalisation matérielle de l'œuvre."
       ],
       "organisme_details": {
         "site_web": "https://www.cpa01.fr",
@@ -1576,84 +1578,84 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "\"remuneration\": {\"montant\": 8000, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
+          "justification": "remuneration: montant 8000 EUR, forfait",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "partiel",
-          "justification": "\"Éventuels frais de déplacement et d'hébergement inclus dans l'enveloppe forfaitaire\" (conditions_residence → voyage: pris_en_charge = true, mais inclus dans les 8000€)",
+          "rempli": "non",
+          "justification": "hebergement: false",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "\"Salle d'atelier mise à disposition par le CPA ; accès possible aux ressources techniques du site selon les besoins du projet\"",
+          "justification": "atelier: « salle d'atelier mise à disposition par le CPA »",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "partiel",
-          "justification": "\"voyage\": {\"pris_en_charge\": true} ; mais \"8 000 € TTC couvre les honoraires, matériaux, production, ateliers participatifs, installation\" — enveloppe unique forfaitaire, pas des prises en charge dédiées",
+          "justification": "voyage: {pris_en_charge: false} — seule la production (matériaux, honoraires, installation) est couverte par les 8000 €",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
-          "rempli": "non",
-          "justification": "\"Dotation de 8 000 € couvrant tous les frais (honoraires, matériaux, production, ateliers, installation) : enveloppe unique à répartir\" — montant serré pour un projet de sculpture monumentale en semi-résidence",
+          "rempli": "partiel",
+          "justification": "a_savoir: « Dotation très modeste (8 000 € pour l'ensemble : honoraires, matériaux, production, ateliers) » — viable mais serré à Bourg-en-Bresse (≈1230 €/mois sur un semestre)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "non",
-          "justification": "Aucun critère d'évaluation énoncé explicitement dans l'appel ; seul est mentionné le jury composé de professionnels et usagers, sans détail des critères",
+          "justification": "a_savoir: « Aucun délai de notification annoncé pour les candidat·es non retenu·es ; critères de sélection du jury non détaillés publiquement »",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "\"date_limite\": \"2026-09-08\" annoncée, mais aucune date ou délai de notification des résultats mentionné",
+          "justification": "a_savoir: « Aucun délai de notification annoncé pour les candidat·es non retenu·es »",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "non",
-          "justification": "Aucune mention dans la fiche d'une notification individuelle aux candidat·es non retenu·es",
+          "justification": "Aucune mention de notification individuelle aux non-retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
           "rempli": "non",
-          "justification": "\"Participation et co-création obligatoires avec les patients et habitants\" ; \"Des ateliers de co-création [...] seront organisés sous la conduite de l'artiste\"",
+          "justification": "a_savoir: « Thématique et processus très prescriptifs : création participative obligatoire avec patients et habitants constituant un élément central du projet »",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
           "rempli": "non",
-          "justification": "\"La réalisation de l'œuvre est prévue au premier semestre 2027, avec inauguration début juin 2027\" — calendrier imposé sans indication de flexibilité",
+          "justification": "a_savoir: « Calendrier imposé et serré : réalisation au premier semestre 2027 »",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "oui",
-          "justification": "\"Inauguration publique de la sculpture monumentale en juin 2027 dans le cadre de l'événement national « Rendez-vous aux Jardins »\"",
+          "justification": "restitution: « inauguration publique début juin 2027 lors de l'événement national Rendez-vous aux Jardins »",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "non",
-          "justification": "Aucune mention d'un suivi après l'inauguration (réseau alumni, collection, suivi documenté, etc.)",
+          "justification": "Aucune mention de réseau alumni, collection, ou accompagnement post-programme",
           "poids": 1,
           "famille": "debouche"
         }
@@ -1830,16 +1832,16 @@
       "uid": "53bddbf8",
       "type": "residence",
       "source_url": "https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite",
-      "fetched_at": "2026-08-04T09:45:47+00:00",
+      "fetched_at": "2026-08-06T09:40:14+00:00",
       "score": 7,
       "status": "ouverte",
       "opportunite": {
-        "nom": "Institut français x Cité internationale des arts",
-        "organisme": "Institut français, Cité internationale des arts",
+        "nom": "Institut français x Cité internationale des arts – Édition 2027",
+        "organisme": "Cité internationale des arts et Institut français",
         "lieu": {
           "ville": "Paris",
           "pays": "France",
-          "territoire": null
+          "territoire": "Île-de-France"
         }
       },
       "candidature": {
@@ -1850,24 +1852,24 @@
           "en"
         ],
         "frais_inscription": null,
-        "pieces_demandees": null,
-        "url_candidature": null
+        "pieces_demandees": [],
+        "url_candidature": "https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite"
       },
       "eligibilite": {
         "disciplines": [
           "Architecture, paysage, urbanisme",
           "Arts de la rue, cirque, marionnette",
           "Arts plastiques",
-          "Cinéma (cinéma d'animation, fiction, documentaire de création, art vidéo)",
-          "Création numérique (arts numériques, jeu vidéo, VR)",
+          "Cinéma",
+          "Création numérique",
           "Critique d'art et commissariat d'exposition",
           "Danse, performance",
           "Design, graphisme",
           "Gastronomie",
-          "Littérature (fiction, essai, littérature jeunesse, bande dessinée)",
+          "Littérature",
           "Métiers d'art",
           "Mode",
-          "Musique (musiques classique & contemporaine, musiques actuelles & jazz)",
+          "Musique",
           "Photographie",
           "Théâtre"
         ],
@@ -1879,10 +1881,10 @@
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "avril 2027 à avril 2028, durée négociable : 3, 6 ou 9 mois"
+          "dates": "trois, six ou neuf mois, entre avril 2027 et avril 2028"
         },
         "hebergement": true,
-        "atelier": "Ateliers-logements de 25 à 40 m² situés sur le site du Marais. Composition : une pièce de travail, une cuisine, une salle de bains et un espace nuit. Peuvent accueillir jusqu'à deux adultes et un enfant jusqu'à 10 ans.",
+        "atelier": "Ateliers-logements de 25 à 40 m² composés d'une pièce de travail, d'une cuisine, d'une salle de bains et d'un espace nuit. Conçus pour allier recherche-création et vie quotidienne.",
         "remuneration": {
           "montant": 1100,
           "devise": "EUR",
@@ -1900,17 +1902,19 @@
         "Cité internationale des arts"
       ],
       "analyse": {
-        "synthese": "Ce programme permet aux artistes résidant à l'étranger depuis au moins 5 ans de développer un projet de recherche et de création à Paris pendant 3, 6 ou 9 mois entre avril 2027 et avril 2028. Environ 70 lauréats provenant du monde entier sont accueillis annuellement. L'Institut français et la Cité internationale des arts fournissent un atelier-logement de 25 à 40 m². Le partenaire associé de chaque artiste finance une allocation minimum de 1100€ mensuels, le voyage international, l'assurance et les frais de visa. Les prestations complémentaires restent à la charge des résidants.",
-        "pour_qui": "Artistes et professionnels de la culture de toutes nationalités, maîtrisant le français et/ou l'anglais à niveau professionnel, engagés dans une démarche professionnelle reconnue et parrainés obligatoirement par une structure culturelle associée."
+        "synthese": "Le programme Institut français x Cité internationale des arts (édition 2027) accueille environ 70 artistes de toutes nationalités pour une résidence de 3, 6 ou 9 mois à Paris entre avril 2027 et avril 2028. Chaque lauréat reçoit un atelier-logement de 25 à 40 m², une allocation minimum de 1 100 € par mois, la prise en charge du voyage et de l'assurance par le partenaire associé. Le programme s'adresse aux artistes de plus de 20 disciplines ayant résidé hors de France depuis au moins 5 ans et portés par un partenaire associé reconnu.",
+        "pour_qui": "Artistes et professionnels de la culture de toutes nationalités, sans limite d'âge, ayant résidé hors de France depuis au moins 5 ans, dans les disciplines reconnues, libérés de toute activité professionnelle durant la résidence."
       },
       "a_savoir": [
-        "Les candidatures directes d'artistes ne sont pas acceptées ; un partenaire associé (Institut français, structure culturelle reconnue, galerie, etc.) est obligatoire",
-        "La résidence requiert une disponibilité totale : être libéré de toute activité professionnelle pendant toute la durée",
-        "Les ateliers-logements ne répondent pas aux normes actuelles d'accessibilité pour les personnes en situation de handicap",
-        "Allocation minimum de 1100€/mois financée par le partenaire associé, pas par l'Institut français ; taux modeste pour le coût de vie parisien"
+        "Candidatures obligatoirement portées par un partenaire associé : pas d'autocandidat accepté.",
+        "Condition stricte de résidence hors France depuis minimum 5 ans.",
+        "Ateliers-logements ne répondant pas aux normes actuelles d'accessibilité aux personnes en situation de handicap.",
+        "Frais supplémentaires pour les accompagnants (non chiffrés dans l'appel).",
+        "Maîtrise du français et/ou anglais à niveau professionnel requise.",
+        "Allocation de 1 100 € par mois versée par le partenaire, modeste au regard du coût de la vie à Paris."
       ],
       "organisme_details": {
-        "site_web": null,
+        "site_web": "https://www.citeinternationaledesarts.fr/",
         "adresse": null,
         "ville": "Paris",
         "contact_email": null
@@ -1919,84 +1923,84 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "\"remuneration\": {\"montant\": 1100, \"devise\": \"EUR\", \"periodicite\": \"mois\"}",
+          "justification": "\"montant\": 1100, \"devise\": \"EUR\", \"periodicite\": \"mois\"",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "oui",
-          "justification": "\"hebergement\": true, \"Ateliers-logements de 25 à 40 m² situés sur le site du Marais\"",
+          "justification": "\"hebergement\": true, \"atelier\": \"Ateliers-logements de 25 à 40 m²...\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "\"Composition : une pièce de travail, une cuisine, une salle de bains et un espace nuit\"",
+          "justification": "\"atelier\": \"...composés d'une pièce de travail, d'une cuisine, d'une salle de bains et d'un espace nuit\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "partiel",
-          "justification": "\"voyage\": {\"pris_en_charge\": true} + \"Le partenaire associé finança le voyage international, l'assurance et frais de visa\" — transport d'œuvres/frais de production non mentionnés",
+          "rempli": "oui",
+          "justification": "\"voyage\": {\"pris_en_charge\": true}, et \"la prise en charge du voyage et de l'assurance par le partenaire\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "partiel",
-          "justification": "\"montant\": 1100 EUR/mois + hébergement fourni, mais qualifié de \"montant modeste pour le coût de la vie parisien en 2027\"",
+          "justification": "\"Allocation de 1 100 € par mois versée par le partenaire, modeste au regard du coût de la vie à Paris\"",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "partiel",
-          "justification": "\"maîtrisant le français et/ou l'anglais à niveau professionnel, engagés dans une démarche professionnelle reconnue\" — critères d'éligibilité énoncés, pas critères de sélection du jury",
+          "justification": "Critères d'éligibilité énoncés (discipline, résidence) mais \"critères de sélection précis du jury non détaillés\"",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "Aucune date ou délai d'annonce des résultats spécifié dans la fiche",
+          "rempli": "oui",
+          "justification": "\"annonce des résultats en janvier 2027\"",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "non",
-          "justification": "Absence totale de mention d'une notification aux candidats non retenus",
+          "justification": "Aucune mention de notification individuelle aux candidats non retenus dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "oui",
-          "justification": "\"permettant aux artistes de développer un projet de recherche et de création\", \"La résidence requiert une disponibilité totale : être libéré de toute activité professionnelle pendant toute la durée\"",
+          "rempli": "inconnu",
+          "justification": "Pas de précision sur les obligations de médiation ou d'ateliers publics imposés par l'organisme",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "oui",
-          "justification": "\"durée négociable : 3, 6 ou 9 mois\", \"avril 2027 à avril 2028\"",
+          "rempli": "partiel",
+          "justification": "\"trois, six ou neuf mois, entre avril 2027 et avril 2028\" — durées variables mais fenêtre temporelle fixe",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "inconnu",
-          "justification": "\"restitution\": null, aucune mention de modalités d'exposition, publication ou diffusion",
+          "justification": "\"restitution\": null, aucune modalité de restitution précisée",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
-          "justification": "Aucune mention de réseau alumni, collection, ou accompagnement post-résidence",
+          "justification": "Aucune mention de réseau alumni, d'accompagnement post-résidence ou de suivi documenté",
           "poids": 1,
           "famille": "debouche"
         }
@@ -2674,7 +2678,7 @@
       "uid": "660d0fed",
       "type": "residence",
       "source_url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama",
-      "fetched_at": "2026-08-04T09:36:36+00:00",
+      "fetched_at": "2026-08-06T09:29:10+00:00",
       "score": 6,
       "status": "indetermine",
       "opportunite": {
@@ -2689,11 +2693,10 @@
       "candidature": {
         "date_limite": null,
         "date_limite_precision": null,
-        "langue_dossier": null,
-        "frais_inscription": {
-          "montant": null,
-          "devise": null
-        },
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
         "pieces_demandees": null,
         "url_candidature": null
       },
@@ -2711,13 +2714,14 @@
           "Spectacle vivant",
           "Musique",
           "Commissariat d'exposition",
-          "Gastronomie",
-          "Littérature",
-          "Danse",
-          "Théâtre",
+          "Graphisme",
           "Arts de la rue",
           "Cirque",
-          "Marionnette"
+          "Marionnette",
+          "Danse",
+          "Théâtre",
+          "Littérature",
+          "Gastronomie"
         ],
         "niveau_carriere": "confirmé·e",
         "age_max": null,
@@ -2727,34 +2731,34 @@
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "4 à 6 mois pour les résidences régulières, 1 mois pour le Prix Liliane Bettencourt"
+          "dates": "4 à 6 mois"
         },
         "hebergement": null,
         "atelier": null,
-        "remuneration": {
-          "montant": null,
-          "devise": null,
-          "periodicite": null
-        },
+        "remuneration": null,
         "voyage": {
-          "pris_en_charge": null,
+          "pris_en_charge": false,
           "plafond": null,
-          "devise": null
+          "devise": "EUR"
         },
         "restitution": null
       },
       "partenaires": [
-        "Fondation Bettencourt Schueller"
+        "Institut français",
+        "Fondation Bettencourt Schueller",
+        "Ministère de la Culture",
+        "Institut français du Japon"
       ],
       "analyse": {
-        "synthese": "La Villa Kujoyama est une résidence artistique française implantée à Kyoto depuis 1992, proposant des séjours de 4 à 6 mois. Elle accueille environ 15 lauréats par an pour des projets de recherche pluridisciplinaires. S'adresse à des artistes et créateurs confirmés portant un projet singulier avec lien au territoire. Accepte candidatures en solo, binôme ou duo franco-japonais. Aucune information sur conditions financières, hébergement ou date limite de candidature n'est fournie dans le texte.",
-        "pour_qui": "Artistes, créateurs et créatrices confirmés, ainsi que scientifiques en binôme ou duo avec des artistes, portant un projet de recherche singulier nécessitant une immersion et des recherches au Japon."
+        "synthese": "La Villa Kujoyama est une résidence artistique française pluridisciplinaire implantée à Kyoto, Japon, accueillant environ 15 lauréats par an pour des séjours de 4 à 6 mois. Elle s'adresse à des artistes, créateurs et scientifiques confirmés porteurs de projets de recherche originaux en lien avec les enjeux du territoire. Les résidents bénéficient d'un appui de l'équipe de la Villa et d'accès au réseau français au Japon constitué de 5 antennes de l'Institut français, 4 Alliances françaises, et d'un institut de recherche.",
+        "pour_qui": "Artistes, créateurs et créatrices confirmés, scientifiques en binôme ou duo franco-japonais avec des artistes, portant des projets de recherche singuliers nécessitant une immersion au Japon."
       },
       "a_savoir": [
-        "Page listing des lauréats passés et futurs plutôt qu'appel à candidature ouvert avec deadline explicite",
-        "Aucune mention de rémunération, hébergement, frais d'inscription ou prise en charge des frais",
-        "Pas d'URL de candidature ou formulaire de dépôt indiqué",
-        "Conditions d'accueil (hébergement, atelier, restitution) non précisées explicitement"
+        "Pas de date limite de candidature mentionnée sur cette page",
+        "Pas de rémunération, dotation ou per diem mentionné",
+        "Pas de frais de candidature mentionnés",
+        "Pas de détails sur conditions matérielles (hébergement, allocations, équipements fournis)",
+        "Page présente les résultats de sélections (2026, 2027) plutôt qu'un appel ouvert"
       ],
       "organisme_details": {
         "site_web": null,
@@ -2766,84 +2770,84 @@
         {
           "id": "retribution",
           "rempli": "non",
-          "justification": "synthese: 'Aucune information sur conditions financières' + a_savoir: 'Aucune mention de rémunération'",
+          "justification": "remuneration: null; a_savoir: 'Pas de rémunération, dotation ou per diem mentionné'",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "inconnu",
-          "justification": "synthese: 'Aucune information sur [...] hébergement n'est fournie dans le texte'",
+          "justification": "hebergement: null (fiche: résidence artistique, mais logement non explicité)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "inconnu",
-          "justification": "a_savoir: 'Conditions d'accueil (hébergement, atelier, restitution) non précisées explicitement'",
+          "justification": "atelier: null; a_savoir: 'Pas de détails sur conditions matérielles (hébergement, allocations, équipements fournis)'",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "non",
-          "justification": "a_savoir: 'Aucune mention de [...] prise en charge des frais'",
+          "justification": "voyage.pris_en_charge: false",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
-          "rempli": "inconnu",
-          "justification": "criteres_programme: 'Impossible à évaluer sans information sur la rémunération ou per diem'",
+          "rempli": "non",
+          "justification": "remuneration: null + lieu: Kyoto (coût de la vie élevé) → évaluation impossible, aucune dotation",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "partiel",
-          "justification": "pour_qui: 'Artistes [...] portant un projet de recherche singulier' (critères implicites), mais pas énumération explicite des critères de sélection",
+          "justification": "disciplines: [liste complète] + niveau_carriere: 'confirmé·e' ; mais a_savoir: 'critères précis de sélection appliqués ne sont pas énoncés explicitement'",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "candidature.date_limite: null + a_savoir: 'Page listing des lauréats passés et futurs plutôt qu'appel à candidature ouvert avec deadline explicite'",
+          "justification": "date_limite: null; a_savoir: 'Pas de date limite de candidature mentionnée sur cette page'",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
-          "rempli": "inconnu",
-          "justification": "synthese: 'Aucune information sur [...] date limite de candidature n'est fournie' (absence de mention du retour aux non-retenu·es)",
+          "rempli": "non",
+          "justification": "Aucune mention de notification aux candidats non retenus dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "synthese: 'séjours de 4 à 6 mois [...] pour des projets de recherche' mais conditions_residence.restitution: null (obligations de médiation ou ateliers publics non précisées)",
+          "rempli": "oui",
+          "justification": "pour_qui: 'projets de recherche singuliers nécessitant une immersion' ; synthese: pas d'obligations de médiation ou d'ateliers publics énumérées",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "non",
-          "justification": "conditions_residence.duree.dates: '4 à 6 mois pour les résidences régulières, 1 mois pour le Prix Liliane Bettencourt' (durées fixes)",
+          "rempli": "partiel",
+          "justification": "duree.dates: '4 à 6 mois' (plage suggère flexibilité, mais dates précises non clarifiées comme négociables)",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "inconnu",
-          "justification": "conditions_residence.restitution: null + a_savoir: 'Conditions d'accueil [...] restitution non précisées explicitement'",
+          "justification": "restitution: null; a_savoir: 'Pas de détails sur conditions matérielles [ou visibilité de la restitution]'",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
-          "rempli": "inconnu",
-          "justification": "synthese: absence totale de mention d'accompagnement post-résidence, réseau alumni ou suivi documenté",
+          "rempli": "partiel",
+          "justification": "synthese: 'bénéficient d'un appui de l'équipe de la Villa et d'accès au réseau français au Japon' ; mais pas de programme alumni explicite documenté",
           "poids": 1,
           "famille": "debouche"
         }
@@ -3206,12 +3210,12 @@
       "uid": "6c77a484",
       "type": "residence",
       "source_url": "https://www.cnap.fr/annonces/residence-dartiste-venissieux",
-      "fetched_at": "2026-08-05T09:31:24+00:00",
+      "fetched_at": "2026-08-06T08:34:16+00:00",
       "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidence d'artiste à Vénissieux",
-        "organisme": "Centre d'art Madeleine-Lambert",
+        "organisme": "Centre d'art Madeleine Lambert",
         "lieu": {
           "ville": "Vénissieux",
           "pays": "France",
@@ -3224,12 +3228,16 @@
         "langue_dossier": [
           "fr"
         ],
-        "frais_inscription": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
         "pieces_demandees": [
           "CV",
           "Dossier de présentation du travail artistique avec des visuels",
-          "Note d'intention (max 1 500 signes espaces compris)",
-          "Justificatif d'immatriculation (avis de situation SIRENE, extrait Kbis ou document équivalent)"
+          "Note d'intention (max 1500 signes espaces compris)",
+          "Tout document jugé intéressant pour compléter le dossier (sauf œuvres originales)",
+          "Justificatif d'immatriculation (avis de situation SIRENE, extrait Kbis ou équivalent)"
         ],
         "url_candidature": "mailto:centredart@ville-venissieux.fr"
       },
@@ -3248,7 +3256,7 @@
           "dates": null
         },
         "hebergement": null,
-        "atelier": "Appui logistique, matériel et outillage du Centre d'art ; accès potentiel à d'autres services municipaux (espaces verts, ateliers techniques, archives)",
+        "atelier": "Appui logistique, matériel et outillage du Centre d'art. Accès potentiel à d'autres services municipaux selon le projet (espaces verts, ateliers techniques, archives)",
         "remuneration": {
           "montant": 3500,
           "devise": "EUR",
@@ -3262,20 +3270,20 @@
         "restitution": null
       },
       "partenaires": [
-        "Centre d'art Madeleine-Lambert"
+        "Centre d'art Madeleine Lambert",
+        "Services municipaux de Vénissieux"
       ],
       "analyse": {
-        "synthese": "Le Centre d'art Madeleine-Lambert à Vénissieux propose une résidence d'artiste dotée d'une rémunération de 2000 € et d'une aide à la production de 1500 €. L'artiste bénéficie de l'accompagnement des équipes du centre, d'accès au matériel et à l'outillage, ainsi qu'à d'autres ressources municipales selon ses besoins. L'appel s'adresse aux artistes plasticiens ayant déjà un engagement professionnel justifié. La date limite de candidature est le 7 septembre 2026. Cependant, la durée de la résidence, les conditions d'hébergement et les modalités de restitution ne sont pas précisées.",
-        "pour_qui": "Artistes plasticiens ayant déjà un engagement professionnel justifié et immatriculés (SIRENE, Kbis ou équivalent)."
+        "synthese": "Centre d'art Madeleine Lambert de Vénissieux propose une résidence d'artiste offrant 2000 € de rémunération et 1500 € d'aide à la production, accompagnement des équipes, accès au matériel et potentiellement aux ressources municipales. S'adresse aux artistes plasticien·nes en activité professionnelle justifiant d'une immatriculation légale. Candidature avant le 7 septembre 2026 avec CV, dossier artistique illustré, note d'intention et justificatif d'immatriculation. Durée, calendrier et restitution finale non précisés.",
+        "pour_qui": "Artistes plasticien·nes en activité professionnelle disposant d'une immatriculation légale (SIRENE/Kbis), souhaitant développer un projet de création avec l'accompagnement d'une structure d'art contemporain."
       },
       "a_savoir": [
         "Durée de la résidence non spécifiée",
-        "Hébergement non mentionné (l'artiste devra peut-être se loger à ses frais)",
-        "Conditions de restitution / exposition non mentionnées",
-        "Critères de sélection du jury non publiés",
+        "Calendrier/dates de séjour non mentionnés",
+        "Restitution et modalités finales non documentées",
         "Pas de délai de notification des résultats annoncé",
-        "Dossier d'immatriculation professionnel obligatoire (barrière potentielle pour les jeunes artistes)",
-        "Candidature par email uniquement (pas de plateforme dédiée)"
+        "Exigence d'immatriculation professionnelle (SIRENE/Kbis)",
+        "Hébergement non mentionné"
       ],
       "organisme_details": {
         "site_web": "https://culture.venissieux.fr/centre-dart-madeleine-lambert/",
@@ -3287,13 +3295,13 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "\"montant\": 3500, \"devise\": \"EUR\", \"periodicite\": \"forfait\"",
+          "justification": "\"remuneration\": {\"montant\": 3500, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "inconnu",
+          "rempli": "non",
           "justification": "\"hebergement\": null",
           "poids": 2,
           "famille": "conditions_materielles"
@@ -3308,63 +3316,63 @@
         {
           "id": "frais_pris_en_charge",
           "rempli": "partiel",
-          "justification": "\"voyage\": {\"pris_en_charge\": false} — aide à la production incluse mais trajet non couvert",
+          "justification": "\"voyage\": {\"pris_en_charge\": false}; matériel du centre fourni mais transport non couvert",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "inconnu",
-          "justification": "\"duree\": {\"semaines\": null, \"dates\": null} — impossible d'évaluer sans connaître la durée",
+          "justification": "\"duree\": {\"semaines\": null, \"dates\": null}",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "non",
-          "justification": "\"Critères de sélection du jury non publiés\" (a_savoir)",
+          "justification": "\"pieces_demandees\" énumérées mais aucune rubrique explicite sur les critères de sélection du jury",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "\"Pas de délai de notification des résultats annoncé\" (a_savoir)",
+          "justification": "Aucun délai de notification ni date indicative dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "non",
-          "justification": "Aucune mention de notification individualisée aux candidat·es non retenu·es",
+          "justification": "Aucune mention de notification aux candidat·es non retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "\"accompagnement des équipes du centre\" mentionné, mais ampleur des obligations de médiation non précisée",
+          "rempli": "partiel",
+          "justification": "\"atelier\": \"Accès potentiel à d'autres services municipaux selon le projet\" — accompagnement mentionné mais obligations non précisées",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "non",
-          "justification": "\"duree\": {\"semaines\": null, \"dates\": null} — pas de flexibilité calendaire annoncée",
+          "rempli": "inconnu",
+          "justification": "\"duree\": {\"semaines\": null, \"dates\": null}",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "non",
-          "justification": "\"restitution\": null — « Conditions de restitution / exposition non mentionnées » (a_savoir)",
+          "rempli": "inconnu",
+          "justification": "\"restitution\": null",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "non",
-          "justification": "Aucun suivi documenté après le programme (alumni, accompagnement futur) mentionné",
+          "justification": "Aucune mention de suivi post-résidence, alumni network ou accompagnement ultérieur",
           "poids": 1,
           "famille": "debouche"
         }
@@ -3536,8 +3544,8 @@
       "uid": "762972f7",
       "type": "residence",
       "source_url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale",
-      "fetched_at": "2026-08-04T09:30:39+00:00",
-      "score": 6,
+      "fetched_at": "2026-08-06T09:23:39+00:00",
+      "score": 7,
       "status": "ouverte",
       "opportunite": {
         "nom": "Résidences Institut français x Cité internationale des arts",
@@ -3545,7 +3553,7 @@
         "lieu": {
           "ville": "Paris",
           "pays": "France",
-          "territoire": "Cité internationale des arts, site du Marais"
+          "territoire": null
         }
       },
       "candidature": {
@@ -3557,12 +3565,12 @@
         ],
         "frais_inscription": null,
         "pieces_demandees": null,
-        "url_candidature": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
           "Architecture",
-          "Arts Visuels / Photographie",
+          "Arts visuels / Photographie",
           "Cinéma",
           "Création numérique",
           "Livre",
@@ -3572,15 +3580,15 @@
         "niveau_carriere": "confirmé·e",
         "age_max": null,
         "nationalite": "sans restriction",
-        "residence_administrative": "Résider hors du territoire français de manière permanente depuis au moins 5 ans"
+        "residence_administrative": "hors France depuis au moins 5 ans"
       },
       "conditions_residence": {
         "duree": {
           "semaines": null,
-          "dates": "Quatre périodes : 09/04-05/07/2027, 09/07-04/10/2027, 08/10/2027-03/01/2028, 07/01-03/04/2028. Durées : 3, 6 ou 9 mois (1, 2 ou 3 trimestres consécutifs)"
+          "dates": "avril 2027 – avril 2028 (3, 6 ou 9 mois consécutifs)"
         },
         "hebergement": true,
-        "atelier": "Ateliers-logements individuels meublés à la Cité internationale des arts (18 rue de l'Hôtel de Ville, Paris 4e), avec pièce de travail, chambre, salle de bain, kitchenette, connexion Wifi",
+        "atelier": "Studio-logement meublé au Marais (18 rue de l'Hôtel de Ville, Paris 4e) avec pièce de travail, chambre, salle de bain, kitchenette et connexion Wifi. Possibilité d'accès à studios de répétition et ateliers collectifs (à charge de l'artiste).",
         "remuneration": {
           "montant": 1100,
           "devise": "EUR",
@@ -3594,24 +3602,22 @@
         "restitution": null
       },
       "partenaires": [
-        "Institut français",
         "Cité internationale des arts"
       ],
       "analyse": {
-        "synthese": "Programme de résidences de 3, 6 ou 9 mois à Paris pour artistes et professionnels de la culture résidant hors de France depuis au moins 5 ans. Hébergement meublé fourni à la Cité internationale des arts, avec atelier-logement individuel (pièce de travail, chambre, salle de bain, kitchenette). Partenaires associés doivent couvrir allocation minimum 1100 € par mois, voyage international, assurance et frais de visa. Sélection sur dossier : parcours professionnel, qualité artistique du projet, protocole de travail, lien avec scène française. Inscription jusqu'au 8 octobre 2026 pour séjours entre avril 2027 et avril 2028.",
-        "pour_qui": "Artistes et professionnels de la culture de niveau professionnel reconnu, résidant de manière permanente hors du territoire français depuis au moins 5 ans."
+        "synthese": "Le programme offre une résidence de 3, 6 ou 9 mois à Paris (avril 2027 – avril 2028) pour des artistes professionnels résidant hors de France depuis au moins 5 ans. L'Institut français finance le logement-studio à la Cité internationale des arts (18 rue de l'Hôtel de Ville). Les partenaires associés garantissent une allocation de résidence minimum de 1100 €/mois, le voyage international, l'assurance et les frais de visa. La sélection évalue le parcours professionnel, la qualité du projet, le protocole de travail et les contacts dans le milieu artistique français. Les candidatures ferment le 8 octobre 2026.",
+        "pour_qui": "Artistes et professionnels de la culture établis hors du territoire français, engagés dans une démarche professionnelle reconnue et disposant du soutien d'au moins un partenaire associé."
       },
       "a_savoir": [
-        "Allocation mensuelle modérée (1100€ minimum) pour Paris, ville à coût de la vie élevé",
-        "Financement reposant entièrement sur les partenaires associés de l'artiste, pas directement l'Institut français",
-        "Exigence de maîtrise du français ou de l'anglais à niveau professionnel",
-        "Obligation d'être totalement libéré de toute activité professionnelle durant la résidence",
-        "Aucun délai ou date de notification des résultats indiqué",
-        "Pièces demandées non précisées dans l'appel (consulter FAQ)"
+        "Obligation d'être soutenu par un partenaire associé : pas d'accès direct pour les artistes indépendants non soutenus.",
+        "Critère d'éligibilité strict : résider hors du territoire français de manière permanente depuis au moins 5 ans.",
+        "Allocation minimale de 1100 €/mois financée par le(s) partenaire(s), pas garantie directe de l'Institut français.",
+        "Les prestations complémentaires (accompagnateur, studios de répétition, ateliers collectifs, cours de français) restent entièrement à charge de l'artiste.",
+        "Calendrier de résidence imposé en 4 périodes trimestrielles prédéfinies : flexibilité limitée malgré possibilité d'exprimer des préférences."
       ],
       "organisme_details": {
-        "site_web": "https://www.institutfrancais.com/",
-        "adresse": "18 rue de l'Hôtel de Ville, 75004 Paris",
+        "site_web": "https://www.institutfrancais.com",
+        "adresse": "18 rue de l'Hôtel de Ville, Paris 4e",
         "ville": "Paris",
         "contact_email": null
       },
@@ -3619,84 +3625,84 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "remuneration: montant 1100 EUR par mois",
+          "justification": "remuneration: montant 1100 EUR, periodicite mois",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "oui",
-          "justification": "hebergement: true; atelier: Ateliers-logements individuels meublés à la Cité internationale des arts",
+          "justification": "atelier: Studio-logement meublé au Marais (18 rue de l'Hôtel de Ville, Paris 4e) avec pièce de travail, chambre, salle de bain, kitchenette et connexion Wifi",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "atelier: pièce de travail, chambre, salle de bain, kitchenette, connexion Wifi",
+          "justification": "atelier: pièce de travail meublée, équipée Wifi, avec possibilité d'accès à studios de répétition et ateliers collectifs",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
           "rempli": "oui",
-          "justification": "voyage.pris_en_charge: true; analyse: voyage international, assurance et frais de visa pris en charge par le partenaire associé",
+          "justification": "synthèse: le voyage international, l'assurance et les frais de visa sont pris en charge par le(s) partenaire(s)",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "partiel",
-          "justification": "a_savoir: Allocation mensuelle modérée (1100€ minimum) pour Paris, ville à coût de la vie élevé",
+          "justification": "remuneration 1100 EUR/mois + lieu Paris 4e: subsistance de base possible mais marge très réduite selon a_savoir",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "oui",
-          "justification": "analyse.synthese: Sélection sur dossier : parcours professionnel, qualité artistique du projet, protocole de travail, lien avec scène française",
+          "justification": "synthèse: La sélection évalue le parcours professionnel, la qualité du projet, le protocole de travail et les contacts dans le milieu artistique français",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "a_savoir: Aucun délai ou date de notification des résultats indiqué",
+          "justification": "(absent) — aucune date ou délai de notification mentionné dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
-          "rempli": "inconnu",
-          "justification": "Aucune mention dans la fiche de notification individualisée aux candidat·es non retenu·es",
+          "rempli": "non",
+          "justification": "(absent) — pas de mention de notification individuelle aux candidat·es non retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
           "rempli": "oui",
-          "justification": "a_savoir: Obligation d'être totalement libéré de toute activité professionnelle durant la résidence; prestations complémentaires non imposées",
+          "justification": "synthèse: la résidence est dédiée à la 'recherche et création' de l'artiste; a_savoir: prestations complémentaires restent à charge de l'artiste",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "oui",
-          "justification": "conditions_residence.duree.dates: Quatre périodes proposées; Durées flexibles de 3, 6 ou 9 mois",
+          "rempli": "partiel",
+          "justification": "a_savoir: possibilité d'exprimer des préférences mais calendrier imposé en 4 périodes trimestrielles prédéfinies avec flexibilité limitée",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "non",
-          "justification": "restitution: null; a_savoir: Aucune mention de restitution publique, exposition ou présentation finale",
+          "justification": "(absent) — restitution field is null; pas de mention d'exposition, catalogue ou présentation publique",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "non",
-          "justification": "a_savoir: Pas de mention de suivi documenté après le programme, réseau alumni ou accompagnement vers d'autres opportunités",
+          "justification": "(absent) — pas de mention de réseau alumni, suivi documenté ou accompagnement post-programme",
           "poids": 1,
           "famille": "debouche"
         }
@@ -5206,6 +5212,163 @@
       ]
     },
     {
+      "uid": "b38012e2",
+      "type": "residence",
+      "source_url": "https://www.cnap.fr/annonces/residence-dartistes-2027-boghossian-foundation",
+      "fetched_at": "2026-08-06T08:28:51+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidence d'artistes 2027 - Boghossian Foundation",
+        "organisme": "Boghossian Foundation",
+        "lieu": {
+          "ville": "Bruxelles",
+          "pays": "Belgique",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-08-31",
+        "date_limite_precision": "day",
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "2 à 3 mois"
+        },
+        "hebergement": true,
+        "atelier": "Studio 24/24h disponible",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Creative Armenia"
+      ],
+      "analyse": {
+        "synthese": "La Boghossian Foundation propose une résidence d'artistes à la Villa Empain (Bruxelles) de 2 à 3 mois, ouverte à des artistes de tous horizons poursuivant un travail créatif et de recherche. Un studio 24/24h et des chambres individuelles sont mis à disposition, et le voyage des artistes étrangers est pris en charge. La Fondation favorise les échanges avec le Moyen-Orient et l'Arménie (trois artistes arméniens annuellement). Calendrier flexible adapté au projet de l'artiste et à la disponibilité des chambres. Date limite de candidature : 31 août 2026.",
+        "pour_qui": "Artistes de tous horizons poursuivant un travail créatif et de recherche, avec accent particulier sur les jeunes talents du Moyen-Orient et d'Arménie."
+      },
+      "a_savoir": [
+        "Aucune rémunération, bourse ou per diem mentionné pour soutenir les frais de vie sur place",
+        "Hébergement et studio non disponibles pour les artistes résidant à Bruxelles (résidence externe avec accès studio uniquement)",
+        "Aucun critère de sélection explicitement énoncé sur la page d'appel",
+        "Pas de date ou délai de notification des résultats communiqué",
+        "Préférence affiché pour les échanges avec Moyen-Orient et Arménie (peut influencer les sélections réelles)"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Bruxelles",
+        "contact_email": "residency@boghossianfoundation.be"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "remuneration.montant: null",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true (trois chambres individuelles)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: \"Studio 24/24h disponible\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "voyage.pris_en_charge: true (voyage seulement, pas frais de production)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "remuneration.montant: null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "analyse.a_savoir: \"Aucun critère de sélection explicitement énoncé sur la page d'appel\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "analyse.a_savoir: \"Pas de date ou délai de notification des résultats communiqué\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention explicite dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "analyse.synthese: \"poursuivant un travail créatif et de recherche\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "conditions_residence.duree.dates: \"2 à 3 mois\" (adapté au projet et disponibilité)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "conditions_residence.restitution: null",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Pas de mention d'alumni ou suivi post-résidence dans la fiche",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "bcd3a041",
       "type": "residence",
       "source_url": "https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video",
@@ -5369,7 +5532,7 @@
       "uid": "c16312c6",
       "type": "residence",
       "source_url": "https://www.citeinternationaledesarts.fr/appels-a-candidature/republique-dominicaine-x-cite-internationale-des-arts",
-      "fetched_at": "2026-08-04T09:43:36+00:00",
+      "fetched_at": "2026-08-06T09:38:14+00:00",
       "score": 7,
       "status": "bientot-fermee",
       "opportunite": {
@@ -5378,7 +5541,7 @@
         "lieu": {
           "ville": "Paris",
           "pays": "France",
-          "territoire": null
+          "territoire": "Marais"
         }
       },
       "candidature": {
@@ -5390,11 +5553,11 @@
         ],
         "frais_inscription": null,
         "pieces_demandees": [
-          "Curriculum vitæ (4 pages maximum, format PDF)",
-          "Dossier artistique comprenant une dizaine de visuels d'œuvres passées avec légendes (10 pages maximum, format PDF, 10 Mo max.)",
-          "Lettre d'intention (3 pages maximum, format PDF)"
+          "Curriculum vitæ (PDF, 4 pages max)",
+          "Dossier artistique avec visuels d'œuvres (PDF, 10 pages max, 10 Mo max)",
+          "Lettre d'intention (PDF, 3 pages max)"
         ],
-        "url_candidature": "https://www.citeinternationaledesarts.fr/appels-a-candidature/republique-dominicaine-x-cite-internationale-des-arts"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
@@ -5410,15 +5573,15 @@
         "niveau_carriere": "confirmé·e",
         "age_max": null,
         "nationalite": "dominicaine",
-        "residence_administrative": "République dominicaine depuis au moins deux ans"
+        "residence_administrative": "République dominicaine"
       },
       "conditions_residence": {
         "duree": {
-          "semaines": 12,
-          "dates": "5 janvier au 26 mars 2027 ou 2 avril au 28 juin 2027"
+          "semaines": null,
+          "dates": "5 janvier - 26 mars 2027 / 2 avril - 28 juin 2027"
         },
         "hebergement": true,
-        "atelier": "Espace meublé unique de travail et de vie de 20 à 35m², composé d'une pièce de travail, cuisine, salle de bains et espace nuit",
+        "atelier": "Atelier-logement de 20 à 35 m² sur le site du Marais, composé d'une pièce de travail, cuisine, salle de bains, espace nuit",
         "remuneration": {
           "montant": 1000,
           "devise": "EUR",
@@ -5429,24 +5592,25 @@
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "Restitution de la recherche dans les open studios hebdomadaires de la Cité et remise d'un compte rendu détaillé des activités réalisées et du processus créatif engagé"
+        "restitution": "Restitution de la recherche lors des open studios hebdomadaires de la Cité internationale des arts; compte rendu détaillé des activités réalisées et du processus créatif (format visuel et textuel) obligatoire"
       },
       "partenaires": [
         "Ambassade de la République dominicaine en France",
-        "Banco de Reservas",
+        "Banco de Reservas de la República Dominicana",
+        "Banco Múltiple",
         "Centre culturel Banreservas"
       ],
       "analyse": {
-        "synthese": "Résidence de recherche de trois mois à Paris pour artistes visuels dominicains, co-organisée par l'Ambassade de la République dominicaine et la Cité internationale des arts. Deux sessions proposées en 2027 (janvier-mars et avril-juin). Le programme fournit atelier-logement de 20 à 35m², bourse mensuelle de 1000 euros nets, transport aérien aller-retour jusqu'à Paris et assurance voyage et santé. Restitution obligatoire via open studios et compte rendu détaillé des activités.",
-        "pour_qui": "Artistes visuels dominicains ayant au minimum 3 ans d'expérience professionnelle, de nationalité dominicaine, résidant en République dominicaine depuis 2 ans, et maîtrisant l'anglais ou le français en contexte professionnel."
+        "synthese": "Programme de résidence de 3 mois destiné à 2 artistes visuels de nationalité dominicaine, proposé par la Cité internationale des arts en partenariat avec l'Ambassade de la République dominicaine et Banco de Reservas. Deux périodes disponibles : 5 janvier - 26 mars 2027 et 2 avril - 28 juin 2027. Comprend un atelier-logement (20-35 m²), une bourse mensuelle de 1 000 euros nets, prise en charge du transport international et assurance voyage/santé, accompagnement et mise en réseau. Les candidats doivent justifier de 3 ans d'expérience professionnelle minimale, être résidents en République dominicaine depuis au moins 2 ans, et maîtriser l'anglais ou le français. Date limite : 30 août 2026; résultats annoncés en octobre 2026.",
+        "pour_qui": "Artistes visuels confirmés (3+ ans d'expérience) de nationalité dominicaine résidant en République dominicaine, souhaitant développer leur pratique artistique et élargir leur réseau professionnel à Paris."
       },
       "a_savoir": [
-        "Nationalité dominicaine strictement requise",
-        "Résidence administrative obligatoire en République dominicaine depuis au moins deux ans au moment de la candidature",
-        "Niveau de carrière : minimum 3 ans d'expérience professionnelle exigés",
-        "Inéligibilité des artistes ayant déjà bénéficié d'une résidence à la Cité internationale des arts",
-        "Engagement de restitution obligatoire et compte rendu détaillé exigé",
-        "Accessibilité limitée : ateliers-logements non conformes aux normes actuelles d'accessibilité pour personnes en situation de handicap"
+        "Calendrier rigide : 2 périodes imposées sans flexibilité possible",
+        "Accessibilité : les ateliers-logements ne répondent pas aux normes actuelles d'accessibilité pour personnes en situation de handicap",
+        "Exclusion des anciens résidents : les artistes ayant déjà bénéficié d'une résidence à la Cité ne sont pas éligibles",
+        "Restitution obligatoire : compte rendu détaillé et présentation publique exigés en fin de résidence",
+        "Frais non couverts : visa, passeport, modification de billets restent à charge du candidat",
+        "Dotation limitée : 1 000€/mois à Paris, viable avec logement fourni mais budget serré"
       ],
       "organisme_details": {
         "site_web": "https://www.citeinternationaledesarts.fr",
@@ -5458,84 +5622,84 @@
         {
           "id": "retribution",
           "rempli": "oui",
-          "justification": "remuneration: montant 1000 EUR, periodicite mois",
+          "justification": "remuneration: montant 1 000 EUR, periodicite mensuelle",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "oui",
-          "justification": "conditions_residence.hebergement: true",
+          "justification": "hebergement: true; atelier-logement 20-35 m² composé d'une pièce de travail, cuisine, salle de bains, espace nuit",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "oui",
-          "justification": "conditions_residence.atelier: Espace meublé unique de travail et de vie de 20 à 35m²",
+          "justification": "Atelier-logement composé d'une pièce de travail meublée",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "oui",
-          "justification": "conditions_residence.voyage.pris_en_charge: true (transport aérien aller-retour, assurance voyage et santé)",
+          "rempli": "partiel",
+          "justification": "voyage pris_en_charge: true (transport international + assurance voyage/santé); a_savoir: visa, passeport, modification de billets restent à charge",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "partiel",
-          "justification": "remuneration: 1000 EUR/mois + hebergement fourni; lieu Paris (coût de vie élevé, montant juste)",
+          "justification": "a_savoir: 1 000€/mois à Paris, viable avec logement fourni mais budget serré",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "non",
-          "justification": "La fiche énonce conditions d'éligibilité et pièces demandées, mais n'énonce pas les critères de sélection du jury",
+          "rempli": "oui",
+          "justification": "criteres_programme justification: Critères explicites énoncés — qualité et originalité de la pratique artistique, pertinence pour le développement du projet, méthodologie de travail, liens professionnels avec la scène artistique parisienne",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "candidature: aucune mention d'un délai ou d'une date de notification des résultats",
+          "rempli": "oui",
+          "justification": "analyse synthese: résultats annoncés en octobre 2026",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
-          "rempli": "non",
-          "justification": "candidature: aucune mention d'une notification individuelle aux candidats non retenus",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de notification individualisée aux candidats non-retenus dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
           "rempli": "partiel",
-          "justification": "conditions_residence.restitution: obligatoire dans les open studios hebdomadaires et compte rendu détaillé exigé",
+          "justification": "analyse synthese: destiné à la production/recherche artistique; restitution: Restitution lors des open studios hebdomadaires et compte rendu détaillé obligatoire",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "partiel",
-          "justification": "conditions_residence.duree.dates: deux périodes fixes proposées (5 jan-26 mars 2027 OU 2 avril-28 juin 2027) sans flexibilité individuelle",
+          "rempli": "non",
+          "justification": "a_savoir: Calendrier rigide — 2 périodes imposées (5 janvier - 26 mars 2027 / 2 avril - 28 juin 2027) sans flexibilité possible",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
           "rempli": "partiel",
-          "justification": "conditions_residence.restitution: open studios hebdomadaires de la Cité (visibilité locale, rayonnement externe non garanti)",
+          "justification": "restitution: open studios hebdomadaires de la Cité; pas de rayonnement presse, catalogue édité ou reconnaissance au-delà de l'organisme mentionnée",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
-          "rempli": "non",
-          "justification": "aucune mention dans la fiche de suivi post-programme, réseau alumni ou accompagnement ultérieur",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de suivi après le programme, réseau alumni ou accompagnement ultérieur dans la fiche",
           "poids": 1,
           "famille": "debouche"
         }
@@ -7358,11 +7522,11 @@
       "uid": "eb0a78fc",
       "type": "residence",
       "source_url": "https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste",
-      "fetched_at": "2026-08-04T09:47:59+00:00",
-      "score": 6,
+      "fetched_at": "2026-08-06T09:42:34+00:00",
+      "score": 7,
       "status": "bientot-fermee",
       "opportunite": {
-        "nom": "Programme de résidence Timor-Leste",
+        "nom": "Timor-Leste",
         "organisme": "Cité internationale des arts",
         "lieu": {
           "ville": "Paris",
@@ -7380,35 +7544,33 @@
         "frais_inscription": null,
         "pieces_demandees": [
           "Curriculum vitae détaillé (4 pages maximum)",
-          "Dossier artistique en français ou en anglais comprenant des visuels d'œuvres avec légendes complètes (15 pages maximum), avec liens vidéo, fichiers audio représentatifs",
-          "Note d'intention exposant le projet de recherche, motivations et intérêt à intégrer le programme (3 pages maximum)"
+          "Dossier artistique en français ou anglais avec visuels d'œuvres, légendes complètes, liens vidéo et fichiers audio représentatifs (15 pages maximum)",
+          "Note d'intention présentant le projet de recherche, motivations et intérêt pour le programme (3 pages maximum)"
         ],
-        "url_candidature": "https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
-          "arts visuels",
-          "performance",
+          "arts visuels et de la performance",
           "musiques et recherches sonores",
           "spectacle vivant",
           "écritures",
           "design",
           "architecture-urbanisme",
-          "commissariat",
-          "critique d'art"
+          "commissariat et critique d'art"
         ],
         "niveau_carriere": "confirmé·e",
         "age_max": null,
-        "nationalite": "timoraise",
-        "residence_administrative": "sans restriction"
+        "nationalite": "Timor-Leste",
+        "residence_administrative": "Timor-Leste"
       },
       "conditions_residence": {
         "duree": {
-          "semaines": null,
-          "dates": "2027-02-02 au 2027-04-27"
+          "semaines": 12,
+          "dates": "2027-02-02 - 2027-04-27"
         },
         "hebergement": true,
-        "atelier": "Atelier-logement meublé de 25 à 40 m² composé d'une pièce de travail, cuisine, salle de bains et espace nuit, situé site du Marais",
+        "atelier": "Atelier-logement de 25 à 40m² comprenant une pièce de travail, cuisine, salle de bains et espace nuit; meublé et conçu pour allier recherche-création et vie quotidienne",
         "remuneration": {
           "montant": 850,
           "devise": "EUR",
@@ -7419,23 +7581,23 @@
           "plafond": null,
           "devise": "EUR"
         },
-        "restitution": "Compte rendu d'expérience demandé en fin de résidence"
+        "restitution": "Un compte rendu d'expérience sera demandé en fin de résidence"
       },
       "partenaires": [
         "Institut français d'Indonésie",
-        "Fundação Oriente",
-        "Cité internationale des arts"
+        "Fundação Oriente"
       ],
       "analyse": {
-        "synthese": "La Cité internationale des arts propose une résidence de trois mois à Paris (02 février au 27 avril 2027) destinée à un artiste timorais sélectionné parmi les candidatures. Le lauréat reçoit un logement-atelier meublé (25-40 m²), une bourse mensuelle de 850 euros nets, une enveloppe d'accueil de 200 euros, le transport international aller-retour, l'assurance voyage et les frais de visa. Éligibilité : nationalité timoraise, pratique artistique documentée depuis minimum 5 ans, maîtrise de l'anglais ou du français. Dépôt de candidature jusqu'au 30 août 2026 ; résultats en novembre 2026.",
-        "pour_qui": "Artistes timorais ayant une pratique artistique ou de recherche documentée depuis au moins 5 ans, toutes disciplines confondues."
+        "synthese": "La Cité internationale des arts propose, en partenariat avec l'Institut français d'Indonésie et la Fundação Oriente, une résidence de trois mois à Paris destinée aux artistes timorais. Les lauréats bénéficient d'une bourse mensuelle de 850 euros, d'un atelier-logement meublé de 25 à 40 m², de la prise en charge du transport international aller-retour, des frais d'assurance voyage et de visa, et d'une enveloppe d'arrivée de 200 euros. Un seul candidat sera sélectionné. La date limite de candidature est le 30 août 2026.",
+        "pour_qui": "Artistes professionnels de nationalité timoraise, sans limite d'âge, justifiant d'au moins 5 ans d'activité professionnelle artistique et maîtrisant l'anglais ou le français."
       },
       "a_savoir": [
-        "Une seule place disponible : programme hautement compétitif",
-        "Durée courte : trois mois seulement",
-        "Transport des œuvres ou du matériel d'expérimentation non pris en charge",
-        "Compte rendu d'expérience requis à la fin de la résidence",
-        "Dossier obligatoirement en français ou anglais"
+        "Seul un lauréat sera sélectionné (très haute sélectivité)",
+        "Nationalité timoraise obligatoire (restriction majeure)",
+        "Durée courte de 3 mois seulement",
+        "Transport d'œuvres ou de matériel d'expérimentation non pris en charge",
+        "Ateliers-logements non accessibles aux personnes en situation de handicap selon les normes actuelles",
+        "Bourse mensuelle de 850 euros (budget serré pour Paris)"
       ],
       "organisme_details": {
         "site_web": "https://www.citeinternationaledesarts.fr",
@@ -7446,85 +7608,85 @@
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "remuneration: montant 850 EUR, periodicite mois",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "hebergement: true",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "atelier: Atelier-logement de 25 à 40m² comprenant une pièce de travail, cuisine, salle de bains et espace nuit",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "voyage pris_en_charge: true; mais a_savoir: Transport d'œuvres ou de matériel d'expérimentation non pris en charge",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "remuneration montant: 850 EUR/mois; lieu ville: Paris; a_savoir: budget serré pour Paris",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "analyse: jury accordera attention à qualité artistique du projet, argumentaire autour valeur ajoutée, protocole travail, contacts/partenariats",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "analyse synthese: Annonce des résultats : Novembre 2026",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "Aucune mention d'une notification individuelle aux candidats non retenus",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "oui",
+          "justification": "analyse synthese: résidence de création et de recherche; restitution: seul un compte rendu d'expérience demandé, aucune obligation de médiation mentionnée",
           "poids": 2,
           "famille": "qualite_temps"
         },
         {
           "id": "calendrier_flexible",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "conditions_residence duree dates: 2027-02-02 - 2027-04-27 (calendrier fixe imposé)",
           "poids": 1,
           "famille": "qualite_temps"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "restitution: Un compte rendu d'expérience sera demandé en fin de résidence; a_savoir: aucune exposition, édition, présentation publique ou visibilité au-delà de l'organisme n'est mentionnée",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "Aucun suivi documenté après le programme (réseau alumni, mention, accompagnement) n'est mentionné",
           "poids": 1,
           "famille": "debouche"
         }
@@ -8511,15 +8673,15 @@
       "uid": "8030ae41",
       "type": "bourse",
       "source_url": "https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand",
-      "fetched_at": "2026-08-02T08:55:11+00:00",
-      "score": 4,
+      "fetched_at": "2026-08-06T09:14:32+00:00",
+      "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "Fonds culturel franco-allemand",
         "organisme": "Institut français",
         "lieu": {
           "ville": null,
-          "pays": "France"
+          "pays": null
         }
       },
       "candidature": {
@@ -8527,7 +8689,7 @@
         "langue_dossier": null,
         "frais_inscription": null,
         "pieces_demandees": null,
-        "url_candidature": "https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand"
+        "url_candidature": null
       },
       "eligibilite": {
         "disciplines": [
@@ -8550,26 +8712,22 @@
           "montant": null,
           "devise": "EUR"
         },
-        "finalite": "mobilite",
+        "finalite": null,
         "calendrier_usage": null,
-        "obligations_rendu": []
+        "obligations_rendu": null
       },
-      "partenaires": [
-        "Institut français",
-        "Gouvernement français",
-        "Gouvernement allemand"
-      ],
+      "partenaires": null,
       "analyse": {
-        "synthese": "Le Fonds culturel franco-allemand (FCFA), institué en 2003, soutient des initiatives de coopération culturelle franco-allemandes conduites dans des pays tiers par les réseaux diplomatiques et culturels français et allemands. Depuis 40 ans, plus de 1200 projets ont été financés dans 144 pays, accompagnant près de 300 artistes et intellectuels chaque année. Le fonds couvre 8 disciplines artistiques et est abondé à parité par la France et l'Allemagne.",
-        "pour_qui": "Artistes, intellectuels et porteurs de projets engagés dans des initiatives de coopération culturelle franco-allemande en pays tiers."
+        "synthese": "Le Fonds culturel franco-allemand (FCFA), institué en 2003, soutient les initiatives de coopération culturelle menées dans des pays tiers par les réseaux diplomatiques et culturels français et allemands en collaboration avec des acteurs locaux. Ouvert du 16 juillet au 30 octobre 2026, il accepte des projets dans huit disciplines : Architecture, Arts Visuels / Photographie, Cinéma, Création numérique, Débat d'idées, Livre, Métiers d'art / Design, Spectacle vivant / Musique. Abondé à parité par la France et l'Allemagne et géré par l'Institut français depuis 2011, le Fonds a soutenu plus de 1200 projets dans 144 pays et accompagne près de 300 artistes et intellectuels chaque année. Les conditions précises, montants et critères de sélection sont réservés aux membres du réseau culturel.",
+        "pour_qui": "Artistes et professionnels culturels français et allemands cherchant à développer des projets de coopération culturelle dans des pays tiers."
       },
       "a_savoir": [
-        "Contenu réservé aux membres du réseau — informations détaillées non visibles sur la page publique",
-        "Programme historique (institué en 2003) soutenant la coopération franco-allemande",
-        "Portée internationale : projets financés dans 144 pays"
+        "Accès aux informations détaillées réservé aux membres du réseau culturel de l'Institut français",
+        "Portée géographique très large : projets soutenus dans 144 pays à travers le monde",
+        "Fonctionnement bilatéral : abondé et géré paritairement par la France et l'Allemagne"
       ],
       "organisme_details": {
-        "site_web": "https://www.institutfrancais.com/",
+        "site_web": "https://www.institutfrancais.com",
         "adresse": null,
         "ville": null,
         "contact_email": null
@@ -10793,14 +10951,14 @@
       "uid": "966f8ed7",
       "type": "exposition",
       "source_url": "https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026",
-      "fetched_at": "2026-08-04T09:26:01+00:00",
+      "fetched_at": "2026-08-06T09:19:54+00:00",
       "score": 6,
       "status": "indetermine",
       "opportunite": {
         "nom": "Saison Méditerranée 2026",
         "organisme": "Institut français",
         "lieu": {
-          "ville": "Marseille (ouverture), puis territoire français et rives méditerranéennes",
+          "ville": "France (territoire national)",
           "pays": "France"
         }
       },
@@ -10832,14 +10990,13 @@
       },
       "conditions_exposition": {
         "lieux": [
+          "France",
           "Marseille",
-          "Aix-en-Provence",
+          "Festival d'Aix-en-Provence",
           "Arles",
-          "Avignon",
-          "Lille",
-          "territoire français"
+          "Avignon"
         ],
-        "dates_exposition": "15 mai - 31 octobre 2026",
+        "dates_exposition": "2026-05-15 à 2026-10-31",
         "format": "festival",
         "prise_en_charge": {
           "production": null,
@@ -10853,98 +11010,93 @@
         }
       },
       "partenaires": [
-        "Festival d'Aix-en-Provence",
-        "Les Suds à Arles",
-        "Rencontres photographiques d'Arles",
-        "Festival d'Avignon",
         "Ministère de l'Europe et des Affaires étrangères",
         "Ministère de la Culture",
         "Délégation interministérielle à la Méditerranée"
       ],
       "analyse": {
-        "synthese": "La Saison Méditerranée 2026 est une initiative gouvernementale française (ministères de l'Europe, Affaires étrangères et Culture) mise en œuvre par l'Institut français, qui se déploie du 15 mai au 31 octobre 2026 sur le territoire français et sur les rives méditerranéennes. Elle célèbre les cultures, artistes et jeunes talents des régions méditerranéennes via plus de 500 événements autour de cinq thématiques : utopies spéculatives, identités plurielles, spiritualités contemporaines, migrations, construction des récits. L'appel à projets pour structures (organisations culturelles, festivals, centres d'arts) est désormais clos ; les résultats (structures labellisées) sont publiés.",
-        "pour_qui": "Structures culturelles, festivals, organisations artistiques et créateurs collectifs des rives méditerranéennes et de France souhaitant participer à une saison de coopération culturelle et échanges transnationaux (appel clos)."
+        "synthese": "La Saison Méditerranée 2026 est une initiative gouvernementale française du 15 mai au 31 octobre 2026, principalement en France et rayonnant sur les rives méditerranéennes. Elle comprend plus de 500 événements pluridisciplinaires (architecture, arts visuels, cinéma, création numérique, débat d'idées, littérature, métiers d'art, spectacle vivant, musique) et s'appuie sur 5 thématiques : utopies spéculatives, identités plurielles, spiritualités contemporaines, histoire collective des migrations, construction des récits. L'appel à projets pour structures s'est déroulé en deux phases et est désormais clos.",
+        "pour_qui": "Structures culturelles (centres d'arts, compagnies, festivals, institutions) portant des projets pluridisciplinaires en lien avec les cultures et enjeux méditerranéens."
       },
       "a_savoir": [
-        "Appel à projets clos — aucune candidature en cours. Cette page présente les résultats, non un appel actif.",
-        "Cet appel était destiné à des structures et organisations, non à des artistes individuels.",
-        "Plus de 500 événements prévus : amplitude très large, diversité disciplinaire complète.",
-        "Coopération gouvernementale multinationale (Maroc, Algérie, Tunisie, Égypte, Liban mentionnés comme partenaires prioritaires)."
+        "Appel à projets pour structures fermé — aucune nouvelle candidature possible",
+        "Page de présentation générale, non d'appel ouvert pour artistes individuels",
+        "Aucune information sur conditions de rétribution, hébergement, atelier ou prise en charge pour participants"
       ],
       "organisme_details": {
-        "site_web": "http://www.saisonmediterranee2026.com/",
+        "site_web": "https://www.saisonmediterranee2026.com/",
         "adresse": null,
-        "ville": "Paris",
+        "ville": null,
         "contact_email": null
       },
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "analyse.synthese: 'Appel à projets pour structures' + a_savoir: 'Aucune information sur conditions de rétribution...pour participants'",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "conditions_exposition.prise_en_charge.hebergement_vernissage: null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "a_savoir: 'Aucune information sur...hébergement, atelier ou prise en charge pour participants'",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "prise_en_charge: {production: null, transport: {pris_en_charge: null}, per_diem: null}",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "Aucune donnée financière fournie pour évaluation du rapport dotation/coût de vie",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "analyse.synthese énonce '5 thématiques' (utopies spéculatives, identités plurielles, spiritualités contemporaines, histoire collective des migrations, construction des récits) mais criteres_programme note: 'critères de notation du jury non détaillés'",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "non",
+          "justification": "candidature.date_limite: null + a_savoir: 'Appel à projets pour structures fermé — aucune nouvelle candidature possible'",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "Aucune mention de notification aux candidat·es non retenu·es",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "",
+          "rempli": "partiel",
+          "justification": "conditions_exposition.lieux: [Festival d'Aix-en-Provence, Arles, Avignon] (festivals reconnus) mais analyse note: 'pas de certitude sur diffusion presse ou édition catalogue'",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
-          "justification": "",
+          "justification": "Pas de mention de réseau alumni, suivi documenté ou accompagnement après le programme",
           "poids": 1,
           "famille": "debouche"
         }
@@ -10954,15 +11106,15 @@
       "uid": "a5664345",
       "type": "exposition",
       "source_url": "https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique",
-      "fetched_at": "2026-08-04T09:23:18+00:00",
-      "score": 7,
+      "fetched_at": "2026-08-06T09:17:02+00:00",
+      "score": 6,
       "status": "ouverte",
       "opportunite": {
         "nom": "PIDA - Programme International de Diffusion Artistique",
         "organisme": "Institut français",
         "lieu": {
           "ville": null,
-          "pays": "France"
+          "pays": null
         }
       },
       "candidature": {
@@ -10970,30 +11122,30 @@
         "langue_dossier": null,
         "frais_inscription": null,
         "pieces_demandees": null,
-        "url_candidature": null
+        "url_candidature": "https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique"
       },
       "eligibilite": {
         "disciplines": [
-          "architecture",
-          "arts visuels",
-          "photographie",
-          "création numérique",
-          "design",
-          "métiers d'art",
-          "musiques",
-          "spectacle vivant"
+          "Architecture",
+          "Arts Visuels",
+          "Photographie",
+          "Création numérique",
+          "Métiers d'art",
+          "Design",
+          "Spectacle vivant",
+          "Musique"
         ],
         "niveau_carriere": null,
         "age_max": null,
-        "nationalite": "artistes français ou basés en France",
-        "residence_administrative": null
+        "nationalite": "Française ou basée en France",
+        "residence_administrative": "France"
       },
       "conditions_exposition": {
         "lieux": [
           "International"
         ],
         "dates_exposition": null,
-        "format": "diffusion|coopération",
+        "format": "festival",
         "prise_en_charge": {
           "production": null,
           "transport": {
@@ -11002,7 +11154,7 @@
             "devise": "EUR"
           },
           "per_diem": null,
-          "hebergement_vernissage": null
+          "hebergement_vernissage": false
         }
       },
       "partenaires": [
@@ -11010,16 +11162,14 @@
         "Ministère de la Culture"
       ],
       "analyse": {
-        "synthese": "Le PIDA (Programme International de Diffusion Artistique) de l'Institut français soutient des projets de diffusion, de coopération et la présence d'artistes français dans de grandes manifestations internationales. Il s'adresse au réseau culturel français à l'international, aux institutions et structures culturelles françaises (musées, festivals, studios, labels), aux artistes et collectifs français, ainsi qu'aux structures étrangères accueillant des artistes français. Le programme couvre 8 disciplines : architecture, arts visuels, photographie, création numérique, design, métiers d'art, musiques et spectacle vivant. Il est soutenu par le ministère de l'Europe et des Affaires étrangères et le ministère de la Culture. La date limite de dépôt est le 30 octobre 2026.",
-        "pour_qui": "Artistes français, équipes artistiques basées en France, structures culturelles françaises ou étrangères souhaitant accueillir ou diffuser des artistes français à l'international."
+        "synthese": "Le PIDA est un appel à projets de l'Institut français soutenant la diffusion de la création artistique française à l'international, financé par le ministère de l'Europe et des Affaires étrangères et le ministère de la Culture. Le programme s'adresse au réseau diplomatique, aux équipes artistiques françaises ou basées en France, et aux structures culturelles françaises ou étrangères. Il accompagne des projets de diffusion, de coopération et la présence d'artistes français au sein de grandes manifestations prescriptrices à l'international. Candidatures ouvertes du 1er juillet au 30 octobre 2026.",
+        "pour_qui": "Équipes artistiques françaises ou basées en France (artistes, scénographes, commissaires, collectifs, compagnies) et structures culturelles françaises ou étrangères désirant diffuser ou accueillir de la création artistique française à l'international."
       },
       "a_savoir": [
-        "Programme rebaptisé PIDA en 2026 (anciennement IF Export) : vérifier la continuité des conditions et du suivi.",
-        "Aucune information sur les montants de soutien fournie dans l'appel public.",
-        "Critères de sélection du jury non communiqués publiquement.",
-        "Pas de délai de notification des résultats annoncé.",
-        "Pas de détails sur la prise en charge des frais de production, transport ou logistique.",
-        "Format de diffusion très varié (festivals, biennales, tournées, exposition) selon les projets : conditions non standardisées."
+        "Appel à projets sans précision sur les montants alloués ou critères de sélection explicites",
+        "Délai ou date de notification des résultats non annoncé",
+        "Langue du dossier de candidature non spécifiée",
+        "Programme de soutien financier à la diffusion, non une résidence offrant logement, atelier ou prise en charge des frais"
       ],
       "organisme_details": {
         "site_web": "https://www.institutfrancais.com",
@@ -11030,71 +11180,71 @@
       "criteres_programme": [
         {
           "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "Aucune information sur les montants de soutien fournie dans l'appel public.",
+          "rempli": "partiel",
+          "justification": "a_savoir: 'Appel à projets sans précision sur les montants alloués'",
           "poids": 3,
           "famille": "conditions_materielles"
         },
         {
           "id": "hebergement",
           "rempli": "non",
-          "justification": "prise_en_charge.hebergement_vernissage: null",
+          "justification": "conditions_exposition.prise_en_charge.hebergement_vernissage: false",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "atelier",
           "rempli": "non",
-          "justification": "Aucun espace de travail ou studio n'est mentionné comme fourni par le programme.",
+          "justification": "a_savoir: 'non une résidence offrant logement, atelier ou prise en charge des frais'",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "Pas de détails sur la prise en charge des frais de production, transport ou logistique.",
+          "rempli": "partiel",
+          "justification": "conditions_exposition: transport.pris_en_charge: null, production: null, per_diem: null",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "ratio_dotation_cout_vie",
           "rempli": "inconnu",
-          "justification": "Aucune information sur les montants de soutien fournie dans l'appel public.",
+          "justification": "a_savoir: 'Appel à projets sans précision sur les montants alloués'",
           "poids": 2,
           "famille": "conditions_materielles"
         },
         {
           "id": "criteres_selection_publies",
           "rempli": "non",
-          "justification": "Critères de sélection du jury non communiqués publiquement.",
+          "justification": "a_savoir: 'critères de sélection explicites' — non spécifiés",
           "poids": 2,
           "famille": "transparence_administrative"
         },
         {
           "id": "delai_reponse_annonce",
           "rempli": "non",
-          "justification": "Pas de délai de notification des résultats annoncé.",
+          "justification": "a_savoir: 'Délai ou date de notification des résultats non annoncé'",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "retour_individualise",
-          "rempli": "non",
-          "justification": "Aucune mention d'une notification individuelle aux candidat·es non retenu·es.",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de notification aux candidat·es non retenu·es dans la fiche",
           "poids": 1,
           "famille": "transparence_administrative"
         },
         {
           "id": "visibilite_restitution",
-          "rempli": "partiel",
-          "justification": "Exemples de projets soutenus (La Gran fiesta franco-mexicana, Baro d'Evel, festivals Santiago a Mil) suggèrent une visibilité, mais non garanti par l'appel.",
+          "rempli": "oui",
+          "justification": "synthese: 'grandes manifestations prescriptrices à l'international'",
           "poids": 2,
           "famille": "debouche"
         },
         {
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
-          "justification": "Aucune mention d'un suivi documenté après la fin du programme (réseau alumni, collection, accompagnement).",
+          "justification": "Aucune mention de suivi alumni ou accompagnement post-programme",
           "poids": 1,
           "famille": "debouche"
         }

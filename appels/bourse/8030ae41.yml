@@ -1,21 +1,21 @@
 uid: 8030ae41
 type: bourse
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand
-fetched_at: '2026-08-02T08:55:11+00:00'
-score: 4
+fetched_at: '2026-08-06T09:14:32+00:00'
+score: 6
 status: ouverte
 opportunite:
   nom: Fonds culturel franco-allemand
   organisme: Institut français
   lieu:
     ville: null
-    pays: France
+    pays: null
 candidature:
   date_limite: '2026-10-30'
   langue_dossier: null
   frais_inscription: null
   pieces_demandees: null
-  url_candidature: https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand
+  url_candidature: null
 eligibilite:
   disciplines:
   - Architecture
@@ -34,41 +34,43 @@ conditions_bourse:
   montant:
     montant: null
     devise: EUR
-  finalite: mobilite
+  finalite: null
   calendrier_usage: null
-  obligations_rendu: []
-partenaires:
-- Institut français
-- Gouvernement français
-- Gouvernement allemand
+  obligations_rendu: null
+partenaires: null
 _meta:
-  extracted_confidence: 0.4
-  extracted_notes: Contenu partiellement accessible. Informations détaillées réservées
-    aux membres du réseau culturel. Montants, critères précis de sélection, conditions
-    d'attribution non visibles sur cette page publique.
+  extracted_confidence: 0.25
+  extracted_notes: Page réservée aux membres du réseau culturel. L'extrait public
+    fourni contient peu d'informations détaillées sur les conditions de candidature,
+    les montants, les critères de sélection, et le processus d'attribution. La majorité
+    des données structurées n'est pas accessible.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-02T08:55:11+00:00'
+  extracted_at: '2026-08-06T09:14:32+00:00'
   source_lang: fr
-  detection_confidence: 0.92
+  detection_confidence: 0.95
   detection_method: claude
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-08-05'
+  last_status_check: '2026-08-06'
 analyse:
-  synthese: Le Fonds culturel franco-allemand (FCFA), institué en 2003, soutient des
-    initiatives de coopération culturelle franco-allemandes conduites dans des pays
-    tiers par les réseaux diplomatiques et culturels français et allemands. Depuis
-    40 ans, plus de 1200 projets ont été financés dans 144 pays, accompagnant près
-    de 300 artistes et intellectuels chaque année. Le fonds couvre 8 disciplines artistiques
-    et est abondé à parité par la France et l'Allemagne.
-  pour_qui: Artistes, intellectuels et porteurs de projets engagés dans des initiatives
-    de coopération culturelle franco-allemande en pays tiers.
+  synthese: 'Le Fonds culturel franco-allemand (FCFA), institué en 2003, soutient
+    les initiatives de coopération culturelle menées dans des pays tiers par les réseaux
+    diplomatiques et culturels français et allemands en collaboration avec des acteurs
+    locaux. Ouvert du 16 juillet au 30 octobre 2026, il accepte des projets dans huit
+    disciplines : Architecture, Arts Visuels / Photographie, Cinéma, Création numérique,
+    Débat d''idées, Livre, Métiers d''art / Design, Spectacle vivant / Musique. Abondé
+    à parité par la France et l''Allemagne et géré par l''Institut français depuis
+    2011, le Fonds a soutenu plus de 1200 projets dans 144 pays et accompagne près
+    de 300 artistes et intellectuels chaque année. Les conditions précises, montants
+    et critères de sélection sont réservés aux membres du réseau culturel.'
+  pour_qui: Artistes et professionnels culturels français et allemands cherchant à
+    développer des projets de coopération culturelle dans des pays tiers.
 a_savoir:
-- Contenu réservé aux membres du réseau — informations détaillées non visibles sur
-  la page publique
-- Programme historique (institué en 2003) soutenant la coopération franco-allemande
-- 'Portée internationale : projets financés dans 144 pays'
+- Accès aux informations détaillées réservé aux membres du réseau culturel de l'Institut
+  français
+- 'Portée géographique très large : projets soutenus dans 144 pays à travers le monde'
+- 'Fonctionnement bilatéral : abondé et géré paritairement par la France et l''Allemagne'
 organisme_details:
-  site_web: https://www.institutfrancais.com/
+  site_web: https://www.institutfrancais.com
   adresse: null
   ville: null
   contact_email: null

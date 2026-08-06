@@ -2,7 +2,7 @@
   {
     "path": "appels/residence/0689a10d.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 18,
+    "days_to_deadline": 17,
     "type": "residence",
     "uid": "0689a10d",
     "nom": "MO.CO Esba x Cité internationale des arts (programme « Artistes Demain »)"
@@ -10,7 +10,7 @@
   {
     "path": "appels/residence/4dc8fd2e.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 25,
+    "days_to_deadline": 24,
     "type": "residence",
     "uid": "4dc8fd2e",
     "nom": "École des Beaux-Arts de Bretagne (EESAB) x Cité internationale des arts"
@@ -18,15 +18,23 @@
   {
     "path": "appels/residence/5de27397.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 25,
+    "days_to_deadline": 24,
     "type": "residence",
     "uid": "5de27397",
     "nom": "Kota — Institut français d'Indonésie x Cité internationale des arts"
   },
   {
-    "path": "appels/residence/c16312c6.yml",
+    "path": "appels/residence/b38012e2.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 25,
+    "type": "residence",
+    "uid": "b38012e2",
+    "nom": "Résidence d'artistes 2027 - Boghossian Foundation"
+  },
+  {
+    "path": "appels/residence/c16312c6.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 24,
     "type": "residence",
     "uid": "c16312c6",
     "nom": "République dominicaine x Cité internationale des arts"
@@ -34,7 +42,7 @@
   {
     "path": "appels/residence/cc05d124.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 22,
+    "days_to_deadline": 21,
     "type": "residence",
     "uid": "cc05d124",
     "nom": "Westwerk International Residency Program"
@@ -42,15 +50,15 @@
   {
     "path": "appels/residence/eb0a78fc.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 25,
+    "days_to_deadline": 24,
     "type": "residence",
     "uid": "eb0a78fc",
-    "nom": "Programme de résidence Timor-Leste"
+    "nom": "Timor-Leste"
   },
   {
     "path": "appels/residence/fe28339c.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 18,
+    "days_to_deadline": 17,
     "type": "residence",
     "uid": "fe28339c",
     "nom": "Résidence d'Artiste mise à disposition atelier longue durée"
@@ -58,7 +66,7 @@
   {
     "path": "appels/prix/dbe956b7.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 18,
+    "days_to_deadline": 17,
     "type": "prix",
     "uid": "dbe956b7",
     "nom": "Talents Contemporains « La Terre » — Fondation François Schneider"

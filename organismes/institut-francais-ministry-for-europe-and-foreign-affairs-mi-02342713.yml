@@ -62,28 +62,28 @@ partenaires_mentionnes:
   occurrences: 3
   nom_brut: Ambassade de France en Pologne
 - organisme_uid: ministere-de-la-culture-france
-  occurrences: 11
+  occurrences: 14
   nom_brut: Ministère de la Culture (France)
 - organisme_uid: ministere-des-affaires-etrangeres-france
   occurrences: 2
   nom_brut: Ministère des Affaires étrangères (France)
 - organisme_uid: ministere-de-l-europe-et-des-affaires-etrangeres
-  occurrences: 9
+  occurrences: 11
   nom_brut: Ministère de l'Europe et des Affaires étrangères
 - organisme_uid: delegation-interministerielle-a-la-mediterranee
-  occurrences: 4
+  occurrences: 5
   nom_brut: Délégation interministérielle à la Méditerranée
 - organisme_uid: cite-internationale-des-arts
-  occurrences: 5
+  occurrences: 7
   nom_brut: Cité internationale des arts
 - organisme_uid: institut-francais
-  occurrences: 2
+  occurrences: 3
   nom_brut: Institut français
 - organisme_uid: institut-francais-du-japon
-  occurrences: 4
+  occurrences: 5
   nom_brut: Institut français du Japon
 - organisme_uid: fondation-bettencourt-schueller
-  occurrences: 5
+  occurrences: 6
   nom_brut: Fondation Bettencourt Schueller
 - organisme_uid: ministere-de-la-culture-pologne
   occurrences: 1
@@ -352,7 +352,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-06'
   status: actif
   nouveaux_entrants: true
 ville: Paris
@@ -360,5 +360,6 @@ noms_alternatifs:
 - Institut français, Villa Kujoyama
 - Institut français et Cité internationale des arts
 - Institut français, Cité internationale des arts
+- Cité internationale des arts et Institut français
 contact_email: Pôle Saisons et Temps forts de l'Institut français (contact non spécifié)
 adresse: 18 rue de l'Hôtel de Ville, 75004 (Cité internationale des arts)

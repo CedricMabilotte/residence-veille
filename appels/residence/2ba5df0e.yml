@@ -1,12 +1,12 @@
 uid: 2ba5df0e
 type: residence
 source_url: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
-fetched_at: '2026-08-05T09:35:20+00:00'
+fetched_at: '2026-08-06T08:39:37+00:00'
 score: 6
 status: ouverte
 opportunite:
   nom: 'Résidence d''artiste 2027 : Photographie - Traverse'
-  organisme: Traverse
+  organisme: CNAP (Centre national des arts plastiques)
   lieu:
     ville: Bagnères-de-Bigorre
     pays: France
@@ -14,20 +14,21 @@ opportunite:
 candidature:
   date_limite: '2026-09-10'
   date_limite_precision: day
-  langue_dossier: null
+  langue_dossier:
+  - fr
   frais_inscription: null
-  pieces_demandees: null
+  pieces_demandees: []
   url_candidature: https://traversiens.com/event/appel-a-projet-residence-photo-2027/
 eligibilite:
   disciplines:
   - photographie
-  niveau_carriere: null
+  niveau_carriere: tous
   age_max: null
   nationalite: sans restriction
   residence_administrative: sans restriction
 conditions_residence:
   duree:
-    semaines: null
+    semaines: 8
     dates: printemps 2027
   hebergement: null
   atelier: null
@@ -36,115 +37,113 @@ conditions_residence:
     devise: EUR
     periodicite: forfait
   voyage: null
-  restitution: 'Projet artistique participatif, thème : Perspective(s)'
+  restitution: projet artistique participatif
 partenaires:
 - Traverse
 _meta:
-  extracted_confidence: 0.82
-  extracted_notes: 'Informations claires sur durée, montant, date limite et objectifs
-    du programme. Manquent : détails sur fourniture d''hébergement, atelier, critères
-    de sélection explicites, délai de notification.'
+  extracted_confidence: 0.7
+  extracted_notes: Informations basiques disponibles ; hébergement et atelier non
+    explicitement mentionnés ; critères de sélection et délai de notification absents.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-05T09:35:20+00:00'
+  extracted_at: '2026-08-06T08:39:37+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-05'
+  last_status_check: '2026-08-06'
 analyse:
-  synthese: 'Résidence de 2 mois au printemps 2027 pour artistes photographes, basée
-    en Haute-Bigorre (24 communes rurales). Le programme propose 6 000 € TTC pour
-    développer un projet artistique participatif ancré dans le territoire local. La
-    dimension participative et les rencontres avec le contexte constituant l''axe
-    principal de la résidence. Date limite de candidature : 10 septembre 2026. Thème
-    de l''édition : « Perspective(s) ».'
-  pour_qui: Artistes photographes souhaitant développer un projet participatif en
-    contexte rural montagnard et capable d'engager des échanges avec le territoire
-    d'accueil.
+  synthese: Le CNAP propose une résidence d'artiste photographe de 2 mois au printemps
+    2027 à Bagnères-de-Bigorre, dotée de 6 000 €, en partenariat avec Traverse. Le
+    programme s'inscrit dans une logique participative autour du thème « Perspective(s)
+    », avec un projet à développer spécifiquement pour le territoire de la Haute-Bigorre
+    (24 communes rurales au pied des Pyrénées). La date limite de candidature est
+    le 10 septembre 2026.
+  pour_qui: Artistes photographes intéressés par une démarche participative capable
+    de développer un projet en dialogue avec un territoire rural montagnard.
 a_savoir:
-- 'Dimension participative obligatoire : le projet doit être spécifiquement élaboré
-  pour le territoire et implique une logique de rencontre avec les habitants.'
-- 'Résidence en zone rurale montagnarde : accès limité aux services urbains, infrastructure
-  et ressources comparés à un contexte de ville moyenne.'
-- 'Thème imposé pour cette édition : « Perspective(s) ».'
+- 'Dimension participative obligatoire : le projet doit dialoguer avec le territoire
+  local'
+- 'Calendrier fixe : printemps 2027, sans flexibilité calendaire mentionnée'
+- Hébergement et atelier fournis non explicitement confirmés
+- 'Dotation modérée (6 000 € pour 2 mois) : évaluer la viabilité budgétaire pour une
+  zone rurale'
 organisme_details:
-  site_web: null
+  site_web: https://www.cnap.fr
   adresse: null
-  ville: Bagnères-de-Bigorre
+  ville: null
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: 'remuneration.montant: 6000 EUR, periodicite: forfait'
+  justification: 'remuneration: montant 6000, devise EUR, periodicite forfait'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
   rempli: inconnu
-  justification: 'conditions_residence.hebergement: null (aucune mention)'
+  justification: 'hebergement: null'
   poids: 2
   famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: 'conditions_residence.atelier: null (aucune mention)'
+  justification: 'atelier: null'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: non
-  justification: 'conditions_residence.voyage: null — aucun coût de transport ou production
-    mentionné'
+  justification: 'voyage: null (aucune prise en charge mentionnée)'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: partiel
-  justification: 6 000 € forfait pour ~2 mois (printemps 2027) en zone rurale montagnarde
-    — dépend de l'hébergement/atelier fournis (non clarifiés)
+  justification: 'montant: 6000 EUR pour duree: 8 semaines en zone rurale montagnarde
+    (Haute-Bigorre)'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
   rempli: non
-  justification: 'Absence de critères de jury dans candidature, eligibilite ou a_savoir
-    — seules les pièces demandées ne sont pas spécifiées (pieces_demandees: null)'
+  justification: 'pieces_demandees: [] vide, aucun critère de sélection explicité'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
   rempli: non
-  justification: 'candidature.date_limite: 2026-09-10 — aucune date de notification
-    des résultats'
+  justification: Pas de date_limite pour la notification des résultats (différente
+    de date_limite de candidature)
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: inconnu
-  justification: Aucune mention dans a_savoir ou candidature d'une notification aux
-    non-retenu·es
+  justification: Aucune information sur la notification aux candidat·es non-retenu·es
   poids: 1
   famille: transparence_administrative
 - id: production_libre
   rempli: partiel
-  justification: 'restitution: ''Projet artistique participatif'' — a_savoir: ''Dimension
-    participative obligatoire'' suggère médiation importante mais temps exact de production
-    autonome non précisé'
+  justification: 'restitution: ''projet artistique participatif'' avec obligation
+    de dialogue avec le territoire local (logique participative plutôt que production
+    autonome)'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: partiel
-  justification: 'conditions_residence.duree.dates: ''printemps 2027'' — fenêtre large
-    mais imposée, dates non négociables'
+  rempli: non
+  justification: 'duree: 8 semaines, dates: ''printemps 2027'' (calendrier fixe sans
+    marge)'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
-  rempli: non
-  justification: 'restitution: ''Projet artistique participatif, thème : Perspective(s)''
-    — aucune mention de diffusion presse, catalogue ou visibilité externe'
+  rempli: inconnu
+  justification: 'restitution: ''projet artistique participatif'' (pas de précision
+    sur diffusion, catalogue, lieu reconnu ou visibilité au-delà de l''organisme)'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
-  rempli: non
-  justification: Absence totale de mention d'alumni, suivi documenté ou accompagnement
-    post-résidence
+  rempli: inconnu
+  justification: Aucune mention de suivi alumni, d'accompagnement ultérieur ou de
+    reconnaissance institutionnelle
   poids: 1
   famille: debouche
 _interne_affinite:
-  match: false
+  match: true
   signaux:
   - rural
-  bonus_score: 0
+  - collectif
+  - long séjour
+  bonus_score: 1

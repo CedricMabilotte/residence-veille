@@ -64,7 +64,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-05'
+  last_status_check: '2026-08-06'
 analyse:
   synthese: 'Résidence de 11 mois (14 septembre 2026 au 20 août 2027) offrant un atelier
     de 25m² en quartier prioritaire de Pierrefitte-sur-Seine. Dotation: 500€ d''aide

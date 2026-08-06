@@ -1,11 +1,11 @@
 uid: eb0a78fc
 type: residence
 source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste
-fetched_at: '2026-08-04T09:47:59+00:00'
-score: 6
+fetched_at: '2026-08-06T09:42:34+00:00'
+score: 7
 status: bientot-fermee
 opportunite:
-  nom: Programme de résidence Timor-Leste
+  nom: Timor-Leste
   organisme: Cité internationale des arts
   lieu:
     ville: Paris
@@ -20,33 +20,32 @@ candidature:
   frais_inscription: null
   pieces_demandees:
   - Curriculum vitae détaillé (4 pages maximum)
-  - Dossier artistique en français ou en anglais comprenant des visuels d'œuvres avec
-    légendes complètes (15 pages maximum), avec liens vidéo, fichiers audio représentatifs
-  - Note d'intention exposant le projet de recherche, motivations et intérêt à intégrer
+  - Dossier artistique en français ou anglais avec visuels d'œuvres, légendes complètes,
+    liens vidéo et fichiers audio représentatifs (15 pages maximum)
+  - Note d'intention présentant le projet de recherche, motivations et intérêt pour
     le programme (3 pages maximum)
-  url_candidature: https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste
+  url_candidature: null
 eligibilite:
   disciplines:
-  - arts visuels
-  - performance
+  - arts visuels et de la performance
   - musiques et recherches sonores
   - spectacle vivant
   - écritures
   - design
   - architecture-urbanisme
-  - commissariat
-  - critique d'art
+  - commissariat et critique d'art
   niveau_carriere: confirmé·e
   age_max: null
-  nationalite: timoraise
-  residence_administrative: sans restriction
+  nationalite: Timor-Leste
+  residence_administrative: Timor-Leste
 conditions_residence:
   duree:
-    semaines: null
-    dates: 2027-02-02 au 2027-04-27
+    semaines: 12
+    dates: 2027-02-02 - 2027-04-27
   hebergement: true
-  atelier: Atelier-logement meublé de 25 à 40 m² composé d'une pièce de travail, cuisine,
-    salle de bains et espace nuit, situé site du Marais
+  atelier: Atelier-logement de 25 à 40m² comprenant une pièce de travail, cuisine,
+    salle de bains et espace nuit; meublé et conçu pour allier recherche-création
+    et vie quotidienne
   remuneration:
     montant: 850
     devise: EUR
@@ -55,39 +54,41 @@ conditions_residence:
     pris_en_charge: true
     plafond: null
     devise: EUR
-  restitution: Compte rendu d'expérience demandé en fin de résidence
+  restitution: Un compte rendu d'expérience sera demandé en fin de résidence
 partenaires:
 - Institut français d'Indonésie
 - Fundação Oriente
-- Cité internationale des arts
 _meta:
-  extracted_confidence: 0.95
-  extracted_notes: Page complète avec informations détaillées. Adresse précise manquante,
-    contact email non fourni. Une seule place disponible.
+  extracted_confidence: 0.85
+  extracted_notes: Informations bien structurées et claires. Critères de sélection
+    énumérés mais généraux. Pas de contact email spécifique. Restriction forte de
+    nationalité timoraise. Seul un candidat retenu (très sélectif).
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-04T09:47:59+00:00'
+  extracted_at: '2026-08-06T09:42:34+00:00'
   source_lang: fr
   detection_confidence: 0.98
   detection_method: claude
   source_label: Cité internationale des arts — appels à candidature ouverts
-  last_status_check: '2026-08-05'
+  last_status_check: '2026-08-06'
 analyse:
-  synthese: 'La Cité internationale des arts propose une résidence de trois mois à
-    Paris (02 février au 27 avril 2027) destinée à un artiste timorais sélectionné
-    parmi les candidatures. Le lauréat reçoit un logement-atelier meublé (25-40 m²),
-    une bourse mensuelle de 850 euros nets, une enveloppe d''accueil de 200 euros,
-    le transport international aller-retour, l''assurance voyage et les frais de visa.
-    Éligibilité : nationalité timoraise, pratique artistique documentée depuis minimum
-    5 ans, maîtrise de l''anglais ou du français. Dépôt de candidature jusqu''au 30
-    août 2026 ; résultats en novembre 2026.'
-  pour_qui: Artistes timorais ayant une pratique artistique ou de recherche documentée
-    depuis au moins 5 ans, toutes disciplines confondues.
+  synthese: La Cité internationale des arts propose, en partenariat avec l'Institut
+    français d'Indonésie et la Fundação Oriente, une résidence de trois mois à Paris
+    destinée aux artistes timorais. Les lauréats bénéficient d'une bourse mensuelle
+    de 850 euros, d'un atelier-logement meublé de 25 à 40 m², de la prise en charge
+    du transport international aller-retour, des frais d'assurance voyage et de visa,
+    et d'une enveloppe d'arrivée de 200 euros. Un seul candidat sera sélectionné.
+    La date limite de candidature est le 30 août 2026.
+  pour_qui: Artistes professionnels de nationalité timoraise, sans limite d'âge, justifiant
+    d'au moins 5 ans d'activité professionnelle artistique et maîtrisant l'anglais
+    ou le français.
 a_savoir:
-- 'Une seule place disponible : programme hautement compétitif'
-- 'Durée courte : trois mois seulement'
-- Transport des œuvres ou du matériel d'expérimentation non pris en charge
-- Compte rendu d'expérience requis à la fin de la résidence
-- Dossier obligatoirement en français ou anglais
+- Seul un lauréat sera sélectionné (très haute sélectivité)
+- Nationalité timoraise obligatoire (restriction majeure)
+- Durée courte de 3 mois seulement
+- Transport d'œuvres ou de matériel d'expérimentation non pris en charge
+- Ateliers-logements non accessibles aux personnes en situation de handicap selon
+  les normes actuelles
+- Bourse mensuelle de 850 euros (budget serré pour Paris)
 organisme_details:
   site_web: https://www.citeinternationaledesarts.fr
   adresse: null
@@ -95,66 +96,77 @@ organisme_details:
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'remuneration: montant 850 EUR, periodicite mois'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'hebergement: true'
   poids: 2
   famille: conditions_materielles
 - id: atelier
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'atelier: Atelier-logement de 25 à 40m² comprenant une pièce de travail,
+    cuisine, salle de bains et espace nuit'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'voyage pris_en_charge: true; mais a_savoir: Transport d''œuvres
+    ou de matériel d''expérimentation non pris en charge'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'remuneration montant: 850 EUR/mois; lieu ville: Paris; a_savoir:
+    budget serré pour Paris'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'analyse: jury accordera attention à qualité artistique du projet,
+    argumentaire autour valeur ajoutée, protocole travail, contacts/partenariats'
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'analyse synthese: Annonce des résultats : Novembre 2026'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: inconnu
-  justification: ''
+  justification: Aucune mention d'une notification individuelle aux candidats non
+    retenus
   poids: 1
   famille: transparence_administrative
 - id: production_libre
-  rempli: inconnu
-  justification: ''
+  rempli: oui
+  justification: 'analyse synthese: résidence de création et de recherche; restitution:
+    seul un compte rendu d''expérience demandé, aucune obligation de médiation mentionnée'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'conditions_residence duree dates: 2027-02-02 - 2027-04-27 (calendrier
+    fixe imposé)'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'restitution: Un compte rendu d''expérience sera demandé en fin de
+    résidence; a_savoir: aucune exposition, édition, présentation publique ou visibilité
+    au-delà de l''organisme n''est mentionnée'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: inconnu
-  justification: ''
+  justification: Aucun suivi documenté après le programme (réseau alumni, mention,
+    accompagnement) n'est mentionné
   poids: 1
   famille: debouche
 _interne_affinite:
   match: false
-  signaux: []
+  signaux:
+  - long séjour
   bonus_score: 0

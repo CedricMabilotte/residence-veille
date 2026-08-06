@@ -1,16 +1,16 @@
 uid: 53bddbf8
 type: residence
 source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite
-fetched_at: '2026-08-04T09:45:47+00:00'
+fetched_at: '2026-08-06T09:40:14+00:00'
 score: 7
 status: ouverte
 opportunite:
-  nom: Institut français x Cité internationale des arts
-  organisme: Institut français, Cité internationale des arts
+  nom: Institut français x Cité internationale des arts – Édition 2027
+  organisme: Cité internationale des arts et Institut français
   lieu:
     ville: Paris
     pays: France
-    territoire: null
+    territoire: Île-de-France
 candidature:
   date_limite: '2026-10-08'
   date_limite_precision: day
@@ -18,23 +18,23 @@ candidature:
   - fr
   - en
   frais_inscription: null
-  pieces_demandees: null
-  url_candidature: null
+  pieces_demandees: []
+  url_candidature: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite
 eligibilite:
   disciplines:
   - Architecture, paysage, urbanisme
   - Arts de la rue, cirque, marionnette
   - Arts plastiques
-  - Cinéma (cinéma d'animation, fiction, documentaire de création, art vidéo)
-  - Création numérique (arts numériques, jeu vidéo, VR)
+  - Cinéma
+  - Création numérique
   - Critique d'art et commissariat d'exposition
   - Danse, performance
   - Design, graphisme
   - Gastronomie
-  - Littérature (fiction, essai, littérature jeunesse, bande dessinée)
+  - Littérature
   - Métiers d'art
   - Mode
-  - Musique (musiques classique & contemporaine, musiques actuelles & jazz)
+  - Musique
   - Photographie
   - Théâtre
   niveau_carriere: tous
@@ -45,11 +45,11 @@ eligibilite:
 conditions_residence:
   duree:
     semaines: null
-    dates: 'avril 2027 à avril 2028, durée négociable : 3, 6 ou 9 mois'
+    dates: trois, six ou neuf mois, entre avril 2027 et avril 2028
   hebergement: true
-  atelier: 'Ateliers-logements de 25 à 40 m² situés sur le site du Marais. Composition
-    : une pièce de travail, une cuisine, une salle de bains et un espace nuit. Peuvent
-    accueillir jusqu''à deux adultes et un enfant jusqu''à 10 ans.'
+  atelier: Ateliers-logements de 25 à 40 m² composés d'une pièce de travail, d'une
+    cuisine, d'une salle de bains et d'un espace nuit. Conçus pour allier recherche-création
+    et vie quotidienne.
   remuneration:
     montant: 1100
     devise: EUR
@@ -63,115 +63,110 @@ partenaires:
 - Institut français
 - Cité internationale des arts
 _meta:
-  extracted_confidence: 0.8
-  extracted_notes: Information complète sur les conditions principales. Pièces demandées
-    et URL de candidature non explicitement fournies dans ce fragment. Allocation
-    minimum de 1100€/mois financée par le partenaire associé, pas directement par
-    l'Institut français. Normes d'accessibilité handicap non respectées.
+  extracted_confidence: 0.91
+  extracted_notes: Information claire et structurée. Critères de sélection du jury
+    et modalités de restitution non détaillés. Frais supplémentaires mentionnés mais
+    non chiffrés.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-04T09:45:47+00:00'
+  extracted_at: '2026-08-06T09:40:14+00:00'
   source_lang: fr
-  detection_confidence: 0.99
+  detection_confidence: 0.98
   detection_method: claude
   source_label: Cité internationale des arts — appels à candidature ouverts
-  last_status_check: '2026-08-05'
+  last_status_check: '2026-08-06'
 analyse:
-  synthese: Ce programme permet aux artistes résidant à l'étranger depuis au moins
-    5 ans de développer un projet de recherche et de création à Paris pendant 3, 6
-    ou 9 mois entre avril 2027 et avril 2028. Environ 70 lauréats provenant du monde
-    entier sont accueillis annuellement. L'Institut français et la Cité internationale
-    des arts fournissent un atelier-logement de 25 à 40 m². Le partenaire associé
-    de chaque artiste finance une allocation minimum de 1100€ mensuels, le voyage
-    international, l'assurance et les frais de visa. Les prestations complémentaires
-    restent à la charge des résidants.
-  pour_qui: Artistes et professionnels de la culture de toutes nationalités, maîtrisant
-    le français et/ou l'anglais à niveau professionnel, engagés dans une démarche
-    professionnelle reconnue et parrainés obligatoirement par une structure culturelle
-    associée.
+  synthese: Le programme Institut français x Cité internationale des arts (édition
+    2027) accueille environ 70 artistes de toutes nationalités pour une résidence
+    de 3, 6 ou 9 mois à Paris entre avril 2027 et avril 2028. Chaque lauréat reçoit
+    un atelier-logement de 25 à 40 m², une allocation minimum de 1 100 € par mois,
+    la prise en charge du voyage et de l'assurance par le partenaire associé. Le programme
+    s'adresse aux artistes de plus de 20 disciplines ayant résidé hors de France depuis
+    au moins 5 ans et portés par un partenaire associé reconnu.
+  pour_qui: Artistes et professionnels de la culture de toutes nationalités, sans
+    limite d'âge, ayant résidé hors de France depuis au moins 5 ans, dans les disciplines
+    reconnues, libérés de toute activité professionnelle durant la résidence.
 a_savoir:
-- Les candidatures directes d'artistes ne sont pas acceptées ; un partenaire associé
-  (Institut français, structure culturelle reconnue, galerie, etc.) est obligatoire
-- 'La résidence requiert une disponibilité totale : être libéré de toute activité
-  professionnelle pendant toute la durée'
-- Les ateliers-logements ne répondent pas aux normes actuelles d'accessibilité pour
-  les personnes en situation de handicap
-- Allocation minimum de 1100€/mois financée par le partenaire associé, pas par l'Institut
-  français ; taux modeste pour le coût de vie parisien
+- 'Candidatures obligatoirement portées par un partenaire associé : pas d''autocandidat
+  accepté.'
+- Condition stricte de résidence hors France depuis minimum 5 ans.
+- Ateliers-logements ne répondant pas aux normes actuelles d'accessibilité aux personnes
+  en situation de handicap.
+- Frais supplémentaires pour les accompagnants (non chiffrés dans l'appel).
+- Maîtrise du français et/ou anglais à niveau professionnel requise.
+- Allocation de 1 100 € par mois versée par le partenaire, modeste au regard du coût
+  de la vie à Paris.
 organisme_details:
-  site_web: null
+  site_web: https://www.citeinternationaledesarts.fr/
   adresse: null
   ville: Paris
   contact_email: null
 criteres_programme:
 - id: retribution
   rempli: oui
-  justification: '"remuneration": {"montant": 1100, "devise": "EUR", "periodicite":
-    "mois"}'
+  justification: '"montant": 1100, "devise": "EUR", "periodicite": "mois"'
   poids: 3
   famille: conditions_materielles
 - id: hebergement
   rempli: oui
-  justification: '"hebergement": true, "Ateliers-logements de 25 à 40 m² situés sur
-    le site du Marais"'
+  justification: '"hebergement": true, "atelier": "Ateliers-logements de 25 à 40 m²..."'
   poids: 2
   famille: conditions_materielles
 - id: atelier
   rempli: oui
-  justification: '"Composition : une pièce de travail, une cuisine, une salle de bains
-    et un espace nuit"'
+  justification: '"atelier": "...composés d''une pièce de travail, d''une cuisine,
+    d''une salle de bains et d''un espace nuit"'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: partiel
-  justification: '"voyage": {"pris_en_charge": true} + "Le partenaire associé finança
-    le voyage international, l''assurance et frais de visa" — transport d''œuvres/frais
-    de production non mentionnés'
+  rempli: oui
+  justification: '"voyage": {"pris_en_charge": true}, et "la prise en charge du voyage
+    et de l''assurance par le partenaire"'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: partiel
-  justification: '"montant": 1100 EUR/mois + hébergement fourni, mais qualifié de
-    "montant modeste pour le coût de la vie parisien en 2027"'
+  justification: '"Allocation de 1 100 € par mois versée par le partenaire, modeste
+    au regard du coût de la vie à Paris"'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
   rempli: partiel
-  justification: '"maîtrisant le français et/ou l''anglais à niveau professionnel,
-    engagés dans une démarche professionnelle reconnue" — critères d''éligibilité
-    énoncés, pas critères de sélection du jury'
+  justification: Critères d'éligibilité énoncés (discipline, résidence) mais "critères
+    de sélection précis du jury non détaillés"
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
-  rempli: inconnu
-  justification: Aucune date ou délai d'annonce des résultats spécifié dans la fiche
+  rempli: oui
+  justification: '"annonce des résultats en janvier 2027"'
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: non
-  justification: Absence totale de mention d'une notification aux candidats non retenus
+  justification: Aucune mention de notification individuelle aux candidats non retenus
+    dans la fiche
   poids: 1
   famille: transparence_administrative
 - id: production_libre
-  rempli: oui
-  justification: '"permettant aux artistes de développer un projet de recherche et
-    de création", "La résidence requiert une disponibilité totale : être libéré de
-    toute activité professionnelle pendant toute la durée"'
+  rempli: inconnu
+  justification: Pas de précision sur les obligations de médiation ou d'ateliers publics
+    imposés par l'organisme
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
-  rempli: oui
-  justification: '"durée négociable : 3, 6 ou 9 mois", "avril 2027 à avril 2028"'
+  rempli: partiel
+  justification: '"trois, six ou neuf mois, entre avril 2027 et avril 2028" — durées
+    variables mais fenêtre temporelle fixe'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
   rempli: inconnu
-  justification: '"restitution": null, aucune mention de modalités d''exposition,
-    publication ou diffusion'
+  justification: '"restitution": null, aucune modalité de restitution précisée'
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: inconnu
-  justification: Aucune mention de réseau alumni, collection, ou accompagnement post-résidence
+  justification: Aucune mention de réseau alumni, d'accompagnement post-résidence
+    ou de suivi documenté
   poids: 1
   famille: debouche
 _interne_affinite:

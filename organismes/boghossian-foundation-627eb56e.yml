@@ -1,0 +1,28 @@
+uid: boghossian-foundation-627eb56e
+nom_canonique: Boghossian Foundation
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: b38012e2
+  type: residence
+  nom: Résidence d'artistes 2027 - Boghossian Foundation
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: creative-armenia
+  occurrences: 1
+  nom_brut: Creative Armenia
+pages_surveillees: []
+_meta:
+  first_seen: '2026-08-06'
+  last_updated: '2026-08-06'
+  status: actif
+  nouveaux_entrants: true
+ville: Bruxelles
+contact_email: residency@boghossianfoundation.be

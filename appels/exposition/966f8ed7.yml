@@ -1,14 +1,14 @@
 uid: 966f8ed7
 type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026
-fetched_at: '2026-08-04T09:26:01+00:00'
+fetched_at: '2026-08-06T09:19:54+00:00'
 score: 6
 status: indetermine
 opportunite:
   nom: Saison Méditerranée 2026
   organisme: Institut français
   lieu:
-    ville: Marseille (ouverture), puis territoire français et rives méditerranéennes
+    ville: France (territoire national)
     pays: France
 candidature:
   date_limite: null
@@ -35,13 +35,12 @@ eligibilite:
   residence_administrative: null
 conditions_exposition:
   lieux:
+  - France
   - Marseille
-  - Aix-en-Provence
+  - Festival d'Aix-en-Provence
   - Arles
   - Avignon
-  - Lille
-  - territoire français
-  dates_exposition: 15 mai - 31 octobre 2026
+  dates_exposition: 2026-05-15 à 2026-10-31
   format: festival
   prise_en_charge:
     production: null
@@ -52,101 +51,103 @@ conditions_exposition:
     per_diem: null
     hebergement_vernissage: null
 partenaires:
-- Festival d'Aix-en-Provence
-- Les Suds à Arles
-- Rencontres photographiques d'Arles
-- Festival d'Avignon
 - Ministère de l'Europe et des Affaires étrangères
 - Ministère de la Culture
 - Délégation interministérielle à la Méditerranée
 _meta:
-  extracted_confidence: 0.3
+  extracted_confidence: 0.1
   extracted_notes: Page de présentation générale d'une saison culturelle, non un appel
-    à candidature actif. L'appel à projets s'est déroulé en deux phases et est désormais
-    clos. Seuls les résultats (structures labellisées) sont visibles. Aucune information
-    relative aux candidatures individuelles d'artistes, frais, délais, critères de
-    sélection ou conditions d'hébergement/rétribution n'est mentionnée.
+    à candidature ouvert. L'appel à projets pour structures est désormais clos. Aucune
+    information sur rétribution, hébergement ou conditions d'accueil pour artistes
+    individuels.
   extracted_by: claude-haiku-4-5
-  extracted_at: '2026-08-04T09:26:01+00:00'
+  extracted_at: '2026-08-06T09:19:54+00:00'
   source_lang: fr
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-08-05'
+  last_status_check: '2026-08-06'
 analyse:
   synthese: 'La Saison Méditerranée 2026 est une initiative gouvernementale française
-    (ministères de l''Europe, Affaires étrangères et Culture) mise en œuvre par l''Institut
-    français, qui se déploie du 15 mai au 31 octobre 2026 sur le territoire français
-    et sur les rives méditerranéennes. Elle célèbre les cultures, artistes et jeunes
-    talents des régions méditerranéennes via plus de 500 événements autour de cinq
-    thématiques : utopies spéculatives, identités plurielles, spiritualités contemporaines,
-    migrations, construction des récits. L''appel à projets pour structures (organisations
-    culturelles, festivals, centres d''arts) est désormais clos ; les résultats (structures
-    labellisées) sont publiés.'
-  pour_qui: Structures culturelles, festivals, organisations artistiques et créateurs
-    collectifs des rives méditerranéennes et de France souhaitant participer à une
-    saison de coopération culturelle et échanges transnationaux (appel clos).
+    du 15 mai au 31 octobre 2026, principalement en France et rayonnant sur les rives
+    méditerranéennes. Elle comprend plus de 500 événements pluridisciplinaires (architecture,
+    arts visuels, cinéma, création numérique, débat d''idées, littérature, métiers
+    d''art, spectacle vivant, musique) et s''appuie sur 5 thématiques : utopies spéculatives,
+    identités plurielles, spiritualités contemporaines, histoire collective des migrations,
+    construction des récits. L''appel à projets pour structures s''est déroulé en
+    deux phases et est désormais clos.'
+  pour_qui: Structures culturelles (centres d'arts, compagnies, festivals, institutions)
+    portant des projets pluridisciplinaires en lien avec les cultures et enjeux méditerranéens.
 a_savoir:
-- Appel à projets clos — aucune candidature en cours. Cette page présente les résultats,
-  non un appel actif.
-- Cet appel était destiné à des structures et organisations, non à des artistes individuels.
-- 'Plus de 500 événements prévus : amplitude très large, diversité disciplinaire complète.'
-- Coopération gouvernementale multinationale (Maroc, Algérie, Tunisie, Égypte, Liban
-  mentionnés comme partenaires prioritaires).
+- Appel à projets pour structures fermé — aucune nouvelle candidature possible
+- Page de présentation générale, non d'appel ouvert pour artistes individuels
+- Aucune information sur conditions de rétribution, hébergement, atelier ou prise
+  en charge pour participants
 organisme_details:
-  site_web: http://www.saisonmediterranee2026.com/
+  site_web: https://www.saisonmediterranee2026.com/
   adresse: null
-  ville: Paris
+  ville: null
   contact_email: null
 criteres_programme:
 - id: retribution
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'analyse.synthese: ''Appel à projets pour structures'' + a_savoir:
+    ''Aucune information sur conditions de rétribution...pour participants'''
   poids: 3
   famille: conditions_materielles
 - id: hebergement
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'conditions_exposition.prise_en_charge.hebergement_vernissage: null'
   poids: 2
   famille: conditions_materielles
 - id: atelier
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'a_savoir: ''Aucune information sur...hébergement, atelier ou prise
+    en charge pour participants'''
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'prise_en_charge: {production: null, transport: {pris_en_charge:
+    null}, per_diem: null}'
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: inconnu
-  justification: ''
+  justification: Aucune donnée financière fournie pour évaluation du rapport dotation/coût
+    de vie
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'analyse.synthese énonce ''5 thématiques'' (utopies spéculatives,
+    identités plurielles, spiritualités contemporaines, histoire collective des migrations,
+    construction des récits) mais criteres_programme note: ''critères de notation
+    du jury non détaillés'''
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
-  rempli: inconnu
-  justification: ''
+  rempli: non
+  justification: 'candidature.date_limite: null + a_savoir: ''Appel à projets pour
+    structures fermé — aucune nouvelle candidature possible'''
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: inconnu
-  justification: ''
+  justification: Aucune mention de notification aux candidat·es non retenu·es
   poids: 1
   famille: transparence_administrative
 - id: visibilite_restitution
-  rempli: inconnu
-  justification: ''
+  rempli: partiel
+  justification: 'conditions_exposition.lieux: [Festival d''Aix-en-Provence, Arles,
+    Avignon] (festivals reconnus) mais analyse note: ''pas de certitude sur diffusion
+    presse ou édition catalogue'''
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: inconnu
-  justification: ''
+  justification: Pas de mention de réseau alumni, suivi documenté ou accompagnement
+    après le programme
   poids: 1
   famille: debouche
 _interne_affinite:
