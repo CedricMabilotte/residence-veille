@@ -46,6 +46,7 @@ from parsers import dispatch as parser_dispatch
 import throttle
 
 import detect_type
+import claude_guard
 import extract_opportunity
 import resume_fr
 import score_opportunity
@@ -376,6 +377,7 @@ def main():
         "ended_at": run_end.isoformat(),
         "duration_sec": duration,
         "dry_run": DRY_RUN,
+        "claude_session_limit_hit": claude_guard.session_limit_active(),
         "n_sources": len(sources),
         "n_items_total": sum(s.get("items", 0) for s in sources_stats),
         "n_promoted_total": sum(s.get("promoted", 0) for s in sources_stats),
@@ -393,6 +395,11 @@ def main():
         )
 
     print("─" * 50)
+    if claude_guard.session_limit_active():
+        print(f"⚠️  Limite de session Claude atteinte pendant ce run — "
+              f"une partie des items n'a pas pu être traitée par Claude "
+              f"(detect_type/extract/score/resume_fr en fallback). "
+              f"Voir claude_session_limit_hit dans le rapport.")
     print(f"Total items détectés  : {report['n_items_total']}")
     print(f"Total fiches promues  : {report['n_promoted_total']}")
     print(f"Durée                 : {duration:.1f}s")

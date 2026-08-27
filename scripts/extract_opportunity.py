@@ -21,6 +21,7 @@ import datetime as _dt
 import hashlib
 import json
 import subprocess
+import claude_guard
 import sys
 from pathlib import Path
 from typing import Optional
@@ -60,14 +61,17 @@ def _load_bareme() -> list[dict]:
 
 
 def _call_claude(prompt: str, timeout: int = CLAUDE_TIMEOUT_SEC) -> str:
+    claude_guard.guard_before_call()
     result = subprocess.run(
         ["claude", "-p", prompt, "--model", CLAUDE_MODEL] + CLAUDE_FLAGS,
         capture_output=True, text=True, timeout=timeout,
         cwd="/tmp", stdin=subprocess.DEVNULL,
     )
     if result.returncode != 0:
+        claude_guard.check_result(result.stdout, result.stderr)
         raise RuntimeError(
-            f"claude exit {result.returncode} — stderr={result.stderr[:200]}"
+            f"claude exit {result.returncode} — "
+            f"stdout={result.stdout[:200]} stderr={result.stderr[:200]}"
         )
     raw = result.stdout.strip()
     if raw.startswith("```"):

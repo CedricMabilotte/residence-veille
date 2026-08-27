@@ -16,6 +16,7 @@ from __future__ import annotations
 import datetime as _dt
 import json
 import subprocess
+import claude_guard
 import sys
 from pathlib import Path
 
@@ -45,13 +46,18 @@ _BAREME_CACHE: dict | None = None
 
 
 def _call_claude(prompt: str) -> str:
+    claude_guard.guard_before_call()
     result = subprocess.run(
         ["claude", "-p", prompt, "--model", CLAUDE_MODEL] + CLAUDE_FLAGS,
         capture_output=True, text=True, timeout=CLAUDE_TIMEOUT_SEC,
         cwd="/tmp", stdin=subprocess.DEVNULL,
     )
     if result.returncode != 0:
-        raise RuntimeError(f"claude exit {result.returncode}")
+        claude_guard.check_result(result.stdout, result.stderr)
+        raise RuntimeError(
+            f"claude exit {result.returncode} — "
+            f"stdout={result.stdout[:200]} stderr={result.stderr[:200]}"
+        )
     raw = result.stdout.strip()
     if raw.startswith("```"):
         raw = raw.split("```")[1]

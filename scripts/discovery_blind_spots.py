@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import re
 import subprocess
+import claude_guard
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
@@ -36,14 +37,17 @@ CLAUDE_FLAGS = [
 
 def _call_claude(prompt: str, timeout: int = CLAUDE_TIMEOUT_SEC) -> str:
     """Wrapper subprocess identique à synopsis_enricher."""
+    claude_guard.guard_before_call()
     result = subprocess.run(
         ["claude", "-p", prompt, "--model", CLAUDE_MODEL] + CLAUDE_FLAGS,
         capture_output=True, text=True, timeout=timeout,
         cwd="/tmp", stdin=subprocess.DEVNULL,
     )
     if result.returncode != 0:
+        claude_guard.check_result(result.stdout, result.stderr)
         raise RuntimeError(
-            f"claude exit {result.returncode} — stderr={result.stderr[:200]}"
+            f"claude exit {result.returncode} — "
+            f"stdout={result.stdout[:200]} stderr={result.stderr[:200]}"
         )
     raw = result.stdout.strip()
     if raw.startswith("```"):
