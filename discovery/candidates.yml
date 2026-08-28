@@ -23568,5 +23568,458 @@ candidates:
     hub: d.c.a — membres (centres d'art contemporain, FR)
     hub_url: https://dca-art.com/les-centres-d-art-contemporain/membres
     timestamp: '2026-08-03T10:23:12'
-last_updated: '2026-08-03T10:23:10'
-total_candidates: 1158
+- url: https://www.cnap.fr/annonces/appel-candidatures-2026
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Appel à candidatures 2026 — Présentation&nbsp;La scène artistique réunionnaise est particulièrement active mais
+      la situation insulaire de La Réunion et son éloignement des circuits de diffusion de l’art contemporain limitent les
+      perspectives d’expositions, de mobilité, d’accompagnement curatorial et
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Appel à candidatures 2026
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/residence-dartistes-de-30-jours-0
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Résidence d'artistes de 30 jours — Dans le cadre de sa programmation artistique et culturelle, la Ville de Six-Fours-les-Plagesrenouvelle
+      son appel à candidature pour la résidence d'artistes en 2027, à la Maison du PatrimoineFrançois Flohic.&nbsp;Cette résidence
+      a pour objectif de soutenir et dynami
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Résidence d'artistes de 30 jours
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/residence-5-etoiles
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Résidence "5 étoiles" — Entre 2017 et 2026, à Givors (69), Stimultania met en place une résidence de création
+      annuelle. Ouverte aux artistes photographes, elle offre un espace et un temps à l’expérimentation, la prise de risque
+      et la création au cœur de cette ville que les commerces désertent mais q
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Résidence "5 étoiles"
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/catalogue-ateliers-20262027
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Catalogue ateliers 2026/2027 — Ateliers et cours dans un cadre créatif, rencontre professionnelle ou scolaire.&nbsp;Vous
+      souhaitez imprimer ou publier des textes, des images en micro édition ?Dessiner, découper, coller ou écrire, créer à
+      la main, à partir de photos ou sur ordinateur, nos ateliers de
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Catalogue ateliers 2026/2027
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-candidatures-2027-residences-kultur-ensemble-palermo
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Appel à candidatures 2027 – Résidences Kultur Ensemble Palermo — L'institut culturel franco-allemand KULTUR ENSEMBLE
+      PALERMO réunit depuis 2021 l'Institut français de Palerme et le Goethe-Institut de Palerme. Il met en place un programme
+      culturel interdisciplinaire commun avec des résidences artisti
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Appel à candidatures 2027 – Résidences Kultur Ensemble Palermo
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/residence-de-creation-automne-2027-0
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Résidence de création - Automne 2027 — L’association ADN - Usine Utopik est un Centre de Création Contemporaine
+      implanté en milieu rural, dans les anciennes serres horticoles de Tessy Bocage (en région Normandie).Situées dans une
+      commune de 1500 habitants, les résidences à l’Usine Utopik offrent un '
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Résidence de création - Automne 2027
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/stage-metal-du-concept-la-realisation
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Stage métal : du concept à la réalisation — Animé par Julien Clar.Ce stage s’adresse à toute personne, professionnelle
+      ou non, souhaitant développer des compétences dans la conception et la réalisation d’un projet en métal, tel que sculpture,
+      mobilier, socle, décor ou installation.L’accompagnement a'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'Stage métal : du concept à la réalisation'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/formations-destinees-aux-artistes-auteurs-et-accompagnement-linsertion-professionnelle-des
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Formations destinées aux artistes-auteurs et accompagnement à l''insertion professionnelle des futur·es diplômé·es
+      des écoles d''art et des artistes-auteurs bénéficiaires du RSA — Pour les artistes-auteurs&nbsp;: Dunite BASE propose
+      des formations courtes portant sur les spécificités de l’activité d’a'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Formations destinées aux artistes-auteurs et accompagnement à l'insertion professionnelle des futur·es diplômé·es
+      des écoles d'art et des artistes-auteurs bénéficiaires du RSA
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-candidatures-bourse-ensp-intelligence-artificielle-2026-2027
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Appel à candidatures : Bourse ENSP Intelligence Artificielle 2026-2027 — L''École nationale supérieure de la
+      photographie a le plaisir de vous annoncer l’ouverture des candidatures pour l’édition 2026-2027 de sa Bourse d’accompagnement
+      post-diplôme dédiée à l''Intelligence Artificielle et aux nouvelle'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'Appel à candidatures : Bourse ENSP Intelligence Artificielle 2026-2027'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-projet-incubateur-fluxus
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Appel à projet - Incubateur "Fluxus" — À l’initiative de&nbsp;la DRAC Grand Est / Ministère de la Culture,&nbsp;différents
+      partenaires se sont fédérés pour donner naissance à l’incubateur fluxus.&nbsp;​C’est&nbsp;un&nbsp;dispositif d’incubation&nbsp;régional,
+      pluridisciplinaire et itinérant, alliant
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Appel à projet - Incubateur "Fluxus"
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/residences-artistiques-faites-campagnes
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Résidences artistiques « Faites campagnes » — L’association Campagne Première lance Faites Campagne !, un appel
+      à candidatures pour son programme de résidences d’artistes en lycées agricoles. Pour sa deuxième édition, l’appel à
+      candidatures est ouvert du 15 juillet 2026 au 18 septembre 2026.&nbsp;Da
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Résidences artistiques « Faites campagnes »
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Résidence d''artiste 2027 : Photographie - Traverse — La résidence de territoire à Bagnères-de-Bigorre est destinée
+      aux artistes photographes est lancé.La dimension participative est l''axe principal de cette résidence et elle doit
+      être spécifiquement élaboré pour le territoire de la Haute-Bigorre, co'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'Résidence d''artiste 2027 : Photographie - Traverse'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/recrutement-technicien-dart-specialite-ceramique-hf
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Recrutement technicien d''art spécialité céramique (H/F) — Missions principalesAu sein de l’atelier céramique
+      de la Villa Arson, vous accompagnez les étudiant·es dans la réalisation de leurs projets, en lien avec l’enseignant
+      responsable de l’atelier, et participez à la transmission des savoir-faire '
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Recrutement technicien d'art spécialité céramique (H/F)
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-candidature-faires-lieu-residence-de-recherche-cultures-ruralites-une-vie
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Appel à candidature « Faires lieu », résidence de recherche cultures & ruralités : une vie associative dans
+      les Vosges — faires est un atelier d’artiste et lieu de résidence basé sur le territoire du massif des Vosges, à Anould.
+      Nous souhaitons accueillir un·e chercheur·euse, théoricien·ne, historie'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'Appel à candidature « Faires lieu », résidence de recherche cultures & ruralités : une vie associative dans les
+      Vosges'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/residence-pour-artiste-ceramiste
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Résidence pour artiste céramiste — La&nbsp;résidencePour qui ?Cette résidence est destinée à une ou un céramiste.
+      L’artiste devra proposer un travail de création original associant la création contemporaine à l’histoire de l’art de
+      la fin du XIXe et du début du XXe siècle.S’inspirant des deux sites '
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Résidence pour artiste céramiste
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/creation-conception-et-realisation-dune-verriere-contemporaine-pour-la-baie-33-de-la
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Création (conception et réalisation) d'une verrière contemporaine pour la baie 33 de la cathédrale Saint-Étienne
+      de Bourges — Classée au titre des monuments historiques sur la liste de 1862 et inscrite au patrimoine mondial de l’Unesco
+      en 1992, la cathédrale Saint-Étienne de Bourges est l’une des pl
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Création (conception et réalisation) d'une verrière contemporaine pour la baie 33 de la cathédrale Saint-Étienne
+      de Bourges
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-candidatures-residence-de-creation-dun-conte-musical-2027
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Appel à candidatures : résidence de création d’un conte musical 2027 — L’Intercom Bernay Terres de Normandie
+      lance un nouvel appel à candidatures à destination des compagnies artistiques professionnelles pour la création de son
+      prochain conte musical.Depuis neuf éditions, ce projet culturel fédérate'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'Appel à candidatures : résidence de création d’un conte musical 2027'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-residence-entre-autres-20262027
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Appel à résidence - Entre-Autres 2026/2027 — Au pied du massif des Maures et posé en balcon face aux îles d’Hyères,
+      le Domaine du Rayol est devenu un espace naturel protégé en 1989 grâce à son acquisition par le Conservatoire du littoral.
+      Il était alors fortement convoité par des promoteurs immobili
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Appel à résidence - Entre-Autres 2026/2027
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-projets-pour-4-expositions-dart-contemporain
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Appel à projets pour 4 expositions d’art contemporain — Au pied du massif des Maures et posé en balcon face aux
+      îles d’Hyères, le Domaine du Rayol est devenu un espace naturel protégé en 1989 grâce à son acquisition par le Conservatoire
+      du littoral. Il était alors fortement convoité par des promoteu
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Appel à projets pour 4 expositions d’art contemporain
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/directeurice-generale-0
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: DIRECTEUR·ICE GÉNÉRAL·E — L’ECOLE SUPERIEURE D’ARTS &amp; MEDIAS DE CAEN/CHERBOURG RECRUTE&nbsp;Par détachement
+      ou par voie contractuelle conformément aux dispositions de l’article R 1431-11 du code général des collectivités territoriales
+      :&nbsp;UN DIRECTEUR GÉNÉRAL OU UNE DIRECTRICE GÉNÉRALE&nbsp;(
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: DIRECTEUR·ICE GÉNÉRAL·E
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/lithographie-de-la-pierre-au-livre
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'lithographie : de la pierre au livre — Cette formation, organisée sur 10 jours en deux sessions espacéesd''un
+      mois, propose une immersion en lithographie allianttransmission, expérimentation et autonomie.Les participant·es découvriront
+      la lithographie à poing,fabriqueront leurs principaux outils et d'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'lithographie : de la pierre au livre'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/assistante-administration-et-comptabilite
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Assistant·e administration et comptabilité — Le Frac-Artothèque Nouvelle-Aquitaine propose un nouveau modèle
+      institutionnel en fusionnant le Fonds Régional d’Art Contemporain et l’Artothèque depuis 2015.Le projet du Frac-Artothèque
+      Nouvelle-Aquitaine repose sur une dimension collaborative. L’horizon
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Assistant·e administration et comptabilité
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-candidature-creation-dune-oeuvre-artistique-au-jardin-du-souvenir-du-cimetiere
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Appel à candidature : création d''une œuvre artistique au jardin du souvenir du cimetière communal — Espace
+      dédié à la dispersion des cendres et au recueillement des familles, le jardin du souvenir du cimetière communal de Grand-Quevilly
+      (Seine-Maritime) engage une évolution profonde de son aménageme'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'Appel à candidature : création d''une œuvre artistique au jardin du souvenir du cimetière communal'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-candidatures-universite-dhiver
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Appel à candidatures Université d’hiver — L’appel est ouvert aux commissaires d’exposition, chercher.euses, curateur.ices
+      en début de carrière, vivant ou ayant une possibilité de logement en Île-de-France pendant la durée de la résidence.
+      Deux candidat.es seront sélectionné·es pour une durée de rési
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Appel à candidatures Université d’hiver
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-projets-de-creation-en-impesanteur-0
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: Appel à projets de création en impesanteur — L’Observatoire de l’Espace invite les artistes à réaliser une œuvre
+      qui s’emparera pleinement d’une des caractéristiques spécifiques du milieu extra-terrestre qu’est l’impesanteur.Le vol
+      parabolique, en produisant un état d’impesanteur durant de brèves sé
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Appel à projets de création en impesanteur
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/appel-candidature-fabrique-loeuvre-04
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Appel à candidature Fabrique à l''œuvre #04 — La résidence Fabrique à l’œuvre&nbsp;:&nbsp;La Maison Populaire
+      lance sa quatrième édition de Fabrique à l’œuvre, résidence d’actions artistiques et territoriales à destination d’un
+      duo composé d’un·e commissaire et d’un·e artiste. Cette résidence, fabriq'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'Appel à candidature Fabrique à l''œuvre #04'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/service-civique-en-mediation-culturelle
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'Service civique en médiation culturelle — ContexteL’École supérieure d’art et de communication de Cambrai (ÉSAC)
+      est un établissement d’enseignement supérieur placé sous la tutelle pédagogique du ministère de la Culture. Cet&nbsp;établissement
+      public de coopération culturelle (EPCC) est financé par '
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: Service civique en médiation culturelle
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/faconnage-cahiers-relies-couverture-ouvragee-1
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'FAÇONNAGE : cahiers reliés, couverture ouvragée — Cette formation s’adresse aux personnes souhaitant s’initier
+      aux pratiques artisanales de reliure.&nbsp; Elles mettent en valeur et protègent les travaux imprimés des stagiaires
+      et nourrissent leurs recherches et leurs productions techniques, artisti'
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'FAÇONNAGE : cahiers reliés, couverture ouvragée'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/faconnage-leporello-portfolio-boite-0
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: 'FAÇONNAGE  : leporello  portfolio, boite — Cette formation s’adresse aux personnes souhaitant s’initier aux
+      pratiques artisanales de marouflage et de cartonnage. Elles mettent en valeur et protègent les travaux imprimés des
+      stagiaires et nourrissent leurs recherches et leurs productions techniques, '
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: 'FAÇONNAGE  : leporello  portfolio, boite'
+  suggested_action: follow_one_time
+- url: https://www.cnap.fr/annonces/travailler-la-couleur-en-lithographie-3
+  type: rss
+  found_from:
+  - source: 'RSS feed: CNAP — flux RSS appels à projet (tous types)'
+    context: '« Travailler la couleur en lithographie » — 1er au 4 puis du 7 au 10 juin 2027 &nbsp; &nbsp;ou dates à adapter
+      aux besoins&nbsp;Cette formation permet de se perfectionner aux techniques de la lithographie sur pierres afin de réaliser
+      une estampe originale polychrome sur papier.Interpréter, révéler, '
+    timestamp: '2026-08-28T17:51:37'
+  seen_count: 1
+  domain: www.cnap.fr
+  first_seen: '2026-08-28'
+  last_seen: '2026-08-28'
+  metadata:
+    title: « Travailler la couleur en lithographie »
+  suggested_action: follow_one_time
+last_updated: '2026-08-28T17:51:37'
+total_candidates: 1190

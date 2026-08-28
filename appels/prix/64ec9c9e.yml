@@ -3,7 +3,7 @@ type: prix
 source_url: https://p-a-c.fr/ressources/opportunites/prix-murlot
 fetched_at: '2026-08-01T18:00:00+00:00'
 score: 4
-status: ouverte
+status: bientot-fermee
 opportunite:
   nom: Prix Mourlot 2026 (15e édition) — peinture
   organisme: Association pour le Prix Mourlot
@@ -58,7 +58,7 @@ _meta:
     5 artistes sélectionnés pour une exposition collective à Marseille (19 nov-17
     déc 2026) ; 1er prix 3000€ + exposition personnelle en 2027, 600€ pour les 4 autres.
     Candidature gratuite.
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: Prix de peinture organisé par l'Association pour le Prix Mourlot (Provence
     Art Contemporain), réservé aux artistes peintres résidant en région PACA, avec

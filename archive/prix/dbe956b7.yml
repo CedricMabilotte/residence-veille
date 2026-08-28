@@ -3,7 +3,7 @@ type: prix
 source_url: https://talentscontemporains-terre.fondationfrancoisschneider.org/inscription_individuel.php
 fetched_at: '2026-08-01T18:00:00+00:00'
 score: 4
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Talents Contemporains « La Terre » — Fondation François Schneider
   organisme: Fondation François Schneider
@@ -57,7 +57,7 @@ _meta:
     déjà existante, pour une installation pérenne dans les jardins de l'Abbaye de
     Pontigny. Dotation de 15 000€ (pièce unique) ou 8 000€ (édition multiple). Candidature
     gratuite.
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: Concours d'acquisition pérenne organisé par la Fondation François Schneider,
     pour une installation extérieure existante dans les jardins de l'Abbaye de Pontigny

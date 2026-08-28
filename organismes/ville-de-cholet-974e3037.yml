@@ -5,8 +5,8 @@ pays: France
 type_organisme: institution_publique
 url_canonique: https://www.cholet.fr
 urls_secondaires: []
-description_courte: Mairie de Cholet (Maine-et-Loire), organise le Salon des Arts
-  annuel — sélection sur dossier, ouvert aux artistes amateurs et professionnel·les.
+description_courte: Mairie de Cholet (Maine-et-Loire), organise le Salon des Arts annuel — sélection sur dossier, ouvert aux
+  artistes amateurs et professionnel·les.
 disciplines_proposees:
 - peinture
 - sculpture
@@ -21,16 +21,16 @@ track_record:
   exposition:
     editions:
     - '2026'
-    fiabilite_cycle: 0.4
-    fenetre_annuelle: salon annuel, dépôt observé début août pour une exposition
-      probable en octobre
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-06-10 → 2027-10-08
 partenaires_mentionnes: []
 pages_surveillees:
 - url: https://www.cholet.fr/dossiers/dossier_6505_salon+arts+2026+candidatures+sont+ouvertes.html
   role: page_appel
 _meta:
   first_seen: '2026-08-01'
-  last_updated: '2026-08-01'
+  last_updated: '2026-08-28'
   status: actif
   nouveaux_entrants: true
 ville: Cholet
+noms_alternatifs: []

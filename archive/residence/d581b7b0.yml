@@ -3,7 +3,7 @@ type: residence
 source_url: https://resartis.org/open-call/residency-available-october-2026-colombia
 fetched_at: '2026-08-05T08:37:53+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Residency Available – OCTOBER 2026 – Colombia
   organisme: ArteSumapaz
@@ -80,7 +80,7 @@ _meta:
   detection_confidence: 0.8888888888888888
   detection_method: heuristic
   source_label: Res Artis — Open calls (EN)
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: 'ArteSumapaz est un programme de résidence autogéré en Colombie, dans
     les Andes à 4 heures de Bogotá, accueillant des artistes visuels, musiciens, écrivains,

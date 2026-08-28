@@ -3,7 +3,7 @@ type: residence
 source_url: https://tada-residency.ch/en/residence
 fetched_at: '2026-08-01T18:00:00+00:00'
 score: 4
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: TaDA Residency 2027
   organisme: TaDA — Textile and Design Alliance
@@ -62,7 +62,7 @@ _meta:
     textile réhabilitée, avec accès à un réseau de 13 entreprises textiles suisses
     partenaires. Chambre privée et atelier fournis, contribution aux frais de vie
     (montant non précisé), voyage pris en charge.
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: Résidence dédiée au textile et au design textile, adossée à un réseau
     industriel suisse (13 entreprises), avec mentorat et accès à des savoir-faire

@@ -3,7 +3,7 @@ type: residence
 source_url: https://resartis.org/open-call/open-call-2026-27-live-create-exhibit-in-venice-fully-partially-sponsored-residencies-special-program
 fetched_at: '2026-08-05T08:30:05+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: La Storta Winter Partially Funded Residencies in the heart of Venice
   organisme: Venezia Contemporanea in partnership with Galleria ScalaMata
@@ -74,7 +74,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: Res Artis — Open calls (EN)
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: La Storta offers a 2-6 week residency in Venice's historic Ghetto, in
     a 500-year-old Renaissance building. Venezia Contemporanea covers 50% of €2,400

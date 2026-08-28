@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.citeinternationaledesarts.fr/en/appels-a-candidature/association-francoise-pour-loeuvre-contemporaine-x-cite-internationale-des-arts/
 fetched_at: '2026-08-01T15:10:00+00:00'
 score: 4
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Association Françoise pour l'œuvre contemporaine x Cité internationale des
     arts
@@ -66,7 +66,7 @@ _meta:
   resume_fr: Résidence de recherche-création explorant les liens entre art contemporain,
     psychiatrie et sciences humaines. Un·e seul·e lauréat·e, accompagné·e par une
     psychologue clinicienne et commissaire d'exposition.
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: Résidence explorant les liens entre art contemporain, psychiatrie et sciences
     humaines, avec accompagnement individualisé par une psychologue clinicienne.

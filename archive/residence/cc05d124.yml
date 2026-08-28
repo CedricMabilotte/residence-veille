@@ -3,7 +3,7 @@ type: residence
 source_url: https://westwerk.org/residency.html
 fetched_at: '2026-08-01T18:00:00+00:00'
 score: 4
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Westwerk International Residency Program
   organisme: Westwerk e.V.
@@ -64,7 +64,7 @@ _meta:
     de la Culture et des Médias de la ville, pour artistes visuels et photographes
     de 23 ans et plus. Appartement-atelier fourni, bourse de 900€/mois + 500€ pour
     la présentation finale, un aller-retour pris en charge.
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: Programme de résidence internationale à Hambourg financé par la ville,
     offrant un appartement-atelier et une bourse mensuelle sur 3 mois, avec créneaux

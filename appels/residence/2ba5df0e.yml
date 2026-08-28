@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
 fetched_at: '2026-08-06T08:39:37+00:00'
 score: 6
-status: ouverte
+status: bientot-fermee
 opportunite:
   nom: 'Résidence d''artiste 2027 : Photographie - Traverse'
   organisme: CNAP (Centre national des arts plastiques)
@@ -50,7 +50,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: Le CNAP propose une résidence d'artiste photographe de 2 mois au printemps
     2027 à Bagnères-de-Bigorre, dotée de 6 000 €, en partenariat avec Traverse. Le

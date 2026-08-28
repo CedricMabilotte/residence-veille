@@ -41,3 +41,27 @@ cycles:
   prochain_estimee: '2027-05-22'
   fenetre_surveillance: 2027-03-23 → 2027-07-21
   url_a_surveiller: https://www.curatorspace.com/opportunities/detail/light-up-the-north-spark--early-career-artist-and-producer-programme/10665
+- organisme_uid: fundacion-artesumapaz-03e76f89
+  type: residence
+  millesime_archive: 2026
+  prochain_estimee: '2027-08-07'
+  fenetre_surveillance: 2027-06-08 → 2027-10-06
+  url_a_surveiller: https://resartis.org/open-call/residency-available-september-2026-colombia
+- organisme_uid: fundacion-artesumapaz-03e76f89
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-08-07'
+  fenetre_surveillance: 2027-06-08 → 2027-10-06
+  url_a_surveiller: https://resartis.org/open-call/art-residency-available-april-2027-colombia
+- organisme_uid: tada-textile-and-design-alliance-0a748bf3
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-08-12'
+  fenetre_surveillance: 2027-06-13 → 2027-10-11
+  url_a_surveiller: https://tada-residency.ch/en/residence
+- organisme_uid: ville-de-cholet-974e3037
+  type: exposition
+  millesime_archive: 2026
+  prochain_estimee: '2027-08-09'
+  fenetre_surveillance: 2027-06-10 → 2027-10-08
+  url_a_surveiller: https://www.cholet.fr/dossiers/dossier_6505_salon+arts+2026+candidatures+sont+ouvertes.html

@@ -3,7 +3,7 @@ type: bourse
 source_url: https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart
 fetched_at: '2026-08-04T09:16:14+00:00'
 score: 7
-status: ouverte
+status: bientot-fermee
 opportunite:
   nom: Aider à la production d'oeuvres d'art
   organisme: Fondation des Artistes
@@ -55,7 +55,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: claude
   source_label: Fondation des Artistes
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: 'La Fondation des Artistes propose une aide à la production d''oeuvres
     d''art pour les plasticiens ayant un projet de longue durée en France, dotée d''une

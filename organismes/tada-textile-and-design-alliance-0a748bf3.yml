@@ -6,8 +6,8 @@ pays: Suisse
 type_organisme: reseau_professionnel
 url_canonique: https://tada-residency.ch
 urls_secondaires: []
-description_courte: Alliance de 13 entreprises textiles suisses, opère une résidence
-  d'artiste dans l'ancienne usine textile Saurer à Arbon.
+description_courte: Alliance de 13 entreprises textiles suisses, opère une résidence d'artiste dans l'ancienne usine textile
+  Saurer à Arbon.
 disciplines_proposees:
 - arts visuels
 - design
@@ -22,16 +22,16 @@ track_record:
   residence:
     editions:
     - '2027'
-    fiabilite_cycle: 0.4
-    fenetre_annuelle: appel repéré avec deadline août 2026 pour une résidence 2027
-      — cycle à confirmer sur plusieurs éditions
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-06-13 → 2027-10-11
 partenaires_mentionnes: []
 pages_surveillees:
 - url: https://tada-residency.ch/en/residence
   role: page_appel
 _meta:
   first_seen: '2026-08-01'
-  last_updated: '2026-08-01'
+  last_updated: '2026-08-28'
   status: actif
   nouveaux_entrants: true
 ville: Arbon
+noms_alternatifs: []

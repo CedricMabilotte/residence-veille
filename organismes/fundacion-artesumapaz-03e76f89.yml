@@ -49,12 +49,18 @@ opportunites_liees:
 - uid: f2e01230
   type: residence
   nom: Art Residency Available – SEPTEMBER 2027 – Colombia
-track_record: {}
+track_record:
+  residence:
+    editions:
+    - '2026'
+    - '2027'
+    fiabilite_cycle: 0.7
+    fenetre_annuelle: 2027-06-08 → 2027-10-06
 partenaires_mentionnes: []
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-05'
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-28'
   status: actif
   nouveaux_entrants: true
 noms_alternatifs: []

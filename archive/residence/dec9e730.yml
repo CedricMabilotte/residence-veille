@@ -3,7 +3,7 @@ type: residence
 source_url: https://resartis.org/open-call/art-residency-available-june-2027-colombia
 fetched_at: '2026-08-05T08:58:35+00:00'
 score: 6
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Art Residency Available – JUNE 2027 – Colombia
   organisme: Fundación ArteSumapaz
@@ -86,7 +86,7 @@ _meta:
   detection_confidence: 0.9090909090909091
   detection_method: heuristic
   source_label: Res Artis — Open calls (EN)
-  last_status_check: '2026-08-06'
+  last_status_check: '2026-08-28'
 analyse:
   synthese: 'ArteSumapaz offers a self-directed artist residency in Colombia for 1–3
     months, with a June 2027 session (June 1–30). The program welcomes artists across

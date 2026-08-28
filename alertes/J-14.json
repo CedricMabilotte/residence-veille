@@ -1,10 +1,42 @@
 [
   {
-    "path": "appels/residence/764f21eb.yml",
+    "path": "appels/residence/2ba5df0e.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 13,
+    "type": "residence",
+    "uid": "2ba5df0e",
+    "nom": "Résidence d'artiste 2027 : Photographie - Traverse"
+  },
+  {
+    "path": "appels/residence/41be1cd6.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 11,
+    "type": "residence",
+    "uid": "41be1cd6",
+    "nom": "Résidence de création participative 2027"
+  },
+  {
+    "path": "appels/residence/6c77a484.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 10,
     "type": "residence",
-    "uid": "764f21eb",
-    "nom": "Association Françoise pour l'œuvre contemporaine x Cité internationale des arts"
+    "uid": "6c77a484",
+    "nom": "Résidence d'artiste à Vénissieux"
+  },
+  {
+    "path": "appels/residence/73de5a6b.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 10,
+    "type": "residence",
+    "uid": "73de5a6b",
+    "nom": "Nocefresca Artist Residency 2027"
+  },
+  {
+    "path": "appels/bourse/dd09fac5.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 14,
+    "type": "bourse",
+    "uid": "dd09fac5",
+    "nom": "Aider à la production d'oeuvres d'art"
   }
 ]
