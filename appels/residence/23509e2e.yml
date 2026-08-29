@@ -69,7 +69,7 @@ _meta:
   detection_confidence: 0.8125
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-28'
+  last_status_check: '2026-08-29'
 analyse:
   synthese: 'Résidence Tiny Spaces sélectionne six artistes pour un séjour d''un mois
     entre mai et août 2026, dans des ateliers rénovés à Oulu, Athènes et Potsdam.

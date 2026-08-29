@@ -63,7 +63,7 @@ _meta:
   detection_confidence: 0.75
   detection_method: claude
   source_label: ADAGP — actualités (appels, bourses, prix)
-  last_status_check: '2026-08-28'
+  last_status_check: '2026-08-29'
 analyse:
   synthese: La Révélation Arts plastiques est un prix créé par l'ADAGP depuis 2015,
     désormais décerné en partenariat avec 100% L'EXPO à La Villette, Paris. Il récompense
