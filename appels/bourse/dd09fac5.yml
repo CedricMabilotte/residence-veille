@@ -55,7 +55,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: claude
   source_label: Fondation des Artistes
-  last_status_check: '2026-08-29'
+  last_status_check: '2026-08-30'
 analyse:
   synthese: 'La Fondation des Artistes propose une aide à la production d''oeuvres
     d''art pour les plasticiens ayant un projet de longue durée en France, dotée d''une
