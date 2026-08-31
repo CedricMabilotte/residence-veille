@@ -1,42 +1,26 @@
 [
   {
-    "path": "appels/residence/4dc8fd2e.yml",
+    "path": "appels/residence/6c77a484.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 0,
+    "days_to_deadline": 7,
     "type": "residence",
-    "uid": "4dc8fd2e",
-    "nom": "École des Beaux-Arts de Bretagne (EESAB) x Cité internationale des arts"
+    "uid": "6c77a484",
+    "nom": "Résidence d'artiste à Vénissieux"
   },
   {
-    "path": "appels/residence/5de27397.yml",
+    "path": "appels/residence/73de5a6b.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 0,
+    "days_to_deadline": 7,
     "type": "residence",
-    "uid": "5de27397",
-    "nom": "Kota — Institut français d'Indonésie x Cité internationale des arts"
+    "uid": "73de5a6b",
+    "nom": "Nocefresca Artist Residency 2027"
   },
   {
     "path": "appels/residence/b38012e2.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 1,
+    "days_to_deadline": 0,
     "type": "residence",
     "uid": "b38012e2",
     "nom": "Résidence d'artistes 2027 - Boghossian Foundation"
-  },
-  {
-    "path": "appels/residence/c16312c6.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 0,
-    "type": "residence",
-    "uid": "c16312c6",
-    "nom": "République dominicaine x Cité internationale des arts"
-  },
-  {
-    "path": "appels/residence/eb0a78fc.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 0,
-    "type": "residence",
-    "uid": "eb0a78fc",
-    "nom": "Timor-Leste"
   }
 ]

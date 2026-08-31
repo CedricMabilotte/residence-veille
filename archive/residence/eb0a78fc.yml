@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/timor-leste
 fetched_at: '2026-08-06T09:42:34+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Timor-Leste
   organisme: Cité internationale des arts
@@ -69,7 +69,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: Cité internationale des arts — appels à candidature ouverts
-  last_status_check: '2026-08-30'
+  last_status_check: '2026-08-31'
 analyse:
   synthese: La Cité internationale des arts propose, en partenariat avec l'Institut
     français d'Indonésie et la Fundação Oriente, une résidence de trois mois à Paris
