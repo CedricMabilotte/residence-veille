@@ -2,25 +2,25 @@
   {
     "path": "appels/residence/2ba5df0e.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 10,
+    "days_to_deadline": 9,
     "type": "residence",
     "uid": "2ba5df0e",
     "nom": "Résidence d'artiste 2027 : Photographie - Traverse"
   },
   {
-    "path": "appels/residence/41be1cd6.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 8,
-    "type": "residence",
-    "uid": "41be1cd6",
-    "nom": "Résidence de création participative 2027"
-  },
-  {
     "path": "appels/bourse/dd09fac5.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 11,
+    "days_to_deadline": 10,
     "type": "bourse",
     "uid": "dd09fac5",
     "nom": "Aider à la production d'oeuvres d'art"
+  },
+  {
+    "path": "appels/prix/64ec9c9e.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 14,
+    "type": "prix",
+    "uid": "64ec9c9e",
+    "nom": "Prix Mourlot 2026 (15e édition) — peinture"
   }
 ]

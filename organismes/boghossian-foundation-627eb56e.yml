@@ -13,7 +13,12 @@ opportunites_liees:
 - uid: b38012e2
   type: residence
   nom: Résidence d'artistes 2027 - Boghossian Foundation
-track_record: {}
+track_record:
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-07-02 → 2027-10-30
 partenaires_mentionnes:
 - organisme_uid: creative-armenia
   occurrences: 1
@@ -21,7 +26,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-06'
-  last_updated: '2026-08-06'
+  last_updated: '2026-09-01'
   status: actif
   nouveaux_entrants: true
 ville: Bruxelles

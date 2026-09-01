@@ -55,7 +55,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-08-31'
+  last_status_check: '2026-09-01'
 analyse:
   synthese: Programme de résidence artistique pour la création d'une sculpture monumentale
     participative dans le parc du Centre Psychothérapique de l'Ain à Bourg-en-Bresse,

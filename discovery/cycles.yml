@@ -65,3 +65,9 @@ cycles:
   prochain_estimee: '2027-08-09'
   fenetre_surveillance: 2027-06-10 → 2027-10-08
   url_a_surveiller: https://www.cholet.fr/dossiers/dossier_6505_salon+arts+2026+candidatures+sont+ouvertes.html
+- organisme_uid: boghossian-foundation-627eb56e
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-08-31'
+  fenetre_surveillance: 2027-07-02 → 2027-10-30
+  url_a_surveiller: https://www.cnap.fr/annonces/residence-dartistes-2027-boghossian-foundation
