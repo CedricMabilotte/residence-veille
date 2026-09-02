@@ -64,7 +64,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-09-01'
+  last_status_check: '2026-09-02'
 analyse:
   synthese: Centre d'art Madeleine Lambert de Vénissieux propose une résidence d'artiste
     offrant 2000 € de rémunération et 1500 € d'aide à la production, accompagnement
