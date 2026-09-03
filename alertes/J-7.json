@@ -1,8 +1,16 @@
 [
   {
+    "path": "appels/residence/2ba5df0e.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 7,
+    "type": "residence",
+    "uid": "2ba5df0e",
+    "nom": "Résidence d'artiste 2027 : Photographie - Traverse"
+  },
+  {
     "path": "appels/residence/41be1cd6.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 6,
+    "days_to_deadline": 5,
     "type": "residence",
     "uid": "41be1cd6",
     "nom": "Résidence de création participative 2027"
@@ -10,7 +18,7 @@
   {
     "path": "appels/residence/6c77a484.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 5,
+    "days_to_deadline": 4,
     "type": "residence",
     "uid": "6c77a484",
     "nom": "Résidence d'artiste à Vénissieux"
@@ -18,7 +26,7 @@
   {
     "path": "appels/residence/73de5a6b.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 5,
+    "days_to_deadline": 4,
     "type": "residence",
     "uid": "73de5a6b",
     "nom": "Nocefresca Artist Residency 2027"
