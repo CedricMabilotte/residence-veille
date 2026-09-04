@@ -29,7 +29,7 @@ pages_surveillees:
   role: page_appel
 _meta:
   first_seen: '2026-08-01'
-  last_updated: '2026-09-03'
+  last_updated: '2026-09-04'
   status: actif
   nouveaux_entrants: true
 ville: Cholet
