@@ -50,7 +50,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: CNAP — annonces filtrées « Résidence d'artiste »
-  last_status_check: '2026-09-04'
+  last_status_check: '2026-09-05'
 analyse:
   synthese: Le CNAP propose une résidence d'artiste photographe de 2 mois au printemps
     2027 à Bagnères-de-Bigorre, dotée de 6 000 €, en partenariat avec Traverse. Le

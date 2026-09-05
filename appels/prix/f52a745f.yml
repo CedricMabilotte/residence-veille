@@ -163,7 +163,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
-  last_status_check: '2026-09-04'
+  last_status_check: '2026-09-05'
 _interne_affinite:
   match: false
   signaux: []
