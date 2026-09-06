@@ -247,16 +247,33 @@ jobs:
         # durer des mois avant d'être remarqué — c'est précisément ce qui s'est
         # produit du 22 mai au 1er août 2026. Réutilise une issue existante au
         # lieu d'en recréer une à chaque run pour éviter le spam.
+        #
+        # 2026-09-06 : la dédup par `gh issue list --search "in:title ..."`
+        # s'est révélée peu fiable en pratique — l'issue #3 ouverte le 05/08
+        # n'a jamais été retrouvée par les ~16 runs en échec suivants (recherche
+        # plein-texte avec accents + latence d'indexation de l'API search),
+        # chacun tentant silencieusement un nouveau `gh issue create` qui a dû
+        # échouer sans qu'on le remarque (pas de log conservé). Remplacé par
+        # une dédup sur label dédié : `gh issue list --label` interroge l'API
+        # Issues directement (pas l'API Search), donc pas de latence d'index
+        # ni de dépendance au texte du titre.
         if: ${{ failure() || steps.veille.outcome == 'failure' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          LABEL="veille-echec"
           TITLE="⚠️ Échec de la veille automatisée"
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           BODY="Le run du $(date -u '+%Y-%m-%d %H:%M UTC') a échoué (étape « Veille principale » ou une étape suivante). Détail : ${RUN_URL}. Vérifier en priorité la validité des secrets CLAUDE_CODE_OAUTH_TOKEN et RESIDENCE_PUBLISH_TOKEN."
-          EXISTING=$(gh issue list --state open --search "in:title Échec de la veille automatisée" --json number --jq '.[0].number' 2>/dev/null || true)
+
+          # Idempotent : ignore l'erreur si le label existe déjà.
+          gh label create "$LABEL" --color "B60205" \
+            --description "Échec automatique de la veille (géré par le workflow, ne pas éditer)" \
+            2>/dev/null || true
+
+          EXISTING=$(gh issue list --state open --label "$LABEL" --json number --jq '.[0].number' 2>/dev/null || true)
           if [ -n "$EXISTING" ]; then
             gh issue comment "$EXISTING" --body "$BODY" || echo "→ notification échouée (permissions issues ?)"
           else
-            gh issue create --title "$TITLE" --body "$BODY" || echo "→ notification échouée (permissions issues ?)"
+            gh issue create --title "$TITLE" --body "$BODY" --label "$LABEL" || echo "→ notification échouée (permissions issues ?)"
           fi
