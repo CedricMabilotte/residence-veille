@@ -5,8 +5,8 @@ pays: Italie
 type_organisme: autre
 url_canonique: https://www.nocefresca.it
 urls_secondaires: []
-description_courte: Résidence d'artiste autofinancée à Milis (Sardaigne rurale),
-  historiquement fréquentée par des céramistes et artistes textile.
+description_courte: Résidence d'artiste autofinancée à Milis (Sardaigne rurale), historiquement fréquentée par des céramistes
+  et artistes textile.
 disciplines_proposees:
 - arts visuels
 - design textile
@@ -21,16 +21,16 @@ track_record:
   residence:
     editions:
     - '2027'
-    fiabilite_cycle: 0.4
-    fenetre_annuelle: résidence autofinancée, dépôt observé jusqu'en septembre 2026
-      pour l'édition 2027
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-07-09 → 2027-11-06
 partenaires_mentionnes: []
 pages_surveillees:
 - url: https://www.nocefresca.it/
   role: page_appel
 _meta:
   first_seen: '2026-08-01'
-  last_updated: '2026-08-01'
+  last_updated: '2026-09-08'
   status: actif
   nouveaux_entrants: true
 ville: Milis
+noms_alternatifs: []

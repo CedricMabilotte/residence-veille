@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite
 fetched_at: '2026-08-06T09:40:14+00:00'
 score: 7
-status: ouverte
+status: bientot-fermee
 opportunite:
   nom: Institut français x Cité internationale des arts – Édition 2027
   organisme: Cité internationale des arts et Institut français
@@ -73,7 +73,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: Cité internationale des arts — appels à candidature ouverts
-  last_status_check: '2026-09-07'
+  last_status_check: '2026-09-08'
 analyse:
   synthese: Le programme Institut français x Cité internationale des arts (édition
     2027) accueille environ 70 artistes de toutes nationalités pour une résidence

@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "path": "appels/residence/53bddbf8.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 30,
+    "type": "residence",
+    "uid": "53bddbf8",
+    "nom": "Institut français x Cité internationale des arts – Édition 2027"
+  },
+  {
+    "path": "appels/residence/762972f7.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 30,
+    "type": "residence",
+    "uid": "762972f7",
+    "nom": "Résidences Institut français x Cité internationale des arts"
+  },
+  {
+    "path": "appels/residence/b2fced6d.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 30,
+    "type": "residence",
+    "uid": "b2fced6d",
+    "nom": "Institut français x Cité internationale des arts 2027"
+  }
+]
