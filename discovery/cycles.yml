@@ -77,3 +77,9 @@ cycles:
   prochain_estimee: '2027-09-07'
   fenetre_surveillance: 2027-07-09 → 2027-11-06
   url_a_surveiller: https://www.nocefresca.it/
+- organisme_uid: centre-psychotherapique-de-l-ain-cpa-150930b9
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-09-08'
+  fenetre_surveillance: 2027-07-10 → 2027-11-07
+  url_a_surveiller: https://www.cnap.fr/annonces/residence-de-creation-participative-2027

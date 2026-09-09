@@ -13,7 +13,12 @@ opportunites_liees:
 - uid: 41be1cd6
   type: residence
   nom: Résidence de création participative 2027
-track_record: {}
+track_record:
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-07-10 → 2027-11-07
 partenaires_mentionnes:
 - organisme_uid: orsac
   occurrences: 2
@@ -27,7 +32,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-08-02'
-  last_updated: '2026-08-06'
+  last_updated: '2026-09-09'
   status: actif
   nouveaux_entrants: true
 ville: Bourg-en-Bresse
