@@ -1,4 +1,4 @@
-# Audit auto-promotion — 2026-09-10
+# Audit auto-promotion — 2026-09-11
 
 Échantillon : 20 entrées.
 

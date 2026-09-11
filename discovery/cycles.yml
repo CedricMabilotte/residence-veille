@@ -83,3 +83,9 @@ cycles:
   prochain_estimee: '2027-09-08'
   fenetre_surveillance: 2027-07-10 → 2027-11-07
   url_a_surveiller: https://www.cnap.fr/annonces/residence-de-creation-participative-2027
+- organisme_uid: centre-national-des-arts-plastiques-cnap-6c9bf251
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-09-10'
+  fenetre_surveillance: 2027-07-12 → 2027-11-09
+  url_a_surveiller: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
