@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.proyectoace.org/en/residencies/production-residencies/
 fetched_at: '2026-08-01T18:00:00+00:00'
 score: 4
-status: ouverte
+status: bientot-fermee
 opportunite:
   nom: Proyecto'ACE — Production Residencies
   organisme: Proyecto'ACE
@@ -61,7 +61,7 @@ _meta:
   resume_fr: Résidence de production autofinancée à Buenos Aires, art visuel et textile,
     candidatures glissantes (4 sessions par an). Coût à partir de 480 USD, voyage
     non pris en charge.
-  last_status_check: '2026-09-11'
+  last_status_check: '2026-10-02'
 analyse:
   synthese: Résidence de production en atelier à Buenos Aires, ouverte aux arts visuels
     et à l'art textile, fonctionnant par sessions glissantes tout au long de l'année.

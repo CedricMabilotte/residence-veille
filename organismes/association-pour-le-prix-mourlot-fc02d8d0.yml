@@ -5,8 +5,8 @@ pays: France
 type_organisme: association
 url_canonique: https://p-a-c.fr
 urls_secondaires: []
-description_courte: Association marseillaise (Provence Art Contemporain), organise
-  le Prix Mourlot de peinture réservé aux artistes de la région PACA.
+description_courte: Association marseillaise (Provence Art Contemporain), organise le Prix Mourlot de peinture réservé aux
+  artistes de la région PACA.
 disciplines_proposees:
 - peinture
 types_opportunites_habituels:
@@ -19,16 +19,16 @@ track_record:
   prix:
     editions:
     - '2026'
-    fiabilite_cycle: 0.6
-    fenetre_annuelle: 15e édition — prix annuel bien établi, dépôt habituel en fin
-      d'été
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-07-17 → 2027-11-14
 partenaires_mentionnes: []
 pages_surveillees:
 - url: https://p-a-c.fr/ressources/opportunites/prix-murlot
   role: page_appel
 _meta:
   first_seen: '2026-08-01'
-  last_updated: '2026-08-01'
+  last_updated: '2026-10-02'
   status: actif
   nouveaux_entrants: true
 ville: Marseille
+noms_alternatifs: []

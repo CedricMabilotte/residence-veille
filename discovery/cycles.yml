@@ -89,3 +89,15 @@ cycles:
   prochain_estimee: '2027-09-10'
   fenetre_surveillance: 2027-07-12 → 2027-11-09
   url_a_surveiller: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
+- organisme_uid: centre-national-des-arts-plastiques-cbca1064
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-09-10'
+  fenetre_surveillance: 2027-07-12 → 2027-11-09
+  url_a_surveiller: https://www.cnap.fr/annonces/residence-dartiste-2027-photographie-traverse
+- organisme_uid: association-pour-le-prix-mourlot-fc02d8d0
+  type: prix
+  millesime_archive: 2026
+  prochain_estimee: '2027-09-15'
+  fenetre_surveillance: 2027-07-17 → 2027-11-14
+  url_a_surveiller: https://p-a-c.fr/ressources/opportunites/prix-murlot

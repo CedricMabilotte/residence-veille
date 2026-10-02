@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique
 fetched_at: '2026-08-06T09:17:02+00:00'
 score: 6
-status: ouverte
+status: bientot-fermee
 opportunite:
   nom: PIDA - Programme International de Diffusion Artistique
   organisme: Institut français
@@ -57,7 +57,7 @@ _meta:
   detection_confidence: 0.8333333333333334
   detection_method: heuristic
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-09-11'
+  last_status_check: '2026-10-02'
 analyse:
   synthese: Le PIDA est un appel à projets de l'Institut français soutenant la diffusion
     de la création artistique française à l'international, financé par le ministère

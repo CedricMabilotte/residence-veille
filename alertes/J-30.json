@@ -1,26 +1,26 @@
 [
   {
-    "path": "appels/residence/53bddbf8.yml",
+    "path": "appels/residence/58ee772e.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 27,
+    "days_to_deadline": 29,
     "type": "residence",
-    "uid": "53bddbf8",
-    "nom": "Institut français x Cité internationale des arts – Édition 2027"
+    "uid": "58ee772e",
+    "nom": "Proyecto'ACE — Production Residencies"
   },
   {
-    "path": "appels/residence/762972f7.yml",
+    "path": "appels/bourse/8030ae41.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 27,
-    "type": "residence",
-    "uid": "762972f7",
-    "nom": "Résidences Institut français x Cité internationale des arts"
+    "days_to_deadline": 28,
+    "type": "bourse",
+    "uid": "8030ae41",
+    "nom": "Fonds culturel franco-allemand"
   },
   {
-    "path": "appels/residence/b2fced6d.yml",
+    "path": "appels/exposition/a5664345.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 27,
-    "type": "residence",
-    "uid": "b2fced6d",
-    "nom": "Institut français x Cité internationale des arts 2027"
+    "days_to_deadline": 28,
+    "type": "exposition",
+    "uid": "a5664345",
+    "nom": "PIDA - Programme International de Diffusion Artistique"
   }
 ]

@@ -3,7 +3,7 @@ type: bourse
 source_url: https://www.institutfrancais.com/fr/programme/aide-projet/fonds-culturel-franco-allemand
 fetched_at: '2026-08-06T09:14:32+00:00'
 score: 6
-status: ouverte
+status: bientot-fermee
 opportunite:
   nom: Fonds culturel franco-allemand
   organisme: Institut français
@@ -50,7 +50,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: claude
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-09-11'
+  last_status_check: '2026-10-02'
 analyse:
   synthese: 'Le Fonds culturel franco-allemand (FCFA), institué en 2003, soutient
     les initiatives de coopération culturelle menées dans des pays tiers par les réseaux

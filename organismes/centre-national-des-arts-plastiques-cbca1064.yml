@@ -29,6 +29,11 @@ track_record:
     - '2027'
     fiabilite_cycle: 0.5
     fenetre_annuelle: 2027-04-19 → 2027-08-17
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-07-12 → 2027-11-09
 partenaires_mentionnes:
 - organisme_uid: palais-de-tokyo
   occurrences: 1
@@ -42,7 +47,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-09-11'
+  last_updated: '2026-10-02'
   status: actif
   nouveaux_entrants: true
 contact_email: marie.chenel@cnap.fr
