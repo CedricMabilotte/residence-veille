@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Pour citer ce corpus, utilisez les métadonnées ci-dessous (ou le bouton « Cite this repository » de GitHub)."
+type: dataset
+title: "Résidence — veille des opportunités arts plastiques (résidences, bourses, prix, appels)"
+abstract: "Veille automatisée : appels et opportunités datés et sourcés (JSON), organismes, calendrier iCal ; publiée sur residence.actitude.org."
+authors:
+  - family-names: Mabilotte
+    given-names: Cedric
+    website: "https://cedric.mabilotte.com"
+version: "2026-11-08"
+date-released: "2026-11-08"
+url: "https://residence.actitude.org"
+repository-code: "https://github.com/CedricMabilotte/residence-veille"
+license:
+  - CC-BY-NC-SA-4.0
+  - ODbL-1.0
+  - AGPL-3.0-or-later
+license-url: "https://github.com/CedricMabilotte/residence-veille/blob/main/LICENSE"
+keywords:
+  - arts-plastiques
+  - residences-artistiques
+  - veille
+  - open-data
+  - json
+  - calendrier

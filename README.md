@@ -55,3 +55,12 @@ site/                   ← snapshot du site public à publier
 ## Sous-domaine cible
 
 `residence.actitude.org` (en attente DNS + GitHub Pages).
+
+## Réutiliser
+
+- **Fiches** : `appels/` (une fiche JSON par appel : dates, organisme, conditions, source) et `organismes/`. Adresse stable sur le site : https://residence.actitude.org/o/<id>.html (organismes) ; calendrier : https://residence.actitude.org/calendar.ics.
+- **Téléchargement** : https://residence.actitude.org/data.json (tous les appels publiés, régénéré au build).
+- **Licences** (`LICENSE`) : textes CC BY-NC-SA 4.0 ; données ODbL 1.0 ; code AGPL-3.0-or-later ; sources tierces à leur licence.
+- **Citer** : `CITATION.cff` (GitHub : « Cite this repository »). Archive pérenne : Software Heritage,
+  https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/CedricMabilotte/residence-veille
+- **Corriger** : `CONTRIBUTING.md` — une issue ou une PR par fiche, source citée, réponse sous un mois.
