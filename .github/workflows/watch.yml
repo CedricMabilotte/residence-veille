@@ -221,7 +221,7 @@ jobs:
 
           git clone "https://x-access-token:${PUBLISH_TOKEN}@github.com/CedricMabilotte/residence-actitude-org.git" /tmp/residence
           # Conserve .git du repo public et CNAME ; remplace tout le reste
-          rsync -a --delete --exclude='.git' site/ /tmp/residence/
+          rsync -a --delete --exclude='.git' --exclude='LICENSE' --exclude='LICENSES' site/ /tmp/residence/
           cd /tmp/residence
           git config user.name  "Residence Bot"
           git config user.email "bot@residence.local"
