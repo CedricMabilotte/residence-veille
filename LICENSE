@@ -1,0 +1,24 @@
+Copyright (c) 2026 Cedric Mabilotte — residence.actitude.org
+
+Ce dépôt contient la veille residence.actitude.org (source) : fiches, données et générateur. Chaque famille a sa licence ; en cas de doute
+sur la famille d'un fichier, la plus protectrice pour le commun s'applique.
+
+1. Textes — pages, fiches, articles, dessins et images de l'auteur :
+   Creative Commons Attribution – Pas d'utilisation commerciale – Partage dans
+   les mêmes conditions 4.0 International (CC BY-NC-SA 4.0)
+   https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr
+   Texte complet : LICENSES/CC-BY-NC-SA-4.0.txt
+
+2. Données — tables, fichiers YAML/JSON/CSV/GeoJSON et cartes produits par le projet :
+   Open Data Commons Open Database License 1.0 (ODbL) — https://opendatacommons.org/licenses/odbl/1-0/ — texte complet : LICENSES/ODbL-1.0.txt
+
+3. Code — générateurs, scripts, feuilles de style, gabarits et configuration :
+   GNU Affero General Public License, version 3 ou ultérieure (AGPL-3.0-or-later)
+   https://www.gnu.org/licenses/agpl-3.0.html — texte complet : LICENSES/AGPL-3.0.txt
+
+4. Exceptions — sources tierces, à leur propre licence :
+   - les textes, documents, images et extraits cités ou reproduits restent soumis aux conditions de leurs auteurs et éditeurs ;
+   - les appels et textes des organismes recensés restent soumis à leurs propres conditions.
+
+Les éditions et PDF diffusés avant le 7 novembre 2026 restent sous la licence
+imprimée dessus. Licences décidées le 2026-11-07 (charte de valorisation, D8-03).
