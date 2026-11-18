@@ -1,0 +1,139 @@
+uid: 3daba854
+type: prix
+source_url: https://artquest.org.uk/opportunity/cove-park-awarded-residencies-2027-2028/
+fetched_at: '2026-11-18T21:28:02+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Cove Park Awarded Residencies 2027 & 2028
+  organisme: Cove Park
+  lieu:
+    ville: Cove
+    pays: Royaume-Uni
+  nom_fr: Résidences Attribuées à Cove Park 2027 & 2028
+  affichage_titre: Cove Park Awarded Residencies 2027 & 2028 [Résidences Attribuées
+    à Cove Park 2027 & 2028]
+candidature:
+  date_limite: '2026-12-11'
+  langue_dossier: []
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: https://covepark.org/awarded-residencies-2027-2028/
+eligibilite:
+  disciplines: []
+  niveau_carriere: Tous stades de carrière
+  age_max: null
+  nationalite: International
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant:
+      montant: 775
+      devise: GBP
+    exposition: false
+    achat_oeuvre: false
+    edition_catalogue: false
+  jury_public: []
+  nb_laureats: null
+  editions_precedentes: []
+partenaires: []
+_meta:
+  extracted_confidence: 0.78
+  extracted_notes: Résidence entièrement financée. Montant 775 £ par semaine. Période
+    de séjour flexible de 2 semaines à 3 mois sur la fenêtre mai 2027-décembre 2028.
+    Critères de sélection, délai de réponse et modalités de restitution non détaillés
+    dans le texte disponible.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T21:28:02+00:00'
+  source_lang: es
+  resume_fr: 'Cove Park propose des résidences artistiques entièrement financées pour
+    2027 et 2028. Les résidences durent de 2 semaines à 3 mois et se déroulent entre
+    mai 2027 et décembre 2028. L''allocation est de 775 £ par semaine, incluant l''hébergement,
+    le voyage, les matériaux, l''accessibilité et le visa. Artistes de toutes disciplines
+    et tous stades de carrière peuvent postuler, candidatures internationales acceptées.
+    Date limite : 11/12/2026.'
+  detection_confidence: 0.75
+  detection_method: heuristic
+  source_label: Semences manuelles (discovery/seeds.yml)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Cove Park propose des résidences artistiques entièrement financées de
+    2 semaines à 3 mois entre mai 2027 et décembre 2028. Le programme offre 775 £
+    par semaine, hébergement, voyage, matériaux et prise en charge du visa. Il s'adresse
+    à tous les artistes, quel que soit leur stade de carrière, discipline ou nationalité.
+  pour_qui: Artistes de tous stades de carrière et toutes disciplines, sans restriction
+    de nationalité.
+a_savoir:
+- Montant versé par semaine (775 £), à multiplier par la durée du séjour
+- Couverture complète des frais (hébergement, voyage, visa, matériaux, accessibilité)
+- Localisation en Écosse rurale (Argyll and Bute)
+- Durée minimale relativement courte (2 semaines)
+organisme_details:
+  site_web: https://covepark.org/
+  adresse: null
+  ville: Cove
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"montant": 775, "devise": "GBP" (parsemaine)'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"synthese": "...hébergement, voyage, matériaux et prise en charge
+    du visa"'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: partiel
+  justification: '"a_savoir": "Matériaux fournis, mais espace de travail/atelier non
+    explicitement mentionné"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: '"a_savoir": "Couverture complète des frais (hébergement, voyage,
+    visa, matériaux, accessibilité)"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: '"montant": 775 "devise": "GBP" + "Localisation en Écosse rurale
+    (Argyll and Bute)" — ratio à évaluer selon coût local'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"pieces_demandees": [] — aucun critère de sélection explicite du
+    jury mentionné'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Champs "candidature" vides de tout délai ou date de notification
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas de mention de notification individuelle aux candidats non retenus
+    dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: '"exposition": false, "edition_catalogue": false — modalités de restitution
+    non décrites'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: Aucune mention d'un suivi documenté, réseau alumni ou accompagnement
+    après résidence
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - rural
+  bonus_score: 0

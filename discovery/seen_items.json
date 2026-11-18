@@ -11,6 +11,12 @@
   "source": "Semences manuelles (discovery/seeds.yml)",
   "status": "below_threshold"
  },
+ "accioncultural.es/en/residencies-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
  "adagp.fr/fr/actualites/actualites-de-lorganisation-mondiale-de-la-propriete-intellectuelle-ompi": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
@@ -1029,6 +1035,12 @@
   "source": "Artquest [rebond K]",
   "status": "skipped"
  },
+ "artquest.org.uk/opportunity/cove-park-awarded-residencies-2027-2028": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "promoted"
+ },
  "artquest.org.uk/opportunity/francois-schneider-foundation-talents-contemporains": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -1077,6 +1089,66 @@
   "last_seen": "2026-11-18",
   "source": "Semences manuelles (discovery/seeds.yml)",
   "status": "promoted"
+ },
+ "biennialfoundation.org/2026/10/14th-edition-berlin-biennale-for-contemporary-art-announces-central-europe-eastern-time": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/10/biennale-jogja-close-its-operations": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/10/irini-papadimitriou-appointed-artistic-director-of-the-14th-seoul-mediacity-biennale": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "below_threshold"
+ },
+ "biennialfoundation.org/2026/10/katerina-gregos-named-curator-of-the-11th-u3-triennial-of-contemporary-art": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/10/santiago-mostyn-appointed-14th-edition-curator-of-goteborg-international-biennial": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/11/aurora-biennial-returns-with-seventh-edition-states-of-becoming": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/11/bangkok-art-biennale-presents-fifth-edition-angels-mara": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/11/liverpool-biennial-2027-announces-the-age-of-magical-thinking": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/11/steirischer-herbst-presents-symposium-the-end-of-contemporary-art-how-did-radical-culture-become-so-conservative": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
+ },
+ "biennialfoundation.org/2026/11/yokohama-triennale-announces-9th-edition-concept-whalefall-news-and-rumours-from-the-ocean-floor": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Biennial Foundation [rebond K]",
+  "status": "skipped"
  },
  "candidats.salondemontrouge.fr/index.php": {
   "first_seen": "2026-08-02",
@@ -3005,6 +3077,12 @@
   "source": "culture360 [rebond K]",
   "status": "promoted"
  },
+ "culture360.asef.org/opportunities/japan-sado-island-galaxy-art-festival-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
  "culture360.asef.org/opportunities/latvia-residency-for-european-capital-of-culture-2027": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -3021,6 +3099,12 @@
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
   "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/residency-on-ai-and-cultural-memory-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
   "status": "below_threshold"
  },
  "culture360.asef.org/opportunities/switzerland-2027-site-responsive-residency-for-emerging-artists": {
@@ -3648,10 +3732,130 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
+ "estellecreativearts.com/artist-in-residency-program": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/call-for-applications-international-triennial-of-textile-arts-2027cultural-foundation-for-the-textile-arts-budapest-hudeadline-08-02-2027.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "promoted"
+ },
+ "etn-net.org/berichte/open-call-12th-valcellina-awardmaniago-itdeadline-31-12-2025.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-16th-scythia-textile-and-fibre-art-biennialivano-frankivsk-uadeadline-01-02-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-24th-textile-miniature-empathygal%c3%a9ria-umelka-bratislava-skdeadline-28-02-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-artist-residency-2027watermill-center-new-york-usdeadline-14-01-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-artist-residency-art-n-fiber-2026quilt-academy-of-sweden-uppsala-sedeadline-12-04-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-artist-residency-at-the-textile-centre-haslach-in-cooperation-with-etn05-08-15-08-2026deadline-15-03-2026-2069.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-bien-2026-2027-tunnelsthe-tr%c5%bei%c4%8d-museum-tr%c5%bei%c4%8d-sideadline-30-04-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-bien-2027textile-art-biennial-sideadline-21-12-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
  "etn-net.org/berichte/open-call-call-for-participation-skb-artes-kunst-in-der-kartausebolzano-karthaus-schnals-itdeadline-20-11-2026.html": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
   "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-cliff-edge-textile-art-on-the-brinkcromer-artspace-on-the-prom-cromer-ukdeadline-24-08-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-forssa-textile-residencyforssa-museum-forrsa-fideadline-17-05-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-identifying-showcasing-supporting-the-next-generation-of-sustainable-textile-materialsimasus-onlinedeadline-28-02-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-igreen-exhibition-projectmuseo-del-fiume-nazzano-rome-itdeadline-31-01-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-iv-bulgaria-mini-textiles-triennialgallery-of-the-union-of-bulgarian-artists-sofiapress-sofia-bgdeadline-05-09-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-on-site-artist-residencyhypertextile-2027-alentejo-ptdeadline-31-01-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-reimagined-resourcesthreads-interreg-npa-se-fin-nor-isl-irldeadline-13-04-2026brdeadline.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-rings-in-water%c3%ba%c4%beuv-bratislava-skdeadline-30-06-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-texpoart-international-textile-art-triennial-2026art-galleries-of-the-union-of-visual-artists-iasi-rodeadline-01-04-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
+  "status": "below_threshold"
+ },
+ "etn-net.org/berichte/open-call-voyage-2026-international-mini-textile-art-triennialfinnish-association-of-new-textile-art-uute-fideadline-01-03-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "European Textile Network (ETN) [rebond K]",
   "status": "below_threshold"
  },
  "fiberartfever.com/en/adhesion-tarifs-fonctionnalites": {
@@ -3862,6 +4066,126 @@
   "first_seen": "2026-05-20",
   "last_seen": "2026-05-20",
   "status": "skipped"
+ },
+ "hiap.fi/after-hours-cliodhna-timoney-on-landscape-bodies-and-collective-potential": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/artists-selected-for-learning-materials-residency-2026": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/arts-on-the-edge-spaces-ares-artist-announcement": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "promoted"
+ },
+ "hiap.fi/follow-the-plants-book-features-hiap-residents-staff-and-partners": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/hiap-alumni-konul-rafiyeva-exhibition-curator-for-threads-of-remembrance-in-azerbaijan": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/hiap-has-a-new-strategy-2026-2030": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/hiap-hosts-emma-saastamoinen-curatorial-fellow-pauline-koffi-vandet": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "promoted"
+ },
+ "hiap.fi/hiap-is-an-apartheid-free-zone": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "below_threshold"
+ },
+ "hiap.fi/hiap-is-hiring-marketing-communications-coordinator-part-time-fixed-term": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "below_threshold"
+ },
+ "hiap.fi/hiap-is-hiring-residency-assistant-part-time-fixed-term-2": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "below_threshold"
+ },
+ "hiap.fi/hiap-suomenlinna-hosts-emma-saastamoinen-new-curatorial-fellow-shohreh-shakoory": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "below_threshold"
+ },
+ "hiap.fi/hiap-welcomes-a-new-board-member-taina-maret-pieski": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/laura-fitzgerald-selected-for-2027-temple-bar-gallery-and-studios-hiap-international-residency-exchange": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/learning-materials-new-residency-programme-coming-soon": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "below_threshold"
+ },
+ "hiap.fi/noor-bhangu-and-kholisile-dhliwayo-selected-for-the-helsinki-international-curatorial-programme": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "below_threshold"
+ },
+ "hiap.fi/threads-of-remembrance-konul-r%c9%99fiyevas-reflections-on-textile-and-hiap-suomenlinna": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/villa-elaintarha-reopens-in-june-2025": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/welcome-hiaps-new-residency-assistant-dua-rizvi": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/welcoming-our-new-chair-board-member-and-residency-assistant": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "skipped"
+ },
+ "hiap.fi/yana-foque-and-toni-lewis-selected-for-the-helsinki-international-curatorial-programme-in-2025": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "HIAP [rebond K]",
+  "status": "below_threshold"
  },
  "institutfrancais.com/fr/programme/aide-projet/connect-create-renforcer-liens-culturels-afrique-europe": {
   "first_seen": "2026-05-22",
@@ -5447,6 +5771,12 @@
   "source": "Semences manuelles (discovery/seeds.yml)",
   "status": "skipped"
  },
+ "themesh.art/convocatorias/bardo-projektraum-open-call-bardo-curatorial-residency-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
  "themesh.art/convocatorias/dancehouse-lefkosia-on-bodies-festival": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -5653,6 +5983,96 @@
  "villa-albertine.org/va/fr/professionals/young-french-cinema-2": {
   "first_seen": "2026-05-22",
   "last_seen": "2026-11-18",
+  "status": "below_threshold"
+ },
+ "villamedici.it/la-recherche": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/concours-des-pensionnaires": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "below_threshold"
+ },
+ "villamedici.it/programme_residence/residence-medicis": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-andre-chastel": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-daniel-arasse": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-lagardere": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-mode": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-occitanie": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-pratiques-culinaires": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-prix-intelligence-de-la-main": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "below_threshold"
+ },
+ "villamedici.it/programme_residence/residence-medicis-recherche-arts-et-creation": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicis-toutes-disciplines": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "below_threshold"
+ },
+ "villamedici.it/programme_residence/residence-medicis-xr-farnese": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-medicisavec-la-menagerie-de-verre": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
+  "status": "skipped"
+ },
+ "villamedici.it/programme_residence/residence-metiers-art": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Médicis [rebond K]",
   "status": "below_threshold"
  },
  "westwerk.org/index.html": {

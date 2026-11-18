@@ -64,6 +64,14 @@
     "nom": "Call for Chapters: One Stitch at a Time: Telling Stories, Archiving Histories, and Threading Narratives of Resistance and Rebellion through Embroidered Art and Needlecraft"
   },
   {
+    "path": "appels/prix/3daba854.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 23,
+    "type": "prix",
+    "uid": "3daba854",
+    "nom": "Cove Park Awarded Residencies 2027 & 2028"
+  },
+  {
     "path": "appels/exposition/626815e6.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 27,

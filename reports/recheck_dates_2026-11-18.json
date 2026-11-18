@@ -1,61 +1,13 @@
 {
   "date": "2026-11-18",
-  "n_candidates": 35,
+  "n_candidates": 1,
   "records": [
     {
-      "uid": "32ccdf05",
-      "titre": "Art Fellowships - International Art Stipends 2026/2027",
-      "issue": "quarantaine (pas un appel)",
-      "confiance": 0.95,
-      "indice": "Cette page est une agrégation de multiples appels à candidature distincts (Les Rencontres d'Arles, Fabre Museum, Mophradat, etc.) avec des dates limites différentes, pas un seul appel unique"
-    },
-    {
-      "uid": "dbe5b36f",
-      "titre": "Etant donnés pour l'Art contemporain",
-      "issue": "prochaine édition 2026-12",
-      "confiance": 0.85,
-      "indice": "Cet appel à candidatures est désormais clôturé. Prochain appel à candidatures : 1er décembre 2026"
-    },
-    {
-      "uid": "86e99f36",
-      "titre": "Soutenir les écoles d'art - Programme d'accompagnement professionnel Quilt (ESBAN Nîmes)",
-      "issue": "inchangé",
-      "confiance": 0.15,
-      "indice": "Page de présentation générale des missions de la Fondation décrivant des programmes d'accompagnement passés et en cours, sans modalités ni dates de candidature pour la seconde session du Quilt"
-    },
-    {
-      "uid": "0c311ef8",
-      "titre": "Résidence annuelle Fondation des Artistes à l'étranger",
-      "issue": "quarantaine (pas un appel)",
-      "confiance": 0.7,
-      "indice": "pour réserver, chaque année pendant trois ans, deux séjours de deux mois à deux artistes de la scène française"
-    },
-    {
-      "uid": "96722c2c",
-      "issue": "source PDF (non relue)"
-    },
-    {
-      "uid": "0144555c",
-      "issue": "source PDF (non relue)"
-    },
-    {
-      "uid": "6ba8743c",
-      "issue": "source PDF (non relue)"
-    },
-    {
-      "uid": "c9b469ac",
-      "issue": "source PDF (non relue)"
-    },
-    {
-      "uid": "ea63cf12",
-      "issue": "source PDF (non relue)"
-    },
-    {
-      "uid": "a2b6bce5",
-      "titre": "Attribuer des ateliers",
-      "issue": "candidature continue",
-      "confiance": 0.95,
-      "indice": "Chaque dossier est enregistré à la date de réception à la Fondation ; il lui est attribué un numéro de classement. Lorsqu'un atelier est déclaré vacant – et seulement à cette étape -, la Fondation des Artistes reprend contact avec les candidats, dans leur ordre d'inscription"
+      "uid": "239df4ec",
+      "titre": "KIAR Textile India Residency",
+      "issue": "date limite 2027-04-10",
+      "confiance": 0.9,
+      "indice": "WHEN CAN I APPLY? TEXTILE INDIA RESIDENCY International applicants : September 20th – April 10th"
     }
   ]
 }

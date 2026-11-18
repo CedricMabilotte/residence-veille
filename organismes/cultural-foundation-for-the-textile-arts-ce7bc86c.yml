@@ -1,0 +1,46 @@
+uid: cultural-foundation-for-the-textile-arts-ce7bc86c
+nom_canonique: Cultural Foundation for the Textile Arts
+acronymes: []
+pays: null
+type_organisme: fondation
+url_canonique: https://www.textileartstriennialhungary.com
+urls_secondaires: []
+description_courte: Fondation internationale dédiée aux arts textiles et aux biennales de créations en textile.
+disciplines_proposees:
+- tapisserie
+- textile art
+- fiber art
+- arts textiles
+- design textile
+- arts fibreux
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 42063e77
+  type: exposition
+  nom: International Triennial of Textile Arts 2027
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: maoe-association-of-hungarian-creative-artists
+  occurrences: 1
+  nom_brut: MAOE (Association of Hungarian Creative Artists)
+- organisme_uid: association-of-hungarian-fine-and-applied-artists
+  occurrences: 1
+  nom_brut: Association of Hungarian Fine and Applied Artists
+- organisme_uid: szombathely-gallery
+  occurrences: 1
+  nom_brut: Szombathely Gallery
+- organisme_uid: savaria-museum
+  occurrences: 1
+  nom_brut: Savaria Museum
+- organisme_uid: european-textile-network
+  occurrences: 1
+  nom_brut: European Textile Network
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
+ville: Szombathely

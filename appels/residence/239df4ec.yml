@@ -3,7 +3,7 @@ type: residence
 source_url: https://kalanirvana.com/textile-india-residency
 fetched_at: '2026-11-18T20:21:02+00:00'
 score: 7
-status: indetermine
+status: ouverte
 opportunite:
   nom: KIAR Textile India Residency
   organisme: KIAR
@@ -14,8 +14,8 @@ opportunite:
   nom_fr: KIAR Résidence Textile Inde
   affichage_titre: KIAR Textile India Residency [KIAR Résidence Textile Inde]
 candidature:
-  date_limite: null
-  date_limite_precision: null
+  date_limite: '2027-04-10'
+  date_limite_precision: day
   langue_dossier: null
   frais_inscription: null
   pieces_demandees: null
@@ -67,6 +67,12 @@ _meta:
   detection_method: heuristic
   source_label: Semences manuelles (discovery/seeds.yml)
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    confiance: 0.9
+    indice: 'WHEN CAN I APPLY? TEXTILE INDIA RESIDENCY International applicants :
+      September 20th – April 10th'
 analyse:
   synthese: 'KIAR Textile India Residency propose une immersion textile à Bhubaneswar
     en trois durées au choix : 15 jours (850 USD), 30 jours (1500 USD) ou jusqu''à

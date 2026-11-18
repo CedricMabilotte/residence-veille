@@ -1,0 +1,172 @@
+uid: 75af3b59
+type: residence
+source_url: https://www.hiap.fi/hiap-hosts-emma-saastamoinen-curatorial-fellow-pauline-koffi-vandet/
+fetched_at: '2026-11-18T22:04:56+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: EMMA-Saastamoinen Curatorial Fellowship
+  organisme: EMMA (Espoo Museum of Modern Art), Saastamoinen Foundation
+  lieu:
+    ville: Espoo, Suomenlinna
+    pays: Finland
+    territoire: null
+  nom_fr: HIAP accueille Pauline Koffi Vandet, boursière curatrice EMMA & Saastamoinen
+  affichage_titre: HIAP Hosts EMMA & Saastamoinen Curatorial Fellow Pauline Koffi
+    Vandet [HIAP accueille Pauline Koffi Vandet, boursière curatrice EMMA & Saastamoinen]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - contemporary art
+  - curatorial practice
+  - photography
+  - moving images
+  - media art
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: six months
+  hebergement: true
+  atelier: null
+  remuneration: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: research-based article published on EMMA Zone digital platform
+partenaires:
+- EMMA
+- Saastamoinen Foundation
+- HIAP - Helsinki International Artist Programme
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Page announces a past selection (September 2026), not an active
+    open call. Program structure described but application procedures, deadlines,
+    and financial terms not specified.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T22:04:56+00:00'
+  source_lang: en
+  resume_fr: Pauline Koffi Vandet, née en 1994, a été sélectionnée comme deuxième
+    bénéficiaire de la EMMA–Saastamoinen Curatorial Fellowship par appel international.
+    Elle travaillera six months à EMMA, menant une recherche indépendante sur la Saastamoinen
+    Foundation Art Collection, l'une des collections d'art moderne et contemporain
+    les plus importantes de Finlande. Son projet culminera en un article de recherche
+    basé sur cette collection, à publier sur EMMA Zone, la plateforme numérique du
+    musée. Elle sera hébergée à HIAP – Helsinki International Artist Programme à Suomenlinna.
+    Cette initiative de three-year accueille chaque année un curateur international
+    pour s'engager avec la collection et apporter de nouvelles perspectives à la recherche
+    et aux pratiques curatoriales.
+  detection_confidence: 0.85
+  detection_method: claude
+  source_label: HIAP [rebond K]
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: The EMMA-Saastamoinen Curatorial Fellowship is a three-year program inviting
+    one international curator annually to conduct independent research at EMMA while
+    engaging with the Saastamoinen Foundation Art Collection, one of Finland's most
+    significant collections of modern and contemporary art. The fellow develops a
+    research project over six months, works alongside EMMA's curatorial staff, and
+    concludes with a research article published on EMMA Zone. The residency is hosted
+    at HIAP in Suomenlinna, Espoo.
+  pour_qui: International curators with research-driven approaches and professional
+    experience, particularly those interested in contemporary art, photography, moving
+    images, and media arts seeking a six-month professional development opportunity.
+a_savoir:
+- This page announces a past selection, not an active open call
+- Program invites one curator per year over three years, suggesting annual application
+  cycles, but next call details not provided
+- No remuneration, per diem, or travel coverage mentioned
+- No application requirements, selection criteria, or deadline information available
+  on this page
+- Publication venue (EMMA Zone) is internal platform with limited external visibility
+organisme_details:
+  site_web: null
+  adresse: Exhibition Centre WeeGee, Tapiola, Espoo, Finland
+  ville: Espoo
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"No remuneration, per diem, or travel coverage mentioned" (a_savoir)'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true (conditions_residence); "HIAP residency in Suomanlinna"
+    (analyse)'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: partiel
+  justification: '"workspace is for curatorial/research work, not production studio"
+    (criteres_programme justification)'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"Travel, production, or transport costs not mentioned" (a_savoir)'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"Cannot evaluate without remuneration information" (criteres_programme
+    justification)'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"No application requirements, selection criteria, or deadline information
+    available on this page" (a_savoir)'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"No timeline or date for notification of results mentioned" (criteres_programme
+    justification)'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: '"No provision for feedback to non-selected applicants mentioned"
+    (criteres_programme justification)'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"develop independent research project and conduct independent research"
+    (analyse.synthese)'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: '"Six-month duration specified but calendar flexibility not mentioned"
+    (criteres_programme justification)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"research-based article published on EMMA Zone digital platform"
+    (conditions_residence.restitution); "internal platform with limited external visibility"
+    (a_savoir)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: '"No mention of post-fellowship support, alumni network, or follow-up
+    opportunities" (criteres_programme justification)'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

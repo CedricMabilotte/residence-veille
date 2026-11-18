@@ -1,0 +1,1105 @@
+{
+  "started_at": "2026-11-18T21:25:16.686863+00:00",
+  "ended_at": "2026-11-18T22:13:13.233769+00:00",
+  "duration_sec": 2876.546906,
+  "dry_run": false,
+  "claude_session_limit_hit": false,
+  "n_sources": 83,
+  "n_items_total": 71,
+  "n_promoted_total": 4,
+  "n_new_items": 70,
+  "n_seen_skipped": 1,
+  "budget_minutes": 60,
+  "budget_hit": false,
+  "sources_not_reached": [],
+  "sources_stats": [
+    {
+      "label": "Semences manuelles (discovery/seeds.yml)",
+      "items": 6,
+      "new_items": 6,
+      "promoted": 1
+    },
+    {
+      "label": "Villa Médicis [rebond K]",
+      "items": 15,
+      "new_items": 15,
+      "promoted": 0
+    },
+    {
+      "label": "European Textile Network (ETN) [rebond K]",
+      "items": 20,
+      "new_items": 19,
+      "promoted": 1
+    },
+    {
+      "label": "Biennial Foundation [rebond K]",
+      "items": 10,
+      "new_items": 10,
+      "promoted": 0
+    },
+    {
+      "label": "HIAP [rebond K]",
+      "items": 20,
+      "new_items": 20,
+      "promoted": 2
+    }
+  ],
+  "logs": [
+    {
+      "url": "https://www.estellecreativearts.com/artist-in-residency-program",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/residency-on-ai-and-cultural-memory-2027/",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://artquest.org.uk/opportunity/cove-park-awarded-residencies-2027-2028/",
+      "status": "promoted",
+      "score": 7,
+      "type": "prix",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/japan-sado-island-galaxy-art-festival-2027/",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.accioncultural.es/en/residencies-2027",
+      "status": "below_threshold",
+      "score": 3,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://themesh.art/convocatorias/bardo-projektraum-open-call-bardo-curatorial-residency-2027/",
+      "status": "below_threshold",
+      "score": 2,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-toutes-disciplines",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8333333333333334,
+      "dry_run": false
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-andre-chastel",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.65,
+        "method": "claude",
+        "reasoning": "Le texte mentionne explicitement 'deux bourses' de 3.000 € destinées à des chercheurs pour effectuer des recherches. Le soutien financier pour la recherche est l'élément central, avec un logement secondaire de 4-6 semaines. | garde-fou candidature ouverte : confidence 0.98→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.65,
+          "bourse": 0.25,
+          "prix": 0.1,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-daniel-arasse",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.65,
+        "method": "claude",
+        "reasoning": "Accueil physique avec logement fourni en cohabitation, périodes définies (octobre-novembre 2026 et janvier-février 2027), bien que nommé 'bourses', c'est une résidence avec hébergement obligatoire | garde-fou candidature ouverte : confidence 0.95→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.5416666666666666,
+          "bourse": 0.16666666666666666,
+          "prix": 0.2916666666666667,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-metiers-art",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8064516129032258,
+      "dry_run": false
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "prix",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Prix compétitif décerné par un jury de lecteurs récompensant un album de BD, avec résidence d'un mois à la Villa Médicis comme dotation associée | garde-fou candidature ouverte : confidence 0.98→0.50 (signal=0.27, verbe=False, rétro_hits=1)",
+        "scores": {
+          "residence": 0.34782608695652173,
+          "bourse": 0.0,
+          "prix": 0.6521739130434783,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.27,
+          "has_verb": false,
+          "has_deadline_marker": true,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-occitanie",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "prix",
+        "confidence": 0.68,
+        "method": "claude",
+        "reasoning": "Appelé explicitement 'Prix Occitanie – Médicis', c'est une distinction compétitive (sélection par jury) avec dotation comprenant résidence, atelier, hébergement et 10 500 € de bourse",
+        "scores": {
+          "residence": 0.5263157894736842,
+          "bourse": 0.02631578947368421,
+          "prix": 0.4473684210526316,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.67,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-xr-farnese",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.73, marge 0.54). | garde-fou candidature ouverte : confidence 0.73→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.7307692307692307,
+          "bourse": 0.07692307692307693,
+          "prix": 0.19230769230769232,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-pratiques-culinaires",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.94, marge 0.88). | garde-fou candidature ouverte : confidence 0.94→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.9375,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0625
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-mode",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.81, marge 0.69). | garde-fou candidature ouverte : confidence 0.81→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.8125,
+          "bourse": 0.0625,
+          "prix": 0.125,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicisavec-la-menagerie-de-verre",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-recherche-arts-et-creation",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.90, marge 0.86). | garde-fou candidature ouverte : confidence 0.90→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.9047619047619048,
+          "bourse": 0.0,
+          "prix": 0.047619047619047616,
+          "exposition": 0.047619047619047616
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-prix-intelligence-de-la-main",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/residence-medicis-lagardere",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.78, marge 0.61). | garde-fou candidature ouverte : confidence 0.78→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.7777777777777778,
+          "bourse": 0.05555555555555555,
+          "prix": 0.16666666666666666,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/la-recherche",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villamedici.it/programme_residence/concours-des-pensionnaires",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-bien-2027textile-art-biennial-sideadline-21-12-2026.html",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-forssa-textile-residencyforssa-museum-forrsa-fideadline-17-05-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8125,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-bien-2026-2027-tunnelsthe-tr%C5%BEi%C4%8D-museum-tr%C5%BEi%C4%8D-sideadline-30-04-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-iv-bulgaria-mini-textiles-triennialgallery-of-the-union-of-bulgarian-artists-sofiapress-sofia-bgdeadline-05-09-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-reimagined-resourcesthreads-interreg-npa-se-fin-nor-isl-irldeadline-13-04-2026brdeadline.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-cliff-edge-textile-art-on-the-brinkcromer-artspace-on-the-prom-cromer-ukdeadline-24-08-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.9,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-artist-residency-at-the-textile-centre-haslach-in-cooperation-with-etn05-08-15-08-2026deadline-15-03-2026-2069.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-artist-residency-art-n-fiber-2026quilt-academy-of-sweden-uppsala-sedeadline-12-04-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-rings-in-water%C3%BA%C4%BEuv-bratislava-skdeadline-30-06-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.8571428571428571,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-texpoart-international-textile-art-triennial-2026art-galleries-of-the-union-of-visual-artists-iasi-rodeadline-01-04-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-24th-textile-miniature-empathygal%C3%A9ria-umelka-bratislava-skdeadline-28-02-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-on-site-artist-residencyhypertextile-2027-alentejo-ptdeadline-31-01-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.7,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-identifying-showcasing-supporting-the-next-generation-of-sustainable-textile-materialsimasus-onlinedeadline-28-02-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-artist-residency-2027watermill-center-new-york-usdeadline-14-01-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.7142857142857143,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-voyage-2026-international-mini-textile-art-triennialfinnish-association-of-new-textile-art-uute-fideadline-01-03-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.875,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-igreen-exhibition-projectmuseo-del-fiume-nazzano-rome-itdeadline-31-01-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-16th-scythia-textile-and-fibre-art-biennialivano-frankivsk-uadeadline-01-02-2026.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.7142857142857143,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/open-call-12th-valcellina-awardmaniago-itdeadline-31-12-2025.html",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.8823529411764706,
+      "dry_run": false
+    },
+    {
+      "url": "https://etn-net.org/berichte/call-for-applications-international-triennial-of-textile-arts-2027cultural-foundation-for-the-textile-arts-budapest-hudeadline-08-02-2027.html",
+      "status": "promoted",
+      "score": 6,
+      "type": "exposition",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/11/liverpool-biennial-2027-announces-the-age-of-magical-thinking/?utm_source=rss&utm_medium=rss&utm_campaign=liverpool-biennial-2027-announces-the-age-of-magical-thinking",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.75, marge 0.50). | garde-fou candidature ouverte : confidence 0.75→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.25,
+          "prix": 0.0,
+          "exposition": 0.75
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/11/yokohama-triennale-announces-9th-edition-concept-whalefall-news-and-rumours-from-the-ocean-floor/?utm_source=rss&utm_medium=rss&utm_campaign=yokohama-triennale-announces-9th-edition-concept-whalefall-news-and-rumours-from-the-ocean-floor",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'bourse' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 1.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/11/aurora-biennial-returns-with-seventh-edition-states-of-becoming/?utm_source=rss&utm_medium=rss&utm_campaign=aurora-biennial-returns-with-seventh-edition-states-of-becoming",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/11/bangkok-art-biennale-presents-fifth-edition-angels-mara/?utm_source=rss&utm_medium=rss&utm_campaign=bangkok-art-biennale-presents-fifth-edition-angels-mara",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/11/steirischer-herbst-presents-symposium-the-end-of-contemporary-art-how-did-radical-culture-become-so-conservative/?utm_source=rss&utm_medium=rss&utm_campaign=steirischer-herbst-presents-symposium-the-end-of-contemporary-art-how-did-radical-culture-become-so-conservative",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/10/14th-edition-berlin-biennale-for-contemporary-art-announces-central-europe-eastern-time/?utm_source=rss&utm_medium=rss&utm_campaign=14th-edition-berlin-biennale-for-contemporary-art-announces-central-europe-eastern-time",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/10/santiago-mostyn-appointed-14th-edition-curator-of-goteborg-international-biennial/?utm_source=rss&utm_medium=rss&utm_campaign=santiago-mostyn-appointed-14th-edition-curator-of-goteborg-international-biennial",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/10/irini-papadimitriou-appointed-artistic-director-of-the-14th-seoul-mediacity-biennale/?utm_source=rss&utm_medium=rss&utm_campaign=irini-papadimitriou-appointed-artistic-director-of-the-14th-seoul-mediacity-biennale",
+      "status": "below_threshold",
+      "score": 4,
+      "type": "exposition",
+      "confidence": 0.9047619047619048,
+      "dry_run": false
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/10/katerina-gregos-named-curator-of-the-11th-u3-triennial-of-contemporary-art/?utm_source=rss&utm_medium=rss&utm_campaign=katerina-gregos-named-curator-of-the-11th-u3-triennial-of-contemporary-art",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.73, marge 0.45). | garde-fou candidature ouverte : confidence 0.73→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.2727272727272727,
+          "exposition": 0.7272727272727273
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://biennialfoundation.org/2026/10/biennale-jogja-close-its-operations/?utm_source=rss&utm_medium=rss&utm_campaign=biennale-jogja-close-its-operations",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/laura-fitzgerald-selected-for-2027-temple-bar-gallery-and-studios-hiap-international-residency-exchange/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.75, marge 0.50). | garde-fou candidature ouverte : confidence 0.75→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.75,
+          "bourse": 0.0,
+          "prix": 0.25,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/arts-on-the-edge-spaces-ares-artist-announcement/",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-hosts-emma-saastamoinen-curatorial-fellow-pauline-koffi-vandet/",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.85,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/follow-the-plants-book-features-hiap-residents-staff-and-partners/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.20 (signal=0.00, verbe=False, rétro_hits=2)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-alumni-konul-rafiyeva-exhibition-curator-for-threads-of-remembrance-in-azerbaijan/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.88, marge 0.75). | garde-fou candidature ouverte : confidence 0.88→0.20 (signal=0.00, verbe=False, rétro_hits=8)",
+        "scores": {
+          "residence": 0.125,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.875
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 8
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/noor-bhangu-and-kholisile-dhliwayo-selected-for-the-helsinki-international-curatorial-programme/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/welcome-hiaps-new-residency-assistant-dua-rizvi/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.80, marge 0.60). | garde-fou candidature ouverte : confidence 0.80→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.8,
+          "bourse": 0.2,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/threads-of-remembrance-konul-r%c9%99fiyevas-reflections-on-textile-and-hiap-suomenlinna/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Article documentant un projet développé lors d'une résidence à HIAP Suomenlinna : 'Developed during a residency at HIAP on Suomenlinna'. Cependant, ce n'est pas un appel à candidatures mais un compte-rendu d'une résidence complétée. | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.5217391304347826,
+          "bourse": 0.30434782608695654,
+          "prix": 0.0,
+          "exposition": 0.17391304347826086
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-has-a-new-strategy-2026-2030/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.20 (signal=0.00, verbe=False, rétro_hits=2)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-welcomes-a-new-board-member-taina-maret-pieski/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "none",
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page annonce la nomination d'un nouveau membre du conseil d'administration de HIAP, non un appel à candidature artistique. C'est une communication interne de gouvernance, pas une opportunité pour les artistes.",
+        "scores": {
+          "residence": 0.16666666666666666,
+          "bourse": 0.0,
+          "prix": 0.6666666666666666,
+          "exposition": 0.16666666666666666
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/artists-selected-for-learning-materials-residency-2026/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-is-hiring-residency-assistant-part-time-fixed-term-2/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-suomenlinna-hosts-emma-saastamoinen-new-curatorial-fellow-shohreh-shakoory/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/after-hours-cliodhna-timoney-on-landscape-bodies-and-collective-potential/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Timoney was a resident in HIAP Suomenlinna in the late spring-early summer of 2025 via international artist exchange, indicating an accueil physique d'artiste sur un lieu avec durée définie | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.5714285714285714,
+          "bourse": 0.0,
+          "prix": 0.14285714285714285,
+          "exposition": 0.2857142857142857
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/yana-foque-and-toni-lewis-selected-for-the-helsinki-international-curatorial-programme-in-2025/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/learning-materials-new-residency-programme-coming-soon/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/villa-elaintarha-reopens-in-june-2025/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-is-hiring-marketing-communications-coordinator-part-time-fixed-term/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.hiap.fi/welcoming-our-new-chair-board-member-and-residency-assistant/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.hiap.fi/hiap-is-an-apartheid-free-zone/",
+      "status": "below_threshold",
+      "score": 3,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    }
+  ]
+}

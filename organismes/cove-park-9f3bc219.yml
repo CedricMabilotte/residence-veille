@@ -1,0 +1,31 @@
+uid: cove-park-9f3bc219
+nom_canonique: Cove Park
+acronymes: []
+pays: null
+type_organisme: centre_art
+url_canonique: https://covepark.org/
+urls_secondaires: []
+description_courte: Centre d'art contemporain accueillant des artistes en résidence sur l'île d'Islay, en Écosse.
+disciplines_proposees:
+- art contemporain
+- sculpture
+- photographie
+- vidéo
+- installation
+- peinture
+types_opportunites_habituels:
+- prix
+opportunites_liees:
+- uid: 3daba854
+  type: prix
+  nom: Cove Park Awarded Residencies 2027 & 2028
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
+ville: Cove

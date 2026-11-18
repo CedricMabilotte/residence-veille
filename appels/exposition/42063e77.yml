@@ -1,0 +1,167 @@
+uid: 42063e77
+type: exposition
+source_url: https://etn-net.org/berichte/call-for-applications-international-triennial-of-textile-arts-2027cultural-foundation-for-the-textile-arts-budapest-hudeadline-08-02-2027.html
+fetched_at: '2026-11-18T21:58:26+00:00'
+score: 6
+status: ouverte
+opportunite:
+  nom: International Triennial of Textile Arts 2027
+  organisme: Cultural Foundation for the Textile Arts
+  lieu:
+    ville: Budapest
+    pays: Hungary
+  nom_fr: 'Appel à candidatures : Triennial Internationale des Arts Textiles 2027'
+  affichage_titre: 'Call for Applications: International Triennial of Textile Arts
+    2027 Cultural Foundation for the Textile Arts, Budapest, HU Deadline: 08.02.2027
+    competitions [Appel à candidatures : Triennial Internationale des Arts Textiles
+    2027]'
+candidature:
+  date_limite: '2027-02-08'
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.textileartstriennialhungary.com
+eligibilite:
+  disciplines:
+  - Textile art - Wall and Spatial Textiles
+  - Textile art - Textile Design
+  - Textile art - Miniature Textiles
+  niveau_carriere: null
+  age_max: null
+  nationalite: EU residents for Wall and Spatial Textiles and Textile Design; international
+    for Miniature Textiles
+  residence_administrative: European Union (most categories); international (Miniature
+    Textiles)
+conditions_exposition:
+  lieux:
+  - Szombathely Gallery
+  dates_exposition: '2027'
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- MAOE (Association of Hungarian Creative Artists)
+- Association of Hungarian Fine and Applied Artists
+- Szombathely Gallery
+- Savaria Museum
+- European Textile Network
+_meta:
+  extracted_confidence: 0.7
+  extracted_notes: This announcement references a forthcoming detailed call (call-for-entries_2027.pdf);
+    submission details may be in that PDF. Specific venue confirmed as historically
+    Szombathely Gallery but 2027 location not explicitly stated. No financial support
+    or in-kind benefits mentioned.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T21:58:26+00:00'
+  source_lang: en
+  resume_fr: 'L''appel à candidatures pour la Triennial Internationale des Arts Textiles
+    2027 de la Cultural Foundation for the Textile Arts (Budapest, Hongrie) ferme
+    le 08.02.2027. Le thème de cette édition est « Interwoven Generation ». Les œuvres
+    doivent être réalisées en matière fibreuse (tissage, filage ou techniques connexes),
+    ne pas dépasser 2.5 × 2.5 × 2.5 mètres et dater de 2024 à 2027. Trois catégories
+    sont proposées : Wall and Spatial Textiles, Textile Design et Miniature Textiles
+    ; les deux premières sont ouvertes aux artistes de l''UE.'
+  detection_confidence: 0.75
+  detection_method: heuristic
+  source_label: European Textile Network (ETN) [rebond K]
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: The 2027 International Triennial of Textile Arts is a submission-based
+    collective exhibition held triennially by the Cultural Foundation for the Textile
+    Arts. Artists worldwide are invited to submit works in three categories (Wall
+    and Spatial Textiles, Textile Design, Miniature Textiles) created between 2024
+    and 2027, responding to the theme 'Interwoven Generation.' Works must use fibrous
+    materials and traditional techniques (weaving, spinning, or related) and not exceed
+    2.5 × 2.5 × 2.5 meters. The event has 50 years of history, attracting artists
+    from 29 countries across 5 continents in its last edition. No production support,
+    funding, accommodation, or per diem is provided.
+  pour_qui: Textile artists at all career levels practicing traditional or conceptual
+    fibre-based art; EU-based for most categories, with international participation
+    in the Miniature Textiles category.
+a_savoir:
+- Submission-based exhibition, not a residency or production support program.
+- 'Strict dimensional limit: works must not exceed 2.5 × 2.5 × 2.5 meters in any direction.'
+- 'Thematic requirement: works must connect to ''Interwoven Generation'' (directly
+  or abstractly).'
+- EU-only eligibility introduced for Wall and Spatial Textiles and Textile Design
+  categories (new policy for 2027).
+- Zero financial support, production funding, travel reimbursement, or accommodation
+  offered.
+- Only works created after 2024 are eligible.
+- 'Triennial format: opportunity recurs every 3 years only.'
+- Detailed submission requirements in separate PDF document (call-for-entries_2027.pdf).
+organisme_details:
+  site_web: https://www.textileartstriennialhungary.com
+  adresse: null
+  ville: Szombathely
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: 'prise_en_charge: {production: false, per_diem: false}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: 'prise_en_charge: {hebergement_vernissage: false}'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: 'analyse.synthese: ''not a residency or production support program'''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: 'prise_en_charge.transport: {pris_en_charge: false}; a_savoir: ''Zero
+    financial support, production funding, travel reimbursement'''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: 'per_diem: false; a_savoir: ''Zero financial support... or per diem
+    is provided'''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: 'a_savoir: ''Thematic requirement: works must connect to Interwoven
+    Generation''; ''Strict dimensional limit: works must not exceed 2.5 × 2.5 × 2.5
+    meters'' — mais pas de critères de jury explicites'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: Aucune information sur date/délai de notification
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Aucune mention de notifications individuelles aux non-retenus
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: 'analyse.synthese: ''The event has 50 years of history, attracting
+    artists from 29 countries across 5 continents in its last edition'''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: exposition dans 'established venue with international reach, but
+    no documented alumni network, post-exhibition career support, or structured follow-up
+    mechanisms mentioned'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

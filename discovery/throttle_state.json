@@ -1169,6 +1169,66 @@
       "last_etag": null,
       "last_modified": null,
       "cooldown_until": null
+    },
+    "Villa Médicis [rebond K]": {
+      "url": "https://villamedici.it/programmes-de-residences/",
+      "domain": "villamedici.it",
+      "last_fetch": "2026-11-18T21:37:58Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "European Textile Network (ETN) [rebond K]": {
+      "url": "https://etn-net.org/competitions.html",
+      "domain": "etn-net.org",
+      "last_fetch": "2026-11-18T21:59:06Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 1,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "Biennial Foundation [rebond K]": {
+      "url": "https://biennialfoundation.org/feed/",
+      "domain": "biennialfoundation.org",
+      "last_fetch": "2026-11-18T22:02:01Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "HIAP [rebond K]": {
+      "url": "https://www.hiap.fi/feed/",
+      "domain": "www.hiap.fi",
+      "last_fetch": "2026-11-18T22:13:13Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 2,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
     }
   },
   "domains": {
@@ -1975,6 +2035,42 @@
       "last_request_at": null,
       "rate_limit_until": null,
       "robots_txt_cached_at": "2026-11-18T20:44:13Z",
+      "robots_disallow": [
+        "/wp-admin/"
+      ],
+      "robots_crawl_delay": null
+    },
+    "villamedici.it": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T21:32:12Z",
+      "robots_disallow": [
+        "/admin/",
+        "/api/",
+        "/preview/",
+        "/draft/",
+        "/__nuxt_error"
+      ],
+      "robots_crawl_delay": null
+    },
+    "etn-net.org": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T21:37:58Z",
+      "robots_disallow": [],
+      "robots_crawl_delay": null
+    },
+    "biennialfoundation.org": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T21:59:06Z",
+      "robots_disallow": [],
+      "robots_crawl_delay": null
+    },
+    "www.hiap.fi": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T22:02:01Z",
       "robots_disallow": [
         "/wp-admin/"
       ],

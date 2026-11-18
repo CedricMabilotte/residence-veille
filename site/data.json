@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:23:30.475851+00:00",
-  "n_ouvertes": 47,
+  "generated_at": "2026-11-18T22:22:38.889587+00:00",
+  "n_ouvertes": 51,
   "n_archive": 61,
   "opportunites": [
     {
@@ -353,7 +353,7 @@
       "source_url": "https://kalanirvana.com/textile-india-residency",
       "fetched_at": "2026-11-18T20:21:02+00:00",
       "score": 7,
-      "status": "indetermine",
+      "status": "ouverte",
       "opportunite": {
         "nom": "KIAR Textile India Residency",
         "organisme": "KIAR",
@@ -366,8 +366,8 @@
         "affichage_titre": "KIAR Textile India Residency [KIAR Résidence Textile Inde]"
       },
       "candidature": {
-        "date_limite": null,
-        "date_limite_precision": null,
+        "date_limite": "2027-04-10",
+        "date_limite_precision": "day",
         "langue_dossier": null,
         "frais_inscription": null,
         "pieces_demandees": null,
@@ -1650,6 +1650,171 @@
           "id": "suivi_apres_programme",
           "rempli": "non",
           "justification": "Critères programme: \"Pas de mention d'un réseau alumni, suivi post-résidence, entrée en collection, ou accompagnement vers d'autres opportunités\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "408ccbd5",
+      "type": "residence",
+      "source_url": "https://www.hiap.fi/arts-on-the-edge-spaces-ares-artist-announcement/",
+      "fetched_at": "2026-11-18T22:03:06+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Arts on the Edge Spaces (ARES)",
+        "organisme": "WASP STUDIOS Bucharest, HIAP Helsinki, SCIAENA Faro",
+        "lieu": {
+          "ville": null,
+          "pays": "Finland, Romania, Portugal",
+          "territoire": "Coastal territories, delta regions, post-industrial urban contexts"
+        },
+        "nom_fr": "Arts on the Edge Spaces (ARES) - Appel à Candidature d'Artistes",
+        "affichage_titre": "Arts on the Edge Spaces (ARES) Artist Announcement [Arts on the Edge Spaces (ARES) - Appel à Candidature d'Artistes]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "visual arts",
+          "multimedia",
+          "performance",
+          "sculpture",
+          "installation",
+          "sound art",
+          "architecture",
+          "textile art"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": null
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": null,
+        "voyage": null,
+        "restitution": null
+      },
+      "partenaires": [
+        "WASP STUDIOS Bucharest",
+        "HIAP Helsinki",
+        "SCIAENA Faro",
+        "European Union"
+      ],
+      "analyse": {
+        "synthese": "ARES est un projet de coopération sur deux ans entre WASP STUDIOS (Bucharest), HIAP (Helsinki) et SCIAENA (Faro), financé par l'Union européenne. Il propose des résidences artistiques en Finlande, Roumanie et Portugal, en territoires perçus comme périphériques : côtes, deltas, contextes urbains post-industriels. Le projet accueille des artistes travaillant sur le climat, la justice et la société, pour mener une recherche artistique en réponse à la crise climatique, aux mutations économiques et à l'instabilité géopolitique. 142 candidatures ont été reçues ; 6 artistes ont été sélectionnés.",
+        "pour_qui": "Artistes confirmés (tous champs disciplinaires) engagés dans les questions de climat, justice et société, capables de travailler en collaboration avec les communautés locales et en territoires géographiquement ou politiquement marginalisés."
+      },
+      "a_savoir": [
+        "Page d'annonce des résultats, non d'appel ouvert.",
+        "Aucune date limite d'appel mentionnée.",
+        "Durée des résidences individuelles non spécifiée.",
+        "Conditions matérielles (hébergement, rémunération, studio/atelier) non détaillées sur cette page.",
+        "Un engagement communautaire est attendu (« engaging with the communities »), suggérant des obligations de médiation."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.hiap.fi",
+        "adresse": null,
+        "ville": "Helsinki",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "\"remuneration\": null",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "\"hebergement\": null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "\"atelier\": null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "\"voyage\": null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"remuneration\": null — information manquante pour évaluer la cohérence avec le coût de la vie",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "\"Applicants were asked to demonstrate how they would approach working in the residency locations, including engaging with the communities\" — attentes énoncées mais critères du jury non détaillés",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"Aucun délai ou calendrier de notification mentionné\" (note: page d'annonce des résultats, non d'appel ouvert)",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas d'information",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"Each artist will respond to the themes of ARES\" + \"engaging with the communities\" — contraintes thématiques et engagement communautaire obligatoire",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "inconnu",
+          "justification": "\"Durée des résidences individuelles non spécifiée\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "\"Modalités de restitution non décrites sur cette page\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Pas d'information",
           "poids": 1,
           "famille": "debouche"
         }
@@ -3085,6 +3250,169 @@
           "id": "suivi_apres_programme",
           "rempli": "non",
           "justification": "\"accompagnement artistique personnalisé par des mentors photographes\" (mentionné en résidence, zéro mention de suivi ou réseau alumni après)",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "75af3b59",
+      "type": "residence",
+      "source_url": "https://www.hiap.fi/hiap-hosts-emma-saastamoinen-curatorial-fellow-pauline-koffi-vandet/",
+      "fetched_at": "2026-11-18T22:04:56+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "EMMA-Saastamoinen Curatorial Fellowship",
+        "organisme": "EMMA (Espoo Museum of Modern Art), Saastamoinen Foundation",
+        "lieu": {
+          "ville": "Espoo, Suomenlinna",
+          "pays": "Finland",
+          "territoire": null
+        },
+        "nom_fr": "HIAP accueille Pauline Koffi Vandet, boursière curatrice EMMA & Saastamoinen",
+        "affichage_titre": "HIAP Hosts EMMA & Saastamoinen Curatorial Fellow Pauline Koffi Vandet [HIAP accueille Pauline Koffi Vandet, boursière curatrice EMMA & Saastamoinen]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "contemporary art",
+          "curatorial practice",
+          "photography",
+          "moving images",
+          "media art"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "six months"
+        },
+        "hebergement": true,
+        "atelier": null,
+        "remuneration": null,
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": "research-based article published on EMMA Zone digital platform"
+      },
+      "partenaires": [
+        "EMMA",
+        "Saastamoinen Foundation",
+        "HIAP - Helsinki International Artist Programme"
+      ],
+      "analyse": {
+        "synthese": "The EMMA-Saastamoinen Curatorial Fellowship is a three-year program inviting one international curator annually to conduct independent research at EMMA while engaging with the Saastamoinen Foundation Art Collection, one of Finland's most significant collections of modern and contemporary art. The fellow develops a research project over six months, works alongside EMMA's curatorial staff, and concludes with a research article published on EMMA Zone. The residency is hosted at HIAP in Suomenlinna, Espoo.",
+        "pour_qui": "International curators with research-driven approaches and professional experience, particularly those interested in contemporary art, photography, moving images, and media arts seeking a six-month professional development opportunity."
+      },
+      "a_savoir": [
+        "This page announces a past selection, not an active open call",
+        "Program invites one curator per year over three years, suggesting annual application cycles, but next call details not provided",
+        "No remuneration, per diem, or travel coverage mentioned",
+        "No application requirements, selection criteria, or deadline information available on this page",
+        "Publication venue (EMMA Zone) is internal platform with limited external visibility"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Exhibition Centre WeeGee, Tapiola, Espoo, Finland",
+        "ville": "Espoo",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"No remuneration, per diem, or travel coverage mentioned\" (a_savoir)",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true (conditions_residence); \"HIAP residency in Suomanlinna\" (analyse)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "partiel",
+          "justification": "\"workspace is for curatorial/research work, not production studio\" (criteres_programme justification)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"Travel, production, or transport costs not mentioned\" (a_savoir)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"Cannot evaluate without remuneration information\" (criteres_programme justification)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"No application requirements, selection criteria, or deadline information available on this page\" (a_savoir)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"No timeline or date for notification of results mentioned\" (criteres_programme justification)",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "\"No provision for feedback to non-selected applicants mentioned\" (criteres_programme justification)",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"develop independent research project and conduct independent research\" (analyse.synthese)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "inconnu",
+          "justification": "\"Six-month duration specified but calendar flexibility not mentioned\" (criteres_programme justification)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"research-based article published on EMMA Zone digital platform\" (conditions_residence.restitution); \"internal platform with limited external visibility\" (a_savoir)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "\"No mention of post-fellowship support, alumni network, or follow-up opportunities\" (criteres_programme justification)",
           "poids": 1,
           "famille": "debouche"
         }
@@ -6345,6 +6673,141 @@
       ]
     },
     {
+      "uid": "3daba854",
+      "type": "prix",
+      "source_url": "https://artquest.org.uk/opportunity/cove-park-awarded-residencies-2027-2028/",
+      "fetched_at": "2026-11-18T21:28:02+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Cove Park Awarded Residencies 2027 & 2028",
+        "organisme": "Cove Park",
+        "lieu": {
+          "ville": "Cove",
+          "pays": "Royaume-Uni"
+        },
+        "nom_fr": "Résidences Attribuées à Cove Park 2027 & 2028",
+        "affichage_titre": "Cove Park Awarded Residencies 2027 & 2028 [Résidences Attribuées à Cove Park 2027 & 2028]"
+      },
+      "candidature": {
+        "date_limite": "2026-12-11",
+        "langue_dossier": [],
+        "frais_inscription": null,
+        "pieces_demandees": [],
+        "url_candidature": "https://covepark.org/awarded-residencies-2027-2028/"
+      },
+      "eligibilite": {
+        "disciplines": [],
+        "niveau_carriere": "Tous stades de carrière",
+        "age_max": null,
+        "nationalite": "International",
+        "residence_administrative": null
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": {
+            "montant": 775,
+            "devise": "GBP"
+          },
+          "exposition": false,
+          "achat_oeuvre": false,
+          "edition_catalogue": false
+        },
+        "jury_public": [],
+        "nb_laureats": null,
+        "editions_precedentes": []
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Cove Park propose des résidences artistiques entièrement financées de 2 semaines à 3 mois entre mai 2027 et décembre 2028. Le programme offre 775 £ par semaine, hébergement, voyage, matériaux et prise en charge du visa. Il s'adresse à tous les artistes, quel que soit leur stade de carrière, discipline ou nationalité.",
+        "pour_qui": "Artistes de tous stades de carrière et toutes disciplines, sans restriction de nationalité."
+      },
+      "a_savoir": [
+        "Montant versé par semaine (775 £), à multiplier par la durée du séjour",
+        "Couverture complète des frais (hébergement, voyage, visa, matériaux, accessibilité)",
+        "Localisation en Écosse rurale (Argyll and Bute)",
+        "Durée minimale relativement courte (2 semaines)"
+      ],
+      "organisme_details": {
+        "site_web": "https://covepark.org/",
+        "adresse": null,
+        "ville": "Cove",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"montant\": 775, \"devise\": \"GBP\" (parsemaine)",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"synthese\": \"...hébergement, voyage, matériaux et prise en charge du visa\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "partiel",
+          "justification": "\"a_savoir\": \"Matériaux fournis, mais espace de travail/atelier non explicitement mentionné\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "\"a_savoir\": \"Couverture complète des frais (hébergement, voyage, visa, matériaux, accessibilité)\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "\"montant\": 775 \"devise\": \"GBP\" + \"Localisation en Écosse rurale (Argyll and Bute)\" — ratio à évaluer selon coût local",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\": [] — aucun critère de sélection explicite du jury mentionné",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Champs \"candidature\" vides de tout délai ou date de notification",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention de notification individuelle aux candidats non retenus dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "\"exposition\": false, \"edition_catalogue\": false — modalités de restitution non décrites",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'un suivi documenté, réseau alumni ou accompagnement après résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "57868eb1",
       "type": "prix",
       "source_url": "https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-dune-oeuvre-pour-deux-residences-du-science-park-epopea-a-caen",
@@ -6966,6 +7429,158 @@
           "id": "suivi_apres_programme",
           "rempli": "partiel",
           "justification": "\"opportunities would be explored after selection\" — exploration d'opportunités future mentionnée mais non garantie ni structurée formellement",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "42063e77",
+      "type": "exposition",
+      "source_url": "https://etn-net.org/berichte/call-for-applications-international-triennial-of-textile-arts-2027cultural-foundation-for-the-textile-arts-budapest-hudeadline-08-02-2027.html",
+      "fetched_at": "2026-11-18T21:58:26+00:00",
+      "score": 6,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "International Triennial of Textile Arts 2027",
+        "organisme": "Cultural Foundation for the Textile Arts",
+        "lieu": {
+          "ville": "Budapest",
+          "pays": "Hungary"
+        },
+        "nom_fr": "Appel à candidatures : Triennial Internationale des Arts Textiles 2027",
+        "affichage_titre": "Call for Applications: International Triennial of Textile Arts 2027 Cultural Foundation for the Textile Arts, Budapest, HU Deadline: 08.02.2027 competitions [Appel à candidatures : Triennial Internationale des Arts Textiles 2027]"
+      },
+      "candidature": {
+        "date_limite": "2027-02-08",
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://www.textileartstriennialhungary.com"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Textile art - Wall and Spatial Textiles",
+          "Textile art - Textile Design",
+          "Textile art - Miniature Textiles"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "EU residents for Wall and Spatial Textiles and Textile Design; international for Miniature Textiles",
+        "residence_administrative": "European Union (most categories); international (Miniature Textiles)"
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Szombathely Gallery"
+        ],
+        "dates_exposition": "2027",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "MAOE (Association of Hungarian Creative Artists)",
+        "Association of Hungarian Fine and Applied Artists",
+        "Szombathely Gallery",
+        "Savaria Museum",
+        "European Textile Network"
+      ],
+      "analyse": {
+        "synthese": "The 2027 International Triennial of Textile Arts is a submission-based collective exhibition held triennially by the Cultural Foundation for the Textile Arts. Artists worldwide are invited to submit works in three categories (Wall and Spatial Textiles, Textile Design, Miniature Textiles) created between 2024 and 2027, responding to the theme 'Interwoven Generation.' Works must use fibrous materials and traditional techniques (weaving, spinning, or related) and not exceed 2.5 × 2.5 × 2.5 meters. The event has 50 years of history, attracting artists from 29 countries across 5 continents in its last edition. No production support, funding, accommodation, or per diem is provided.",
+        "pour_qui": "Textile artists at all career levels practicing traditional or conceptual fibre-based art; EU-based for most categories, with international participation in the Miniature Textiles category."
+      },
+      "a_savoir": [
+        "Submission-based exhibition, not a residency or production support program.",
+        "Strict dimensional limit: works must not exceed 2.5 × 2.5 × 2.5 meters in any direction.",
+        "Thematic requirement: works must connect to 'Interwoven Generation' (directly or abstractly).",
+        "EU-only eligibility introduced for Wall and Spatial Textiles and Textile Design categories (new policy for 2027).",
+        "Zero financial support, production funding, travel reimbursement, or accommodation offered.",
+        "Only works created after 2024 are eligible.",
+        "Triennial format: opportunity recurs every 3 years only.",
+        "Detailed submission requirements in separate PDF document (call-for-entries_2027.pdf)."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.textileartstriennialhungary.com",
+        "adresse": null,
+        "ville": "Szombathely",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "prise_en_charge: {production: false, per_diem: false}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "prise_en_charge: {hebergement_vernissage: false}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "analyse.synthese: 'not a residency or production support program'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "prise_en_charge.transport: {pris_en_charge: false}; a_savoir: 'Zero financial support, production funding, travel reimbursement'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "per_diem: false; a_savoir: 'Zero financial support... or per diem is provided'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "a_savoir: 'Thematic requirement: works must connect to Interwoven Generation'; 'Strict dimensional limit: works must not exceed 2.5 × 2.5 × 2.5 meters' — mais pas de critères de jury explicites",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "inconnu",
+          "justification": "Aucune information sur date/délai de notification",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de notifications individuelles aux non-retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "analyse.synthese: 'The event has 50 years of history, attracting artists from 29 countries across 5 continents in its last edition'",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "exposition dans 'established venue with international reach, but no documented alumni network, post-exhibition career support, or structured follow-up mechanisms mentioned'",
           "poids": 1,
           "famille": "debouche"
         }

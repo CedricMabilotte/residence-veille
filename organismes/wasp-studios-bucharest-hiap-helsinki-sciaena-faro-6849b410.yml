@@ -1,0 +1,36 @@
+uid: wasp-studios-bucharest-hiap-helsinki-sciaena-faro-6849b410
+nom_canonique: WASP STUDIOS Bucharest, HIAP Helsinki, SCIAENA Faro
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.hiap.fi
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 408ccbd5
+  type: residence
+  nom: Arts on the Edge Spaces (ARES)
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: wasp-studios-bucharest
+  occurrences: 1
+  nom_brut: WASP STUDIOS Bucharest
+- organisme_uid: hiap-helsinki
+  occurrences: 1
+  nom_brut: HIAP Helsinki
+- organisme_uid: sciaena-faro
+  occurrences: 1
+  nom_brut: SCIAENA Faro
+- organisme_uid: european-union
+  occurrences: 1
+  nom_brut: European Union
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Helsinki
