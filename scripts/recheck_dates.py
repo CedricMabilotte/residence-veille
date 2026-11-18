@@ -57,7 +57,7 @@ PROMPT = """Tu lis la page d'une opportunité artistique (résidence, bourse, pr
 pour répondre à UNE question : quand peut-on candidater ?
 
 Réponds UNIQUEMENT par un objet JSON valide, sans markdown ni prose, avec EXACTEMENT ces champs :
-{
+{{
   "date_limite": "YYYY-MM-DD ou null",
   "date_limite_precision": "day | month | null",
   "candidature_continue": true/false,
@@ -65,7 +65,7 @@ Réponds UNIQUEMENT par un objet JSON valide, sans markdown ni prose, avec EXACT
   "pas_un_appel": true/false,
   "confiance": 0.0-1.0,
   "indice": "la phrase exacte de la page qui justifie ta réponse, ou null"
-}
+}}
 
 Règles :
 - date_limite : la date de clôture des candidatures POUR UNE ÉDITION ENCORE OUVERTE à la date
@@ -108,21 +108,55 @@ def _call_claude(prompt: str) -> dict:
     return json.loads(raw.strip())
 
 
-def _fetch(url: str) -> str:
-    """Page source, texte brut. Réutilise watch.fetch_page_body (cache + Playwright
-    de secours) ; repli requests nu si l'import échoue."""
+_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+
+
+def _html_to_text(html: str) -> str:
     try:
-        import watch  # noqa: WPS433
-        return watch.fetch_page_body(url) or ""
+        from bs4 import BeautifulSoup
+        soup = BeautifulSoup(html, "html.parser")
+        for tag in soup(["script", "style", "nav", "footer", "header"]):
+            tag.decompose()
+        return soup.get_text(" ", strip=True)
     except Exception:
-        try:
-            import requests
-            from bs4 import BeautifulSoup
-            r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0 residence-veille"})
-            r.raise_for_status()
-            return BeautifulSoup(r.text, "html.parser").get_text(" ", strip=True)
-        except Exception:
-            return ""
+        return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).strip()
+
+
+def _fetch(url: str) -> str:
+    """Page source, texte brut. Fetch DIRECT (pas le cache .cache/pages de watch.py :
+    au premier passage du 2026-11-18, 7 fiches sur 10 ont lu une entrée de cache
+    vide laissée par la veille du même run — « page illisible (0 chars) »).
+    Repli Playwright quand le HTML statique est vide ou trop court (pages rendues
+    en JS, murs anti-bot)."""
+    text = ""
+    try:
+        import requests
+        r = requests.get(url, timeout=30, allow_redirects=True,
+                         headers={"User-Agent": _UA, "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8,es;q=0.7"})
+        if r.ok and "text/html" in (r.headers.get("Content-Type") or ""):
+            text = _html_to_text(r.text)
+    except Exception:
+        text = ""
+    if len(text) >= 400:
+        return text
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+            try:
+                page = browser.new_context(user_agent=_UA).new_page()
+                page.goto(url, wait_until="domcontentloaded", timeout=25000)
+                page.wait_for_timeout(1800)
+                html = page.content()
+            finally:
+                browser.close()
+        pw_text = _html_to_text(html)
+        if len(pw_text) > len(text):
+            text = pw_text
+    except Exception:
+        pass
+    return text
 
 
 def _iso_date(s) -> str | None:
@@ -211,15 +245,17 @@ def main():
         if claude_guard.session_limit_active():
             print("    ⏸  limite Claude — arrêt")
             break
-        body = _fetch(url)[:MAX_BODY_CHARS] if url else ""
+        is_pdf = ".pdf" in url.lower()
+        body = "" if is_pdf else (_fetch(url)[:MAX_BODY_CHARS] if url else "")
         if len(body) < 200:
-            print(f"    ↳ page illisible ({len(body)} chars) — reporté")
+            why = "source PDF (non relue)" if is_pdf else "page illisible"
+            print(f"    ↳ {why} ({len(body)} chars) — reporté")
             fiche.setdefault("_meta", {})["date_recheck"] = {"at": today, "by": "recheck_dates.py",
-                                                             "erreur": "page illisible"}
+                                                             "erreur": why}
             if not DRY_RUN:
                 path.write_text(yaml.safe_dump(fiche, allow_unicode=True, sort_keys=False, width=120),
                                 encoding="utf-8")
-            records.append({"uid": fiche.get("uid"), "issue": "page illisible"})
+            records.append({"uid": fiche.get("uid"), "issue": why})
             continue
         try:
             res = _call_claude(PROMPT.format(today=today, title=title, url=url, body=body))
