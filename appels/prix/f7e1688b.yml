@@ -1,0 +1,164 @@
+uid: f7e1688b
+type: prix
+source_url: https://www.alternatif-art.com/appel-a-candidature/prix-utrillo-2027-exposition-collective-memoires-et-territoire-a-pierrefitte-sur-seine
+fetched_at: '2026-11-18T17:57:51+00:00'
+score: 7
+status: ouverte
+opportunite:
+  nom: Prix Utrillo 2027 - Exposition collective « Mémoire(s) et territoire »
+  organisme: Espace culturel Maurice Utrillo - Ville de Saint-Denis
+  lieu:
+    ville: Pierrefitte-sur-Seine
+    pays: France
+candidature:
+  date_limite: '2027-01-07'
+  langue_dossier:
+  - français
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - Formulaire d'inscription complété et signé
+  - CV artistique
+  - Portfolio
+  - Texte présentant la démarche artistique (800 signes maximum)
+  - 'Pour chaque œuvre : titre, technique, dimensions, prix TTC'
+  - Identification claire de l'œuvre proposée pour l'acquisition de 2 500 €
+  - Dossier de candidature en PDF (20 Mo maximum)
+  - Visuels des œuvres en haute définition (transmis séparément)
+  - Proposition de stage artistique (facultatif)
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - peinture
+  - dessin
+  - sculpture
+  - photographie
+  - gravure
+  - collage
+  - installation
+  - vidéo
+  - création numérique
+  - textile
+  niveau_carriere: null
+  age_max: null
+  nationalite: Toutes nationalités
+  residence_administrative: Aucune restriction
+conditions_prix:
+  dotation:
+    montant:
+      montant: 150
+      devise: EUR
+    exposition: true
+    achat_oeuvre: true
+    edition_catalogue: true
+  jury_public:
+  - jury de professionnels
+  nb_laureats: 8 à 12
+  editions_precedentes: []
+partenaires:
+- Association Utrillo-Valadon
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: 'Appel bien documenté. Montants multiples : 150€ défraiement (tous),
+    2 500€ acquisition d''une œuvre, 500€ bourse (un artiste), 200€ stage (un artiste).
+    Transport et assurance non détaillés.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T17:57:51+00:00'
+  source_lang: fr
+  detection_confidence: 0.8
+  detection_method: claude
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Appel annuel pour une exposition collective de 8 à 12 artistes en arts
+    visuels autour de la thématique « Mémoire(s) et territoire ». Chaque participant
+    reçoit 150 € de défraiement. L'exposition se tient du 6 mars au 2 avril 2027 avec
+    vernissage public et communication municipale (flyers, affiches, catalogue, site,
+    journal municipal, réseaux sociaux). Une œuvre est acquise par la Ville pour 2
+    500 €, une bourse de création de 500 € est attribuée par l'association Utrillo-Valadon,
+    et un artiste peut animer un stage rémunéré 200 €. Les candidatures sont attendues
+    jusqu'au 7 janvier 2027.
+  pour_qui: Artistes en arts visuels de tous niveaux et nationalités ayant des œuvres
+    en lien avec la mémoire et le territoire.
+a_savoir:
+- Les 150 € constituent un défraiement et non des honoraires d'exposition.
+- Transport, assurance et retour des œuvres ne sont pas détaillés ; à vérifier auprès
+  de l'organisme.
+- Une seule œuvre est acquise à 2 500 € (sélection par le jury).
+- Un seul artiste sera retenu pour animer le stage rémunéré 200 € (avec 150 € de budget
+  matériel).
+- Dossier limité à 20 Mo ; visuels haute définition à transmettre séparément.
+- Paiements assurés par la Ville nécessitent facturation via Chorus Pro.
+- Droits d'auteur en catalogue et supports de communication à clarifier avec l'organisme.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Pierrefitte-sur-Seine
+  contact_email: espaceculturelutrillo@saintdenis.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"montant": 150 EUR de défraiement + possibilité d''acquisition à
+    2 500 €, bourse de 500 € et rémunération de stage 200 €'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: Aucune mention d'hébergement dans la fiche (candidature, conditions,
+    synthèse)
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: Aucune mention d'atelier ou espace de travail fourni
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"Transport, assurance et retour des œuvres ne sont pas détaillés
+    ; à vérifier auprès de l''organisme"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: '"150 € de défraiement pour la région parisienne (Saint-Denis) est
+    peu ; montant cohérent seulement si acquisition d''œuvre à 2 500 € concrétisée"'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: '"jury de professionnels" mentionné mais critères au-delà du thème
+    « Mémoire(s) et territoire » non explicitement énoncés'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: '"date_limite": "2027-01-07" et synthèse indique "résultats annoncés
+    autour du 15 janvier 2027"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Aucune mention de notification individuelle des candidat·es non retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"exposition du 6 mars au 2 avril 2027 avec vernissage public et
+    communication municipale (flyers, affiches, catalogue, site, journal municipal,
+    réseaux sociaux)"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: Acquisition possible (intégration collection), mais "pas de suivi
+    alumni ou réseau après-programme mentionné"
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

@@ -1,0 +1,26 @@
+uid: fondation-renaud-8b5297ac
+nom_canonique: Fondation Renaud
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 8d30b622
+  type: residence
+  nom: Résidence d'artiste LAB 10+1 2027
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+adresse: Fort de Vaise, Lyon 69009
+ville: Lyon
+contact_email: projets@fondation-renaud.com

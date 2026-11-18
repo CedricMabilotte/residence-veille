@@ -1,0 +1,179 @@
+uid: 8d30b622
+type: residence
+source_url: https://www.alternatif-art.com/appel-a-candidature/residence-dartiste-lab-101-2027-fondation-renaud
+fetched_at: '2026-11-18T18:16:25+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Résidence d'artiste LAB 10+1 2027
+  organisme: Fondation Renaud
+  lieu:
+    ville: Lyon
+    pays: France
+    territoire: Fort de Vaise, 69009
+candidature:
+  date_limite: '2026-11-29'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - Bulletin
+  - CV
+  - Note d'intention (1 page maximum)
+  - Portfolio (10 pages maximum)
+  - Éléments visuels du projet
+  - Réunis dans un seul PDF
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts visuels
+  - Arts plastiques
+  - Toutes disciplines artistiques (si pratiques compatibles avec l'espace)
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: À partir de mi-avril 2027
+  hebergement: true
+  atelier: Espace de création et d'habitation de 48 m² + mezzanine d'environ 15 m².
+    Accessible lundi au vendredi de 8h à 18h. Accès au centre de documentation et
+    aux collections de la Fondation. Pratiques artistiques peu contraignantes privilégiées
+    (espace non-équipé techniquement).
+  remuneration:
+    montant: 2200
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Exposition de restitution d'octobre à mi-décembre 2027. Vernissage
+    organisé. Communication autour du projet. Support de valorisation de sortie de
+    résidence. Rencontres avec le public rémunérées 150 € TTC par intervention. Les
+    œuvres restent propriété de l'artiste.
+partenaires:
+- Fondation Renaud
+_meta:
+  extracted_confidence: 0.88
+  extracted_notes: Données bien structurées. La rémunération (2 200 €) et l'aide à
+    la production (jusqu'à 2 000 € TTC) sont distinctes. Pas d'URL candidature ni
+    de délai de réponse annoncé. Présence hebdomadaire obligatoire imposée (20h minimum).
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:16:25+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: La Fondation Renaud propose une résidence artistique de 12 semaines à
+    partir de mi-avril 2027 au Fort de Vaise à Lyon, ouverte aux artistes plasticiens
+    et visuels de tous niveaux autour du thème 2027 « Entre les mains » (arts populaires
+    et patrimoine). Le lauréat reçoit une bourse de 2 200 € lissée sur 3 mois, une
+    aide à la production jusqu'à 2 000 € TTC, un logement et un espace de travail
+    de 48 m² + 15 m² de mezzanine, avec une présence d'au moins 20 heures par semaine
+    obligatoire. Dix candidatures supplémentaires seront retenues pour une exposition
+    collective. Les frais de déplacement ne sont pas pris en charge.
+  pour_qui: Artistes plasticiens et visuels de tous niveaux, intéressés par les arts
+    populaires, le patrimoine, les collections ou les cabinets de curiosités, ayant
+    une pratique compatible avec un espace non-équipé techniquement.
+a_savoir:
+- 'Rémunération faible pour une résidence de 3 mois : 2 200 € TTC total (environ 733
+  € par mois)'
+- L'aide à la production de 2 000 € correspond à des frais de réalisation sur justificatifs,
+  non à une rémunération supplémentaire
+- Les frais de déplacement ne sont pas pris en charge
+- Présence obligatoire d'au moins 20 heures par semaine pendant les 12 semaines
+- 'L''espace de création n''est pas un atelier technique complet : les pratiques lourdes,
+  très salissantes ou nécessitant des équipements spécifiques peuvent être moins adaptées'
+- Le logement fourni et l'aide à la production compensent partiellement la faible
+  rémunération mensuelle
+- 'Opportunité annexe : même sans obtenir la résidence principale, 10 projets supplémentaires
+  seront sélectionnés pour l''exposition collective LAB 10+1'
+organisme_details:
+  site_web: null
+  adresse: Fort de Vaise, Lyon 69009
+  ville: Lyon
+  contact_email: projets@fondation-renaud.com
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"remuneration": {"montant": 2200, "devise": "EUR", "periodicite":
+    "forfait"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Espace de création et d''habitation de 48 m² + mezzanine
+    d''environ 15 m²"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": false} mais "Aide à la production jusqu''à
+    2 000 € TTC"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"Rémunération faible pour une résidence de 3 mois : 2 200 € TTC
+    total (environ 733 € par mois)"'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: '"pour_qui": "Artistes plasticiens et visuels de tous niveaux, intéressés
+    par les arts populaires, le patrimoine, les collections"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: Aucune information sur délai ou date de notification dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Aucune mention d'une notification individuelle aux candidats non-retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"Présence obligatoire d''au moins 20 heures par semaine pendant
+    les 12 semaines"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"Résidence de 12 semaines à partir de mi-avril 2027" avec "présence
+    obligatoire"'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"Exposition de restitution d''octobre à mi-décembre 2027. Vernissage
+    organisé. Communication autour du projet."'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: '"Support de valorisation de sortie de résidence" sans détails sur
+    alumni, collection ou accompagnement ultérieur'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - collectif
+  - long séjour
+  bonus_score: 1

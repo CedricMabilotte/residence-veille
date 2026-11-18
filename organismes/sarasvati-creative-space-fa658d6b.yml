@@ -1,0 +1,29 @@
+uid: sarasvati-creative-space-fa658d6b
+nom_canonique: Sarasvati Creative Space
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.sarasvati.space/
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 2d5ff03c
+  type: residence
+  nom: Spring Pops - April in Tennessee
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: rural-residency-organization
+  occurrences: 1
+  nom_brut: Rural Residency Organization
+- organisme_uid: camp-wonder-wander
+  occurrences: 1
+  nom_brut: Camp Wonder Wander
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true

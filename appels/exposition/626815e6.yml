@@ -1,0 +1,185 @@
+uid: 626815e6
+type: exposition
+source_url: https://www.alternatif-art.com/appel-a-candidature/sentier-dart-2027-creation-doeuvres-temporaires-a-brionne-livet-sur-authou-et-au-bec-hellouin
+fetched_at: '2026-11-18T18:03:09+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Sentier d'art 2027 - Création d'œuvres temporaires à Brionne, Livet-sur-Authou
+    et au Bec-Hellouin
+  organisme: Intercom Bernay Terres de Normandie
+  lieu:
+    ville: Brionne, Livet-sur-Authou, Bec-Hellouin
+    pays: France
+candidature:
+  date_limite: '2026-12-15'
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - Photomontage et visualisation du projet
+  - Plans détaillés avec ancrages et dimensions
+  - Description de la résistance aux intempéries
+  - 'Explication du lien avec le patrimoine normand et la thématique « Traversée du
+    temps : entre héritage et création contemporaine »'
+  - Chiffrage détaillé des dépenses (fabrication, matériaux, transport, installation,
+    démontage, médiation)
+  - Deux implantations possibles avec photomontages
+  - Attestation d'assurance responsabilité civile (au moment de l'installation)
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts visuels
+  - Sculpture
+  - Installation artistique in situ
+  - Art environnemental
+  niveau_carriere: Artiste professionnel majeur
+  age_max: null
+  nationalite: France, Union européenne, et international (ressortissants hors UE
+    acceptés sous conditions de législation française et possession d'un numéro SIRET)
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Brionne
+  - Livet-sur-Authou
+  - Bec-Hellouin
+  dates_exposition: 26 juin 2027 - 26 septembre 2027
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+remuneration:
+  montant: 2500
+  devise: EUR
+  type: TTC
+  description: Enveloppe globale censée couvrir conception, réalisation, matériaux,
+    fabrication, transport aller-retour, installation, démontage, outillage, logistique,
+    déplacements, repas, hébergement éventuels, actions de médiation, présence à l'inauguration,
+    entretien, cotisations sociales, cession des droits de reproduction et d'exploitation.
+    Dernier versement (500€) après démontage à partir du 27 septembre 2027.
+analyse:
+  synthese: 'Le Sentier d''art 2027 appelle des artistes pour créer des œuvres temporaires
+    (minimum 2 mètres) du 26 juin au 26 septembre 2027 dans trois communes normandes
+    (Brionne, Livet-sur-Authou, Bec-Hellouin), autour du thème « Traversée du temps
+    : entre héritage et création contemporaine ». L''enveloppe forfaitaire est de
+    2 500 € TTC, supposée couvrir l''intégralité du projet : production, matériaux,
+    transport, montage, démontage, médiation et communication. Les candidatures doivent
+    être déposées avant le 15 décembre 2026. Les artistes doivent être professionnels
+    majeurs, justifier d''une expérience en art environnemental, posséder un SIRET,
+    assurer eux-mêmes la logistique technique, et être présents aux jours d''inauguration
+    et de médiation (25-26 juin 2027).'
+  pour_qui: Artistes professionnels majeurs (France, UE, international sous conditions)
+    spécialisés en art environnemental ou sculpture in situ, disposant de moyens techniques
+    et logistiques autonomes, et acceptant une rémunération globale très serrée pour
+    une création durable trois mois en extérieur.
+a_savoir:
+- 'Budget très serré (2 500 € TTC pour l''intégralité du projet : production, transport,
+  médiation, droits)'
+- Rémunération nette potentiellement très faible après déduction des frais réels de
+  production et de logistique
+- Aucun équipement ni matériel fourni par l'organisme ; artiste en autonomie technique
+  complète
+- Artiste doit avancer les frais ; dernier versement (500€) après le 27 septembre
+- Pas d'assurance de l'œuvre par l'organisme contre vol, dégradation ou intempéries
+  ; artiste assume les réparations
+- Cession des droits d'exploitation et de reproduction exigée ; durée et étendue à
+  clarifier
+- Résistance obligatoire aux intempéries pendant trois mois en extérieur
+- Dossier technique conséquent requis dès la candidature (photomontages, plans détaillés,
+  devis précis)
+- Présence obligatoire le 25 juin (médiation) et le 26 juin 2027 (inauguration)
+- 'Contraintes patrimoine : soumis à l''avis de l''Architecte des Bâtiments de France
+  ; certains sites interdisent percement ou ancrage'
+- Artistes ayant participé à l'édition 2026 ne peuvent pas candidater
+- Aucune date d'annonce des résultats mentionnée
+- Pas de retour prévu aux candidats non retenus
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Bernay
+  contact_email: culture@bernaynormandie.fr
+  contact_telephone: 06 29 48 27 67
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'remuneration.montant: 2500 EUR'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: 'conditions_exposition.hebergement_vernissage: false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: 'conditions_exposition.prise_en_charge.production: false'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: 'transport.pris_en_charge: false, mais remuneration.description inclut
+    théoriquement ''transport aller-retour'' dans l''enveloppe forfaitaire'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: 'remuneration.montant 2500€ TTC pour ''l''intégralité du projet :
+    production, transport, médiation, droits'' (a_savoir)'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: 'eligibilite.disciplines: [''Arts visuels'', ''Sculpture'', ''Installation
+    artistique in situ'', ''Art environnemental''], eligibilite.niveau_carriere: ''Artiste
+    professionnel majeur'''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'candidature.date_limite: 2026-12-15, mais aucune date d''annonce
+    des résultats mentionnée'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: a_savoir mentionne 'Pas de retour prévu aux candidats non retenus'
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: 'conditions_exposition.format: ''collective'', conditions_exposition.dates_exposition:
+    ''26 juin 2027 - 26 septembre 2027'' dans parcours public'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention de suivi alumni, réseau post-programme, ou documentation
+    organisée après les dates d'exposition
+  poids: 1
+  famille: debouche
+_meta:
+  extracted_confidence: 0.93
+  extracted_notes: 'Document très clair et structuré avec points de vigilance détaillés.
+    Certains éléments absents du texte : URL de candidature, date d''annonce des résultats,
+    suivi post-programme. La tension entre enveloppe forfaitaire théorique et responsabilités
+    pratiques de l''artiste est bien documentée en fin de page.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:03:09+00:00'
+  source_lang: fr
+  detection_confidence: 0.875
+  detection_method: heuristic
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

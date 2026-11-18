@@ -1,0 +1,225 @@
+uid: 85649e51
+type: residence
+source_url: https://www.artistcommunities.org/directory/open-calls/la-porte-peinte-open-call-july-2027
+fetched_at: '2026-11-18T18:36:18+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: 'La Porte Peinte: Open Call for July 2027'
+  organisme: La Porte Peinte Centre pour les Arts
+  lieu:
+    ville: Noyers sur Serein
+    pays: France
+    territoire: Burgundy
+  nom_fr: 'La Porte Peinte: Appel à candidatures pour juillet 2027'
+  affichage_titre: 'La Porte Peinte: Open Call for July 2027 [La Porte Peinte: Appel
+    à candidatures pour juillet 2027]'
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Acting
+  - Animation
+  - Architecture
+  - Art Conservation
+  - Art History
+  - Book Arts
+  - Choreography
+  - Costume/Fashion Design
+  - Criticism
+  - Dance
+  - Digital Media
+  - Documentary
+  - Drawing
+  - Ecology
+  - Electronic Arts
+  - Environmental Arts
+  - Environmentalism/Conservation
+  - Fiction
+  - Film
+  - Graphic Design
+  - Illustration
+  - Industrial Design
+  - Installation Arts
+  - Interdisciplinary Arts
+  - Journalism
+  - Literary Nonfiction
+  - Literature
+  - Mixed Media
+  - Moving Image
+  - Multimedia Arts
+  - Music
+  - New Genres
+  - Nonfiction
+  - Painting
+  - Paper Arts
+  - Performance Art
+  - Photography
+  - Playwriting
+  - Poetry
+  - Screenwriting
+  - Sculpture
+  - Social Practice
+  - Sound Art
+  - Storytelling
+  - Theater
+  - Translation
+  - Visual Arts
+  - Writing
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 26
+    dates: 6 months
+  hebergement: true
+  atelier: eight private studio spaces, workshop spaces, exhibition/installation space,
+    performance/presentation facilities, darkroom, painting workspace, easels
+  remuneration:
+    montant: 0
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: 0
+    devise: EUR
+  restitution: null
+partenaires:
+- La Porte Peinte USA
+_meta:
+  extracted_confidence: 0.82
+  extracted_notes: Informations substantielles extraites. Critères de sélection du
+    jury non détaillés. Frais de résidence varient de €2000 à €3300/mois selon le
+    choix de chambre, incluant utilities, accommodation, studio, shared kitchen, laundry,
+    wifi.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:36:18+00:00'
+  source_lang: en
+  resume_fr: La Porte Peinte est un centre d'arts international situé à Noyers sur
+    Serein, un village médiéval en Bourgogne, accueillant des artistes en résidence
+    pour 6 mois. L'appel à candidatures pour juillet 2027 a une deadline du 30 novembre
+    2026 et s'adresse aux artistes de toute nationalité. Le centre dispose d'une galerie
+    de 160 m², 5 chambres dans le bâtiment principal, 4 dans une annexe, et 8 studios
+    privés. Une cuisine partagée est accessible aux résidents; aucun repas n'est fourni.
+    Certaines résidences sont entièrement ou partiellement financées (réduction des
+    frais seulement, pas de stipends).
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Artist Communities Alliance — Open Calls (international)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: La Porte Peinte est un centre international d'arts résidentiels basé dans
+    le village médiéval de Noyers sur Serein (Bourgogne, France), ouvert depuis 2011.
+    Elle propose des résidences de 6 mois pour artistes, créateurs, musiciens et écrivains
+    de tous niveaux de carrière, sans restriction de nationalité. Chaque artiste accède
+    à un studio privé, un hébergement (chambre privée ou logement individuel), accès
+    à atelier collectif équipé, galerie et espaces de performance. Les frais mensuels
+    varient de 2000 à 3300 EUR selon la chambre, incluant tous services ; aucun stipend
+    n'est offert. Un nombre limité de places partiellement ou entièrement financées
+    sont disponibles pour les artistes en situation économique ou de vulnérabilité.
+  pour_qui: Artistes, créateurs, musiciens, écrivains et cinéastes de tous niveaux
+    de carrière (émergent·e, confirmé·e, établi·e) du monde entier ; groupes collaboratifs
+    et familles acceptés.
+a_savoir:
+- 'Résidence à financement propre : frais importants (€2000–€3300 par mois selon chambre)'
+- Aucune rémunération ou stipend d'artiste ; aucune prise en charge de frais de voyage
+  ou production
+- Places financées très limitées et ciblées (artistes affectés par la guerre, catastrophe
+  naturelle, discriminations, focus sur femmes et artistes émergents du continent
+  africain, Haïti, Amérique latine)
+- Dossier en anglais et/ou français requis
+- Calendrier de notification des résultats non communiqué
+- Attente d'une présentation ou artist talk en sus de la production personnelle
+organisme_details:
+  site_web: null
+  adresse: Noyers sur Serein, Burgundy, France
+  ville: Noyers sur Serein
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"remuneration": {"montant": 0, "devise": "EUR"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "eight private studio spaces, workshop spaces, exhibition/installation
+    space, performance/presentation facilities, darkroom, painting workspace"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false, "plafond": 0, "devise": "EUR"}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"remuneration": {"montant": 0} ; frais mensuels "2000 à 3300 EUR
+    selon la chambre, incluant tous services"'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"Aucun critère explicite du jury énoncé ; seule mention générale
+    ''We welcome artists, performers, writers, musicians, filmmakers, photographers,
+    and creative thinkers''"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"Calendrier de notification des résultats non communiqué"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: '"Pas de mention d''une notification individuelle aux candidats non
+    retenus"'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"Attente d''une présentation ou artist talk en sus de la production
+    personnelle"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"duree": {"semaines": 26, "dates": "6 months"} ; a_savoir mention
+    possible de périodes raccourcies sur demande'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"atelier": "exhibition/installation space, performance/presentation
+    facilities" ; aucune garantie de diffusion presse ou rayonnement au-delà du site'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: '"Aucune mention de suivi alumni, mentions postérieures, entrée en
+    collection, ou accompagnement vers autres opportunités"'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - rural
+  - collectif
+  - long séjour
+  bonus_score: 1

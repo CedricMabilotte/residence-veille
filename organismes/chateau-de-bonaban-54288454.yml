@@ -1,0 +1,26 @@
+uid: chateau-de-bonaban-54288454
+nom_canonique: Château de Bonaban
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: b42481f7
+  type: residence
+  nom: Commande de création contemporaine 2027 – Art & Design au Château de Bonaban
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+adresse: La Gouesnière (35350), Ille-et-Vilaine, Bretagne, France
+ville: La Gouesnière
+contact_email: expos@chateaudebonaban.fr

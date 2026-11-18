@@ -1,0 +1,167 @@
+uid: 34c26deb
+type: residence
+source_url: https://www.alternatif-art.com/appel-a-candidature/residence-de-creation-artistique-2027-si-nos-murs-pouvaient-parler-ville-de-vannes
+fetched_at: '2026-11-18T18:07:23+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Résidence de création artistique 2027 « Si nos murs pouvaient parler »
+  organisme: Ville de Vannes
+  lieu:
+    ville: Vannes
+    pays: France
+    territoire: Bretagne
+candidature:
+  date_limite: '2026-12-13'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - CV
+  - portfolio
+  - démarche artistique
+  - note d'intention
+  - expériences avec les publics
+  - informations pratiques
+  url_candidature: https://www.alternatif-art.com/appel-a-candidature/residence-de-creation-artistique-2027-si-nos-murs-pouvaient-parler-ville-de-vannes
+eligibilite:
+  disciplines:
+  - arts visuels
+  - arts graphiques
+  - illustration
+  - design
+  - photographie
+  - création sonore
+  - art numérique
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: février à juin 2027, environ 1 mois
+  hebergement: true
+  atelier: Espace de travail fermé d'environ 60 m²
+  remuneration:
+    montant: 3500
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Projet de création artistique associant les élèves, développement et
+    valorisation avec l'équipe pédagogique
+partenaires:
+- École Françoise d'Amboise
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Appel bien structuré et détaillé. Tous les critères essentiels
+    explicitement mentionnés. Absence notable de délai de réponse et suivi post-programme.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:07:23+00:00'
+  source_lang: fr
+  detection_confidence: 0.8260869565217391
+  detection_method: heuristic
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: La Ville de Vannes propose une résidence de création artistique de un
+    mois à l'école Françoise d'Amboise entre février et juin 2027. Elle s'adresse
+    aux artistes professionnels dans les disciplines visuelles, graphiques, photographiques,
+    numériques ou sonores. Les artistes reçoivent 3 500 € TTC couvrant honoraires,
+    matériaux, déplacements, hébergement et repas, bénéficient d'un atelier de 60
+    m² et doivent intégrer les élèves au processus créatif autour des thématiques
+    de langues, cultures et identités territoriales.
+  pour_qui: Artistes visuels professionnels ayant une expérience ou une appétence
+    pour la pédagogie et prêts à co-créer avec les enfants dans un contexte scolaire.
+a_savoir:
+- Budget global très limité (3 500 € TTC tout inclus pour ~1 mois)
+- Travail fortement orienté vers la médiation pédagogique avec 20 heures minimum obligatoires
+  avec la classe
+- Calendrier imposé (février-juin 2027), pas de flexibilité sur les dates
+- Aucun financement complémentaire prévu au-delà des 3 500 €
+organisme_details:
+  site_web: null
+  adresse: École Françoise d'Amboise, quartier de Ménimur, Vannes
+  ville: Vannes
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'remuneration: {montant: 3500, devise: EUR, periodicite: forfait}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: 'conditions_residence.hebergement: true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'conditions_residence.atelier: Espace de travail fermé d''environ
+    60 m²'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: 'voyage.pris_en_charge: false ; analyse synthese: 3 500 € TTC couvrant
+    honoraires, matériaux, déplacements, hébergement et repas'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: 'a_savoir: Budget global très limité (3 500 € TTC tout inclus pour
+    ~1 mois) = ~115 €/jour tous frais compris'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: 'eligibilite: niveau_carriere confirmé·e, disciplines listées ; mais
+    critères de jury non détaillés au-delà de l''admissibilité'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'candidature.date_limite: 2026-12-13 ; aucune mention de délai de
+    notification des résultats'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention de notification individuelle aux candidat·es non retenu·es
+    dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: non
+  justification: 'a_savoir: Travail fortement orienté vers la médiation pédagogique
+    avec 20 heures minimum obligatoires avec la classe'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: 'a_savoir: Calendrier imposé (février-juin 2027), pas de flexibilité
+    sur les dates'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: non
+  justification: 'conditions_residence.restitution: Projet de création artistique
+    associant les élèves [...] avec l''équipe pédagogique ; aucune exposition ou visibilité
+    externe documentée'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention de suivi alumni ou post-programme dans la fiche
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

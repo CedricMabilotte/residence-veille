@@ -1,5 +1,13 @@
 [
   {
+    "path": "appels/residence/34c26deb.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 25,
+    "type": "residence",
+    "uid": "34c26deb",
+    "nom": "Résidence de création artistique 2027 « Si nos murs pouvaient parler »"
+  },
+  {
     "path": "appels/residence/710d4dae.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 28,
@@ -14,5 +22,21 @@
     "type": "residence",
     "uid": "9dfe385b",
     "nom": "Elles & Cité"
+  },
+  {
+    "path": "appels/residence/bac8ec7d.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 25,
+    "type": "residence",
+    "uid": "bac8ec7d",
+    "nom": "Création artistique participative dans l'espace public 2027 – Ville de Questembert"
+  },
+  {
+    "path": "appels/exposition/626815e6.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 27,
+    "type": "exposition",
+    "uid": "626815e6",
+    "nom": "Sentier d'art 2027 - Création d'œuvres temporaires à Brionne, Livet-sur-Authou et au Bec-Hellouin"
   }
 ]

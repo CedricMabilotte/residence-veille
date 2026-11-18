@@ -1,0 +1,34 @@
+uid: les-factotum-les-petites-ecuries-a22607a1
+nom_canonique: Les Factotum - Les Petites Écuries
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: d271441c
+  type: residence
+  nom: Résidence de recherche et de création 2027 – Les Factotum et Les Petites Écuries à Nantes
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: les-factotum
+  occurrences: 1
+  nom_brut: Les Factotum
+- organisme_uid: les-petites-ecuries
+  occurrences: 1
+  nom_brut: Les Petites Écuries
+- organisme_uid: biennale-wave
+  occurrences: 1
+  nom_brut: Biennale Wave
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Nantes
+contact_email: contact@lesfactotum.fr

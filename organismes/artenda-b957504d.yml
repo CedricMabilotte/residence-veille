@@ -1,0 +1,33 @@
+uid: artenda-b957504d
+nom_canonique: Artenda
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://artenda.net
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- bourse
+opportunites_liees:
+- uid: 32ccdf05
+  type: bourse
+  nom: Art Fellowships - International Art Stipends 2026/2027
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: les-rencontres-d-arles
+  occurrences: 1
+  nom_brut: Les Rencontres d'Arles
+- organisme_uid: fabre-museum
+  occurrences: 1
+  nom_brut: Fabre Museum
+- organisme_uid: mophradat
+  occurrences: 1
+  nom_brut: Mophradat
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'

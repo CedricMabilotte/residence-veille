@@ -1,0 +1,28 @@
+uid: aviario-studio-db7f705f
+nom_canonique: Aviário Studio
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 3fdff05e
+  type: residence
+  nom: Aviário Studio Ceramics Residency - Winter/Spring 2027
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: artist-communities-alliance
+  occurrences: 1
+  nom_brut: Artist Communities Alliance
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
+contact_email: aviariostudio@gmail.com

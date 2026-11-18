@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T17:53:27.258207+00:00",
-  "n_ouvertes": 43,
+  "generated_at": "2026-11-18T19:04:48.556080+00:00",
+  "n_ouvertes": 62,
   "n_archive": 51,
   "opportunites": [
     {
@@ -678,6 +678,798 @@
       ]
     },
     {
+      "uid": "2d5ff03c",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/spring-pops-april-tennessee",
+      "fetched_at": "2026-11-18T18:38:41+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Spring Pops - April in Tennessee",
+        "organisme": "Sarasvati Creative Space",
+        "lieu": {
+          "ville": null,
+          "pays": "United States",
+          "territoire": "Tennessee"
+        },
+        "nom_fr": "Spring Pops - Avril au Tennessee",
+        "affichage_titre": "Spring Pops - April in Tennessee [Spring Pops - Avril au Tennessee]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "USD"
+        },
+        "pieces_demandees": [
+          "written statement about connection to nature",
+          "video interview (optional, for farm stay scholarship candidates)"
+        ],
+        "url_candidature": "https://www.sarasvati.space/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Acting",
+          "Architecture",
+          "Art Conservation",
+          "Art Education",
+          "Art History",
+          "Biology",
+          "Book Arts",
+          "Choreography",
+          "Criticism",
+          "Digital Media",
+          "Documentary",
+          "Drawing",
+          "Ecology",
+          "Electronic Arts",
+          "Environmental Arts",
+          "Environmentalism/Conservation",
+          "Fiction",
+          "Film",
+          "Graphic Design",
+          "Illustration",
+          "Installation Arts",
+          "Interdisciplinary Arts",
+          "Journalism",
+          "Landscape Architecture",
+          "Literary Nonfiction",
+          "Literature",
+          "Mixed Media",
+          "Moving Image",
+          "Multimedia Arts",
+          "New Genres",
+          "Nonfiction",
+          "Painting",
+          "Paper Arts",
+          "Performance Art",
+          "Philosophy",
+          "Photography",
+          "Playwriting",
+          "Poetry",
+          "Public Art",
+          "Science",
+          "Screenwriting",
+          "Sculpture",
+          "Social Practice",
+          "Storytelling",
+          "Textile & Fiber Arts/Weaving",
+          "Theater",
+          "Translation",
+          "Visual Arts",
+          "Writing"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 8,
+          "dates": "April 2027"
+        },
+        "hebergement": true,
+        "atelier": "Private and shared studios assigned based on calendar and space/medium requirements. Shared kitchen facilities available to residents.",
+        "remuneration": {
+          "montant": 0,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Donate a work of art"
+      },
+      "partenaires": [
+        "Sarasvati Creative Space",
+        "Rural Residency Organization",
+        "Camp Wonder Wander"
+      ],
+      "analyse": {
+        "synthese": "Résidence artistique rurale d'avril 2027 en Tennessee, 2 mois, ouverte à tous les artistes du monde et tous niveaux de carrière. Logement fourni en chambre privée au sein d'une structure collective. Studios privés ou partagés selon disponibilité. Aucune rémunération ni stipend de voyage. Frais de résidence de 450 USD par semaine (minimum). Scholarship jusqu'à 300 USD possible en échange de 6 heures par semaine de travail physique sur le site (jardinage, aménagement paysager, etc.).",
+        "pour_qui": "Artistes cherchant l'immersion créative en environnement naturel, prêts à se déconnecter de la vie urbaine et disposés à contribuer physiquement quelques heures par semaine."
+      },
+      "a_savoir": [
+        "Aucune rémunération ou stipend de voyage : artiste finance intégralement les frais de résidence (450 USD/semaine minimum).",
+        "Farm Stay Scholarship impose un engagement physique obligatoire (6 heures par semaine de travail agricole/paysager).",
+        "Isolement géographique intentionnel, structure délibérément éloignée de la vie urbaine et connectivité contemporaine : non recommandé pour artistes ayant besoin de métropole ou d'accès rapide.",
+        "Deadline très proche : 30 novembre 2026.",
+        "Restitution attendue (donation d'œuvre), sans mention d'exposition publique ni visibilité au-delà de l'organisme.",
+        "Accessibilité partielle (50 % ou plus des installations inaccessibles)."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.sarasvati.space/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "remuneration: {montant: 0, devise: USD}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true; 'Private bedroom in a shared housing facility on campus'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: 'Private and shared studios assigned based on calendar and space/medium requirements'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "voyage: {pris_en_charge: false}; 'Residency Fees 450 USD per week minimum entirely charged to artist'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "remuneration: {montant: 0}; 'No stipend, per diem, or bursary provided. Artist must cover all residency fees'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "pieces_demandees: ['written statement about connection to nature']; 'No detailed selection rubric or weighted criteria published'",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "'Applications accepted on rolling basis and response can be within a day or up to 2 weeks'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "'No explicit statement that non-selected applicants receive individual notification'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "'Farm Stay Scholarship requires approximately 6 hours per week of physical labor (gardening, landscaping, land maintenance)'",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "dates: 'April 2027'; 'Residency dates fixed to April 2027; no mention of alternative dates or windows'",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "restitution: 'Donate a work of art'; 'No mention of exhibition, public presentation, or visibility beyond the organization itself'",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "'No mention of alumni network, post-program documentation, collection inclusion, or follow-up support'",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "2f4a4fe9",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/visual-arts-sounding-mountain",
+      "fetched_at": "2026-11-18T18:22:40+00:00",
+      "score": 8,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Visual Arts - Sounding Like a Mountain",
+        "organisme": "Banff Centre for Arts & Creativity",
+        "lieu": {
+          "ville": "Banff",
+          "pays": "Canada",
+          "territoire": null
+        },
+        "nom_fr": "Arts Visuels - Résonner Comme une Montagne",
+        "affichage_titre": "Visual Arts - Sounding Like a Mountain [Arts Visuels - Résonner Comme une Montagne]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-18",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 65,
+          "devise": "CAD"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "http://url.banffcentre.ca/bh0NzC"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Ceramics/Clay Arts/Pottery",
+          "Digital Fabrication",
+          "Digital Media",
+          "Drawing",
+          "Environmental Arts",
+          "Illustration",
+          "Installation Arts",
+          "Interdisciplinary Arts",
+          "Mixed Media",
+          "Painting",
+          "Paper Arts",
+          "Performance Art",
+          "Photography",
+          "Printmaking",
+          "Sculpture",
+          "Sound Art",
+          "Textile & Fiber Arts/Weaving",
+          "Visual Arts",
+          "Woodworking"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 5,
+          "dates": null
+        },
+        "hebergement": true,
+        "atelier": "Private Studios with access to shared production facilities including ceramics workspace (electric wheels, kick wheels, slab roller, clay mixers, Raku kiln, electric kiln, gas kiln), dedicated metal shop (plasma cutter, anvils, hydraulic press, soldering workspace), darkroom (black and white and color), lighting studio/green screen, printmaking workspaces (etching press, silkscreen studio, lithography studio), papermaking studio, textiles workspace (fiber arts, dye area, padded screen print tables), and dedicated wood shop (tablesaw, bandsaw, router table, jointer, planer). Full-time technicians available for technical assistance.",
+        "remuneration": {
+          "montant": 5556,
+          "devise": "CAD",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": "CAD"
+        },
+        "restitution": "Participation in public programming and open studio with fellow residents"
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Résidence artistique de 5 semaines au Banff Centre for Arts & Creativity pour artistes visuels de tous niveaux de carrière travaillant sur l'écologie acoustique et l'écoute du territoire. Le programme fournit studio privé, accès à équipements spécialisés, mentorat de faculté, logement en résidence collective, tous les repas compris, ainsi qu'une bourse du Banff Centre Arts Scholarship de 5556 CAD couvrant les frais de scolarité et une contribution aux logement et repas. Les artistes participent à la programmation publique et aux open studios collectifs.",
+        "pour_qui": "Artistes visuels de tous niveaux de carrière intéressés par des projets explorant l'écologie acoustique, la vibration, la mémoire et les relations éthiques et politiques au territoire."
+      },
+      "a_savoir": [
+        "Date limite : 18 novembre 2026 (aujourd'hui même)",
+        "Coût participant après bourse : 4476.78 CAD (montant significatif)",
+        "Frais de candidature non-remboursables : 65 CAD",
+        "Bourses supplémentaires pour artistes autochtones (couverture complète tuition, logement, repas)",
+        "Participation obligatoire à la programmation publique requise"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.banffcentre.ca",
+        "adresse": null,
+        "ville": "Banff",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 5556, \"devise\": \"CAD\", \"periodicite\": \"forfait\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true, avec détails « Private bedroom in a shared housing facility on campus. All meals provided »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Private Studios with access to shared production facilities including ceramics workspace... darkroom, lighting studio/green screen, printmaking workspaces, papermaking studio, textiles workspace, dedicated wood shop\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": null, \"plafond\": null} et coût participant à charge demeure 4476.78 CAD après la bourse",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "Bourse 5556 CAD + coût participant 4476.78 CAD pour 5 semaines, mais aucune donnée sur coût de vie local à Banff fournie dans la fiche",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Each residency has specific eligibility requirements; please visit our website\" — critères de sélection du jury non énoncés sur cette page",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucune mention de délai ou date de notification des résultats dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas d'indication dans la fiche sur notification individuelle des candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"Visual Arts residencies are structured programs of faculty-led activity and mentorship\" et \"Participation in public programming and open studio with fellow residents\" — obligations imposées",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"duree\": {\"semaines\": 5, \"dates\": null} — durée fixée, aucune mention de flexibilité calendaire",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"Participation in public programming and open studio with fellow residents\" — restitution limitée au centre, pas de mention de diffusion presse ou catalogue",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "\"Development of a professional community towards developing and sustaining an artistic career\" mentionné générique, sans détails sur réseau alumni ou suivi documenté post-résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "2f71592e",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/summer-2027-byrdcliffe-communal-residency",
+      "fetched_at": "2026-11-18T18:27:28+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Summer 2027 Byrdcliffe Communal Residency",
+        "organisme": "Woodstock Byrdcliffe Guild",
+        "lieu": {
+          "ville": "Woodstock",
+          "pays": "United States",
+          "territoire": null
+        },
+        "nom_fr": "Résidence Communale Byrdcliffe Été 2027",
+        "affichage_titre": "Summer 2027 Byrdcliffe Communal Residency [Résidence Communale Byrdcliffe Été 2027]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-23",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 30,
+          "devise": "USD"
+        },
+        "pieces_demandees": [],
+        "url_candidature": "https://woodstockbyrdcliffeguild.submittable.com/submit"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Acting",
+          "Animation",
+          "Architecture",
+          "Art Conservation",
+          "Art Education",
+          "Art History",
+          "Book Arts",
+          "Ceramics/Clay Arts/Pottery",
+          "Costume/Fashion Design",
+          "Digital Fabrication",
+          "Digital Media",
+          "Documentary",
+          "Drawing",
+          "Ecology",
+          "Electronic Arts",
+          "Environmental Arts",
+          "Fiction",
+          "Film",
+          "Graphic Design",
+          "History",
+          "Illustration",
+          "Installation Arts",
+          "Interdisciplinary Arts",
+          "Journalism",
+          "Landscape Architecture",
+          "Literary Nonfiction",
+          "Literature",
+          "Mathematics",
+          "Mixed Media",
+          "Moving Image",
+          "Multimedia Arts",
+          "Music",
+          "New Genres",
+          "Nonfiction",
+          "Painting",
+          "Paper Arts",
+          "Performance Art",
+          "Philosophy",
+          "Photography",
+          "Playwriting",
+          "Poetry",
+          "Printmaking",
+          "Screenwriting",
+          "Sculpture",
+          "Sound Art",
+          "Storytelling",
+          "Textile & Fiber Arts/Weaving",
+          "Theater",
+          "Visual Arts",
+          "Writing"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 4,
+          "dates": null
+        },
+        "hebergement": true,
+        "atelier": "Shared and private studios with specialized equipment including ceramics workspace (kick wheels, slab roller, kilns), theater facilities, performance space, drawing and weaving facilities. ADA compliant.",
+        "remuneration": {
+          "montant": null,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Exhibitions at Byrdcliffe's Kleinert/James Gallery the following year; open studios and practice shares; community events and excursions."
+      },
+      "partenaires": [
+        "Pollock-Krasner Foundation"
+      ],
+      "analyse": {
+        "synthese": "Résidence artistique d'été de 4 semaines dans la colonie historique de Byrdcliffe, l'une des plus anciennes aux États-Unis. Accueille environ 30 artistes simultanément. Ouverte à tous niveaux de carrière et sans restriction de nationalité. Frais de résidence : 900 USD. Hébergement fourni (chambre privée en résidence collective) et ateliers avec équipements spécialisés. Bourses partielles ou complètes disponibles basées sur le mérite et les besoins. Restitution : exhibitions à la Kleinert/James Gallery l'année suivante.",
+        "pour_qui": "Artistes de toutes disciplines (visuelles, littéraires, performatifs, interdisciplinaires) de tous niveaux d'expérience et de tous pays."
+      },
+      "a_savoir": [
+        "Frais de résidence non négligeables (900 USD) ; bourses limitées en nombre",
+        "Pas de repas fournis",
+        "Obligations de participation sociales attendues : open studios et artist talks",
+        "Deadline très proche : 23 novembre 2026 (priorité 16 novembre)"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.woodstockguild.org/artists-in-residence/",
+        "adresse": null,
+        "ville": "Woodstock",
+        "contact_email": "AiR@woodstockguild.org"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "partiel",
+          "justification": "\"remuneration\": {\"montant\": null}; analyse: \"Bourses partielles ou complètes disponibles basées sur le mérite et les besoins\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true; conditions_residence.atelier: \"Private bedroom in a shared housing facility on campus\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "conditions_residence.atelier: \"Shared and private studios with specialized equipment including ceramics workspace (kick wheels, slab roller, kilns), theater facilities, performance space\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "conditions_residence.voyage: {\"pris_en_charge\": true, \"plafond\": null}; mais frais de résidence 900 USD non couverts",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"remuneration\": {\"montant\": null}; montants des stipends non spécifiés, impossible d'évaluer l'adéquation au coût de vie",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "analyse.synthese: \"artistic excellence and demonstrated commitment to one's field of endeavor\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucune information sur date_limite_notification ou délai de réponse dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention dans la fiche d'une notification individuelle aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "a_savoir: \"Obligations de participation sociales attendues : open studios et artist talks\"; restitution mentionne community events",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "conditions_residence.duree: {\"semaines\": 4}; analyse: \"Résidence fixe de 4 semaines pour l'été 2027\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "conditions_residence.restitution: \"Exhibitions at Byrdcliffe's Kleinert/James Gallery the following year\" (galerie locale, sans rayonnement presse élargi)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "conditions_residence.restitution mentionne expositions l'année suivante; aucune mention de réseau alumni actif ou accompagnement ultérieur",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "34c26deb",
+      "type": "residence",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/residence-de-creation-artistique-2027-si-nos-murs-pouvaient-parler-ville-de-vannes",
+      "fetched_at": "2026-11-18T18:07:23+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidence de création artistique 2027 « Si nos murs pouvaient parler »",
+        "organisme": "Ville de Vannes",
+        "lieu": {
+          "ville": "Vannes",
+          "pays": "France",
+          "territoire": "Bretagne"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-12-13",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "CV",
+          "portfolio",
+          "démarche artistique",
+          "note d'intention",
+          "expériences avec les publics",
+          "informations pratiques"
+        ],
+        "url_candidature": "https://www.alternatif-art.com/appel-a-candidature/residence-de-creation-artistique-2027-si-nos-murs-pouvaient-parler-ville-de-vannes"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts visuels",
+          "arts graphiques",
+          "illustration",
+          "design",
+          "photographie",
+          "création sonore",
+          "art numérique"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "février à juin 2027, environ 1 mois"
+        },
+        "hebergement": true,
+        "atelier": "Espace de travail fermé d'environ 60 m²",
+        "remuneration": {
+          "montant": 3500,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Projet de création artistique associant les élèves, développement et valorisation avec l'équipe pédagogique"
+      },
+      "partenaires": [
+        "École Françoise d'Amboise"
+      ],
+      "analyse": {
+        "synthese": "La Ville de Vannes propose une résidence de création artistique de un mois à l'école Françoise d'Amboise entre février et juin 2027. Elle s'adresse aux artistes professionnels dans les disciplines visuelles, graphiques, photographiques, numériques ou sonores. Les artistes reçoivent 3 500 € TTC couvrant honoraires, matériaux, déplacements, hébergement et repas, bénéficient d'un atelier de 60 m² et doivent intégrer les élèves au processus créatif autour des thématiques de langues, cultures et identités territoriales.",
+        "pour_qui": "Artistes visuels professionnels ayant une expérience ou une appétence pour la pédagogie et prêts à co-créer avec les enfants dans un contexte scolaire."
+      },
+      "a_savoir": [
+        "Budget global très limité (3 500 € TTC tout inclus pour ~1 mois)",
+        "Travail fortement orienté vers la médiation pédagogique avec 20 heures minimum obligatoires avec la classe",
+        "Calendrier imposé (février-juin 2027), pas de flexibilité sur les dates",
+        "Aucun financement complémentaire prévu au-delà des 3 500 €"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "École Françoise d'Amboise, quartier de Ménimur, Vannes",
+        "ville": "Vannes",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration: {montant: 3500, devise: EUR, periodicite: forfait}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "conditions_residence.hebergement: true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "conditions_residence.atelier: Espace de travail fermé d'environ 60 m²",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "voyage.pris_en_charge: false ; analyse synthese: 3 500 € TTC couvrant honoraires, matériaux, déplacements, hébergement et repas",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "a_savoir: Budget global très limité (3 500 € TTC tout inclus pour ~1 mois) = ~115 €/jour tous frais compris",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "eligibilite: niveau_carriere confirmé·e, disciplines listées ; mais critères de jury non détaillés au-delà de l'admissibilité",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "candidature.date_limite: 2026-12-13 ; aucune mention de délai de notification des résultats",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention de notification individuelle aux candidat·es non retenu·es dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "non",
+          "justification": "a_savoir: Travail fortement orienté vers la médiation pédagogique avec 20 heures minimum obligatoires avec la classe",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "a_savoir: Calendrier imposé (février-juin 2027), pas de flexibilité sur les dates",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "conditions_residence.restitution: Projet de création artistique associant les élèves [...] avec l'équipe pédagogique ; aucune exposition ou visibilité externe documentée",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de suivi alumni ou post-programme dans la fiche",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "3e4357d9",
       "type": "residence",
       "source_url": "https://ocastroartvillage.com/creative-residency-at-o-castro-art-village/",
@@ -835,6 +1627,386 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "3fdff05e",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/aviario-studio-ceramics-residency-winterspring-2027",
+      "fetched_at": "2026-11-18T18:32:42+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Aviário Studio Ceramics Residency - Winter/Spring 2027",
+        "organisme": "Aviário Studio",
+        "lieu": {
+          "ville": null,
+          "pays": null,
+          "territoire": null
+        },
+        "nom_fr": "Résidence Aviário Studio Céramique - Hiver/Printemps 2027",
+        "affichage_titre": "Aviário Studio Ceramics Residency - Winter/Spring 2027 [Résidence Aviário Studio Céramique - Hiver/Printemps 2027]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-26",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en",
+          "fr",
+          "pt"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Full Name",
+          "Email Address",
+          "Phone Number",
+          "Nationality",
+          "Birth Date",
+          "Check-in and check-out dates",
+          "Accommodation preferences",
+          "Residency type (Self-directed, Guided Art, or Assisted Production)",
+          "Brief project description",
+          "Online portfolio or 5-8 images"
+        ],
+        "url_candidature": "https://www.aviariostudio.eu/apply-now"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Ceramics/Clay Arts/Pottery",
+          "Installation Arts",
+          "Interdisciplinary Arts",
+          "Mixed Media",
+          "Sculpture",
+          "Visual Arts"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "Minimum 3 weeks; customizable up to 6 months"
+        },
+        "hebergement": true,
+        "atelier": "Shared ceramics studio with 3 electric pottery wheels, 2 electric kilns (1260° and 1050°), plus multi-disciplinary workspace (printmaking, drawing, woodworking, book arts, silkscreen, metal work, glass)",
+        "remuneration": {
+          "montant": 0,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Participation in public programming, open studio with fellow residents, artist talks or workshops (optional)"
+      },
+      "partenaires": [
+        "Artist Communities Alliance"
+      ],
+      "analyse": {
+        "synthese": "Aviário Studio propose une résidence de céramique de 3 à 6 semaines, incluant hébergement en maison partagée et studio équipé (3 tours de poterie, 2 fours électriques, équipements multidisciplinaires). Les frais de résidence varient de 900€ (3 semaines) à 1800€ (6 semaines). Le programme s'adresse à tous les niveaux de carrière. Aucune rémunération, allocation de voyage ni aide financière ne sont fournis; les artistes doivent couvrir leurs frais de transport, nourriture et matériel. Support technique supplémentaire disponible à 20€/heure.",
+        "pour_qui": "Artistes de tous niveaux de carrière (émergent·e à confirmé·e), âgé·e·s d'au moins 21 ans, pratiquant la céramique, les arts visuels, sculpture ou disciplines connexes, sans restriction de nationalité."
+      },
+      "a_savoir": [
+        "Aucune rémunération ou allocation de voyage fournie",
+        "Frais de résidence non négligeables (900€-1800€ pour 3-6 semaines)",
+        "Repas non fournis, accès à cuisine partagée seulement",
+        "Support technique supplémentaire payant (20€/heure)",
+        "Pas d'aide financière actuellement disponible",
+        "Durée minimum 3 semaines requise",
+        "Deadline très proche (26 novembre 2026)",
+        "Artistes doivent couvrir transport, matériel et nourriture"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": null,
+        "contact_email": "aviariostudio@gmail.com"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": 0, \"devise\": \"EUR\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true + \"Accommodation in a shared house, private bedroom in shared housing facility\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Shared ceramics studio with 3 electric pottery wheels, 2 electric kilns (1260° and 1050°), plus multi-disciplinary workspace\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} + \"Artists have to make sure they are able to cover the costs of residency fee, travel, materials and food\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": 0} + analyse: \"aucune dotation ne permet de couvrir les frais de subsistance\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\": [...] énumérées, mais analyse constate: \"Pas de critères de sélection explicites énoncés; seulement liste des pièces à fournir\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Critères programme: \"Aucun délai ou date de notification des résultats mentionné\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Critères programme: \"Pas d'information sur la notification individuelle des candidat·es non retenu·es\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Participation in public programming, open studio with fellow residents, artist talks or workshops (optional)\" — activités optionnelles",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "\"duree\": {\"dates\": \"Minimum 3 weeks; customizable up to 6 months\"} + candidature: \"Check-in and check-out dates\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"Participation in public programming, open studio with fellow residents\" — restitution locale seulement, pas de visibilité externe (exposition, presse, catalogue)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Critères programme: \"Pas de mention d'un réseau alumni, suivi post-résidence, entrée en collection, ou accompagnement vers d'autres opportunités\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "4595463f",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/casa-ceiba-2027-winterspring-interest-form",
+      "fetched_at": "2026-11-18T18:42:07+00:00",
+      "score": 8,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Casa Ceiba: 2027 Winter/Spring Interest Form",
+        "organisme": "Ceiba Futures",
+        "lieu": {
+          "ville": "Santiago Atitlán",
+          "pays": "Guatemala",
+          "territoire": null
+        },
+        "nom_fr": "Casa Ceiba : Formulaire d'Intérêt Hiver/Printemps 2027",
+        "affichage_titre": "Casa Ceiba: 2027 Winter/Spring Interest Form [Casa Ceiba : Formulaire d'Intérêt Hiver/Printemps 2027]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en",
+          "es"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "USD"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://docs.google.com/forms/d/e/1FAIpQLSc9qp7eMcesCfgxoLzGZdEnXG6oo6YxOfa0Yut…"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Art Conservation",
+          "Art History",
+          "Ceramics/Clay",
+          "Arts/Pottery",
+          "Drawing",
+          "Ecology",
+          "Environmentalism/Conservation",
+          "Graphic Design",
+          "History",
+          "Installation Arts",
+          "Literary Nonfiction",
+          "Literature",
+          "Mixed Media",
+          "Multimedia Arts",
+          "New Genres",
+          "Philosophy",
+          "Photography",
+          "Poetry",
+          "Printmaking",
+          "Public Art",
+          "Social Practice",
+          "Storytelling",
+          "Textile & Fiber Arts/Weaving",
+          "Visual Arts",
+          "Woodworking",
+          "Writing"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 4,
+          "dates": null
+        },
+        "hebergement": true,
+        "atelier": "Shared Studios, Dye Area",
+        "remuneration": {
+          "montant": 0,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Lead workshop for the public"
+      },
+      "partenaires": [
+        "ACA"
+      ],
+      "analyse": {
+        "synthese": "Casa Ceiba est une résidence culturelle petite échelle et centrée sur la guérison à Santiago Atitlán, Guatemala, fondée sur la cosmologie maya et les soins collectifs. Elle accueille les artistes, créateurs et praticiens culturels autochtones, noirs, centraméricains et en diaspora pour des séjours de 4 semaines avec logement partagé, studio équipé, repas et échange culturel avec praticiens locaux. Tous les stades de carrière sont acceptés. Les tarifs varient de 840 à 2 000 USD par semaine selon le track sélectionné; travail d'échange et tarifs à l'échelle mobile sont offerts.",
+        "pour_qui": "Artistes, créateurs et praticiens culturels autochtones, noirs, centraméricains et en diaspora de la majorité mondiale, particulièrement 2Spirit, Indigiqueer, queer, trans, femmes et jeunes adultes."
+      },
+      "a_savoir": [
+        "Prix élevé (840–2 000 USD par semaine, sans vol inclus) nécessitant une capacité financière significative.",
+        "Aucun stipend artistique; les candidats doivent financer leur participation.",
+        "Obligation de conduire un atelier public pour la communauté locale.",
+        "Échange de travail disponible de manière limitée (maximum la moitié du coût de base).",
+        "Délai de candidature court: date limite 30 novembre 2026.",
+        "Critères de sélection du jury non publiés."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Santiago Atitlán, Guatemala (private home)",
+        "ville": "Santiago Atitlán",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "partiel",
+          "justification": "\"remuneration\": {\"montant\": 0, \"devise\": \"USD\"}; \"Tarifs à l'échelle mobile, échange de travail et soutien au financement collaboratif offerts.\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true; \"Private bedroom in a shared housing facility on campus. Groceries fournis pour préparer ses repas.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Shared Studios, Dye Area\"; \"Studio space along with materials inclus.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false}; \"Flights to/from Guatemala not included.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"Coût de la vie à Santiago Atitlán non spécifié; impossible d'évaluer si les tarifs permettent de vivre sans déficit net.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Critères de sélection du jury non publiés.\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucun délai ou date de notification des résultats communiqué dans la fiche.",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention de notification individuelle aux candidats non retenus.",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"Lead workshop for the public\"; \"Obligation de conduire un atelier public pour la communauté locale.\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "\"Every stay is co-designed with you\"; \"duree\": {\"semaines\": 4, \"dates\": null}",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"Lead workshop for the public\"; \"pas de mention de diffusion presse, exposition ou édition au-delà de l'organisme.\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "\"Aucune mention de réseau alumni, suivi documenté ou accompagnement post-programme.\"",
           "poids": 1,
           "famille": "debouche"
         }
@@ -1351,6 +2523,404 @@
       ]
     },
     {
+      "uid": "671c5331",
+      "type": "residence",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/residences-darkoum-2027-au-maroc",
+      "fetched_at": "2026-11-18T17:59:19+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidences DARKOUM 2027 au Maroc",
+        "organisme": "Institut français du Maroc",
+        "lieu": {
+          "ville": "Rabat",
+          "pays": "Maroc",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Note d'intention de deux pages maximum ou vidéo de présentation de deux minutes maximum",
+          "CV artistique ou professionnel",
+          "Portfolio de 20 pages maximum et 10 Mo maximum, ou documentation équivalente",
+          "Budget prévisionnel détaillé en cas de demande d'aide complémentaire à la production"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Arts visuels et arts plastiques",
+          "Photographie",
+          "Sculpture et installation",
+          "Arts numériques et multimédia",
+          "Design et métiers d'art",
+          "Commissariat d'exposition et critique d'art",
+          "Littérature et bande dessinée",
+          "Cinéma et création audiovisuelle",
+          "Musique et création sonore",
+          "Spectacle vivant et performance",
+          "Recherche et expérimentation artistique",
+          "Création interdisciplinaire",
+          "Patrimoine et territoires"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "Résidant en France, Maroc ou pays d'Afrique francophone"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "Mars-décembre 2027 (environ un mois par artiste)"
+        },
+        "hebergement": true,
+        "atelier": "Espace de travail selon les disponibilités du lieu d'accueil. Accès possible à des équipements et moyens techniques.",
+        "remuneration": {
+          "montant": 1000,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": 400,
+          "devise": "EUR"
+        },
+        "restitution": "Aucune obligation de produire une œuvre achevée ni de présentation publique obligatoire. Partage avec acteurs locaux encouragé."
+      },
+      "partenaires": [
+        "Institut français du Maroc"
+      ],
+      "analyse": {
+        "synthese": "Le programme offre des résidences d'environ un mois dans neuf villes marocaines entre mars et décembre 2027. Les candidats reçoivent 1000 € de bourse de recherche, 300 MAD quotidiens, hébergement gratuit, remboursement du voyage jusqu'à 400 € et accès à un espace de travail. Une aide à la production jusqu'à 2000 € peut compléter le soutien sur demande et après validation. Aucune restitution publique ni production d'œuvre achevée ne sont obligatoires.",
+        "pour_qui": "Artistes francophones avec au moins 5 ans d'expérience professionnelle, résidant en France, au Maroc ou en Afrique francophone, souhaitant mener une recherche ou création liée au contexte marocain."
+      },
+      "a_savoir": [
+        "Expérience obligatoire : 5+ ans d'activité professionnelle ou artistique dans un territoire éligible",
+        "Restitution publique non obligatoire mais partage avec acteurs locaux encouragé",
+        "Aide à la production (2000 €) facultative et soumise à sélection",
+        "Transport remboursé sur justificatifs, plafonné à 400 €",
+        "Une seule candidature par personne, sans modification après envoi",
+        "Certaines villes ont des périodes d'accueil restreintes (ex. Marrakech : mars à mai 2027)",
+        "Versements partiels : 30 % en espèces à l'arrivée, 70 % par virement bancaire",
+        "Candidature en duo possible, aide à la production plafonnée à 2000 € pour le projet commun"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Rabat",
+        "contact_email": "residences@ifmaroc.com"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration: {montant: 1000 EUR forfait + 300 MAD par jour}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: 'Espace de travail selon les disponibilités du lieu d'accueil. Accès possible à des équipements et moyens techniques.'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "voyage: {pris_en_charge: true, plafond: 400 EUR}; aide à la production jusqu'à 2000 €",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "1000 € + 300 MAD/jour avec hébergement fourni, mais pas d'analyse explicite de l'adéquation avec le coût de la vie marocain",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "Conditions d'admissibilité claires (5 ans d'expérience, francophone, pertinence du projet) mais aucun barème explicite ou critères de sélection du jury énoncés",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucun délai ou date de notification des résultats communiqué",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Pas de mention d'une notification individuelle aux candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "restitution: 'Aucune obligation de produire une œuvre achevée ni de présentation publique obligatoire'",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "dates: 'Mars-décembre 2027 (environ un mois par artiste)' mais 'Certaines villes ont des périodes d'accueil restreintes'",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "restitution: 'Partage avec acteurs locaux encouragé' — pas de garantie de visibilité externe (exposition, catalogue, diffusion presse)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucun réseau alumni, suivi documenté ou accompagnement post-programme mentionné",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "68c386a1",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/end-year-your-time-dorland-mountain-arts",
+      "fetched_at": "2026-11-18T18:29:14+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "End of Year! Your Time at Dorland Mountain Arts",
+        "organisme": "Dorland Mountain Arts",
+        "lieu": {
+          "ville": "Temecula",
+          "pays": "USA",
+          "territoire": "California"
+        },
+        "nom_fr": "Fin d'année ! Votre moment aux Dorland Mountain Arts",
+        "affichage_titre": "End of Year! Your Time at Dorland Mountain Arts [Fin d'année ! Votre moment aux Dorland Mountain Arts]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-24",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 40,
+          "devise": "USD"
+        },
+        "pieces_demandees": [],
+        "url_candidature": "https://www.dorlandmountainarts.org/the-residency-program"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Acting",
+          "Animation",
+          "Art Conservation",
+          "Art Education",
+          "Art History",
+          "Biology",
+          "Book Arts",
+          "Costume/Fashion Design",
+          "Digital Fabrication",
+          "Digital Media",
+          "Documentary",
+          "Drawing",
+          "Ecology",
+          "Electronic Arts",
+          "Environmental Arts",
+          "Environmentalism/Conservation",
+          "Fiction",
+          "Film",
+          "Glass Arts",
+          "Graphic Design",
+          "History",
+          "Interdisciplinary Arts",
+          "Journalism",
+          "Landscape Architecture",
+          "Literary Nonfiction",
+          "Literature",
+          "Mathematics",
+          "Mixed Media",
+          "Music",
+          "New Genres",
+          "Nonfiction",
+          "Painting",
+          "Paper Arts",
+          "Philosophy",
+          "Photography",
+          "Playwriting",
+          "Poetry",
+          "Printmaking",
+          "Science",
+          "Screenwriting",
+          "Social Practice",
+          "Sound Art",
+          "Storytelling",
+          "Symphony",
+          "Textile & Fiber Arts/Weaving",
+          "Translation",
+          "Visual Arts",
+          "Writing"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "1 to 6 weeks based on requests and availability"
+        },
+        "hebergement": true,
+        "atelier": "Individual cottages with private workspace. The Jane Culp Studio features work tables, Charles printing press for linocuts, monotypes and collographs, cyanotype supplies. Community Arts Center provides library, writing desk with typewriter, meeting room, and studio room for visual artists. Additional equipment includes easels for painting, fiber arts workspace.",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Artist Communities Alliance"
+      ],
+      "analyse": {
+        "synthese": "Dorland Mountain Arts propose des résidences individuelles d'une à six semaines en Californie du Sud, dans un cadre naturel protégé. Le programme accueille des artistes de tous niveaux de carrière et de toutes disciplines (arts visuels, littérature, musique, etc.). Les cottages individuels incluent logement, cuisine, salle de bain et espace de travail; studios spécialisés (atelier d'impression, studio de peinture, bibliothèque) sont accessibles. Les frais de résidence sont 450-675 USD par semaine avec réductions pour 4 semaines ou plus. Frais de dossier : 40 USD. Aucune rémunération, aide au voyage ou support financier mentionnés. Date limite : 24 novembre 2026.",
+        "pour_qui": "Artistes visuels, écrivain·es, musicien·nes et compositeur·rices de tous niveaux de carrière et nationalités cherchant une résidence créative protégée en Californie du Sud avec accès à studios équipés."
+      },
+      "a_savoir": [
+        "Modèle pay-to-stay : artistes doivent payer les frais de résidence (450-675 USD/semaine)",
+        "Pas de rémunération, bourse ou per diem fourni",
+        "Pas d'aide financière pour les frais de voyage",
+        "Critères de sélection du jury non explicitement détaillés",
+        "Pas de délai de notification des résultats communiqué",
+        "Délai de candidature court : 24 novembre 2026"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.dorlandmountainarts.org",
+        "adresse": null,
+        "ville": "Temecula",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Pas de rémunération, bourse ou per diem fourni",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "Individual cottages complete with WiFi, AC, kitchen, bathroom, workspace, and covered porch",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "The Jane Culp Studio features work tables, Charles printing press, cyanotype supplies. Community Arts Center provides library, writing desk with typewriter, studio room for visual artists",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Pas d'aide financière pour les frais de voyage",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "Modèle pay-to-stay : artistes doivent payer les frais de résidence (450-675 USD/semaine)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "Critères de sélection du jury non explicitement détaillés",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Pas de délai de notification des résultats communiqué",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "No mention of individual notification to non-selected candidates",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "Marketing emphasizes 'Get some writing, art, or music made... with no distractions', indicating protected creative time",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "1 to 6 weeks based on requests and availability",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "No mention of exhibition, publication, or public presentation at end of residency",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "No mention of alumni network, documented follow-up, or post-program support",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "6ba8743c",
       "type": "residence",
       "source_url": "https://www.mataderomadrid.org/sites/default/files/media/document/2025/11/resolucion_aavv_2026.pdf",
@@ -1696,6 +3266,397 @@
       ]
     },
     {
+      "uid": "7c45ed7c",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/print-residency-winter-spring-barcelona-2027-la-maldita-estampa-0",
+      "fetched_at": "2026-11-18T18:40:17+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Print Residency - Winter & Spring - Barcelona 2027 - La maldita Estampa",
+        "organisme": "La Maldita Estampa",
+        "lieu": {
+          "ville": "Barcelona",
+          "pays": "Spain",
+          "territoire": null
+        },
+        "nom_fr": "Résidence d'estampe - Hiver et Printemps - Barcelone 2027 - La maldita Estampa",
+        "affichage_titre": "Print Residency - Winter & Spring - Barcelona 2027 - La maldita Estampa. [Résidence d'estampe - Hiver et Printemps - Barcelone 2027 - La maldita Estampa]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en",
+          "es"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "USD"
+        },
+        "pieces_demandees": [
+          "Artist's portfolio: brief explanation of project (maximum 30 lines and maximum 5 recent photographs, PDF format)",
+          "Proposed timetable for realisation of the project, with dates of arrival and departure",
+          "Specification of the techniques involved in the creative process"
+        ],
+        "url_candidature": "https://lamalditaestampa.eu/residencias-artisticas/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Art Education",
+          "Book Arts",
+          "Drawing",
+          "Illustration",
+          "Paper Arts",
+          "Performance Art",
+          "Printmaking",
+          "Visual Arts"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 8,
+          "dates": null
+        },
+        "hebergement": false,
+        "atelier": "Fully equipped printmaking workshop: darkroom (black and white), printers and scanner, printmaking workspaces, glass inking table, aquatint box, hot plates, metal plate shear, paper soaking sinks, paper tearing table, acid room, silkscreen studio, lithography studio, light tables, large sinks, large exposure unit, washout room. Exhibition/installation space available.",
+        "remuneration": {
+          "montant": null,
+          "devise": "USD",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": "USD"
+        },
+        "restitution": "Open studio with fellow residents, artist talk or presentation, exhibition/installation space"
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "La Maldita Estampa propose une résidence de 2 mois à Barcelone pour développer des projets en gravure et techniques graphiques traditionnelles et contemporaines. Le programme accueille 5 artistes simultanément dans un atelier équipé, sans restriction de nationalité ni de niveau de carrière. Les artistes participent à des présentations ouvertes et des expositions. Les frais de résidence s'élèvent à 900 USD. Logement et financement doivent être organisés par l'artiste.",
+        "pour_qui": "Artistes professionnels ou en formation, de toute nationalité, intéressés par la gravure, le dessin ou les techniques graphiques, qui souhaitent développer, expérimenter ou se former dans un environnement collaboratif international."
+      },
+      "a_savoir": [
+        "Frais de résidence de 900 USD à charge de l'artiste",
+        "Logement non fourni — l'artiste doit organiser son accueil",
+        "Stipend mentionné sans montant précisé ; instruction que l'artiste doit organiser son financement",
+        "Délai de candidature proche : 30 novembre 2026",
+        "Participation obligatoire à des présentations collectives et expositions"
+      ],
+      "organisme_details": {
+        "site_web": "https://lamalditaestampa.eu/residencias-artisticas/",
+        "adresse": "112 Aragón Street, Barcelona, Spain",
+        "ville": "Barcelona",
+        "contact_email": "lamalditaestampa@gmail.com"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "« Artist Stipend » mentionné dans conditions_residence mais sans montant ; texte indique « Artists must secure their own funding »",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "« hebergement »: false ; dans a_savoir : « Logement non fourni — l'artiste doit organiser son accueil »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "« Fully equipped printmaking workshop: darkroom (black and white), printers and scanner, printmaking workspaces, glass inking table, aquatint box, hot plates, metal plate shear, paper soaking sinks, paper tearing table, acid room, silkscreen studio, lithography studio, light tables, large sinks, large exposure unit, washout room »",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "« voyage »: { « pris_en_charge »: null, « plafond »: null } ; « Travel Stipend/Material Stipends » mentionnés sans détail ni montant précisé",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "Aucun montant de stipend ou per diem spécifié (« remuneration »: { « montant »: null }) — impossible d'évaluer la cohérence avec le coût de la vie barcelonais",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "« pieces_demandees » énumère les documents (portfolio, timetable, techniques) mais aucun critère explicite de jugement du jury énoncé",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucune mention de délai ou date de notification des résultats dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention de notification individuelle aux candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "« To make the artist feel as if they were in their own studio, working freely, developing, experimenting, researching » ; mais dans a_savoir : « Participation obligatoire à des présentations collectives et expositions »",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "« Proposed timetable for realisation of the project, with dates of arrival and departure » suggère flexibilité, mais durée fixée à 8 semaines",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "« Open studio with fellow residents, artist talk or presentation, exhibition/installation space » — restitution prévue mais de rayonnement interne ; aucune mention de presse, catalogue ou visibilité au-delà de l'organisme",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de réseau alumni, suivi documenté ou accompagnement après le programme",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "85649e51",
+      "type": "residence",
+      "source_url": "https://www.artistcommunities.org/directory/open-calls/la-porte-peinte-open-call-july-2027",
+      "fetched_at": "2026-11-18T18:36:18+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "La Porte Peinte: Open Call for July 2027",
+        "organisme": "La Porte Peinte Centre pour les Arts",
+        "lieu": {
+          "ville": "Noyers sur Serein",
+          "pays": "France",
+          "territoire": "Burgundy"
+        },
+        "nom_fr": "La Porte Peinte: Appel à candidatures pour juillet 2027",
+        "affichage_titre": "La Porte Peinte: Open Call for July 2027 [La Porte Peinte: Appel à candidatures pour juillet 2027]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en",
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Acting",
+          "Animation",
+          "Architecture",
+          "Art Conservation",
+          "Art History",
+          "Book Arts",
+          "Choreography",
+          "Costume/Fashion Design",
+          "Criticism",
+          "Dance",
+          "Digital Media",
+          "Documentary",
+          "Drawing",
+          "Ecology",
+          "Electronic Arts",
+          "Environmental Arts",
+          "Environmentalism/Conservation",
+          "Fiction",
+          "Film",
+          "Graphic Design",
+          "Illustration",
+          "Industrial Design",
+          "Installation Arts",
+          "Interdisciplinary Arts",
+          "Journalism",
+          "Literary Nonfiction",
+          "Literature",
+          "Mixed Media",
+          "Moving Image",
+          "Multimedia Arts",
+          "Music",
+          "New Genres",
+          "Nonfiction",
+          "Painting",
+          "Paper Arts",
+          "Performance Art",
+          "Photography",
+          "Playwriting",
+          "Poetry",
+          "Screenwriting",
+          "Sculpture",
+          "Social Practice",
+          "Sound Art",
+          "Storytelling",
+          "Theater",
+          "Translation",
+          "Visual Arts",
+          "Writing"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 26,
+          "dates": "6 months"
+        },
+        "hebergement": true,
+        "atelier": "eight private studio spaces, workshop spaces, exhibition/installation space, performance/presentation facilities, darkroom, painting workspace, easels",
+        "remuneration": {
+          "montant": 0,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": 0,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "La Porte Peinte USA"
+      ],
+      "analyse": {
+        "synthese": "La Porte Peinte est un centre international d'arts résidentiels basé dans le village médiéval de Noyers sur Serein (Bourgogne, France), ouvert depuis 2011. Elle propose des résidences de 6 mois pour artistes, créateurs, musiciens et écrivains de tous niveaux de carrière, sans restriction de nationalité. Chaque artiste accède à un studio privé, un hébergement (chambre privée ou logement individuel), accès à atelier collectif équipé, galerie et espaces de performance. Les frais mensuels varient de 2000 à 3300 EUR selon la chambre, incluant tous services ; aucun stipend n'est offert. Un nombre limité de places partiellement ou entièrement financées sont disponibles pour les artistes en situation économique ou de vulnérabilité.",
+        "pour_qui": "Artistes, créateurs, musiciens, écrivains et cinéastes de tous niveaux de carrière (émergent·e, confirmé·e, établi·e) du monde entier ; groupes collaboratifs et familles acceptés."
+      },
+      "a_savoir": [
+        "Résidence à financement propre : frais importants (€2000–€3300 par mois selon chambre)",
+        "Aucune rémunération ou stipend d'artiste ; aucune prise en charge de frais de voyage ou production",
+        "Places financées très limitées et ciblées (artistes affectés par la guerre, catastrophe naturelle, discriminations, focus sur femmes et artistes émergents du continent africain, Haïti, Amérique latine)",
+        "Dossier en anglais et/ou français requis",
+        "Calendrier de notification des résultats non communiqué",
+        "Attente d'une présentation ou artist talk en sus de la production personnelle"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Noyers sur Serein, Burgundy, France",
+        "ville": "Noyers sur Serein",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": 0, \"devise\": \"EUR\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"eight private studio spaces, workshop spaces, exhibition/installation space, performance/presentation facilities, darkroom, painting workspace\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false, \"plafond\": 0, \"devise\": \"EUR\"}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": 0} ; frais mensuels \"2000 à 3300 EUR selon la chambre, incluant tous services\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Aucun critère explicite du jury énoncé ; seule mention générale 'We welcome artists, performers, writers, musicians, filmmakers, photographers, and creative thinkers'\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"Calendrier de notification des résultats non communiqué\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "\"Pas de mention d'une notification individuelle aux candidats non retenus\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"Attente d'une présentation ou artist talk en sus de la production personnelle\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"duree\": {\"semaines\": 26, \"dates\": \"6 months\"} ; a_savoir mention possible de périodes raccourcies sur demande",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"atelier\": \"exhibition/installation space, performance/presentation facilities\" ; aucune garantie de diffusion presse ou rayonnement au-delà du site",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "\"Aucune mention de suivi alumni, mentions postérieures, entrée en collection, ou accompagnement vers autres opportunités\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "8674cccc",
       "type": "residence",
       "source_url": "https://www.proyectoace.org/en/residencies/mural-painting",
@@ -2013,6 +3974,181 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "8d30b622",
+      "type": "residence",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/residence-dartiste-lab-101-2027-fondation-renaud",
+      "fetched_at": "2026-11-18T18:16:25+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidence d'artiste LAB 10+1 2027",
+        "organisme": "Fondation Renaud",
+        "lieu": {
+          "ville": "Lyon",
+          "pays": "France",
+          "territoire": "Fort de Vaise, 69009"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-11-29",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Bulletin",
+          "CV",
+          "Note d'intention (1 page maximum)",
+          "Portfolio (10 pages maximum)",
+          "Éléments visuels du projet",
+          "Réunis dans un seul PDF"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Arts visuels",
+          "Arts plastiques",
+          "Toutes disciplines artistiques (si pratiques compatibles avec l'espace)"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": "À partir de mi-avril 2027"
+        },
+        "hebergement": true,
+        "atelier": "Espace de création et d'habitation de 48 m² + mezzanine d'environ 15 m². Accessible lundi au vendredi de 8h à 18h. Accès au centre de documentation et aux collections de la Fondation. Pratiques artistiques peu contraignantes privilégiées (espace non-équipé techniquement).",
+        "remuneration": {
+          "montant": 2200,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Exposition de restitution d'octobre à mi-décembre 2027. Vernissage organisé. Communication autour du projet. Support de valorisation de sortie de résidence. Rencontres avec le public rémunérées 150 € TTC par intervention. Les œuvres restent propriété de l'artiste."
+      },
+      "partenaires": [
+        "Fondation Renaud"
+      ],
+      "analyse": {
+        "synthese": "La Fondation Renaud propose une résidence artistique de 12 semaines à partir de mi-avril 2027 au Fort de Vaise à Lyon, ouverte aux artistes plasticiens et visuels de tous niveaux autour du thème 2027 « Entre les mains » (arts populaires et patrimoine). Le lauréat reçoit une bourse de 2 200 € lissée sur 3 mois, une aide à la production jusqu'à 2 000 € TTC, un logement et un espace de travail de 48 m² + 15 m² de mezzanine, avec une présence d'au moins 20 heures par semaine obligatoire. Dix candidatures supplémentaires seront retenues pour une exposition collective. Les frais de déplacement ne sont pas pris en charge.",
+        "pour_qui": "Artistes plasticiens et visuels de tous niveaux, intéressés par les arts populaires, le patrimoine, les collections ou les cabinets de curiosités, ayant une pratique compatible avec un espace non-équipé techniquement."
+      },
+      "a_savoir": [
+        "Rémunération faible pour une résidence de 3 mois : 2 200 € TTC total (environ 733 € par mois)",
+        "L'aide à la production de 2 000 € correspond à des frais de réalisation sur justificatifs, non à une rémunération supplémentaire",
+        "Les frais de déplacement ne sont pas pris en charge",
+        "Présence obligatoire d'au moins 20 heures par semaine pendant les 12 semaines",
+        "L'espace de création n'est pas un atelier technique complet : les pratiques lourdes, très salissantes ou nécessitant des équipements spécifiques peuvent être moins adaptées",
+        "Le logement fourni et l'aide à la production compensent partiellement la faible rémunération mensuelle",
+        "Opportunité annexe : même sans obtenir la résidence principale, 10 projets supplémentaires seront sélectionnés pour l'exposition collective LAB 10+1"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Fort de Vaise, Lyon 69009",
+        "ville": "Lyon",
+        "contact_email": "projets@fondation-renaud.com"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 2200, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Espace de création et d'habitation de 48 m² + mezzanine d'environ 15 m²\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} mais \"Aide à la production jusqu'à 2 000 € TTC\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"Rémunération faible pour une résidence de 3 mois : 2 200 € TTC total (environ 733 € par mois)\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "\"pour_qui\": \"Artistes plasticiens et visuels de tous niveaux, intéressés par les arts populaires, le patrimoine, les collections\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "inconnu",
+          "justification": "Aucune information sur délai ou date de notification dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune mention d'une notification individuelle aux candidats non-retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"Présence obligatoire d'au moins 20 heures par semaine pendant les 12 semaines\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"Résidence de 12 semaines à partir de mi-avril 2027\" avec \"présence obligatoire\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"Exposition de restitution d'octobre à mi-décembre 2027. Vernissage organisé. Communication autour du projet.\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "\"Support de valorisation de sortie de résidence\" sans détails sur alumni, collection ou accompagnement ultérieur",
           "poids": 1,
           "famille": "debouche"
         }
@@ -2681,6 +4817,355 @@
       ]
     },
     {
+      "uid": "b42481f7",
+      "type": "residence",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/commande-de-creation-contemporaine-2027-art-design-au-chateau-de-bonaban",
+      "fetched_at": "2026-11-18T18:12:26+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Commande de création contemporaine 2027 – Art & Design au Château de Bonaban",
+        "organisme": "Château de Bonaban",
+        "lieu": {
+          "ville": "La Gouesnière",
+          "pays": "France",
+          "territoire": "Ille-et-Vilaine, Bretagne"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "CV (2 pages maximum)",
+          "Dossier artistique (20 visuels maximum avec légendes)",
+          "Note d'intention (4 000 signes maximum, espaces compris)",
+          "Dossier en format PDF exclusivement"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Sculpture",
+          "Installation artistique",
+          "Installation sonore",
+          "Design"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "Présélection 7 décembre 2026, visite du site 15 décembre 2026, remise des projets 15 janvier 2027, livraison 30 avril 2027"
+        },
+        "hebergement": false,
+        "atelier": null,
+        "remuneration": {
+          "montant": 30000,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Intégration de l'œuvre au parcours permanent du parc du Château de Bonaban. Présentation dans un domaine privé ouvert au public à partir du 5 juin 2027. Dialogue avec une collection de plus de 1 500 œuvres et pièces de design. Visibilité dans un nouvel espace consacré à l'art contemporain et au patrimoine."
+      },
+      "partenaires": [
+        "Château de Bonaban"
+      ],
+      "analyse": {
+        "synthese": "Le Château de Bonaban lance un appel à commande pour la création d'une œuvre contemporaine pérenne destinée à son parc de 25 hectares. Trois artistes plasticiens ou designers professionnels seront présélectionnés et rémunérés 1 000 € TTC chacun pour développer leur proposition. Une enveloppe de 30 000 € TTC couvre les honoraires et frais de réalisation des projets retenus. L'œuvre devra dialoguer avec le paysage, l'architecture et la collection du domaine (plus de 1 500 pièces). Les candidatures sont reçues jusqu'au 30 novembre 2026 à 9 h, avec livraison finale attendue le 30 avril 2027.",
+        "pour_qui": "Artistes plasticiens et designers professionnels dont la carrière est établie (expositions, réalisations, acquisitions en collection ou commandes), capables de concevoir une œuvre pérenne dialoguant avec un site extérieur et ses spécificités architecturales et patrimoniales."
+      },
+      "a_savoir": [
+        "Niveau professionnel très élevé exigé : carrière établie et références déterminantes pour la sélection.",
+        "Budget partagé : si plusieurs projets sont retenus, les 30 000 € TTC seront divisés entre eux.",
+        "Les 30 000 € TTC incluent honoraires, matériaux, fabrication, transport et installation — ce n'est pas une rémunération artistique nette.",
+        "Frais de transport et de séjour des trois présélectionnés ne sont pas remboursés séparément.",
+        "Calendrier très serré : présélection 7 décembre, visite 15 décembre, remise des projets 15 janvier, livraison 30 avril.",
+        "Dossier sans esquisse à ce stade : uniquement CV, visuels et note d'intention."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "La Gouesnière (35350), Ille-et-Vilaine, Bretagne, France",
+        "ville": "La Gouesnière",
+        "contact_email": "expos@chateaudebonaban.fr"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 30000, \"devise\": \"EUR\", \"periodicite\": \"forfait\"} + 1 000 € TTC par candidat présélectionné",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "\"hebergement\": false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "\"atelier\": null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} ; \"Les 30 000 € TTC incluent honoraires, matériaux, fabrication, transport et installation\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "Non applicable : commande à forfait sans durée de séjour définie, pas de per diem quotidien",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "\"niveau_carriere\": \"confirmé·e\" + \"Artistes plasticiens et designers professionnels dont la carrière est établie (expositions, réalisations, acquisitions en collection ou commandes)\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "\"dates\": \"Présélection 7 décembre 2026, visite du site 15 décembre 2026, remise des projets 15 janvier 2027, livraison 30 avril 2027\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention dans la fiche d'une notification individuelle aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"une commande avec contraintes spécifiques : dialoguer avec paysage/architecture/collection, respecter durabilité des matériaux et facilité de maintenance\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"Calendrier très serré : présélection 7 décembre, visite 15 décembre, remise des projets 15 janvier, livraison 30 avril\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Intégration de l'œuvre au parcours permanent du parc du Château de Bonaban. Présentation dans un domaine privé ouvert au public à partir du 5 juin 2027. Visibilité dans un nouvel espace consacré à l'art contemporain et au patrimoine.\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "oui",
+          "justification": "\"Intégration permanente au parcours du Château, inscription dans la collection du domaine avec visibilité durable\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "bac8ec7d",
+      "type": "residence",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/creation-artistique-participative-dans-lespace-public-2027-ville-de-questembert",
+      "fetched_at": "2026-11-18T18:10:32+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Création artistique participative dans l'espace public 2027 – Ville de Questembert",
+        "organisme": "Ville de Questembert",
+        "lieu": {
+          "ville": "Questembert",
+          "pays": "France",
+          "territoire": "Morbihan"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-12-13",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Note d'intention d'une page maximum",
+          "Premières considérations techniques",
+          "Calendrier prévisionnel",
+          "Dossier illustré présentant le parcours artistique",
+          "Formulaire de candidature en ligne",
+          "Budget détaillé et fiche technique pour audition"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Arts visuels",
+          "Art contemporain",
+          "Installation artistique",
+          "Art dans l'espace public",
+          "Création participative"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "mai-juin 2027, avec disponibilité jusqu'en septembre 2027 pour démontage"
+        },
+        "hebergement": true,
+        "atelier": "Mise à disposition d'un espace de travail, notamment l'Atelier Bédard, et éventuellement matériel complémentaire",
+        "remuneration": {
+          "montant": 8500,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Présentation de l'installation dans le centre-ville de juin à septembre 2027, communication municipale"
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "La Ville de Questembert lance un appel à projets artistiques pour une installation participative et temporaire dans l'espace public en 2027. Budget maximal de 8500 €, couvrant honoraires, production, déplacements et médiation. L'artiste doit intégrer les habitants du quartier des Halles au processus créatif, privilégier matériaux durables et réemploi. Disponibilité requise mai-juin 2027 pour résidence et actions participatives, puis septembre 2027 pour démontage. Hébergement et atelier fournis.",
+        "pour_qui": "Artistes plasticiens ou visuels professionnels (individuels ou collectifs) et étudiants en art soucieux de création participative et de transformation urbaine inclusive."
+      },
+      "a_savoir": [
+        "Enveloppe de 8500 € couvrant TOUS les frais (honoraires, production, déplacements, médiation) : exige un budget détaillé et priorisation des postes",
+        "Paiement effectué APRÈS montage de l'œuvre, sur facture : anticiper besoins de trésorerie",
+        "Participation/médiation des habitants est centrale aux critères de sélection, non facultative",
+        "Disponibilité obligatoire sur plusieurs mois : mai-juin résidence participative, septembre démontage",
+        "Droits de reproduction cédés gratuitement à la commune pour promotion de l'opération",
+        "Disciplines exclues : fresques murales, installations sonores en diffusion libre",
+        "Candidature en deux étapes : formulaire en ligne + dossier email, puis audition (trois finalistes)",
+        "Indemnisation de 300 € offerte aux deux finalistes auditionnés mais non retenus"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Questembert (56230)",
+        "contact_email": "a.briand@mairiequestembert.bzh"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 8500, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Mise à disposition d'un espace de travail, notamment l'Atelier Bédard, et éventuellement matériel complémentaire\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "\"voyage\": {\"pris_en_charge\": true} et \"Enveloppe de 8500 € couvrant TOUS les frais (honoraires, production, déplacements, médiation)\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"montant\": 8500 \"EUR\" sur mai-juin 2027 + septembre 2027 (durée totale non précisée en semaines) ; aucune comparaison avec coût de vie local documentée",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "synthèse: \"L'artiste doit intégrer les habitants du quartier des Halles au processus créatif, privilégier matériaux durables et réemploi\" et a_savoir: \"Participation/médiation des habitants est centrale aux critères de sélection\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"date_limite\": \"2026-12-13\" (deadline candidature) ; aucune date de notification des résultats mentionnée",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "partiel",
+          "justification": "\"Indemnisation de 300 € offerte aux deux finalistes auditionnés mais non retenus\" ; silence sur retour aux autres candidats",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"L'artiste doit intégrer les habitants du quartier des Halles au processus créatif\" et a_savoir: \"Participation/médiation des habitants est centrale aux critères de sélection, non facultative\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"duree\": {\"dates\": \"mai-juin 2027, avec disponibilité jusqu'en septembre 2027 pour démontage\"}\" et a_savoir: \"Disponibilité obligatoire sur plusieurs mois\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Présentation de l'installation dans le centre-ville de juin à septembre 2027, communication municipale\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de réseau alumni, suivi post-programme ou accompagnement documenté",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "bcd3a041",
       "type": "residence",
       "source_url": "https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video",
@@ -3163,6 +5648,187 @@
       ]
     },
     {
+      "uid": "d271441c",
+      "type": "residence",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/residence-de-recherche-et-de-creation-2027-les-factotum-et-les-petites-ecuries-a-nantes",
+      "fetched_at": "2026-11-18T18:09:06+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidence de recherche et de création 2027 – Les Factotum et Les Petites Écuries à Nantes",
+        "organisme": "Les Factotum - Les Petites Écuries",
+        "lieu": {
+          "ville": "Nantes",
+          "pays": "France",
+          "territoire": "Loire-Atlantique"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-12-01",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "CV",
+          "Portfolio",
+          "Note d'intention de recherche (1 à 2 pages maximum)",
+          "Identification d'un ou plusieurs artisan·es parmi les quatre proposé·es",
+          "Description précise des modalités de collaboration envisagées"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "art contemporain",
+          "recherche artistique",
+          "création contemporaine",
+          "sculpture",
+          "métal",
+          "arts du feu",
+          "artisanat d'art",
+          "design",
+          "expérimentation",
+          "installation artistique",
+          "fabrication",
+          "techniques artisanales"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 4,
+          "dates": "mi-mai à début juillet 2027, avec possibilité de fractionnement"
+        },
+        "hebergement": true,
+        "atelier": "Atelier individuel de travail de 20 m²",
+        "remuneration": {
+          "montant": 2500,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": 220,
+          "devise": "EUR"
+        },
+        "restitution": "Exposition à l'automne 2027 dans une galerie de 20 m² et/ou espace extérieur des Petites Écuries, intégrée à la Biennale des arts visuels Wave. Rencontre publique autour du travail de l'artiste. Prise en charge du retour des œuvres en France métropolitaine."
+      },
+      "partenaires": [
+        "Les Factotum",
+        "Les Petites Écuries",
+        "Biennale Wave"
+      ],
+      "analyse": {
+        "synthese": "Les Factotum proposent une résidence de recherche et de création d'un mois à Nantes de mai à juillet 2027, destinée aux artistes plasticien·nes professionnelles avec pratique confirmée. Le programme allie art contemporain et savoir-faire artisanaux via collaboration obligatoire avec les artisan·es de l'Atelier Petite Métallerie, avec accompagnement artistique et technique. L'artiste reçoit une bourse de 2 500 € (incluant droits d'exposition), un budget production de 1 500 €, un hébergement et un atelier de 20 m². L'exposition est intégrée à la Biennale Wave à l'automne 2027. Candidatures avant le 1er décembre 2026.",
+        "pour_qui": "Artistes plasticien·nes professionnelles avec une pratique artistique confirmée et des expériences antérieures significatives, souhaitant développer un projet expérimental en collaboration directe avec des artisan·es du métal ou des disciplines complémentaires de l'Atelier Petite Métallerie."
+      },
+      "a_savoir": [
+        "Priorité territoriale : artistes résidant hors Loire-Atlantique défavorisé·es.",
+        "Collaboration artisanale obligatoire : projet doit impliquer l'un des quatre artisan·es nommé·es.",
+        "Budget production limité : enveloppe de 1 500 € couvre prestations des artisan·es ET autres dépenses.",
+        "Double disponibilité requise : résidence mai-juillet ET participation obligatoire au montage/exposition automne 2027.",
+        "Transport partiellement couvert : 220 € maximum aller-retour ; déplacements supplémentaires (exposition) non garantis.",
+        "Retour œuvres limité à la métropole française."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Nantes",
+        "contact_email": "contact@lesfactotum.fr"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration: {montant: 2500, devise: EUR, periodicite: forfait}. Budget production additionnel: 1500 EUR",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: Atelier individuel de travail de 20 m²",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "voyage: {pris_en_charge: true, plafond: 220 EUR}. Retour des œuvres en France métropolitaine pris en charge",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "remuneration 2500 EUR pour 4 semaines à Nantes (~625 EUR/semaine, incluant droits d'exposition). Budget production 1500 EUR partagé entre prestations artisans et dépenses",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "niveau_carriere: confirmé·e. disciplines: art contemporain, recherche artistique, création contemporaine, sculpture, métal, etc. Exigences: collaboration obligatoire avec artisan·es, projet expérimental",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucune mention de date ou délai de notification des résultats",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention explicite de notifications individuelles aux candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "Résidence de recherche et de création 2027. Rencontre publique restreinte à l'exposition automne (après la résidence, non pendant)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "duree: mi-mai à début juillet 2027, avec possibilité de fractionnement. Mais participation obligatoire au montage/exposition automne 2027 imposée",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "Exposition intégrée à la Biennale des arts visuels Wave à l'automne 2027. Rencontre publique incluse",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de réseau alumni, suivi documenté, entrée en collection ou accompagnement post-résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "d6cc1040",
       "type": "residence",
       "source_url": "https://www.proyectoace.org/en/who-we-are/our-house/printmaking-workshop",
@@ -3469,6 +6135,179 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "e2b0d67f",
+      "type": "residence",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-de-deux-sculptures-perennes-a-maurepas-seqens",
+      "fetched_at": "2026-11-18T18:06:04+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Commande artistique 2027 – Création de deux sculptures pérennes à Maurepas",
+        "organisme": "Seqens - Groupe Action Logement",
+        "lieu": {
+          "ville": "Maurepas",
+          "pays": "France",
+          "territoire": "Yvelines"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Note artistique (10 pages max, PDF)",
+          "Portfolio et CV",
+          "Inscription à la Maison des Artistes ou numéro SIRET",
+          "Attestation sur l'honneur de non-interdiction de soumissionner",
+          "Attestation d'assurance responsabilité civile"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Sculpture",
+          "Arts visuels"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": null
+        },
+        "hebergement": false,
+        "atelier": null,
+        "remuneration": {
+          "montant": 59000,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Installation pérenne des œuvres dans une résidence de 132 logements, inscription au programme national « 1 immeuble, 1 œuvre », inauguration prévue en septembre 2027."
+      },
+      "partenaires": [
+        "APES"
+      ],
+      "analyse": {
+        "synthese": "Seqens lance un appel à manifestation d'intérêt pour une commande artistique de deux sculptures pérennes à Maurepas (Yvelines) dans la résidence Allée de l'Aube de 132 logements en réhabilitation. Le budget global est de 59 000 € HT, incluant conception, production, installation, rémunération et cession des droits patrimoniaux. Les artistes plasticiens ou sculpteurs peuvent candidater individuellement ou en groupement et doivent proposer une démarche de médiation dialoguant avec l'architecture d'Henri Gaudin et les usages des habitants. Deux à quatre candidatures seront présélectionnées pour une phase 2. Date limite : 30 novembre 2026.",
+        "pour_qui": "Artistes plasticiens ou sculpteurs ayant une expérience confirmée de sculpture pérenne en extérieur, capables de concevoir une démarche de médiation et dialoguant avec l'architecture d'Henri Gaudin."
+      },
+      "a_savoir": [
+        "Budget global de 59 000 € HT couvre conception, matériaux, études, installation et rémunération. Montant exact des honoraires de l'artiste non individualisé.",
+        "Indemnité de 2 000 € HT prévue pour candidats non retenus en phase 2 seulement (pas tous les candidats).",
+        "Dossier complet obligatoire : absence d'une pièce administrative entraîne élimination automatique.",
+        "Visite du site recommandée pour comprendre les implantations et usages des habitants.",
+        "Cession des droits patrimoniaux incluse dans le budget : périmètre et durée à clarifier contractuellement.",
+        "Première phase : références et note d'intention seulement, aucune esquisse demandée.",
+        "Obligation de médiation et de participation des habitants prévues, incluant temps de présence aux réunions et inauguration."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Issy-les-Moulineaux",
+        "contact_email": "ariane.roulier@seqens.fr"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 59000, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "\"hebergement\": false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "\"atelier\": null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": false} mais \"Budget global de 59 000 € HT couvre [...] installation\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"Montant exact des honoraires de l'artiste non individualisé\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\": [...] énumérées, mais aucun critère d'évaluation du jury explicité",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucun délai ou date de notification présent dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention de notification individuelle des non-retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"Obligation de médiation et de participation des habitants prévues, incluant temps de présence aux réunions et inauguration\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"inauguration prévue en septembre 2027 : calendrier imposé sans flexibilité mentionnée\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"Installation pérenne [...] inscription au programme national « 1 immeuble, 1 œuvre » [...] inauguration prévue en septembre 2027\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucun suivi documenté après le programme (réseau alumni, collection, accompagnement) n'est mentionné",
           "poids": 1,
           "famille": "debouche"
         }
@@ -4253,6 +7092,174 @@
       ]
     },
     {
+      "uid": "32ccdf05",
+      "type": "bourse",
+      "source_url": "https://artenda.net/art-open-call-opportunity/stipend",
+      "fetched_at": "2026-11-18T18:47:13+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Art Fellowships - International Art Stipends 2026/2027",
+        "organisme": "Artenda",
+        "lieu": {
+          "ville": null,
+          "pays": null
+        },
+        "nom_fr": "Bourses Artistiques",
+        "affichage_titre": "Art Fellowships [Bourses Artistiques]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": [
+          "en",
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://artenda.net/art-open-call-opportunity/stipend"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Curatorial",
+          "Digital",
+          "Painting",
+          "Drawing",
+          "Photography",
+          "Video",
+          "Printmaking",
+          "Installation",
+          "Performance",
+          "Sculpture",
+          "Textile Art",
+          "Ceramics",
+          "Sound",
+          "Literature"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "finalite": "formation",
+        "calendrier_usage": "Variable selon l'opportunité (3 mois à 2 ans)",
+        "obligations_rendu": []
+      },
+      "partenaires": [
+        "Les Rencontres d'Arles",
+        "Fabre Museum",
+        "Mophradat"
+      ],
+      "analyse": {
+        "synthese": "Plateforme Artenda proposant un répertoire de bourses artistiques internationales (2026/2027) couvrant multiples disciplines. Montants variant de 1,200 € à 70,000 $ selon l'opportunité, durées de 3 mois à 2 ans, dates limites de novembre 2026 à janvier 2027. Critères d'éligibilité strictement différents selon chaque bourse (résidence, niveau études, langue, expérience).",
+        "pour_qui": "Artistes, chercheurs et curateurs de tous niveaux, avec critères spécifiques variables par programme (étudiants exclus de certaines, anglophones ou arabophones pour d'autres, résidents de pays/régions spécifiques)."
+      },
+      "a_savoir": [
+        "Page de listing - non une opportunité unique",
+        "Contenu fortement corrompu pour plusieurs entrées",
+        "Conditions très hétérogènes : chaque bourse a ses propres critères",
+        "Pas d'informations sur délais de réponse ou retour aux candidats",
+        "Montants disparates : allant de très minimes à substantiels",
+        "Critères d'éligibilité restrictifs (résidence, langue, expérience) sur plusieurs bourses"
+      ],
+      "organisme_details": {
+        "site_web": "https://artenda.net",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "synthese: 'Montants variant de 1,200 € à 70,000 $ selon l'opportunité'",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "conditions_bourse: pas de mention d'hébergement au niveau du listing",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "conditions_bourse: pas de mention d'espace de travail au niveau du listing",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "a_savoir: 'Conditions très hétérogènes : chaque bourse a ses propres critères'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "lieu: {ville: null, pays: null} — coût de vie du lieu d'accueil non évaluable",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "analyse: 'Seules conditions d'éligibilité énumérées, pas critères jury/sélection'",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: 'Pas d'informations sur délais de réponse ou retour aux candidats'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "candidature: pas de mention de notification aux non-retenu·es au niveau du listing",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "inconnu",
+          "justification": "conditions_bourse.obligations_rendu: [] — obligations non détaillées au niveau du listing",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "calendrier_usage: 'Variable selon l'opportunité (3 mois à 2 ans)' mais rigidité possible intra-programme",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "partenaires listés (Les Rencontres d'Arles, Fabre Museum, Mophradat) mais visibilité restitution non spécifiée",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "conditions_bourse: pas de mention de suivi alumni ou accompagnement post-programme",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "86e99f36",
       "type": "bourse",
       "source_url": "https://www.fondationdesartistes.fr/missions/soutenir-les-ecoles-dart",
@@ -4851,6 +7858,163 @@
       ]
     },
     {
+      "uid": "57868eb1",
+      "type": "prix",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-dune-oeuvre-pour-deux-residences-du-science-park-epopea-a-caen",
+      "fetched_at": "2026-11-18T18:00:39+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Commande artistique 2027 – Création d'une œuvre pour deux résidences du Science Park EPOPEA à Caen",
+        "organisme": "La Caennaise - Société Caennaise de Développement Immobilier (SCDI)",
+        "lieu": {
+          "ville": "Caen",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "langue_dossier": [
+          "FR"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "CV",
+          "Lettre de motivation",
+          "Portfolio (limité à 15 Mo)"
+        ],
+        "url_candidature": "mailto:info@caennaise.com"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Peinture",
+          "Photographie",
+          "Dessin",
+          "Graphisme",
+          "Illustration",
+          "Relief",
+          "Assemblage",
+          "Techniques mixtes"
+        ],
+        "niveau_carriere": "Artistes et créateurs individuels ou constitués en collectif",
+        "age_max": null,
+        "nationalite": "Toutes nationalités, sans restriction géographique",
+        "residence_administrative": null
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": {
+            "montant": 8000,
+            "devise": "EUR"
+          },
+          "exposition": true,
+          "achat_oeuvre": true,
+          "edition_catalogue": false
+        },
+        "jury_public": null,
+        "nb_laureats": 1,
+        "editions_precedentes": []
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "La Caennaise lance une commande artistique pour la création d'une œuvre destinée aux halls de deux bâtiments du Science Park EPOPEA à Caen (Maison des Chercheurs Josette Travert et résidence étudiante). L'œuvre doit proposer une identité artistique commune, adaptée à trois espaces, en dialogue avec l'architecture, la recherche et l'innovation, sans alimentation électrique ni maintenance régulière. Le lauréat percevra 8 000 € (dont 1 000 € d'indemnité d'esquisse incluse), plus 2 500 € pour la réalisation. Les trois présélectionnés sont indemnisés 1 000 € chacun pour l'esquisse. Date limite : 30 novembre 2026 ; installation prévue juin 2027.",
+        "pour_qui": "Artistes visuels individuels ou collectifs capables de concevoir une installation murale durable et autonome adaptée à des espaces collectifs, intégrant des publics d'étudiants, chercheurs et professionnels internationaux."
+      },
+      "a_savoir": [
+        "Calendrier extrêmement resserré : candidature avant 30/11/2026, annonce présélection 21/12/2026, remise esquisses 29/01/2027 à 17h, auditions février 2027, installation juin 2027",
+        "Confusion tarifaire majeure : les 1 000 € d'esquisse pour les trois présélectionnés sont INCLUS dans les 8 000 € du lauréat, ils ne s'y ajoutent pas",
+        "Budget de production très limité : 2 500 € pour couvrir matériaux, fabrication, transport et installation — estimation technique rigoureuse indispensable",
+        "Cession des droits d'auteur très étendue : droits patrimoniaux exclusifs de reproduction et représentation pour le monde entier et toute la durée légale de protection, compris dans le montant",
+        "Contraintes techniques strictes : matériaux durables, fixations sécurisées, conformité aux règles incendie, absence d'alimentation électrique, maintenance simple, sans emprise au sol ni entrave à la circulation",
+        "Obligation de déclarer tout recours à l'intelligence artificielle dans le processus artistique ou technique",
+        "Durée de présentation imposée : minimum 5 ans après installation, avec possibilité de retrait/déplacement à l'issue selon le contrat",
+        "Annulation unilatérale possible : La Caennaise se réserve le droit de ne pas réaliser la commande, les indemnités d'esquisse restant dues",
+        "Capacité administrative requise : numéro SIRET, affiliation régime artistes-auteurs ou équivalent, assurance responsabilité civile professionnelle obligatoire"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Caen",
+        "contact_email": "info@caennaise.com",
+        "telephone": "02 31 46 82 20"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"dotation\": {\"montant\": {\"montant\": 8000, \"devise\": \"EUR\"}} + \"2 500 € pour la réalisation\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "\"Aucun hébergement n'est fourni. Il s'agit d'une commande artistique ponctuelle, non d'une résidence.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "\"Aucun atelier ou espace de travail n'est mis à disposition. L'artiste doit produire l'œuvre en dehors du programme.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"2 500 € pour couvrir matériaux, fabrication, transport et installation — estimation technique rigoureuse indispensable\" (déplacements auditions non couverts)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"Il ne s'agit pas d'une résidence avec dotation de subsistance. L'enveloppe globale (8 000 € + 2 500 €) est destinée à la création et installation d'une œuvre ponctuelle, non à vivre sur place.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "Exigences techniques énoncées (durabilité, autonomie, sécurité) mais \"Les critères de sélection du jury ne sont pas explicitement publiés\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "\"annonce des présélectionnés le 21 décembre 2026\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas d'indication dans la fiche sur la notification individuelle des candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"Intégration dans deux bâtiments du Science Park EPOPEA accueillant étudiants, chercheurs et professionnels internationaux. Présentation pendant minimum 5 ans.\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "\"Présentation de l'œuvre garantie 5 ans minimum, avec possibilité de promotion via diffusion de visuels\" mais \"Pas de suivi alumni documenté, réseau, entrée en collection ou accompagnement vers d'autres opportunités mentionné\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "ae1213ed",
       "type": "prix",
       "source_url": "https://www.adagp.fr/fr/actualites/jordan-roger-barre-revelation-arts-plastiques-2026",
@@ -5336,6 +8500,172 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "f7e1688b",
+      "type": "prix",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/prix-utrillo-2027-exposition-collective-memoires-et-territoire-a-pierrefitte-sur-seine",
+      "fetched_at": "2026-11-18T17:57:51+00:00",
+      "score": 7,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Prix Utrillo 2027 - Exposition collective « Mémoire(s) et territoire »",
+        "organisme": "Espace culturel Maurice Utrillo - Ville de Saint-Denis",
+        "lieu": {
+          "ville": "Pierrefitte-sur-Seine",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": "2027-01-07",
+        "langue_dossier": [
+          "français"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Formulaire d'inscription complété et signé",
+          "CV artistique",
+          "Portfolio",
+          "Texte présentant la démarche artistique (800 signes maximum)",
+          "Pour chaque œuvre : titre, technique, dimensions, prix TTC",
+          "Identification claire de l'œuvre proposée pour l'acquisition de 2 500 €",
+          "Dossier de candidature en PDF (20 Mo maximum)",
+          "Visuels des œuvres en haute définition (transmis séparément)",
+          "Proposition de stage artistique (facultatif)"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "peinture",
+          "dessin",
+          "sculpture",
+          "photographie",
+          "gravure",
+          "collage",
+          "installation",
+          "vidéo",
+          "création numérique",
+          "textile"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "Toutes nationalités",
+        "residence_administrative": "Aucune restriction"
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": {
+            "montant": 150,
+            "devise": "EUR"
+          },
+          "exposition": true,
+          "achat_oeuvre": true,
+          "edition_catalogue": true
+        },
+        "jury_public": [
+          "jury de professionnels"
+        ],
+        "nb_laureats": "8 à 12",
+        "editions_precedentes": []
+      },
+      "partenaires": [
+        "Association Utrillo-Valadon"
+      ],
+      "analyse": {
+        "synthese": "Appel annuel pour une exposition collective de 8 à 12 artistes en arts visuels autour de la thématique « Mémoire(s) et territoire ». Chaque participant reçoit 150 € de défraiement. L'exposition se tient du 6 mars au 2 avril 2027 avec vernissage public et communication municipale (flyers, affiches, catalogue, site, journal municipal, réseaux sociaux). Une œuvre est acquise par la Ville pour 2 500 €, une bourse de création de 500 € est attribuée par l'association Utrillo-Valadon, et un artiste peut animer un stage rémunéré 200 €. Les candidatures sont attendues jusqu'au 7 janvier 2027.",
+        "pour_qui": "Artistes en arts visuels de tous niveaux et nationalités ayant des œuvres en lien avec la mémoire et le territoire."
+      },
+      "a_savoir": [
+        "Les 150 € constituent un défraiement et non des honoraires d'exposition.",
+        "Transport, assurance et retour des œuvres ne sont pas détaillés ; à vérifier auprès de l'organisme.",
+        "Une seule œuvre est acquise à 2 500 € (sélection par le jury).",
+        "Un seul artiste sera retenu pour animer le stage rémunéré 200 € (avec 150 € de budget matériel).",
+        "Dossier limité à 20 Mo ; visuels haute définition à transmettre séparément.",
+        "Paiements assurés par la Ville nécessitent facturation via Chorus Pro.",
+        "Droits d'auteur en catalogue et supports de communication à clarifier avec l'organisme."
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Pierrefitte-sur-Seine",
+        "contact_email": "espaceculturelutrillo@saintdenis.fr"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"montant\": 150 EUR de défraiement + possibilité d'acquisition à 2 500 €, bourse de 500 € et rémunération de stage 200 €",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Aucune mention d'hébergement dans la fiche (candidature, conditions, synthèse)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucune mention d'atelier ou espace de travail fourni",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"Transport, assurance et retour des œuvres ne sont pas détaillés ; à vérifier auprès de l'organisme\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "\"150 € de défraiement pour la région parisienne (Saint-Denis) est peu ; montant cohérent seulement si acquisition d'œuvre à 2 500 € concrétisée\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "\"jury de professionnels\" mentionné mais critères au-delà du thème « Mémoire(s) et territoire » non explicitement énoncés",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "\"date_limite\": \"2027-01-07\" et synthèse indique \"résultats annoncés autour du 15 janvier 2027\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de notification individuelle des candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"exposition du 6 mars au 2 avril 2027 avec vernissage public et communication municipale (flyers, affiches, catalogue, site, journal municipal, réseaux sociaux)\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "Acquisition possible (intégration collection), mais \"pas de suivi alumni ou réseau après-programme mentionné\"",
           "poids": 1,
           "famille": "debouche"
         }
@@ -6249,6 +9579,178 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "626815e6",
+      "type": "exposition",
+      "source_url": "https://www.alternatif-art.com/appel-a-candidature/sentier-dart-2027-creation-doeuvres-temporaires-a-brionne-livet-sur-authou-et-au-bec-hellouin",
+      "fetched_at": "2026-11-18T18:03:09+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Sentier d'art 2027 - Création d'œuvres temporaires à Brionne, Livet-sur-Authou et au Bec-Hellouin",
+        "organisme": "Intercom Bernay Terres de Normandie",
+        "lieu": {
+          "ville": "Brionne, Livet-sur-Authou, Bec-Hellouin",
+          "pays": "France"
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-12-15",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Photomontage et visualisation du projet",
+          "Plans détaillés avec ancrages et dimensions",
+          "Description de la résistance aux intempéries",
+          "Explication du lien avec le patrimoine normand et la thématique « Traversée du temps : entre héritage et création contemporaine »",
+          "Chiffrage détaillé des dépenses (fabrication, matériaux, transport, installation, démontage, médiation)",
+          "Deux implantations possibles avec photomontages",
+          "Attestation d'assurance responsabilité civile (au moment de l'installation)"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Arts visuels",
+          "Sculpture",
+          "Installation artistique in situ",
+          "Art environnemental"
+        ],
+        "niveau_carriere": "Artiste professionnel majeur",
+        "age_max": null,
+        "nationalite": "France, Union européenne, et international (ressortissants hors UE acceptés sous conditions de législation française et possession d'un numéro SIRET)",
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Brionne",
+          "Livet-sur-Authou",
+          "Bec-Hellouin"
+        ],
+        "dates_exposition": "26 juin 2027 - 26 septembre 2027",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [],
+      "remuneration": {
+        "montant": 2500,
+        "devise": "EUR",
+        "type": "TTC",
+        "description": "Enveloppe globale censée couvrir conception, réalisation, matériaux, fabrication, transport aller-retour, installation, démontage, outillage, logistique, déplacements, repas, hébergement éventuels, actions de médiation, présence à l'inauguration, entretien, cotisations sociales, cession des droits de reproduction et d'exploitation. Dernier versement (500€) après démontage à partir du 27 septembre 2027."
+      },
+      "analyse": {
+        "synthese": "Le Sentier d'art 2027 appelle des artistes pour créer des œuvres temporaires (minimum 2 mètres) du 26 juin au 26 septembre 2027 dans trois communes normandes (Brionne, Livet-sur-Authou, Bec-Hellouin), autour du thème « Traversée du temps : entre héritage et création contemporaine ». L'enveloppe forfaitaire est de 2 500 € TTC, supposée couvrir l'intégralité du projet : production, matériaux, transport, montage, démontage, médiation et communication. Les candidatures doivent être déposées avant le 15 décembre 2026. Les artistes doivent être professionnels majeurs, justifier d'une expérience en art environnemental, posséder un SIRET, assurer eux-mêmes la logistique technique, et être présents aux jours d'inauguration et de médiation (25-26 juin 2027).",
+        "pour_qui": "Artistes professionnels majeurs (France, UE, international sous conditions) spécialisés en art environnemental ou sculpture in situ, disposant de moyens techniques et logistiques autonomes, et acceptant une rémunération globale très serrée pour une création durable trois mois en extérieur."
+      },
+      "a_savoir": [
+        "Budget très serré (2 500 € TTC pour l'intégralité du projet : production, transport, médiation, droits)",
+        "Rémunération nette potentiellement très faible après déduction des frais réels de production et de logistique",
+        "Aucun équipement ni matériel fourni par l'organisme ; artiste en autonomie technique complète",
+        "Artiste doit avancer les frais ; dernier versement (500€) après le 27 septembre",
+        "Pas d'assurance de l'œuvre par l'organisme contre vol, dégradation ou intempéries ; artiste assume les réparations",
+        "Cession des droits d'exploitation et de reproduction exigée ; durée et étendue à clarifier",
+        "Résistance obligatoire aux intempéries pendant trois mois en extérieur",
+        "Dossier technique conséquent requis dès la candidature (photomontages, plans détaillés, devis précis)",
+        "Présence obligatoire le 25 juin (médiation) et le 26 juin 2027 (inauguration)",
+        "Contraintes patrimoine : soumis à l'avis de l'Architecte des Bâtiments de France ; certains sites interdisent percement ou ancrage",
+        "Artistes ayant participé à l'édition 2026 ne peuvent pas candidater",
+        "Aucune date d'annonce des résultats mentionnée",
+        "Pas de retour prévu aux candidats non retenus"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Bernay",
+        "contact_email": "culture@bernaynormandie.fr",
+        "contact_telephone": "06 29 48 27 67"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration.montant: 2500 EUR",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "conditions_exposition.hebergement_vernissage: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "conditions_exposition.prise_en_charge.production: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "transport.pris_en_charge: false, mais remuneration.description inclut théoriquement 'transport aller-retour' dans l'enveloppe forfaitaire",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "remuneration.montant 2500€ TTC pour 'l'intégralité du projet : production, transport, médiation, droits' (a_savoir)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "eligibilite.disciplines: ['Arts visuels', 'Sculpture', 'Installation artistique in situ', 'Art environnemental'], eligibilite.niveau_carriere: 'Artiste professionnel majeur'",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "candidature.date_limite: 2026-12-15, mais aucune date d'annonce des résultats mentionnée",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "a_savoir mentionne 'Pas de retour prévu aux candidats non retenus'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "conditions_exposition.format: 'collective', conditions_exposition.dates_exposition: '26 juin 2027 - 26 septembre 2027' dans parcours public",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de suivi alumni, réseau post-programme, ou documentation organisée après les dates d'exposition",
           "poids": 1,
           "famille": "debouche"
         }

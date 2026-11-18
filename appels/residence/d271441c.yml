@@ -1,0 +1,186 @@
+uid: d271441c
+type: residence
+source_url: https://www.alternatif-art.com/appel-a-candidature/residence-de-recherche-et-de-creation-2027-les-factotum-et-les-petites-ecuries-a-nantes
+fetched_at: '2026-11-18T18:09:06+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Résidence de recherche et de création 2027 – Les Factotum et Les Petites Écuries
+    à Nantes
+  organisme: Les Factotum - Les Petites Écuries
+  lieu:
+    ville: Nantes
+    pays: France
+    territoire: Loire-Atlantique
+candidature:
+  date_limite: '2026-12-01'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees:
+  - CV
+  - Portfolio
+  - Note d'intention de recherche (1 à 2 pages maximum)
+  - Identification d'un ou plusieurs artisan·es parmi les quatre proposé·es
+  - Description précise des modalités de collaboration envisagées
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - art contemporain
+  - recherche artistique
+  - création contemporaine
+  - sculpture
+  - métal
+  - arts du feu
+  - artisanat d'art
+  - design
+  - expérimentation
+  - installation artistique
+  - fabrication
+  - techniques artisanales
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 4
+    dates: mi-mai à début juillet 2027, avec possibilité de fractionnement
+  hebergement: true
+  atelier: Atelier individuel de travail de 20 m²
+  remuneration:
+    montant: 2500
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: 220
+    devise: EUR
+  restitution: Exposition à l'automne 2027 dans une galerie de 20 m² et/ou espace
+    extérieur des Petites Écuries, intégrée à la Biennale des arts visuels Wave. Rencontre
+    publique autour du travail de l'artiste. Prise en charge du retour des œuvres
+    en France métropolitaine.
+partenaires:
+- Les Factotum
+- Les Petites Écuries
+- Biennale Wave
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Appel très documenté et clair. Rémunération structurée en trois
+    postes (bourse 2500€, production 1500€, exposition incluse). Calendrier flexible
+    mais double engagement (résidence + montage/exposition automne). Critères de sélection
+    explicites.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:09:06+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Les Factotum proposent une résidence de recherche et de création d'un
+    mois à Nantes de mai à juillet 2027, destinée aux artistes plasticien·nes professionnelles
+    avec pratique confirmée. Le programme allie art contemporain et savoir-faire artisanaux
+    via collaboration obligatoire avec les artisan·es de l'Atelier Petite Métallerie,
+    avec accompagnement artistique et technique. L'artiste reçoit une bourse de 2
+    500 € (incluant droits d'exposition), un budget production de 1 500 €, un hébergement
+    et un atelier de 20 m². L'exposition est intégrée à la Biennale Wave à l'automne
+    2027. Candidatures avant le 1er décembre 2026.
+  pour_qui: Artistes plasticien·nes professionnelles avec une pratique artistique
+    confirmée et des expériences antérieures significatives, souhaitant développer
+    un projet expérimental en collaboration directe avec des artisan·es du métal ou
+    des disciplines complémentaires de l'Atelier Petite Métallerie.
+a_savoir:
+- 'Priorité territoriale : artistes résidant hors Loire-Atlantique défavorisé·es.'
+- 'Collaboration artisanale obligatoire : projet doit impliquer l''un des quatre artisan·es
+  nommé·es.'
+- 'Budget production limité : enveloppe de 1 500 € couvre prestations des artisan·es
+  ET autres dépenses.'
+- 'Double disponibilité requise : résidence mai-juillet ET participation obligatoire
+  au montage/exposition automne 2027.'
+- 'Transport partiellement couvert : 220 € maximum aller-retour ; déplacements supplémentaires
+  (exposition) non garantis.'
+- Retour œuvres limité à la métropole française.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Nantes
+  contact_email: contact@lesfactotum.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'remuneration: {montant: 2500, devise: EUR, periodicite: forfait}.
+    Budget production additionnel: 1500 EUR'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: 'hebergement: true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: Atelier individuel de travail de 20 m²'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: 'voyage: {pris_en_charge: true, plafond: 220 EUR}. Retour des œuvres
+    en France métropolitaine pris en charge'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: remuneration 2500 EUR pour 4 semaines à Nantes (~625 EUR/semaine,
+    incluant droits d'exposition). Budget production 1500 EUR partagé entre prestations
+    artisans et dépenses
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: 'niveau_carriere: confirmé·e. disciplines: art contemporain, recherche
+    artistique, création contemporaine, sculpture, métal, etc. Exigences: collaboration
+    obligatoire avec artisan·es, projet expérimental'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucune mention de date ou délai de notification des résultats
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas de mention explicite de notifications individuelles aux candidat·es
+    non retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: Résidence de recherche et de création 2027. Rencontre publique restreinte
+    à l'exposition automne (après la résidence, non pendant)
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: 'duree: mi-mai à début juillet 2027, avec possibilité de fractionnement.
+    Mais participation obligatoire au montage/exposition automne 2027 imposée'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: Exposition intégrée à la Biennale des arts visuels Wave à l'automne
+    2027. Rencontre publique incluse
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: Aucune mention de réseau alumni, suivi documenté, entrée en collection
+    ou accompagnement post-résidence
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

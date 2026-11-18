@@ -1,0 +1,202 @@
+uid: 2f4a4fe9
+type: residence
+source_url: https://www.artistcommunities.org/directory/open-calls/visual-arts-sounding-mountain
+fetched_at: '2026-11-18T18:22:40+00:00'
+score: 8
+status: bientot-fermee
+opportunite:
+  nom: Visual Arts - Sounding Like a Mountain
+  organisme: Banff Centre for Arts & Creativity
+  lieu:
+    ville: Banff
+    pays: Canada
+    territoire: null
+  nom_fr: Arts Visuels - Résonner Comme une Montagne
+  affichage_titre: Visual Arts - Sounding Like a Mountain [Arts Visuels - Résonner
+    Comme une Montagne]
+candidature:
+  date_limite: '2026-11-18'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 65
+    devise: CAD
+  pieces_demandees: null
+  url_candidature: http://url.banffcentre.ca/bh0NzC
+eligibilite:
+  disciplines:
+  - Ceramics/Clay Arts/Pottery
+  - Digital Fabrication
+  - Digital Media
+  - Drawing
+  - Environmental Arts
+  - Illustration
+  - Installation Arts
+  - Interdisciplinary Arts
+  - Mixed Media
+  - Painting
+  - Paper Arts
+  - Performance Art
+  - Photography
+  - Printmaking
+  - Sculpture
+  - Sound Art
+  - Textile & Fiber Arts/Weaving
+  - Visual Arts
+  - Woodworking
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 5
+    dates: null
+  hebergement: true
+  atelier: Private Studios with access to shared production facilities including ceramics
+    workspace (electric wheels, kick wheels, slab roller, clay mixers, Raku kiln,
+    electric kiln, gas kiln), dedicated metal shop (plasma cutter, anvils, hydraulic
+    press, soldering workspace), darkroom (black and white and color), lighting studio/green
+    screen, printmaking workspaces (etching press, silkscreen studio, lithography
+    studio), papermaking studio, textiles workspace (fiber arts, dye area, padded
+    screen print tables), and dedicated wood shop (tablesaw, bandsaw, router table,
+    jointer, planer). Full-time technicians available for technical assistance.
+  remuneration:
+    montant: 5556
+    devise: CAD
+    periodicite: forfait
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: CAD
+  restitution: Participation in public programming and open studio with fellow residents
+partenaires: []
+_meta:
+  extracted_confidence: 0.75
+  extracted_notes: Informations principales complètes. Critères de sélection détaillés,
+    délai de notification, suivi alumni et pièces demandées non énoncés sur cette
+    page.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:22:40+00:00'
+  source_lang: en
+  resume_fr: Appel à candidature pour une résidence d'artistes visuels au Banff Centre
+    for Arts & Creativity, explorant comment les lieux « chantent » à travers l'écologie
+    acoustique et les montagnes de Banff. La résidence dure 5 semaines, avec une deadline
+    du 18 novembre 2026, et accueille en moyenne 17 artistes simultanément. Les participants
+    reçoivent des studios individuels, un mentorat dirigé par des professeurs, tous
+    les repas et l'accès à des équipements spécialisés en céramique, travail du métal,
+    photographie et autres disciplines. Le programme est ouvert aux artistes du monde
+    entier, à tous les stades de carrière, avec une accessibilité partielle (50% ou
+    plus) et un logement conforme aux normes ADA.
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Artist Communities Alliance — Open Calls (international)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Résidence artistique de 5 semaines au Banff Centre for Arts & Creativity
+    pour artistes visuels de tous niveaux de carrière travaillant sur l'écologie acoustique
+    et l'écoute du territoire. Le programme fournit studio privé, accès à équipements
+    spécialisés, mentorat de faculté, logement en résidence collective, tous les repas
+    compris, ainsi qu'une bourse du Banff Centre Arts Scholarship de 5556 CAD couvrant
+    les frais de scolarité et une contribution aux logement et repas. Les artistes
+    participent à la programmation publique et aux open studios collectifs.
+  pour_qui: Artistes visuels de tous niveaux de carrière intéressés par des projets
+    explorant l'écologie acoustique, la vibration, la mémoire et les relations éthiques
+    et politiques au territoire.
+a_savoir:
+- 'Date limite : 18 novembre 2026 (aujourd''hui même)'
+- 'Coût participant après bourse : 4476.78 CAD (montant significatif)'
+- 'Frais de candidature non-remboursables : 65 CAD'
+- Bourses supplémentaires pour artistes autochtones (couverture complète tuition,
+  logement, repas)
+- Participation obligatoire à la programmation publique requise
+organisme_details:
+  site_web: https://www.banffcentre.ca
+  adresse: null
+  ville: Banff
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"remuneration": {"montant": 5556, "devise": "CAD", "periodicite":
+    "forfait"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true, avec détails « Private bedroom in a shared
+    housing facility on campus. All meals provided »'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Private Studios with access to shared production facilities
+    including ceramics workspace... darkroom, lighting studio/green screen, printmaking
+    workspaces, papermaking studio, textiles workspace, dedicated wood shop"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": null, "plafond": null} et coût participant
+    à charge demeure 4476.78 CAD après la bourse'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: Bourse 5556 CAD + coût participant 4476.78 CAD pour 5 semaines, mais
+    aucune donnée sur coût de vie local à Banff fournie dans la fiche
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"Each residency has specific eligibility requirements; please visit
+    our website" — critères de sélection du jury non énoncés sur cette page'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucune mention de délai ou date de notification des résultats dans
+    la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas d'indication dans la fiche sur notification individuelle des
+    candidat·es non retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"Visual Arts residencies are structured programs of faculty-led
+    activity and mentorship" et "Participation in public programming and open studio
+    with fellow residents" — obligations imposées'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"duree": {"semaines": 5, "dates": null} — durée fixée, aucune mention
+    de flexibilité calendaire'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"Participation in public programming and open studio with fellow
+    residents" — restitution limitée au centre, pas de mention de diffusion presse
+    ou catalogue'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: '"Development of a professional community towards developing and
+    sustaining an artistic career" mentionné générique, sans détails sur réseau alumni
+    ou suivi documenté post-résidence'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  - long séjour
+  bonus_score: 1

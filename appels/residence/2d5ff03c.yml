@@ -1,0 +1,227 @@
+uid: 2d5ff03c
+type: residence
+source_url: https://www.artistcommunities.org/directory/open-calls/spring-pops-april-tennessee
+fetched_at: '2026-11-18T18:38:41+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Spring Pops - April in Tennessee
+  organisme: Sarasvati Creative Space
+  lieu:
+    ville: null
+    pays: United States
+    territoire: Tennessee
+  nom_fr: Spring Pops - Avril au Tennessee
+  affichage_titre: Spring Pops - April in Tennessee [Spring Pops - Avril au Tennessee]
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 0
+    devise: USD
+  pieces_demandees:
+  - written statement about connection to nature
+  - video interview (optional, for farm stay scholarship candidates)
+  url_candidature: https://www.sarasvati.space/
+eligibilite:
+  disciplines:
+  - Acting
+  - Architecture
+  - Art Conservation
+  - Art Education
+  - Art History
+  - Biology
+  - Book Arts
+  - Choreography
+  - Criticism
+  - Digital Media
+  - Documentary
+  - Drawing
+  - Ecology
+  - Electronic Arts
+  - Environmental Arts
+  - Environmentalism/Conservation
+  - Fiction
+  - Film
+  - Graphic Design
+  - Illustration
+  - Installation Arts
+  - Interdisciplinary Arts
+  - Journalism
+  - Landscape Architecture
+  - Literary Nonfiction
+  - Literature
+  - Mixed Media
+  - Moving Image
+  - Multimedia Arts
+  - New Genres
+  - Nonfiction
+  - Painting
+  - Paper Arts
+  - Performance Art
+  - Philosophy
+  - Photography
+  - Playwriting
+  - Poetry
+  - Public Art
+  - Science
+  - Screenwriting
+  - Sculpture
+  - Social Practice
+  - Storytelling
+  - Textile & Fiber Arts/Weaving
+  - Theater
+  - Translation
+  - Visual Arts
+  - Writing
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 8
+    dates: April 2027
+  hebergement: true
+  atelier: Private and shared studios assigned based on calendar and space/medium
+    requirements. Shared kitchen facilities available to residents.
+  remuneration:
+    montant: 0
+    devise: USD
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: USD
+  restitution: Donate a work of art
+partenaires:
+- Sarasvati Creative Space
+- Rural Residency Organization
+- Camp Wonder Wander
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: 'Page bien structurée avec détails clairs. Certains détails techniques
+    (adresse exacte, email, critères de sélection complets) manquent. Deadline imminente:
+    30 novembre 2026.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:38:41+00:00'
+  source_lang: en
+  resume_fr: 'Programme de résidence artistique en avril au Tennessee pour artistes
+    ayant la nature comme source d''inspiration. La résidence dure 2 mois ; ceux restant
+    au moins 2 semaines reçoivent une promenade de Forest Therapy guidée. Accueille
+    3 artistes en résidence simultanément, ouverte aux artistes de tous niveaux du
+    monde entier. Deadline de candidature : 30 novembre 2026. Logement en chambre
+    privée dans un bâtiment partagé avec studios privés et partagés disponibles.'
+  detection_confidence: 0.95
+  detection_method: claude
+  source_label: Artist Communities Alliance — Open Calls (international)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Résidence artistique rurale d'avril 2027 en Tennessee, 2 mois, ouverte
+    à tous les artistes du monde et tous niveaux de carrière. Logement fourni en chambre
+    privée au sein d'une structure collective. Studios privés ou partagés selon disponibilité.
+    Aucune rémunération ni stipend de voyage. Frais de résidence de 450 USD par semaine
+    (minimum). Scholarship jusqu'à 300 USD possible en échange de 6 heures par semaine
+    de travail physique sur le site (jardinage, aménagement paysager, etc.).
+  pour_qui: Artistes cherchant l'immersion créative en environnement naturel, prêts
+    à se déconnecter de la vie urbaine et disposés à contribuer physiquement quelques
+    heures par semaine.
+a_savoir:
+- 'Aucune rémunération ou stipend de voyage : artiste finance intégralement les frais
+  de résidence (450 USD/semaine minimum).'
+- Farm Stay Scholarship impose un engagement physique obligatoire (6 heures par semaine
+  de travail agricole/paysager).
+- 'Isolement géographique intentionnel, structure délibérément éloignée de la vie
+  urbaine et connectivité contemporaine : non recommandé pour artistes ayant besoin
+  de métropole ou d''accès rapide.'
+- 'Deadline très proche : 30 novembre 2026.'
+- Restitution attendue (donation d'œuvre), sans mention d'exposition publique ni visibilité
+  au-delà de l'organisme.
+- Accessibilité partielle (50 % ou plus des installations inaccessibles).
+organisme_details:
+  site_web: https://www.sarasvati.space/
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: 'remuneration: {montant: 0, devise: USD}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: 'hebergement: true; ''Private bedroom in a shared housing facility
+    on campus'''
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: ''Private and shared studios assigned based on calendar
+    and space/medium requirements'''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: 'voyage: {pris_en_charge: false}; ''Residency Fees 450 USD per week
+    minimum entirely charged to artist'''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: 'remuneration: {montant: 0}; ''No stipend, per diem, or bursary provided.
+    Artist must cover all residency fees'''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: 'pieces_demandees: [''written statement about connection to nature''];
+    ''No detailed selection rubric or weighted criteria published'''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: '''Applications accepted on rolling basis and response can be within
+    a day or up to 2 weeks'''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: '''No explicit statement that non-selected applicants receive individual
+    notification'''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '''Farm Stay Scholarship requires approximately 6 hours per week
+    of physical labor (gardening, landscaping, land maintenance)'''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: 'dates: ''April 2027''; ''Residency dates fixed to April 2027; no
+    mention of alternative dates or windows'''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: non
+  justification: 'restitution: ''Donate a work of art''; ''No mention of exhibition,
+    public presentation, or visibility beyond the organization itself'''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: '''No mention of alumni network, post-program documentation, collection
+    inclusion, or follow-up support'''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - rural
+  - textile
+  - collectif
+  - long séjour
+  bonus_score: 1

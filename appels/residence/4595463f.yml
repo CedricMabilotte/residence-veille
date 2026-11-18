@@ -1,0 +1,199 @@
+uid: 4595463f
+type: residence
+source_url: https://www.artistcommunities.org/directory/open-calls/casa-ceiba-2027-winterspring-interest-form
+fetched_at: '2026-11-18T18:42:07+00:00'
+score: 8
+status: bientot-fermee
+opportunite:
+  nom: 'Casa Ceiba: 2027 Winter/Spring Interest Form'
+  organisme: Ceiba Futures
+  lieu:
+    ville: Santiago Atitlán
+    pays: Guatemala
+    territoire: null
+  nom_fr: 'Casa Ceiba : Formulaire d''Intérêt Hiver/Printemps 2027'
+  affichage_titre: 'Casa Ceiba: 2027 Winter/Spring Interest Form [Casa Ceiba : Formulaire
+    d''Intérêt Hiver/Printemps 2027]'
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  - es
+  frais_inscription:
+    montant: 0
+    devise: USD
+  pieces_demandees: null
+  url_candidature: https://docs.google.com/forms/d/e/1FAIpQLSc9qp7eMcesCfgxoLzGZdEnXG6oo6YxOfa0Yut…
+eligibilite:
+  disciplines:
+  - Art Conservation
+  - Art History
+  - Ceramics/Clay
+  - Arts/Pottery
+  - Drawing
+  - Ecology
+  - Environmentalism/Conservation
+  - Graphic Design
+  - History
+  - Installation Arts
+  - Literary Nonfiction
+  - Literature
+  - Mixed Media
+  - Multimedia Arts
+  - New Genres
+  - Philosophy
+  - Photography
+  - Poetry
+  - Printmaking
+  - Public Art
+  - Social Practice
+  - Storytelling
+  - Textile & Fiber Arts/Weaving
+  - Visual Arts
+  - Woodworking
+  - Writing
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 4
+    dates: null
+  hebergement: true
+  atelier: Shared Studios, Dye Area
+  remuneration:
+    montant: 0
+    devise: USD
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: USD
+  restitution: Lead workshop for the public
+partenaires:
+- ACA
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Programme bien documenté avec détails clairs sur les coûts et durée.
+    Critères de sélection, délai de réponse et suivi post-programme non mentionnés.
+    URL d'application tronquée.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:42:07+00:00'
+  source_lang: en
+  resume_fr: 'Casa Ceiba est un programme de résidence artistique basé à Santiago
+    Atitlán, destiné aux artistes autochtones, noirs, centraméricains et de la diaspora
+    globale. Les résidences durent 4 semaines et incluent le logement, la nourriture,
+    l''accès aux studios partagés et aux matériaux. Les coûts estimés varient selon
+    la piste sélectionnée : Root et Bloom coûtent 1,150–2,000 USD par semaine, Dream
+    coûte 840–900 USD par semaine. Casa Ceiba propose des tarifs variables, des échanges
+    de travail et un soutien collaboratif pour améliorer l''accès. La date limite
+    de candidature est le 30 novembre 2026.'
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Artist Communities Alliance — Open Calls (international)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Casa Ceiba est une résidence culturelle petite échelle et centrée sur
+    la guérison à Santiago Atitlán, Guatemala, fondée sur la cosmologie maya et les
+    soins collectifs. Elle accueille les artistes, créateurs et praticiens culturels
+    autochtones, noirs, centraméricains et en diaspora pour des séjours de 4 semaines
+    avec logement partagé, studio équipé, repas et échange culturel avec praticiens
+    locaux. Tous les stades de carrière sont acceptés. Les tarifs varient de 840 à
+    2 000 USD par semaine selon le track sélectionné; travail d'échange et tarifs
+    à l'échelle mobile sont offerts.
+  pour_qui: Artistes, créateurs et praticiens culturels autochtones, noirs, centraméricains
+    et en diaspora de la majorité mondiale, particulièrement 2Spirit, Indigiqueer,
+    queer, trans, femmes et jeunes adultes.
+a_savoir:
+- Prix élevé (840–2 000 USD par semaine, sans vol inclus) nécessitant une capacité
+  financière significative.
+- Aucun stipend artistique; les candidats doivent financer leur participation.
+- Obligation de conduire un atelier public pour la communauté locale.
+- Échange de travail disponible de manière limitée (maximum la moitié du coût de base).
+- 'Délai de candidature court: date limite 30 novembre 2026.'
+- Critères de sélection du jury non publiés.
+organisme_details:
+  site_web: null
+  adresse: Santiago Atitlán, Guatemala (private home)
+  ville: Santiago Atitlán
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: partiel
+  justification: '"remuneration": {"montant": 0, "devise": "USD"}; "Tarifs à l''échelle
+    mobile, échange de travail et soutien au financement collaboratif offerts."'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true; "Private bedroom in a shared housing facility
+    on campus. Groceries fournis pour préparer ses repas."'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Shared Studios, Dye Area"; "Studio space along with
+    materials inclus."'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false}; "Flights to/from Guatemala
+    not included."'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"Coût de la vie à Santiago Atitlán non spécifié; impossible d''évaluer
+    si les tarifs permettent de vivre sans déficit net."'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"Critères de sélection du jury non publiés."'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucun délai ou date de notification des résultats communiqué dans
+    la fiche.
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention de notification individuelle aux candidats non retenus.
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"restitution": "Lead workshop for the public"; "Obligation de conduire
+    un atelier public pour la communauté locale."'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: oui
+  justification: '"Every stay is co-designed with you"; "duree": {"semaines": 4, "dates":
+    null}'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"Lead workshop for the public"; "pas de mention de diffusion presse,
+    exposition ou édition au-delà de l''organisme."'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: '"Aucune mention de réseau alumni, suivi documenté ou accompagnement
+    post-programme."'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  - long séjour
+  bonus_score: 1

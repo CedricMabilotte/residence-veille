@@ -1,0 +1,169 @@
+uid: e2b0d67f
+type: residence
+source_url: https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-de-deux-sculptures-perennes-a-maurepas-seqens
+fetched_at: '2026-11-18T18:06:04+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Commande artistique 2027 – Création de deux sculptures pérennes à Maurepas
+  organisme: Seqens - Groupe Action Logement
+  lieu:
+    ville: Maurepas
+    pays: France
+    territoire: Yvelines
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - Note artistique (10 pages max, PDF)
+  - Portfolio et CV
+  - Inscription à la Maison des Artistes ou numéro SIRET
+  - Attestation sur l'honneur de non-interdiction de soumissionner
+  - Attestation d'assurance responsabilité civile
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Sculpture
+  - Arts visuels
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: false
+  atelier: null
+  remuneration:
+    montant: 59000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Installation pérenne des œuvres dans une résidence de 132 logements,
+    inscription au programme national « 1 immeuble, 1 œuvre », inauguration prévue
+    en septembre 2027.
+partenaires:
+- APES
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Appel à commande artistique bien structuré. Budget global de 59
+    000 € HT couvrant tous les coûts. Montant exact des honoraires de l'artiste non
+    individualisé dans le budget global.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:06:04+00:00'
+  source_lang: fr
+  detection_confidence: 0.8
+  detection_method: heuristic
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'Seqens lance un appel à manifestation d''intérêt pour une commande artistique
+    de deux sculptures pérennes à Maurepas (Yvelines) dans la résidence Allée de l''Aube
+    de 132 logements en réhabilitation. Le budget global est de 59 000 € HT, incluant
+    conception, production, installation, rémunération et cession des droits patrimoniaux.
+    Les artistes plasticiens ou sculpteurs peuvent candidater individuellement ou
+    en groupement et doivent proposer une démarche de médiation dialoguant avec l''architecture
+    d''Henri Gaudin et les usages des habitants. Deux à quatre candidatures seront
+    présélectionnées pour une phase 2. Date limite : 30 novembre 2026.'
+  pour_qui: Artistes plasticiens ou sculpteurs ayant une expérience confirmée de sculpture
+    pérenne en extérieur, capables de concevoir une démarche de médiation et dialoguant
+    avec l'architecture d'Henri Gaudin.
+a_savoir:
+- Budget global de 59 000 € HT couvre conception, matériaux, études, installation
+  et rémunération. Montant exact des honoraires de l'artiste non individualisé.
+- Indemnité de 2 000 € HT prévue pour candidats non retenus en phase 2 seulement (pas
+  tous les candidats).
+- 'Dossier complet obligatoire : absence d''une pièce administrative entraîne élimination
+  automatique.'
+- Visite du site recommandée pour comprendre les implantations et usages des habitants.
+- 'Cession des droits patrimoniaux incluse dans le budget : périmètre et durée à clarifier
+  contractuellement.'
+- 'Première phase : références et note d''intention seulement, aucune esquisse demandée.'
+- Obligation de médiation et de participation des habitants prévues, incluant temps
+  de présence aux réunions et inauguration.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Issy-les-Moulineaux
+  contact_email: ariane.roulier@seqens.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"remuneration": {"montant": 59000, "devise": "EUR", "periodicite":
+    "forfait"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '"hebergement": false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: '"atelier": null'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": false} mais "Budget global de 59 000
+    € HT couvre [...] installation"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"Montant exact des honoraires de l''artiste non individualisé"'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"pieces_demandees": [...] énumérées, mais aucun critère d''évaluation
+    du jury explicité'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucun délai ou date de notification présent dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention de notification individuelle des non-retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"Obligation de médiation et de participation des habitants prévues,
+    incluant temps de présence aux réunions et inauguration"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"inauguration prévue en septembre 2027 : calendrier imposé sans
+    flexibilité mentionnée"'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"Installation pérenne [...] inscription au programme national «
+    1 immeuble, 1 œuvre » [...] inauguration prévue en septembre 2027"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucun suivi documenté après le programme (réseau alumni, collection,
+    accompagnement) n'est mentionné
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

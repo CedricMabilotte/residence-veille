@@ -1,0 +1,28 @@
+uid: ville-de-vannes-77a13431
+nom_canonique: Ville de Vannes
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 34c26deb
+  type: residence
+  nom: Résidence de création artistique 2027 « Si nos murs pouvaient parler »
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: ecole-francoise-d-amboise
+  occurrences: 1
+  nom_brut: École Françoise d'Amboise
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+adresse: École Françoise d'Amboise, quartier de Ménimur, Vannes
+ville: Vannes

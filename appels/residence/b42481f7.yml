@@ -1,0 +1,180 @@
+uid: b42481f7
+type: residence
+source_url: https://www.alternatif-art.com/appel-a-candidature/commande-de-creation-contemporaine-2027-art-design-au-chateau-de-bonaban
+fetched_at: '2026-11-18T18:12:26+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Commande de création contemporaine 2027 – Art & Design au Château de Bonaban
+  organisme: Château de Bonaban
+  lieu:
+    ville: La Gouesnière
+    pays: France
+    territoire: Ille-et-Vilaine, Bretagne
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - CV (2 pages maximum)
+  - Dossier artistique (20 visuels maximum avec légendes)
+  - Note d'intention (4 000 signes maximum, espaces compris)
+  - Dossier en format PDF exclusivement
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Sculpture
+  - Installation artistique
+  - Installation sonore
+  - Design
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: Présélection 7 décembre 2026, visite du site 15 décembre 2026, remise des
+      projets 15 janvier 2027, livraison 30 avril 2027
+  hebergement: false
+  atelier: null
+  remuneration:
+    montant: 30000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Intégration de l'œuvre au parcours permanent du parc du Château de
+    Bonaban. Présentation dans un domaine privé ouvert au public à partir du 5 juin
+    2027. Dialogue avec une collection de plus de 1 500 œuvres et pièces de design.
+    Visibilité dans un nouvel espace consacré à l'art contemporain et au patrimoine.
+partenaires:
+- Château de Bonaban
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Appel à commande, non une résidence classique. Trois candidats
+    présélectionnés recevront 1 000 € TTC chacun pour développer leur proposition
+    détaillée. L'enveloppe de 30 000 € TTC pour réalisation inclut honoraires et frais
+    de production, partagée si plusieurs projets retenus.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:12:26+00:00'
+  source_lang: fr
+  detection_confidence: 0.75
+  detection_method: claude
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Le Château de Bonaban lance un appel à commande pour la création d'une
+    œuvre contemporaine pérenne destinée à son parc de 25 hectares. Trois artistes
+    plasticiens ou designers professionnels seront présélectionnés et rémunérés 1
+    000 € TTC chacun pour développer leur proposition. Une enveloppe de 30 000 € TTC
+    couvre les honoraires et frais de réalisation des projets retenus. L'œuvre devra
+    dialoguer avec le paysage, l'architecture et la collection du domaine (plus de
+    1 500 pièces). Les candidatures sont reçues jusqu'au 30 novembre 2026 à 9 h, avec
+    livraison finale attendue le 30 avril 2027.
+  pour_qui: Artistes plasticiens et designers professionnels dont la carrière est
+    établie (expositions, réalisations, acquisitions en collection ou commandes),
+    capables de concevoir une œuvre pérenne dialoguant avec un site extérieur et ses
+    spécificités architecturales et patrimoniales.
+a_savoir:
+- 'Niveau professionnel très élevé exigé : carrière établie et références déterminantes
+  pour la sélection.'
+- 'Budget partagé : si plusieurs projets sont retenus, les 30 000 € TTC seront divisés
+  entre eux.'
+- Les 30 000 € TTC incluent honoraires, matériaux, fabrication, transport et installation
+  — ce n'est pas une rémunération artistique nette.
+- Frais de transport et de séjour des trois présélectionnés ne sont pas remboursés
+  séparément.
+- 'Calendrier très serré : présélection 7 décembre, visite 15 décembre, remise des
+  projets 15 janvier, livraison 30 avril.'
+- 'Dossier sans esquisse à ce stade : uniquement CV, visuels et note d''intention.'
+organisme_details:
+  site_web: null
+  adresse: La Gouesnière (35350), Ille-et-Vilaine, Bretagne, France
+  ville: La Gouesnière
+  contact_email: expos@chateaudebonaban.fr
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"remuneration": {"montant": 30000, "devise": "EUR", "periodicite":
+    "forfait"} + 1 000 € TTC par candidat présélectionné'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '"hebergement": false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: '"atelier": null'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": false} ; "Les 30 000 € TTC incluent
+    honoraires, matériaux, fabrication, transport et installation"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: 'Non applicable : commande à forfait sans durée de séjour définie,
+    pas de per diem quotidien'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: '"niveau_carriere": "confirmé·e" + "Artistes plasticiens et designers
+    professionnels dont la carrière est établie (expositions, réalisations, acquisitions
+    en collection ou commandes)"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: '"dates": "Présélection 7 décembre 2026, visite du site 15 décembre
+    2026, remise des projets 15 janvier 2027, livraison 30 avril 2027"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention dans la fiche d'une notification individuelle aux
+    candidats non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"une commande avec contraintes spécifiques : dialoguer avec paysage/architecture/collection,
+    respecter durabilité des matériaux et facilité de maintenance"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"Calendrier très serré : présélection 7 décembre, visite 15 décembre,
+    remise des projets 15 janvier, livraison 30 avril"'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"restitution": "Intégration de l''œuvre au parcours permanent du
+    parc du Château de Bonaban. Présentation dans un domaine privé ouvert au public
+    à partir du 5 juin 2027. Visibilité dans un nouvel espace consacré à l''art contemporain
+    et au patrimoine."'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: oui
+  justification: '"Intégration permanente au parcours du Château, inscription dans
+    la collection du domaine avec visibilité durable"'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - textile
+  bonus_score: 0

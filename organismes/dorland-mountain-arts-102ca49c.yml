@@ -1,0 +1,27 @@
+uid: dorland-mountain-arts-102ca49c
+nom_canonique: Dorland Mountain Arts
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.dorlandmountainarts.org
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 68c386a1
+  type: residence
+  nom: End of Year! Your Time at Dorland Mountain Arts
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: artist-communities-alliance
+  occurrences: 1
+  nom_brut: Artist Communities Alliance
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Temecula

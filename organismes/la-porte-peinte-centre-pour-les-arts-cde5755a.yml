@@ -1,0 +1,28 @@
+uid: la-porte-peinte-centre-pour-les-arts-cde5755a
+nom_canonique: La Porte Peinte Centre pour les Arts
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 85649e51
+  type: residence
+  nom: 'La Porte Peinte: Open Call for July 2027'
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: la-porte-peinte-usa
+  occurrences: 1
+  nom_brut: La Porte Peinte USA
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+adresse: Noyers sur Serein, Burgundy, France
+ville: Noyers sur Serein

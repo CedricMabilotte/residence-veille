@@ -1,0 +1,28 @@
+uid: seqens-groupe-action-logement-9a7947bc
+nom_canonique: Seqens - Groupe Action Logement
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: e2b0d67f
+  type: residence
+  nom: Commande artistique 2027 – Création de deux sculptures pérennes à Maurepas
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: apes
+  occurrences: 1
+  nom_brut: APES
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Issy-les-Moulineaux
+contact_email: ariane.roulier@seqens.fr

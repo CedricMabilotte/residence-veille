@@ -1,0 +1,175 @@
+uid: 57868eb1
+type: prix
+source_url: https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-dune-oeuvre-pour-deux-residences-du-science-park-epopea-a-caen
+fetched_at: '2026-11-18T18:00:39+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Commande artistique 2027 – Création d'une œuvre pour deux résidences du Science
+    Park EPOPEA à Caen
+  organisme: La Caennaise - Société Caennaise de Développement Immobilier (SCDI)
+  lieu:
+    ville: Caen
+    pays: France
+candidature:
+  date_limite: '2026-11-30'
+  langue_dossier:
+  - FR
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - CV
+  - Lettre de motivation
+  - Portfolio (limité à 15 Mo)
+  url_candidature: mailto:info@caennaise.com
+eligibilite:
+  disciplines:
+  - Peinture
+  - Photographie
+  - Dessin
+  - Graphisme
+  - Illustration
+  - Relief
+  - Assemblage
+  - Techniques mixtes
+  niveau_carriere: Artistes et créateurs individuels ou constitués en collectif
+  age_max: null
+  nationalite: Toutes nationalités, sans restriction géographique
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant:
+      montant: 8000
+      devise: EUR
+    exposition: true
+    achat_oeuvre: true
+    edition_catalogue: false
+  jury_public: null
+  nb_laureats: 1
+  editions_precedentes: []
+partenaires: []
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Commande pour trois espaces (deux halls de 60 et 48 m², un espace
+    de convivialité de 89 m²). Les 1 000 € d'esquisse pour les trois présélectionnés
+    sont inclus dans les 8 000 € du lauréat. Budget additionnel de 2 500 € pour matériaux,
+    fabrication, transport et installation. Cession des droits d'auteur très étendue
+    (monde entier, durée légale complète). Installation prévue juin 2027, présentation
+    minimale 5 ans.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:00:39+00:00'
+  source_lang: fr
+  detection_confidence: 0.8
+  detection_method: claude
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'La Caennaise lance une commande artistique pour la création d''une œuvre
+    destinée aux halls de deux bâtiments du Science Park EPOPEA à Caen (Maison des
+    Chercheurs Josette Travert et résidence étudiante). L''œuvre doit proposer une
+    identité artistique commune, adaptée à trois espaces, en dialogue avec l''architecture,
+    la recherche et l''innovation, sans alimentation électrique ni maintenance régulière.
+    Le lauréat percevra 8 000 € (dont 1 000 € d''indemnité d''esquisse incluse), plus
+    2 500 € pour la réalisation. Les trois présélectionnés sont indemnisés 1 000 €
+    chacun pour l''esquisse. Date limite : 30 novembre 2026 ; installation prévue
+    juin 2027.'
+  pour_qui: Artistes visuels individuels ou collectifs capables de concevoir une installation
+    murale durable et autonome adaptée à des espaces collectifs, intégrant des publics
+    d'étudiants, chercheurs et professionnels internationaux.
+a_savoir:
+- 'Calendrier extrêmement resserré : candidature avant 30/11/2026, annonce présélection
+  21/12/2026, remise esquisses 29/01/2027 à 17h, auditions février 2027, installation
+  juin 2027'
+- 'Confusion tarifaire majeure : les 1 000 € d''esquisse pour les trois présélectionnés
+  sont INCLUS dans les 8 000 € du lauréat, ils ne s''y ajoutent pas'
+- 'Budget de production très limité : 2 500 € pour couvrir matériaux, fabrication,
+  transport et installation — estimation technique rigoureuse indispensable'
+- 'Cession des droits d''auteur très étendue : droits patrimoniaux exclusifs de reproduction
+  et représentation pour le monde entier et toute la durée légale de protection, compris
+  dans le montant'
+- 'Contraintes techniques strictes : matériaux durables, fixations sécurisées, conformité
+  aux règles incendie, absence d''alimentation électrique, maintenance simple, sans
+  emprise au sol ni entrave à la circulation'
+- Obligation de déclarer tout recours à l'intelligence artificielle dans le processus
+  artistique ou technique
+- 'Durée de présentation imposée : minimum 5 ans après installation, avec possibilité
+  de retrait/déplacement à l''issue selon le contrat'
+- 'Annulation unilatérale possible : La Caennaise se réserve le droit de ne pas réaliser
+  la commande, les indemnités d''esquisse restant dues'
+- 'Capacité administrative requise : numéro SIRET, affiliation régime artistes-auteurs
+  ou équivalent, assurance responsabilité civile professionnelle obligatoire'
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Caen
+  contact_email: info@caennaise.com
+  telephone: 02 31 46 82 20
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"dotation": {"montant": {"montant": 8000, "devise": "EUR"}} + "2
+    500 € pour la réalisation"'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '"Aucun hébergement n''est fourni. Il s''agit d''une commande artistique
+    ponctuelle, non d''une résidence."'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: '"Aucun atelier ou espace de travail n''est mis à disposition. L''artiste
+    doit produire l''œuvre en dehors du programme."'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"2 500 € pour couvrir matériaux, fabrication, transport et installation
+    — estimation technique rigoureuse indispensable" (déplacements auditions non couverts)'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"Il ne s''agit pas d''une résidence avec dotation de subsistance.
+    L''enveloppe globale (8 000 € + 2 500 €) est destinée à la création et installation
+    d''une œuvre ponctuelle, non à vivre sur place."'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: Exigences techniques énoncées (durabilité, autonomie, sécurité) mais
+    "Les critères de sélection du jury ne sont pas explicitement publiés"
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: '"annonce des présélectionnés le 21 décembre 2026"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas d'indication dans la fiche sur la notification individuelle des
+    candidats non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"Intégration dans deux bâtiments du Science Park EPOPEA accueillant
+    étudiants, chercheurs et professionnels internationaux. Présentation pendant minimum
+    5 ans."'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: '"Présentation de l''œuvre garantie 5 ans minimum, avec possibilité
+    de promotion via diffusion de visuels" mais "Pas de suivi alumni documenté, réseau,
+    entrée en collection ou accompagnement vers d''autres opportunités mentionné"'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

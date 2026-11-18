@@ -1,0 +1,218 @@
+uid: 68c386a1
+type: residence
+source_url: https://www.artistcommunities.org/directory/open-calls/end-year-your-time-dorland-mountain-arts
+fetched_at: '2026-11-18T18:29:14+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: End of Year! Your Time at Dorland Mountain Arts
+  organisme: Dorland Mountain Arts
+  lieu:
+    ville: Temecula
+    pays: USA
+    territoire: California
+  nom_fr: Fin d'année ! Votre moment aux Dorland Mountain Arts
+  affichage_titre: End of Year! Your Time at Dorland Mountain Arts [Fin d'année !
+    Votre moment aux Dorland Mountain Arts]
+candidature:
+  date_limite: '2026-11-24'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 40
+    devise: USD
+  pieces_demandees: []
+  url_candidature: https://www.dorlandmountainarts.org/the-residency-program
+eligibilite:
+  disciplines:
+  - Acting
+  - Animation
+  - Art Conservation
+  - Art Education
+  - Art History
+  - Biology
+  - Book Arts
+  - Costume/Fashion Design
+  - Digital Fabrication
+  - Digital Media
+  - Documentary
+  - Drawing
+  - Ecology
+  - Electronic Arts
+  - Environmental Arts
+  - Environmentalism/Conservation
+  - Fiction
+  - Film
+  - Glass Arts
+  - Graphic Design
+  - History
+  - Interdisciplinary Arts
+  - Journalism
+  - Landscape Architecture
+  - Literary Nonfiction
+  - Literature
+  - Mathematics
+  - Mixed Media
+  - Music
+  - New Genres
+  - Nonfiction
+  - Painting
+  - Paper Arts
+  - Philosophy
+  - Photography
+  - Playwriting
+  - Poetry
+  - Printmaking
+  - Science
+  - Screenwriting
+  - Social Practice
+  - Sound Art
+  - Storytelling
+  - Symphony
+  - Textile & Fiber Arts/Weaving
+  - Translation
+  - Visual Arts
+  - Writing
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 1 to 6 weeks based on requests and availability
+  hebergement: true
+  atelier: Individual cottages with private workspace. The Jane Culp Studio features
+    work tables, Charles printing press for linocuts, monotypes and collographs, cyanotype
+    supplies. Community Arts Center provides library, writing desk with typewriter,
+    meeting room, and studio room for visual artists. Additional equipment includes
+    easels for painting, fiber arts workspace.
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: null
+partenaires:
+- Artist Communities Alliance
+_meta:
+  extracted_confidence: 0.78
+  extracted_notes: 'Information clearly structured. Jury selection criteria and notification
+    timeline for non-selected candidates not explicitly stated. Pay-to-stay model:
+    artists pay residency fees; no stipend or financial support.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:29:14+00:00'
+  source_lang: en
+  resume_fr: Dorland Mountain Arts propose des résidences artistiques de 1 à 6 semaines
+    pour les artistes de toutes disciplines, situées près de Temecula Valley Wine
+    Country, à environ 100 miles au sud de Los Angeles. En moyenne, 5 artistes résident
+    simultanément dans des cottages privés équipés de WiFi, cuisine et studios spécialisés
+    (pianos, presse Charles, etc.). La deadline est fixée au 24 novembre 2026 ; les
+    animaux de compagnie ne sont pas autorisés et les repas ne sont pas fournis.
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Artist Communities Alliance — Open Calls (international)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'Dorland Mountain Arts propose des résidences individuelles d''une à six
+    semaines en Californie du Sud, dans un cadre naturel protégé. Le programme accueille
+    des artistes de tous niveaux de carrière et de toutes disciplines (arts visuels,
+    littérature, musique, etc.). Les cottages individuels incluent logement, cuisine,
+    salle de bain et espace de travail; studios spécialisés (atelier d''impression,
+    studio de peinture, bibliothèque) sont accessibles. Les frais de résidence sont
+    450-675 USD par semaine avec réductions pour 4 semaines ou plus. Frais de dossier
+    : 40 USD. Aucune rémunération, aide au voyage ou support financier mentionnés.
+    Date limite : 24 novembre 2026.'
+  pour_qui: Artistes visuels, écrivain·es, musicien·nes et compositeur·rices de tous
+    niveaux de carrière et nationalités cherchant une résidence créative protégée
+    en Californie du Sud avec accès à studios équipés.
+a_savoir:
+- 'Modèle pay-to-stay : artistes doivent payer les frais de résidence (450-675 USD/semaine)'
+- Pas de rémunération, bourse ou per diem fourni
+- Pas d'aide financière pour les frais de voyage
+- Critères de sélection du jury non explicitement détaillés
+- Pas de délai de notification des résultats communiqué
+- 'Délai de candidature court : 24 novembre 2026'
+organisme_details:
+  site_web: https://www.dorlandmountainarts.org
+  adresse: null
+  ville: Temecula
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Pas de rémunération, bourse ou per diem fourni
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: Individual cottages complete with WiFi, AC, kitchen, bathroom, workspace,
+    and covered porch
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: The Jane Culp Studio features work tables, Charles printing press,
+    cyanotype supplies. Community Arts Center provides library, writing desk with
+    typewriter, studio room for visual artists
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Pas d'aide financière pour les frais de voyage
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: 'Modèle pay-to-stay : artistes doivent payer les frais de résidence
+    (450-675 USD/semaine)'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: Critères de sélection du jury non explicitement détaillés
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Pas de délai de notification des résultats communiqué
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: No mention of individual notification to non-selected candidates
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: Marketing emphasizes 'Get some writing, art, or music made... with
+    no distractions', indicating protected creative time
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: oui
+  justification: 1 to 6 weeks based on requests and availability
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: non
+  justification: No mention of exhibition, publication, or public presentation at
+    end of residency
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: No mention of alumni network, documented follow-up, or post-program
+    support
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

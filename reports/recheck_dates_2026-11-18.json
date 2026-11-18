@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-18",
+  "n_candidates": 34,
+  "records": [
+    {
+      "uid": "13cffca0",
+      "issue": "page illisible"
+    },
+    {
+      "uid": "ed8b9099",
+      "issue": "page illisible"
+    },
+    {
+      "uid": "07e3edad",
+      "issue": "page illisible"
+    },
+    {
+      "uid": "ae1213ed",
+      "issue": "page illisible"
+    },
+    {
+      "uid": "f52a745f",
+      "issue": "page illisible"
+    },
+    {
+      "uid": "07e1d362",
+      "issue": "page illisible"
+    },
+    {
+      "uid": "18e2d639",
+      "issue": "page illisible"
+    },
+    {
+      "uid": "0c311ef8",
+      "issue": "erreur: '\\n  \"date_limite\"'"
+    },
+    {
+      "uid": "dbe5b36f",
+      "issue": "erreur: '\\n  \"date_limite\"'"
+    },
+    {
+      "uid": "86e99f36",
+      "issue": "erreur: '\\n  \"date_limite\"'"
+    }
+  ]
+}

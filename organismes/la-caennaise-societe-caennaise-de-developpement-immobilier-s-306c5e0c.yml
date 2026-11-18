@@ -1,0 +1,25 @@
+uid: la-caennaise-societe-caennaise-de-developpement-immobilier-s-306c5e0c
+nom_canonique: La Caennaise - Société Caennaise de Développement Immobilier (SCDI)
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- prix
+opportunites_liees:
+- uid: 57868eb1
+  type: prix
+  nom: Commande artistique 2027 – Création d'une œuvre pour deux résidences du Science Park EPOPEA à Caen
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Caen
+contact_email: info@caennaise.com

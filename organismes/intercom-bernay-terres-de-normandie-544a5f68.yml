@@ -1,0 +1,25 @@
+uid: intercom-bernay-terres-de-normandie-544a5f68
+nom_canonique: Intercom Bernay Terres de Normandie
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 626815e6
+  type: exposition
+  nom: Sentier d'art 2027 - Création d'œuvres temporaires à Brionne, Livet-sur-Authou et au Bec-Hellouin
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Bernay
+contact_email: culture@bernaynormandie.fr

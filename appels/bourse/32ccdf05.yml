@@ -1,0 +1,170 @@
+uid: 32ccdf05
+type: bourse
+source_url: https://artenda.net/art-open-call-opportunity/stipend
+fetched_at: '2026-11-18T18:47:13+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: Art Fellowships - International Art Stipends 2026/2027
+  organisme: Artenda
+  lieu:
+    ville: null
+    pays: null
+  nom_fr: Bourses Artistiques
+  affichage_titre: Art Fellowships [Bourses Artistiques]
+candidature:
+  date_limite: null
+  langue_dossier:
+  - en
+  - fr
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://artenda.net/art-open-call-opportunity/stipend
+eligibilite:
+  disciplines:
+  - Curatorial
+  - Digital
+  - Painting
+  - Drawing
+  - Photography
+  - Video
+  - Printmaking
+  - Installation
+  - Performance
+  - Sculpture
+  - Textile Art
+  - Ceramics
+  - Sound
+  - Literature
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_bourse:
+  montant:
+    montant: null
+    devise: EUR
+  finalite: formation
+  calendrier_usage: Variable selon l'opportunité (3 mois à 2 ans)
+  obligations_rendu: []
+partenaires:
+- Les Rencontres d'Arles
+- Fabre Museum
+- Mophradat
+_meta:
+  extracted_confidence: 0.25
+  extracted_notes: Page d'agrégation listant de multiples bourses. Beaucoup de texte
+    corrompu empêche extraction précise. Pas une page d'appel unique.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:47:13+00:00'
+  source_lang: en
+  resume_fr: Page listant les appels à candidature pour des bourses et fellowships
+    artistiques nationales et internationales pour 2026/2027. Les opportunités couvrent
+    plusieurs domaines (curatoriat, photographie, peinture, vidéo, sculpture, etc.)
+    avec des montants variant de 1 000 € à 55 000 $ par an. Les candidatures affichent
+    des dates limites comprises entre le 30 novembre et le 14 décembre 2026, pour
+    des durées de 6 mois à 2 ans. Les positions sont localisées en France, Belgique,
+    États-Unis, Irlande et autres pays. Chaque opportunité définit des conditions
+    d'éligibilité spécifiques selon le profil et l'expérience des candidats.
+  detection_confidence: 0.9428571428571428
+  detection_method: heuristic
+  source_label: Artenda — agrégateur international (filtrable par pays)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Plateforme Artenda proposant un répertoire de bourses artistiques internationales
+    (2026/2027) couvrant multiples disciplines. Montants variant de 1,200 € à 70,000
+    $ selon l'opportunité, durées de 3 mois à 2 ans, dates limites de novembre 2026
+    à janvier 2027. Critères d'éligibilité strictement différents selon chaque bourse
+    (résidence, niveau études, langue, expérience).
+  pour_qui: Artistes, chercheurs et curateurs de tous niveaux, avec critères spécifiques
+    variables par programme (étudiants exclus de certaines, anglophones ou arabophones
+    pour d'autres, résidents de pays/régions spécifiques).
+a_savoir:
+- Page de listing - non une opportunité unique
+- Contenu fortement corrompu pour plusieurs entrées
+- 'Conditions très hétérogènes : chaque bourse a ses propres critères'
+- Pas d'informations sur délais de réponse ou retour aux candidats
+- 'Montants disparates : allant de très minimes à substantiels'
+- Critères d'éligibilité restrictifs (résidence, langue, expérience) sur plusieurs
+  bourses
+organisme_details:
+  site_web: https://artenda.net
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'synthese: ''Montants variant de 1,200 € à 70,000 $ selon l''opportunité'''
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: 'conditions_bourse: pas de mention d''hébergement au niveau du listing'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: 'conditions_bourse: pas de mention d''espace de travail au niveau
+    du listing'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: 'a_savoir: ''Conditions très hétérogènes : chaque bourse a ses propres
+    critères'''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: 'lieu: {ville: null, pays: null} — coût de vie du lieu d''accueil
+    non évaluable'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'analyse: ''Seules conditions d''éligibilité énumérées, pas critères
+    jury/sélection'''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: ''Pas d''informations sur délais de réponse ou retour
+    aux candidats'''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: 'candidature: pas de mention de notification aux non-retenu·es au
+    niveau du listing'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: 'conditions_bourse.obligations_rendu: [] — obligations non détaillées
+    au niveau du listing'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: 'calendrier_usage: ''Variable selon l''opportunité (3 mois à 2 ans)''
+    mais rigidité possible intra-programme'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: partenaires listés (Les Rencontres d'Arles, Fabre Museum, Mophradat)
+    mais visibilité restitution non spécifiée
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: 'conditions_bourse: pas de mention de suivi alumni ou accompagnement
+    post-programme'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - textile
+  bonus_score: 0

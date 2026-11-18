@@ -1,0 +1,193 @@
+uid: 7c45ed7c
+type: residence
+source_url: https://www.artistcommunities.org/directory/open-calls/print-residency-winter-spring-barcelona-2027-la-maldita-estampa-0
+fetched_at: '2026-11-18T18:40:17+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Print Residency - Winter & Spring - Barcelona 2027 - La maldita Estampa
+  organisme: La Maldita Estampa
+  lieu:
+    ville: Barcelona
+    pays: Spain
+    territoire: null
+  nom_fr: Résidence d'estampe - Hiver et Printemps - Barcelone 2027 - La maldita Estampa
+  affichage_titre: Print Residency - Winter & Spring - Barcelona 2027 - La maldita
+    Estampa. [Résidence d'estampe - Hiver et Printemps - Barcelone 2027 - La maldita
+    Estampa]
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  - es
+  frais_inscription:
+    montant: 0
+    devise: USD
+  pieces_demandees:
+  - 'Artist''s portfolio: brief explanation of project (maximum 30 lines and maximum
+    5 recent photographs, PDF format)'
+  - Proposed timetable for realisation of the project, with dates of arrival and departure
+  - Specification of the techniques involved in the creative process
+  url_candidature: https://lamalditaestampa.eu/residencias-artisticas/
+eligibilite:
+  disciplines:
+  - Art Education
+  - Book Arts
+  - Drawing
+  - Illustration
+  - Paper Arts
+  - Performance Art
+  - Printmaking
+  - Visual Arts
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 8
+    dates: null
+  hebergement: false
+  atelier: 'Fully equipped printmaking workshop: darkroom (black and white), printers
+    and scanner, printmaking workspaces, glass inking table, aquatint box, hot plates,
+    metal plate shear, paper soaking sinks, paper tearing table, acid room, silkscreen
+    studio, lithography studio, light tables, large sinks, large exposure unit, washout
+    room. Exhibition/installation space available.'
+  remuneration:
+    montant: null
+    devise: USD
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: USD
+  restitution: Open studio with fellow residents, artist talk or presentation, exhibition/installation
+    space
+partenaires: []
+_meta:
+  extracted_confidence: 0.78
+  extracted_notes: Artist stipend and travel support mentioned but without specific
+    amounts. Residency fees of 900 USD required. Housing marked N/A (not provided).
+    Limited detail on selection criteria and post-program support.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:40:17+00:00'
+  source_lang: en
+  resume_fr: La Maldita Estampa propose une résidence artistique à Barcelone (Espagne)
+    d'une durée de 2 mois en hiver et printemps 2027. L'appel s'adresse aux artistes
+    professionnels ou en formation intéressés par la gravure, l'estampage ou les techniques
+    d'impression, basés n'importe où dans le monde. Le studio disposera d'ateliers
+    équipés, d'une galerie pour les expositions et divers équipements spécialisés
+    (ateliers de lithographie, sérigraphie, etc.). Les frais de participation s'élèvent
+    à 900 USD. La date limite de candidature est le 30 novembre 2026.
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Artist Communities Alliance — Open Calls (international)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: La Maldita Estampa propose une résidence de 2 mois à Barcelone pour développer
+    des projets en gravure et techniques graphiques traditionnelles et contemporaines.
+    Le programme accueille 5 artistes simultanément dans un atelier équipé, sans restriction
+    de nationalité ni de niveau de carrière. Les artistes participent à des présentations
+    ouvertes et des expositions. Les frais de résidence s'élèvent à 900 USD. Logement
+    et financement doivent être organisés par l'artiste.
+  pour_qui: Artistes professionnels ou en formation, de toute nationalité, intéressés
+    par la gravure, le dessin ou les techniques graphiques, qui souhaitent développer,
+    expérimenter ou se former dans un environnement collaboratif international.
+a_savoir:
+- Frais de résidence de 900 USD à charge de l'artiste
+- Logement non fourni — l'artiste doit organiser son accueil
+- Stipend mentionné sans montant précisé ; instruction que l'artiste doit organiser
+  son financement
+- 'Délai de candidature proche : 30 novembre 2026'
+- Participation obligatoire à des présentations collectives et expositions
+organisme_details:
+  site_web: https://lamalditaestampa.eu/residencias-artisticas/
+  adresse: 112 Aragón Street, Barcelona, Spain
+  ville: Barcelona
+  contact_email: lamalditaestampa@gmail.com
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: « Artist Stipend » mentionné dans conditions_residence mais sans
+    montant ; texte indique « Artists must secure their own funding »
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '« hebergement »: false ; dans a_savoir : « Logement non fourni —
+    l''artiste doit organiser son accueil »'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '« Fully equipped printmaking workshop: darkroom (black and white),
+    printers and scanner, printmaking workspaces, glass inking table, aquatint box,
+    hot plates, metal plate shear, paper soaking sinks, paper tearing table, acid
+    room, silkscreen studio, lithography studio, light tables, large sinks, large
+    exposure unit, washout room »'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: '« voyage »: { « pris_en_charge »: null, « plafond »: null } ; «
+    Travel Stipend/Material Stipends » mentionnés sans détail ni montant précisé'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: 'Aucun montant de stipend ou per diem spécifié (« remuneration »:
+    { « montant »: null }) — impossible d''évaluer la cohérence avec le coût de la
+    vie barcelonais'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: « pieces_demandees » énumère les documents (portfolio, timetable,
+    techniques) mais aucun critère explicite de jugement du jury énoncé
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucune mention de délai ou date de notification des résultats dans
+    la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention de notification individuelle aux candidat·es non retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '« To make the artist feel as if they were in their own studio, working
+    freely, developing, experimenting, researching » ; mais dans a_savoir : « Participation
+    obligatoire à des présentations collectives et expositions »'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: « Proposed timetable for realisation of the project, with dates of
+    arrival and departure » suggère flexibilité, mais durée fixée à 8 semaines
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: « Open studio with fellow residents, artist talk or presentation,
+    exhibition/installation space » — restitution prévue mais de rayonnement interne
+    ; aucune mention de presse, catalogue ou visibilité au-delà de l'organisme
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention de réseau alumni, suivi documenté ou accompagnement
+    après le programme
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  - long séjour
+  bonus_score: 1

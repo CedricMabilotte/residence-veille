@@ -1,0 +1,1031 @@
+{
+  "started_at": "2026-11-18T17:56:25.384945+00:00",
+  "ended_at": "2026-11-18T18:52:58.102956+00:00",
+  "duration_sec": 3392.718011,
+  "dry_run": false,
+  "claude_session_limit_hit": false,
+  "n_sources": 72,
+  "n_items_total": 123,
+  "n_promoted_total": 19,
+  "n_new_items": 67,
+  "n_seen_skipped": 56,
+  "budget_minutes": 60,
+  "budget_hit": false,
+  "sources_not_reached": [],
+  "sources_stats": [
+    {
+      "label": "Alternatif-Art — appels à candidature (FR)",
+      "items": 20,
+      "new_items": 16,
+      "promoted": 10
+    },
+    {
+      "label": "CIPAC — annonces d'appels (réseau pro art contemporain FR)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Réseau DDA — Documents d'Artistes (national, calls)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Artist Communities Alliance — Open Calls (international)",
+      "items": 20,
+      "new_items": 17,
+      "promoted": 8
+    },
+    {
+      "label": "Residency Unlimited — Open Calls (international)",
+      "items": 7,
+      "new_items": 7,
+      "promoted": 0
+    },
+    {
+      "label": "Textile Art Insider — appels textile (digest international)",
+      "items": 5,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Artenda — agrégateur international (filtrable par pays)",
+      "items": 11,
+      "new_items": 4,
+      "promoted": 1
+    },
+    {
+      "label": "Contemporanéités de l'art — appels et auteurs (FR)",
+      "items": 15,
+      "new_items": 14,
+      "promoted": 0
+    },
+    {
+      "label": "La Maison des Artistes — petites annonces (appels FR)",
+      "items": 20,
+      "new_items": 5,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Auvergne-Rhône-Alpes — arts plastiques (AIC/AIA)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Occitanie — arts plastiques (AIC/AIA)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Île-de-France — arts plastiques (AIC/AIA)",
+      "items": 10,
+      "new_items": 2,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Hauts-de-France — arts plastiques (AIC/AIA)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Normandie — arts plastiques (AIC/AIA)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Bretagne — arts visuels (AIC/AIA)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Grand Est — arts visuels (AIC/AIA)",
+      "items": 10,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC PACA — aides aux artistes plasticiens (AIC/AIA)",
+      "items": 5,
+      "new_items": 2,
+      "promoted": 0
+    }
+  ],
+  "logs": [
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/prix-utrillo-2027-exposition-collective-memoires-et-territoire-a-pierrefitte-sur-seine",
+      "status": "promoted",
+      "score": 7,
+      "type": "prix",
+      "confidence": 0.8,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/residences-darkoum-2027-au-maroc",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.99,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-dune-oeuvre-pour-deux-residences-du-science-park-epopea-a-caen",
+      "status": "promoted",
+      "score": 7,
+      "type": "prix",
+      "confidence": 0.8,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/appel-a-projets-duo-2027-exposition-et-publication-a-montreuil",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.78, marge 0.67). | garde-fou candidature ouverte : confidence 0.78→0.50 (signal=0.27, verbe=False, rétro_hits=1)",
+        "scores": {
+          "residence": 0.05555555555555555,
+          "bourse": 0.05555555555555555,
+          "prix": 0.1111111111111111,
+          "exposition": 0.7777777777777778
+        },
+        "open_call_signal": {
+          "score": 0.27,
+          "has_verb": false,
+          "has_deadline_marker": true,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/campagne-dacquisitions-2027-fonds-dart-contemporain-de-la-ville-de-paris",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.85,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/sentier-dart-2027-creation-doeuvres-temporaires-a-brionne-livet-sur-authou-et-au-bec-hellouin",
+      "status": "promoted",
+      "score": 7,
+      "type": "exposition",
+      "confidence": 0.875,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/residence-de-recherche-et-de-creation-2027-arts-graphiques-et-imprimes-a-la-fraternelle-saint-claude",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-de-deux-sculptures-perennes-a-maurepas-seqens",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.8,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/exposition-immigration-2027-halle-aux-poissons-a-elbeuf-sur-seine",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.74, marge 0.53). | garde-fou candidature ouverte : confidence 0.74→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.21052631578947367,
+          "bourse": 0.0,
+          "prix": 0.05263157894736842,
+          "exposition": 0.7368421052631579
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/residence-de-creation-artistique-2027-si-nos-murs-pouvaient-parler-ville-de-vannes",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.8260869565217391,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/residence-de-recherche-et-de-creation-2027-les-factotum-et-les-petites-ecuries-a-nantes",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/creation-artistique-participative-dans-lespace-public-2027-ville-de-questembert",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.85,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/commande-de-creation-contemporaine-2027-art-design-au-chateau-de-bonaban",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/exposition-personnelle-2027-au-musee-saint-nazaire-de-bourbon-lancy-appel-a-candidatures",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.76, marge 0.62). | garde-fou candidature ouverte : confidence 0.76→0.65 (signal=0.30, verbe=True, rétro_hits=4)",
+        "scores": {
+          "residence": 0.14285714285714285,
+          "bourse": 0.047619047619047616,
+          "prix": 0.047619047619047616,
+          "exposition": 0.7619047619047619
+        },
+        "open_call_signal": {
+          "score": 0.3,
+          "has_verb": true,
+          "has_deadline_marker": true,
+          "has_future_date": true,
+          "retrospective_hits": 4
+        }
+      }
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/residence-artistique-la-transalpine-2027-maisons-daura-a-saint-cirq-lapopie",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.7857142857142857,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.alternatif-art.com/appel-a-candidature/residence-dartiste-lab-101-2027-fondation-renaud",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/writing-session-workshop-2027-ilhabela-island-brazil",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/what-we-can-carry-three-week-marble-carving-workshop",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/dancers-intensive-colossus-stephanie-lake-company",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/visual-arts-sounding-mountain",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/moroccan-art-residency-spring-2027-open-call",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/miss-sarah-fellowship-black-women-writers-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/summer-2027-byrdcliffe-communal-residency",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/end-year-your-time-dorland-mountain-arts",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/playwrights-lab-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/aviario-studio-ceramics-residency-winterspring-2027",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/december-2026-nature-art-residency-thassos-island-greece",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/open-call-winter-residency-2027-winter-landscape",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/la-porte-peinte-open-call-july-2027",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/call-proposals-wvu-air",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.65,
+        "method": "claude",
+        "reasoning": "Programme explicitement intitulé 'Artist in Residence (AIR)', avec accueil physique à Morgantown (WV) pendant 5-7 jours, durée définie et espace de travail sur archives à la WVRHC, caractéristiques distinctives d'une résidence artistique. | garde-fou candidature ouverte : confidence 0.98→0.65 (signal=0.30, verbe=True, rétro_hits=4)",
+        "scores": {
+          "residence": 0.5161290322580645,
+          "bourse": 0.41935483870967744,
+          "prix": 0.0,
+          "exposition": 0.06451612903225806
+        },
+        "open_call_signal": {
+          "score": 0.3,
+          "has_verb": true,
+          "has_deadline_marker": true,
+          "has_future_date": true,
+          "retrospective_hits": 4
+        }
+      }
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/spring-pops-april-tennessee",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/print-residency-winter-spring-barcelona-2027-la-maldita-estampa-0",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.artistcommunities.org/directory/open-calls/casa-ceiba-2027-winterspring-interest-form",
+      "status": "promoted",
+      "score": 8,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://residencyunlimited.org/ru-e-blast-november-11-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://residencyunlimited.org/2026/11/11",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://residencyunlimited.org/ru-e-blast-november-5-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://residencyunlimited.org/2026/11/05",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://residencyunlimited.org/ru-e-blast-october-29-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://residencyunlimited.org/2026/10/29",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://residencyunlimited.org/2026/10/19",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://artenda.net/art-open-call-opportunity/public-art",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.8095238095238095,
+      "dry_run": false
+    },
+    {
+      "url": "https://artenda.net/art-open-call-opportunity/competition",
+      "status": "error",
+      "step": "extract",
+      "error": "'list' object is not a mapping"
+    },
+    {
+      "url": "https://artenda.net/art-open-call-opportunity/stipend",
+      "status": "promoted",
+      "score": 7,
+      "type": "bourse",
+      "confidence": 0.9428571428571428,
+      "dry_run": false
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/yvonne-calsou-lun-dans-lautre-habiter-la-memoire-tarbes",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.73, marge 0.45). | garde-fou candidature ouverte : confidence 0.73→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.2727272727272727,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.7272727272727273
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/carole-nouet-agathe-mareau-odetty-festin-contre-nature-saverdun",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.89, marge 0.78). | garde-fou candidature ouverte : confidence 0.89→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.1111111111111111,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.8888888888888888
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/occitanie-pyrenees-mediteranee/ariege/galerie-des-bains-douches",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "claude",
+        "reasoning": "La page présente plusieurs expositions (installations, photographie, arts plastiques) avec dates de vernissage à la galerie: c'est un appel à participer à des expositions collectives. | garde-fou candidature ouverte : confidence 0.95→0.20 (signal=0.00, verbe=False, rétro_hits=3)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 3
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/cent-centimetres-carres-15-carla-bayle",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.91, marge 0.82). | garde-fou candidature ouverte : confidence 0.91→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.09090909090909091,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.9090909090909091
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/occitanie-pyrenees-mediteranee/ariege/galerie-du-philosophe",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.20 (signal=0.00, verbe=False, rétro_hits=7)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 7
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/kabe-stephane-dupuis-michele-suquet-olivier-vatine-juli-about-montfrin",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.90, marge 0.80). | garde-fou candidature ouverte : confidence 0.90→0.50 (signal=0.20, verbe=True, rétro_hits=2)",
+        "scores": {
+          "residence": 0.1,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.9
+        },
+        "open_call_signal": {
+          "score": 0.2,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 2
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/carmen-bouyer-come-di-meglio-a-fleur-de-terre-arles",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.90, marge 0.80). | garde-fou candidature ouverte : confidence 0.90→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.1,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.9
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/p-a-c-a/en-arles/anne-clergue-galerie",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.20 (signal=0.00, verbe=False, rétro_hits=3)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 3
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/pentti-sammallahti-marseille",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.89, marge 0.78). | garde-fou candidature ouverte : confidence 0.89→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.1111111111111111,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.8888888888888888
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/p-a-c-a/marseille/librairie-maupetit",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.75, marge 0.50). | garde-fou candidature ouverte : confidence 0.75→0.20 (signal=0.00, verbe=False, rétro_hits=9)",
+        "scores": {
+          "residence": 0.25,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.75
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 9
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/perrine-de-la-bretesche-correspondances-nice",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.89, marge 0.78). | garde-fou candidature ouverte : confidence 0.89→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.1111111111111111,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.8888888888888888
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://contemporaneitesdelart.fr/barbara-morin-reveries-vienne",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.89, marge 0.78). | garde-fou candidature ouverte : confidence 0.89→0.65 (signal=0.43, verbe=True, rétro_hits=1)",
+        "scores": {
+          "residence": 0.1111111111111111,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.8888888888888888
+        },
+        "open_call_signal": {
+          "score": 0.43,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://www.lamaisondesartistes.fr/site/inscription-webinar-la-mediation-de-la-consommation-pour-les-artistes-auteur%c2%b7ices",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.lamaisondesartistes.fr/site/restauration-et-restitution-des-oeuvres-du-patrimoine",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Ceci n'est pas un appel à candidature artistique, mais un article informatif et une prise de position de La Maison des Artistes concernant la restauration du patrimoine et le droit moral des artistes. Aucun des quatre types (résidence, bourse, prix, exposition) ne s'applique.",
+        "scores": {
+          "residence": 0.25,
+          "bourse": 0.25,
+          "prix": 0.0,
+          "exposition": 0.5
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 1
+        }
+      }
+    },
+    {
+      "url": "https://www.lamaisondesartistes.fr/site/les-webinars",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.71, marge 0.57). | garde-fou candidature ouverte : confidence 0.71→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.14285714285714285,
+          "bourse": 0.0,
+          "prix": 0.14285714285714285,
+          "exposition": 0.7142857142857143
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.culture.gouv.fr/fr/Demarches-en-ligne/Par-type-de-demarche/Subvention/Allocation-d-installation-d-atelier-et-d-achat-de-materiel-AIA",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.8333333333333334,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.culture.gouv.fr/fr/Demarches-en-ligne/Par-type-de-demarche/Subvention/Aide-individuelle-a-la-creation-AIC",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.7222222222222222,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.culture.gouv.fr/catalogue-des-demarches-et-subventions/subvention/allocation-d-installation-d-atelier-et-d-achat-de-materiel-aia",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.8260869565217391,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.culture.gouv.fr/catalogue-des-demarches-et-subventions/subvention/aide-individuelle-a-la-creation-aic%20",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.7222222222222222,
+      "dry_run": false
+    }
+  ]
+}

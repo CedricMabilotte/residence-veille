@@ -1,0 +1,31 @@
+uid: banff-centre-for-arts-creativity-6dd18508
+nom_canonique: Banff Centre for Arts & Creativity
+acronymes: []
+pays: null
+type_organisme: centre_art
+url_canonique: https://www.banffcentre.ca
+urls_secondaires: []
+description_courte: Centre d'arts contemporains canadien offrant résidences et formations en beaux-arts et médias.
+disciplines_proposees:
+- Peinture
+- Sculpture
+- Photographie
+- Arts numériques
+- Installation
+- Vidéo d'art
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 2f4a4fe9
+  type: residence
+  nom: Visual Arts - Sounding Like a Mountain
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
+ville: Banff

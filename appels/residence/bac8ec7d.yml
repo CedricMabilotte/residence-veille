@@ -1,0 +1,179 @@
+uid: bac8ec7d
+type: residence
+source_url: https://www.alternatif-art.com/appel-a-candidature/creation-artistique-participative-dans-lespace-public-2027-ville-de-questembert
+fetched_at: '2026-11-18T18:10:32+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Création artistique participative dans l'espace public 2027 – Ville de Questembert
+  organisme: Ville de Questembert
+  lieu:
+    ville: Questembert
+    pays: France
+    territoire: Morbihan
+candidature:
+  date_limite: '2026-12-13'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - Note d'intention d'une page maximum
+  - Premières considérations techniques
+  - Calendrier prévisionnel
+  - Dossier illustré présentant le parcours artistique
+  - Formulaire de candidature en ligne
+  - Budget détaillé et fiche technique pour audition
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts visuels
+  - Art contemporain
+  - Installation artistique
+  - Art dans l'espace public
+  - Création participative
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: mai-juin 2027, avec disponibilité jusqu'en septembre 2027 pour démontage
+  hebergement: true
+  atelier: Mise à disposition d'un espace de travail, notamment l'Atelier Bédard,
+    et éventuellement matériel complémentaire
+  remuneration:
+    montant: 8500
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: Présentation de l'installation dans le centre-ville de juin à septembre
+    2027, communication municipale
+partenaires: []
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Appel bien structuré. Budget 8500€ couvre honoraires, production,
+    déplacements, médiation. Paiement après réalisation sur facture.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:10:32+00:00'
+  source_lang: fr
+  detection_confidence: 0.85
+  detection_method: claude
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: La Ville de Questembert lance un appel à projets artistiques pour une
+    installation participative et temporaire dans l'espace public en 2027. Budget
+    maximal de 8500 €, couvrant honoraires, production, déplacements et médiation.
+    L'artiste doit intégrer les habitants du quartier des Halles au processus créatif,
+    privilégier matériaux durables et réemploi. Disponibilité requise mai-juin 2027
+    pour résidence et actions participatives, puis septembre 2027 pour démontage.
+    Hébergement et atelier fournis.
+  pour_qui: Artistes plasticiens ou visuels professionnels (individuels ou collectifs)
+    et étudiants en art soucieux de création participative et de transformation urbaine
+    inclusive.
+a_savoir:
+- 'Enveloppe de 8500 € couvrant TOUS les frais (honoraires, production, déplacements,
+  médiation) : exige un budget détaillé et priorisation des postes'
+- 'Paiement effectué APRÈS montage de l''œuvre, sur facture : anticiper besoins de
+  trésorerie'
+- Participation/médiation des habitants est centrale aux critères de sélection, non
+  facultative
+- 'Disponibilité obligatoire sur plusieurs mois : mai-juin résidence participative,
+  septembre démontage'
+- Droits de reproduction cédés gratuitement à la commune pour promotion de l'opération
+- 'Disciplines exclues : fresques murales, installations sonores en diffusion libre'
+- 'Candidature en deux étapes : formulaire en ligne + dossier email, puis audition
+  (trois finalistes)'
+- Indemnisation de 300 € offerte aux deux finalistes auditionnés mais non retenus
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Questembert (56230)
+  contact_email: a.briand@mairiequestembert.bzh
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"remuneration": {"montant": 8500, "devise": "EUR", "periodicite":
+    "forfait"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Mise à disposition d''un espace de travail, notamment
+    l''Atelier Bédard, et éventuellement matériel complémentaire"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: '"voyage": {"pris_en_charge": true} et "Enveloppe de 8500 € couvrant
+    TOUS les frais (honoraires, production, déplacements, médiation)"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"montant": 8500 "EUR" sur mai-juin 2027 + septembre 2027 (durée
+    totale non précisée en semaines) ; aucune comparaison avec coût de vie local documentée'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: 'synthèse: "L''artiste doit intégrer les habitants du quartier des
+    Halles au processus créatif, privilégier matériaux durables et réemploi" et a_savoir:
+    "Participation/médiation des habitants est centrale aux critères de sélection"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"date_limite": "2026-12-13" (deadline candidature) ; aucune date
+    de notification des résultats mentionnée'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: partiel
+  justification: '"Indemnisation de 300 € offerte aux deux finalistes auditionnés
+    mais non retenus" ; silence sur retour aux autres candidats'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"L''artiste doit intégrer les habitants du quartier des Halles au
+    processus créatif" et a_savoir: "Participation/médiation des habitants est centrale
+    aux critères de sélection, non facultative"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"duree": {"dates": "mai-juin 2027, avec disponibilité jusqu''en
+    septembre 2027 pour démontage"}" et a_savoir: "Disponibilité obligatoire sur plusieurs
+    mois"'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"restitution": "Présentation de l''installation dans le centre-ville
+    de juin à septembre 2027, communication municipale"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention de réseau alumni, suivi post-programme ou accompagnement
+    documenté
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

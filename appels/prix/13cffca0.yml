@@ -63,6 +63,10 @@ _meta:
   detection_method: heuristic
   source_label: Fondation des Artistes
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    erreur: page illisible
 analyse:
   synthese: La Fondation des Artistes propose des aides à la production d'œuvres d'art
     via une commission mécénat se réunissant deux fois par an (printemps et automne).

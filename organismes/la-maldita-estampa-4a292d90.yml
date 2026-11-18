@@ -1,0 +1,26 @@
+uid: la-maldita-estampa-4a292d90
+nom_canonique: La Maldita Estampa
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://lamalditaestampa.eu/residencias-artisticas/
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 7c45ed7c
+  type: residence
+  nom: Print Residency - Winter & Spring - Barcelona 2027 - La maldita Estampa
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+adresse: 112 Aragón Street, Barcelona, Spain
+ville: Barcelona
+contact_email: lamalditaestampa@gmail.com

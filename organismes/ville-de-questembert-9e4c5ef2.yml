@@ -1,0 +1,25 @@
+uid: ville-de-questembert-9e4c5ef2
+nom_canonique: Ville de Questembert
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: bac8ec7d
+  type: residence
+  nom: Création artistique participative dans l'espace public 2027 – Ville de Questembert
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Questembert (56230)
+contact_email: a.briand@mairiequestembert.bzh

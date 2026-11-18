@@ -1,0 +1,191 @@
+uid: 3fdff05e
+type: residence
+source_url: https://www.artistcommunities.org/directory/open-calls/aviario-studio-ceramics-residency-winterspring-2027
+fetched_at: '2026-11-18T18:32:42+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Aviário Studio Ceramics Residency - Winter/Spring 2027
+  organisme: Aviário Studio
+  lieu:
+    ville: null
+    pays: null
+    territoire: null
+  nom_fr: Résidence Aviário Studio Céramique - Hiver/Printemps 2027
+  affichage_titre: Aviário Studio Ceramics Residency - Winter/Spring 2027 [Résidence
+    Aviário Studio Céramique - Hiver/Printemps 2027]
+candidature:
+  date_limite: '2026-11-26'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  - fr
+  - pt
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - Full Name
+  - Email Address
+  - Phone Number
+  - Nationality
+  - Birth Date
+  - Check-in and check-out dates
+  - Accommodation preferences
+  - Residency type (Self-directed, Guided Art, or Assisted Production)
+  - Brief project description
+  - Online portfolio or 5-8 images
+  url_candidature: https://www.aviariostudio.eu/apply-now
+eligibilite:
+  disciplines:
+  - Ceramics/Clay Arts/Pottery
+  - Installation Arts
+  - Interdisciplinary Arts
+  - Mixed Media
+  - Sculpture
+  - Visual Arts
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: Minimum 3 weeks; customizable up to 6 months
+  hebergement: true
+  atelier: Shared ceramics studio with 3 electric pottery wheels, 2 electric kilns
+    (1260° and 1050°), plus multi-disciplinary workspace (printmaking, drawing, woodworking,
+    book arts, silkscreen, metal work, glass)
+  remuneration:
+    montant: 0
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Participation in public programming, open studio with fellow residents,
+    artist talks or workshops (optional)
+partenaires:
+- Artist Communities Alliance
+_meta:
+  extracted_confidence: 0.85
+  extracted_notes: Information structurée et complète; localisation du studio non
+    précisée; tarifs de résidence variables selon durée; pas de critères de sélection
+    ou suivi post-résidence mentionnés
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T18:32:42+00:00'
+  source_lang: en
+  resume_fr: Aviário Studio propose une résidence artistique en céramique et disciplines
+    connexes (installation, arts interdisciplinaires, sculpture) d'une durée minimum
+    de 3 semaines jusqu'à 6 mois. Les candidatures doivent être soumises avant le
+    26 novembre 2026. La résidence coûte 600 EUR et inclut l'hébergement en chambre
+    privée dans un logement partagé et l'accès aux studios équipés. Les candidats
+    doivent avoir plus de 21 ans, couvrir eux-mêmes les frais de voyage, matériels
+    et nourriture, et envoyer leur dossier à aviariostudio@gmail.com.
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Artist Communities Alliance — Open Calls (international)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Aviário Studio propose une résidence de céramique de 3 à 6 semaines, incluant
+    hébergement en maison partagée et studio équipé (3 tours de poterie, 2 fours électriques,
+    équipements multidisciplinaires). Les frais de résidence varient de 900€ (3 semaines)
+    à 1800€ (6 semaines). Le programme s'adresse à tous les niveaux de carrière. Aucune
+    rémunération, allocation de voyage ni aide financière ne sont fournis; les artistes
+    doivent couvrir leurs frais de transport, nourriture et matériel. Support technique
+    supplémentaire disponible à 20€/heure.
+  pour_qui: Artistes de tous niveaux de carrière (émergent·e à confirmé·e), âgé·e·s
+    d'au moins 21 ans, pratiquant la céramique, les arts visuels, sculpture ou disciplines
+    connexes, sans restriction de nationalité.
+a_savoir:
+- Aucune rémunération ou allocation de voyage fournie
+- Frais de résidence non négligeables (900€-1800€ pour 3-6 semaines)
+- Repas non fournis, accès à cuisine partagée seulement
+- Support technique supplémentaire payant (20€/heure)
+- Pas d'aide financière actuellement disponible
+- Durée minimum 3 semaines requise
+- Deadline très proche (26 novembre 2026)
+- Artistes doivent couvrir transport, matériel et nourriture
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: aviariostudio@gmail.com
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"remuneration": {"montant": 0, "devise": "EUR"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true + "Accommodation in a shared house, private
+    bedroom in shared housing facility"'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Shared ceramics studio with 3 electric pottery wheels,
+    2 electric kilns (1260° and 1050°), plus multi-disciplinary workspace"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false} + "Artists have to make sure
+    they are able to cover the costs of residency fee, travel, materials and food"'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"remuneration": {"montant": 0} + analyse: "aucune dotation ne permet
+    de couvrir les frais de subsistance"'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"pieces_demandees": [...] énumérées, mais analyse constate: "Pas
+    de critères de sélection explicites énoncés; seulement liste des pièces à fournir"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'Critères programme: "Aucun délai ou date de notification des résultats
+    mentionné"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: 'Critères programme: "Pas d''information sur la notification individuelle
+    des candidat·es non retenu·es"'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"restitution": "Participation in public programming, open studio
+    with fellow residents, artist talks or workshops (optional)" — activités optionnelles'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: oui
+  justification: '"duree": {"dates": "Minimum 3 weeks; customizable up to 6 months"}
+    + candidature: "Check-in and check-out dates"'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"restitution": "Participation in public programming, open studio
+    with fellow residents" — restitution locale seulement, pas de visibilité externe
+    (exposition, presse, catalogue)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: 'Critères programme: "Pas de mention d''un réseau alumni, suivi post-résidence,
+    entrée en collection, ou accompagnement vers d''autres opportunités"'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

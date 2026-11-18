@@ -1,0 +1,179 @@
+uid: 671c5331
+type: residence
+source_url: https://www.alternatif-art.com/appel-a-candidature/residences-darkoum-2027-au-maroc
+fetched_at: '2026-11-18T17:59:19+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Résidences DARKOUM 2027 au Maroc
+  organisme: Institut français du Maroc
+  lieu:
+    ville: Rabat
+    pays: Maroc
+    territoire: null
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees:
+  - Note d'intention de deux pages maximum ou vidéo de présentation de deux minutes
+    maximum
+  - CV artistique ou professionnel
+  - Portfolio de 20 pages maximum et 10 Mo maximum, ou documentation équivalente
+  - Budget prévisionnel détaillé en cas de demande d'aide complémentaire à la production
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts visuels et arts plastiques
+  - Photographie
+  - Sculpture et installation
+  - Arts numériques et multimédia
+  - Design et métiers d'art
+  - Commissariat d'exposition et critique d'art
+  - Littérature et bande dessinée
+  - Cinéma et création audiovisuelle
+  - Musique et création sonore
+  - Spectacle vivant et performance
+  - Recherche et expérimentation artistique
+  - Création interdisciplinaire
+  - Patrimoine et territoires
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Résidant en France, Maroc ou pays d'Afrique francophone
+conditions_residence:
+  duree:
+    semaines: null
+    dates: Mars-décembre 2027 (environ un mois par artiste)
+  hebergement: true
+  atelier: Espace de travail selon les disponibilités du lieu d'accueil. Accès possible
+    à des équipements et moyens techniques.
+  remuneration:
+    montant: 1000
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: 400
+    devise: EUR
+  restitution: Aucune obligation de produire une œuvre achevée ni de présentation
+    publique obligatoire. Partage avec acteurs locaux encouragé.
+partenaires:
+- Institut français du Maroc
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Texte complet et détaillé. Date limite vérifiée (30/11/2026). Critères
+    d'éligibilité clairs. Montants en EUR et MAD explicites.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T17:59:19+00:00'
+  source_lang: fr
+  detection_confidence: 0.99
+  detection_method: claude
+  source_label: Alternatif-Art — appels à candidature (FR)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Le programme offre des résidences d'environ un mois dans neuf villes marocaines
+    entre mars et décembre 2027. Les candidats reçoivent 1000 € de bourse de recherche,
+    300 MAD quotidiens, hébergement gratuit, remboursement du voyage jusqu'à 400 €
+    et accès à un espace de travail. Une aide à la production jusqu'à 2000 € peut
+    compléter le soutien sur demande et après validation. Aucune restitution publique
+    ni production d'œuvre achevée ne sont obligatoires.
+  pour_qui: Artistes francophones avec au moins 5 ans d'expérience professionnelle,
+    résidant en France, au Maroc ou en Afrique francophone, souhaitant mener une recherche
+    ou création liée au contexte marocain.
+a_savoir:
+- 'Expérience obligatoire : 5+ ans d''activité professionnelle ou artistique dans
+  un territoire éligible'
+- Restitution publique non obligatoire mais partage avec acteurs locaux encouragé
+- Aide à la production (2000 €) facultative et soumise à sélection
+- Transport remboursé sur justificatifs, plafonné à 400 €
+- Une seule candidature par personne, sans modification après envoi
+- 'Certaines villes ont des périodes d''accueil restreintes (ex. Marrakech : mars
+  à mai 2027)'
+- 'Versements partiels : 30 % en espèces à l''arrivée, 70 % par virement bancaire'
+- Candidature en duo possible, aide à la production plafonnée à 2000 € pour le projet
+  commun
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Rabat
+  contact_email: residences@ifmaroc.com
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'remuneration: {montant: 1000 EUR forfait + 300 MAD par jour}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: 'hebergement: true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: ''Espace de travail selon les disponibilités du lieu d''accueil.
+    Accès possible à des équipements et moyens techniques.'''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: 'voyage: {pris_en_charge: true, plafond: 400 EUR}; aide à la production
+    jusqu''à 2000 €'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: 1000 € + 300 MAD/jour avec hébergement fourni, mais pas d'analyse
+    explicite de l'adéquation avec le coût de la vie marocain
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: Conditions d'admissibilité claires (5 ans d'expérience, francophone,
+    pertinence du projet) mais aucun barème explicite ou critères de sélection du
+    jury énoncés
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucun délai ou date de notification des résultats communiqué
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Pas de mention d'une notification individuelle aux candidat·es non
+    retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: 'restitution: ''Aucune obligation de produire une œuvre achevée ni
+    de présentation publique obligatoire'''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: 'dates: ''Mars-décembre 2027 (environ un mois par artiste)'' mais
+    ''Certaines villes ont des périodes d''accueil restreintes'''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: 'restitution: ''Partage avec acteurs locaux encouragé'' — pas de
+    garantie de visibilité externe (exposition, catalogue, diffusion presse)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucun réseau alumni, suivi documenté ou accompagnement post-programme
+    mentionné
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

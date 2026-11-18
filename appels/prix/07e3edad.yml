@@ -51,6 +51,10 @@ _meta:
   detection_method: claude
   source_label: CNAP — soutien à la création
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    erreur: page illisible
 analyse:
   synthese: Ce document rapporte les acquisitions et commandes effectuées par le Cnap
     dans les domaines de la photographie et des images animées en 2025. Le collège

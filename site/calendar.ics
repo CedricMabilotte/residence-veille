@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Residence//actitude.org//FR
 BEGIN:VEVENT
 UID:10daf613@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:[Résidence] Prisme
@@ -11,7 +11,7 @@ URL:https://residence.actitude.org/o/10daf613.html
 END:VEVENT
 BEGIN:VEVENT
 UID:1a3f71ff@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20260407
 DTEND;VALUE=DATE:20260408
 SUMMARY:[Résidence] Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résidences trimestrielles pour des projets sur l'environnement 2026]
@@ -19,23 +19,111 @@ URL:https://residence.actitude.org/o/1a3f71ff.html
 END:VEVENT
 BEGIN:VEVENT
 UID:23509e2e@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:[Résidence] Résidence Tiny Spaces
 URL:https://residence.actitude.org/o/23509e2e.html
 END:VEVENT
 BEGIN:VEVENT
+UID:2d5ff03c@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Résidence] Spring Pops - April in Tennessee [Spring Pops - Avril au Tennessee]
+URL:https://residence.actitude.org/o/2d5ff03c.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2f4a4fe9@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:[Résidence] Visual Arts - Sounding Like a Mountain [Arts Visuels - Résonner Comme une Montagne]
+URL:https://residence.actitude.org/o/2f4a4fe9.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2f71592e@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:[Résidence] Summer 2027 Byrdcliffe Communal Residency [Résidence Communale Byrdcliffe Été 2027]
+URL:https://residence.actitude.org/o/2f71592e.html
+END:VEVENT
+BEGIN:VEVENT
+UID:34c26deb@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:[Résidence] Résidence de création artistique 2027 « Si nos murs pouvaient parler »
+URL:https://residence.actitude.org/o/34c26deb.html
+END:VEVENT
+BEGIN:VEVENT
+UID:3fdff05e@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:[Résidence] Aviário Studio Ceramics Residency - Winter/Spring 2027 [Résidence Aviário Studio Céramique - Hiver/Printemps 2027]
+URL:https://residence.actitude.org/o/3fdff05e.html
+END:VEVENT
+BEGIN:VEVENT
+UID:4595463f@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Résidence] Casa Ceiba: 2027 Winter/Spring Interest Form [Casa Ceiba : Formulaire d'Intérêt Hiver/Printemps 2027]
+URL:https://residence.actitude.org/o/4595463f.html
+END:VEVENT
+BEGIN:VEVENT
+UID:671c5331@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Résidence] Résidences DARKOUM 2027 au Maroc
+URL:https://residence.actitude.org/o/671c5331.html
+END:VEVENT
+BEGIN:VEVENT
+UID:68c386a1@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:[Résidence] End of Year! Your Time at Dorland Mountain Arts [Fin d'année ! Votre moment aux Dorland Mountain Arts]
+URL:https://residence.actitude.org/o/68c386a1.html
+END:VEVENT
+BEGIN:VEVENT
 UID:710d4dae@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:[Résidence] Résidence Elles & Cité 2027
 URL:https://residence.actitude.org/o/710d4dae.html
 END:VEVENT
 BEGIN:VEVENT
+UID:7c45ed7c@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Résidence] Print Residency - Winter & Spring - Barcelona 2027 - La maldita Estampa. [Résidence d'estampe - Hiver et Printemps - Barcelone 2027 - La maldita Estampa]
+URL:https://residence.actitude.org/o/7c45ed7c.html
+END:VEVENT
+BEGIN:VEVENT
+UID:85649e51@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Résidence] La Porte Peinte: Open Call for July 2027 [La Porte Peinte: Appel à candidatures pour juillet 2027]
+URL:https://residence.actitude.org/o/85649e51.html
+END:VEVENT
+BEGIN:VEVENT
+UID:8d30b622@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:[Résidence] Résidence d'artiste LAB 10+1 2027
+URL:https://residence.actitude.org/o/8d30b622.html
+END:VEVENT
+BEGIN:VEVENT
 UID:9dfe385b@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:[Résidence] Elles & Cité
@@ -43,15 +131,63 @@ URL:https://residence.actitude.org/o/9dfe385b.html
 END:VEVENT
 BEGIN:VEVENT
 UID:b137aba7@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:[Résidence] Artistes en résidence de la Casa de Velázquez 2027-2028 Académie de France à Madrid Ouvert jusqu'au 27 novembre 2026 Appel en direction des artistes diplômés et/ou disposant d'une 
 URL:https://residence.actitude.org/o/b137aba7.html
 END:VEVENT
 BEGIN:VEVENT
+UID:b42481f7@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Résidence] Commande de création contemporaine 2027 – Art & Design au Château de Bonaban
+URL:https://residence.actitude.org/o/b42481f7.html
+END:VEVENT
+BEGIN:VEVENT
+UID:bac8ec7d@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:[Résidence] Création artistique participative dans l'espace public 2027 – Ville de Questembert
+URL:https://residence.actitude.org/o/bac8ec7d.html
+END:VEVENT
+BEGIN:VEVENT
+UID:d271441c@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:[Résidence] Résidence de recherche et de création 2027 – Les Factotum et Les Petites Écuries à Nantes
+URL:https://residence.actitude.org/o/d271441c.html
+END:VEVENT
+BEGIN:VEVENT
+UID:e2b0d67f@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Résidence] Commande artistique 2027 – Création de deux sculptures pérennes à Maurepas
+URL:https://residence.actitude.org/o/e2b0d67f.html
+END:VEVENT
+BEGIN:VEVENT
+UID:57868eb1@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:[Prix] Commande artistique 2027 – Création d'une œuvre pour deux résidences du Science Park EPOPEA à Caen
+URL:https://residence.actitude.org/o/57868eb1.html
+END:VEVENT
+BEGIN:VEVENT
+UID:f7e1688b@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:[Prix] Prix Utrillo 2027 - Exposition collective « Mémoire(s) et territoire »
+URL:https://residence.actitude.org/o/f7e1688b.html
+END:VEVENT
+BEGIN:VEVENT
 UID:1b10ec5c@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:[Appel à exposition] BTB10: The Harris Interactive Commission [BTB10: Commission Interactive The Harris]
@@ -59,15 +195,23 @@ URL:https://residence.actitude.org/o/1b10ec5c.html
 END:VEVENT
 BEGIN:VEVENT
 UID:4f662363@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:[Appel à exposition] MATERIALITIES  International Contemporary Art Exhibition | December 2026 [MATERIALITIES - Exposition internationale d'art contemporain | Décembre 2026]
 URL:https://residence.actitude.org/o/4f662363.html
 END:VEVENT
 BEGIN:VEVENT
+UID:626815e6@residence.actitude.org
+DTSTAMP:20261118T190448Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:[Appel à exposition] Sentier d'art 2027 - Création d'œuvres temporaires à Brionne, Livet-sur-Authou et au Bec-Hellouin
+URL:https://residence.actitude.org/o/626815e6.html
+END:VEVENT
+BEGIN:VEVENT
 UID:9dec9c1c@residence.actitude.org
-DTSTAMP:20261118T175327Z
+DTSTAMP:20261118T190448Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:[Appel à exposition] Monochrome 2027, International Photography Exhibition [Monochrome 2027, Exposition Internationale de Photographie]
