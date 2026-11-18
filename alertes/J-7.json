@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "path": "appels/exposition/1b10ec5c.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "exposition",
+    "uid": "1b10ec5c",
+    "nom": "BTB10: The Harris Interactive Commission"
+  },
+  {
+    "path": "appels/exposition/4f662363.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "exposition",
+    "uid": "4f662363",
+    "nom": "MATERIALITIES International Contemporary Art Exhibition | December 2026"
+  },
+  {
+    "path": "appels/exposition/9dec9c1c.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 2,
+    "type": "exposition",
+    "uid": "9dec9c1c",
+    "nom": "Monochrome 2027, International Photography Exhibition"
+  }
+]

@@ -9,6 +9,18 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "adagp.fr/fr/actualites/anatole-pons-revelation-design-2026": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
+  "status": "skipped"
+ },
+ "adagp.fr/fr/actualites/andrea-espier-revelation-livre-jeunesse-2026": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
+  "status": "skipped"
+ },
  "adagp.fr/fr/actualites/aout-la-formation-professionnelle-continue-2": {
   "first_seen": "2026-08-03",
   "last_seen": "2026-08-03",
@@ -24,6 +36,12 @@
   "first_seen": "2026-05-22",
   "last_seen": "2026-11-18",
   "status": "archived"
+ },
+ "adagp.fr/fr/actualites/appel-candidature-residence-elles-cite-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
+  "status": "promoted"
  },
  "adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video": {
   "fiche": "bcd3a041",
@@ -113,6 +131,12 @@
   "last_seen": "2026-11-18",
   "status": "promoted"
  },
+ "adagp.fr/fr/actualites/le-ciagp-reseau-international-des-societes-dauteurs-se-reunit-stockholm-en-2026": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
+  "status": "skipped"
+ },
  "adagp.fr/fr/actualites/mai-la-declaration-sociale": {
   "first_seen": "2026-05-22",
   "last_seen": "2026-05-22",
@@ -128,14 +152,38 @@
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "adagp.fr/fr/actualites/membres-de-ladagp-ce-quil-faut-savoir-sur-la-gestion-de-vos-droits-letranger": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
+  "status": "skipped"
+ },
  "adagp.fr/fr/actualites/mesdroitsdauteurcom-une-ressource-concue-pour-accompagner-les-artistes-dans-leurs": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "adagp.fr/fr/actualites/mickael-vis-et-leo-coquet-laureats-de-la-bourse-transverse-2026": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
+  "status": "skipped"
+ },
+ "adagp.fr/fr/actualites/novembre-la-vente-doriginaux-3": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
+  "status": "skipped"
+ },
  "adagp.fr/fr/actualites/octobre-la-protection-sociale-1": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
+  "status": "skipped"
+ },
+ "adagp.fr/fr/actualites/questionnaire-destination-des-artistes-et-des-auteurs-de-limage-et-de-lecrit-sur-limpact": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
   "status": "skipped"
  },
  "adagp.fr/fr/actualites/revelation-livre-dartiste-2026-la-preselection": {
@@ -146,6 +194,12 @@
  "adagp.fr/fr/actualites/septembre-les-aides-la-filiere-1": {
   "first_seen": "2026-09-01",
   "last_seen": "2026-09-01",
+  "status": "skipped"
+ },
+ "adagp.fr/fr/actualites/tribune-collective-des-acteurs-de-la-culture-et-de-linformation-pour-defendre-la": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "ADAGP — actualités (appels, bourses, prix)",
   "status": "skipped"
  },
  "adagp.fr/fr/actualites/tribune-collective-pour-linscription-lagenda-parlementaire-de-lassemblee-nationale-de-la": {
@@ -165,22 +219,22 @@
  },
  "adagp.fr/fr/evenement": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "adagp.fr/fr/jutilise-ou-vends-une-oeuvre/ma-boite-outils/calculette-droit-de-suite": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "adagp.fr/fr/repertoire-des-artistes": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "aicafrance.org": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "alternatif-art.com/appel-a-candidature/apollo-2026-2027-triangle-asterides": {
@@ -731,12 +785,12 @@
  },
  "ateliersdart.com/action-economique/nos-prix-concours/concours-ateliers-dart-de-france": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "ateliersdart.com/action-economique/nos-prix-concours/prix-associes": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "ateliersdart.com/action-economique/nos-prix-concours/prix-de-la-jeune-creation-metiers-dart": {
@@ -746,53 +800,59 @@
  },
  "ateliersdart.com/action-economique/nos-prix-concours/prix-jeune-telents-metiers-dart-creation-et-patrimoine": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "ateliersdart.com/prix-associes": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "candidats.salondemontrouge.fr/index.php": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/appels-et-candidatures": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/creation-artistique/en-residence": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/creation-artistique/presentation": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/la-casa/presentation": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/la-casa/reseaux-et-partenaires": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/actualites": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/29e-rendez-vous-de-lhistoire": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
   "status": "skipped"
+ },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/appel-artistes-en-residence-2027-2028": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
+  "status": "promoted"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/bourses-scientifiques-2027-save-the-date": {
   "first_seen": "2026-08-04",
@@ -804,24 +864,36 @@
   "last_seen": "2026-05-22",
   "status": "skipped"
  },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/ecole-thematique-travail-en-ville-du-reseau-des-etudes-maghrebines": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
+  "status": "skipped"
+ },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/exposition-aux-marges-du-regard": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/exposition-casa-compartida-fundacio-caixa-castello": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/exposition-ensayos-sobre-la-ausencia": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
+  "status": "skipped"
+ },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/exposition-la-maison-fleuve-fertilite-ilienne-ancrage-fluvial-au-cneai": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/expositions-dans-les-plis-de-lhorizon-de-francois-reau": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/la-casa-de-velazquez-a-la-feria-del-libro-de-madrid-2026": {
@@ -834,9 +906,21 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/lesprit-du-lieu-bicentenaire-de-la-photographie": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
+  "status": "below_threshold"
+ },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/madrid-cinema-et-creation-cinecasa": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
+  "status": "skipped"
+ },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/museos-y-utopias": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/patrimonios-compartidos-en-la-comunidad-de-madrid-siglos-xvi-xxi": {
@@ -854,9 +938,33 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/rive-d-en-face-csic": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
+  "status": "skipped"
+ },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/tertulia-teresa-de-jesus": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
+  "status": "skipped"
+ },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/tertulia-une-nuit-a-la-bibliotheque": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
+  "status": "skipped"
+ },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/transiciones-a-la-democracia-argentina-espana-y-portugal": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
+  "status": "skipped"
+ },
+ "casadevelazquez.org/que-pasa-en-la-casa/detail/une-nuit-a-la-bibliotheque": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Casa de Velázquez — Académie de France à Madrid",
   "status": "skipped"
  },
  "casadevelazquez.org/que-pasa-en-la-casa/detail/viva-villa-2026-gaite-lyrique": {
@@ -866,7 +974,7 @@
  },
  "casadevelazquez.org/que-pasa-en-la-casa/programmation": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "casadevelazquez.org/residents-et-alumni/2024-2025/ada-lasheras-gonzalez": {
@@ -968,6 +1076,12 @@
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "cholet.fr/agenda/evenement_20044_soiree+jeu+loups-garous.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Ville de Cholet — Salon des Arts",
+  "status": "skipped"
+ },
  "cholet.fr/agenda/evenement_20138_fete+ete+saint-paul-du-bois.html": {
   "first_seen": "2026-08-03",
   "last_seen": "2026-08-03",
@@ -980,7 +1094,7 @@
  },
  "cholet.fr/chaines/dossier_876_professionnels+sante+exercer+sur+choletais.html": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cholet.fr/dossiers/dossier_2682_rendez-vous+parents.html": {
@@ -1069,6 +1183,30 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "cholet.fr/dossiers/dossier_6582_conseils+quartier+pourquoi+pas+vous.html": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "cholet.fr/dossiers/dossier_6583_may-sur-evre+travaux+sur+reseaux+assainissmement+eau+potable.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Ville de Cholet — Salon des Arts",
+  "status": "skipped"
+ },
+ "cholet.fr/dossiers/dossier_6584_nouveaux+horaires+pour+boutique+solidaire+croix-rouge.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Ville de Cholet — Salon des Arts",
+  "status": "skipped"
+ },
+ "cholet.fr/dossiers/dossier_6587_puy-saint-bonnet+retrouve+commerce+proximite.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Ville de Cholet — Salon des Arts",
+  "status": "skipped"
+ },
  "cholet.fr/video/categorie_179_redecouvrez+choletais.html": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
@@ -1106,7 +1244,13 @@
  },
  "cholet.fr/video/video_607_anim+sports+adultes+-+saison+2026+2027.html": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
+  "status": "skipped"
+ },
+ "cholet.fr/video/video_609_contrat+local+sante+2026-2030.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Ville de Cholet — Salon des Arts",
   "status": "skipped"
  },
  "cinetecamadrid.com/sites/default/files/inline-files/rules%20and%20regulations%20animario%202025_intnal%20short%20film%20comp.pdf": {
@@ -1116,17 +1260,17 @@
  },
  "cite-tapisserie.fr/articles/en-2026-la-tapisserie-s-eclate-a-aubusson": {
   "first_seen": "2026-09-04",
-  "last_seen": "2026-09-04",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/cite-et-territoire/le-syndicat-mixte-de-la-cite-internationale-de-la-tapisserie": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/cite-et-territoire/vivre-le-territoire": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/le-musee": {
@@ -1136,37 +1280,37 @@
  },
  "cite-tapisserie.fr/le-musee/les-aventures-tissees": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/le-musee/nos-collections": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/les-missions/promouvoir-la-creation-contemporaine": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/les-missions/transmettre-les-savoir-faire": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/les-savoir-faire/l-ecosysteme-art-tisse": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/les-savoir-faire/les-savoir-faire-de-la-tapisserie-d-aubusson": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "cite-tapisserie.fr/preparer-votre-visite": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "citeinternationaledesarts.fr/appels-a-candidature/association-francoise-pour-loeuvre-contemporaine-x-cite-internationale-des-arts": {
@@ -1190,6 +1334,12 @@
   "last_seen": "2026-08-06",
   "status": "below_threshold"
  },
+ "citeinternationaledesarts.fr/appels-a-candidature/elles-cite": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Cité internationale des arts — appels à candidature ouverts",
+  "status": "promoted"
+ },
  "citeinternationaledesarts.fr/appels-a-candidature/in-situ": {
   "first_seen": "2026-08-28",
   "last_seen": "2026-08-28",
@@ -1206,6 +1356,12 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "citeinternationaledesarts.fr/appels-a-candidature/prisme": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Cité internationale des arts — appels à candidature ouverts",
+  "status": "promoted"
+ },
  "citeinternationaledesarts.fr/appels-a-candidature/republique-dominicaine-x-cite-internationale-des-arts": {
   "fiche": "c16312c6",
   "first_seen": "2026-08-06",
@@ -1217,6 +1373,12 @@
   "first_seen": "2026-08-06",
   "last_seen": "2026-11-18",
   "status": "archived"
+ },
+ "citeinternationaledesarts.fr/appels-a-candidature/villa-arson-x-cite-internationale-des-arts": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
  },
  "citeinternationaledesarts.fr/en/appels-a-candidature/49659": {
   "fiche": "5de27397",
@@ -1262,7 +1424,7 @@
  },
  "citeinternationaledesarts.fr/nos-programmes-de-residence": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "citeinternationaledesarts.fr/programme-de-residence/academie-centrale-des-beaux-arts-x-cite-internationale-des-arts": {
@@ -2283,24 +2445,42 @@
   "last_seen": "2026-09-02",
   "status": "skipped"
  },
+ "contextile.pt/en/2026-textile-talks": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Contextile — Biennale d'art textile contemporain (PT)",
+  "status": "below_threshold"
+ },
  "contextile.pt/en/ai_weiwei_invited_artist": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "contextile.pt/en/awards_2026": {
   "first_seen": "2026-09-07",
-  "last_seen": "2026-09-07",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "contextile.pt/en/contextile-2026-open-call-international-exhibition": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Contextile — Biennale d'art textile contemporain (PT)",
+  "status": "below_threshold"
  },
  "contextile.pt/en/contextile-2026-programme": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "contextile.pt/en/contextile-2026-selected-artists": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Contextile — Biennale d'art textile contemporain (PT)",
+  "status": "promoted"
  },
  "contextile.pt/en/josep-grau-garriga": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "contextile.pt/en/partners": {
@@ -2310,7 +2490,7 @@
  },
  "contextile.pt/en/pass_2026": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "culture.gouv.fr/aides-demarches": {
@@ -2325,7 +2505,7 @@
  },
  "culture.gouv.fr/catalogue-des-demarches-et-subventions/appels-a-projet-partenaires": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "culture.gouv.fr/media/medias-creation-rapide/aide-individuelle-a-la-creation.pdf2": {
@@ -2425,12 +2605,12 @@
  },
  "curatorspace.com/members/opportunities/favourites": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "curatorspace.com/members/settings/notifications": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "curatorspace.com/opportunities/detail/abstract-art/10643": {
@@ -2443,6 +2623,18 @@
   "fiche": "e57f2fc5",
   "first_seen": "2026-05-22",
   "last_seen": "2026-11-18",
+  "status": "promoted"
+ },
+ "curatorspace.com/opportunities/detail/boundaries--international-photography-exhibition/11282": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "below_threshold"
+ },
+ "curatorspace.com/opportunities/detail/btb-the-harris-interactive-commission/11335": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
   "status": "promoted"
  },
  "curatorspace.com/opportunities/detail/call-for-poetry-fiction--essays-for-palestine/10891": {
@@ -2476,10 +2668,28 @@
   "last_seen": "2026-05-22",
   "status": "below_threshold"
  },
+ "curatorspace.com/opportunities/detail/exhibit-in-brazil--timeless-exhibition/11271": {
+  "error": "'list' object has no attribute 'get'",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "curatorspace.com/opportunities/detail/exhibition/8735": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "below_threshold"
+ },
  "curatorspace.com/opportunities/detail/feature-on-the-flux-reiew/10658": {
   "first_seen": "2026-09-01",
   "last_seen": "2026-09-01",
   "status": "skipped"
+ },
+ "curatorspace.com/opportunities/detail/light--international-online-group-exhibition/11310": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "below_threshold"
  },
  "curatorspace.com/opportunities/detail/light-up-the-north-illumine--light-art-open-call/10968": {
   "first_seen": "2026-09-11",
@@ -2491,6 +2701,18 @@
   "first_seen": "2026-05-22",
   "last_seen": "2026-11-18",
   "status": "archived"
+ },
+ "curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "promoted"
+ },
+ "curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "promoted"
  },
  "curatorspace.com/opportunities/detail/new-emergence-art-prize/10773": {
   "first_seen": "2026-08-03",
@@ -2533,8 +2755,20 @@
  },
  "curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025": {
   "first_seen": "2026-09-03",
-  "last_seen": "2026-09-03",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "curatorspace.com/opportunities/detail/saltaire-art-fair/11106": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "below_threshold"
+ },
+ "curatorspace.com/opportunities/detail/screening-opportunity-for-moving-image-works--temperature-check/11327": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "below_threshold"
  },
  "curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725": {
   "fiche": "5e45e170",
@@ -2557,14 +2791,44 @@
   "last_seen": "2026-09-02",
   "status": "skipped"
  },
+ "curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "promoted"
+ },
+ "curatorspace.com/opportunities/detail/we-are-all-wonder-women/11286": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "below_threshold"
+ },
+ "curatorspace.com/opportunities/detail/winter-popup-shop-haworth/11260": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Curator Space — opportunities (EN)",
+  "status": "below_threshold"
+ },
  "curatorspace.com/profiles/boomergallery": {
   "first_seen": "2026-09-01",
   "last_seen": "2026-09-01",
   "status": "skipped"
  },
+ "curatorspace.com/profiles/diversamentearte": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "curatorspace.com/profiles/fb10223914294396954": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
  "curatorspace.com/profiles/glasgalphoto": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "curatorspace.com/profiles/thehepworthwakefield": {
@@ -2575,12 +2839,18 @@
  },
  "curatorspace.com/report": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "dca-art.com": {
   "first_seen": "2026-08-28",
   "last_seen": "2026-08-28",
+  "status": "skipped"
+ },
+ "devenir.art/agenda": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
   "status": "skipped"
  },
  "devenir.art/agenda/evenement/allons-voir-8eme-edition": {
@@ -2591,6 +2861,12 @@
  "devenir.art/agenda/evenement/artchipel-2026": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
+  "status": "skipped"
+ },
+ "devenir.art/agenda/evenement/atelier-briquette-par-muemosa-2": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
   "status": "skipped"
  },
  "devenir.art/agenda/evenement/atelier-impressions-fortes": {
@@ -2633,6 +2909,12 @@
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "devenir.art/agenda/evenement/des-mots-et-des-images-dialogue-avec-marie-darrieussecq": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
+  "status": "skipped"
+ },
  "devenir.art/agenda/evenement/echappee-belle": {
   "first_seen": "2026-09-04",
   "last_seen": "2026-09-04",
@@ -2658,6 +2940,12 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "devenir.art/agenda/evenement/exposition-%c2%b7-meuble-sommairement": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
+  "status": "skipped"
+ },
  "devenir.art/agenda/evenement/exposition-julie-matlosz-a-ne-pas-manquer": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
@@ -2671,6 +2959,18 @@
  "devenir.art/agenda/evenement/festival-les-rencontres-photographiques-2026": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
+  "status": "skipped"
+ },
+ "devenir.art/agenda/evenement/impromptus-2-danse-musique-poesie": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
+  "status": "skipped"
+ },
+ "devenir.art/agenda/evenement/in-situ": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
   "status": "skipped"
  },
  "devenir.art/agenda/evenement/jardin-des-visages-exposition-monographique": {
@@ -2713,9 +3013,27 @@
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "devenir.art/agenda/evenement/lune-double-monographie-jeanne-cardinal": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
+  "status": "skipped"
+ },
+ "devenir.art/agenda/evenement/memories": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
+  "status": "skipped"
+ },
  "devenir.art/agenda/evenement/mise-au-point-%c2%b7-exposition-des-ateliers-adultes": {
   "first_seen": "2026-08-30",
   "last_seen": "2026-08-30",
+  "status": "skipped"
+ },
+ "devenir.art/agenda/evenement/moires-memoires-exposition-paul-pouvreau": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
   "status": "skipped"
  },
  "devenir.art/agenda/evenement/nina-maller-hautes-erres": {
@@ -2783,6 +3101,12 @@
   "last_seen": "2026-09-01",
   "status": "skipped"
  },
+ "devenir.art/agenda/evenement/visite-atelier-pour-les-petit%c2%b7es-babilony": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
+  "status": "skipped"
+ },
  "devenir.art/agenda/evenement/visite-commentee-%c2%b7-lidee-des-corps-celestes": {
   "first_seen": "2026-08-29",
   "last_seen": "2026-08-29",
@@ -2818,89 +3142,101 @@
   "last_seen": "2026-08-28",
   "status": "skipped"
  },
+ "devenir.art/agent-technique-polyvalent-h-f": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
+  "status": "skipped"
+ },
  "devenir.art/chroniques-%c2%b7-helene-soumare": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "devenir.art/inauguration-de-la-revue-laura-n38": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
+  "status": "skipped"
+ },
+ "devenir.art/portrait-%c2%b7-emmanuel-ygouf": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Devenir.art — appels à candidature (agrégateur FR)",
   "status": "skipped"
  },
  "devenir.art/portrait-%c2%b7-la-commission-deontologie-et-remuneration": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/1pc.php": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/credits.php": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/documentation.php": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/equipe.php": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/evenements.php": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/meetup.php": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/mission.php": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/partenaires.php": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/prod-video.php": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/reseau.php": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "documentsdartistes.org/workshop.php": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "draaf.centre-val-de-loire.agriculture.gouv.fr/enseignement-agricole-m74.html": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "e-flux.com/announcements": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/adhesion-tarifs-fonctionnalites": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/appel/iv-bulgarian-minitextiles-triennal-with-international-participation-2026": {
@@ -2910,12 +3246,12 @@
  },
  "fiberartfever.com/en/artiste/andrea-ellis": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/arna-gna-gunnarsdottir": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/aurelia-cerulei": {
@@ -2925,42 +3261,42 @@
  },
  "fiberartfever.com/en/artiste/barbara-dantuono": {
   "first_seen": "2026-09-03",
-  "last_seen": "2026-09-03",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/carine-vernon": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/christelle-balbinot": {
   "first_seen": "2026-09-03",
-  "last_seen": "2026-09-03",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/christelle-lacombe": {
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-05",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/laura-sanchez-filomeno": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/les-ventes-de-fiber": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artiste/marie-noelle-deverre": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/artistes-textiles-contemporains": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/news/evenement/des-corps-celestes": {
@@ -2990,7 +3326,7 @@
  },
  "fiberartfever.com/en/news/evenement/les-echappees-obliques-emission-radiophonique-sur-le-domaine-perdu": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fiberartfever.com/en/news/evenement/les-journees-nationales-des-artistes": {
@@ -3021,12 +3357,12 @@
  },
  "fondationdesartistes.fr/donation-legs": {
   "first_seen": "2026-08-28",
-  "last_seen": "2026-08-28",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fondationdesartistes.fr/evenement/maba/walter-et-billy-sur-les-traces-de-lenfer": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "fondationdesartistes.fr/evenement/mna/collage-poesie-et-revolte-cozette-de-charmoy": {
@@ -3036,7 +3372,7 @@
  },
  "fondationdesartistes.fr/evenement/mna/jeanne-smith-traversees-photographiques-paysages": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "fondationdesartistes.fr/missions/accompagner-le-grand-age": {
@@ -3099,8 +3435,14 @@
  },
  "fraciledefrance.com": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "hangar.org/en/avis-legal": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
  },
  "hangar.org/wp-content/uploads/2026/02/fund.-privada-aavc-311224-informe.pdf": {
   "first_seen": "2026-05-20",
@@ -3109,7 +3451,7 @@
  },
  "institutfrancais.com/fr/programme/aide-projet/connect-create-renforcer-liens-culturels-afrique-europe": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "institutfrancais.com/fr/programme/aide-projet/fabrique-cinema": {
@@ -3125,17 +3467,17 @@
  },
  "institutfrancais.com/fr/programme/aide-projet/fonds-expertise-mediatheques": {
   "first_seen": "2026-08-04",
-  "last_seen": "2026-08-04",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "institutfrancais.com/fr/programme/aide-projet/fonds-langue-francaise": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "institutfrancais.com/fr/programme/aide-projet/iqlaa-accompagner-lessor-industries-culturelles-creatives-maroc": {
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-05",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "institutfrancais.com/fr/programme/aide-projet/pida-programme-international-diffusion-artistique": {
@@ -3146,7 +3488,7 @@
  },
  "institutfrancais.com/fr/programme/aide-projet/programme-daide-publication-pap-cession-droits": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026": {
@@ -3157,7 +3499,7 @@
  },
  "institutfrancais.com/fr/programme/conseil-expertise/ateliers-fabrique-cinema-amazonie-caraibes": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "institutfrancais.com/fr/programme/conseil-expertise/expertise-mediatheques": {
@@ -3167,17 +3509,17 @@
  },
  "institutfrancais.com/fr/programme/conseil-expertise/promotion-langue-francaise-22-conseils-renforcer-sa-strategie-marketing": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "institutfrancais.com/fr/programme/formation/formation-agents-du-reseau-culturel-francais-plan-dappui-formation-paf": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "institutfrancais.com/fr/programme/offre-contenus/guide-lessentiel-transformation-numerique": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel": {
@@ -3188,7 +3530,7 @@
  },
  "institutfrancais.com/fr/programme/offre-contenus/ressources-jeu-video-esport": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-institut-francais-x-cite-internationale": {
@@ -3211,7 +3553,7 @@
  },
  "lainamac.fr/promotion/residence-dartistes": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "lamaisondesartistes.fr/site/%f0%9f%93%a2-facturation-electronique-la-maison-des-artistes-vous-accompagne": {
@@ -3344,9 +3686,27 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "lametive.fr/events/pour-une-autre-ecologie-des-liens": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "lametive.fr/events/sortie-de-residence-hajra-khan-exposition-et-atelier-pratique": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)",
+  "status": "skipped"
+ },
  "lametive.fr/events/sortie-de-residence-solveig-rocher-remy-clair": {
   "first_seen": "2026-09-09",
   "last_seen": "2026-09-09",
+  "status": "skipped"
+ },
+ "lametive.fr/events/trafique-desir-helisenne-lestringant-magali-tosato-larissa-jenne-emmanuel-girondin": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)",
   "status": "skipped"
  },
  "lametive.fr/project-category/a-venir": {
@@ -3356,12 +3716,18 @@
  },
  "lametive.fr/project-category/en-residence": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "lametive.fr/project/cyrielle-naval-ecriture-cinema": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
+  "status": "skipped"
+ },
+ "lametive.fr/project/dorian-chavez-ecriture": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)",
   "status": "skipped"
  },
  "lametive.fr/project/edouard-lenormand-photographie": {
@@ -3378,6 +3744,12 @@
   "first_seen": "2026-09-06",
   "last_seen": "2026-09-06",
   "status": "skipped"
+ },
+ "lametive.fr/project/isabelle-attard-ecriture": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)",
+  "status": "below_threshold"
  },
  "lametive.fr/project/jeanne-dubois-pacquet-photographie-arts-visuels": {
   "first_seen": "2026-08-02",
@@ -3396,12 +3768,18 @@
  },
  "lametive.fr/project/omar-aljbaai-metteur-en-scene": {
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-08",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "lametive.fr/project/solveig-rocher-et-remy-clair-danse-musique": {
   "first_seen": "2026-08-28",
   "last_seen": "2026-08-28",
+  "status": "skipped"
+ },
+ "lametive.fr/project/valerie-blaize-dessin-ecriture": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)",
   "status": "skipped"
  },
  "lawayakacurrent.com/apply": {
@@ -3412,12 +3790,12 @@
  },
  "lawayakacurrent.com/pdf2026": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "lawayakacurrent.com/tropicpdf2024": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "magcp.fr": {
@@ -3427,12 +3805,12 @@
  },
  "mataderomadrid.org/convocatorias/cinezeta-jovenes-programando-10a-edicion": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "mataderomadrid.org/convocatorias/competicion-internacional-de-cortometrajes-animario-2026": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "mataderomadrid.org/convocatorias/convocatoria-de-proyectos-de-investigacion-situada-2027": {
@@ -3443,7 +3821,7 @@
  },
  "mataderomadrid.org/convocatorias/convocatoria-intermediae-distribuido-2026-2027": {
   "first_seen": "2026-08-03",
-  "last_seen": "2026-08-03",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad": {
@@ -3459,7 +3837,7 @@
  },
  "mataderomadrid.org/convocatorias/ix-premio-animario-la-produccion-de-animacion": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "mataderomadrid.org/convocatorias/residencia-en-torno-al-arte-y-la-educacion-2026": {
@@ -3485,7 +3863,13 @@
  },
  "mataderomadrid.org/convocatorias/residencia-semestral-de-produccion-musical-para-bandas-y-solistas-emergentes-2027": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
+  "status": "below_threshold"
+ },
+ "mataderomadrid.org/convocatorias/residencias-para-artistas-visuales-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "MATADERO Madrid — convocatorias",
   "status": "below_threshold"
  },
  "mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026": {
@@ -3603,7 +3987,7 @@
  },
  "moly-sabata.com": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "moly-sabata.com/productions/fromage-et-dessert": {
@@ -3634,7 +4018,7 @@
  },
  "ocastroartvillage.com/about-us": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "ocastroartvillage.com/creative-residency-at-o-castro-art-village": {
@@ -3645,17 +4029,17 @@
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-africa": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-arab-region": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-armenia": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-asia": {
@@ -3666,42 +4050,42 @@
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-azerbaijan": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-bangladesh": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-brazil": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-brunei-darussalam": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-cambodia": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-caribbean": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-china": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-georgia": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-india": {
@@ -3717,17 +4101,17 @@
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-latin-america-and-caribbean": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-south-mediterranean-region": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/resources/funding/mobility-funding-guide-united-states-america": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "on-the-move.org/sites/default/files/2024-03/yearbook%202024_exec%20sum_fr.pdf": {
@@ -3795,25 +4179,67 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "p-a-c.fr/ressources/opportunites/appel-a-candidature-bourse-traversees": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Provence Art Contemporain — opportunités (Prix Mourlot)",
+  "status": "below_threshold"
+ },
  "p-a-c.fr/ressources/opportunites/appel-a-candidatures-bourse-medicis-2": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
+ "p-a-c.fr/ressources/opportunites/appel-a-candidatures-chemin-des-affinites-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Provence Art Contemporain — opportunités (Prix Mourlot)",
+  "status": "below_threshold"
+ },
  "p-a-c.fr/ressources/opportunites/appel-a-candidatures-concours-fondation-francois-schneider": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "p-a-c.fr/ressources/opportunites/appel-a-candidatures-exposition-collective-pov-la-station-2027": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "p-a-c.fr/ressources/opportunites/appel-a-candidatures-fluxus-art-projects-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Provence Art Contemporain — opportunités (Prix Mourlot)",
+  "status": "below_threshold"
  },
  "p-a-c.fr/ressources/opportunites/appel-a-candidatures-la-bulle-aux-bebes-saison-3-2027": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "p-a-c.fr/ressources/opportunites/appel-a-candidatures-lab-10-1": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "p-a-c.fr/ressources/opportunites/appel-a-candidatures-les-ateliers-du-cap-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Provence Art Contemporain — opportunités (Prix Mourlot)",
+  "status": "below_threshold"
+ },
  "p-a-c.fr/ressources/opportunites/appel-a-candidatures-usine-utopik-2027": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
   "status": "skipped"
+ },
+ "p-a-c.fr/ressources/opportunites/appel-a-projet-residence-de-creation-saison-culturelle-2027-quai-du-savoir": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Provence Art Contemporain — opportunités (Prix Mourlot)",
+  "status": "below_threshold"
  },
  "p-a-c.fr/ressources/opportunites/blapero": {
   "first_seen": "2026-10-02",
@@ -3857,8 +4283,14 @@
  },
  "p-a-c.fr/ressources/opportunites/obtenir-le-diplome-de-l-ensp-grace-a-son-experience-la-vae": {
   "first_seen": "2026-08-04",
-  "last_seen": "2026-08-04",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "p-a-c.fr/ressources/opportunites/offre-d-emploi-un-e-regisseur-seuse-a-la-fondation-camargo": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
  },
  "p-a-c.fr/ressources/opportunites/prix-murlot": {
   "fiche": "64ec9c9e",
@@ -3887,6 +4319,24 @@
   "last_seen": "2026-05-20",
   "status": "skipped"
  },
+ "proyectoace.org/en/available-dates": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "proyectoace.org/en/residencies/micro-residencies": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "proyectoace.org/en/residencies/mural-painting": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Proyecto'ACE — résidences de production (Buenos Aires)",
+  "status": "promoted"
+ },
  "proyectoace.org/en/residencies/production-residencies": {
   "fiche": "58ee772e",
   "first_seen": "2026-08-01",
@@ -3895,8 +4345,14 @@
  },
  "proyectoace.org/en/who-we-are/our-house/polyglot-room": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "proyectoace.org/en/who-we-are/our-house/printmaking-workshop": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Proyecto'ACE — résidences de production (Buenos Aires)",
+  "status": "promoted"
  },
  "rec-on.es/artist-residency": {
   "fiche": "0e6799bf",
@@ -4044,6 +4500,12 @@
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "reseau-astre.org/la-rencontre-regionale": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Réseau Astre — appels Nouvelle-Aquitaine (agrégateur régional)",
+  "status": "skipped"
+ },
  "residencyunlimited.org/2026/07/08": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
@@ -4151,22 +4613,22 @@
  },
  "rurart.org/archives-exposition-dans-les-sols-lavenir-peut-etre-jeremy-gobe": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/archives-jorn-de-fiera-nicolas-tubery": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/archives-l-enracinement-makeda-giron-sybille-de-hays-anais-marion-princia-itoua": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/archivesexposition-peuple-sauvage-iv-julien-salaud": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/evenement": {
@@ -4176,27 +4638,33 @@
  },
  "rurart.org/exposition-air-glaciere": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/exposition-avec-la-conscience-quelle-ne-peut-poursuivre-le-chemin-des-vivants-elle-prend-la-decision-de-le-quitter": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/exposition-cest-arrive-demain-le-retour": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
+  "status": "skipped"
+ },
+ "rurart.org/exposition-et-vous-les-arbres": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Rurart — centre d'art / programmation",
   "status": "skipped"
  },
  "rurart.org/exposition-eternal-september": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/exposition-la-revanche-des-oiseaux": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/exposition-medecine-castor-suzanne-husky": {
@@ -4225,18 +4693,24 @@
  },
  "rurart.org/exposition-tete-corps-coeur": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/exposition-usted-esta-aqui": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "rurart.org/https-www-rurart-org-exposition-balai-masque-florian-de-la-salle": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "salondemontrouge.com/14-communique.htm": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
  },
  "salondemontrouge.com/actualite/291/2-decouvrez-le-dossier-de-presse-du-68e-salon-de-montrouge.htm": {
   "fiche": "b8f7cc68",
@@ -4252,7 +4726,7 @@
  },
  "salondemontrouge.com/actualite/367/2-le-salon-de-montrouge-devoile-les-40-artistes-selectionnes-pour-sa-70e-edition-du-26-fevrier-au-12-mars-2027.htm": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "salondemontrouge.com/actualites/2-actualites.htm": {
@@ -4263,7 +4737,7 @@
  },
  "salondemontrouge.com/cms_viewfile.php": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf": {
@@ -4289,6 +4763,12 @@
   "last_seen": "2026-11-18",
   "status": "archived"
  },
+ "textiellab.nl/en/news": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "TextielLab / TextielMuseum — Advanced Textile Program (NL)",
+  "status": "below_threshold"
+ },
  "textiellab.nl/en/news/advanced-textile-program-takes-a-sabbatical-in-2026-and-will-return-in-a-renewed-form-in-2027": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
@@ -4296,7 +4776,7 @@
  },
  "textiellab.nl/en/news/lisa-konno-honours-textile-workers-through-new-work": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "textiellab.nl/en/news/makerspaces-in-brabant-together-we-are-building-a-strong-maker-network-across-brabant": {
@@ -4306,8 +4786,14 @@
  },
  "textiellab.nl/en/news/open-call-experiment-with-digital-weaving-on-the-textiellabs-tc2-loom": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "textiellab.nl/en/news/open-call-graduates": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "TextielLab / TextielMuseum — Advanced Textile Program (NL)",
+  "status": "below_threshold"
  },
  "textiellab.nl/en/news/project-space-an-intimate-glimpse-into-the-artists-mind": {
   "first_seen": "2026-08-02",
@@ -4319,9 +4805,15 @@
   "last_seen": "2026-08-28",
   "status": "skipped"
  },
+ "textiellab.nl/en/news/threads-of-innovation-symposium-a-celebration-of-innovation": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "TextielLab / TextielMuseum — Advanced Textile Program (NL)",
+  "status": "skipped"
+ },
  "textiellab.nl/en/students": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
  },
  "textileartinsider.com/artist-about": {
@@ -4351,7 +4843,7 @@
  },
  "transartists.org/cdn-cgi/l/email-protection": {
   "first_seen": "2026-08-03",
-  "last_seen": "2026-08-03",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "transartists.org/en/air": {
@@ -4361,17 +4853,17 @@
  },
  "transartists.org/node/14456": {
   "first_seen": "2026-08-03",
-  "last_seen": "2026-08-03",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "transartists.org/node/168968": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "transartists.org/node/168970": {
   "first_seen": "2026-08-02",
-  "last_seen": "2026-08-02",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "villa-albertine.org/frenchculture": {
@@ -4386,7 +4878,7 @@
  },
  "villa-albertine.org/va/fr/professionals/albertine-cinematheque": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "villa-albertine.org/va/fr/professionals/announcing-the-2026-museums-next-generation-us-laureates": {
@@ -4396,12 +4888,12 @@
  },
  "villa-albertine.org/va/fr/professionals/appel-a-candidatures-etant-donnes-2026": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "villa-albertine.org/va/fr/professionals/appel-a-candidatures-icc-immersion-etats-unis": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "villa-albertine.org/va/fr/professionals/appel-a-candidatures-prix-litteraire-french-press-2026": {
@@ -4411,12 +4903,18 @@
  },
  "villa-albertine.org/va/fr/professionals/appel-a-candidatures-prix-pisar-2026": {
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "villa-albertine.org/va/fr/professionals/appel-mng-2027-french": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Albertine — appels résidences (USA)",
+  "status": "below_threshold"
  },
  "villa-albertine.org/va/fr/professionals/call-for-applications-the-2025-albertine-translation-fund-acquisition-of-rights": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "villa-albertine.org/va/fr/professionals/decouvrez-le-jury-de-selection-des-residences-2027-de-la-villa-albertine": {
@@ -4437,22 +4935,28 @@
  },
  "villa-albertine.org/va/fr/professionals/french-authors-tour": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "villa-albertine.org/va/fr/professionals/fused-french-us-exchange-dance": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "villa-albertine.org/va/fr/professionals/jazz-new-music": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
+ },
+ "villa-albertine.org/va/fr/professionals/le-prix-french-press-2026-est-decerne-a-sylvie-kande": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Villa Albertine — appels résidences (USA)",
+  "status": "skipped"
  },
  "villa-albertine.org/va/fr/professionals/young-french-cinema-2": {
   "first_seen": "2026-05-22",
-  "last_seen": "2026-05-22",
+  "last_seen": "2026-11-18",
   "status": "below_threshold"
  },
  "westwerk.org/index.html": {

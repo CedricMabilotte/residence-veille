@@ -47,9 +47,10 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-10-02'
+  last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
 contact_email: marie.chenel@cnap.fr
 noms_alternatifs:
 - CNAP (Centre national des arts plastiques)
+ville: Paris

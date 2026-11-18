@@ -1,0 +1,160 @@
+uid: 9dec9c1c
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280
+fetched_at: '2026-11-18T16:50:26+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Monochrome 2027, International Photography Exhibition
+  organisme: The Glasgow Gallery of Photography
+  lieu:
+    ville: Glasgow
+    pays: United Kingdom
+  nom_fr: Monochrome 2027, Exposition Internationale de Photographie
+  affichage_titre: Monochrome 2027, International Photography Exhibition [Monochrome
+    2027, Exposition Internationale de Photographie]
+candidature:
+  date_limite: '2026-11-20'
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant_soumission: 0
+    montant_si_selection: 50
+    devise: GBP
+    description: Free submission; £50 participation fee if selected, covers printing,
+      installation and un-installation
+  pieces_demandees:
+  - Up to 8 JPEG images
+  - 72 ppi minimum for initial submission
+  - 'If selected: 300 ppi, 3000 pixels minimum on shortest side'
+  - 'File naming format: Firstname-Surname1, Firstname-Surname2, etc.'
+  url_candidature: https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280
+eligibilite:
+  disciplines:
+  - Photography
+  niveau_carriere: All levels (emerging and established photographers)
+  age_max: null
+  nationalite: Open to everyone
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - The Glasgow Gallery of Photography, Glasgow
+  dates_exposition: 1st - 25th April 2027
+  format: collective
+  prise_en_charge:
+    production: true
+    transport:
+      pris_en_charge: true
+      details: Printing, installation, and un-installation covered by gallery
+      plafond: null
+      devise: GBP
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: null
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Free-to-enter open call with optional participation fee if selected.
+    Gallery averages 500+ monthly visitors; online reach ~75K annual website visitors
+    + 16K Instagram followers.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T16:50:26+00:00'
+  source_lang: en
+  resume_fr: La Glasgow Gallery of Photography (Royaume-Uni) lance un appel à candidatures
+    pour une exposition de photographie en noir et blanc qui se tiendra du 1er au
+    25 avril 2027. Les photographes peuvent soumettre gratuitement jusqu'à 8 images
+    en JPEG (72 ppi), avant le 20 novembre 2026. Si sélectionné, un frais de participation
+    de £50 s'ajoute, couvrant l'impression et l'installation des œuvres. Les travaux
+    sélectionnés seront exposés en galerie (500 visiteurs/mois en moyenne), promis
+    sur les réseaux sociaux (16K followers Instagram) et sur le site web (75K visiteurs/an),
+    et les participants recevront un certificat numérique et auront une chance d'être
+    nommés « Photographer of the Month » avec publication dans un zine annuel.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Monochrome 2027 est un appel à candidature gratuit pour une exposition
+    photographique collective annuelle accueillie par la Glasgow Gallery of Photography
+    en avril 2027. Ouverte à tous les photographes (émergeants ou établis), la sélection
+    implique une participation de 50 £ couvrant l'impression, l'installation et la
+    désinstallation. Les œuvres sélectionnées seront exposées pendant un mois en galerie
+    physique (500+ visiteurs mensuels en moyenne), en ligne (75K visiteurs annuels)
+    et sur les réseaux sociaux (16K followers Instagram). Les artistes sélectionnés
+    peuvent concourir pour le titre de Photographer of the Month et figure dans un
+    zine de fin d'année.
+  pour_qui: Photographes de tous niveaux et toutes origines créant des images en monochrome
+    (noir et blanc, cyanotypes, sépia).
+a_savoir:
+- Frais de participation obligatoire de 50 £ si l'œuvre est sélectionnée
+- Les artistes non sélectionnés ne reçoivent pas de notification individuelle
+- Les cadres utilisés à l'exposition appartiennent à la galerie et ne sont pas fournis
+  aux artistes
+- Les artistes doivent récupérer leurs tirages dans le mois suivant la fin de l'exposition
+- Aucun critère de sélection explicitement publié au-delà du thème monochrome
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Glasgow
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: Aucune rémunération, bourse ou dotation versée aux artistes
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '"hebergement_vernissage": false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: Aucun espace de production ou studio fourni
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"Printing, installation, and un-installation covered by gallery"
+    (transport et production d''œuvres restent à charge)'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"per_diem": false'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: Aucun critère de sélection explicitement publié au-delà du thème
+    monochrome
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: Pas d'information présente dans la fiche sur un délai ou date de
+    notification
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: '"Les artistes non sélectionnés ne reçoivent pas de notification
+    individuelle"'
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: Exposition en galerie (500+ visiteurs/mois), en ligne (75K visiteurs
+    annuels), réseaux sociaux (16K followers), zine de fin d'année
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: Possibility of Photographer of the Month recognition and inclusion
+    in annual zine; pas de suivi documenté au-delà
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

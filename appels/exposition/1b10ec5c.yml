@@ -1,0 +1,178 @@
+uid: 1b10ec5c
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/btb-the-harris-interactive-commission/11335
+fetched_at: '2026-11-18T16:54:06+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: 'BTB10: The Harris Interactive Commission'
+  organisme: British Textile Biennial and The Harris
+  lieu:
+    ville: Preston
+    pays: United Kingdom
+  nom_fr: 'BTB10: Commission Interactive The Harris'
+  affichage_titre: 'BTB10: The Harris Interactive Commission [BTB10: Commission Interactive
+    The Harris]'
+candidature:
+  date_limite: '2026-11-20'
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - Short outline of why the commission interests you and how it connects with your
+    practice
+  - Initial proposal for how you might approach the commission, including how you
+    would incorporate textiles and respond to the allocated space
+  - Examples of no more than four previous projects with images and/or links to documentation
+  - Simple outline budget including artist fees and indicative costs for materials,
+    fabrication, travel and other expenses
+  - Details of any access requirements for the application or interview process
+  - All combined into one compressed PDF document
+  url_candidature: https://www.curatorspace.com/opportunities/detail/btb-the-harris-interactive-commission/11335
+eligibilite:
+  disciplines:
+  - interactive artwork
+  - textiles
+  - sculpture
+  - spatial art
+  - digital art
+  - immersive art
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - The Harris, Preston
+  dates_exposition: 29/05/2027 - 31/08/2027
+  format: collective
+  prise_en_charge:
+    production: true
+    transport:
+      pris_en_charge: true
+      plafond: 10000
+      devise: GBP
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- British Textile Biennial
+- The Harris
+_meta:
+  extracted_confidence: 0.92
+  extracted_notes: Clear, well-structured opportunity. Commission scope, budget, space
+    specifications and timeline all defined. Application platform is CuratorSpace,
+    requiring account creation.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T16:54:06+00:00'
+  source_lang: en
+  resume_fr: British Textile Biennial et The Harris à Preston cherchent un artiste
+    ou designer pour créer une œuvre interactive incorporant les textiles, dans un
+    espace de 3 m × 6,6 m. L'œuvre sera présentée du 29 mai au 31 août 2027, accessible
+    à tous les publics et explorant dix ans de thèmes de BTB (travail, création, durabilité,
+    etc.). Le budget de commission est de £10,000. La date limite de candidature est
+    le 20 novembre 2026.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'British Textile Biennial and The Harris co-commission an interactive
+    artwork incorporating textiles for the BTB10 anniversary exhibition at The Harris,
+    Preston (29 May – 31 August 2027). The successful artist or collective receives
+    £10,000 covering fees, materials, fabrication, travel and project expenses, plus
+    curatorial and production support. The work will occupy 3 m × 6.6 m in the exhibition''s
+    central room and must respond to themes explored across BTB''s decade-long programme:
+    labour, place, materials, sustainability and changing relationships with textiles.
+    Artists from all career stages and disciplines are welcome; previous commission
+    experience is useful but not essential.'
+  pour_qui: Individual artists, designers, makers, or collectives with experience
+    or demonstrated capacity in creating participatory, interactive, public-facing
+    work that engages audiences across generations.
+a_savoir:
+- Limited budget (£10,000) must cover artist fees, materials, fabrication, and travel
+  across ~6 months
+- 'Tight timeline: deadline 20 November 2026; interviews early December; installation
+  May 2027'
+- Precise spatial constraints (3 m × 6.6 m with 4.1 m hanging height) require careful
+  spatial planning and consideration of visitor flow
+- Work must remain durable, accessible and engaging for public interaction throughout
+  3-month exhibition run with no guaranteed maintenance support
+- Artist may be responsible for durability, technical support, maintenance or material
+  replacement depending on work form
+- No guaranteed post-exhibition life or future presentation; opportunities would be
+  explored after selection
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Preston
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"prise_en_charge": {"plafond": 10000, "devise": "GBP"} — commission
+    de £10 000 couvrant les frais artistiques, matériaux, fabrication et voyage'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '"per_diem": false, "hebergement_vernissage": false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: Aucune mention d'atelier, studio ou espace de production fourni dans
+    la fiche
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: '"production": true, "transport": {"pris_en_charge": true, "plafond":
+    10000} — les frais de transport et production sont inclus'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: '"Limited budget (£10,000) must cover artist fees, materials, fabrication,
+    and travel across ~6 months" — environ £1 667/mois avant déduction des frais matériels
+    et production, adéquation incertaine'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: '"must respond to themes explored across BTB''s decade-long programme:
+    labour, place, materials, sustainability and changing relationships with textiles"
+    — critères thématiques énoncés mais pas formellement pondérés ni exhaustivement
+    structurés'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: '"Tight timeline: deadline 20 November 2026; interviews early December;
+    installation May 2027" — date d''entrevues annoncée'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention de retour ou notification individualisée aux candidats
+    non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"lieux": ["The Harris, Preston"], "format": "collective" — exposition
+    au Harris (lieu reconnu d''art contemporain), inclusion dans l''exposition BTB
+    10 Year Survey'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: '"opportunities would be explored after selection" — exploration
+    d''opportunités future mentionnée mais non garantie ni structurée formellement'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

@@ -1,5 +1,5 @@
 uid: institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713
-nom_canonique: Institut français
+nom_canonique: ANCA Inc
 acronymes: []
 pays: null
 type_organisme: institution_publique
@@ -45,6 +45,9 @@ opportunites_liees:
 - uid: 53bddbf8
   type: residence
   nom: Institut français x Cité internationale des arts
+- uid: cc40d764
+  type: exposition
+  nom: Visual Art Studio Space - Canberra, Australia
 track_record:
   bourse:
     editions:
@@ -349,10 +352,13 @@ partenaires_mentionnes:
 - organisme_uid: rencontres-photographiques-d-arles
   occurrences: 1
   nom_brut: Rencontres photographiques d'Arles
+- organisme_uid: anca-gallery
+  occurrences: 1
+  nom_brut: ANCA Gallery
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-20'
-  last_updated: '2026-10-02'
+  last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
 ville: Paris
@@ -361,5 +367,6 @@ noms_alternatifs:
 - Institut français et Cité internationale des arts
 - Institut français, Cité internationale des arts
 - Cité internationale des arts et Institut français
+- Institut français
 contact_email: Pôle Saisons et Temps forts de l'Institut français (contact non spécifié)
 adresse: 18 rue de l'Hôtel de Ville, 75004 (Cité internationale des arts)

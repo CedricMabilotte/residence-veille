@@ -5,8 +5,8 @@ pays: Argentine
 type_organisme: autre
 url_canonique: https://www.proyectoace.org
 urls_secondaires: []
-description_courte: Résidence de production autofinancée à Buenos Aires, art visuel
-  et art textile, sessions glissantes 4 fois par an.
+description_courte: Résidence de production autofinancée à Buenos Aires, art visuel et art textile, sessions glissantes 4
+  fois par an.
 disciplines_proposees:
 - arts visuels
 - art textile
@@ -16,6 +16,12 @@ opportunites_liees:
 - uid: 58ee772e
   type: residence
   nom: Proyecto'ACE — Production Residencies
+- uid: d6cc1040
+  type: residence
+  nom: Proyecto'ace Artist-in-Residence International Program
+- uid: 8674cccc
+  type: residence
+  nom: '[Palimpsest Project] Mural Painting Residency'
 track_record:
   residence:
     editions:
@@ -28,7 +34,11 @@ pages_surveillees:
   role: page_appel
 _meta:
   first_seen: '2026-08-01'
-  last_updated: '2026-08-01'
+  last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
 ville: Buenos Aires
+noms_alternatifs:
+- Proyecto'ace Fundación'ace
+- Proyecto Ace
+contact_email: ace.pirar@proyectoace.org

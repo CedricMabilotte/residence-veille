@@ -1,0 +1,1518 @@
+{
+  "started_at": "2026-11-18T16:35:23.558720+00:00",
+  "ended_at": "2026-11-18T17:35:52.072378+00:00",
+  "duration_sec": 3628.513658,
+  "dry_run": false,
+  "claude_session_limit_hit": false,
+  "n_sources": 72,
+  "n_items_total": 261,
+  "n_promoted_total": 11,
+  "n_new_items": 84,
+  "n_seen_skipped": 177,
+  "budget_minutes": 60,
+  "budget_hit": true,
+  "sources_not_reached": [
+    "Alternatif-Art — appels à candidature (FR)",
+    "CIPAC — annonces d'appels (réseau pro art contemporain FR)",
+    "Réseau DDA — Documents d'Artistes (national, calls)",
+    "Artist Communities Alliance — Open Calls (international)",
+    "Residency Unlimited — Open Calls (international)",
+    "Textile Art Insider — appels textile (digest international)",
+    "Artenda — agrégateur international (filtrable par pays)",
+    "Contemporanéités de l'art — appels et auteurs (FR)",
+    "La Maison des Artistes — petites annonces (appels FR)",
+    "DRAC Auvergne-Rhône-Alpes — arts plastiques (AIC/AIA)",
+    "DRAC Occitanie — arts plastiques (AIC/AIA)",
+    "DRAC Île-de-France — arts plastiques (AIC/AIA)",
+    "DRAC Hauts-de-France — arts plastiques (AIC/AIA)",
+    "DRAC Normandie — arts plastiques (AIC/AIA)",
+    "DRAC Bretagne — arts visuels (AIC/AIA)",
+    "DRAC Grand Est — arts visuels (AIC/AIA)",
+    "DRAC PACA — aides aux artistes plasticiens (AIC/AIA)"
+  ],
+  "sources_stats": [
+    {
+      "label": "TransArtists — Open calls (EN)",
+      "items": 4,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Res Artis — Open calls (EN)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "On-the-Move — Funding (EN/FR/ES)",
+      "items": 15,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "e-flux — Announcements (EN)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "CNAP — soutien à la création",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "CNAP — flux RSS appels à projet (tous types)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "CNAP — annonces filtrées « Résidence d'artiste »",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Fondation des Artistes",
+      "items": 10,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Institut français — résidences internationales",
+      "items": 15,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Salon de Montrouge — accueil",
+      "items": 5,
+      "new_items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "Cité internationale des arts — appels à candidature ouverts",
+      "items": 4,
+      "new_items": 3,
+      "promoted": 2
+    },
+    {
+      "label": "Pollen — résidence (Monflanquin)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Rurart — centre d'art / programmation",
+      "items": 16,
+      "new_items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "Hangar Barcelona — convocatòries",
+      "items": 1,
+      "new_items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "MATADERO Madrid — convocatorias",
+      "items": 8,
+      "new_items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "Curator Space — opportunities (EN)",
+      "items": 20,
+      "new_items": 14,
+      "promoted": 4
+    },
+    {
+      "label": "Casa de Velázquez — Académie de France à Madrid",
+      "items": 20,
+      "new_items": 9,
+      "promoted": 1
+    },
+    {
+      "label": "ADAGP — actualités (appels, bourses, prix)",
+      "items": 12,
+      "new_items": 9,
+      "promoted": 1
+    },
+    {
+      "label": "Documents d'Artistes PACA",
+      "items": 11,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "FRAC Île-de-France",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Villa Albertine — appels résidences (USA)",
+      "items": 12,
+      "new_items": 2,
+      "promoted": 0
+    },
+    {
+      "label": "Moly-Sabata — résidence (Sablons)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "TransArtists — Open Calls (blog, EN)",
+      "items": 4,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "O Castro Art Village — résidences (Galice, ES)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAC Nouvelle-Aquitaine — arts plastiques (AIC/AIA)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Ministère de la Culture — catalogue des appels à projets (national)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Réseau d.c.a — association des centres d'art contemporain",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Devenir.art — appels à candidature (agrégateur FR)",
+      "items": 15,
+      "new_items": 12,
+      "promoted": 0
+    },
+    {
+      "label": "Salon de Montrouge — modalités de candidature (page officielle des dépôts)",
+      "items": 4,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Triangle France — Astérides (Marseille)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Fondation Camargo (Cassis)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Prix AICA France",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Prix Aware (femmes artistes)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "LAINAMAC — résidences laine (Felletin)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)",
+      "items": 8,
+      "new_items": 6,
+      "promoted": 0
+    },
+    {
+      "label": "MAGCP (Cajarc) — résidence en milieu agricole",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Réseau Astre — appels Nouvelle-Aquitaine (agrégateur régional)",
+      "items": 1,
+      "new_items": 1,
+      "promoted": 0
+    },
+    {
+      "label": "Projet COAL — Prix Art & Environnement",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "FRAC-Artothèque Nouvelle-Aquitaine",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "DRAAF Centre-Val de Loire — résidences en lycées agricoles",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Cité internationale de la tapisserie — Aubusson",
+      "items": 10,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Ateliers d'Art de France — prix & concours (jeune création métiers d'art)",
+      "items": 4,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "TextielLab / TextielMuseum — Advanced Textile Program (NL)",
+      "items": 6,
+      "new_items": 3,
+      "promoted": 0
+    },
+    {
+      "label": "Contextile — Biennale d'art textile contemporain (PT)",
+      "items": 8,
+      "new_items": 3,
+      "promoted": 1
+    },
+    {
+      "label": "Fiber Art Fever — agrégateur d'appels textile/fibre",
+      "items": 12,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Fondation d'entreprise Martell — appel à projets",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Westwerk e.V. — résidence internationale (Hambourg)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "TaDA — Textile and Design Alliance (Arbon, Suisse)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Nocefresca — résidence autofinancée (Sardaigne)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Proyecto'ACE — résidences de production (Buenos Aires)",
+      "items": 5,
+      "new_items": 4,
+      "promoted": 2
+    },
+    {
+      "label": "La Wayaka Current — résidence Atacama (Chili)",
+      "items": 2,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "REC.ON Project — résidence écovillage (Andalousie)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Fondation François Schneider — Talents Contemporains",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Provence Art Contemporain — opportunités (Prix Mourlot)",
+      "items": 10,
+      "new_items": 8,
+      "promoted": 0
+    },
+    {
+      "label": "Ville de Cholet — Salon des Arts",
+      "items": 8,
+      "new_items": 6,
+      "promoted": 0
+    }
+  ],
+  "logs": [
+    {
+      "url": "https://www.citeinternationaledesarts.fr/appels-a-candidature/elles-cite",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.7027027027027027,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.citeinternationaledesarts.fr/appels-a-candidature/prisme",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.7142857142857143,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.rurart.org/exposition-et-vous-les-arbres",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "claude",
+        "reasoning": "Rurart présente une exposition d'automne ; l'exposition commune de Sophie Mignot et Julie Monnet croise leurs regards singuliers sur le paysage | garde-fou candidature ouverte : confidence 0.98→0.20 (signal=0.00, verbe=False, rétro_hits=2)",
+        "scores": {
+          "residence": 0.4,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.6
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.mataderomadrid.org/convocatorias/residencias-para-artistas-visuales-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827",
+      "status": "promoted",
+      "score": 6,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
+      "status": "below_threshold",
+      "score": 2,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/we-are-all-wonder-women/11286",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280",
+      "status": "promoted",
+      "score": 6,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/boundaries--international-photography-exhibition/11282",
+      "status": "below_threshold",
+      "score": 1,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/light--international-online-group-exhibition/11310",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/btb-the-harris-interactive-commission/11335",
+      "status": "promoted",
+      "score": 6,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240",
+      "status": "promoted",
+      "score": 6,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/saltaire-art-fair/11106",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/winter-popup-shop-haworth/11260",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.curatorspace.com/opportunities/detail/screening-opportunity-for-moving-image-works--temperature-check/11327",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "exposition",
+      "confidence": 0.9090909090909091,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/appel-artistes-en-residence-2027-2028",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.7,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/exposition-la-maison-fleuve-fertilite-ilienne-ancrage-fluvial-au-cneai",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.73, marge 0.45). | garde-fou candidature ouverte : confidence 0.73→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.2727272727272727,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.7272727272727273
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/ecole-thematique-travail-en-ville-du-reseau-des-etudes-maghrebines",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.86, marge 0.71). | garde-fou candidature ouverte : confidence 0.86→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.14285714285714285,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.8571428571428571
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/tertulia-une-nuit-a-la-bibliotheque",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.25,
+        "method": "claude",
+        "reasoning": "C'est l'annonce d'un événement public (représentation théâtrale et conversation) organisé par la Casa de Velázquez, non un appel à candidature artistique. Aucune des 4 catégories ne correspond vraiment.",
+        "scores": {
+          "residence": 0.5,
+          "bourse": 0.0,
+          "prix": 0.5,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/une-nuit-a-la-bibliotheque",
+      "status": "skipped",
+      "reason": "empty_body"
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/museos-y-utopias",
+      "status": "skipped",
+      "reason": "empty_body"
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/tertulia-teresa-de-jesus",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.15,
+        "method": "claude",
+        "reasoning": "Ceci n'est pas un appel à candidature mais un événement/séminaire programmé (tertulia) avec intervenantes déjà identifiées. Aucune des 4 catégories ne s'applique réellement.",
+        "scores": {
+          "residence": 0.6666666666666666,
+          "bourse": 0.0,
+          "prix": 0.3333333333333333,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 2
+        }
+      }
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/rive-d-en-face-csic",
+      "status": "skipped",
+      "reason": "empty_body"
+    },
+    {
+      "url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/lesprit-du-lieu-bicentenaire-de-la-photographie",
+      "status": "below_threshold",
+      "score": 3,
+      "type": "exposition",
+      "confidence": 0.8333333333333334,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/mickael-vis-et-leo-coquet-laureats-de-la-bourse-transverse-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Le titre mentionne explicitement 'bourse transverse 2026'; la page référence 'Bourses et dotations' dans sa navigation de soutien à la création artistique | garde-fou candidature ouverte : confidence 0.98→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.08695652173913043,
+          "bourse": 0.391304347826087,
+          "prix": 0.43478260869565216,
+          "exposition": 0.08695652173913043
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/appel-candidature-residence-elles-cite-2027",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/le-ciagp-reseau-international-des-societes-dauteurs-se-reunit-stockholm-en-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.15,
+        "method": "claude",
+        "reasoning": "Le contenu fourni est insuffisant pour classifier : c'est une actualité sur une réunion du CIAGP à Stockholm, pas un appel à candidature explicite. Aucun des 4 types n'est clairement identifié. Consultation du contenu complet recommandée.",
+        "scores": {
+          "residence": 0.5,
+          "bourse": 0.5,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/questionnaire-destination-des-artistes-et-des-auteurs-de-limage-et-de-lecrit-sur-limpact",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Page ADAGP mentionnant des 'Bourses et dotations' et 'Aides directes aux artistes', mais le contenu fourni est surtout navigational. Le questionnaire sur l'impact de l'IA sur les revenus des artistes suggère un soutien financier, sans accueil physique obligatoire, aligné avec une bourse plutôt qu'une résidence ou exposition. Confiance basse : le contenu ne montre pas explicitement un appel à candidature.",
+        "scores": {
+          "residence": 0.5,
+          "bourse": 0.5,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/tribune-collective-des-acteurs-de-la-culture-et-de-linformation-pour-defendre-la",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page est une tribune collective, pas un appel à candidature artistique. Elle porte sur une prise de position concernant la proposition de loi sur l'IA, sans présenter d'appel à résidence, bourse, prix ou exposition.",
+        "scores": {
+          "residence": 0.5714285714285714,
+          "bourse": 0.2857142857142857,
+          "prix": 0.14285714285714285,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/novembre-la-vente-doriginaux-3",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "claude",
+        "reasoning": "Le titre 'Novembre : la vente d'originaux' suggère un événement commercial plutôt qu'un appel à candidature. L'extrait fourni contient surtout la navigation du site ADAGP sans détail sur le contenu réel. Avec l'information limitée, impossible de classifier avec certitude parmi les quatre catégories d'appels à candidature.",
+        "scores": {
+          "residence": 0.4,
+          "bourse": 0.4,
+          "prix": 0.0,
+          "exposition": 0.2
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/andrea-espier-revelation-livre-jeunesse-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "prix",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Le titre « Révélation Livre jeunesse 2026 » indique une distinction/prix décerné par l'ADAGP. Le menu du site mentionne « Révélations » parmi les soutiens à la création, typiquement associés à des prix de reconnaissance compétitifs. Le contenu fourni ne donne pas plus de précisions, mais le label « Révélation » suggère une distinction plutôt qu'un appel à candidature ouvert. | garde-fou candidature ouverte : confidence 0.75→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.125,
+          "bourse": 0.125,
+          "prix": 0.5625,
+          "exposition": 0.1875
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/anatole-pons-revelation-design-2026",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "prix",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Le titre mentionne 'Révélation Design' et le menu du site ADAGP liste 'Révélations' comme catégorie distincte d'aide à côté des résidences et bourses, suggérant une distinction ou un prix pour jeunes talents émergents | garde-fou candidature ouverte : confidence 0.68→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.16666666666666666,
+          "bourse": 0.16666666666666666,
+          "prix": 0.6666666666666666,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.adagp.fr/fr/actualites/membres-de-ladagp-ce-quil-faut-savoir-sur-la-gestion-de-vos-droits-letranger",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.15,
+        "method": "claude",
+        "reasoning": "Page d'information générale sur l'ADAGP qui mentionne 'Résidences' et 'Bourses et dotations' dans son menu, mais ne contient pas d'appel à candidature spécifique — c'est un focus sur la gestion des droits à l'étranger, non un appel aux artistes.",
+        "scores": {
+          "residence": 0.25,
+          "bourse": 0.16666666666666666,
+          "prix": 0.0,
+          "exposition": 0.5833333333333334
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villa-albertine.org/va/fr/professionals/le-prix-french-press-2026-est-decerne-a-sylvie-kande",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "prix",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Un jury décerne le Prix French Press 2026 à Sylvie Kandé comme distinction compétitive; la résidence Jules Verne est l'une des dotations du prix | garde-fou candidature ouverte : confidence 0.98→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.35714285714285715,
+          "bourse": 0.0,
+          "prix": 0.6428571428571429,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://villa-albertine.org/va/fr/professionals/appel-mng-2027-french",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8,
+      "dry_run": false
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/exposition-%c2%b7-meuble-sommairement",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/in-situ",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/moires-memoires-exposition-paul-pouvreau",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/impromptus-2-danse-musique-poesie",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (0.86, marge 0.71). | garde-fou candidature ouverte : confidence 0.86→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.14285714285714285,
+          "exposition": 0.8571428571428571
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/lune-double-monographie-jeanne-cardinal",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/atelier-briquette-par-muemosa-2",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/visite-atelier-pour-les-petit%c2%b7es-babilony",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/des-mots-et-des-images-dialogue-avec-marie-darrieussecq",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.1,
+        "method": "claude",
+        "reasoning": "Événement public (conférence/rencontre) au musée, non un appel à candidature artistique. Aucune des 4 catégories ne s'applique — c'est un événement culturel ouvert au public avec réservation, pas une résidence, bourse, prix ou appel à exposition.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.3333333333333333,
+          "exposition": 0.6666666666666666
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agent-technique-polyvalent-h-f",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.02,
+        "method": "claude",
+        "reasoning": "Ceci est une offre d'emploi pour un poste d'agent technique (maintenance, plomberie, logistique) et non un appel à candidature artistique. Aucun des quatre types ne s'applique.",
+        "scores": {
+          "residence": 0.5,
+          "bourse": 0.0,
+          "prix": 0.25,
+          "exposition": 0.25
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/portrait-%c2%b7-emmanuel-ygouf",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.05,
+        "method": "claude",
+        "reasoning": "Page de portrait d'enseignant, pas un appel à candidature. Mention de galerie La Transversale, mais aucun appel à participation ou candidature détecté.",
+        "scores": {
+          "residence": 0.16666666666666666,
+          "bourse": 0.08333333333333333,
+          "prix": 0.3333333333333333,
+          "exposition": 0.4166666666666667
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.20 (signal=0.00, verbe=False, rétro_hits=5)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 5
+        }
+      }
+    },
+    {
+      "url": "https://devenir.art/agenda/evenement/memories",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://lametive.fr/events/sortie-de-residence-hajra-khan-exposition-et-atelier-pratique",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Événement public présentant une exposition du travail de l'artiste Hajra Khan et un atelier pratique ouvert au public (« Sortie de résidence » avec « Exposition et atelier pratique ») | garde-fou candidature ouverte : confidence 0.80→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.6521739130434783,
+          "bourse": 0.08695652173913043,
+          "prix": 0.0,
+          "exposition": 0.2608695652173913
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://lametive.fr/events/trafique-desir-helisenne-lestringant-magali-tosato-larissa-jenne-emmanuel-girondin",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.3,
+        "method": "claude",
+        "reasoning": "Événement artistique public (spectacle le 17 nov), mais ce n'est pas un appel à candidature – c'est un événement passé annoncé par la structure, non une opportunité pour candidater",
+        "scores": {
+          "residence": 0.6666666666666666,
+          "bourse": 0.0,
+          "prix": 0.16666666666666666,
+          "exposition": 0.16666666666666666
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://lametive.fr/project/valerie-blaize-dessin-ecriture",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.77, marge 0.54). | garde-fou candidature ouverte : confidence 0.77→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.7692307692307693,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.23076923076923078
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://lametive.fr/project/dorian-chavez-ecriture",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (0.89, marge 0.78). | garde-fou candidature ouverte : confidence 0.89→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.8888888888888888,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.1111111111111111
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://lametive.fr/project/isabelle-attard-ecriture",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8888888888888888,
+      "dry_run": false
+    },
+    {
+      "url": "https://reseau-astre.org/la-rencontre-regionale",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Événement collectif annuel mettant en avant des acteurs territoriaux avec 'découvertes artistiques', mais c'est principalement une rencontre professionnelle rassemblant des acteurs existants plutôt qu'un appel à candidature clair",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://textiellab.nl/en/news",
+      "status": "below_threshold",
+      "score": 4,
+      "type": "prix",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://textiellab.nl/en/news/threads-of-innovation-symposium-a-celebration-of-innovation",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.65,
+        "method": "claude",
+        "reasoning": "Symposium biennial rassemblant artistes, designers et professionnels des textiles. C'est un événement collectif et festival de secteur, le plus proche de la catégorie 'exposition'. Cependant, le contenu est un compte-rendu d'un événement passé (17 septembre 2026) plutôt qu'un appel à candidature futur.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.5,
+          "exposition": 0.5
+        },
+        "open_call_signal": {
+          "score": 0.67,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://textiellab.nl/en/news/open-call-graduates",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://contextile.pt/en/contextile-2026-selected-artists",
+      "status": "promoted",
+      "score": 6,
+      "type": "exposition",
+      "confidence": 0.7222222222222222,
+      "dry_run": false
+    },
+    {
+      "url": "https://contextile.pt/en/contextile-2026-open-call-international-exhibition",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.7142857142857143,
+      "dry_run": false
+    },
+    {
+      "url": "https://contextile.pt/en/2026-textile-talks",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.proyectoace.org/en/who-we-are/our-house/printmaking-workshop",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.proyectoace.org/en/residencies/mural-painting",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.8333333333333334,
+      "dry_run": false
+    },
+    {
+      "url": "https://p-a-c.fr/ressources/opportunites/appel-a-candidatures-fluxus-art-projects-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.85,
+      "dry_run": false
+    },
+    {
+      "url": "https://p-a-c.fr/ressources/opportunites/appel-a-candidatures-chemin-des-affinites-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8461538461538461,
+      "dry_run": false
+    },
+    {
+      "url": "https://p-a-c.fr/ressources/opportunites/appel-a-projet-residence-de-creation-saison-culturelle-2027-quai-du-savoir",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://p-a-c.fr/ressources/opportunites/appel-a-candidatures-les-ateliers-du-cap-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8,
+      "dry_run": false
+    },
+    {
+      "url": "https://p-a-c.fr/ressources/opportunites/appel-a-candidature-bourse-traversees",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.cholet.fr/video/video_609_contrat+local+sante+2026-2030.html",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.cholet.fr/dossiers/dossier_6587_puy-saint-bonnet+retrouve+commerce+proximite.html",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page n'est pas un appel à candidature artistique : c'est un article d'actualité relatant l'ouverture d'une supérette autonome. Aucun élément artistique, résidence, bourse, prix ou exposition n'est mentionné.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.5,
+          "exposition": 0.5
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.cholet.fr/dossiers/dossier_6583_may-sur-evre+travaux+sur+reseaux+assainissmement+eau+potable.html",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.cholet.fr/dossiers/dossier_6584_nouveaux+horaires+pour+boutique+solidaire+croix-rouge.html",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Cette page n'est pas un appel à candidature artistique. C'est une annonce administrative sur les nouveaux horaires d'une boutique solidaire de la Croix-Rouge vendant des vêtements de seconde main. | garde-fou candidature ouverte : confidence 0.98→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.5,
+          "bourse": 0.0,
+          "prix": 0.25,
+          "exposition": 0.25
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.cholet.fr/agenda/evenement_20044_soiree+jeu+loups-garous.html",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+uid: 10daf613
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/prisme
+fetched_at: '2026-11-18T16:41:45+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Prisme
+  organisme: Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-11-30'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees:
+  - Curriculum vitae (4 pages maximum)
+  - Dossier artistique avec environ 10 visuels, liens vidéo/audio si applicable (5-10
+    pages)
+  - Lettre de motivation (2-4 pages)
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Peinture
+  - Sculpture
+  - Photographie
+  - Vidéo
+  - Performance
+  - Bande dessinée
+  - Arts visuels divers
+  niveau_carriere: tous
+  age_max: null
+  nationalite: Artiste français·e ou travaillant/résidant en France depuis au moins
+    5 ans
+  residence_administrative: France, hors Île-de-France
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: 03 septembre - 29 novembre 2027
+  hebergement: true
+  atelier: Atelier-logement de 25 à 40 m² composé d'une pièce de travail, cuisine,
+    salle de bains et espace nuit
+  remuneration:
+    montant: 2000
+    devise: EUR
+    periodicite: mois
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: Accompagnement artistique et professionnel, mise en réseau avec artistes
+    de toutes nationalités, disciplines et générations, ainsi qu'avec des professionnels
+    extérieurs selon les projets
+partenaires:
+- ADAGP
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Programme bien structuré et clairement documenté. Critères d'éligibilité
+    explicites et calendrier défini. Calendrier des résidences fixé à 2027.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T16:41:45+00:00'
+  source_lang: fr
+  detection_confidence: 0.7142857142857143
+  detection_method: heuristic
+  source_label: Cité internationale des arts — appels à candidature ouverts
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Prisme est un dispositif d'aide à la mobilité destiné à trois artistes
+    français·es basés hors Île-de-France, leur permettant de bénéficier d'une résidence
+    de 3 mois à Paris (du 3 septembre au 29 novembre 2027) avec hébergement et bourse
+    de 2 000 € par mois. Une des trois résidences est réservée à un photographe émergent
+    ayant un projet traité des enjeux écologiques. Les lauréat·es bénéficient d'un
+    accompagnement professionnel et d'une mise en réseau avec artistes et professionnels.
+    La sélection s'appuie sur l'évaluation du parcours, la qualité artistique du projet
+    et la pertinence d'une résidence à Paris.
+  pour_qui: Artistes des arts visuels de nationalité française ou résidant en France
+    depuis minimum 5 ans, basés hors Île-de-France et n'ayant jamais été en galerie
+    dans cette région, avec une résidence prioritaire pour photographes émergent·es
+    (max 5 ans d'activité) avec projet écologique.
+a_savoir:
+- Résidence réservée aux artistes français·es de la scène française basés hors Île-de-France
+  ; critères de résidence administrative strictes
+- Une des trois résidences est dédiée aux photographes émergent·es (maximum 5 ans
+  d'activité professionnelle) avec projet traitant d'enjeux écologiques
+- Dossier de candidature uniquement en français obligatoire
+- 'Critères d''exclusion : ne jamais avoir été représenté·e par une galerie en Île-de-France,
+  ne jamais avoir résidé à la Cité internationale des arts'
+- 2 000 € par mois à Paris ; avec hébergement fourni, somme convenable mais resserrée
+  pour coût de la vie parisien
+organisme_details:
+  site_web: null
+  adresse: Site du Marais, Cité internationale des arts
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"remuneration": {"montant": 2000, "devise": "EUR", "periodicite":
+    "mois"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Atelier-logement de 25 à 40 m² composé d''une pièce
+    de travail, cuisine, salle de bains et espace nuit"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false, "plafond": null}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: oui
+  justification: '"montant": 2000 (EUR/mois) + "hebergement": true (Paris)'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: '"La sélection s''appuie sur l''évaluation du parcours, la qualité
+    artistique du projet et la pertinence d''une résidence à Paris"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: Aucune mention de délai ou date de notification des résultats dans
+    la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Aucune mention explicite de notification individuelle aux candidat·es
+    non retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"restitution": "Accompagnement artistique et professionnel, mise
+    en réseau..." (aucune obligation de médiation ou d''ateliers publics mentionnée)'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"dates": "03 septembre - 29 novembre 2027" (calendrier rigide imposé)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"restitution": "mise en réseau avec artistes de toutes nationalités..."
+    (pas d''exposition, édition ou présentation publique explicitement prévue)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: Aucune mention de réseau alumni actif, suivi documenté ou accompagnement
+    post-résidence
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

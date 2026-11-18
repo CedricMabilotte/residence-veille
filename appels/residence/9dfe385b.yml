@@ -1,0 +1,169 @@
+uid: 9dfe385b
+type: residence
+source_url: https://www.citeinternationaledesarts.fr/appels-a-candidature/elles-cite
+fetched_at: '2026-11-18T16:40:01+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Elles & Cité
+  organisme: Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-12-16'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - Curriculum vitae détaillé (4 pages maximum)
+  - Dossier artistique (15 pages maximum) avec visuels, légendes complètes, liens
+    vidéo et fichiers audio
+  - Note d'intention (3 pages maximum) présentant le projet de recherche-création
+    et motivations
+  url_candidature: https://www.citeinternationaledesarts.fr/appels-a-candidature/elles-cite
+eligibilite:
+  disciplines:
+  - photographie
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: France (Hexagone ou Outre-mer), hors région Île-de-France
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: 2 avril au 28 juin 2027 ou 3 septembre au 29 novembre 2027
+  hebergement: true
+  atelier: 'Atelier-logement site du Marais, 20-35 m² : pièce de travail, cuisine,
+    salle de bains, espace nuit. Possibilité d''accueillir un adulte et un enfant
+    jusqu''à 10 ans.'
+  remuneration:
+    montant: 2000
+    devise: EUR
+    periodicite: mois
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: Rédaction d'un texte critique sur le travail par un professionnel du
+    champ de la photographie. Mises en réseau ciblées avec institutions partenaires
+    du champ de la photographie et des arts visuels.
+partenaires:
+- Ministère de la Culture
+- ADAGP
+- Fondation d'entreprise Neuflize OBC
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: Programme bien documenté avec critères clairs, calendrier précis
+    et montants détaillés. Quelques lacunes sur le suivi post-résidence.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T16:40:01+00:00'
+  source_lang: fr
+  detection_confidence: 0.7027027027027027
+  detection_method: heuristic
+  source_label: Cité internationale des arts — appels à candidature ouverts
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'Programme de résidences de trois mois à Paris pour photographes femmes
+    en milieu de carrière (minimum 10 ans d''expérience). Cinq places par an en deux
+    périodes : avril-juin ou septembre-novembre 2027. Les lauréates reçoivent une
+    bourse mensuelle de 2 000 euros nets, une aide à la recherche et production de
+    1 500 euros, une cession de droits d''auteur de 800 euros, un atelier-logement
+    fourni et remboursement des transports. L''accompagnement comprend un suivi artistique
+    et professionnel personnalisé avec des mentors du domaine et mise en réseau avec
+    institutions partenaires.'
+  pour_qui: Photographes femmes de la scène française en milieu de carrière justifiant
+    d'au minimum 10 ans de pratique professionnelle, résidant en France hors Île-de-France
+    et non représentées par une galerie parisienne.
+a_savoir:
+- Résidence obligatoire à Paris (mobilité géographique requise)
+- Critère de résidence hors Île-de-France restrictif pour les candidates parisiennes
+- Exclusion des photographes représentées par galerie parisienne
+- Ateliers-logements non accessibles aux personnes en situation de handicap ; frais
+  supplémentaires pour accompagnants
+- Seulement 5 places par an ; programme réservé à la photographie
+- Délai de réponse long (résultats janvier 2027)
+organisme_details:
+  site_web: https://www.citeinternationaledesarts.fr
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'remuneration.montant: 2000 EUR/mois + aide à la production 1500
+    EUR + cession droits auteur 800 EUR'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: 'hebergement: true - Atelier-logement site du Marais fourni'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier-logement 20-35 m² : pièce de travail, cuisine, salle de
+    bains, espace nuit'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: 'voyage.pris_en_charge: true - remboursement des frais de transport
+    aller-retour'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: 2000 EUR nets/mois + 1500 EUR aide production pour vivre à Paris
+    (coût de vie élevé, montant juste)
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: qualité du projet proposé, pertinence d'une résidence à Paris, potentiel
+    de développement professionnel
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: 'delai_reponse_annonce: Janvier 2027'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Aucune mention explicite d'une notification individuelle aux candidates
+    non retenues
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: La résidence n'impose aucune obligation de production ; objectif
+    soutenir recherche et réseau professionnel
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: oui
+  justification: 'dates: 2 avril-28 juin 2027 ou 3 septembre-29 novembre 2027 (deux
+    périodes au choix)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: texte critique par professionnel du champ + mises en réseau avec
+    institutions partenaires
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: mises en réseau ciblées mentionnées ; absence de suivi alumni explicitement
+    documenté après fin
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

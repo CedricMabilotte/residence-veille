@@ -28,6 +28,9 @@ opportunites_liees:
 - uid: aa3e9d31
   type: residence
   nom: null
+- uid: b137aba7
+  type: residence
+  nom: Artistes en résidence de la Casa de Velázquez 2027-2028
 track_record: {}
 partenaires_mentionnes:
 - organisme_uid: ville-de-valence
@@ -36,10 +39,15 @@ partenaires_mentionnes:
 - organisme_uid: diputacion-de-zaragoza
   occurrences: 2
   nom_brut: Diputación de Zaragoza
+- organisme_uid: academie-de-france-a-madrid
+  occurrences: 1
+  nom_brut: Académie de France à Madrid
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-05-22'
+  last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
 ville: Madrid
+noms_alternatifs:
+- Casa de Velázquez - Académie de France à Madrid

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T16:34:01.854140+00:00",
-  "n_ouvertes": 32,
+  "generated_at": "2026-11-18T17:48:17.530416+00:00",
+  "n_ouvertes": 43,
   "n_archive": 51,
   "opportunites": [
     {
@@ -166,6 +166,177 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "10daf613",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/appels-a-candidature/prisme",
+      "fetched_at": "2026-11-18T16:41:45+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Prisme",
+        "organisme": "Cité internationale des arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-11-30",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Curriculum vitae (4 pages maximum)",
+          "Dossier artistique avec environ 10 visuels, liens vidéo/audio si applicable (5-10 pages)",
+          "Lettre de motivation (2-4 pages)"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Peinture",
+          "Sculpture",
+          "Photographie",
+          "Vidéo",
+          "Performance",
+          "Bande dessinée",
+          "Arts visuels divers"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "Artiste français·e ou travaillant/résidant en France depuis au moins 5 ans",
+        "residence_administrative": "France, hors Île-de-France"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": "03 septembre - 29 novembre 2027"
+        },
+        "hebergement": true,
+        "atelier": "Atelier-logement de 25 à 40 m² composé d'une pièce de travail, cuisine, salle de bains et espace nuit",
+        "remuneration": {
+          "montant": 2000,
+          "devise": "EUR",
+          "periodicite": "mois"
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Accompagnement artistique et professionnel, mise en réseau avec artistes de toutes nationalités, disciplines et générations, ainsi qu'avec des professionnels extérieurs selon les projets"
+      },
+      "partenaires": [
+        "ADAGP"
+      ],
+      "analyse": {
+        "synthese": "Prisme est un dispositif d'aide à la mobilité destiné à trois artistes français·es basés hors Île-de-France, leur permettant de bénéficier d'une résidence de 3 mois à Paris (du 3 septembre au 29 novembre 2027) avec hébergement et bourse de 2 000 € par mois. Une des trois résidences est réservée à un photographe émergent ayant un projet traité des enjeux écologiques. Les lauréat·es bénéficient d'un accompagnement professionnel et d'une mise en réseau avec artistes et professionnels. La sélection s'appuie sur l'évaluation du parcours, la qualité artistique du projet et la pertinence d'une résidence à Paris.",
+        "pour_qui": "Artistes des arts visuels de nationalité française ou résidant en France depuis minimum 5 ans, basés hors Île-de-France et n'ayant jamais été en galerie dans cette région, avec une résidence prioritaire pour photographes émergent·es (max 5 ans d'activité) avec projet écologique."
+      },
+      "a_savoir": [
+        "Résidence réservée aux artistes français·es de la scène française basés hors Île-de-France ; critères de résidence administrative strictes",
+        "Une des trois résidences est dédiée aux photographes émergent·es (maximum 5 ans d'activité professionnelle) avec projet traitant d'enjeux écologiques",
+        "Dossier de candidature uniquement en français obligatoire",
+        "Critères d'exclusion : ne jamais avoir été représenté·e par une galerie en Île-de-France, ne jamais avoir résidé à la Cité internationale des arts",
+        "2 000 € par mois à Paris ; avec hébergement fourni, somme convenable mais resserrée pour coût de la vie parisien"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": "Site du Marais, Cité internationale des arts",
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 2000, \"devise\": \"EUR\", \"periodicite\": \"mois\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Atelier-logement de 25 à 40 m² composé d'une pièce de travail, cuisine, salle de bains et espace nuit\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false, \"plafond\": null}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "oui",
+          "justification": "\"montant\": 2000 (EUR/mois) + \"hebergement\": true (Paris)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "\"La sélection s'appuie sur l'évaluation du parcours, la qualité artistique du projet et la pertinence d'une résidence à Paris\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de délai ou date de notification des résultats dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune mention explicite de notification individuelle aux candidat·es non retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"Accompagnement artistique et professionnel, mise en réseau...\" (aucune obligation de médiation ou d'ateliers publics mentionnée)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"dates\": \"03 septembre - 29 novembre 2027\" (calendrier rigide imposé)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"restitution\": \"mise en réseau avec artistes de toutes nationalités...\" (pas d'exposition, édition ou présentation publique explicitement prévue)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Aucune mention de réseau alumni actif, suivi documenté ou accompagnement post-résidence",
           "poids": 1,
           "famille": "debouche"
         }
@@ -1362,6 +1533,335 @@
       ]
     },
     {
+      "uid": "710d4dae",
+      "type": "residence",
+      "source_url": "https://www.adagp.fr/fr/actualites/appel-candidature-residence-elles-cite-2027",
+      "fetched_at": "2026-11-18T17:07:10+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Résidence Elles & Cité 2027",
+        "organisme": "Cité internationale des arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-12-16",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://www.adagp.fr/fr/actualites/appel-candidature-residence-elles-cite-2027"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "photographie"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "Hors région Île-de-France"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 13,
+          "dates": "2027-04-02 au 2027-06-28 et 2027-09-03 au 2027-11-29"
+        },
+        "hebergement": true,
+        "atelier": "Atelier-logement à la Cité internationale des arts, site du Marais, avec possibilité d'accueillir un adulte et un enfant de 10 ans maximum",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Ministère de la Culture",
+        "Fondation d'entreprise Neuflize OBC",
+        "ADAGP"
+      ],
+      "analyse": {
+        "synthese": "Le programme Elles & Cité 2027 offre six résidences de trois mois à Paris aux femmes photographes en milieu de carrière. Les lauréates bénéficient d'une allocation de vie, de défraiements de déplacement, d'un atelier-logement au Marais, et d'un accompagnement artistique personnalisé par des mentors photographes. Les candidates doivent justifier de dix années d'expérience minimum, résider hors d'Île-de-France, et ne pas être représentées par une galerie parisienne. Date limite : 16 décembre 2026.",
+        "pour_qui": "Femmes photographes confirmées de la scène française en milieu de carrière (minimum dix années d'expérience), domiciliées en dehors de la région Île-de-France."
+      },
+      "a_savoir": [
+        "Programme réservé exclusivement aux femmes photographes (critères d'éligibilité très spécifiques)",
+        "Montants de l'allocation de vie non précisés",
+        "Exclu si représentation par galerie parisienne",
+        "Exclu si résidence en Île-de-France",
+        "Page source partiellement incomplète (texte coupé en fin)"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.citedelasarts.com",
+        "adresse": null,
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"allocation de vie\" (analyse.synthese): \"Les lauréates bénéficient d'une allocation de vie\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Atelier-logement à la Cité internationale des arts, site du Marais\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": true} (voyage seulement, pas de frais de production mentionnés)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"remuneration\": {\"montant\": null}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "Aucun champ \"criteres_selection\" ou mention explicite des critères du jury (seules les conditions d'éligibilité sont énoncées)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"date_limite\": \"2026-12-16\" (date limite de candidature, aucune date de notification annoncée)",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention de notification aux non-retenu·es dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"restitution\": null (aucune obligation de restitution ou d'ateliers publics imposés)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"dates\": \"2027-04-02 au 2027-06-28 et 2027-09-03 au 2027-11-29\" (deux périodes fixes sans apparence de négociabilité)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "\"restitution\": null (aucune exposition, édition ou présentation publique mentionnée)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "\"accompagnement artistique personnalisé par des mentors photographes\" (mentionné en résidence, zéro mention de suivi ou réseau alumni après)",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "8674cccc",
+      "type": "residence",
+      "source_url": "https://www.proyectoace.org/en/residencies/mural-painting",
+      "fetched_at": "2026-11-18T17:24:11+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "[Palimpsest Project] Mural Painting Residency",
+        "organisme": "Proyecto Ace",
+        "lieu": {
+          "ville": "Buenos Aires",
+          "pays": "Argentina",
+          "territoire": null
+        },
+        "nom_fr": "Peinture Murale",
+        "affichage_titre": "Mural Painting [Peinture Murale]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": 0,
+          "devise": null
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://www.proyectoace.org/en/residencies/mural-painting"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "mural painting",
+          "urban art",
+          "visual arts"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "7 working days + opening of the mural to the public, 12 days stay in the city"
+        },
+        "hebergement": null,
+        "atelier": "shared terrace for mural painting",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": "opening of the mural to the public"
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "The Palimpsest Project is a mural painting residency in Buenos Aires for emerging or career visual artists interested in muralism and/or urban art. Artists work on a shared terrace creating murals by dialoguing, intervening, or overlapping with previous works. Registration is free and applications are ongoing year-round. The residency comprises 7 working days of creation plus 12 days total stay in the city, with opportunities to collaborate with other residents and participate in mural festivals in Buenos Aires.",
+        "pour_qui": "Emerging or career visual artists with interest in mural painting and/or urban art, working individually or in groups of up to 2 members."
+      },
+      "a_savoir": [
+        "Candidatures ouvertes toute l'année, sans deadline spécifique",
+        "Aucune rémunération, dotation ou per diem mentionné",
+        "Hébergement non précisé dans les informations disponibles",
+        "Durée très courte (7 jours de travail uniquement)",
+        "Restitution obligatoire avec ouverture publique des fresques"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.proyectoace.org",
+        "adresse": null,
+        "ville": "Buenos Aires",
+        "contact_email": "ace.pirar@proyectoace.org"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "remuneration: {montant: null}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "hebergement: null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: \"shared terrace for mural painting\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "voyage: {pris_en_charge: false}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "remuneration: {montant: null}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "pieces_demandees: null",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: \"Candidatures ouvertes toute l'année, sans deadline spécifique\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention d'un processus de notification aux non-retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "synthèse: \"Artists work on a shared terrace creating murals by dialoguing, intervening\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "date_limite: null (candidatures ouvertes toute l'année) mais duree: \"7 working days\" (rigide)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "restitution: \"opening of the mural to the public\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Pas de mention de réseau alumni, suivi ou accompagnement post-résidence",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "8c656564",
       "type": "residence",
       "source_url": "https://www.fondationdesartistes.fr/missions/produire-dans-la-residence-de-moly-sabata",
@@ -1683,6 +2183,175 @@
       ]
     },
     {
+      "uid": "9dfe385b",
+      "type": "residence",
+      "source_url": "https://www.citeinternationaledesarts.fr/appels-a-candidature/elles-cite",
+      "fetched_at": "2026-11-18T16:40:01+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Elles & Cité",
+        "organisme": "Cité internationale des arts",
+        "lieu": {
+          "ville": "Paris",
+          "pays": "France",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-12-16",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr",
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Curriculum vitae détaillé (4 pages maximum)",
+          "Dossier artistique (15 pages maximum) avec visuels, légendes complètes, liens vidéo et fichiers audio",
+          "Note d'intention (3 pages maximum) présentant le projet de recherche-création et motivations"
+        ],
+        "url_candidature": "https://www.citeinternationaledesarts.fr/appels-a-candidature/elles-cite"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "photographie"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "France (Hexagone ou Outre-mer), hors région Île-de-France"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": "2 avril au 28 juin 2027 ou 3 septembre au 29 novembre 2027"
+        },
+        "hebergement": true,
+        "atelier": "Atelier-logement site du Marais, 20-35 m² : pièce de travail, cuisine, salle de bains, espace nuit. Possibilité d'accueillir un adulte et un enfant jusqu'à 10 ans.",
+        "remuneration": {
+          "montant": 2000,
+          "devise": "EUR",
+          "periodicite": "mois"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "Rédaction d'un texte critique sur le travail par un professionnel du champ de la photographie. Mises en réseau ciblées avec institutions partenaires du champ de la photographie et des arts visuels."
+      },
+      "partenaires": [
+        "Ministère de la Culture",
+        "ADAGP",
+        "Fondation d'entreprise Neuflize OBC"
+      ],
+      "analyse": {
+        "synthese": "Programme de résidences de trois mois à Paris pour photographes femmes en milieu de carrière (minimum 10 ans d'expérience). Cinq places par an en deux périodes : avril-juin ou septembre-novembre 2027. Les lauréates reçoivent une bourse mensuelle de 2 000 euros nets, une aide à la recherche et production de 1 500 euros, une cession de droits d'auteur de 800 euros, un atelier-logement fourni et remboursement des transports. L'accompagnement comprend un suivi artistique et professionnel personnalisé avec des mentors du domaine et mise en réseau avec institutions partenaires.",
+        "pour_qui": "Photographes femmes de la scène française en milieu de carrière justifiant d'au minimum 10 ans de pratique professionnelle, résidant en France hors Île-de-France et non représentées par une galerie parisienne."
+      },
+      "a_savoir": [
+        "Résidence obligatoire à Paris (mobilité géographique requise)",
+        "Critère de résidence hors Île-de-France restrictif pour les candidates parisiennes",
+        "Exclusion des photographes représentées par galerie parisienne",
+        "Ateliers-logements non accessibles aux personnes en situation de handicap ; frais supplémentaires pour accompagnants",
+        "Seulement 5 places par an ; programme réservé à la photographie",
+        "Délai de réponse long (résultats janvier 2027)"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.citeinternationaledesarts.fr",
+        "adresse": null,
+        "ville": "Paris",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration.montant: 2000 EUR/mois + aide à la production 1500 EUR + cession droits auteur 800 EUR",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true - Atelier-logement site du Marais fourni",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier-logement 20-35 m² : pièce de travail, cuisine, salle de bains, espace nuit",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "voyage.pris_en_charge: true - remboursement des frais de transport aller-retour",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "2000 EUR nets/mois + 1500 EUR aide production pour vivre à Paris (coût de vie élevé, montant juste)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "qualité du projet proposé, pertinence d'une résidence à Paris, potentiel de développement professionnel",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "delai_reponse_annonce: Janvier 2027",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune mention explicite d'une notification individuelle aux candidates non retenues",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "La résidence n'impose aucune obligation de production ; objectif soutenir recherche et réseau professionnel",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "dates: 2 avril-28 juin 2027 ou 3 septembre-29 novembre 2027 (deux périodes au choix)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "texte critique par professionnel du champ + mises en réseau avec institutions partenaires",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "mises en réseau ciblées mentionnées ; absence de suivi alumni explicitement documenté après fin",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "a2b6bce5",
       "type": "residence",
       "source_url": "https://www.fondationdesartistes.fr/missions/attribuer-un-atelier",
@@ -1830,6 +2499,182 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "b137aba7",
+      "type": "residence",
+      "source_url": "https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/appel-artistes-en-residence-2027-2028",
+      "fetched_at": "2026-11-18T17:04:10+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Artistes en résidence de la Casa de Velázquez 2027-2028",
+        "organisme": "Casa de Velázquez - Académie de France à Madrid",
+        "lieu": {
+          "ville": "Madrid",
+          "pays": "Espagne",
+          "territoire": "Péninsule Ibérique"
+        },
+        "nom_fr": "Artistes en résidence de la Casa de Velázquez 2027-2028 Académie de France à Madrid Ouvert jusqu'au 27 novembre 2026 Appel en direction des artistes diplômés et/ou disposant d'une œuvre significative ",
+        "affichage_titre": "Artistes en résidence de la Casa de Velázquez 2027-2028 Académie de France à Madrid Ouvert jusqu'au 27 novembre 2026 Appel en direction des artistes diplômés et/ou disposant d'une œuvre significative  [Artistes en résidence de la Casa de Velázquez 2027-2028 Académie de France à Madrid Ouvert jusqu'au 27 novembre 2026 Appel en direction des artistes diplômés et/ou disposant d'une œuvre significative ]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-27",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "fr"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "dossier de candidature",
+          "projet précis de création artistique",
+          "justification de diplôme d'études supérieures artistiques ou pratique artistique significative"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "dessin",
+          "gravure",
+          "sculpture",
+          "peinture",
+          "architecture",
+          "composition musicale",
+          "chorégraphie",
+          "photographie",
+          "cinéma",
+          "vidéo"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 52,
+          "dates": "2027-09-01 à 2028-08-31"
+        },
+        "hebergement": null,
+        "atelier": null,
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Académie de France à Madrid"
+      ],
+      "analyse": {
+        "synthese": "La Casa de Velázquez propose 12 postes de résidence artistique sur 12 mois (1er septembre 2027 - 31 août 2028) en Espagne. S'adresse aux artistes diplômés ou justifiant d'une pratique artistique significative. Disciplines acceptées : dessin, gravure, sculpture, peinture, architecture, composition musicale, chorégraphie, photographie, cinéma et vidéo. Sélection sur dossier et audition en français. Pas de restriction de nationalité, majorité requise.",
+        "pour_qui": "Artistes diplômés ou justifiant d'une pratique artistique significative (émergents ou confirmés), de toute nationalité, maîtrisant le français et souhaitant développer un projet de création en péninsule Ibérique."
+      },
+      "a_savoir": [
+        "Dossier et entretien obligatoirement en français : barrière pour candidats non francophones",
+        "Montant de la bourse non spécifié dans l'appel",
+        "Conditions matérielles (hébergement, atelier, équipements) non précisées dans l'appel",
+        "Audition requise à Paris : frais de déplacement non mentionnés",
+        "12 postes seulement : forte compétition attendue"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.casadevelazquez.org",
+        "adresse": null,
+        "ville": "Madrid",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "\"remuneration\": {\"montant\": null, \"devise\": \"EUR\", \"periodicite\": null}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "\"hebergement\": null — Conditions matérielles non précisées dans l'appel",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "\"atelier\": null — Pas de mention explicite d'espace de travail ou d'équipements fournis",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "\"voyage\": {\"pris_en_charge\": null, \"plafond\": null}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "Montant de la bourse non spécifié dans l'appel — impossible à évaluer",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\" énumérées, mais critères d'évaluation du jury non explicites",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucune date ou délai de notification des résultats annoncé",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Pas de mention d'une notification individuelle aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "inconnu",
+          "justification": "Mention d'un « projet de création » mais pas de précision sur les obligations de médiation ou d'événements imposés",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"dates\": \"2027-09-01 à 2028-08-31\" — calendrier rigide imposé, sans marge",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "non",
+          "justification": "\"restitution\": null — Aucune restitution publique n'est mentionnée",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Pas de mention d'un réseau alumni ou d'accompagnement après la résidence",
           "poids": 1,
           "famille": "debouche"
         }
@@ -2312,6 +3157,176 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "d6cc1040",
+      "type": "residence",
+      "source_url": "https://www.proyectoace.org/en/who-we-are/our-house/printmaking-workshop",
+      "fetched_at": "2026-11-18T17:22:40+00:00",
+      "score": 6,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Proyecto'ace Artist-in-Residence International Program",
+        "organisme": "Proyecto'ace Fundación'ace",
+        "lieu": {
+          "ville": "Buenos Aires",
+          "pays": "Argentina",
+          "territorio": "Colegiales"
+        },
+        "nom_fr": "Atelier Espacio Plus d'informations",
+        "affichage_titre": "Espacio Workshop More information [Atelier Espacio Plus d'informations]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": [],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Intaglio",
+          "Monotype/Monoprint",
+          "Woodblock",
+          "Waterless Lithography",
+          "Silk-aquatint",
+          "Photopolymer Intaglio",
+          "Artists Books",
+          "Drawing",
+          "Illustration"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": null
+        },
+        "hebergement": null,
+        "atelier": "Printmaking workshop with 20 m length, 4 m width, 5.40 m height; equipped for intaglio, monotype/monoprint, woodblock, waterless lithography, silk-aquatint, photopolymer intaglio, artists books, drawing and illustration; electric and manual etching presses, drying racks, work tables, water sinks, acid-resistant trays; tools for woodcut, book binding, intaglio; various inks and materials provided",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": null
+        },
+        "restitution": null
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "Proyecto'ace propose une résidence artistique internationale à Buenos Aires basée sur l'accès à un atelier de gravure professionnel (20 m × 4 m) équipé pour l'intaglio, monotype, gravure sur bois, lithographie sans eau, silk-aquatint et fabrication de livres d'artiste. L'atelier dispose de presses électriques et manuelles, d'outils spécialisés et de matériaux fournis. Le programme s'adresse aux artistes imprimeurs du monde entier. Aucune information sur la durée, la rémunération, l'hébergement ou les critères de sélection n'est accessible dans le contenu fourni.",
+        "pour_qui": "Artistes et imprimeurs travaillant ou souhaitant explorer les techniques de gravure, monotype, lithographie, woodblock et fabrication de livres d'artiste."
+      },
+      "a_savoir": [
+        "Page incomplète : informations essentielles manquantes (date limite, frais, critères de sélection, durée de résidence, rémunération, hébergement).",
+        "Contenu technique limité à la description de l'atelier ; modalités de candidature non détaillées.",
+        "Accès logistique : proche du métro ligne D (Olleros, 4 blocs) et de la gare Colegiales (1 bloc)."
+      ],
+      "organisme_details": {
+        "site_web": "https://www.proyectoace.org",
+        "adresse": null,
+        "ville": "Buenos Aires",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "remuneration: {montant: null, devise: null, periodicite: null}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "hebergement: null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: 'Printmaking workshop with 20 m length, 4 m width, 5.40 m height; equipped for intaglio, monotype/monoprint, woodblock, waterless lithography, silk-aquatint, photopolymer intaglio, artists books, drawing and illustration'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "inconnu",
+          "justification": "voyage: {pris_en_charge: null, plafond: null, devise: null}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "remuneration: {montant: null} — aucun montant pour évaluer le ratio avec le coût de vie de Buenos Aires",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "pieces_demandees: [] — aucun critère de sélection ou barème de jury énoncé",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "date_limite: null, date_limite_precision: null",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "— Aucune mention d'un retour individualisé aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "atelier: 'Printmaking workshop' — espace dédié à la production ; aucune obligation de médiation ou d'ateliers publics énoncée mais aussi pas de confirmation explicite",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "inconnu",
+          "justification": "duree: {semaines: null, dates: null}",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "restitution: null",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "partenaires: [] — aucun suivi alumni, réseau ou accompagnement mentionné",
           "poids": 1,
           "famille": "debouche"
         }
@@ -4468,6 +5483,307 @@
       ]
     },
     {
+      "uid": "19395618",
+      "type": "exposition",
+      "source_url": "https://contextile.pt/en/contextile-2026-selected-artists",
+      "fetched_at": "2026-11-18T17:18:40+00:00",
+      "score": 6,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Contextile 2026 – Contemporary Textile Art Biennial",
+        "organisme": "Contextile",
+        "lieu": {
+          "ville": "Guimarães",
+          "pays": "Portugal"
+        },
+        "nom_fr": "CONTEXTILE 2026",
+        "affichage_titre": "CONTEXTILE 2026 [CONTEXTILE 2026]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "contemporary textile art"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Guimarães, Portugal"
+        ],
+        "dates_exposition": "2026-09-05",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "Fondation Toms Pauli, Lausanne"
+      ],
+      "analyse": {
+        "synthese": "Contextile 2026 est une biennale internationale d'art textile contemporain. L'édition 2026 a reçu 2 036 œuvres de 1 604 artistes (81 pays). Un jury multidisciplinaire a sélectionné 54 œuvres de 51 artistes (27 pays) selon critères de créativité, originalité et maîtrise technique. Les prix seront annoncés à l'ouverture le 5 septembre 2026 à Guimarães.",
+        "pour_qui": "Artistes travaillant en textile contemporain, sans restriction apparente de nationalité ou niveau de carrière."
+      },
+      "a_savoir": [
+        "Page de résultats uniquement : ne contient pas l'appel à candidature actif",
+        "Taux de sélection très compétitif : 51 artistes retenus sur 1 604 candidats (3,2%)",
+        "Thème 2026 obligatoire : 'By a Thread_Por um Fio'",
+        "Conditions de participation absentes : pas de détails sur frais, hébergement, durée résidence, prise en charge"
+      ],
+      "organisme_details": {
+        "site_web": "https://contextile.pt",
+        "adresse": null,
+        "ville": "Guimarães",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "inconnu",
+          "justification": "\"per_diem\": false, mais aucune mention de rémunération, bourse ou dotation",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "\"hebergement_vernissage\": false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "\"Conditions de participation absentes : pas de détails sur frais, hébergement, durée résidence, prise en charge\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"production\": false, \"transport\": {\"pris_en_charge\": false}, \"per_diem\": false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"Pas d'information sur rétribution ou bourse\" — aucune dotation chiffrée",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "\"selon critères de créativité, originalité et maîtrise technique\" et thème obligatoire \"By a Thread_Por um Fio\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "partiel",
+          "justification": "\"Les prix seront annoncés à l'ouverture le 5 septembre 2026\" mais pas de délai d'annonce de sélection initial",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "\"Conditions de participation absentes : pas de détails [...] prise en charge\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"Contextile 2026 est une biennale internationale d'art textile contemporain\" avec partenaire \"Fondation Toms Pauli, Lausanne\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "\"Conditions de participation absentes\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "1b10ec5c",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/btb-the-harris-interactive-commission/11335",
+      "fetched_at": "2026-11-18T16:54:06+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "BTB10: The Harris Interactive Commission",
+        "organisme": "British Textile Biennial and The Harris",
+        "lieu": {
+          "ville": "Preston",
+          "pays": "United Kingdom"
+        },
+        "nom_fr": "BTB10: Commission Interactive The Harris",
+        "affichage_titre": "BTB10: The Harris Interactive Commission [BTB10: Commission Interactive The Harris]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-20",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Short outline of why the commission interests you and how it connects with your practice",
+          "Initial proposal for how you might approach the commission, including how you would incorporate textiles and respond to the allocated space",
+          "Examples of no more than four previous projects with images and/or links to documentation",
+          "Simple outline budget including artist fees and indicative costs for materials, fabrication, travel and other expenses",
+          "Details of any access requirements for the application or interview process",
+          "All combined into one compressed PDF document"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/btb-the-harris-interactive-commission/11335"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "interactive artwork",
+          "textiles",
+          "sculpture",
+          "spatial art",
+          "digital art",
+          "immersive art"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "The Harris, Preston"
+        ],
+        "dates_exposition": "29/05/2027 - 31/08/2027",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": true,
+          "transport": {
+            "pris_en_charge": true,
+            "plafond": 10000,
+            "devise": "GBP"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "British Textile Biennial",
+        "The Harris"
+      ],
+      "analyse": {
+        "synthese": "British Textile Biennial and The Harris co-commission an interactive artwork incorporating textiles for the BTB10 anniversary exhibition at The Harris, Preston (29 May – 31 August 2027). The successful artist or collective receives £10,000 covering fees, materials, fabrication, travel and project expenses, plus curatorial and production support. The work will occupy 3 m × 6.6 m in the exhibition's central room and must respond to themes explored across BTB's decade-long programme: labour, place, materials, sustainability and changing relationships with textiles. Artists from all career stages and disciplines are welcome; previous commission experience is useful but not essential.",
+        "pour_qui": "Individual artists, designers, makers, or collectives with experience or demonstrated capacity in creating participatory, interactive, public-facing work that engages audiences across generations."
+      },
+      "a_savoir": [
+        "Limited budget (£10,000) must cover artist fees, materials, fabrication, and travel across ~6 months",
+        "Tight timeline: deadline 20 November 2026; interviews early December; installation May 2027",
+        "Precise spatial constraints (3 m × 6.6 m with 4.1 m hanging height) require careful spatial planning and consideration of visitor flow",
+        "Work must remain durable, accessible and engaging for public interaction throughout 3-month exhibition run with no guaranteed maintenance support",
+        "Artist may be responsible for durability, technical support, maintenance or material replacement depending on work form",
+        "No guaranteed post-exhibition life or future presentation; opportunities would be explored after selection"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Preston",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"prise_en_charge\": {\"plafond\": 10000, \"devise\": \"GBP\"} — commission de £10 000 couvrant les frais artistiques, matériaux, fabrication et voyage",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "\"per_diem\": false, \"hebergement_vernissage\": false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucune mention d'atelier, studio ou espace de production fourni dans la fiche",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "\"production\": true, \"transport\": {\"pris_en_charge\": true, \"plafond\": 10000} — les frais de transport et production sont inclus",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "\"Limited budget (£10,000) must cover artist fees, materials, fabrication, and travel across ~6 months\" — environ £1 667/mois avant déduction des frais matériels et production, adéquation incertaine",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "\"must respond to themes explored across BTB's decade-long programme: labour, place, materials, sustainability and changing relationships with textiles\" — critères thématiques énoncés mais pas formellement pondérés ni exhaustivement structurés",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "\"Tight timeline: deadline 20 November 2026; interviews early December; installation May 2027\" — date d'entrevues annoncée",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "Aucune mention de retour ou notification individualisée aux candidats non retenus",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"lieux\": [\"The Harris, Preston\"], \"format\": \"collective\" — exposition au Harris (lieu reconnu d'art contemporain), inclusion dans l'exposition BTB 10 Year Survey",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "\"opportunities would be explored after selection\" — exploration d'opportunités future mentionnée mais non garantie ni structurée formellement",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "1b321056",
       "type": "exposition",
       "source_url": "https://www.cnap.fr/actualites/evenements/olga-boudin-pour-qui-brille-le-soleil",
@@ -4605,6 +5921,172 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "4f662363",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240",
+      "fetched_at": "2026-11-18T16:55:53+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "MATERIALITIES International Contemporary Art Exhibition | December 2026",
+        "organisme": "Galeria 5ª ao Sul",
+        "lieu": {
+          "ville": null,
+          "pays": "Portugal"
+        },
+        "nom_fr": "MATERIALITIES - Exposition internationale d'art contemporain | Décembre 2026",
+        "affichage_titre": "MATERIALITIES  International Contemporary Art Exhibition | December 2026 [MATERIALITIES - Exposition internationale d'art contemporain | Décembre 2026]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-20",
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR",
+          "details": "Applications free of charge. Selected artists must pay €35 (1 work), €50 (2 works) or €75 (3 works)."
+        },
+        "pieces_demandees": [
+          "High-resolution artwork images or digital documentation (for physical artworks)",
+          "Technical details of artworks",
+          "Artist biography",
+          "Artistic statement",
+          "Up to 3 artworks per artist"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Painting and Drawing",
+          "Textile Art and Fibre Art",
+          "Sculpture and Ceramics",
+          "Photography and Digital Imaging",
+          "Mixed Media and Assemblage",
+          "Installation Art",
+          "Video Art and Moving Image",
+          "Digital, Generative and Post-Digital Art",
+          "Performance and Experimental Artistic Practices"
+        ],
+        "niveau_carriere": "Emerging and established artists",
+        "age_max": null,
+        "nationalite": "Worldwide, regardless of nationality",
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Online 3D virtual exhibition (KUNSTMATRIX)",
+          "Official gallery website (5aosul.com)",
+          "Official exhibition catalogue (Amazon Publishing)"
+        ],
+        "dates_exposition": "10 December 2026 - 9 January 2027",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "KUNSTMATRIX",
+        "CuratorSpace",
+        "Amazon Publishing"
+      ],
+      "analyse": {
+        "synthese": "Galeria 5ª ao Sul invites emerging and established artists worldwide to submit work for Materialities, an international contemporary art exhibition presented online in December 2026, exploring how matter and material processes shape contemporary artistic practice. Selected artists receive international online exhibition access, inclusion in official ISBN catalogue distributed globally by Amazon, dedicated artist profile on gallery website, digital certificate, and zero commission on artwork sales. Applications are free; selected artists pay €35-€75 participation fee depending on number of works accepted.",
+        "pour_qui": "Emerging and established artists aged 18+, worldwide, working in contemporary disciplines (painting, textile, sculpture, photography, digital art, video, installation, generative practices, performance documentation), interested in exploring materiality and engaging with the exhibition's curatorial theme."
+      },
+      "a_savoir": [
+        "Exhibition entirely online — no physical space, studio, equipment or on-site production time.",
+        "Pay-to-play structure: €35-€75 participation fee charged after selection.",
+        "Very short timeline: 3 weeks from submission deadline (20 Nov) to exhibition opening (10 Dec).",
+        "No artist remuneration, per diem or housing provided.",
+        "Physical artworks displayed solely through high-resolution digital documentation.",
+        "Visible selection criteria published; rapid notification timeline (selected by 24 Nov)."
+      ],
+      "organisme_details": {
+        "site_web": "https://5aosul.com",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "No artist remuneration, stipend or monetary award mentioned.",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Exhibition entirely online. No housing provided.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Galeria 5ª ao Sul operates exclusively online. No studio, workspace or equipment provided.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Selected artists required to pay €35-€75 participation fee. No travel, production or transportation costs covered.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "No stipend or per diem. Structure does not enable artist subsistence.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "Explicit selection criteria stated: 'artistic quality, conceptual relevance, originality and the relationship between the proposed works and the exhibition theme'.",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "Response timeline announced: 'Selected artists will be notified by 24 November 2026'.",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "No mention of individual notification to non-selected applicants.",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "Official ISBN catalogue published and distributed globally via Amazon (broad reach). Virtual exhibition on KUNSTMATRIX and gallery website (more limited reach). No presence in recognized physical institution.",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "No documented follow-up, alumni network or post-program support mentioned.",
           "poids": 1,
           "famille": "debouche"
         }
@@ -4922,6 +6404,313 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "Pas de mention de réseau alumni, suivi documenté ou accompagnement après le programme",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "9dec9c1c",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280",
+      "fetched_at": "2026-11-18T16:50:26+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Monochrome 2027, International Photography Exhibition",
+        "organisme": "The Glasgow Gallery of Photography",
+        "lieu": {
+          "ville": "Glasgow",
+          "pays": "United Kingdom"
+        },
+        "nom_fr": "Monochrome 2027, Exposition Internationale de Photographie",
+        "affichage_titre": "Monochrome 2027, International Photography Exhibition [Monochrome 2027, Exposition Internationale de Photographie]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-20",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant_soumission": 0,
+          "montant_si_selection": 50,
+          "devise": "GBP",
+          "description": "Free submission; £50 participation fee if selected, covers printing, installation and un-installation"
+        },
+        "pieces_demandees": [
+          "Up to 8 JPEG images",
+          "72 ppi minimum for initial submission",
+          "If selected: 300 ppi, 3000 pixels minimum on shortest side",
+          "File naming format: Firstname-Surname1, Firstname-Surname2, etc."
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Photography"
+        ],
+        "niveau_carriere": "All levels (emerging and established photographers)",
+        "age_max": null,
+        "nationalite": "Open to everyone",
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "The Glasgow Gallery of Photography, Glasgow"
+        ],
+        "dates_exposition": "1st - 25th April 2027",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": true,
+          "transport": {
+            "pris_en_charge": true,
+            "details": "Printing, installation, and un-installation covered by gallery",
+            "plafond": null,
+            "devise": "GBP"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": null,
+      "analyse": {
+        "synthese": "Monochrome 2027 est un appel à candidature gratuit pour une exposition photographique collective annuelle accueillie par la Glasgow Gallery of Photography en avril 2027. Ouverte à tous les photographes (émergeants ou établis), la sélection implique une participation de 50 £ couvrant l'impression, l'installation et la désinstallation. Les œuvres sélectionnées seront exposées pendant un mois en galerie physique (500+ visiteurs mensuels en moyenne), en ligne (75K visiteurs annuels) et sur les réseaux sociaux (16K followers Instagram). Les artistes sélectionnés peuvent concourir pour le titre de Photographer of the Month et figure dans un zine de fin d'année.",
+        "pour_qui": "Photographes de tous niveaux et toutes origines créant des images en monochrome (noir et blanc, cyanotypes, sépia)."
+      },
+      "a_savoir": [
+        "Frais de participation obligatoire de 50 £ si l'œuvre est sélectionnée",
+        "Les artistes non sélectionnés ne reçoivent pas de notification individuelle",
+        "Les cadres utilisés à l'exposition appartiennent à la galerie et ne sont pas fournis aux artistes",
+        "Les artistes doivent récupérer leurs tirages dans le mois suivant la fin de l'exposition",
+        "Aucun critère de sélection explicitement publié au-delà du thème monochrome"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Glasgow",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "Aucune rémunération, bourse ou dotation versée aux artistes",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "\"hebergement_vernissage\": false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Aucun espace de production ou studio fourni",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"Printing, installation, and un-installation covered by gallery\" (transport et production d'œuvres restent à charge)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"per_diem\": false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "Aucun critère de sélection explicitement publié au-delà du thème monochrome",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "inconnu",
+          "justification": "Pas d'information présente dans la fiche sur un délai ou date de notification",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "\"Les artistes non sélectionnés ne reçoivent pas de notification individuelle\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "Exposition en galerie (500+ visiteurs/mois), en ligne (75K visiteurs annuels), réseaux sociaux (16K followers), zine de fin d'année",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "Possibility of Photographer of the Month recognition and inclusion in annual zine; pas de suivi documenté au-delà",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "cc40d764",
+      "type": "exposition",
+      "source_url": "https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827",
+      "fetched_at": "2026-11-18T16:44:33+00:00",
+      "score": 6,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "Visual Art Studio Space - Canberra, Australia",
+        "organisme": "ANCA Inc",
+        "lieu": {
+          "ville": "Canberra",
+          "pays": "Australia"
+        },
+        "nom_fr": "Espace Studio d'Art Visuel - Canberra, Australie Studios d'arts visuels professionnels disponibles pour artistes travaillant dans tous les médiums",
+        "affichage_titre": "Visual Art Studio Space - Canberra, Australia Professional Visual Arts Studios available artists working in all mediums [Espace Studio d'Art Visuel - Canberra, Australie Studios d'arts visuels professionnels disponibles pour artistes travaillant dans tous les médiums]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "Written application",
+          "Financial referee report",
+          "Professional referee report"
+        ],
+        "url_candidature": "https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Visual arts"
+        ],
+        "niveau_carriere": "Professional",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": "working and living in the Canberra region"
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Canberra"
+        ],
+        "dates_exposition": "Long-term, 3-year leases",
+        "format": null,
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "AUD"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [
+        "ANCA Inc",
+        "ANCA Gallery"
+      ],
+      "analyse": {
+        "synthese": "ANCA offers professional visual arts studios in Canberra for artists working in all mediums, ranging from 32 to 100 square meters. Studios include sink, lighting, high ceilings, concrete floor, 24-hour access, free parking, and integration into a community of over 40 studio artists. Rental fees start at $270 per month. Artists participate in tenant meetings, cleaning duties, working bees, and specialist committees. ANCA Gallery provides exhibition opportunities, and the annual Open Studios event connects studios to the public.",
+        "pour_qui": "Professional visual artists permanently based in the Canberra region seeking long-term, affordable studio space within an established artist-run community."
+      },
+      "a_savoir": [
+        "ANCA is currently unable to accept submissions at the time of this page capture",
+        "No fixed deadline; applications accepted year-round",
+        "Average waiting time after acceptance: 3–6 months before studio availability",
+        "Mandatory participation required: ~6 tenant meetings/year, ~8 hours cleaning/year, 2 working bees/year, mandatory specialised committee participation for at least 1 year",
+        "Disabled toilet access available only at ANCA Dickson location",
+        "Studio alterations require ANCA board approval and must be removed upon vacating",
+        "Rental fees based on studio size, not inclusive of utilities or other costs",
+        "Long waiting list expected due to community demand"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Canberra",
+        "contact_email": "info@anca.net.au"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "No artist remuneration, stipend, or per diem. Studios are rented at $270+ per month.",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "No accommodation provided. This is a studio-only rental, not a residency program.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "Each studio is a blank slate which includes a sink, lighting, high ceilings and concrete floor. 24-hour access year-round, 32–100 m²",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "Artists pay monthly rent from $270. No production, transport, materials, or other costs are covered.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "Not applicable—no artist dotation or per diem. Only rental costs mentioned, which is an expense for the artist, not a source of income.",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "oui",
+          "justification": "The interview questions will elaborate on the 7 selection criteria listed in the written application",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "On average applicants wait between 3 and 6 months for a studio after acceptance",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "partiel",
+          "justification": "Applicants participate in an individual interview with the committee, but no explicit statement that rejected applicants receive individual notification",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "Artists access ANCA Gallery's exhibition program and participate in the popular annual Open Studios open to the public",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "oui",
+          "justification": "Active ongoing community: over 40 committed artists, involvement in board and committees, ANCA has a highly respected profile within the Canberra arts community",
           "poids": 1,
           "famille": "debouche"
         }

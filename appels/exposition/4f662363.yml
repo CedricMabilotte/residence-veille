@@ -1,0 +1,182 @@
+uid: 4f662363
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240
+fetched_at: '2026-11-18T16:55:53+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: MATERIALITIES International Contemporary Art Exhibition | December 2026
+  organisme: Galeria 5ª ao Sul
+  lieu:
+    ville: null
+    pays: Portugal
+  nom_fr: MATERIALITIES - Exposition internationale d'art contemporain | Décembre
+    2026
+  affichage_titre: MATERIALITIES  International Contemporary Art Exhibition | December
+    2026 [MATERIALITIES - Exposition internationale d'art contemporain | Décembre
+    2026]
+candidature:
+  date_limite: '2026-11-20'
+  langue_dossier: null
+  frais_inscription:
+    montant: 0
+    devise: EUR
+    details: Applications free of charge. Selected artists must pay €35 (1 work),
+      €50 (2 works) or €75 (3 works).
+  pieces_demandees:
+  - High-resolution artwork images or digital documentation (for physical artworks)
+  - Technical details of artworks
+  - Artist biography
+  - Artistic statement
+  - Up to 3 artworks per artist
+  url_candidature: https://www.curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240
+eligibilite:
+  disciplines:
+  - Painting and Drawing
+  - Textile Art and Fibre Art
+  - Sculpture and Ceramics
+  - Photography and Digital Imaging
+  - Mixed Media and Assemblage
+  - Installation Art
+  - Video Art and Moving Image
+  - Digital, Generative and Post-Digital Art
+  - Performance and Experimental Artistic Practices
+  niveau_carriere: Emerging and established artists
+  age_max: null
+  nationalite: Worldwide, regardless of nationality
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Online 3D virtual exhibition (KUNSTMATRIX)
+  - Official gallery website (5aosul.com)
+  - Official exhibition catalogue (Amazon Publishing)
+  dates_exposition: 10 December 2026 - 9 January 2027
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- KUNSTMATRIX
+- CuratorSpace
+- Amazon Publishing
+_meta:
+  extracted_confidence: 0.95
+  extracted_notes: 'Exhibition entirely online. Galeria 5ª ao Sul operates exclusively
+    online. Physical artworks exhibited through digital documentation in virtual gallery.
+    Curator Selma Eduarda Pereira: artist, researcher, Ph.D. Digital Media Art, 4K
+    Instagram followers, international exhibition history.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T16:55:53+00:00'
+  source_lang: en
+  resume_fr: 'Galeria 5ª ao Sul (Portugal) invite les artistes émergents et confirmés
+    à soumettre leurs œuvres pour une exposition en ligne en décembre 2026, explorant
+    comment la matière et les matériaux façonnent la pratique artistique contemporaine.
+    Les candidatures sont gratuites et ouvertes à diverses disciplines artistiques
+    : peinture, sculpture, textile, photographie, art vidéo, art numérique, installation
+    et formes expérimentales. Les artistes sélectionnés bénéficieront d''une exposition
+    internationale en environnement virtuel, d''une inclusion au catalogue officiel,
+    d''un profil dédié sur le site de la galerie, d''un certificat numérique de participation
+    et d''une commission zéro sur les ventes. L''exposition présentera les œuvres
+    par documentation numérique haute qualité dans une galerie 3D virtuelle. Date
+    limite de candidature : 20/11/2026.'
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Galeria 5ª ao Sul invites emerging and established artists worldwide to
+    submit work for Materialities, an international contemporary art exhibition presented
+    online in December 2026, exploring how matter and material processes shape contemporary
+    artistic practice. Selected artists receive international online exhibition access,
+    inclusion in official ISBN catalogue distributed globally by Amazon, dedicated
+    artist profile on gallery website, digital certificate, and zero commission on
+    artwork sales. Applications are free; selected artists pay €35-€75 participation
+    fee depending on number of works accepted.
+  pour_qui: Emerging and established artists aged 18+, worldwide, working in contemporary
+    disciplines (painting, textile, sculpture, photography, digital art, video, installation,
+    generative practices, performance documentation), interested in exploring materiality
+    and engaging with the exhibition's curatorial theme.
+a_savoir:
+- Exhibition entirely online — no physical space, studio, equipment or on-site production
+  time.
+- 'Pay-to-play structure: €35-€75 participation fee charged after selection.'
+- 'Very short timeline: 3 weeks from submission deadline (20 Nov) to exhibition opening
+  (10 Dec).'
+- No artist remuneration, per diem or housing provided.
+- Physical artworks displayed solely through high-resolution digital documentation.
+- Visible selection criteria published; rapid notification timeline (selected by 24
+  Nov).
+organisme_details:
+  site_web: https://5aosul.com
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: No artist remuneration, stipend or monetary award mentioned.
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: Exhibition entirely online. No housing provided.
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: Galeria 5ª ao Sul operates exclusively online. No studio, workspace
+    or equipment provided.
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Selected artists required to pay €35-€75 participation fee. No travel,
+    production or transportation costs covered.
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: No stipend or per diem. Structure does not enable artist subsistence.
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: 'Explicit selection criteria stated: ''artistic quality, conceptual
+    relevance, originality and the relationship between the proposed works and the
+    exhibition theme''.'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: 'Response timeline announced: ''Selected artists will be notified
+    by 24 November 2026''.'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: No mention of individual notification to non-selected applicants.
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: partiel
+  justification: Official ISBN catalogue published and distributed globally via Amazon
+    (broad reach). Virtual exhibition on KUNSTMATRIX and gallery website (more limited
+    reach). No presence in recognized physical institution.
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: No documented follow-up, alumni network or post-program support mentioned.
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

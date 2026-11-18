@@ -1,0 +1,175 @@
+uid: b137aba7
+type: residence
+source_url: https://www.casadevelazquez.org/que-pasa-en-la-casa/detail/appel-artistes-en-residence-2027-2028
+fetched_at: '2026-11-18T17:04:10+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Artistes en résidence de la Casa de Velázquez 2027-2028
+  organisme: Casa de Velázquez - Académie de France à Madrid
+  lieu:
+    ville: Madrid
+    pays: Espagne
+    territoire: Péninsule Ibérique
+  nom_fr: 'Artistes en résidence de la Casa de Velázquez 2027-2028 Académie de France
+    à Madrid Ouvert jusqu''au 27 novembre 2026 Appel en direction des artistes diplômés
+    et/ou disposant d''une œuvre significative '
+  affichage_titre: Artistes en résidence de la Casa de Velázquez 2027-2028 Académie
+    de France à Madrid Ouvert jusqu'au 27 novembre 2026 Appel en direction des artistes
+    diplômés et/ou disposant d'une œuvre significative  [Artistes en résidence de
+    la Casa de Velázquez 2027-2028 Académie de France à Madrid Ouvert jusqu'au 27
+    novembre 2026 Appel en direction des artistes diplômés et/ou disposant d'une œuvre
+    significative ]
+candidature:
+  date_limite: '2026-11-27'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees:
+  - dossier de candidature
+  - projet précis de création artistique
+  - justification de diplôme d'études supérieures artistiques ou pratique artistique
+    significative
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - dessin
+  - gravure
+  - sculpture
+  - peinture
+  - architecture
+  - composition musicale
+  - chorégraphie
+  - photographie
+  - cinéma
+  - vidéo
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: 52
+    dates: 2027-09-01 à 2028-08-31
+  hebergement: null
+  atelier: null
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Académie de France à Madrid
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: 'Appel bien structuré mais information essentielle manquante :
+    montant de la bourse, conditions d''hébergement et espace de travail non précisés.
+    URL du portail de candidature non fournie.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T17:04:10+00:00'
+  source_lang: es
+  resume_fr: null
+  detection_confidence: 0.7
+  detection_method: heuristic
+  source_label: Casa de Velázquez — Académie de France à Madrid
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'La Casa de Velázquez propose 12 postes de résidence artistique sur 12
+    mois (1er septembre 2027 - 31 août 2028) en Espagne. S''adresse aux artistes diplômés
+    ou justifiant d''une pratique artistique significative. Disciplines acceptées
+    : dessin, gravure, sculpture, peinture, architecture, composition musicale, chorégraphie,
+    photographie, cinéma et vidéo. Sélection sur dossier et audition en français.
+    Pas de restriction de nationalité, majorité requise.'
+  pour_qui: Artistes diplômés ou justifiant d'une pratique artistique significative
+    (émergents ou confirmés), de toute nationalité, maîtrisant le français et souhaitant
+    développer un projet de création en péninsule Ibérique.
+a_savoir:
+- 'Dossier et entretien obligatoirement en français : barrière pour candidats non
+  francophones'
+- Montant de la bourse non spécifié dans l'appel
+- Conditions matérielles (hébergement, atelier, équipements) non précisées dans l'appel
+- 'Audition requise à Paris : frais de déplacement non mentionnés'
+- '12 postes seulement : forte compétition attendue'
+organisme_details:
+  site_web: https://www.casadevelazquez.org
+  adresse: null
+  ville: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: '"remuneration": {"montant": null, "devise": "EUR", "periodicite":
+    null}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: '"hebergement": null — Conditions matérielles non précisées dans
+    l''appel'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: '"atelier": null — Pas de mention explicite d''espace de travail
+    ou d''équipements fournis'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: '"voyage": {"pris_en_charge": null, "plafond": null}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: Montant de la bourse non spécifié dans l'appel — impossible à évaluer
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"pieces_demandees" énumérées, mais critères d''évaluation du jury
+    non explicites'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucune date ou délai de notification des résultats annoncé
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Pas de mention d'une notification individuelle aux candidats non
+    retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: Mention d'un « projet de création » mais pas de précision sur les
+    obligations de médiation ou d'événements imposés
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"dates": "2027-09-01 à 2028-08-31" — calendrier rigide imposé, sans
+    marge'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: non
+  justification: '"restitution": null — Aucune restitution publique n''est mentionnée'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Pas de mention d'un réseau alumni ou d'accompagnement après la résidence
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

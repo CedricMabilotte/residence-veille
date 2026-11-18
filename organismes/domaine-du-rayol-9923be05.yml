@@ -2,11 +2,17 @@ uid: domaine-du-rayol-9923be05
 nom_canonique: Domaine du Rayol
 acronymes: []
 pays: null
-type_organisme: null
+type_organisme: centre_art
 url_canonique: null
 urls_secondaires: []
-description_courte: null
-disciplines_proposees: []
+description_courte: Jardin d'art et d'architecture situé en Provence avec installations et collections contemporaines.
+disciplines_proposees:
+- sculpture
+- installation artistique
+- architecture paysagère
+- photographie
+- art contemporain
+- jardins
 types_opportunites_habituels:
 - residence
 opportunites_liees:

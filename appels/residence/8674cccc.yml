@@ -1,0 +1,160 @@
+uid: 8674cccc
+type: residence
+source_url: https://www.proyectoace.org/en/residencies/mural-painting
+fetched_at: '2026-11-18T17:24:11+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: '[Palimpsest Project] Mural Painting Residency'
+  organisme: Proyecto Ace
+  lieu:
+    ville: Buenos Aires
+    pays: Argentina
+    territoire: null
+  nom_fr: Peinture Murale
+  affichage_titre: Mural Painting [Peinture Murale]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: 0
+    devise: null
+  pieces_demandees: null
+  url_candidature: https://www.proyectoace.org/en/residencies/mural-painting
+eligibilite:
+  disciplines:
+  - mural painting
+  - urban art
+  - visual arts
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 7 working days + opening of the mural to the public, 12 days stay in the
+      city
+  hebergement: null
+  atelier: shared terrace for mural painting
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: null
+  restitution: opening of the mural to the public
+partenaires: []
+_meta:
+  extracted_confidence: 0.62
+  extracted_notes: 'Concept and location clearly stated; critical details missing:
+    no remuneration, accommodation not specified, selection criteria not published,
+    response timeline not indicated'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T17:24:11+00:00'
+  source_lang: en
+  resume_fr: 'Le Palimpsest Project propose une résidence murale à Buenos Aires où
+    les artistes créent des fresques en dialoguant avec les œuvres existantes. La
+    résidence dure 7 jours de travail plus 12 jours de séjour en ville, s''adresse
+    aux artistes visuels en groupes de jusqu''à 2 personnes, avec inscription gratuite
+    et candidatures ouvertes toute l''année. Deux formats sont disponibles : résidences
+    d''exploration (4 semaines) et micro-résidences (2 semaines, 10 jours de travail).
+    Les résidences encouragent la collaboration avec d''autres résidents et artistes
+    locaux, notamment dans les festivals de peinture murale et les espaces publics
+    de Buenos Aires.'
+  detection_confidence: 0.8333333333333334
+  detection_method: heuristic
+  source_label: Proyecto'ACE — résidences de production (Buenos Aires)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: The Palimpsest Project is a mural painting residency in Buenos Aires for
+    emerging or career visual artists interested in muralism and/or urban art. Artists
+    work on a shared terrace creating murals by dialoguing, intervening, or overlapping
+    with previous works. Registration is free and applications are ongoing year-round.
+    The residency comprises 7 working days of creation plus 12 days total stay in
+    the city, with opportunities to collaborate with other residents and participate
+    in mural festivals in Buenos Aires.
+  pour_qui: Emerging or career visual artists with interest in mural painting and/or
+    urban art, working individually or in groups of up to 2 members.
+a_savoir:
+- Candidatures ouvertes toute l'année, sans deadline spécifique
+- Aucune rémunération, dotation ou per diem mentionné
+- Hébergement non précisé dans les informations disponibles
+- Durée très courte (7 jours de travail uniquement)
+- Restitution obligatoire avec ouverture publique des fresques
+organisme_details:
+  site_web: https://www.proyectoace.org
+  adresse: null
+  ville: Buenos Aires
+  contact_email: ace.pirar@proyectoace.org
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: 'remuneration: {montant: null}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: 'hebergement: null'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: "shared terrace for mural painting"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: 'voyage: {pris_en_charge: false}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: 'remuneration: {montant: null}'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'pieces_demandees: null'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: "Candidatures ouvertes toute l''année, sans deadline spécifique"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas de mention d'un processus de notification aux non-retenu·es
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: 'synthèse: "Artists work on a shared terrace creating murals by dialoguing,
+    intervening"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: 'date_limite: null (candidatures ouvertes toute l''année) mais duree:
+    "7 working days" (rigide)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: 'restitution: "opening of the mural to the public"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Pas de mention de réseau alumni, suivi ou accompagnement post-résidence
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

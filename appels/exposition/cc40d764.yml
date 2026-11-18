@@ -1,0 +1,164 @@
+uid: cc40d764
+type: exposition
+source_url: https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827
+fetched_at: '2026-11-18T16:44:33+00:00'
+score: 6
+status: indetermine
+opportunite:
+  nom: Visual Art Studio Space - Canberra, Australia
+  organisme: ANCA Inc
+  lieu:
+    ville: Canberra
+    pays: Australia
+  nom_fr: Espace Studio d'Art Visuel - Canberra, Australie Studios d'arts visuels
+    professionnels disponibles pour artistes travaillant dans tous les médiums
+  affichage_titre: Visual Art Studio Space - Canberra, Australia Professional Visual
+    Arts Studios available artists working in all mediums [Espace Studio d'Art Visuel
+    - Canberra, Australie Studios d'arts visuels professionnels disponibles pour artistes
+    travaillant dans tous les médiums]
+candidature:
+  date_limite: null
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - Written application
+  - Financial referee report
+  - Professional referee report
+  url_candidature: https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827
+eligibilite:
+  disciplines:
+  - Visual arts
+  niveau_carriere: Professional
+  age_max: null
+  nationalite: null
+  residence_administrative: working and living in the Canberra region
+conditions_exposition:
+  lieux:
+  - Canberra
+  dates_exposition: Long-term, 3-year leases
+  format: null
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: AUD
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- ANCA Inc
+- ANCA Gallery
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: 'This is a studio rental opportunity, not a traditional artist
+    residency or exhibition program. The page states: ''This opportunity is currently
+    unable to accept submissions.'' Studios are rented at AUD $270+ per month with
+    3-year leases. All schematic fields adapted to studio-space context.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T16:44:33+00:00'
+  source_lang: en
+  resume_fr: ANCA propose des studios d'arts visuels professionnels à Canberra pour
+    artistes de tous les médiums. Les studios mesurent de 32 à 100 mètres carrés avec
+    accès 24 heures sur 24, 365 jours par an, baux de 3 ans, loyers à partir de 270
+    dollars par mois selon la taille, parking gratuit et communauté de plus de 40
+    artistes. Les candidatures sont acceptées toute l'année et l'attente moyenne pour
+    obtenir un studio est de 3 à 6 mois. Chaque studio est un espace blanc aménageable
+    équipé d'un lavabo, d'éclairage, de hauts plafonds et d'un sol en béton.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Curator Space — opportunities (EN)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: ANCA offers professional visual arts studios in Canberra for artists working
+    in all mediums, ranging from 32 to 100 square meters. Studios include sink, lighting,
+    high ceilings, concrete floor, 24-hour access, free parking, and integration into
+    a community of over 40 studio artists. Rental fees start at $270 per month. Artists
+    participate in tenant meetings, cleaning duties, working bees, and specialist
+    committees. ANCA Gallery provides exhibition opportunities, and the annual Open
+    Studios event connects studios to the public.
+  pour_qui: Professional visual artists permanently based in the Canberra region seeking
+    long-term, affordable studio space within an established artist-run community.
+a_savoir:
+- ANCA is currently unable to accept submissions at the time of this page capture
+- No fixed deadline; applications accepted year-round
+- 'Average waiting time after acceptance: 3–6 months before studio availability'
+- 'Mandatory participation required: ~6 tenant meetings/year, ~8 hours cleaning/year,
+  2 working bees/year, mandatory specialised committee participation for at least
+  1 year'
+- Disabled toilet access available only at ANCA Dickson location
+- Studio alterations require ANCA board approval and must be removed upon vacating
+- Rental fees based on studio size, not inclusive of utilities or other costs
+- Long waiting list expected due to community demand
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Canberra
+  contact_email: info@anca.net.au
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: No artist remuneration, stipend, or per diem. Studios are rented
+    at $270+ per month.
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: No accommodation provided. This is a studio-only rental, not a residency
+    program.
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: Each studio is a blank slate which includes a sink, lighting, high
+    ceilings and concrete floor. 24-hour access year-round, 32–100 m²
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: Artists pay monthly rent from $270. No production, transport, materials,
+    or other costs are covered.
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: Not applicable—no artist dotation or per diem. Only rental costs
+    mentioned, which is an expense for the artist, not a source of income.
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: The interview questions will elaborate on the 7 selection criteria
+    listed in the written application
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: On average applicants wait between 3 and 6 months for a studio after
+    acceptance
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: partiel
+  justification: Applicants participate in an individual interview with the committee,
+    but no explicit statement that rejected applicants receive individual notification
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: Artists access ANCA Gallery's exhibition program and participate
+    in the popular annual Open Studios open to the public
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: oui
+  justification: 'Active ongoing community: over 40 committed artists, involvement
+    in board and committees, ANCA has a highly respected profile within the Canberra
+    arts community'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

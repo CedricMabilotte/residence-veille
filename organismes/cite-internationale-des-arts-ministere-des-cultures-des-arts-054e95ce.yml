@@ -40,6 +40,15 @@ opportunites_liees:
 - uid: 225583d7
   type: residence
   nom: Bridges
+- uid: 9dfe385b
+  type: residence
+  nom: Elles & Cité
+- uid: 10daf613
+  type: residence
+  nom: Prisme
+- uid: 710d4dae
+  type: residence
+  nom: Résidence Elles & Cité 2027
 track_record:
   residence:
     editions:
@@ -47,9 +56,8 @@ track_record:
     - '2025'
     - '2026'
     - '2027'
-    fiabilite_cycle: 0.7
-    fenetre_annuelle: plusieurs appels par an, un par partenaire — la majorité des fenêtres de dépôt observées se ferment
-      entre juillet et octobre pour des résidences démarrant l'année suivante
+    fiabilite_cycle: 0.95
+    fenetre_annuelle: 2027-08-09 → 2027-12-07
 partenaires_mentionnes:
 - organisme_uid: cite-internationale-des-arts
   occurrences: 6
@@ -97,7 +105,7 @@ partenaires_mentionnes:
   occurrences: 1
   nom_brut: SOGEDA Monaco
 - organisme_uid: adagp
-  occurrences: 1
+  occurrences: 4
   nom_brut: ADAGP
 - organisme_uid: fondation-armando-alvares-penteado
   occurrences: 1
@@ -150,10 +158,16 @@ partenaires_mentionnes:
 - organisme_uid: archives-de-la-critique-d-art
   occurrences: 1
   nom_brut: Archives de la Critique d'Art
+- organisme_uid: ministere-de-la-culture
+  occurrences: 2
+  nom_brut: Ministère de la Culture
+- organisme_uid: fondation-d-entreprise-neuflize-obc
+  occurrences: 2
+  nom_brut: Fondation d'entreprise Neuflize OBC
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-08-06'
+  last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
   notes_qualite: '2026-08-01 (session manuelle) : 21 fiches précédemment rattachées ici ont été mises en quarantaine (discovery/quarantine/residence/)
@@ -170,4 +184,5 @@ noms_alternatifs:
 - Cité Internationale des Arts / ADAGP
 - Cité Internationale des Arts / Fondation Armando Alvares Penteado
 - Cité internationale des arts
+- Cité internationale des arts et Institut français
 adresse: Wuse 2, Abuja

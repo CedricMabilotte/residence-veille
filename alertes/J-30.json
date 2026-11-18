@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "path": "appels/residence/710d4dae.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 28,
+    "type": "residence",
+    "uid": "710d4dae",
+    "nom": "Résidence Elles & Cité 2027"
+  },
+  {
+    "path": "appels/residence/9dfe385b.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 28,
+    "type": "residence",
+    "uid": "9dfe385b",
+    "nom": "Elles & Cité"
+  }
+]

@@ -2,11 +2,17 @@ uid: res-artis-906e370b
 nom_canonique: Res Artis
 acronymes: []
 pays: null
-type_organisme: null
+type_organisme: reseau
 url_canonique: null
 urls_secondaires: []
-description_courte: null
-disciplines_proposees: []
+description_courte: Réseau international regroupant des résidences d'artistes professionnels.
+disciplines_proposees:
+- arts plastiques
+- peinture
+- sculpture
+- photographie
+- installations
+- arts numériques
 types_opportunites_habituels:
 - residence
 opportunites_liees:

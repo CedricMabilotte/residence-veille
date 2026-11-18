@@ -1,0 +1,35 @@
+uid: british-textile-biennial-and-the-harris-863ef36c
+nom_canonique: British Textile Biennial and The Harris
+acronymes: []
+pays: null
+type_organisme: institution_publique
+url_canonique: null
+urls_secondaires: []
+description_courte: Galerie d'art contemporain et centre d'exposition textile au Royaume-Uni.
+disciplines_proposees:
+- textile
+- arts plastiques
+- peinture
+- installation
+- photographie
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 1b10ec5c
+  type: exposition
+  nom: 'BTB10: The Harris Interactive Commission'
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: british-textile-biennial
+  occurrences: 1
+  nom_brut: British Textile Biennial
+- organisme_uid: the-harris
+  occurrences: 1
+  nom_brut: The Harris
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Preston

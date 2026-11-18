@@ -1,0 +1,175 @@
+uid: d6cc1040
+type: residence
+source_url: https://www.proyectoace.org/en/who-we-are/our-house/printmaking-workshop
+fetched_at: '2026-11-18T17:22:40+00:00'
+score: 6
+status: indetermine
+opportunite:
+  nom: Proyecto'ace Artist-in-Residence International Program
+  organisme: Proyecto'ace Fundación'ace
+  lieu:
+    ville: Buenos Aires
+    pays: Argentina
+    territorio: Colegiales
+  nom_fr: Atelier Espacio Plus d'informations
+  affichage_titre: Espacio Workshop More information [Atelier Espacio Plus d'informations]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: []
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Intaglio
+  - Monotype/Monoprint
+  - Woodblock
+  - Waterless Lithography
+  - Silk-aquatint
+  - Photopolymer Intaglio
+  - Artists Books
+  - Drawing
+  - Illustration
+  niveau_carriere: null
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: null
+  atelier: Printmaking workshop with 20 m length, 4 m width, 5.40 m height; equipped
+    for intaglio, monotype/monoprint, woodblock, waterless lithography, silk-aquatint,
+    photopolymer intaglio, artists books, drawing and illustration; electric and manual
+    etching presses, drying racks, work tables, water sinks, acid-resistant trays;
+    tools for woodcut, book binding, intaglio; various inks and materials provided
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: null
+  restitution: null
+partenaires: []
+_meta:
+  extracted_confidence: 0.3
+  extracted_notes: 'Page incomplète : seule la description de l''atelier de gravure
+    et des informations logistiques sur Buenos Aires sont fournies. Aucun détail sur
+    les modalités d''appel à candidature (date limite, frais, critères de sélection,
+    durée, rémunération, hébergement) n''est présent dans le contenu. Le formulaire
+    de candidature apparaît en début de extraction mais le texte s''interrompt avant
+    les détails essentiels.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T17:22:40+00:00'
+  source_lang: en
+  resume_fr: L'Espacio Workshop du Proyecto'ace Fundación'ace est un grand espace
+    lumineux de 4,00 m de largeur, 20,00 m de longueur et 5,40 m de hauteur. L'atelier
+    est équipé pour l'eau-forte, la monotypie, la gravure sur bois, la lithographie
+    sans eau, la reliure et le dessin, avec trois presses (électrique 1,20 x 1,60
+    m, manuelle 0,74 x 1,20 m, main 0,35 x 0,40 m) et un séchoir à 90 étagères. Tous
+    les outils de base et matériaux (encres, papiers, plaques de photolithographie
+    jusqu'à 55 x 65 cm) sont disponibles pour les résidents.
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Proyecto'ACE — résidences de production (Buenos Aires)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Proyecto'ace propose une résidence artistique internationale à Buenos
+    Aires basée sur l'accès à un atelier de gravure professionnel (20 m × 4 m) équipé
+    pour l'intaglio, monotype, gravure sur bois, lithographie sans eau, silk-aquatint
+    et fabrication de livres d'artiste. L'atelier dispose de presses électriques et
+    manuelles, d'outils spécialisés et de matériaux fournis. Le programme s'adresse
+    aux artistes imprimeurs du monde entier. Aucune information sur la durée, la rémunération,
+    l'hébergement ou les critères de sélection n'est accessible dans le contenu fourni.
+  pour_qui: Artistes et imprimeurs travaillant ou souhaitant explorer les techniques
+    de gravure, monotype, lithographie, woodblock et fabrication de livres d'artiste.
+a_savoir:
+- 'Page incomplète : informations essentielles manquantes (date limite, frais, critères
+  de sélection, durée de résidence, rémunération, hébergement).'
+- Contenu technique limité à la description de l'atelier ; modalités de candidature
+  non détaillées.
+- 'Accès logistique : proche du métro ligne D (Olleros, 4 blocs) et de la gare Colegiales
+  (1 bloc).'
+organisme_details:
+  site_web: https://www.proyectoace.org
+  adresse: null
+  ville: Buenos Aires
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: 'remuneration: {montant: null, devise: null, periodicite: null}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: 'hebergement: null'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: ''Printmaking workshop with 20 m length, 4 m width, 5.40
+    m height; equipped for intaglio, monotype/monoprint, woodblock, waterless lithography,
+    silk-aquatint, photopolymer intaglio, artists books, drawing and illustration'''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: 'voyage: {pris_en_charge: null, plafond: null, devise: null}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: 'remuneration: {montant: null} — aucun montant pour évaluer le ratio
+    avec le coût de vie de Buenos Aires'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'pieces_demandees: [] — aucun critère de sélection ou barème de jury
+    énoncé'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'date_limite: null, date_limite_precision: null'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: — Aucune mention d'un retour individualisé aux candidats non retenus
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: 'atelier: ''Printmaking workshop'' — espace dédié à la production
+    ; aucune obligation de médiation ou d''ateliers publics énoncée mais aussi pas
+    de confirmation explicite'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: 'duree: {semaines: null, dates: null}'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: 'restitution: null'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: 'partenaires: [] — aucun suivi alumni, réseau ou accompagnement mentionné'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

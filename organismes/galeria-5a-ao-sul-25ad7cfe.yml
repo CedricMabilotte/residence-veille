@@ -1,0 +1,32 @@
+uid: galeria-5a-ao-sul-25ad7cfe
+nom_canonique: Galeria 5ª ao Sul
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://5aosul.com
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: 4f662363
+  type: exposition
+  nom: MATERIALITIES International Contemporary Art Exhibition | December 2026
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: kunstmatrix
+  occurrences: 1
+  nom_brut: KUNSTMATRIX
+- organisme_uid: curatorspace
+  occurrences: 1
+  nom_brut: CuratorSpace
+- organisme_uid: amazon-publishing
+  occurrences: 1
+  nom_brut: Amazon Publishing
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true

@@ -1,0 +1,156 @@
+uid: 710d4dae
+type: residence
+source_url: https://www.adagp.fr/fr/actualites/appel-candidature-residence-elles-cite-2027
+fetched_at: '2026-11-18T17:07:10+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Résidence Elles & Cité 2027
+  organisme: Cité internationale des arts
+  lieu:
+    ville: Paris
+    pays: France
+    territoire: null
+candidature:
+  date_limite: '2026-12-16'
+  date_limite_precision: day
+  langue_dossier:
+  - fr
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.adagp.fr/fr/actualites/appel-candidature-residence-elles-cite-2027
+eligibilite:
+  disciplines:
+  - photographie
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: Hors région Île-de-France
+conditions_residence:
+  duree:
+    semaines: 13
+    dates: 2027-04-02 au 2027-06-28 et 2027-09-03 au 2027-11-29
+  hebergement: true
+  atelier: Atelier-logement à la Cité internationale des arts, site du Marais, avec
+    possibilité d'accueillir un adulte et un enfant de 10 ans maximum
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Ministère de la Culture
+- Fondation d'entreprise Neuflize OBC
+- ADAGP
+_meta:
+  extracted_confidence: 0.75
+  extracted_notes: Page partiellement coupée en fin. Montants d'allocation non spécifiés.
+    Critères de sélection du jury et modalités complètes de candidature non détaillés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T17:07:10+00:00'
+  source_lang: fr
+  detection_confidence: 0.75
+  detection_method: heuristic
+  source_label: ADAGP — actualités (appels, bourses, prix)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'Le programme Elles & Cité 2027 offre six résidences de trois mois à Paris
+    aux femmes photographes en milieu de carrière. Les lauréates bénéficient d''une
+    allocation de vie, de défraiements de déplacement, d''un atelier-logement au Marais,
+    et d''un accompagnement artistique personnalisé par des mentors photographes.
+    Les candidates doivent justifier de dix années d''expérience minimum, résider
+    hors d''Île-de-France, et ne pas être représentées par une galerie parisienne.
+    Date limite : 16 décembre 2026.'
+  pour_qui: Femmes photographes confirmées de la scène française en milieu de carrière
+    (minimum dix années d'expérience), domiciliées en dehors de la région Île-de-France.
+a_savoir:
+- Programme réservé exclusivement aux femmes photographes (critères d'éligibilité
+  très spécifiques)
+- Montants de l'allocation de vie non précisés
+- Exclu si représentation par galerie parisienne
+- Exclu si résidence en Île-de-France
+- Page source partiellement incomplète (texte coupé en fin)
+organisme_details:
+  site_web: https://www.citedelasarts.com
+  adresse: null
+  ville: Paris
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"allocation de vie" (analyse.synthese): "Les lauréates bénéficient
+    d''une allocation de vie"'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Atelier-logement à la Cité internationale des arts,
+    site du Marais"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": true} (voyage seulement, pas de frais
+    de production mentionnés)'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"remuneration": {"montant": null}'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: Aucun champ "criteres_selection" ou mention explicite des critères
+    du jury (seules les conditions d'éligibilité sont énoncées)
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"date_limite": "2026-12-16" (date limite de candidature, aucune
+    date de notification annoncée)'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: Aucune mention de notification aux non-retenu·es dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"restitution": null (aucune obligation de restitution ou d''ateliers
+    publics imposés)'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"dates": "2027-04-02 au 2027-06-28 et 2027-09-03 au 2027-11-29"
+    (deux périodes fixes sans apparence de négociabilité)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: non
+  justification: '"restitution": null (aucune exposition, édition ou présentation
+    publique mentionnée)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: '"accompagnement artistique personnalisé par des mentors photographes"
+    (mentionné en résidence, zéro mention de suivi ou réseau alumni après)'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0
