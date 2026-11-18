@@ -40,9 +40,12 @@ tmp/
 # reports/                ← gardés
 # discovery/reports/      ← gardés
 
-# État du throttle : propre à chaque environnement (local vs GH Actions).
-# Ne pas committer pour que chaque run GH Actions parte fresh.
-discovery/throttle_state.json
+# État du throttle et index des items vus : VERSIONNÉS depuis le 2026-11-18.
+# L'ancienne règle (« chaque run GH Actions part fresh ») faisait re-scraper les
+# 72 sources et renvoyer tous les items à Claude à chaque run — cause de la
+# panne de sept.-nov. 2026 (limite hebdo épuisée, jobs tués à 2 h).
+# discovery/throttle_state.json   ← versionné
+# discovery/seen_items.json       ← versionné
 
 # Pilotage de session Cowork (notes de travail internes, non versionnées)
 CLAUDE.md

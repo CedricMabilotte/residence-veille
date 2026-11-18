@@ -74,6 +74,13 @@ h3 { font-size:1.15rem; margin:1.4rem 0 .5rem; }
   color:var(--gold); font-family:inherit; }
 .urgent ul { margin:0; padding-left:1.1rem; }
 .urgent a { color:var(--ink); }
+.stale { background:#fdecec; border:1px solid #c0392b; color:#7b1f1a; border-radius:7px;
+  padding:.8rem 1.2rem; margin:1rem 0; font-family:-apple-system,system-ui,sans-serif; font-size:.9rem; }
+details.tbc { margin:2.5rem 0 1rem; border-top:1px solid var(--line); padding-top:1rem; }
+details.tbc summary { cursor:pointer; font-family:-apple-system,system-ui,sans-serif; font-size:.95rem;
+  color:var(--muted); }
+details.tbc summary b { color:var(--ink); }
+details.tbc p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
 .toolbar { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0;
   font-family:-apple-system,system-ui,sans-serif; }
 .toolbar input, .toolbar select { font:inherit; font-size:.9rem; padding:.45rem .6rem;
@@ -301,6 +308,54 @@ def _verif_str(fetched_at: str) -> str:
     return f"vérifié le {d.day:02d}/{d.month:02d}/{d.year}" if d else ""
 
 
+def _fr_date(d: _dt.date | None) -> str:
+    return f"{d.day} {_MOIS_FR[d.month]} {d.year}" if d else "—"
+
+
+# ── Fraîcheur de la veille ────────────────────────────────────────────────────
+# Ajouté le 2026-11-18 : le site affichait des échéances passées comme imminentes
+# pendant six semaines sans qu'un visiteur puisse le voir. On lit les rapports de
+# run pour dater la dernière veille COMPLÈTE (Claude disponible, pas de mode
+# dégradé) et on affiche un bandeau au-delà de STALE_DAYS jours.
+REPORTS_DIR = ROOT / "reports"
+STALE_DAYS = 15
+
+
+def veille_freshness() -> dict:
+    last_any = None
+    last_full = None
+    for rp in sorted(REPORTS_DIR.glob("run_*.json")):
+        try:
+            rep = json.loads(rp.read_text(encoding="utf-8")) or {}
+        except Exception:
+            continue
+        d = _date(rep.get("started_at") or rp.stem[4:14])
+        if not d or rep.get("dry_run"):
+            continue
+        last_any = max(last_any, d) if last_any else d
+        if not rep.get("claude_session_limit_hit"):
+            last_full = max(last_full, d) if last_full else d
+    today = _dt.date.today()
+    age = (today - last_full).days if last_full else None
+    return {"build": today, "last_any": last_any, "last_full": last_full,
+            "age_days": age, "stale": age is None or age > STALE_DAYS}
+
+
+FRESH = veille_freshness()
+
+
+def stale_banner_html() -> str:
+    if not FRESH["stale"]:
+        return ""
+    if FRESH["last_full"]:
+        msg = (f"La dernière veille complète date du {_fr_date(FRESH['last_full'])} "
+               f"({FRESH['age_days']} jours). Certaines échéances affichées peuvent être dépassées "
+               f"et de nouveaux appels manquer : vérifiez sur le site de l'organisme.")
+    else:
+        msg = "Aucune veille complète enregistrée : les données affichées peuvent être anciennes."
+    return f'<div class="stale" role="status">⚠ {msg}</div>'
+
+
 # ── Shell ────────────────────────────────────────────────────────────────────
 def page_shell(title: str, body: str, active: str = "") -> str:
     def na(k):
@@ -335,13 +390,20 @@ def page_shell(title: str, body: str, active: str = "") -> str:
     <a href="/a-propos.html"{na('apropos')}>À propos</a>
   </nav>
 </header>
+{stale_banner_html()}
 {body}
 <footer>
-  <p>Mise à jour automatique — sources FR / EN / ES, interface FR.
+  <p>Site généré le {_fr_date(FRESH["build"])} · dernière veille complète le {_fr_date(FRESH["last_full"])}
+     (veille hebdomadaire, le lundi) — sources FR / EN / ES, interface FR.
      <a href="/flux.html">Flux RSS</a> · <a href="/calendar.ics">Calendrier .ics</a> ·
      <a href="/data.json">Données JSON</a></p>
   <p>Vérifiez toujours les informations sur le site de l'organisme avant de candidater.
      Code : <a href="https://github.com/{REPO}">github.com/{REPO}</a></p>
+  <p>Textes : <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">CC BY-NC-SA 4.0</a> ·
+     Données (fiches, JSON, flux) : <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> ·
+     Code : <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">AGPL-3.0</a> ·
+     <a href="https://github.com/{REPO}/blob/main/LICENSE">détail des licences</a> ·
+     <a href="https://github.com/{REPO}/blob/main/CITATION.cff">citer</a></p>
 </footer>
 </div>
 </body>
@@ -496,10 +558,23 @@ def render_fiche_item(ff: dict) -> str:
 
 # ── Catalogue ────────────────────────────────────────────────────────────────
 def render_catalogue(fiches: list[dict]) -> str:
-    ffs = [fiche_fields(f) for f in fiches]
-    ffs.sort(key=lambda ff: (0, _date(ff["date_limite"])) if _date(ff["date_limite"]) else (1, _dt.date.max))
+    all_ffs = [fiche_fields(f) for f in fiches]
+    all_ffs.sort(key=lambda ff: (0, _date(ff["date_limite"])) if _date(ff["date_limite"]) else (1, _dt.date.max))
 
     today = _dt.date.today()
+    # 2026-11-18 : les fiches sans date limite (statut `indetermine`, 30 sur 38 à
+    # cette date) sortent de la liste principale. Le catalogue montre d'abord ce
+    # qui est daté ou explicitement en candidature continue ; le reste est
+    # replié sous « Dates à confirmer ». Les fiches dont la date est passée mais
+    # qui n'ont pas encore été archivées par deadline_tracker sont exclues.
+    def _is_sure(ff):
+        d = _date(ff["date_limite"])
+        if d:
+            return d >= today
+        return ff["status"] == "ouverte-continue"
+    ffs = [ff for ff in all_ffs if _is_sure(ff)]
+    tbc = [ff for ff in all_ffs if not _is_sure(ff) and not (_date(ff["date_limite"]) and _date(ff["date_limite"]) < today)]
+
     urgents = [ff for ff in ffs if _date(ff["date_limite"])
                and 0 <= (_date(ff["date_limite"]) - today).days <= 30]
     urgent_html = ""
@@ -514,13 +589,26 @@ def render_catalogue(fiches: list[dict]) -> str:
     n_pays = len({ff["pays"] for ff in ffs if ff["pays"]})
     n_disc = len({d for ff in ffs for d in ff["disciplines"]})
     n_org = len({ff["organisme"] for ff in ffs if ff["organisme"]})
-    stats = (f'<div class="stats"><span><b>{n}</b> opportunités</span>'
+    tbc_stat = f'<span><b>{len(tbc)}</b> à confirmer</span>' if tbc else ""
+    stats = (f'<div class="stats"><span><b>{n}</b> opportunités datées</span>{tbc_stat}'
              f'<span><b>{n_pays}</b> pays</span><span><b>{n_disc}</b> disciplines</span>'
              f'<span><b>{n_org}</b> organismes</span></div>')
 
     pays = sorted({ff["pays"] for ff in ffs if ff["pays"]})
     pays_opts = "".join(f'<option value="{_esc(p.lower())}">{_esc(p)}</option>' for p in pays)
-    cards = "\n".join(render_card(ff) for ff in ffs) or '<div class="empty">Aucune opportunité ouverte.</div>'
+    cards = "\n".join(render_card(ff) for ff in ffs) or '<div class="empty">Aucune opportunité datée ouverte.</div>'
+    tbc_html = ""
+    if tbc:
+        tbc_cards = "\n".join(render_card(ff) for ff in tbc)
+        tbc_html = f'''
+<details class="tbc">
+  <summary><b>{len(tbc)}</b> opportunité{"s" if len(tbc) > 1 else ""} sans date limite confirmée</summary>
+  <p class="note">La veille n'a pas trouvé de date de clôture sur la page de l'organisme :
+     appel au fil de l'eau, édition à venir ou information manquante. À vérifier à la source.</p>
+  <ul class="cards">
+{tbc_cards}
+  </ul>
+</details>'''
 
     body = f'''
 <p style="font-size:1.05rem;color:var(--muted);font-style:italic;margin:1.2rem 0">
@@ -547,6 +635,7 @@ def render_catalogue(fiches: list[dict]) -> str:
 <ul class="cards" id="cards">
 {cards}
 </ul>
+{tbc_html}
 <script>
 (function() {{
   var box = document.getElementById('cards');

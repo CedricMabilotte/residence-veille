@@ -31,15 +31,26 @@ on:
         default: "false"
         required: false
   schedule:
-    # Veille quotidienne. GitHub désactive automatiquement un workflow planifié
-    # après 60 jours d'inactivité du dépôt (aucun commit/push) — un dépôt qui
-    # reçoit ses propres commits de veille chaque jour ne devrait pas être
-    # concerné, mais si le job échoue en boucle sans jamais committer, ce
-    # risque redevient réel. D'où l'alerte GitHub Issue ajoutée plus bas.
-    - cron: "0 6 * * *"
+    # 2026-11-18 : passage du quotidien à l'HEBDOMADAIRE (lundi 6h UTC), décision
+    # de Ced. Raison : la veille tourne sur sa souscription Claude personnelle
+    # (CLAUDE_CODE_OAUTH_TOKEN) ; de sept. à nov. 2026 les runs quotidiens
+    # repartaient de zéro (aucun index d'items vus, throttle non versionné) et
+    # soit épuisaient la limite hebdomadaire (runs « réussis » en mode dégradé,
+    # 0 fiche promue), soit dépassaient le timeout du job (2 h) sans régénérer
+    # le site. Le workflow a été désactivé à la main le 2026-11-04.
+    # GitHub désactive automatiquement un workflow planifié après 60 jours sans
+    # commit : un run hebdomadaire qui committe suffit à l'éviter, l'alerte par
+    # issue GitHub (plus bas) couvre le cas d'un échec en boucle.
+    - cron: "0 6 * * 1"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  # Logs lisibles en direct (avant : sortie Python bufferisée, tout arrivait par
+  # blocs de 20 min, impossible de voir où le run en était).
+  PYTHONUNBUFFERED: "1"
+  # Budget de la veille principale (watch.py arrête de prendre de nouvelles
+  # sources au-delà) ; le timeout-minutes de l'étape est la ceinture de sécurité.
+  MAX_RUN_MINUTES: "60"
 
 jobs:
   watch:
@@ -68,8 +79,10 @@ jobs:
           else
             echo "score_threshold=6" >> "$GITHUB_OUTPUT"
             echo "dry_run=false" >> "$GITHUB_OUTPUT"
-            [ "$(date -u +%u)" = "1" ] && echo "do_weekly=true" >> "$GITHUB_OUTPUT" || echo "do_weekly=false" >> "$GITHUB_OUTPUT"
-            [ "$(date -u +%d)" = "01" ] && echo "do_monthly=true" >> "$GITHUB_OUTPUT" || echo "do_monthly=false" >> "$GITHUB_OUTPUT"
+            # Cadence hebdo (lundi) : la discovery hebdo tourne à chaque run planifié ;
+            # la mensuelle au premier run du mois (le lundi dont le jour est <= 7).
+            echo "do_weekly=true" >> "$GITHUB_OUTPUT"
+            [ "$(date -u +%d)" -le 7 ] && echo "do_monthly=true" >> "$GITHUB_OUTPUT" || echo "do_monthly=false" >> "$GITHUB_OUTPUT"
             echo "do_rescore=false" >> "$GITHUB_OUTPUT"
           fi
 
@@ -100,7 +113,13 @@ jobs:
         # remarque (c'est exactement ce qui a pu se reproduire pendant 2,5 mois). On
         # continue vers le tri des échéances + la régénération du site avec les données
         # existantes, et on alerte via l'étape "Notifier en cas d'échec" en fin de job.
+        # timeout-minutes au niveau de l'ÉTAPE (2026-11-18) : continue-on-error ne
+        # protège pas d'un timeout du JOB — quand la veille dépassait 2 h, GitHub
+        # tuait tout et les étapes suivantes étaient « skipped » (constaté sur tous
+        # les runs du 12/09 au 04/11). Avec un timeout d'étape, la veille est
+        # interrompue et le reste du pipeline s'exécute quand même.
         continue-on-error: true
+        timeout-minutes: 75
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SCORE_THRESHOLD:         ${{ steps.params.outputs.score_threshold }}

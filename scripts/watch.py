@@ -67,6 +67,93 @@ DISCOVERY_DIR.mkdir(parents=True, exist_ok=True)
 # ── Constantes ─────────────────────────────────────────────────────────────────
 DRY_RUN = os.getenv("DRY_RUN", "").lower() == "true"
 
+# Budget de durée par run (minutes). Au-delà, on arrête de traiter de nouvelles
+# sources et on laisse la main aux étapes suivantes du workflow (deadline_tracker,
+# site, publication). Ajouté le 2026-11-18 : les runs de sept.-nov. 2026 dépassaient
+# le timeout du job (2 h) et le site n'était plus régénéré.
+MAX_RUN_MINUTES = int(os.getenv("MAX_RUN_MINUTES") or 60)
+
+# Index des items déjà traités (URL → statut). Versionné dans git pour survivre
+# d'un run GH Actions à l'autre. Avant le 2026-11-18, chaque run repartait de zéro
+# et renvoyait à Claude tous les items de toutes les sources (jusqu'à 4 appels
+# par item), ce qui épuisait la limite hebdomadaire de la souscription.
+SEEN_PATH = DISCOVERY_DIR / "seen_items.json"
+# Re-traiter un item déjà vu après N jours (0 = jamais). Les items promus ont une
+# fiche suivie par deadline_tracker, les rejets « date passée » ne reviennent pas.
+RECHECK_DAYS = int(os.getenv("RECHECK_DAYS") or 0)
+
+
+def _norm_url(url: str) -> str:
+    u = (url or "").strip().lower()
+    u = re.sub(r"^https?://(www\.)?", "", u)
+    u = re.sub(r"[?#].*$", "", u)
+    return u.rstrip("/")
+
+
+def load_seen() -> dict:
+    if SEEN_PATH.exists():
+        try:
+            return json.loads(SEEN_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            return {}
+    return {}
+
+
+def save_seen(seen: dict) -> None:
+    if DRY_RUN:
+        return
+    SEEN_PATH.write_text(
+        json.dumps(seen, ensure_ascii=False, indent=1, sort_keys=True),
+        encoding="utf-8",
+    )
+
+
+def seen_bootstrap(seen: dict) -> int:
+    """Première exécution : peuple l'index depuis les fiches existantes (appels/,
+    archive/, discovery/quarantine/) et les rapports de run passés, pour ne pas
+    re-payer ce qui a déjà été traité."""
+    added = 0
+    today = _dt.date.today().isoformat()
+    for base, status in ((APPELS_DIR, "promoted"), (ROOT / "archive", "archived"),
+                         (DISCOVERY_DIR / "quarantine", "quarantined")):
+        for p in base.rglob("*.yml"):
+            try:
+                f = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+            except Exception:
+                continue
+            u = _norm_url(f.get("source_url") or "")
+            if u and u not in seen:
+                seen[u] = {"status": status, "first_seen": f.get("fetched_at", today)[:10],
+                           "last_seen": today, "fiche": p.stem}
+                added += 1
+    for rp in sorted(REPORTS_DIR.glob("run_*.json")):
+        try:
+            logs = (json.loads(rp.read_text(encoding="utf-8")) or {}).get("logs") or []
+        except Exception:
+            continue
+        for lg in logs:
+            u = _norm_url(lg.get("url") or "")
+            st = lg.get("status")
+            if u and st in ("below_threshold", "skipped") and u not in seen:
+                seen[u] = {"status": st, "first_seen": rp.stem[4:14], "last_seen": rp.stem[4:14]}
+                added += 1
+    return added
+
+
+def seen_should_skip(seen: dict, url: str) -> str | None:
+    """Retourne la raison du skip, ou None si l'item doit être traité."""
+    rec = seen.get(_norm_url(url))
+    if not rec:
+        return None
+    if RECHECK_DAYS and rec.get("status") in ("below_threshold", "skipped", "error"):
+        try:
+            last = _dt.date.fromisoformat(rec.get("last_seen", "1970-01-01"))
+            if (_dt.date.today() - last).days >= RECHECK_DAYS:
+                return None
+        except ValueError:
+            return None
+    return f"déjà vu ({rec.get('status')}, {rec.get('last_seen')})"
+
 
 def load_config() -> dict:
     return yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
@@ -319,8 +406,30 @@ def main():
     throttle_state_path = ROOT / "discovery" / "throttle_state.json"
     throttle_state_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Index des items déjà vus
+    seen = load_seen()
+    if not seen:
+        n_boot = seen_bootstrap(seen)
+        print(f"✓ seen_items.json initialisé depuis les fiches et rapports existants : {n_boot} item(s)")
+        save_seen(seen)
+    else:
+        print(f"✓ seen_items.json : {len(seen)} item(s) déjà vus")
+    print(f"✓ budget : {MAX_RUN_MINUTES} min, recheck {RECHECK_DAYS or 'jamais'}")
+    print()
+    n_seen_skipped = 0
+    sources_not_reached: list[str] = []
+    budget_hit = False
+
     for src in sources:
         label = src.get("label", src.get("url", "?"))
+        elapsed_min = (_dt.datetime.now(_dt.timezone.utc) - run_start).total_seconds() / 60
+        if budget_hit or elapsed_min >= MAX_RUN_MINUTES:
+            if not budget_hit:
+                print(f"⏱  Budget de {MAX_RUN_MINUTES} min atteint ({elapsed_min:.0f} min) — "
+                      f"sources restantes reportées au prochain run")
+                budget_hit = True
+            sources_not_reached.append(label)
+            continue
         print(f"━━ {label} ━━")
 
         # Throttle check (TTL + robots + cooldown erreurs)
@@ -347,26 +456,47 @@ def main():
             print(f"  ↳ {len(items)} item(s) détecté(s)")
 
         n_promoted = 0
+        n_new = 0
+        today_iso = _dt.date.today().isoformat()
         for item in items:
+            item_url = item.get("url") or ""
+            skip_reason = seen_should_skip(seen, item_url) if item_url else None
+            if skip_reason:
+                n_seen_skipped += 1
+                rec = seen.get(_norm_url(item_url))
+                if rec is not None:
+                    rec["last_seen"] = today_iso
+                continue
+            n_new += 1
             try:
                 log = process_item(item, label)
             except Exception as e:
                 print(f"    ✗ process_item erreur : {e}")
+                if item_url:
+                    seen[_norm_url(item_url)] = {"status": "error", "first_seen": today_iso,
+                                                 "last_seen": today_iso, "error": str(e)[:120]}
                 continue
             if log is None:
                 continue
             all_logs.append(log)
+            if item_url and not DRY_RUN:
+                seen[_norm_url(item_url)] = {
+                    "status": log.get("status", "?"), "first_seen": today_iso,
+                    "last_seen": today_iso, "source": label,
+                }
             if log.get("status") == "promoted":
                 n_promoted += 1
 
+        save_seen(seen)
         throttle.record_fetch(src, success=True, doc_count=n_promoted, status_code=200, state_path=throttle_state_path)
 
         sources_stats.append({
             "label": label,
             "items": len(items),
+            "new_items": n_new,
             "promoted": n_promoted,
         })
-        print(f"  ✓ {n_promoted} promu(s) sur {len(items)} item(s)")
+        print(f"  ✓ {n_promoted} promu(s) sur {n_new} nouveau(x) item(s) ({len(items)} détectés)")
         print()
 
     # Rapport de run
@@ -381,9 +511,15 @@ def main():
         "n_sources": len(sources),
         "n_items_total": sum(s.get("items", 0) for s in sources_stats),
         "n_promoted_total": sum(s.get("promoted", 0) for s in sources_stats),
+        "n_new_items": sum(s.get("new_items", 0) for s in sources_stats),
+        "n_seen_skipped": n_seen_skipped,
+        "budget_minutes": MAX_RUN_MINUTES,
+        "budget_hit": budget_hit,
+        "sources_not_reached": sources_not_reached,
         "sources_stats": sources_stats,
         "logs": all_logs,
     }
+    save_seen(seen)
 
     reports_dir = ROOT / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
@@ -401,6 +537,10 @@ def main():
               f"(detect_type/extract/score/resume_fr en fallback). "
               f"Voir claude_session_limit_hit dans le rapport.")
     print(f"Total items détectés  : {report['n_items_total']}")
+    print(f"  dont déjà vus (skip) : {n_seen_skipped}")
+    print(f"  dont nouveaux        : {report['n_new_items']}")
+    if budget_hit:
+        print(f"⏱  Budget atteint — {len(sources_not_reached)} source(s) non traitée(s) ce run")
     print(f"Total fiches promues  : {report['n_promoted_total']}")
     print(f"Durée                 : {duration:.1f}s")
     if not DRY_RUN:

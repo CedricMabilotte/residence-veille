@@ -43,6 +43,13 @@ h3 { font-size:1.15rem; margin:1.4rem 0 .5rem; }
   color:var(--gold); font-family:inherit; }
 .urgent ul { margin:0; padding-left:1.1rem; }
 .urgent a { color:var(--ink); }
+.stale { background:#fdecec; border:1px solid #c0392b; color:#7b1f1a; border-radius:7px;
+  padding:.8rem 1.2rem; margin:1rem 0; font-family:-apple-system,system-ui,sans-serif; font-size:.9rem; }
+details.tbc { margin:2.5rem 0 1rem; border-top:1px solid var(--line); padding-top:1rem; }
+details.tbc summary { cursor:pointer; font-family:-apple-system,system-ui,sans-serif; font-size:.95rem;
+  color:var(--muted); }
+details.tbc summary b { color:var(--ink); }
+details.tbc p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
 .toolbar { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0;
   font-family:-apple-system,system-ui,sans-serif; }
 .toolbar input, .toolbar select { font:inherit; font-size:.9rem; padding:.45rem .6rem;
@@ -147,6 +154,7 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
     <a href="/a-propos.html">À propos</a>
   </nav>
 </header>
+<div class="stale" role="status">⚠ La dernière veille complète date du 6 août 2026 (104 jours). Certaines échéances affichées peuvent être dépassées et de nouveaux appels manquer : vérifiez sur le site de l'organisme.</div>
 
 <a class="backlink" href="/organismes.html">← Annuaire</a>
 <div class="fiche-head">
@@ -169,34 +177,6 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
   <h3><a href="/o/660d0fed.html">Résidences à la Villa Kujoyama</a></h3>
   <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a> — Kyoto, Japon
      · Architecture, Arts visuels, Photographie
-     · <span class=verif>vérifié le 06/08/2026</span></div>
-</li>
-<li class="card bientot-fermee" data-type="residence"
-    data-pays="france" data-disc="architecture, arts visuels / photographie, cinéma"
-    data-deadline="2026-10-08" data-score="7"
-    data-fetched="2026-08-06T09:23:39+00:00" data-nom="résidences institut français x cité internationale des arts"
-    data-search="résidences institut français x cité internationale des arts institut français paris, france architecture, arts visuels / photographie, cinéma le programme offre une résidence de 3, 6 ou 9 mois à paris (avril 2027 – avril 2028) pour des artistes professionnels résidant hors de france depuis au moins 5 ans. l&#x27;institut français finance le logement-studio à la cité internationale des arts (18 rue de l&#x27;hôtel de ville). les partenaires associés garantissent une allocation de résidence minimum de 1100 €/mois, le voyage international, l&#x27;assurance et les frais de visa. la sélection évalue le parcours professionnel, la qualité du projet, le protocole de travail et les contacts dans le milieu artistique français. les candidatures ferment le 8 octobre 2026.">
-  <div class="row1">
-    <span class="tag residence">Résidence</span>
-    <span class="deadline">Échéance 08/10/2026</span><span class="score-pill">7/10</span>
-  </div>
-  <h3><a href="/o/762972f7.html">Résidences Institut français x Cité internationale des arts</a></h3>
-  <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a> — Paris, France
-     · Architecture, Arts visuels / Photographie, Cinéma
-     · <span class=verif>vérifié le 06/08/2026</span></div>
-</li>
-<li class="card bientot-fermee" data-type="bourse"
-    data-pays="" data-disc="architecture, arts visuels / photographie, cinéma"
-    data-deadline="2026-10-30" data-score="6"
-    data-fetched="2026-08-06T09:14:32+00:00" data-nom="fonds culturel franco-allemand"
-    data-search="fonds culturel franco-allemand institut français  architecture, arts visuels / photographie, cinéma le fonds culturel franco-allemand (fcfa), institué en 2003, soutient les initiatives de coopération culturelle menées dans des pays tiers par les réseaux diplomatiques et culturels français et allemands en collaboration avec des acteurs locaux. ouvert du 16 juillet au 30 octobre 2026, il accepte des projets dans huit disciplines : architecture, arts visuels / photographie, cinéma, création numérique, débat d&#x27;idées, livre, métiers d&#x27;art / design, spectacle vivant / musique. abondé à parité par la france et l&#x27;allemagne et géré par l&#x27;institut français depuis 2011, le fonds a soutenu plus de 1200 projets dans 144 pays et accompagne près de 300 artistes et intellectuels chaque année. les conditions précises, montants et critères de sélection sont réservés aux membres du réseau culturel.">
-  <div class="row1">
-    <span class="tag bourse">Bourse</span>
-    <span class="deadline">Échéance 30/10/2026</span><span class="score-pill">6/10</span>
-  </div>
-  <h3><a href="/o/8030ae41.html">Fonds culturel franco-allemand</a></h3>
-  <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a>
-     · Architecture, Arts Visuels / Photographie, Cinéma
      · <span class=verif>vérifié le 06/08/2026</span></div>
 </li>
 <li class="card indetermine" data-type="exposition"
@@ -227,18 +207,32 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
      · Architecture, Arts visuels, Photographie
      · <span class=verif>vérifié le 06/08/2026</span></div>
 </li>
-<li class="card bientot-fermee" data-type="exposition"
-    data-pays="" data-disc="architecture, arts visuels, photographie"
-    data-deadline="2026-10-30" data-score="6"
-    data-fetched="2026-08-06T09:17:02+00:00" data-nom="pida - programme international de diffusion artistique"
-    data-search="pida - programme international de diffusion artistique institut français  architecture, arts visuels, photographie le pida est un appel à projets de l&#x27;institut français soutenant la diffusion de la création artistique française à l&#x27;international, financé par le ministère de l&#x27;europe et des affaires étrangères et le ministère de la culture. le programme s&#x27;adresse au réseau diplomatique, aux équipes artistiques françaises ou basées en france, et aux structures culturelles françaises ou étrangères. il accompagne des projets de diffusion, de coopération et la présence d&#x27;artistes français au sein de grandes manifestations prescriptrices à l&#x27;international. candidatures ouvertes du 1er juillet au 30 octobre 2026.">
+<li class="card expiree" data-type="residence"
+    data-pays="france" data-disc="architecture, arts visuels / photographie, cinéma"
+    data-deadline="2026-10-08" data-score="7"
+    data-fetched="2026-08-06T09:23:39+00:00" data-nom="résidences institut français x cité internationale des arts"
+    data-search="résidences institut français x cité internationale des arts institut français paris, france architecture, arts visuels / photographie, cinéma le programme offre une résidence de 3, 6 ou 9 mois à paris (avril 2027 – avril 2028) pour des artistes professionnels résidant hors de france depuis au moins 5 ans. l&#x27;institut français finance le logement-studio à la cité internationale des arts (18 rue de l&#x27;hôtel de ville). les partenaires associés garantissent une allocation de résidence minimum de 1100 €/mois, le voyage international, l&#x27;assurance et les frais de visa. la sélection évalue le parcours professionnel, la qualité du projet, le protocole de travail et les contacts dans le milieu artistique français. les candidatures ferment le 8 octobre 2026.">
   <div class="row1">
-    <span class="tag exposition">Appel à exposition</span>
+    <span class="tag residence">Résidence</span>
+    <span class="deadline">Échéance 08/10/2026</span><span class="score-pill">7/10</span>
+  </div>
+  <h3><a href="/o/762972f7.html">Résidences Institut français x Cité internationale des arts</a></h3>
+  <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a> — Paris, France
+     · Architecture, Arts visuels / Photographie, Cinéma
+     · <span class=verif>vérifié le 06/08/2026</span></div>
+</li>
+<li class="card expiree" data-type="bourse"
+    data-pays="" data-disc="architecture, arts visuels / photographie, cinéma"
+    data-deadline="2026-10-30" data-score="6"
+    data-fetched="2026-08-06T09:14:32+00:00" data-nom="fonds culturel franco-allemand"
+    data-search="fonds culturel franco-allemand institut français  architecture, arts visuels / photographie, cinéma le fonds culturel franco-allemand (fcfa), institué en 2003, soutient les initiatives de coopération culturelle menées dans des pays tiers par les réseaux diplomatiques et culturels français et allemands en collaboration avec des acteurs locaux. ouvert du 16 juillet au 30 octobre 2026, il accepte des projets dans huit disciplines : architecture, arts visuels / photographie, cinéma, création numérique, débat d&#x27;idées, livre, métiers d&#x27;art / design, spectacle vivant / musique. abondé à parité par la france et l&#x27;allemagne et géré par l&#x27;institut français depuis 2011, le fonds a soutenu plus de 1200 projets dans 144 pays et accompagne près de 300 artistes et intellectuels chaque année. les conditions précises, montants et critères de sélection sont réservés aux membres du réseau culturel.">
+  <div class="row1">
+    <span class="tag bourse">Bourse</span>
     <span class="deadline">Échéance 30/10/2026</span><span class="score-pill">6/10</span>
   </div>
-  <h3><a href="/o/a5664345.html">PIDA - Programme International de Diffusion Artistique</a></h3>
+  <h3><a href="/o/8030ae41.html">Fonds culturel franco-allemand</a></h3>
   <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a>
-     · Architecture, Arts Visuels, Photographie
+     · Architecture, Arts Visuels / Photographie, Cinéma
      · <span class=verif>vérifié le 06/08/2026</span></div>
 </li>
 <li class="card expiree" data-type="bourse"
@@ -254,16 +248,36 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
   <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a> — Pologne
      · Architecture, Arts Visuels / Photographie, Cinéma
      · <span class=verif>vérifié le 22/05/2026</span></div>
+</li>
+<li class="card expiree" data-type="exposition"
+    data-pays="" data-disc="architecture, arts visuels, photographie"
+    data-deadline="2026-10-30" data-score="6"
+    data-fetched="2026-08-06T09:17:02+00:00" data-nom="pida - programme international de diffusion artistique"
+    data-search="pida - programme international de diffusion artistique institut français  architecture, arts visuels, photographie le pida est un appel à projets de l&#x27;institut français soutenant la diffusion de la création artistique française à l&#x27;international, financé par le ministère de l&#x27;europe et des affaires étrangères et le ministère de la culture. le programme s&#x27;adresse au réseau diplomatique, aux équipes artistiques françaises ou basées en france, et aux structures culturelles françaises ou étrangères. il accompagne des projets de diffusion, de coopération et la présence d&#x27;artistes français au sein de grandes manifestations prescriptrices à l&#x27;international. candidatures ouvertes du 1er juillet au 30 octobre 2026.">
+  <div class="row1">
+    <span class="tag exposition">Appel à exposition</span>
+    <span class="deadline">Échéance 30/10/2026</span><span class="score-pill">6/10</span>
+  </div>
+  <h3><a href="/o/a5664345.html">PIDA - Programme International de Diffusion Artistique</a></h3>
+  <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a>
+     · Architecture, Arts Visuels, Photographie
+     · <span class=verif>vérifié le 06/08/2026</span></div>
 </li></ul>
 <h2 class="sec">Historique des éditions</h2><table class="crit"><tr><th>Type</th><th>Éditions repérées</th></tr><tr><td>Bourse</td><td>2027</td></tr></table>
 <h2 class="sec">Repères</h2><div class="asavoir"><p><strong>Fenêtres de candidature estimées :</strong> Bourse : 2027-04-23 → 2027-08-21</p><p><strong>Partenaires repérés :</strong> Institut Adam Mickiewicz, Institut polonais de Paris, Ambassade de France en Pologne, Ministère de la Culture (France), Ministère des Affaires étrangères (France), Ministère de l&#x27;Europe et des Affaires étrangères, Délégation interministérielle à la Méditerranée, Cité internationale des arts, Institut français, Institut français du Japon</p><p style="color:var(--faint)">Estimations indicatives dérivées des éditions passées — à vérifier.</p></div>
 
 <footer>
-  <p>Mise à jour automatique — sources FR / EN / ES, interface FR.
+  <p>Site généré le 18 novembre 2026 · dernière veille complète le 6 août 2026
+     (veille hebdomadaire, le lundi) — sources FR / EN / ES, interface FR.
      <a href="/flux.html">Flux RSS</a> · <a href="/calendar.ics">Calendrier .ics</a> ·
      <a href="/data.json">Données JSON</a></p>
   <p>Vérifiez toujours les informations sur le site de l'organisme avant de candidater.
      Code : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
+  <p>Textes : <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">CC BY-NC-SA 4.0</a> ·
+     Données (fiches, JSON, flux) : <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> ·
+     Code : <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">AGPL-3.0</a> ·
+     <a href="https://github.com/CedricMabilotte/residence-veille/blob/main/LICENSE">détail des licences</a> ·
+     <a href="https://github.com/CedricMabilotte/residence-veille/blob/main/CITATION.cff">citer</a></p>
 </footer>
 </div>
 </body>

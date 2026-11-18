@@ -43,6 +43,13 @@ h3 { font-size:1.15rem; margin:1.4rem 0 .5rem; }
   color:var(--gold); font-family:inherit; }
 .urgent ul { margin:0; padding-left:1.1rem; }
 .urgent a { color:var(--ink); }
+.stale { background:#fdecec; border:1px solid #c0392b; color:#7b1f1a; border-radius:7px;
+  padding:.8rem 1.2rem; margin:1rem 0; font-family:-apple-system,system-ui,sans-serif; font-size:.9rem; }
+details.tbc { margin:2.5rem 0 1rem; border-top:1px solid var(--line); padding-top:1rem; }
+details.tbc summary { cursor:pointer; font-family:-apple-system,system-ui,sans-serif; font-size:.95rem;
+  color:var(--muted); }
+details.tbc summary b { color:var(--ink); }
+details.tbc p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
 .toolbar { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0;
   font-family:-apple-system,system-ui,sans-serif; }
 .toolbar input, .toolbar select { font:inherit; font-size:.9rem; padding:.45rem .6rem;
@@ -147,38 +154,11 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
     <a href="/a-propos.html">À propos</a>
   </nav>
 </header>
+<div class="stale" role="status">⚠ La dernière veille complète date du 6 août 2026 (104 jours). Certaines échéances affichées peuvent être dépassées et de nouveaux appels manquer : vérifiez sur le site de l'organisme.</div>
 
 <a class="backlink" href="/">← Catalogue</a>
 <h2 class="sec">Opportunités — France</h2>
-<ul class="cards"><li class="card bientot-fermee" data-type="residence"
-    data-pays="france" data-disc="architecture, paysage, urbanisme, arts de la rue, cirque, marionnette, arts plastiques"
-    data-deadline="2026-10-08" data-score="7"
-    data-fetched="2026-08-06T09:40:14+00:00" data-nom="institut français x cité internationale des arts – édition 2027"
-    data-search="institut français x cité internationale des arts – édition 2027 cité internationale des arts et institut français paris, france architecture, paysage, urbanisme, arts de la rue, cirque, marionnette, arts plastiques le programme institut français x cité internationale des arts (édition 2027) accueille environ 70 artistes de toutes nationalités pour une résidence de 3, 6 ou 9 mois à paris entre avril 2027 et avril 2028. chaque lauréat reçoit un atelier-logement de 25 à 40 m², une allocation minimum de 1 100 € par mois, la prise en charge du voyage et de l&#x27;assurance par le partenaire associé. le programme s&#x27;adresse aux artistes de plus de 20 disciplines ayant résidé hors de france depuis au moins 5 ans et portés par un partenaire associé reconnu.">
-  <div class="row1">
-    <span class="tag residence">Résidence</span>
-    <span class="deadline">Échéance 08/10/2026</span><span class="score-pill">7/10</span>
-  </div>
-  <h3><a href="/o/53bddbf8.html">Institut français x Cité internationale des arts – Édition 2027</a></h3>
-  <div class="meta">Cité internationale des arts et Institut français — Paris, France
-     · Architecture, paysage, urbanisme, Arts de la rue, cirque, marionnette, Arts plastiques
-     · <span class=verif>vérifié le 06/08/2026</span></div>
-</li>
-<li class="card bientot-fermee" data-type="residence"
-    data-pays="france" data-disc="architecture, arts visuels / photographie, cinéma"
-    data-deadline="2026-10-08" data-score="7"
-    data-fetched="2026-08-06T09:23:39+00:00" data-nom="résidences institut français x cité internationale des arts"
-    data-search="résidences institut français x cité internationale des arts institut français paris, france architecture, arts visuels / photographie, cinéma le programme offre une résidence de 3, 6 ou 9 mois à paris (avril 2027 – avril 2028) pour des artistes professionnels résidant hors de france depuis au moins 5 ans. l&#x27;institut français finance le logement-studio à la cité internationale des arts (18 rue de l&#x27;hôtel de ville). les partenaires associés garantissent une allocation de résidence minimum de 1100 €/mois, le voyage international, l&#x27;assurance et les frais de visa. la sélection évalue le parcours professionnel, la qualité du projet, le protocole de travail et les contacts dans le milieu artistique français. les candidatures ferment le 8 octobre 2026.">
-  <div class="row1">
-    <span class="tag residence">Résidence</span>
-    <span class="deadline">Échéance 08/10/2026</span><span class="score-pill">7/10</span>
-  </div>
-  <h3><a href="/o/762972f7.html">Résidences Institut français x Cité internationale des arts</a></h3>
-  <div class="meta"><a href="/organisme/institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713/">Institut français</a> — Paris, France
-     · Architecture, Arts visuels / Photographie, Cinéma
-     · <span class=verif>vérifié le 06/08/2026</span></div>
-</li>
-<li class="card indetermine" data-type="residence"
+<ul class="cards"><li class="card indetermine" data-type="residence"
     data-pays="france" data-disc="arts plastiques"
     data-deadline="" data-score="4"
     data-fetched="2026-05-22T11:33:20+00:00" data-nom="produire, dans la résidence de moly-sabata"
@@ -191,20 +171,6 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
   <div class="meta"><a href="/organisme/fondation-des-artistes-105df959/">Fondation des Artistes</a> — France
      · arts plastiques
      · <span class=verif>vérifié le 22/05/2026</span></div>
-</li>
-<li class="card bientot-fermee" data-type="residence"
-    data-pays="france" data-disc="arts plastiques, installation, design"
-    data-deadline="2026-10-08" data-score="4"
-    data-fetched="2026-08-01T15:00:00+00:00" data-nom="institut français x cité internationale des arts 2027"
-    data-search="institut français x cité internationale des arts 2027 cité internationale des arts paris, france arts plastiques, installation, design l&#x27;institut français et la cité internationale des arts organisent l&#x27;édition 2027 de ce programme de résidence à paris, ouvert à toutes disciplines artistiques, pour des artistes vivant hors de france depuis au moins 5 ans.">
-  <div class="row1">
-    <span class="tag residence">Résidence</span>
-    <span class="deadline">Échéance 08/10/2026</span><span class="score-pill">4/10</span>
-  </div>
-  <h3><a href="/o/b2fced6d.html">Institut français x Cité internationale des arts 2027</a></h3>
-  <div class="meta"><a href="/organisme/cite-internationale-des-arts-ministere-des-cultures-des-arts-054e95ce/">Cité Internationale des Arts</a> — Paris, France
-     · arts plastiques, installation, design
-     · <span class=verif>vérifié le 01/08/2026</span></div>
 </li>
 <li class="card indetermine" data-type="residence"
     data-pays="france" data-disc="design, dessin, illustration"
@@ -348,11 +314,17 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
 </li></ul>
 
 <footer>
-  <p>Mise à jour automatique — sources FR / EN / ES, interface FR.
+  <p>Site généré le 18 novembre 2026 · dernière veille complète le 6 août 2026
+     (veille hebdomadaire, le lundi) — sources FR / EN / ES, interface FR.
      <a href="/flux.html">Flux RSS</a> · <a href="/calendar.ics">Calendrier .ics</a> ·
      <a href="/data.json">Données JSON</a></p>
   <p>Vérifiez toujours les informations sur le site de l'organisme avant de candidater.
      Code : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
+  <p>Textes : <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">CC BY-NC-SA 4.0</a> ·
+     Données (fiches, JSON, flux) : <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> ·
+     Code : <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">AGPL-3.0</a> ·
+     <a href="https://github.com/CedricMabilotte/residence-veille/blob/main/LICENSE">détail des licences</a> ·
+     <a href="https://github.com/CedricMabilotte/residence-veille/blob/main/CITATION.cff">citer</a></p>
 </footer>
 </div>
 </body>

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Residence//actitude.org//FR
 BEGIN:VEVENT
 UID:1a3f71ff@residence.actitude.org
-DTSTAMP:20261002T114559Z
+DTSTAMP:20261118T163401Z
 DTSTART;VALUE=DATE:20260407
 DTEND;VALUE=DATE:20260408
 SUMMARY:[Résidence] Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résidences trimestrielles pour des projets sur l'environnement 2026]
@@ -11,58 +11,10 @@ URL:https://residence.actitude.org/o/1a3f71ff.html
 END:VEVENT
 BEGIN:VEVENT
 UID:23509e2e@residence.actitude.org
-DTSTAMP:20261002T114559Z
+DTSTAMP:20261118T163401Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:[Résidence] Résidence Tiny Spaces
 URL:https://residence.actitude.org/o/23509e2e.html
-END:VEVENT
-BEGIN:VEVENT
-UID:53bddbf8@residence.actitude.org
-DTSTAMP:20261002T114559Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:[Résidence] Institut français x Cité internationale des arts – Édition 2027
-URL:https://residence.actitude.org/o/53bddbf8.html
-END:VEVENT
-BEGIN:VEVENT
-UID:58ee772e@residence.actitude.org
-DTSTAMP:20261002T114559Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:[Résidence] Proyecto'ACE — Production Residencies
-URL:https://residence.actitude.org/o/58ee772e.html
-END:VEVENT
-BEGIN:VEVENT
-UID:762972f7@residence.actitude.org
-DTSTAMP:20261002T114559Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:[Résidence] Résidences Institut français x Cité internationale des arts
-URL:https://residence.actitude.org/o/762972f7.html
-END:VEVENT
-BEGIN:VEVENT
-UID:b2fced6d@residence.actitude.org
-DTSTAMP:20261002T114559Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:[Résidence] Institut français x Cité internationale des arts 2027
-URL:https://residence.actitude.org/o/b2fced6d.html
-END:VEVENT
-BEGIN:VEVENT
-UID:8030ae41@residence.actitude.org
-DTSTAMP:20261002T114559Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:[Bourse] Fonds culturel franco-allemand
-URL:https://residence.actitude.org/o/8030ae41.html
-END:VEVENT
-BEGIN:VEVENT
-UID:a5664345@residence.actitude.org
-DTSTAMP:20261002T114559Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:[Appel à exposition] PIDA - Programme International de Diffusion Artistique
-URL:https://residence.actitude.org/o/a5664345.html
 END:VEVENT
 END:VCALENDAR

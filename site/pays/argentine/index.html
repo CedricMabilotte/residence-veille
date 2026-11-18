@@ -43,6 +43,13 @@ h3 { font-size:1.15rem; margin:1.4rem 0 .5rem; }
   color:var(--gold); font-family:inherit; }
 .urgent ul { margin:0; padding-left:1.1rem; }
 .urgent a { color:var(--ink); }
+.stale { background:#fdecec; border:1px solid #c0392b; color:#7b1f1a; border-radius:7px;
+  padding:.8rem 1.2rem; margin:1rem 0; font-family:-apple-system,system-ui,sans-serif; font-size:.9rem; }
+details.tbc { margin:2.5rem 0 1rem; border-top:1px solid var(--line); padding-top:1rem; }
+details.tbc summary { cursor:pointer; font-family:-apple-system,system-ui,sans-serif; font-size:.95rem;
+  color:var(--muted); }
+details.tbc summary b { color:var(--ink); }
+details.tbc p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
 .toolbar { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0;
   font-family:-apple-system,system-ui,sans-serif; }
 .toolbar input, .toolbar select { font:inherit; font-size:.9rem; padding:.45rem .6rem;
@@ -147,6 +154,7 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
     <a href="/a-propos.html">À propos</a>
   </nav>
 </header>
+<div class="stale" role="status">⚠ La dernière veille complète date du 6 août 2026 (104 jours). Certaines échéances affichées peuvent être dépassées et de nouveaux appels manquer : vérifiez sur le site de l'organisme.</div>
 
 <a class="backlink" href="/">← Catalogue</a>
 <h2 class="sec">Opportunités — Argentine</h2>
@@ -163,28 +171,20 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
   <div class="meta"><a href="/organisme/res-artis-906e370b/">Res Artis</a> — Bariloche, Argentine
      · visual arts, photography, film
      · <span class=verif>vérifié le 05/08/2026</span></div>
-</li>
-<li class="card bientot-fermee" data-type="residence"
-    data-pays="argentine" data-disc="arts visuels, art textile"
-    data-deadline="2026-10-31" data-score="4"
-    data-fetched="2026-08-01T18:00:00+00:00" data-nom="proyecto&#x27;ace — production residencies"
-    data-search="proyecto&#x27;ace — production residencies proyecto&#x27;ace buenos aires, argentine arts visuels, art textile résidence de production en atelier à buenos aires, ouverte aux arts visuels et à l&#x27;art textile, fonctionnant par sessions glissantes tout au long de l&#x27;année.">
-  <div class="row1">
-    <span class="tag residence">Résidence</span>
-    <span class="deadline">Échéance 31/10/2026</span><span class="score-pill">4/10</span>
-  </div>
-  <h3><a href="/o/58ee772e.html">Proyecto&#x27;ACE — Production Residencies</a></h3>
-  <div class="meta"><a href="/organisme/proyecto-ace-c0828cea/">Proyecto&#x27;ACE</a> — Buenos Aires, Argentine
-     · arts visuels, art textile
-     · <span class=verif>vérifié le 01/08/2026</span></div>
 </li></ul>
 
 <footer>
-  <p>Mise à jour automatique — sources FR / EN / ES, interface FR.
+  <p>Site généré le 18 novembre 2026 · dernière veille complète le 6 août 2026
+     (veille hebdomadaire, le lundi) — sources FR / EN / ES, interface FR.
      <a href="/flux.html">Flux RSS</a> · <a href="/calendar.ics">Calendrier .ics</a> ·
      <a href="/data.json">Données JSON</a></p>
   <p>Vérifiez toujours les informations sur le site de l'organisme avant de candidater.
      Code : <a href="https://github.com/CedricMabilotte/residence-veille">github.com/CedricMabilotte/residence-veille</a></p>
+  <p>Textes : <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">CC BY-NC-SA 4.0</a> ·
+     Données (fiches, JSON, flux) : <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> ·
+     Code : <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">AGPL-3.0</a> ·
+     <a href="https://github.com/CedricMabilotte/residence-veille/blob/main/LICENSE">détail des licences</a> ·
+     <a href="https://github.com/CedricMabilotte/residence-veille/blob/main/CITATION.cff">citer</a></p>
 </footer>
 </div>
 </body>
