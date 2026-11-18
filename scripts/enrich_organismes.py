@@ -17,6 +17,8 @@ import claude_guard
 import sys
 from pathlib import Path
 
+import datetime as _dt
+import os
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -61,8 +63,26 @@ _ENRICH_FIELDS = [
 ]
 
 
+# 2026-11-18 : chaque run renvoyait à Claude TOUS les organismes à champs vides
+# (43 sur 49), y compris ceux pour lesquels Claude n'avait déjà rien trouvé — une
+# tentative est désormais datée dans _meta.enrich_attempted_at et n'est pas
+# rejouée avant ENRICH_RETRY_DAYS ; ENRICH_MAX plafonne les appels par run.
+ENRICH_MAX = int(os.getenv("ENRICH_MAX") or 10)
+ENRICH_RETRY_DAYS = int(os.getenv("ENRICH_RETRY_DAYS") or 90)
+
+
 def needs_enrichment(fiche: dict) -> bool:
-    return any(not fiche.get(k) for k in _ENRICH_FIELDS)
+    if not any(not fiche.get(k) for k in _ENRICH_FIELDS):
+        return False
+    last = (fiche.get("_meta") or {}).get("enrich_attempted_at")
+    if last:
+        try:
+            age = (_dt.date.today() - _dt.date.fromisoformat(str(last)[:10])).days
+            if age < ENRICH_RETRY_DAYS:
+                return False
+        except ValueError:
+            pass
+    return True
 
 
 def enrich(fiche: dict) -> dict:
@@ -100,10 +120,14 @@ Réponds :
 def main():
     ORGANISMES_DIR.mkdir(parents=True, exist_ok=True)
     n_enriched = 0
+    n_tried = 0
     for f in sorted(ORGANISMES_DIR.glob("*.yml")):
         fiche = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
         if not needs_enrichment(fiche):
             continue
+        if n_tried >= ENRICH_MAX:
+            break
+        n_tried += 1
         suggestions = enrich(fiche)
         if "_error" in suggestions:
             continue
@@ -113,14 +137,14 @@ def main():
             if val and not fiche.get(k):
                 fiche[k] = val
                 changed = True
-        if not changed:
-            continue
+        fiche.setdefault("_meta", {})["enrich_attempted_at"] = _dt.date.today().isoformat()
+        if changed:
+            n_enriched += 1
         f.write_text(
             yaml.safe_dump(fiche, allow_unicode=True, sort_keys=False, width=120),
             encoding="utf-8",
         )
-        n_enriched += 1
-    print(f"enrich_organismes : {n_enriched} fiche(s) enrichie(s).")
+    print(f"enrich_organismes : {n_tried} tentative(s), {n_enriched} fiche(s) enrichie(s) (plafond {ENRICH_MAX}).")
 
 
 if __name__ == "__main__":

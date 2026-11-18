@@ -81,6 +81,16 @@ details.tbc summary { cursor:pointer; font-family:-apple-system,system-ui,sans-s
   color:var(--muted); }
 details.tbc summary b { color:var(--ink); }
 details.tbc p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
+.tbl { width:100%; border-collapse:collapse; font-family:-apple-system,system-ui,sans-serif; font-size:.85rem; margin:1rem 0; }
+.tbl th, .tbl td { text-align:left; padding:.4rem .6rem; border-bottom:1px solid var(--line); vertical-align:top; }
+.tbl th { color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.05em; font-size:.75rem; }
+.tbl tr.ko td { background:#fdf3f3; }
+.flag { display:inline-block; padding:.1rem .5rem; border-radius:999px; font-size:.75rem; font-weight:600; }
+.flag.ok { background:#e6f4ea; color:#1e6b3a; } .flag.ko { background:#fdecec; color:#8a1f1a; }
+.flag.warn { background:#fbf3e7; color:#7a5a12; }
+p.etat { padding:.8rem 1.1rem; border-radius:7px; font-family:-apple-system,system-ui,sans-serif; }
+p.etat.ok { background:#e6f4ea; } p.etat.ko { background:#fdecec; }
+p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
 .toolbar { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0;
   font-family:-apple-system,system-ui,sans-serif; }
 .toolbar input, .toolbar select { font:inherit; font-size:.9rem; padding:.45rem .6rem;
@@ -261,6 +271,8 @@ def fiche_fields(f: dict) -> dict:
         "fetched_at": f.get("fetched_at", ""),
         "score": f.get("score"),
         "status": f.get("status", "indetermine"),
+        "prochaine_edition": cand.get("prochaine_edition"),
+        "date_recheck": (f.get("_meta") or {}).get("date_recheck"),
         "disciplines": _get_any(elig, "disciplines", "disciplinas", default=[]) or [],
         "eligibilite": elig,
         "candidature": cand,
@@ -388,6 +400,7 @@ def page_shell(title: str, body: str, active: str = "") -> str:
     <a href="/archive.html"{na('archive')}>Archive</a>
     <a href="/suggerer.html"{na('suggerer')}>Suggérer une source</a>
     <a href="/a-propos.html"{na('apropos')}>À propos</a>
+    <a href="/sante.html"{na('sante')} title="État de la veille automatique">Santé</a>
   </nav>
 </header>
 {stale_banner_html()}
@@ -410,7 +423,7 @@ def page_shell(title: str, body: str, active: str = "") -> str:
 </html>'''
 
 
-def deadline_html(dl, status: str | None = None) -> str:
+def deadline_html(dl, status: str | None = None, extra: dict | None = None) -> str:
     if dl:
         d = _date(dl)
         if d:
@@ -420,6 +433,16 @@ def deadline_html(dl, status: str | None = None) -> str:
         # Candidature réellement continue (autofinancée ou au fil de l'eau) —
         # distinct de "échéance à confirmer" (donnée manquante). Voir L3.
         return '<span class="deadline">Candidature continue</span>'
+    if status == "edition-a-venir":
+        ed = _esc(str(extra.get("prochaine_edition") or "")) if extra else ""
+        return f'<span class="deadline">Prochaine édition {ed}</span>' if ed else \
+               '<span class="deadline">Prochaine édition annoncée</span>'
+    rc = (extra or {}).get("date_recheck") or {}
+    if rc.get("at"):
+        d = _date(rc["at"])
+        return (f'<span class="deadline">date non trouvée sur la page '
+                f'(vérifié le {d.day:02d}/{d.month:02d}/{d.year})</span>') if d else \
+               '<span class="deadline">date non trouvée sur la page</span>'
     return '<span class="deadline">échéance à confirmer</span>'
 
 
@@ -444,7 +467,7 @@ def render_card(ff: dict) -> str:
     data-search="{_esc(blob)}">
   <div class="row1">
     <span class="tag {_esc(t)}">{_esc(TYPE_LABEL_FR.get(t, t))}</span>
-    {deadline_html(ff['date_limite'], ff['status'])}{score_html}
+    {deadline_html(ff['date_limite'], ff['status'], ff)}{score_html}
   </div>
   <h3><a href="/o/{_esc(ff['uid'])}.html">{_esc(ff['affichage'])}</a></h3>
   <div class="meta">{org_html}{' — ' if ff['organisme'] and lieu else ''}{_esc(lieu)}
@@ -525,7 +548,7 @@ def render_fiche_item(ff: dict) -> str:
 <div class="fiche-head">
   <div class="row1">
     <span class="tag {_esc(t)}">{_esc(TYPE_LABEL_FR.get(t, t))}</span>
-    {deadline_html(ff['date_limite'], ff['status'])}{score_html}
+    {deadline_html(ff['date_limite'], ff['status'], ff)}{score_html}
   </div>
   <h2>{_esc(ff['affichage'])}</h2>
   <div class="sub">{org_link}{' — ' if ff['organisme'] and lieu else ''}{lieu_link}
@@ -847,6 +870,168 @@ def render_organisme(org: dict, related: list[dict]) -> str:
     return page_shell(f"{nom} — Résidence", body, active="organismes")
 
 
+# ── Santé de la veille ───────────────────────────────────────────────────────
+# Ajoutée le 2026-11-18 (validé par Ced). Page publique, zéro appel Claude :
+# tout vient de reports/, discovery/throttle_state.json, discovery/seen_items.json
+# et des statuts des fiches. C'est la page qui aurait rendu visible, dès
+# septembre, trois mois de runs « verts » qui ne produisaient rien.
+THROTTLE_PATH = ROOT / "discovery" / "throttle_state.json"
+SEEN_PATH = ROOT / "discovery" / "seen_items.json"
+SOURCES_PATH = ROOT / "config" / "sources.yml"
+
+
+def _load_runs(limit: int = 12) -> list[dict]:
+    runs = []
+    for rp in sorted(REPORTS_DIR.glob("run_*.json"), reverse=True):
+        try:
+            rep = json.loads(rp.read_text(encoding="utf-8")) or {}
+        except Exception:
+            continue
+        if rep.get("dry_run"):
+            continue
+        rep["_file"] = rp.name
+        runs.append(rep)
+        if len(runs) >= limit:
+            break
+    return runs
+
+
+def _fmt_dur(sec) -> str:
+    try:
+        sec = int(sec)
+    except Exception:
+        return "—"
+    return f"{sec // 60} min {sec % 60:02d} s" if sec >= 60 else f"{sec} s"
+
+
+def render_sante(ouvertes: list[dict], archivees: list[dict]) -> str:
+    runs = _load_runs()
+    today = _dt.date.today()
+
+    # Bloc 1 — état
+    f = FRESH
+    etat_cls = "ok" if not f["stale"] else "ko"
+    etat = (f"Dernière veille complète : <b>{_fr_date(f['last_full'])}</b>"
+            + (f" ({f['age_days']} jours)" if f["age_days"] is not None else "")
+            + f" · dernier run (même dégradé) : {_fr_date(f['last_any'])}"
+            + f" · site généré le {_fr_date(f['build'])}.")
+    if f["stale"]:
+        etat += " <b>La veille est en retard</b> : les données peuvent être anciennes."
+
+    # Bloc 2 — runs
+    rows = []
+    for r in runs:
+        d = _date(r.get("started_at"))
+        degr = bool(r.get("claude_session_limit_hit"))
+        budget = bool(r.get("budget_hit"))
+        flags = []
+        if degr:
+            flags.append('<span class="flag ko">limite Claude</span>')
+        if budget:
+            flags.append(f'<span class="flag warn">budget atteint ({len(r.get("sources_not_reached") or [])} sources reportées)</span>')
+        if not flags:
+            flags.append('<span class="flag ok">complet</span>')
+        rows.append(
+            f"<tr><td>{_fr_date(d)}</td><td>{_fmt_dur(r.get('duration_sec'))}</td>"
+            f"<td>{len([s for s in (r.get('sources_stats') or [])])}/{r.get('n_sources', '—')}</td>"
+            f"<td>{r.get('n_items_total', '—')}</td>"
+            f"<td>{r.get('n_new_items', '—')}</td><td>{r.get('n_promoted_total', '—')}</td>"
+            f"<td>{' '.join(flags)}</td></tr>")
+    runs_html = ("<table class='tbl'><thead><tr><th>Run</th><th>Durée</th><th>Sources traitées</th>"
+                 "<th>Items vus</th><th>Nouveaux</th><th>Fiches promues</th><th>État</th></tr></thead>"
+                 f"<tbody>{''.join(rows) or '<tr><td colspan=7>Aucun rapport.</td></tr>'}</tbody></table>")
+
+    # Bloc 3 — sources
+    try:
+        sources = (yaml.safe_load(SOURCES_PATH.read_text(encoding="utf-8")) or {}).get("sources") or []
+    except Exception:
+        sources = []
+    try:
+        thr = json.loads(THROTTLE_PATH.read_text(encoding="utf-8")) if THROTTLE_PATH.exists() else {}
+    except Exception:
+        thr = {}
+    # Erreurs de source relevées dans les derniers rapports
+    err_by_label: dict[str, str] = {}
+    last_ok_by_label: dict[str, str] = {}
+    last_items_by_label: dict[str, int] = {}
+    for r in reversed(runs):  # du plus ancien au plus récent → le dernier état gagne
+        d = (r.get("started_at") or "")[:10]
+        for s in r.get("sources_stats") or []:
+            lab = s.get("label", "?")
+            if s.get("error"):
+                err_by_label[lab] = f"{d} — {str(s['error'])[:90]}"
+            else:
+                err_by_label.pop(lab, None)
+                last_items_by_label[lab] = int(s.get("items") or 0)
+                if s.get("items"):
+                    last_ok_by_label[lab] = d
+    src_rows = []
+    n_err = n_silent = 0
+    for s in sources:
+        lab = s.get("label", s.get("url", "?"))
+        err = err_by_label.get(lab)
+        silent = (not err) and lab in last_items_by_label and last_items_by_label[lab] == 0
+        if err:
+            n_err += 1
+        if silent:
+            n_silent += 1
+        last_ok = last_ok_by_label.get(lab, "—")
+        st = thr.get(s.get("url", ""), {}) if isinstance(thr, dict) else {}
+        interval = s.get("min_interval_days", st.get("current_interval_days", 7))
+        if err:
+            flag = f'<span class="flag ko">erreur</span> {_esc(err)}'
+        elif silent:
+            flag = '<span class="flag warn">0 item au dernier passage</span> — page vide, bloquée ou URL à revoir'
+        elif lab not in last_items_by_label:
+            flag = '<span class="flag warn">jamais atteinte</span> dans les derniers runs'
+        else:
+            flag = '<span class="flag ok">ok</span>'
+        src_rows.append(
+            f"<tr class='{'ko' if err else ''}'><td>{_esc(lab)}</td><td>{_esc(s.get('type', ''))}</td>"
+            f"<td>{interval} j</td><td>{_esc(last_ok)}</td><td>{flag}</td></tr>")
+    src_html = ("<table class='tbl'><thead><tr><th>Source</th><th>Parser</th><th>Intervalle</th>"
+                "<th>Dernier passage avec des items</th><th>État</th></tr></thead>"
+                f"<tbody>{''.join(src_rows)}</tbody></table>")
+
+    # Bloc 4 — corpus
+    from collections import Counter
+    st_count = Counter((fx.get("status") or "indetermine") for fx in ouvertes)
+    labels = {"ouverte": "ouvertes (datées)", "bientot-fermee": "bientôt fermées (≤ 30 j)",
+              "ouverte-continue": "candidature continue", "edition-a-venir": "prochaine édition annoncée",
+              "indetermine": "sans date trouvée"}
+    corpus = "".join(f"<li><b>{st_count.get(k, 0)}</b> {v}</li>" for k, v in labels.items())
+    try:
+        n_seen = len(json.loads(SEEN_PATH.read_text(encoding="utf-8"))) if SEEN_PATH.exists() else 0
+    except Exception:
+        n_seen = 0
+    quarantine = len(list((ROOT / "discovery" / "quarantine").rglob("*.yml")))
+
+    body = f'''
+<a class="backlink" href="/">← Catalogue</a>
+<h2 class="sec">Santé de la veille</h2>
+<div class="prose">
+<p class="etat {etat_cls}">{etat}</p>
+<p>Cette page est générée à chaque run, sans intervention humaine. Elle existe pour qu'un
+   catalogue qui ne se met plus à jour se voie — depuis cette page comme depuis le bandeau
+   du site. Cadence : hebdomadaire (lundi 6h UTC), budget 60 minutes par run.</p>
+</div>
+<h3 class="sec">Derniers runs</h3>
+{runs_html}
+<p class="note">« Limite Claude » : le modèle d'extraction n'était plus disponible (quota de la
+   souscription) ; le run a tourné en mode dégradé, sans nouvelle fiche. « Budget atteint » :
+   le run a dépassé son temps et les sources restantes passent au run suivant.</p>
+<h3 class="sec">Sources ({len(sources)} — {n_err} en erreur, {n_silent} silencieuse{"s" if n_silent > 1 else ""} au dernier passage)</h3>
+{src_html}
+<h3 class="sec">Corpus</h3>
+<div class="prose"><ul>{corpus}
+<li><b>{len(archivees)}</b> archivées (échéance passée) · <b>{quarantine}</b> en quarantaine (hors périmètre) ·
+    <b>{n_seen}</b> liens déjà examinés</li></ul>
+<p>Données brutes : <a href="https://github.com/{REPO}/tree/main/reports">rapports de run</a> ·
+   <a href="https://github.com/{REPO}/blob/main/config/sources.yml">liste des sources</a>.</p></div>
+'''
+    return page_shell("Santé de la veille — Résidence", body, active="sante")
+
+
 # ── Pages éditoriales ────────────────────────────────────────────────────────
 def render_about() -> str:
     body = '''
@@ -856,9 +1041,10 @@ def render_about() -> str:
 <p><strong>Résidence</strong> agrège, classe et publie quatre types d'opportunités ouvertes
    aux artistes plasticien·nes : <em>résidences, bourses, prix et appels à exposition</em>.
    Sources parcourues en français, anglais et espagnol ; interface en français.</p>
-<p>Plusieurs fois par semaine, un script parcourt des sources institutionnelles. Pour
+<p>Chaque semaine (le lundi), un script parcourt des sources institutionnelles. Pour
    chaque appel détecté, une fiche structurée est extraite automatiquement : type,
-   organisme, lieu, date limite, conditions, éligibilité, et une analyse synthétique.</p>
+   organisme, lieu, date limite, conditions, éligibilité, et une analyse synthétique.
+   L'état de cette veille est public : <a href="/sante.html">santé de la veille</a>.</p>
 <p>Chaque fiche est lue contre un barème de critères matériels (rétribution, hébergement,
    atelier, prise en charge des frais).</p>
 <p><strong>Limites.</strong> Les fiches sont extraites par un modèle de langage : des
@@ -1018,6 +1204,7 @@ def main():
     (SITE_DIR / "calendrier.html").write_text(render_calendar(ouvertes), encoding="utf-8")
     (SITE_DIR / "archive.html").write_text(render_archive(archivees), encoding="utf-8")
     (SITE_DIR / "a-propos.html").write_text(render_about(), encoding="utf-8")
+    (SITE_DIR / "sante.html").write_text(render_sante(ouvertes, archivees), encoding="utf-8")
     (SITE_DIR / "flux.html").write_text(render_flux(), encoding="utf-8")
     (SITE_DIR / "suggerer.html").write_text(render_suggest(), encoding="utf-8")
 
@@ -1071,7 +1258,7 @@ def main():
     (SITE_DIR / "robots.txt").write_text(
         "User-agent: *\nAllow: /\nSitemap: https://residence.actitude.org/sitemap.xml\n", encoding="utf-8")
     urls = ["", "calendrier.html", "organismes.html", "archive.html", "flux.html",
-            "a-propos.html", "suggerer.html"]
+            "a-propos.html", "suggerer.html", "sante.html"]
     urls += [f"o/{fiche_fields(f)['uid']}.html" for f in ouvertes if fiche_fields(f)["uid"]]
     urls += [f"organisme/{o.get('uid')}/" for o in orgs if o.get("uid")]
     urls += [f"pays/{_slug(p)}/" for p in by_pays]

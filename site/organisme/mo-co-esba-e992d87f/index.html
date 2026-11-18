@@ -50,6 +50,16 @@ details.tbc summary { cursor:pointer; font-family:-apple-system,system-ui,sans-s
   color:var(--muted); }
 details.tbc summary b { color:var(--ink); }
 details.tbc p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
+.tbl { width:100%; border-collapse:collapse; font-family:-apple-system,system-ui,sans-serif; font-size:.85rem; margin:1rem 0; }
+.tbl th, .tbl td { text-align:left; padding:.4rem .6rem; border-bottom:1px solid var(--line); vertical-align:top; }
+.tbl th { color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.05em; font-size:.75rem; }
+.tbl tr.ko td { background:#fdf3f3; }
+.flag { display:inline-block; padding:.1rem .5rem; border-radius:999px; font-size:.75rem; font-weight:600; }
+.flag.ok { background:#e6f4ea; color:#1e6b3a; } .flag.ko { background:#fdecec; color:#8a1f1a; }
+.flag.warn { background:#fbf3e7; color:#7a5a12; }
+p.etat { padding:.8rem 1.1rem; border-radius:7px; font-family:-apple-system,system-ui,sans-serif; }
+p.etat.ok { background:#e6f4ea; } p.etat.ko { background:#fdecec; }
+p.note { font-size:.85rem; color:var(--faint); font-family:-apple-system,system-ui,sans-serif; }
 .toolbar { display:flex; gap:.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0;
   font-family:-apple-system,system-ui,sans-serif; }
 .toolbar input, .toolbar select { font:inherit; font-size:.9rem; padding:.45rem .6rem;
@@ -152,6 +162,7 @@ footer { margin-top:4rem; padding-top:1.4rem; border-top:1px solid var(--line); 
     <a href="/archive.html">Archive</a>
     <a href="/suggerer.html">Suggérer une source</a>
     <a href="/a-propos.html">À propos</a>
+    <a href="/sante.html" title="État de la veille automatique">Santé</a>
   </nav>
 </header>
 
