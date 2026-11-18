@@ -88,7 +88,10 @@ def hard_filters(fiche: dict) -> tuple[bool, str]:
     if fiche.get("type") not in {"residence", "bourse", "prix", "exposition"}:
         return False, "type non reconnu"
 
-    disciplines = [d.lower() for d in (elig.get("disciplines") or [])]
+    _disc = elig.get("disciplines") or []
+    if isinstance(_disc, str):
+        _disc = [_disc]
+    disciplines = [str(d).lower() for d in _disc if d]
     # Resserré le 2026-08-02 (leçon L8) : le mot-clé générique "art" acceptait
     # à tort des disciplines non-pratique — ex. "critique d'art" (fiche
     # Bridges/AICA, réservée aux critiques membres AICA, pas aux plasticien·nes
@@ -256,7 +259,12 @@ def claude_base_score(fiche: dict) -> tuple[int, str]:
     nom = (fiche.get("opportunite") or {}).get("nom", "")
     org = (fiche.get("opportunite") or {}).get("organisme", "")
     type_id = fiche.get("type", "")
-    disciplines = (fiche.get("eligibilite") or {}).get("disciplines", [])
+    # 2026-11-18 : l'extraction renvoie parfois disciplines: null (ou une chaîne) →
+    # « can only join an iterable » et la fiche était perdue (7 semences sur 25).
+    disciplines = (fiche.get("eligibilite") or {}).get("disciplines") or []
+    if isinstance(disciplines, str):
+        disciplines = [disciplines]
+    disciplines = [str(d) for d in disciplines if d]
 
     prompt = f"""Tu notes la pertinence de base d'une fiche d'opportunité pour plasticien·nes
 (hors qualité des conditions matérielles/administratives, évaluée séparément).

@@ -11,12 +11,6 @@
   "source": "Semences manuelles (discovery/seeds.yml)",
   "status": "below_threshold"
  },
- "accioncultural.es/en/residencies-2027": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "adagp.fr/fr/actualites/actualites-de-lorganisation-mondiale-de-la-propriete-intellectuelle-ompi": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
@@ -453,12 +447,6 @@
   "first_seen": "2026-08-02",
   "last_seen": "2026-11-18",
   "status": "skipped"
- },
- "artenda.net/art-open-call-opportunity/project-grant": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "artenda.net/art-open-call-opportunity/public-art": {
   "first_seen": "2026-11-18",
@@ -1041,12 +1029,6 @@
   "source": "Artquest [rebond K]",
   "status": "skipped"
  },
- "artquest.org.uk/opportunity/cove-park-awarded-residencies-2027-2028": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "artquest.org.uk/opportunity/francois-schneider-foundation-talents-contemporains": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -1471,12 +1453,6 @@
   "last_seen": "2026-10-02",
   "status": "skipped"
  },
- "cholet.fr/dossiers/dossier_6582_conseils+quartier+pourquoi+pas+vous.html": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "cholet.fr/dossiers/dossier_6583_may-sur-evre+travaux+sur+reseaux+assainissmement+eau+potable.html": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -1661,12 +1637,6 @@
   "first_seen": "2026-08-06",
   "last_seen": "2026-11-18",
   "status": "archived"
- },
- "citeinternationaledesarts.fr/appels-a-candidature/villa-arson-x-cite-internationale-des-arts": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "citeinternationaledesarts.fr/en/appels-a-candidature/49659": {
   "fiche": "5de27397",
@@ -2387,12 +2357,6 @@
   "last_seen": "2026-09-03",
   "status": "skipped"
  },
- "contemporaneitesdelart.fr/digithalle-03-0-astaffort": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "contemporaneitesdelart.fr/edward-sheriff-curtis-mois-de-la-photo-en-vallespir-ceret": {
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
@@ -2780,12 +2744,6 @@
   "last_seen": "2026-08-28",
   "status": "skipped"
  },
- "contemporaneitesdelart.fr/une-semaine-avec-pierre-bourrigault-niort": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "contemporaneitesdelart.fr/visa-pour-limage-2026-perpignan": {
   "first_seen": "2026-08-28",
   "last_seen": "2026-08-28",
@@ -3029,12 +2987,6 @@
   "source": "culture360 [rebond K]",
   "status": "skipped"
  },
- "culture360.asef.org/opportunities/editor-culture360aseforg": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "culture360.asef.org/opportunities/france-curatorial-research-fellowship-2027": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -3053,12 +3005,6 @@
   "source": "culture360 [rebond K]",
   "status": "promoted"
  },
- "culture360.asef.org/opportunities/japan-sado-island-galaxy-art-festival-2027": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "culture360.asef.org/opportunities/latvia-residency-for-european-capital-of-culture-2027": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -3076,12 +3022,6 @@
   "last_seen": "2026-11-18",
   "source": "culture360 [rebond K]",
   "status": "below_threshold"
- },
- "culture360.asef.org/opportunities/residency-on-ai-and-cultural-memory-2027": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "culture360.asef.org/opportunities/switzerland-2027-site-responsive-residency-for-emerging-artists": {
   "first_seen": "2026-11-18",
@@ -3299,18 +3239,6 @@
   "first_seen": "2026-09-01",
   "last_seen": "2026-09-01",
   "status": "skipped"
- },
- "curatorspace.com/profiles/diversamentearte": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
- "curatorspace.com/profiles/fb10223914294396954": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "curatorspace.com/profiles/glasgalphoto": {
   "first_seen": "2026-05-22",
@@ -3720,12 +3648,6 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
- "estellecreativearts.com/artist-in-residency-program": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "etn-net.org/berichte/open-call-call-for-participation-skb-artes-kunst-in-der-kartausebolzano-karthaus-schnals-itdeadline-20-11-2026.html": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -3936,12 +3858,6 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
- "hangar.org/en/avis-legal": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "hangar.org/wp-content/uploads/2026/02/fund.-privada-aavc-311224-informe.pdf": {
   "first_seen": "2026-05-20",
   "last_seen": "2026-05-20",
@@ -4116,12 +4032,6 @@
   "last_seen": "2026-09-10",
   "status": "skipped"
  },
- "lamaisondesartistes.fr/site/la-minute-pro-5-revenus-principaux-ou-accessoires": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "lamaisondesartistes.fr/site/le-fonds-de-dotation": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-11-18",
@@ -4173,12 +4083,6 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
- "lamaisondesartistes.fr/site/precomptes-prescrits-la-maison-des-artistes-et-le-smda-cfdt-appellent-a-lunion-pour-le-vote-dune-loi-pour-la-creation-dun-fonds-solidaire-de-retablissement-des-droits": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "lamaisondesartistes.fr/site/replay-webinar-jna-2026-%f0%9f%92%bb-tout-comprendre-pour-participer-aux-jna": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
@@ -4219,12 +4123,6 @@
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-02",
   "status": "skipped"
- },
- "lametive.fr/events/pour-une-autre-ecologie-des-liens": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "lametive.fr/events/sortie-de-residence-hajra-khan-exposition-et-atelier-pratique": {
   "first_seen": "2026-11-18",
@@ -4789,12 +4687,6 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
- "p-a-c.fr/ressources/opportunites/appel-a-candidatures-exposition-collective-pov-la-station-2027": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "p-a-c.fr/ressources/opportunites/appel-a-candidatures-fluxus-art-projects-2027": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -4805,12 +4697,6 @@
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
   "status": "skipped"
- },
- "p-a-c.fr/ressources/opportunites/appel-a-candidatures-lab-10-1": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "p-a-c.fr/ressources/opportunites/appel-a-candidatures-les-ateliers-du-cap-2027": {
   "first_seen": "2026-11-18",
@@ -4874,12 +4760,6 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
- "p-a-c.fr/ressources/opportunites/offre-d-emploi-un-e-regisseur-seuse-a-la-fondation-camargo": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "p-a-c.fr/ressources/opportunites/prix-murlot": {
   "fiche": "64ec9c9e",
   "first_seen": "2026-08-01",
@@ -4906,18 +4786,6 @@
   "first_seen": "2026-05-20",
   "last_seen": "2026-05-20",
   "status": "skipped"
- },
- "proyectoace.org/en/available-dates": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
- "proyectoace.org/en/residencies/micro-residencies": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "proyectoace.org/en/residencies/mural-painting": {
   "first_seen": "2026-11-18",
@@ -5354,12 +5222,6 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
- "salondemontrouge.com/14-communique.htm": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "salondemontrouge.com/actualite/291/2-decouvrez-le-dossier-de-presse-du-68e-salon-de-montrouge.htm": {
   "fiche": "b8f7cc68",
   "first_seen": "2026-05-22",
@@ -5561,12 +5423,6 @@
   "source": "Textile Society of America – Opportunities [rebond K]",
   "status": "below_threshold"
  },
- "textilesocietyofamerica.org/submit-an-opportunity": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
- },
  "themesh.art/convocatorias/alt-film-festival-alt-4a-edicion-festival-de-documentales-lgbt-de-america-latina": {
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18",
@@ -5590,12 +5446,6 @@
   "last_seen": "2026-11-18",
   "source": "Semences manuelles (discovery/seeds.yml)",
   "status": "skipped"
- },
- "themesh.art/convocatorias/bardo-projektraum-open-call-bardo-curatorial-residency-2027": {
-  "error": "can only join an iterable",
-  "first_seen": "2026-11-18",
-  "last_seen": "2026-11-18",
-  "status": "error"
  },
  "themesh.art/convocatorias/dancehouse-lefkosia-on-bodies-festival": {
   "first_seen": "2026-11-18",
