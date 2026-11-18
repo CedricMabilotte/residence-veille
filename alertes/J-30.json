@@ -8,6 +8,14 @@
     "nom": "Résidence de création artistique 2027 « Si nos murs pouvaient parler »"
   },
   {
+    "path": "appels/residence/66247f3d.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 21,
+    "type": "residence",
+    "uid": "66247f3d",
+    "nom": "IN SITU Platform Programme 3rd call"
+  },
+  {
     "path": "appels/residence/710d4dae.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 28,
@@ -24,12 +32,36 @@
     "nom": "Elles & Cité"
   },
   {
+    "path": "appels/residence/b773b6c1.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 30,
+    "type": "residence",
+    "uid": "b773b6c1",
+    "nom": "Prix Occitanie – Médicis 2027 (Résidence Médicis arts plastiques Occitanie)"
+  },
+  {
     "path": "appels/residence/bac8ec7d.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 25,
     "type": "residence",
     "uid": "bac8ec7d",
     "nom": "Création artistique participative dans l'espace public 2027 – Ville de Questembert"
+  },
+  {
+    "path": "appels/residence/d07f84d5.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 26,
+    "type": "residence",
+    "uid": "d07f84d5",
+    "nom": "Make Eindhoven Residency 2027"
+  },
+  {
+    "path": "appels/bourse/94804ece.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 22,
+    "type": "bourse",
+    "uid": "94804ece",
+    "nom": "Call for Chapters: One Stitch at a Time: Telling Stories, Archiving Histories, and Threading Narratives of Resistance and Rebellion through Embroidered Art and Needlecraft"
   },
   {
     "path": "appels/exposition/626815e6.yml",

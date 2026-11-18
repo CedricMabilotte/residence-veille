@@ -1079,6 +1079,96 @@
       "last_etag": null,
       "last_modified": null,
       "cooldown_until": null
+    },
+    "Recursos Culturales [rebond K]": {
+      "url": "https://www.recursosculturales.com/feed/",
+      "domain": "www.recursosculturales.com",
+      "last_fetch": "2026-11-18T20:22:21Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "Artquest [rebond K]": {
+      "url": "https://artquest.org.uk/opportunities/",
+      "domain": "artquest.org.uk",
+      "last_fetch": "2026-11-18T20:22:54Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "mesh (themesh.art) [rebond K]": {
+      "url": "https://themesh.art/convocatorias/feed/",
+      "domain": "themesh.art",
+      "last_fetch": "2026-11-18T20:27:48Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "La Villette [rebond K]": {
+      "url": "https://www.lavillette.com/en/?p=57100",
+      "domain": "www.lavillette.com",
+      "last_fetch": "2026-11-18T20:29:05Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 0,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 30,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "culture360 [rebond K]": {
+      "url": "https://culture360.asef.org/opportunities/",
+      "domain": "culture360.asef.org",
+      "last_fetch": "2026-11-18T20:44:13Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 3,
+      "consecutive_low_yield": 0,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
+    },
+    "Textile Society of America – Opportunities [rebond K]": {
+      "url": "https://textilesocietyofamerica.org/community/opportunities",
+      "domain": "textilesocietyofamerica.org",
+      "last_fetch": "2026-11-18T20:55:33Z",
+      "last_fetch_attempts": 1,
+      "last_doc_count": 2,
+      "consecutive_low_yield": 1,
+      "current_interval_days": 14,
+      "last_status_code": 200,
+      "last_http_error": null,
+      "last_html_fingerprint": null,
+      "last_etag": null,
+      "last_modified": null,
+      "cooldown_until": null
     }
   },
   "domains": {
@@ -1823,6 +1913,71 @@
       "rate_limit_until": null,
       "robots_txt_cached_at": "2026-11-18T18:49:53Z",
       "robots_disallow": [],
+      "robots_crawl_delay": null
+    },
+    "www.recursosculturales.com": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T20:22:20Z",
+      "robots_disallow": [],
+      "robots_crawl_delay": null
+    },
+    "artquest.org.uk": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T20:22:21Z",
+      "robots_disallow": [
+        "?s=",
+        "/?s=",
+        "/search/",
+        "/wp-admin/"
+      ],
+      "robots_crawl_delay": null
+    },
+    "themesh.art": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T20:22:54Z",
+      "robots_disallow": [
+        "/wp-admin/",
+        "/wp-json/",
+        "/wp-login.php",
+        "/mesh-trap/",
+        "/para-ti/",
+        "/en/para-ti/",
+        "/explorer/"
+      ],
+      "robots_crawl_delay": null
+    },
+    "www.lavillette.com": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T20:27:48Z",
+      "robots_disallow": [
+        "/programmation/?",
+        "/en/programming/?",
+        "/programmation-little-villette/?",
+        "/en/programmation-little-villette/?"
+      ],
+      "robots_crawl_delay": null
+    },
+    "culture360.asef.org": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T20:29:05Z",
+      "robots_disallow": [
+        "/admin/",
+        "/search/"
+      ],
+      "robots_crawl_delay": null
+    },
+    "textilesocietyofamerica.org": {
+      "last_request_at": null,
+      "rate_limit_until": null,
+      "robots_txt_cached_at": "2026-11-18T20:44:13Z",
+      "robots_disallow": [
+        "/wp-admin/"
+      ],
       "robots_crawl_delay": null
     }
   }

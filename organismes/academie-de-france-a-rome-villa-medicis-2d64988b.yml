@@ -1,0 +1,40 @@
+uid: academie-de-france-a-rome-villa-medicis-2d64988b
+nom_canonique: Académie de France à Rome – Villa Médicis
+acronymes: []
+pays: null
+type_organisme: institution_publique
+url_canonique: https://villamedici.it
+urls_secondaires: []
+description_courte: Académie française de recherche et de création à Rome accueillant artistes, écrivains et chercheurs.
+disciplines_proposees:
+- peinture
+- sculpture
+- photographie
+- arts numériques
+- design
+- architecture
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: b773b6c1
+  type: residence
+  nom: Prix Occitanie – Médicis 2027 (Résidence Médicis arts plastiques Occitanie)
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: region-occitanie
+  occurrences: 1
+  nom_brut: Région Occitanie
+- organisme_uid: villa-medicis
+  occurrences: 1
+  nom_brut: Villa Médicis
+- organisme_uid: crac-sete
+  occurrences: 1
+  nom_brut: CRAC Sète
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
+ville: Rome

@@ -1,0 +1,168 @@
+uid: dca1c773
+type: residence
+source_url: https://culture360.asef.org/opportunities/china-swatch-art-peace-hotel-artist-residency-2027
+fetched_at: '2026-11-18T20:38:32+00:00'
+score: 6
+status: ouverte
+opportunite:
+  nom: Swatch Art Peace Hotel artist residency
+  organisme: Swatch Art Peace Hotel
+  lieu:
+    ville: Shanghai
+    pays: China
+    territoire: null
+  nom_fr: Chine | Résidence d'artiste Swatch Art Peace Hotel
+  affichage_titre: China | Swatch Art Peace Hotel artist residency [Chine | Résidence
+    d'artiste Swatch Art Peace Hotel]
+candidature:
+  date_limite: '2027-01-31'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription:
+    montant: null
+    devise: null
+  pieces_demandees: null
+  url_candidature: https://www.swatch-art-peace-hotel.com/en/artist-residency
+eligibilite:
+  disciplines:
+  - Film
+  - Literature
+  - Performing Arts
+  - Visual Arts
+  - Dance
+  - Music
+  - Photography
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 3 to 6 months
+  hebergement: true
+  atelier: apartments and workshops
+  remuneration:
+    montant: null
+    devise: null
+    periodicite: null
+  voyage:
+    pris_en_charge: true
+    plafond: 300
+    devise: CHF
+  restitution: leave an artistic 'trace' of their choice
+partenaires:
+- Asia-Europe Foundation
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: Information bien structurée. Absence de rémunération monétaire
+    explicite. Critères de sélection non détaillés. Délai de réponse annoncé (12 semaines).
+    Restitution minimale requise.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:38:32+00:00'
+  source_lang: en
+  resume_fr: 'Swatch Art Peace Hotel lance un appel à candidatures pour une résidence
+    d''artiste destinée à des créateurs du monde entier, pour une durée de 3 à 6 mois.
+    Les résidences incluent le logement, le service de ménage, le petit-déjeuner,
+    une assistance pour obtenir un visa affaires chinois et un billet aller-retour
+    pour Shanghai (jusqu''à 300 CHF). La commission de sélection examine les candidatures
+    en environ 12 semaines. Date limite : 31 Jan 2027.'
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: culture360 [rebond K]
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: La résidence Swatch Art Peace Hotel propose un séjour de 3 à 6 mois en
+    Chine avec logement, ateliers, petit-déjeuner et services ménagers inclus. L'organisme
+    couvre le vol aller-retour vers Shanghai et l'assistance aux frais de visa (jusqu'à
+    300 CHF). Elle s'adresse aux artistes (peintres, photographes, cinéastes, danseurs,
+    musiciens, écrivains, conceptuels) du monde entier sans restriction. Les candidatures
+    sont acceptées en continu jusqu'au 31 janvier 2027, réponses attendues sous 12
+    semaines.
+  pour_qui: Artistes confirmés ou émergents de toutes disciplines (arts visuels, film,
+    littérature, musique, danse, photographie) sans restriction de nationalité ou
+    d'expérience préalable.
+a_savoir:
+- Pas de rémunération mensuelle explicitement indiquée au-delà de la couverture des
+  frais essentiels
+- Assistance visa limitée à 300 CHF
+- Restitution attendue mais peu détaillée (artiste choisit la forme de sa 'trace')
+- Critères de sélection du jury non énoncés explicitement
+organisme_details:
+  site_web: https://www.swatch-art-peace-hotel.com/en/artist-residency
+  adresse: null
+  ville: Shanghai
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"remuneration": {"montant": null, "devise": null, "periodicite":
+    null}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "apartments and workshops"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: '"voyage": {"pris_en_charge": true, "plafond": 300, "devise": "CHF"}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: 'Logement et petit-déjeuner inclus, mais "remuneration": {"montant":
+    null, "devise": null} ; couverture des frais essentiels seulement'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"Critères de sélection du jury non énoncés explicitement"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: oui
+  justification: '"The selection committee needs approximately 12 weeks to review
+    the artist applications"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Pas de mention d'une notification individuelle aux candidats non
+    retenus dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"Artists are free to engage in individual or joint projects"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"duree": {"dates": "3 to 6 months"} — plage fixe, pas de mention
+    de négociation'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: '"restitution": "leave an artistic ''trace'' of their choice" — aucun
+    détail sur la diffusion presse, catalogue ou visibilité au-delà de l''organisme'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention d'un suivi documenté, réseau alumni actif ou accompagnement
+    ultérieur
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

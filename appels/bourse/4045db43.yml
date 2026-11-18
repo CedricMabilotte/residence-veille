@@ -1,0 +1,163 @@
+uid: 4045db43
+type: bourse
+source_url: https://culture360.asef.org/opportunities/japan-foundation-grants
+fetched_at: '2026-11-18T20:41:55+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Japan Foundation grants
+  organisme: The Japan Foundation
+  lieu:
+    ville: null
+    pays: Japan
+  nom_fr: Subventions de la Fondation du Japon
+  affichage_titre: Japan Foundation grants [Subventions de la Fondation du Japon]
+candidature:
+  date_limite: '2026-12-01'
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://www.jpf.go.jp/e/program/culture.html
+eligibilite:
+  disciplines:
+  - performing arts
+  - visual arts
+  - translation and publication
+  - cultural exchange
+  niveau_carriere: professional
+  age_max: null
+  nationalite: international
+  residence_administrative: outside country of residence for some programs
+conditions_bourse:
+  montant:
+    montant: null
+    devise: null
+  finalite: mobilite
+  calendrier_usage: null
+  obligations_rendu:
+  - Participation in cultural events
+  - Exhibition or publication results
+partenaires:
+- Asia-Europe Foundation (ASEF)
+- ASEAN countries
+_meta:
+  extracted_confidence: 0.6
+  extracted_notes: Umbrella program with multiple sub-programs. Specific funding amounts
+    and detailed eligibility criteria not disclosed. Strong focus on Japan-ASEAN exchange.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:41:55+00:00'
+  source_lang: en
+  resume_fr: La Fondation du Japon propose plusieurs appels à candidatures pour soutenir
+    l'internationalisation des arts japonais par des organisations nationales et internationales.
+    Elle offre des programmes de financement pour le dispatching d'artistes et de
+    spécialistes, les créations performatives internationales, les échanges culturels
+    en Asie, les bourses pour recherche artistique, les expositions et les traductions
+    de publications. Dans le cadre du 50e anniversaire de la coopération ASEAN-Japon
+    (2023), elle met en place le « WA Project 2.0 » visant à promouvoir les échanges
+    de la prochaine génération entre le Japon et l'ASEAN. Les candidatures doivent
+    être soumises avant le 1 décembre 2026.
+  detection_confidence: 0.8181818181818182
+  detection_method: heuristic
+  source_label: culture360 [rebond K]
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'The Japan Foundation grants is a suite of funding programs supporting
+    cultural exchange and collaboration between Japan and ASEAN countries, with international
+    dimensions. It covers dispatching artists and specialists, collaborative performing
+    arts productions, funding for organizations implementing exchange projects, individual
+    fellowships for research and creative work, and support for exhibitions and publications
+    of Japanese culture. Deadline: 1 December 2026. No specific funding amounts are
+    stated in the call.'
+  pour_qui: Artists, cultural specialists, curators, researchers, museums, institutions,
+    and organizations working in performing arts, visual arts, and cultural fields
+    seeking to foster exchange and collaboration with Japan or ASEAN countries.
+a_savoir:
+- Multiple distinct grant programs grouped under one umbrella – applicants must identify
+  their matching program
+- No specific funding amounts disclosed
+- Emphasis on ASEAN countries for some programs; unclear geographic eligibility for
+  others
+- No published selection criteria or jury composition provided
+- No response timeline or individual feedback mechanism mentioned
+organisme_details:
+  site_web: https://www.jpf.go.jp/e/program/culture.html
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"To provide financial support for artists and Japanese cultural
+    specialists" (synthèse, obligations_rendu)'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: 'Champ absent du JSON: "lieu.ville", "conditions_bourse.hebergement"
+    — aucune mention d''hébergement'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: 'Champ absent du JSON: aucune mention d''atelier, studio ou espace
+    de travail fourni'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"partial funding support" (synthèse) — couverts partiellement mais
+    sans détail des postes (voyage, production, matériel)'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"montant": null, "devise": null — aucun montant spécifié, impossible
+    d''évaluer l''adéquation au coût de la vie local'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"No published selection criteria or jury composition provided" (a_savoir)'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"No response timeline or individual feedback mechanism mentioned"
+    (a_savoir)'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: '"No response timeline or individual feedback mechanism mentioned"
+    (a_savoir)'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"research, creative activities" (synthèse) mais aussi "Participation
+    in cultural events, Exhibition or publication results" (obligations_rendu) — mixte
+    entre production libre et obligations'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: '"calendrier_usage": null — aucun détail sur la flexibilité ou rigidité
+    des dates'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"Exhibition or publication results" (obligations_rendu) — publications
+    et exhibitions mentionnées, mais portée au-delà de la Fondation non garantie'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Absence totale de mention d'alumni network, documentation post-programme
+    ou suivi — aucun champ correspondant dans la fiche
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

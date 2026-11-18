@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T19:54:22.119603+00:00",
-  "n_ouvertes": 36,
+  "generated_at": "2026-11-18T21:06:15.305724+00:00",
+  "n_ouvertes": 47,
   "n_archive": 61,
   "opportunites": [
     {
@@ -342,6 +342,172 @@
           "id": "suivi_apres_programme",
           "rempli": "partiel",
           "justification": "archivage et présentation numérique mentionnés ; \"pas d'alumni network ou accompagnement ultérieur mentionné\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "239df4ec",
+      "type": "residence",
+      "source_url": "https://kalanirvana.com/textile-india-residency",
+      "fetched_at": "2026-11-18T20:21:02+00:00",
+      "score": 7,
+      "status": "indetermine",
+      "opportunite": {
+        "nom": "KIAR Textile India Residency",
+        "organisme": "KIAR",
+        "lieu": {
+          "ville": "Bhubaneswar",
+          "pays": "Inde",
+          "territoire": "Odisha"
+        },
+        "nom_fr": "KIAR Résidence Textile Inde",
+        "affichage_titre": "KIAR Textile India Residency [KIAR Résidence Textile Inde]"
+      },
+      "candidature": {
+        "date_limite": null,
+        "date_limite_precision": null,
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://kalanirvana.com/textile-india-residency"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "textile design",
+          "fashion design",
+          "textile art",
+          "fibre art",
+          "research"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "15 jours / 30 jours / jusqu'à 3 mois, flexible"
+        },
+        "hebergement": true,
+        "atelier": "Studio/work space",
+        "remuneration": null,
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "USD",
+          "detail": "Airport pickup inclus; transports locaux pour visites textiles en supplément"
+        },
+        "restitution": "Opportunités de présentation, open studio ou exposition pour séjours 30 jours minimum"
+      },
+      "partenaires": [
+        "NIIFT, Odisha",
+        "Sabyasachi Satpathy"
+      ],
+      "analyse": {
+        "synthese": "KIAR Textile India Residency propose une immersion textile à Bhubaneswar en trois durées au choix : 15 jours (850 USD), 30 jours (1500 USD) ou jusqu'à 3 mois (4000 USD). Chaque séjour inclut hébergement, atelier, accès aux repas, et guidance culturelle. Les résidents explorent directement les traditions textiles vivantes (ikat, sambalpuri, khandua, tussar, kotpad) via studio practice, visites de sites textiles et rencontres avec artisans locaux, dans une région reconnue pour 64 catégories d'artisanat traditionnel. Des opportunités de présentation ou exposition sont possibles pour les séjours de 30 jours minimum.",
+        "pour_qui": "Designers textiles, créateurs de mode, artistes textiles, artistes fibre et chercheurs de tous niveaux cherchant une immersion dans les traditions textiles vivantes de l'Odisha pour développer des projets basés sur la recherche culturelle et matérielle."
+      },
+      "a_savoir": [
+        "Programme payant : les artistes financent l'intégralité du séjour (pas de rémunération ni dotation)",
+        "Dépôt non remboursable de 300 USD requis dans les 2 semaines suivant l'acceptation",
+        "Interactions avec institutions, designers et artisans ne sont pas garanties mais présentées comme des « opportunités à explorer »",
+        "Transports locaux pour visites textiles/artisanat facturés en sus du forfait résidence",
+        "Assistance traduction avec artisans locaux non incluse",
+        "Date limite de candidature non mentionnée dans le texte fourni",
+        "Critères de sélection non publiés explicitement",
+        "Contenu de la page tronqué, potentiellement informations manquantes"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Bhubaneswar",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"a_savoir\": \"Programme payant : les artistes financent l'intégralité du séjour (pas de rémunération ni dotation)\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"conditions_residence\": {\"hebergement\": true}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"conditions_residence\": {\"atelier\": \"Studio/work space\"}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": true, \"detail\": \"Airport pickup inclus; transports locaux pour visites textiles en supplément\"}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"remuneration\": null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"a_savoir\": \"Critères de sélection non publiés explicitement\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"a_savoir\": \"Date limite de candidature non mentionnée dans le texte fourni\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Aucune information présente dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"synthese\": \"... studio practice, visites de sites textiles et rencontres avec artisans locaux ...\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "oui",
+          "justification": "\"duree\": {\"dates\": \"15 jours / 30 jours / jusqu'à 3 mois, flexible\"}",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"a_savoir\": \"Interactions avec institutions, designers et artisans ne sont pas garanties mais présentées comme des « opportunités à explorer »\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention de réseau alumni, suivi documenté ou accompagnement vers d'autres opportunités",
           "poids": 1,
           "famille": "debouche"
         }
@@ -1853,6 +2019,175 @@
       ]
     },
     {
+      "uid": "62f915ac",
+      "type": "residence",
+      "source_url": "https://textilesocietyofamerica.org/opportunities/mesoamerican-codex-painting-instructional-program",
+      "fetched_at": "2026-11-18T20:49:51+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Mesoamerican Codex Painting Instructional Program",
+        "organisme": "Arquetopia",
+        "lieu": {
+          "ville": null,
+          "pays": null,
+          "territoire": null
+        },
+        "nom_fr": "Programme d'instruction en peinture de codex mésoaméricain",
+        "affichage_titre": "View More [Programme d'instruction en peinture de codex mésoaméricain]"
+      },
+      "candidature": {
+        "date_limite": "2026-11-29",
+        "date_limite_precision": "day",
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://textilesocietyofamerica.org/opportunities/mesoamerican-codex-painting-instructional-program"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "peinture",
+          "arts visuels",
+          "codex mésoaméricain"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 3,
+          "dates": null
+        },
+        "hebergement": null,
+        "atelier": "Espaces fournis pour le travail indépendant des participants",
+        "remuneration": {
+          "montant": null,
+          "devise": "EUR",
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": false,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Arquetopia"
+      ],
+      "analyse": {
+        "synthese": "Programme mentorée de 3 semaines en techniques traditionnelles de peinture de codex mésoaméricain, offert par Arquetopia. Les participants reçoivent 27 heures d'instruction par un maestro couvrant la préparation de pigments historiques (cochenille, bleu Maya, pigments terrestres), les techniques de peinture sur papier amate, et les méthodes de tlacuilos. Le programme alterne entre sessions d'instruction en espagnol et travail indépendant dans les espaces d'Arquetopia, complétés par du mentoring individual.",
+        "pour_qui": "Artistes visuels intéressés par l'apprentissage des techniques traditionnelles mésoaméricaines de création de codex et la connexion entre pratiques historiques et création artistique contemporaine."
+      },
+      "a_savoir": [
+        "Aucune mention explicite d'hébergement fourni durant les 3 semaines",
+        "Pas de rémunération, bourse ou dotation mentionnée",
+        "Les frais d'inscription ne sont pas précisés",
+        "Pas de description des critères de sélection",
+        "Pas de délai annoncé pour la notification des résultats",
+        "Pas de mention de prise en charge des frais de voyage",
+        "Programme orienté instruction plutôt que résidence artistique classique",
+        "Localisation géographique de l'organisme non précisée"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": null,
+        "contact_email": "info@arquetopia.org"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "inconnu",
+          "justification": "\"hebergement\": null",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"Espaces fournis pour le travail indépendant des participants\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"voyage\": {\"pris_en_charge\": false}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\": null (aucun critère énoncé)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: \"Pas de délai annoncé pour la notification des résultats\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "a_savoir: pas de mention de notification aux non-retenu·es",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "synthèse: \"27 heures d'instruction obligatoires\" + \"travail indépendant\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"duree\": {\"semaines\": 3}, \"date_limite\": \"2026-11-29\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "\"restitution\": null",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "a_savoir: pas de mention d'alumni, collections ou suivi post-programme",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "660d0fed",
       "type": "residence",
       "source_url": "https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama",
@@ -2027,6 +2362,168 @@
           "id": "suivi_apres_programme",
           "rempli": "partiel",
           "justification": "synthese: 'bénéficient d'un appui de l'équipe de la Villa et d'accès au réseau français au Japon' ; mais pas de programme alumni explicite documenté",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "66247f3d",
+      "type": "residence",
+      "source_url": "https://culture360.asef.org/opportunities/in-situ-platform-programme-3rd-call",
+      "fetched_at": "2026-11-18T20:40:49+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "IN SITU Platform Programme 3rd call",
+        "organisme": "Asia-Europe Foundation (ASEF)",
+        "lieu": {
+          "ville": "Graz",
+          "pays": "Autriche",
+          "territoire": "Europe"
+        },
+        "nom_fr": "3e appel à candidatures du programme IN SITU Platform",
+        "affichage_titre": "IN SITU Platform Programme 3rd call [3e appel à candidatures du programme IN SITU Platform]"
+      },
+      "candidature": {
+        "date_limite": "2026-12-09",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://drive.google.com/file/d/1qjTiTVucBt_GBuPNP3FY6NOC0Z0Uul8Q/view"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Performing Arts",
+          "Visual Arts"
+        ],
+        "niveau_carriere": "émergent·e",
+        "age_max": null,
+        "nationalite": "Europe",
+        "residence_administrative": "Europe"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "May to September 2027"
+        },
+        "hebergement": true,
+        "atelier": null,
+        "remuneration": {
+          "montant": 1500,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": 300,
+          "devise": "EUR"
+        },
+        "restitution": "FOCUS event in summer 2028 at La Strada Graz, Austria"
+      },
+      "partenaires": [
+        "La Strada Graz"
+      ],
+      "analyse": {
+        "synthese": "IN SITU est un programme de soutien aux artistes émergent·e·s créant dans l'espace public. Environ 60 artistes européens accèdent à du contenu en ligne (mars-juin 2027) et à des labs immersifs de 6 jours (mai-septembre 2027), avec 1 500 EUR de frais d'écriture, jusqu'à 300 EUR pour déplacements, plus hébergement et repas couverts. Environ 10 projets sont ensuite soutenus en residencies de production, culminant dans un événement FOCUS à Graz en été 2028.",
+        "pour_qui": "Artistes émergent·e·s d'Europe créant des propositions artistiques pour l'espace public ou des lieux non-conventionnels, dont le projet n'a pas encore été présenté mais dépasse le stade de l'idée."
+      },
+      "a_savoir": [
+        "Support financier modeste pour le lab immersif (1 500 EUR) ; seulement ~10 projets retenus pour residencies sur ~60 artistes acceptés",
+        "Critères de sélection détaillés non publiés sur cette page (renvoi à document externe)",
+        "Restitution prévue à horizon 2028, plus d'un an après les labs"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"montant\": 1500, \"devise\": \"EUR\", \"periodicite\": \"forfait\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "\"atelier\": null — aucune mention explicite d'espace de travail ou d'équipements fournis",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "\"pris_en_charge\": true, \"plafond\": 300 + \"accommodation included in costs covered\" + repas couverts",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "\"montant\": 1500 EUR + 300 EUR voyage + hébergement et repas couverts pour 6 jours ; montant modeste mais frais de subsistance allégés",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "partiel",
+          "justification": "\"dont le projet n'a pas encore été présenté mais dépasse le stade de l'idée\" (critères généraux énoncés, mais \"Critères de sélection détaillés non publiés sur cette page\")",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Aucune date ou délai de notification figurant dans la fiche ; absence totale de timeline",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "\"pieces_demandees\": null — aucune information sur notification des candidat·e·s non retenu·e·s",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"Lab immersif\" décrit dans analyse sans obligations de médiation imposées, temps dédié à \"la production/recherche de l'artiste\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"dates\": \"May to September 2027\" — fenêtre large de 5 mois, mais flexibilité des dates individuelles non précisée",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"FOCUS event in summer 2028 at La Strada Graz, Austria\" — plateforme reconnue du réseau art contemporain européen",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "inconnu",
+          "justification": "Absence totale de mention d'un suivi alumni, réseau d'accompagnement ou support post-2028",
           "poids": 1,
           "famille": "debouche"
         }
@@ -3999,6 +4496,165 @@
       ]
     },
     {
+      "uid": "b773b6c1",
+      "type": "residence",
+      "source_url": "https://www.laregion.fr/prix-occitanie-medicis",
+      "fetched_at": "2026-11-18T20:08:26+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Prix Occitanie – Médicis 2027 (Résidence Médicis arts plastiques Occitanie)",
+        "organisme": "Académie de France à Rome – Villa Médicis",
+        "lieu": {
+          "ville": "Rome",
+          "pays": "Italie",
+          "territoire": null
+        }
+      },
+      "candidature": {
+        "date_limite": "2026-12-18",
+        "date_limite_precision": "day",
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "EUR"
+        },
+        "pieces_demandees": null,
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "arts plastiques",
+          "arts visuels"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": "Occitanie (résidence actuelle ou lien régional)"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "octobre-décembre 2027"
+        },
+        "hebergement": true,
+        "atelier": "gratuit",
+        "remuneration": {
+          "montant": 10500,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": null,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": "exposition au CRAC Sète l'année suivante"
+      },
+      "partenaires": [
+        "Région Occitanie",
+        "Villa Médicis",
+        "CRAC Sète"
+      ],
+      "analyse": {
+        "synthese": "Résidence de 3 mois à la Villa Médicis à Rome, destinée aux artistes en arts plastiques et visuels. Hébergement et atelier gratuits, bourse de 10 500 € versée par la Région Occitanie. Restitution par une exposition au CRAC Sète l'année suivante. Dédié aux artistes professionnels résidant en Occitanie ou ayant un lien avec la région (naissance, formation diplômante). Candidature gratuite.",
+        "pour_qui": "Artistes professionnels en arts plastiques et visuels résidant en Occitanie ou ayant un lien régional (naissance ou formation diplômante)."
+      },
+      "a_savoir": [],
+      "organisme_details": {
+        "site_web": "https://villamedici.it",
+        "adresse": null,
+        "ville": "Rome",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"remuneration\": {\"montant\": 10500, \"devise\": \"EUR\", \"periodicite\": \"forfait\"}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"gratuit\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"voyage\": {\"pris_en_charge\": null} — hébergement et atelier gratuits, voyage non mentionné",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "oui",
+          "justification": "10 500 € + \"hebergement\": true pour 3 mois (octobre-décembre 2027) à Rome",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"pieces_demandees\": null — aucun critère de sélection du jury détaillé mentionné",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "Pas de \"date_notification\" ou délai annoncé dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Non mentionné dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "inconnu",
+          "justification": "Équilibre entre production personnelle et obligations non précisé dans la fiche",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"dates\": \"octobre-décembre 2027\" — calendrier rigide sans marge",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"restitution\": \"exposition au CRAC Sète l'année suivante\" (centre reconnu du réseau français)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "\"a_savoir\": [] — aucun suivi alumni ou accompagnement après programme mentionné",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "bac8ec7d",
       "type": "residence",
       "source_url": "https://www.alternatif-art.com/appel-a-candidature/creation-artistique-participative-dans-lespace-public-2027-ville-de-questembert",
@@ -4169,6 +4825,178 @@
           "id": "suivi_apres_programme",
           "rempli": "non",
           "justification": "Aucune mention de réseau alumni, suivi post-programme ou accompagnement documenté",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "d07f84d5",
+      "type": "residence",
+      "source_url": "https://www.accioncultural.es/en/make-eindhoven-residency-2027",
+      "fetched_at": "2026-11-18T20:05:26+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Make Eindhoven Residency 2027",
+        "organisme": "Make Eindhoven",
+        "lieu": {
+          "ville": "Eindhoven",
+          "pays": "Netherlands",
+          "territoire": null
+        },
+        "nom_fr": "Résidence Make Eindhoven 2027",
+        "affichage_titre": "Make Eindhoven Residency 2027 [Résidence Make Eindhoven 2027]"
+      },
+      "candidature": {
+        "date_limite": "2026-12-14",
+        "date_limite_precision": "day",
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": null,
+          "devise": "EUR"
+        },
+        "pieces_demandees": [
+          "Application form",
+          "Project description (maximum 1 A4 page)",
+          "CV (maximum 2 A4 pages)",
+          "Portfolio (maximum 10 pages/images in digital PDF format, up to 5 MB total)"
+        ],
+        "url_candidature": "https://www.makeeindhoven.nl/news/open-call-residency-for-spanish-artists/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Visual Arts",
+          "Architecture",
+          "Design"
+        ],
+        "niveau_carriere": "confirmé·e",
+        "age_max": null,
+        "nationalite": "Spanish nationality only",
+        "residence_administrative": null
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": 12,
+          "dates": "2027-03-01 to 2027-05-28"
+        },
+        "hebergement": true,
+        "atelier": "24/7 access to Make Eindhoven workshops featuring metal casting, kiln-formed glass, graphic techniques, and CAD/CAM technology with technical advice",
+        "remuneration": {
+          "montant": 3500,
+          "devise": "EUR",
+          "periodicite": "forfait"
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": null,
+          "devise": "EUR"
+        },
+        "restitution": null
+      },
+      "partenaires": [
+        "Make Eindhoven",
+        "Acción Cultural Española"
+      ],
+      "analyse": {
+        "synthese": "Ce programme propose une résidence de 12 semaines (1er mars au 28 mai 2027) à Eindhoven pour un artiste, designer ou architecte professionnel de nationalité espagnole. Make Eindhoven met à disposition un accès 24/7 à ses ateliers spécialisés (fonderie, verre formé au four, techniques graphiques, CAD/CAM), un logement équipé avec cuisine, une bicyclette, et jusqu'à 1 000 € de budget matériaux. Acción Cultural Española verse 2 500 € pour voyage, subsistence et production. L'appel est ouvert du 10 novembre au 14 décembre 2026.",
+        "pour_qui": "Artistes, designers et architectes professionnels de nationalité espagnole intéressés par la recherche matérielle, l'expérimentation et l'innovation technique."
+      },
+      "a_savoir": [
+        "Éligibilité restreinte strictement à la nationalité espagnole",
+        "Aucun critère de sélection explicite du jury publié",
+        "Aucun délai ou date annoncés pour la notification des résultats",
+        "Calendrier rigide imposé sans flexibilité possible (1er mars au 28 mai 2027)",
+        "Rémunération totale de 3 500 € (2 500 € subsistence/voyage + 1 000 € matériaux) pour 12 semaines, soit ~292 €/semaine hors logement"
+      ],
+      "organisme_details": {
+        "site_web": null,
+        "adresse": null,
+        "ville": "Eindhoven",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "remuneration: {montant: 3500, devise: EUR, periodicite: forfait}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "hebergement: true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "atelier: 24/7 access to Make Eindhoven workshops featuring metal casting, kiln-formed glass, graphic techniques, and CAD/CAM technology",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "voyage: {pris_en_charge: true}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "a_savoir: Rémunération totale de 3 500 € pour 12 semaines, soit ~292 €/semaine hors logement — correctif mais sans marge",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "a_savoir: Aucun critère de sélection explicite du jury publié",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: Aucun délai ou date annoncés pour la notification des résultats",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Non mentionné dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "pour_qui: recherche matérielle, l'expérimentation et l'innovation technique (aucune obligation de médiation mentionnée)",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "a_savoir: Calendrier rigide imposé sans flexibilité possible (1er mars au 28 mai 2027)",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "restitution: null",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Non mentionné dans la fiche",
           "poids": 1,
           "famille": "debouche"
         }
@@ -4526,6 +5354,177 @@
       ]
     },
     {
+      "uid": "dca1c773",
+      "type": "residence",
+      "source_url": "https://culture360.asef.org/opportunities/china-swatch-art-peace-hotel-artist-residency-2027",
+      "fetched_at": "2026-11-18T20:38:32+00:00",
+      "score": 6,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Swatch Art Peace Hotel artist residency",
+        "organisme": "Swatch Art Peace Hotel",
+        "lieu": {
+          "ville": "Shanghai",
+          "pays": "China",
+          "territoire": null
+        },
+        "nom_fr": "Chine | Résidence d'artiste Swatch Art Peace Hotel",
+        "affichage_titre": "China | Swatch Art Peace Hotel artist residency [Chine | Résidence d'artiste Swatch Art Peace Hotel]"
+      },
+      "candidature": {
+        "date_limite": "2027-01-31",
+        "date_limite_precision": "day",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": null
+        },
+        "pieces_demandees": null,
+        "url_candidature": "https://www.swatch-art-peace-hotel.com/en/artist-residency"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Film",
+          "Literature",
+          "Performing Arts",
+          "Visual Arts",
+          "Dance",
+          "Music",
+          "Photography"
+        ],
+        "niveau_carriere": "tous",
+        "age_max": null,
+        "nationalite": "sans restriction",
+        "residence_administrative": "sans restriction"
+      },
+      "conditions_residence": {
+        "duree": {
+          "semaines": null,
+          "dates": "3 to 6 months"
+        },
+        "hebergement": true,
+        "atelier": "apartments and workshops",
+        "remuneration": {
+          "montant": null,
+          "devise": null,
+          "periodicite": null
+        },
+        "voyage": {
+          "pris_en_charge": true,
+          "plafond": 300,
+          "devise": "CHF"
+        },
+        "restitution": "leave an artistic 'trace' of their choice"
+      },
+      "partenaires": [
+        "Asia-Europe Foundation"
+      ],
+      "analyse": {
+        "synthese": "La résidence Swatch Art Peace Hotel propose un séjour de 3 à 6 mois en Chine avec logement, ateliers, petit-déjeuner et services ménagers inclus. L'organisme couvre le vol aller-retour vers Shanghai et l'assistance aux frais de visa (jusqu'à 300 CHF). Elle s'adresse aux artistes (peintres, photographes, cinéastes, danseurs, musiciens, écrivains, conceptuels) du monde entier sans restriction. Les candidatures sont acceptées en continu jusqu'au 31 janvier 2027, réponses attendues sous 12 semaines.",
+        "pour_qui": "Artistes confirmés ou émergents de toutes disciplines (arts visuels, film, littérature, musique, danse, photographie) sans restriction de nationalité ou d'expérience préalable."
+      },
+      "a_savoir": [
+        "Pas de rémunération mensuelle explicitement indiquée au-delà de la couverture des frais essentiels",
+        "Assistance visa limitée à 300 CHF",
+        "Restitution attendue mais peu détaillée (artiste choisit la forme de sa 'trace')",
+        "Critères de sélection du jury non énoncés explicitement"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.swatch-art-peace-hotel.com/en/artist-residency",
+        "adresse": null,
+        "ville": "Shanghai",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"remuneration\": {\"montant\": null, \"devise\": null, \"periodicite\": null}",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "oui",
+          "justification": "\"hebergement\": true",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "oui",
+          "justification": "\"atelier\": \"apartments and workshops\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "oui",
+          "justification": "\"voyage\": {\"pris_en_charge\": true, \"plafond\": 300, \"devise\": \"CHF\"}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "partiel",
+          "justification": "Logement et petit-déjeuner inclus, mais \"remuneration\": {\"montant\": null, \"devise\": null} ; couverture des frais essentiels seulement",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Critères de sélection du jury non énoncés explicitement\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "oui",
+          "justification": "\"The selection committee needs approximately 12 weeks to review the artist applications\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Pas de mention d'une notification individuelle aux candidats non retenus dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "oui",
+          "justification": "\"Artists are free to engage in individual or joint projects\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "partiel",
+          "justification": "\"duree\": {\"dates\": \"3 to 6 months\"} — plage fixe, pas de mention de négociation",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "inconnu",
+          "justification": "\"restitution\": \"leave an artistic 'trace' of their choice\" — aucun détail sur la diffusion presse, catalogue ou visibilité au-delà de l'organisme",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Aucune mention d'un suivi documenté, réseau alumni actif ou accompagnement ultérieur",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "e2b0d67f",
       "type": "residence",
       "source_url": "https://www.alternatif-art.com/appel-a-candidature/commande-artistique-2027-creation-de-deux-sculptures-perennes-a-maurepas-seqens",
@@ -4693,6 +5692,340 @@
           "id": "suivi_apres_programme",
           "rempli": "non",
           "justification": "Aucun suivi documenté après le programme (réseau alumni, collection, accompagnement) n'est mentionné",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "4045db43",
+      "type": "bourse",
+      "source_url": "https://culture360.asef.org/opportunities/japan-foundation-grants",
+      "fetched_at": "2026-11-18T20:41:55+00:00",
+      "score": 7,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Japan Foundation grants",
+        "organisme": "The Japan Foundation",
+        "lieu": {
+          "ville": null,
+          "pays": "Japan"
+        },
+        "nom_fr": "Subventions de la Fondation du Japon",
+        "affichage_titre": "Japan Foundation grants [Subventions de la Fondation du Japon]"
+      },
+      "candidature": {
+        "date_limite": "2026-12-01",
+        "langue_dossier": null,
+        "frais_inscription": null,
+        "pieces_demandees": null,
+        "url_candidature": "https://www.jpf.go.jp/e/program/culture.html"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "performing arts",
+          "visual arts",
+          "translation and publication",
+          "cultural exchange"
+        ],
+        "niveau_carriere": "professional",
+        "age_max": null,
+        "nationalite": "international",
+        "residence_administrative": "outside country of residence for some programs"
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": null,
+          "devise": null
+        },
+        "finalite": "mobilite",
+        "calendrier_usage": null,
+        "obligations_rendu": [
+          "Participation in cultural events",
+          "Exhibition or publication results"
+        ]
+      },
+      "partenaires": [
+        "Asia-Europe Foundation (ASEF)",
+        "ASEAN countries"
+      ],
+      "analyse": {
+        "synthese": "The Japan Foundation grants is a suite of funding programs supporting cultural exchange and collaboration between Japan and ASEAN countries, with international dimensions. It covers dispatching artists and specialists, collaborative performing arts productions, funding for organizations implementing exchange projects, individual fellowships for research and creative work, and support for exhibitions and publications of Japanese culture. Deadline: 1 December 2026. No specific funding amounts are stated in the call.",
+        "pour_qui": "Artists, cultural specialists, curators, researchers, museums, institutions, and organizations working in performing arts, visual arts, and cultural fields seeking to foster exchange and collaboration with Japan or ASEAN countries."
+      },
+      "a_savoir": [
+        "Multiple distinct grant programs grouped under one umbrella – applicants must identify their matching program",
+        "No specific funding amounts disclosed",
+        "Emphasis on ASEAN countries for some programs; unclear geographic eligibility for others",
+        "No published selection criteria or jury composition provided",
+        "No response timeline or individual feedback mechanism mentioned"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.jpf.go.jp/e/program/culture.html",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "\"To provide financial support for artists and Japanese cultural specialists\" (synthèse, obligations_rendu)",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "Champ absent du JSON: \"lieu.ville\", \"conditions_bourse.hebergement\" — aucune mention d'hébergement",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "Champ absent du JSON: aucune mention d'atelier, studio ou espace de travail fourni",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "\"partial funding support\" (synthèse) — couverts partiellement mais sans détail des postes (voyage, production, matériel)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "\"montant\": null, \"devise\": null — aucun montant spécifié, impossible d'évaluer l'adéquation au coût de la vie local",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"No published selection criteria or jury composition provided\" (a_savoir)",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"No response timeline or individual feedback mechanism mentioned\" (a_savoir)",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "\"No response timeline or individual feedback mechanism mentioned\" (a_savoir)",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"research, creative activities\" (synthèse) mais aussi \"Participation in cultural events, Exhibition or publication results\" (obligations_rendu) — mixte entre production libre et obligations",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "inconnu",
+          "justification": "\"calendrier_usage\": null — aucun détail sur la flexibilité ou rigidité des dates",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "\"Exhibition or publication results\" (obligations_rendu) — publications et exhibitions mentionnées, mais portée au-delà de la Fondation non garantie",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "Absence totale de mention d'alumni network, documentation post-programme ou suivi — aucun champ correspondant dans la fiche",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "94804ece",
+      "type": "bourse",
+      "source_url": "https://textilesocietyofamerica.org/opportunities/call-for-chapters-one-stitch-at-a-time-telling-stories-archiving-histories-and-threading-narratives-of-resistance-and-rebellion-through-embroidered-art-and-needlecraft",
+      "fetched_at": "2026-11-18T20:55:01+00:00",
+      "score": 6,
+      "status": "bientot-fermee",
+      "opportunite": {
+        "nom": "Call for Chapters: One Stitch at a Time: Telling Stories, Archiving Histories, and Threading Narratives of Resistance and Rebellion through Embroidered Art and Needlecraft",
+        "organisme": "Textile Society of America",
+        "lieu": {
+          "ville": null,
+          "pays": "USA"
+        },
+        "nom_fr": "Un point à la fois : Raconter des histoires, archiver les histoires et entrelacer les récits de résistance et de rébellion à travers l'art de la broderie et l'artisanat d'aiguille",
+        "affichage_titre": "View More [Un point à la fois : Raconter des histoires, archiver les histoires et entrelacer les récits de résistance et de rébellion à travers l'art de la broderie et l'artisanat d'aiguille]"
+      },
+      "candidature": {
+        "date_limite": "2026-12-10",
+        "langue_dossier": [
+          "English"
+        ],
+        "frais_inscription": {
+          "montant": null,
+          "devise": "USD"
+        },
+        "pieces_demandees": [
+          "150-word abstract",
+          "3 key words",
+          "50-word bio",
+          "Completed essay (minimum 7,000 words) by June 30, 2027 if accepted"
+        ],
+        "url_candidature": "Email abstracts to fayeza.hasanat@ucf.edu and farrah.cato@ucf.edu"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Embroidery",
+          "Needlecraft",
+          "Textile Arts",
+          "Visual Narrative",
+          "Cultural Identity",
+          "Political Resistance",
+          "Storytelling",
+          "Human Rights",
+          "Social Justice",
+          "Activism",
+          "Literature",
+          "Mythology",
+          "Memory Studies",
+          "Ecocriticism"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_bourse": {
+        "montant": {
+          "montant": null,
+          "devise": "USD"
+        },
+        "finalite": "recherche",
+        "calendrier_usage": "Abstract submission by December 10, 2026; completed essay submission by June 30, 2027 if accepted",
+        "obligations_rendu": [
+          "150-word abstract with 3 key words and 50-word bio",
+          "Completed essay (minimum 7,000 words) if accepted",
+          "Contribution to anthology published by university press in the United States"
+        ]
+      },
+      "partenaires": [
+        "Textile Society of America",
+        "University of Central Florida English Department"
+      ],
+      "analyse": {
+        "synthese": "The Textile Society of America invites abstracts for an edited anthology titled 'One Stitch at a Time,' exploring embroidery and needlecraft as narrative technologies for storytelling, cultural memory, and resistance. Contributors submit a 150-word abstract with 3 keywords and 50-word bio by December 10, 2026; accepted contributors then submit a completed essay of minimum 7,000 words by June 30, 2027. The anthology will be published by a university press in the United States.",
+        "pour_qui": "Scholars, artists, writers, and researchers in embroidery, textile arts, needlecraft, and related disciplines exploring themes of cultural identity, resistance, activism, human rights, social memory, and narrative within literature, visual arts, history, and cultural studies."
+      },
+      "a_savoir": [
+        "No monetary compensation—this is a publication opportunity, not a funded fellowship, residency, or grant",
+        "Two distinct deadlines: abstract submission December 10, 2026, and completed essay submission June 30, 2027 (only if abstract accepted)",
+        "Substantial written output required: minimum 7,000-word essay for accepted contributors",
+        "Publication through academic university press; visibility primarily within scholarly and institutional circles rather than broad public distribution",
+        "Submission process is email-based; no online submission platform",
+        "Acceptance is competitive; abstract submission does not guarantee inclusion"
+      ],
+      "organisme_details": {
+        "site_web": "https://textilesocietyofamerica.org/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": "fayeza.hasanat@ucf.edu, farrah.cato@ucf.edu"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "\"No monetary compensation—this is a publication opportunity, not a funded fellowship, residency, or grant\"",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "\"lieu\": {\"ville\": null, \"pays\": \"USA\"} — no accommodation mentioned",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "\"No workspace, studio, production facilities, or equipment is provided.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "\"No coverage of travel, production costs, materials, or other expenses is mentioned.\"",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "\"montant\": {\"montant\": null, \"devise\": \"USD\"}",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "\"Selection criteria are not explicitly published. The call lists suggested topics for essays but does not specify how the editorial committee will evaluate submissions.\"",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "\"No timeline for acceptance or rejection notification is provided.\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "\"No mention of providing individualized feedback to rejected contributors or communication beyond acceptance/rejection.\"",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "production_libre",
+          "rempli": "partiel",
+          "justification": "\"Contributors maintain full creative and intellectual control over essay content... However, they must work within the anthology's thematic framework and are subject to editorial revision.\"",
+          "poids": 2,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "calendrier_flexible",
+          "rempli": "non",
+          "justification": "\"Fixed submission deadlines with no flexibility: abstract by December 10, 2026, and completed essay by June 30, 2027.\"",
+          "poids": 1,
+          "famille": "qualite_temps"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "oui",
+          "justification": "\"Contribution to anthology published by university press in the United States\"",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "partiel",
+          "justification": "\"Contributors benefit from publication in a university-press anthology, providing ongoing citation potential and academic visibility. However, no explicit mention of alumni networks... beyond publication.\"",
           "poids": 1,
           "famille": "debouche"
         }
@@ -5163,6 +6496,151 @@
           "id": "suivi_apres_programme",
           "rempli": "partiel",
           "justification": "\"Présentation de l'œuvre garantie 5 ans minimum, avec possibilité de promotion via diffusion de visuels\" mais \"Pas de suivi alumni documenté, réseau, entrée en collection ou accompagnement vers d'autres opportunités mentionné\"",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "95c03a7f",
+      "type": "prix",
+      "source_url": "https://artquest.org.uk/opportunity/international-visual-arts-prize-idea-vila-damer/",
+      "fetched_at": "2026-11-18T20:13:41+00:00",
+      "score": 6,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "International Visual Arts Prize IDEA – Vila d'Amer",
+        "organisme": "IDEA Associació Cultural",
+        "lieu": {
+          "ville": null,
+          "pays": null
+        },
+        "nom_fr": "Prix International des Arts Visuels IDEA — Vila d'Amer (1re édition)",
+        "affichage_titre": "International Visual Arts Prize IDEA — Vila d'Amer (1re édition) [Prix International des Arts Visuels IDEA — Vila d'Amer (1re édition)]"
+      },
+      "candidature": {
+        "date_limite": "2027-01-10",
+        "langue_dossier": [],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "one original, non-editioned work in painting, drawing, photography, printmaking, collage, mixed media or other contemporary visual art forms"
+        ],
+        "url_candidature": "https://www.ideagc.com/en/idea-mundoarti/"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "painting",
+          "drawing",
+          "photography",
+          "printmaking",
+          "collage",
+          "mixed media",
+          "other contemporary visual art forms"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": "any",
+        "residence_administrative": null
+      },
+      "conditions_prix": {
+        "dotation": {
+          "montant": {
+            "montant": 5000,
+            "devise": "EUR"
+          },
+          "exposition": false,
+          "achat_oeuvre": true,
+          "edition_catalogue": false
+        },
+        "jury_public": [],
+        "nb_laureats": 2,
+        "editions_precedentes": []
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "International visual arts prize presented by IDEA Associació Cultural, offering two acquisition prizes of €3,500 and €1,500. Open to artists 18+ of any nationality. Submissions must be one original, non-editioned work in painting, drawing, photography, printmaking, collage, mixed media or other contemporary visual art forms. Deadline: 10 January 2027.",
+        "pour_qui": "Visual artists aged 18 or older of any nationality."
+      },
+      "a_savoir": [
+        "First edition — organisme has no prior track record for this prize",
+        "No accommodation, studio space, or artist fee mentioned; only acquisition prizes",
+        "Limited information about jury selection criteria",
+        "No timeline provided for notification of results"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.ideagc.com/en/idea-mundoarti/",
+        "adresse": null,
+        "ville": null,
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "conditions_prix.dotation.montant: 5000 EUR (€3,500 + €1,500 acquisition prizes)",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "a_savoir: 'No accommodation, studio space, or artist fee mentioned; only acquisition prizes'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "a_savoir: 'No accommodation, studio space, or artist fee mentioned'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "a_savoir: 'No accommodation, studio space, or artist fee mentioned; only acquisition prizes'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "lieu.ville: null, lieu.pays: null — dotation est un prix, non un per diem pour subsistence",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "a_savoir: 'Limited information about jury selection criteria'",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: 'No timeline provided for notification of results'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "criteres_programme[retour_individualise].justification: 'No mention of individual feedback or notification to non-selected applicants'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "conditions_prix.achat_oeuvre: true — mais pas d'exposition ni d'edition_catalogue mentionnées (false)",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "a_savoir: 'First edition — organisme has no prior track record for this prize'",
           "poids": 1,
           "famille": "debouche"
         }
@@ -6149,6 +7627,153 @@
       ]
     },
     {
+      "uid": "b6a5485d",
+      "type": "exposition",
+      "source_url": "https://textilesocietyofamerica.org/opportunities/international-textile-and-fibre-art-exhibitions-scythia",
+      "fetched_at": "2026-11-18T20:15:42+00:00",
+      "score": 7,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "5th International Micro Textile and Fibre Art Exhibition \"Scythia\"",
+        "organisme": "Textile Society of America",
+        "lieu": {
+          "ville": "Ivano-Frankivs'k",
+          "pays": "Ukraine"
+        },
+        "nom_fr": "Exposition internationale d'art textile et de fibres « Scythia » (micro-textile et fibre)",
+        "affichage_titre": "International Textile and Fibre Art Exhibition « Scythia » (micro-textile et fibre) [Exposition internationale d'art textile et de fibres « Scythia » (micro-textile et fibre)]"
+      },
+      "candidature": {
+        "date_limite": "2027-02-01",
+        "langue_dossier": [
+          "en"
+        ],
+        "frais_inscription": null,
+        "pieces_demandees": [
+          "2 artworks, 2 or 3-dimensional, up to 5X5X5 cm"
+        ],
+        "url_candidature": "scythiatextile@gmail.com"
+      },
+      "eligibilite": {
+        "disciplines": [
+          "textile art",
+          "fibre art"
+        ],
+        "niveau_carriere": null,
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Ivano-Frankivs'k, Ukraine"
+        ],
+        "dates_exposition": "2-16 June 2027",
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": false,
+            "plafond": null,
+            "devise": "EUR"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "La 5e édition de l'exposition internationale de micro-textile et fibre art « Scythia » se tiendra du 2 au 16 juin 2027 à Ivano-Frankivs'k en Ukraine. Les artistes de tous pays peuvent soumettre 2 œuvres en 2D ou 3D, dimensions maximales 5×5×5 cm. Date limite : 1er février 2027. Pas d'information sur les frais, l'hébergement, ou la rémunération.",
+        "pour_qui": "Artistes travaillant avec différentes techniques de textile et fibre art du monde entier."
+      },
+      "a_savoir": [
+        "Dimensions très réduites imposées : maximum 5×5×5 cm",
+        "Aucune information sur les frais de participation",
+        "Aucune information sur l'hébergement, le transport, ou la rémunération",
+        "Candidature par email uniquement, pas de plateforme en ligne",
+        "Aucun critère de sélection publié",
+        "Pas de calendrier de notification annoncé"
+      ],
+      "organisme_details": {
+        "site_web": "https://www.scythiatextile.com",
+        "adresse": null,
+        "ville": null,
+        "contact_email": "scythiatextile@gmail.com"
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "non",
+          "justification": "synthese: 'Aucune information sur...la rémunération'",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "hebergement_vernissage: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "non",
+          "justification": "a_savoir: 'Pas d'espace de travail fourni mentionné'",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "non",
+          "justification": "production: false, transport: {pris_en_charge: false}, per_diem: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "non",
+          "justification": "frais_inscription: null (aucune dotation ou allocation)",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "a_savoir: 'Aucun critère de sélection publié'",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: 'Pas de calendrier de notification annoncé'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "non",
+          "justification": "a_savoir: 'Aucune mention d'un retour aux candidats non-retenus'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "format: 'collective', organisme: 'Textile Society of America' mais lieu (Ivano-Frankivs'k) et rayonnement non précisés",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "a_savoir: 'Aucun suivi ou réseau alumni mentionné'",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
       "uid": "cc40d764",
       "type": "exposition",
       "source_url": "https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827",
@@ -6297,6 +7922,155 @@
           "id": "suivi_apres_programme",
           "rempli": "oui",
           "justification": "Active ongoing community: over 40 committed artists, involvement in board and committees, ANCA has a highly respected profile within the Canberra arts community",
+          "poids": 1,
+          "famille": "debouche"
+        }
+      ]
+    },
+    {
+      "uid": "de475b08",
+      "type": "exposition",
+      "source_url": "https://biennaledulin.com/releve/",
+      "fetched_at": "2026-11-18T20:19:28+00:00",
+      "score": 6,
+      "status": "ouverte",
+      "opportunite": {
+        "nom": "Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)",
+        "organisme": "Biennale internationale du lin de Portneuf",
+        "lieu": {
+          "ville": "Deschambault-Grondines",
+          "pays": "Canada"
+        },
+        "nom_fr": "Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)",
+        "affichage_titre": "Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027) [Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)]"
+      },
+      "candidature": {
+        "date_limite": "2027-03-31",
+        "langue_dossier": null,
+        "frais_inscription": {
+          "montant": 0,
+          "devise": "CAD"
+        },
+        "pieces_demandees": [
+          "Œuvre d'au moins 50 % de lin",
+          "Dimensions : 40 × 40 cm minimum (2D) ou 50 × 50 × 50 cm (3D)"
+        ],
+        "url_candidature": null
+      },
+      "eligibilite": {
+        "disciplines": [
+          "Arts textiles",
+          "Sculpture"
+        ],
+        "niveau_carriere": "Artistes ayant cinq années de pratique ou moins, étudiant·es inclus·es",
+        "age_max": null,
+        "nationalite": null,
+        "residence_administrative": null
+      },
+      "conditions_exposition": {
+        "lieux": [
+          "Deschambault-Grondines, Québec"
+        ],
+        "dates_exposition": null,
+        "format": "collective",
+        "prise_en_charge": {
+          "production": false,
+          "transport": {
+            "pris_en_charge": true,
+            "plafond": null,
+            "devise": "CAD",
+            "details": "Retour assuré par la BILP ; livraison à charge de l'artiste"
+          },
+          "per_diem": false,
+          "hebergement_vernissage": false
+        }
+      },
+      "partenaires": [],
+      "analyse": {
+        "synthese": "La Biennale internationale du lin de Portneuf (BILP) propose une exposition collective « Mécaniques » pour artistes de la relève (5 ans de pratique maximum). Les œuvres doivent contenir au moins 50 % de lin et respecter les minima dimensionnels : 40 × 40 cm (2D) ou 50 × 50 × 50 cm (3D). Un cachet d'exposition de 450 $ CAD est versé. Pas de frais d'inscription. La BILP assure le retour des œuvres ; la livraison reste aux frais de l'artiste. Deadline : 31 mars 2027.",
+        "pour_qui": "Artistes émergents (formation ou début de carrière, jusqu'à 5 ans de pratique inclus) travaillant le lin comme matériau principal ou significatif."
+      },
+      "a_savoir": [
+        "Frais de livraison à charge de l'artiste (asymétrie : retour payé par BILP)",
+        "Cachet modeste (450 $ CAD) pour une exposition",
+        "Critères de sélection du jury non énoncés",
+        "Délai de notification des résultats non communiqué",
+        "Visibilité et rayonnement de la restitution non détaillés"
+      ],
+      "organisme_details": {
+        "site_web": "https://biennaledulin.com",
+        "adresse": null,
+        "ville": "Deschambault-Grondines",
+        "contact_email": null
+      },
+      "criteres_programme": [
+        {
+          "id": "retribution",
+          "rempli": "oui",
+          "justification": "synthese: 'Cachet d'exposition de 450 $ CAD est versé'",
+          "poids": 3,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "hebergement",
+          "rempli": "non",
+          "justification": "prise_en_charge.hebergement_vernissage: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "atelier",
+          "rempli": "inconnu",
+          "justification": "Non mentionné dans la fiche",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "frais_pris_en_charge",
+          "rempli": "partiel",
+          "justification": "prise_en_charge: 'transport.pris_en_charge: true, details: Retour assuré par la BILP ; livraison à charge de l'artiste', production: false",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "ratio_dotation_cout_vie",
+          "rempli": "inconnu",
+          "justification": "a_savoir: 'Cachet modeste (450 $ CAD) pour une exposition' — coût de la vie local non fourni, durée de présence non précisée",
+          "poids": 2,
+          "famille": "conditions_materielles"
+        },
+        {
+          "id": "criteres_selection_publies",
+          "rempli": "non",
+          "justification": "a_savoir: 'Critères de sélection du jury non énoncés'",
+          "poids": 2,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "delai_reponse_annonce",
+          "rempli": "non",
+          "justification": "a_savoir: 'Délai de notification des résultats non communiqué'",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "retour_individualise",
+          "rempli": "inconnu",
+          "justification": "Non mentionné dans la fiche",
+          "poids": 1,
+          "famille": "transparence_administrative"
+        },
+        {
+          "id": "visibilite_restitution",
+          "rempli": "partiel",
+          "justification": "organisme: 'Biennale internationale du lin de Portneuf', a_savoir: 'Visibilité et rayonnement de la restitution non détaillés'",
+          "poids": 2,
+          "famille": "debouche"
+        },
+        {
+          "id": "suivi_apres_programme",
+          "rempli": "non",
+          "justification": "a_savoir: 'Aucun suivi alumni ou accompagnement ultérieur mentionné'",
           "poids": 1,
           "famille": "debouche"
         }

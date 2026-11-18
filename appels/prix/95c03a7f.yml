@@ -1,0 +1,145 @@
+uid: 95c03a7f
+type: prix
+source_url: https://artquest.org.uk/opportunity/international-visual-arts-prize-idea-vila-damer/
+fetched_at: '2026-11-18T20:13:41+00:00'
+score: 6
+status: ouverte
+opportunite:
+  nom: International Visual Arts Prize IDEA – Vila d'Amer
+  organisme: IDEA Associació Cultural
+  lieu:
+    ville: null
+    pays: null
+  nom_fr: Prix International des Arts Visuels IDEA — Vila d'Amer (1re édition)
+  affichage_titre: International Visual Arts Prize IDEA — Vila d'Amer (1re édition)
+    [Prix International des Arts Visuels IDEA — Vila d'Amer (1re édition)]
+candidature:
+  date_limite: '2027-01-10'
+  langue_dossier: []
+  frais_inscription: null
+  pieces_demandees:
+  - one original, non-editioned work in painting, drawing, photography, printmaking,
+    collage, mixed media or other contemporary visual art forms
+  url_candidature: https://www.ideagc.com/en/idea-mundoarti/
+eligibilite:
+  disciplines:
+  - painting
+  - drawing
+  - photography
+  - printmaking
+  - collage
+  - mixed media
+  - other contemporary visual art forms
+  niveau_carriere: null
+  age_max: null
+  nationalite: any
+  residence_administrative: null
+conditions_prix:
+  dotation:
+    montant:
+      montant: 5000
+      devise: EUR
+    exposition: false
+    achat_oeuvre: true
+    edition_catalogue: false
+  jury_public: []
+  nb_laureats: 2
+  editions_precedentes: []
+partenaires: []
+_meta:
+  extracted_confidence: 0.7
+  extracted_notes: First edition, limited details on jury, selection criteria, and
+    notification timeline.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:13:41+00:00'
+  source_lang: en
+  resume_fr: 'Le concours Prix International des Arts Visuels IDEA – Vila d''Amer
+    (1re édition) est organisé par IDEA Associació Cultural pour promouvoir la création
+    artistique contemporaine. Il est ouvert aux artistes de plus de 18 ans, toute
+    nationalité, qui peuvent soumettre une œuvre originale non-éditée en peinture,
+    dessin, photographie, gravure, collage, mixed media ou autre forme d''art visuel
+    contemporain. Deux prix d''acquisition sont offerts: €3,500 et €1,500. Date limite:
+    10/01/2027.'
+  detection_confidence: 0.8888888888888888
+  detection_method: heuristic
+  source_label: Semences manuelles (discovery/seeds.yml)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'International visual arts prize presented by IDEA Associació Cultural,
+    offering two acquisition prizes of €3,500 and €1,500. Open to artists 18+ of any
+    nationality. Submissions must be one original, non-editioned work in painting,
+    drawing, photography, printmaking, collage, mixed media or other contemporary
+    visual art forms. Deadline: 10 January 2027.'
+  pour_qui: Visual artists aged 18 or older of any nationality.
+a_savoir:
+- First edition — organisme has no prior track record for this prize
+- No accommodation, studio space, or artist fee mentioned; only acquisition prizes
+- Limited information about jury selection criteria
+- No timeline provided for notification of results
+organisme_details:
+  site_web: https://www.ideagc.com/en/idea-mundoarti/
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'conditions_prix.dotation.montant: 5000 EUR (€3,500 + €1,500 acquisition
+    prizes)'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: 'a_savoir: ''No accommodation, studio space, or artist fee mentioned;
+    only acquisition prizes'''
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: 'a_savoir: ''No accommodation, studio space, or artist fee mentioned'''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: 'a_savoir: ''No accommodation, studio space, or artist fee mentioned;
+    only acquisition prizes'''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: 'lieu.ville: null, lieu.pays: null — dotation est un prix, non un
+    per diem pour subsistence'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'a_savoir: ''Limited information about jury selection criteria'''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: ''No timeline provided for notification of results'''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: 'criteres_programme[retour_individualise].justification: ''No mention
+    of individual feedback or notification to non-selected applicants'''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: partiel
+  justification: 'conditions_prix.achat_oeuvre: true — mais pas d''exposition ni d''edition_catalogue
+    mentionnées (false)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: 'a_savoir: ''First edition — organisme has no prior track record
+    for this prize'''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

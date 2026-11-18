@@ -1,0 +1,170 @@
+uid: 239df4ec
+type: residence
+source_url: https://kalanirvana.com/textile-india-residency
+fetched_at: '2026-11-18T20:21:02+00:00'
+score: 7
+status: indetermine
+opportunite:
+  nom: KIAR Textile India Residency
+  organisme: KIAR
+  lieu:
+    ville: Bhubaneswar
+    pays: Inde
+    territoire: Odisha
+  nom_fr: KIAR Résidence Textile Inde
+  affichage_titre: KIAR Textile India Residency [KIAR Résidence Textile Inde]
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://kalanirvana.com/textile-india-residency
+eligibilite:
+  disciplines:
+  - textile design
+  - fashion design
+  - textile art
+  - fibre art
+  - research
+  niveau_carriere: tous
+  age_max: null
+  nationalite: sans restriction
+  residence_administrative: sans restriction
+conditions_residence:
+  duree:
+    semaines: null
+    dates: 15 jours / 30 jours / jusqu'à 3 mois, flexible
+  hebergement: true
+  atelier: Studio/work space
+  remuneration: null
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: USD
+    detail: Airport pickup inclus; transports locaux pour visites textiles en supplément
+  restitution: Opportunités de présentation, open studio ou exposition pour séjours
+    30 jours minimum
+partenaires:
+- NIIFT, Odisha
+- Sabyasachi Satpathy
+_meta:
+  extracted_confidence: 0.65
+  extracted_notes: Contenu de page tronqué. Date limite, critères de sélection, et
+    coordonnées de contact non trouvés. Tarifs et conditions résidence bien documentés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:21:02+00:00'
+  source_lang: en
+  resume_fr: La Résidence textile Inde KIAR est un programme immersif pour designers
+    textiles, designers de mode et artistes basé à Bhubaneswar, Odisha, qui offre
+    une culture textile vivante avec 64 catégories d'artisanat. Les participants étudient
+    des traditions textiles distinctes comme l'Ikat, le Sambalpuri, le Khandua et
+    le Bomkai à travers la recherche, l'immersion culturelle et l'interaction avec
+    les artisans. Odisha est présentée comme un laboratoire textile vivant plutôt
+    qu'une simple archive, avec une histoire remontant à l'époque antique de Kalinga,
+    visitée au 7ème siècle par le voyageur bouddhiste Xuanzang.
+  detection_confidence: 0.9032258064516129
+  detection_method: heuristic
+  source_label: Semences manuelles (discovery/seeds.yml)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'KIAR Textile India Residency propose une immersion textile à Bhubaneswar
+    en trois durées au choix : 15 jours (850 USD), 30 jours (1500 USD) ou jusqu''à
+    3 mois (4000 USD). Chaque séjour inclut hébergement, atelier, accès aux repas,
+    et guidance culturelle. Les résidents explorent directement les traditions textiles
+    vivantes (ikat, sambalpuri, khandua, tussar, kotpad) via studio practice, visites
+    de sites textiles et rencontres avec artisans locaux, dans une région reconnue
+    pour 64 catégories d''artisanat traditionnel. Des opportunités de présentation
+    ou exposition sont possibles pour les séjours de 30 jours minimum.'
+  pour_qui: Designers textiles, créateurs de mode, artistes textiles, artistes fibre
+    et chercheurs de tous niveaux cherchant une immersion dans les traditions textiles
+    vivantes de l'Odisha pour développer des projets basés sur la recherche culturelle
+    et matérielle.
+a_savoir:
+- 'Programme payant : les artistes financent l''intégralité du séjour (pas de rémunération
+  ni dotation)'
+- Dépôt non remboursable de 300 USD requis dans les 2 semaines suivant l'acceptation
+- Interactions avec institutions, designers et artisans ne sont pas garanties mais
+  présentées comme des « opportunités à explorer »
+- Transports locaux pour visites textiles/artisanat facturés en sus du forfait résidence
+- Assistance traduction avec artisans locaux non incluse
+- Date limite de candidature non mentionnée dans le texte fourni
+- Critères de sélection non publiés explicitement
+- Contenu de la page tronqué, potentiellement informations manquantes
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Bhubaneswar
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"a_savoir": "Programme payant : les artistes financent l''intégralité
+    du séjour (pas de rémunération ni dotation)"'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"conditions_residence": {"hebergement": true}'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"conditions_residence": {"atelier": "Studio/work space"}'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": true, "detail": "Airport pickup inclus;
+    transports locaux pour visites textiles en supplément"}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"remuneration": null'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"a_savoir": "Critères de sélection non publiés explicitement"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"a_savoir": "Date limite de candidature non mentionnée dans le texte
+    fourni"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Aucune information présente dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"synthese": "... studio practice, visites de sites textiles et rencontres
+    avec artisans locaux ..."'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: oui
+  justification: '"duree": {"dates": "15 jours / 30 jours / jusqu''à 3 mois, flexible"}'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: partiel
+  justification: '"a_savoir": "Interactions avec institutions, designers et artisans
+    ne sont pas garanties mais présentées comme des « opportunités à explorer »"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Aucune mention de réseau alumni, suivi documenté ou accompagnement
+    vers d'autres opportunités
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - textile
+  bonus_score: 0

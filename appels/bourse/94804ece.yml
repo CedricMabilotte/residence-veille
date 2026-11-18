@@ -1,0 +1,193 @@
+uid: 94804ece
+type: bourse
+source_url: https://textilesocietyofamerica.org/opportunities/call-for-chapters-one-stitch-at-a-time-telling-stories-archiving-histories-and-threading-narratives-of-resistance-and-rebellion-through-embroidered-art-and-needlecraft
+fetched_at: '2026-11-18T20:55:01+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: 'Call for Chapters: One Stitch at a Time: Telling Stories, Archiving Histories,
+    and Threading Narratives of Resistance and Rebellion through Embroidered Art and
+    Needlecraft'
+  organisme: Textile Society of America
+  lieu:
+    ville: null
+    pays: USA
+  nom_fr: 'Un point à la fois : Raconter des histoires, archiver les histoires et
+    entrelacer les récits de résistance et de rébellion à travers l''art de la broderie
+    et l''artisanat d''aiguille'
+  affichage_titre: 'View More [Un point à la fois : Raconter des histoires, archiver
+    les histoires et entrelacer les récits de résistance et de rébellion à travers
+    l''art de la broderie et l''artisanat d''aiguille]'
+candidature:
+  date_limite: '2026-12-10'
+  langue_dossier:
+  - English
+  frais_inscription:
+    montant: null
+    devise: USD
+  pieces_demandees:
+  - 150-word abstract
+  - 3 key words
+  - 50-word bio
+  - Completed essay (minimum 7,000 words) by June 30, 2027 if accepted
+  url_candidature: Email abstracts to fayeza.hasanat@ucf.edu and farrah.cato@ucf.edu
+eligibilite:
+  disciplines:
+  - Embroidery
+  - Needlecraft
+  - Textile Arts
+  - Visual Narrative
+  - Cultural Identity
+  - Political Resistance
+  - Storytelling
+  - Human Rights
+  - Social Justice
+  - Activism
+  - Literature
+  - Mythology
+  - Memory Studies
+  - Ecocriticism
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_bourse:
+  montant:
+    montant: null
+    devise: USD
+  finalite: recherche
+  calendrier_usage: Abstract submission by December 10, 2026; completed essay submission
+    by June 30, 2027 if accepted
+  obligations_rendu:
+  - 150-word abstract with 3 key words and 50-word bio
+  - Completed essay (minimum 7,000 words) if accepted
+  - Contribution to anthology published by university press in the United States
+partenaires:
+- Textile Society of America
+- University of Central Florida English Department
+_meta:
+  extracted_confidence: 0.75
+  extracted_notes: 'This is a call for chapters/contributions to an academic anthology,
+    not a traditional grant, residency, or fellowship. No monetary compensation is
+    provided. Two submission deadlines: abstract by December 10, 2026, and completed
+    essay (if accepted) by June 30, 2027. The city location of the University of Central
+    Florida is not explicitly mentioned in the source text.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:55:01+00:00'
+  source_lang: en
+  resume_fr: 'Appel à chapitres pour une collection intitulée « Un point à la fois
+    », explorant la broderie comme technologie narrative (date limite : 30 juin 2027).
+    La broderie a servi pendant des millénaires de mode de narration visuelle et d''archivage
+    historique, depuis des textiles de 12 000 ans découverts à la Guitarrero Cave
+    jusqu''à la tapisserie de Bayeux. Elle a fonctionné comme outil de résistance
+    politique, notamment au travers du projet « The Red Dress » qui rassemble 380
+    personnes de 51 pays. Les chapitres proposés peuvent aborder l''archivage historique,
+    l''agentivité, l''identité, la résistance politique, les droits humains, la justice
+    sociale et l''activisme.'
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Textile Society of America – Opportunities [rebond K]
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: The Textile Society of America invites abstracts for an edited anthology
+    titled 'One Stitch at a Time,' exploring embroidery and needlecraft as narrative
+    technologies for storytelling, cultural memory, and resistance. Contributors submit
+    a 150-word abstract with 3 keywords and 50-word bio by December 10, 2026; accepted
+    contributors then submit a completed essay of minimum 7,000 words by June 30,
+    2027. The anthology will be published by a university press in the United States.
+  pour_qui: Scholars, artists, writers, and researchers in embroidery, textile arts,
+    needlecraft, and related disciplines exploring themes of cultural identity, resistance,
+    activism, human rights, social memory, and narrative within literature, visual
+    arts, history, and cultural studies.
+a_savoir:
+- No monetary compensation—this is a publication opportunity, not a funded fellowship,
+  residency, or grant
+- 'Two distinct deadlines: abstract submission December 10, 2026, and completed essay
+  submission June 30, 2027 (only if abstract accepted)'
+- 'Substantial written output required: minimum 7,000-word essay for accepted contributors'
+- Publication through academic university press; visibility primarily within scholarly
+  and institutional circles rather than broad public distribution
+- Submission process is email-based; no online submission platform
+- Acceptance is competitive; abstract submission does not guarantee inclusion
+organisme_details:
+  site_web: https://textilesocietyofamerica.org/
+  adresse: null
+  ville: null
+  contact_email: fayeza.hasanat@ucf.edu, farrah.cato@ucf.edu
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"No monetary compensation—this is a publication opportunity, not
+    a funded fellowship, residency, or grant"'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '"lieu": {"ville": null, "pays": "USA"} — no accommodation mentioned'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: '"No workspace, studio, production facilities, or equipment is provided."'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"No coverage of travel, production costs, materials, or other expenses
+    is mentioned."'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"montant": {"montant": null, "devise": "USD"}'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"Selection criteria are not explicitly published. The call lists
+    suggested topics for essays but does not specify how the editorial committee will
+    evaluate submissions."'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: '"No timeline for acceptance or rejection notification is provided."'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: '"No mention of providing individualized feedback to rejected contributors
+    or communication beyond acceptance/rejection."'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: '"Contributors maintain full creative and intellectual control over
+    essay content... However, they must work within the anthology''s thematic framework
+    and are subject to editorial revision."'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"Fixed submission deadlines with no flexibility: abstract by December
+    10, 2026, and completed essay by June 30, 2027."'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"Contribution to anthology published by university press in the
+    United States"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: partiel
+  justification: '"Contributors benefit from publication in a university-press anthology,
+    providing ongoing citation potential and academic visibility. However, no explicit
+    mention of alumni networks... beyond publication."'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - textile
+  bonus_score: 0

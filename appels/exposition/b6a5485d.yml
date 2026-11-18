@@ -1,0 +1,144 @@
+uid: b6a5485d
+type: exposition
+source_url: https://textilesocietyofamerica.org/opportunities/international-textile-and-fibre-art-exhibitions-scythia
+fetched_at: '2026-11-18T20:15:42+00:00'
+score: 7
+status: ouverte
+opportunite:
+  nom: 5th International Micro Textile and Fibre Art Exhibition "Scythia"
+  organisme: Textile Society of America
+  lieu:
+    ville: Ivano-Frankivs'k
+    pays: Ukraine
+  nom_fr: Exposition internationale d'art textile et de fibres « Scythia » (micro-textile
+    et fibre)
+  affichage_titre: International Textile and Fibre Art Exhibition « Scythia » (micro-textile
+    et fibre) [Exposition internationale d'art textile et de fibres « Scythia » (micro-textile
+    et fibre)]
+candidature:
+  date_limite: '2027-02-01'
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - 2 artworks, 2 or 3-dimensional, up to 5X5X5 cm
+  url_candidature: scythiatextile@gmail.com
+eligibilite:
+  disciplines:
+  - textile art
+  - fibre art
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Ivano-Frankivs'k, Ukraine
+  dates_exposition: 2-16 June 2027
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.75
+  extracted_notes: Limited information available. No details on selection criteria,
+    jury, response timeline, or any financial support. No dedicated submission platform
+    URL provided.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:15:42+00:00'
+  source_lang: en
+  resume_fr: 'La 5e édition de l''exposition internationale de micro-textile et d''art
+    de fibre « Scythia » se tiendra du 2 au 16 juin 2027 à Ivano-Frankivs''k, Ukraine.
+    La date limite de candidature est le 1er février 2027. Les artistes du monde entier
+    sont invités à soumettre jusqu''à 2 œuvres, en 2 ou 3 dimensions, ne dépassant
+    pas 5x5x5 cm. Les techniques et matériaux textile et de fibre variés sont acceptés.
+    Pour plus d''informations : https://www.scythiatextile.com ; contact : scythiatextile@gmail.com.'
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Semences manuelles (discovery/seeds.yml)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'La 5e édition de l''exposition internationale de micro-textile et fibre
+    art « Scythia » se tiendra du 2 au 16 juin 2027 à Ivano-Frankivs''k en Ukraine.
+    Les artistes de tous pays peuvent soumettre 2 œuvres en 2D ou 3D, dimensions maximales
+    5×5×5 cm. Date limite : 1er février 2027. Pas d''information sur les frais, l''hébergement,
+    ou la rémunération.'
+  pour_qui: Artistes travaillant avec différentes techniques de textile et fibre art
+    du monde entier.
+a_savoir:
+- 'Dimensions très réduites imposées : maximum 5×5×5 cm'
+- Aucune information sur les frais de participation
+- Aucune information sur l'hébergement, le transport, ou la rémunération
+- Candidature par email uniquement, pas de plateforme en ligne
+- Aucun critère de sélection publié
+- Pas de calendrier de notification annoncé
+organisme_details:
+  site_web: https://www.scythiatextile.com
+  adresse: null
+  ville: null
+  contact_email: scythiatextile@gmail.com
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: 'synthese: ''Aucune information sur...la rémunération'''
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: 'hebergement_vernissage: false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: non
+  justification: 'a_savoir: ''Pas d''espace de travail fourni mentionné'''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: 'production: false, transport: {pris_en_charge: false}, per_diem:
+    false'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: 'frais_inscription: null (aucune dotation ou allocation)'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'a_savoir: ''Aucun critère de sélection publié'''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: ''Pas de calendrier de notification annoncé'''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: 'a_savoir: ''Aucune mention d''un retour aux candidats non-retenus'''
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: partiel
+  justification: 'format: ''collective'', organisme: ''Textile Society of America''
+    mais lieu (Ivano-Frankivs''k) et rayonnement non précisés'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: 'a_savoir: ''Aucun suivi ou réseau alumni mentionné'''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

@@ -1,0 +1,147 @@
+uid: b773b6c1
+type: residence
+source_url: https://www.laregion.fr/prix-occitanie-medicis
+fetched_at: '2026-11-18T20:08:26+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Prix Occitanie – Médicis 2027 (Résidence Médicis arts plastiques Occitanie)
+  organisme: Académie de France à Rome – Villa Médicis
+  lieu:
+    ville: Rome
+    pays: Italie
+    territoire: null
+candidature:
+  date_limite: '2026-12-18'
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription:
+    montant: 0
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - arts plastiques
+  - arts visuels
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: null
+  residence_administrative: Occitanie (résidence actuelle ou lien régional)
+conditions_residence:
+  duree:
+    semaines: null
+    dates: octobre-décembre 2027
+  hebergement: true
+  atelier: gratuit
+  remuneration:
+    montant: 10500
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: null
+    plafond: null
+    devise: EUR
+  restitution: exposition au CRAC Sète l'année suivante
+partenaires:
+- Région Occitanie
+- Villa Médicis
+- CRAC Sète
+_meta:
+  extracted_confidence: 0.78
+  extracted_notes: Informations principales bien documentées (lieu, durée, montant,
+    hébergement, atelier, restitution). Lacunes sur les critères de sélection, délais
+    de réponse et procédure de candidature détaillée.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:08:26+00:00'
+  source_lang: fr
+  detection_confidence: 0.98
+  detection_method: claude
+  source_label: Semences manuelles (discovery/seeds.yml)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Résidence de 3 mois à la Villa Médicis à Rome, destinée aux artistes en
+    arts plastiques et visuels. Hébergement et atelier gratuits, bourse de 10 500
+    € versée par la Région Occitanie. Restitution par une exposition au CRAC Sète
+    l'année suivante. Dédié aux artistes professionnels résidant en Occitanie ou ayant
+    un lien avec la région (naissance, formation diplômante). Candidature gratuite.
+  pour_qui: Artistes professionnels en arts plastiques et visuels résidant en Occitanie
+    ou ayant un lien régional (naissance ou formation diplômante).
+a_savoir: []
+organisme_details:
+  site_web: https://villamedici.it
+  adresse: null
+  ville: Rome
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"remuneration": {"montant": 10500, "devise": "EUR", "periodicite":
+    "forfait"}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "gratuit"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: '"voyage": {"pris_en_charge": null} — hébergement et atelier gratuits,
+    voyage non mentionné'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: oui
+  justification: '10 500 € + "hebergement": true pour 3 mois (octobre-décembre 2027)
+    à Rome'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"pieces_demandees": null — aucun critère de sélection du jury détaillé
+    mentionné'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Pas de "date_notification" ou délai annoncé dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Non mentionné dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: Équilibre entre production personnelle et obligations non précisé
+    dans la fiche
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"dates": "octobre-décembre 2027" — calendrier rigide sans marge'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"restitution": "exposition au CRAC Sète l''année suivante" (centre
+    reconnu du réseau français)'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: '"a_savoir": [] — aucun suivi alumni ou accompagnement après programme
+    mentionné'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

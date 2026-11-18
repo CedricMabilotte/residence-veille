@@ -1,0 +1,161 @@
+uid: 62f915ac
+type: residence
+source_url: https://textilesocietyofamerica.org/opportunities/mesoamerican-codex-painting-instructional-program
+fetched_at: '2026-11-18T20:49:51+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: Mesoamerican Codex Painting Instructional Program
+  organisme: Arquetopia
+  lieu:
+    ville: null
+    pays: null
+    territoire: null
+  nom_fr: Programme d'instruction en peinture de codex mésoaméricain
+  affichage_titre: View More [Programme d'instruction en peinture de codex mésoaméricain]
+candidature:
+  date_limite: '2026-11-29'
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees: null
+  url_candidature: https://textilesocietyofamerica.org/opportunities/mesoamerican-codex-painting-instructional-program
+eligibilite:
+  disciplines:
+  - peinture
+  - arts visuels
+  - codex mésoaméricain
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: 3
+    dates: null
+  hebergement: null
+  atelier: Espaces fournis pour le travail indépendant des participants
+  remuneration:
+    montant: null
+    devise: EUR
+    periodicite: null
+  voyage:
+    pris_en_charge: false
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Arquetopia
+_meta:
+  extracted_confidence: 0.6
+  extracted_notes: 'Page d''opportunité avec informations limitées. Dates et durée
+    claires (3 semaines, deadline 29 novembre 2026), instruction en espagnol confirmée
+    (27 heures). Absence critique de détails sur : frais d''inscription, rémunération,
+    hébergement, critères de sélection, localisation précise.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:49:51+00:00'
+  source_lang: en
+  resume_fr: 'Programme de mentoring de 3 semaines offrant 27 heures d''instruction
+    sur la peinture de codex mésoaméricain par le maestro studio d''Arquetopia. Les
+    participants apprennent l''extraction de couleurs, la production de pigments (cochenille,
+    bleu Maya, pigments terreux) et les techniques de peinture sur papier amate. L''instruction
+    est en espagnol, bien que la maîtrise de la langue ne soit pas requise. Un mentorat
+    individuel par l''équipe directrice et curatoriale est fourni. Date limite : 29
+    novembre 2026.'
+  detection_confidence: 0.88
+  detection_method: claude
+  source_label: Textile Society of America – Opportunities [rebond K]
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Programme mentorée de 3 semaines en techniques traditionnelles de peinture
+    de codex mésoaméricain, offert par Arquetopia. Les participants reçoivent 27 heures
+    d'instruction par un maestro couvrant la préparation de pigments historiques (cochenille,
+    bleu Maya, pigments terrestres), les techniques de peinture sur papier amate,
+    et les méthodes de tlacuilos. Le programme alterne entre sessions d'instruction
+    en espagnol et travail indépendant dans les espaces d'Arquetopia, complétés par
+    du mentoring individual.
+  pour_qui: Artistes visuels intéressés par l'apprentissage des techniques traditionnelles
+    mésoaméricaines de création de codex et la connexion entre pratiques historiques
+    et création artistique contemporaine.
+a_savoir:
+- Aucune mention explicite d'hébergement fourni durant les 3 semaines
+- Pas de rémunération, bourse ou dotation mentionnée
+- Les frais d'inscription ne sont pas précisés
+- Pas de description des critères de sélection
+- Pas de délai annoncé pour la notification des résultats
+- Pas de mention de prise en charge des frais de voyage
+- Programme orienté instruction plutôt que résidence artistique classique
+- Localisation géographique de l'organisme non précisée
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: info@arquetopia.org
+criteres_programme:
+- id: retribution
+  rempli: non
+  justification: '"remuneration": {"montant": null}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: '"hebergement": null'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: '"atelier": "Espaces fournis pour le travail indépendant des participants"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"voyage": {"pris_en_charge": false}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: non
+  justification: '"remuneration": {"montant": null}'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: '"pieces_demandees": null (aucun critère énoncé)'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: "Pas de délai annoncé pour la notification des résultats"'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: non
+  justification: 'a_savoir: pas de mention de notification aux non-retenu·es'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: partiel
+  justification: 'synthèse: "27 heures d''instruction obligatoires" + "travail indépendant"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: '"duree": {"semaines": 3}, "date_limite": "2026-11-29"'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: '"restitution": null'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: 'a_savoir: pas de mention d''alumni, collections ou suivi post-programme'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - textile
+  bonus_score: 0

@@ -1,0 +1,1087 @@
+{
+  "started_at": "2026-11-18T19:55:24.322645+00:00",
+  "ended_at": "2026-11-18T20:55:33.698362+00:00",
+  "duration_sec": 3609.375717,
+  "dry_run": false,
+  "claude_session_limit_hit": false,
+  "n_sources": 83,
+  "n_items_total": 95,
+  "n_promoted_total": 11,
+  "n_new_items": 74,
+  "n_seen_skipped": 21,
+  "budget_minutes": 60,
+  "budget_hit": true,
+  "sources_not_reached": [
+    "Villa Médicis [rebond K]",
+    "European Textile Network (ETN) [rebond K]",
+    "Biennial Foundation [rebond K]",
+    "HIAP [rebond K]"
+  ],
+  "sources_stats": [
+    {
+      "label": "Semences manuelles (discovery/seeds.yml)",
+      "items": 25,
+      "new_items": 25,
+      "promoted": 6
+    },
+    {
+      "label": "Recursos Culturales [rebond K]",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "Artquest [rebond K]",
+      "items": 15,
+      "new_items": 2,
+      "promoted": 0
+    },
+    {
+      "label": "mesh (themesh.art) [rebond K]",
+      "items": 20,
+      "new_items": 17,
+      "promoted": 0
+    },
+    {
+      "label": "La Villette [rebond K]",
+      "items": 8,
+      "new_items": 7,
+      "promoted": 0
+    },
+    {
+      "label": "culture360 [rebond K]",
+      "items": 15,
+      "new_items": 12,
+      "promoted": 3
+    },
+    {
+      "label": "Textile Society of America – Opportunities [rebond K]",
+      "items": 12,
+      "new_items": 11,
+      "promoted": 2
+    }
+  ],
+  "logs": [
+    {
+      "url": "https://etn-net.org/berichte/open-call-call-for-participation-skb-artes-kunst-in-der-kartausebolzano-karthaus-schnals-itdeadline-20-11-2026.html",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://artquest.org.uk/opportunity/francois-schneider-foundation-talents-contemporains/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "prix",
+      "confidence": 0.7,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.anca.net.au/callout",
+      "status": "below_threshold",
+      "score": 2,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.recursosculturales.com/bienal-de-pintura-eusebio-sempere/",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "prix",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.accioncultural.es/en/malba-writers-residence-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.accioncultural.es/en/make-eindhoven-residency-2027",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.9,
+      "dry_run": false
+    },
+    {
+      "url": "https://themesh.art/convocatorias/fabrica-2-interwoven-artist-residencies/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.laregion.fr/prix-occitanie-medicis",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://layer.si/bien/en/kr/open-call-2027-studenti/",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/switzerland-2027-site-responsive-residency-for-emerging-artists/",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.arthurdaleheritage.org/artist-residencies/weaving-residency/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Résidence de deux semaines (March 1-14, 2027) offrant un accueil physique : hébergement en cottage historique, accès à l'atelier (Loom Room avec métiers à tisser), activités d'enseignement et de présentation sur place. | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.6923076923076923,
+          "bourse": 0.07692307692307693,
+          "prix": 0.0,
+          "exposition": 0.23076923076923078
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/arteles-creative-center-2-back-to-basics-thematic-residency-program-in-finland-summer-2027/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://artquest.org.uk/opportunity/international-visual-arts-prize-idea-vila-damer/",
+      "status": "promoted",
+      "score": 6,
+      "type": "prix",
+      "confidence": 0.8888888888888888,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/international-textile-and-fibre-art-exhibitions-scythia",
+      "status": "promoted",
+      "score": 7,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://textileartstriennialhungary.com/2025/08/25/felhivas-call-for-entries-2027/",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.recursosculturales.com/aion-digital-art-prize/",
+      "status": "below_threshold",
+      "score": 2,
+      "type": "prix",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://biennaledulin.com/releve/",
+      "status": "promoted",
+      "score": 6,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://kalanirvana.com/textile-india-residency",
+      "status": "promoted",
+      "score": 7,
+      "type": "residence",
+      "confidence": 0.9032258064516129,
+      "dry_run": false
+    },
+    {
+      "url": "https://www.recursosculturales.com/belgrade-art-studio-residency/",
+      "status": "below_threshold",
+      "score": 2,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://artquest.org.uk/opportunities/?filterby=1205",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.3,
+        "method": "claude",
+        "reasoning": "L'extrait fourni est principalement une interface de filtrage avec plusieurs catégories d'opportunités (Exhibitions, Residencies, Grants, Fellowships). Sans le contenu détaillé de l'opportunité spécifique, la classification est très incertaine. La page semble être un portail de recherche d'opportunités plutôt qu'une opportunité unique.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.4,
+          "prix": 0.4,
+          "exposition": 0.2
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://artquest.org.uk/recommend-an-opportunity",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page n'est pas une opportunité artistique : c'est un formulaire de suggestion permettant aux utilisateurs de recommander des opportunités à la plateforme ArtQuest. Elle ne décrit aucune résidence, bourse, prix ou exposition spécifique.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/disenadora-de-vestuario/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.25,
+        "method": "claude",
+        "reasoning": "Le contenu fourni est limité à la navigation et structure de la page (menu, partage, newsletter). Impossible de déterminer le type avec certitude. 'Diseñadora de vestuario' suggère un appel professionnel, mais le contenu substantiel manque pour confirmer s'il s'agit d'une résidence, bourse, prix ou exposition.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/textielmuseum-your-next-internship-starts-here/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Le titre « Your (Next) Internship Starts Here » indique un stage/internship au Textiel Museum — un accueil physique dans un lieu défini pour une durée déterminée, caractéristique d'une résidence. Cependant, l'extrait fourni ne contient que l'interface de navigation du site, limitant la certitude du diagnostic. | garde-fou candidature ouverte : confidence 0.75→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/alt-film-festival-alt-4a-edicion-festival-de-documentales-lgbt-de-america-latina/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Festival de documentales LGBT+ — appel à participer à un festival, qui est une exposition collective selon les catégories fournies | garde-fou candidature ouverte : confidence 0.92→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/museo-estudio-diego-rivera-enrique-gottdiener-1909-1986-expresion-y-sentimiento/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Page du museo-estudio de Diego Rivera listant une exposition thématique sur Enrique Gottdiener, sans éléments évidents de résidence, bourse, ou prix compétitif. Le contenu fourni est principalement un squelette de navigation, rendant la classification partiellement incertaine. | garde-fou candidature ouverte : confidence 0.65→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/dancehouse-lefkosia-on-bodies-festival/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Festival avec appel à candidature (convocatorias); le titre 'On Bodies Festival' et la structure suggèrent un appel à participer à un événement/festival collectif plutôt qu'une résidence, bourse ou prix spécifique | garde-fou candidature ouverte : confidence 0.80→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/maquinas-simples-convocatoria-abierta-artes-escenicas-y-vivas-2027/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Appel ouvert pour 'artes escénicas y vivas' sur une plateforme d'opportunités culturelles, mais l'extrait fourni contient principalement l'interface du site sans détails substantiels de l'opportunité (accueil physique, financement, prix, ou format d'exposition). Classification incertaine avec les informations disponibles.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.67,
+          "has_verb": true,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/hangar-convocatoria-per-a-residencies-de-programa-2027%e2%80%9028-12-mesos-a-hangar-modalitat-sense-taller/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Le titre mentionne explicitement 'residències de programa 2027‐28 (12 mesos) a Hangar' — accueil physique sur un lieu défini (Hangar) pour une durée déterminée (12 mois) | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/fundacion-mar-adentro-docente-activo/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.45,
+        "method": "claude",
+        "reasoning": "Le titre 'Docente Activo' et la mention de 'Ubicación' suggèrent une position enseignante sur un lieu physique, mais l'extrait fourni (surtout navigation du site mesh) ne contient pas assez de contenu substantiel pour confirmer. Classification incertaine.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/arcus-project-arcus-research-summer-winter/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "claude",
+        "reasoning": "Le titre « ARCUS Research Summer & Winter » avec des sessions définies (été, hiver) et l'accent sur la « recherche » suggère un programme d'accueil physique d'artistes/chercheurs pour des périodes spécifiques, caractéristique d'une résidence. L'extrait fourni ne contient pas assez de détails pour une certitude plus élevée. | garde-fou candidature ouverte : confidence 0.75→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/plataforma-guadalajara-plataforma-residencias-6-a-y-7-a-generacion-de-residencias-artisticas/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/rayon-376-convocatoria-beca-workshop/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'bourse' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 1.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/pontificia-universidad-catolica-de-chile-escuela-de-arte-profesor-a-asistente-jornada-completa/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "bourse",
+        "confidence": 0.3,
+        "method": "claude",
+        "reasoning": "Offre d'emploi académique (Profesor/a Asistente) - ne correspond clairement à aucune des catégories proposées. Classée comme 'bourse' par défaut (soutien financier), mais il s'agit plutôt d'un poste de travail/emploi qui sort du périmètre des quatre types définis.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/teatro-claretiano-se-abre-el-telon-proyecto-2027-se-abre-el-telon/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.45,
+        "method": "claude",
+        "reasoning": "Le titre '¡SE ABRE EL TELÓN!' et la mention de 'Teatro Claretiano' suggèrent un appel théâtral, probablement pour participer à un projet/événement. Cependant, l'extrait fourni ne contient que la navigation du site, pas le contenu substantiel de l'appel, rendant la classification peu fiable.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/theblanc-the-blanc-artist-residency/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/arroyo-arts-collective-summer-2027-residency/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/haystack-mountain-school-of-crafts-haystack-open-studio-residency/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'residence' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 1.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://themesh.art/convocatorias/patio-collective-convocatoria-nuevas-formas-de-habitar-el-espacio-cultural-el-deseo-disidente/",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "residence",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Le titre mentionne 'habitar el espacio cultural' (habiter l'espace culturel), suggérant une présence physique. Cependant, l'extrait fourni est principalement la navigation du site sans détails substantiels sur la nature de l'appel à candidatures, rendant la classification peu fiable.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.lavillette.com/en/manifestations/100-lexpo-spectacles-25-26",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "prix",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'prix' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 1.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.lavillette.com/en/manifestations/100-lexpo-performances-25-26",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.lavillette.com/en/interactive-map",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.00, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.0,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": false,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.lavillette.com/en/saison/25-en",
+      "status": "skipped",
+      "reason": "empty_body"
+    },
+    {
+      "url": "https://www.lavillette.com/en/bars-restaurants",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Cette page n'est pas un appel à candidature artistique. C'est une page d'information sur les bars et restaurants disponibles à La Villette (Bidou, À la Folie, etc.). Aucun appel à projet, résidence, bourse, prix ou exposition n'est mentionné.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.lavillette.com/en",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.35,
+        "method": "claude",
+        "reasoning": "Page de programmation d'une venue présentant spectacles et événements (théâtre, danse, cirque). Mention d'« Artist Initiatives » suggère un appel artistique, mais l'extrait présente principalement la programmation en place plutôt qu'un appel à candidature explicite.",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://www.lavillette.com/programmation/?discipline=exhibition",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/malaysia-george-town-festival-2027",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "exposition",
+      "confidence": 0.85,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/earth-night-2027-call-for-event-organisers",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.45,
+        "method": "claude",
+        "reasoning": "Appel à participer à une série mondiale d'événements musicaux décentralisés (Earth Night), organisés localement mais formant un réseau collectif international",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.5,
+          "has_verb": false,
+          "has_deadline_marker": true,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/bulgaria-15th-international-puppet-theatre-for-adults-festival",
+      "status": "below_threshold",
+      "score": 3,
+      "type": "exposition",
+      "confidence": 0.98,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/bulgaria-phodar-international-photo-festival-biennale-2027",
+      "status": "below_threshold",
+      "score": 3,
+      "type": "exposition",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/bounce-2027-for-circus-and-outdoor-arts-sectors-in-europe",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.75,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/france-curatorial-research-fellowship-2027",
+      "status": "below_threshold",
+      "score": 3,
+      "type": "bourse",
+      "confidence": 0.7272727272727273,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/china-swatch-art-peace-hotel-artist-residency-2027",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/in-situ-platform-programme-3rd-call",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.85,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/japan-foundation-grants",
+      "status": "promoted",
+      "score": 7,
+      "type": "bourse",
+      "confidence": 0.8181818181818182,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/latvia-residency-for-european-capital-of-culture-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.9,
+      "dry_run": false
+    },
+    {
+      "url": "https://culture360.asef.org/opportunities/netherlands-2027-residency-for-visual-and-performing-artists",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.9166666666666666,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/academic-research-survey-adult-creative-practitioners-18",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": null,
+        "confidence": 0.0,
+        "method": "claude",
+        "reasoning": "Ce n'est pas une opportunité artistique : c'est une enquête académique volontaire et non rémunérée (« voluntary, unpaid 5–6 minute academic survey »). Ne correspond à aucune des 4 catégories (résidence, bourse, prix, exposition).",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 0.0
+        },
+        "open_call_signal": {
+          "score": 0.5,
+          "has_verb": false,
+          "has_deadline_marker": true,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/executive-director-craft-and-creative-economy-nonprofit",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "bourse",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/farm-studio-international-artist-residency-2027",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.7142857142857143,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/the-estelle-center-for-creative-arts-2028-artist-in-residency-program",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.7142857142857143,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/mesoamerican-codex-painting-instructional-program",
+      "status": "promoted",
+      "score": 6,
+      "type": "residence",
+      "confidence": 0.88,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/arthurdale-weaving-residency",
+      "status": "below_threshold",
+      "score": 0,
+      "type": "residence",
+      "confidence": 0.8333333333333334,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/assistant-professor-tenure-track-fiber",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.2,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.20 (signal=0.03, verbe=False, rétro_hits=2)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.03,
+          "has_verb": false,
+          "has_deadline_marker": true,
+          "has_future_date": true,
+          "retrospective_hits": 2
+        }
+      }
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/textile-india-residency",
+      "status": "below_threshold",
+      "score": 5,
+      "type": "residence",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/opportunities/call-for-chapters-one-stitch-at-a-time-telling-stories-archiving-histories-and-threading-narratives-of-resistance-and-rebellion-through-embroidered-art-and-needlecraft",
+      "status": "promoted",
+      "score": 6,
+      "type": "bourse",
+      "confidence": 0.95,
+      "dry_run": false
+    },
+    {
+      "url": "https://textilesocietyofamerica.org/community",
+      "status": "skipped",
+      "reason": "confidence type < 0.7",
+      "detection": {
+        "type": "exposition",
+        "confidence": 0.5,
+        "method": "heuristic",
+        "reasoning": "Mots-clés 'exposition' dominants (1.00, marge 1.00). | garde-fou candidature ouverte : confidence 0.95→0.50 (signal=0.17, verbe=False, rétro_hits=0)",
+        "scores": {
+          "residence": 0.0,
+          "bourse": 0.0,
+          "prix": 0.0,
+          "exposition": 1.0
+        },
+        "open_call_signal": {
+          "score": 0.17,
+          "has_verb": false,
+          "has_deadline_marker": false,
+          "has_future_date": true,
+          "retrospective_hits": 0
+        }
+      }
+    }
+  ]
+}

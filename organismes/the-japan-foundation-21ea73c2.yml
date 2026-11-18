@@ -1,0 +1,29 @@
+uid: the-japan-foundation-21ea73c2
+nom_canonique: The Japan Foundation
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.jpf.go.jp/e/program/culture.html
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- bourse
+opportunites_liees:
+- uid: 4045db43
+  type: bourse
+  nom: Japan Foundation grants
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: asia-europe-foundation-asef
+  occurrences: 1
+  nom_brut: Asia-Europe Foundation (ASEF)
+- organisme_uid: asean-countries
+  occurrences: 1
+  nom_brut: ASEAN countries
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true

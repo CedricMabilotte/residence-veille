@@ -1,0 +1,145 @@
+uid: de475b08
+type: exposition
+source_url: https://biennaledulin.com/releve/
+fetched_at: '2026-11-18T20:19:28+00:00'
+score: 6
+status: ouverte
+opportunite:
+  nom: Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)
+  organisme: Biennale internationale du lin de Portneuf
+  lieu:
+    ville: Deschambault-Grondines
+    pays: Canada
+  nom_fr: Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)
+  affichage_titre: Appel aux artistes de la relève — exposition « Mécaniques » (BILP
+    2027) [Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)]
+candidature:
+  date_limite: '2027-03-31'
+  langue_dossier: null
+  frais_inscription:
+    montant: 0
+    devise: CAD
+  pieces_demandees:
+  - Œuvre d'au moins 50 % de lin
+  - 'Dimensions : 40 × 40 cm minimum (2D) ou 50 × 50 × 50 cm (3D)'
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - Arts textiles
+  - Sculpture
+  niveau_carriere: Artistes ayant cinq années de pratique ou moins, étudiant·es inclus·es
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Deschambault-Grondines, Québec
+  dates_exposition: null
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: true
+      plafond: null
+      devise: CAD
+      details: Retour assuré par la BILP ; livraison à charge de l'artiste
+    per_diem: false
+    hebergement_vernissage: false
+partenaires: []
+_meta:
+  extracted_confidence: 0.8
+  extracted_notes: 'Information synthétique : certains détails absents (dates exposition,
+    modalités candidature en ligne, critères jury).'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:19:28+00:00'
+  source_lang: es
+  resume_fr: 'Appel à candidatures pour la Biennale internationale du lin de Portneuf
+    (BILP 2027), exposition « Mécaniques » à Deschambault-Grondines, Québec. Date
+    limite : 31 mars 2027. Artistes ayant cinq années de pratique ou moins, incluant
+    les étudiants. Les œuvres doivent contenir au moins 50 % de lin, avec dimensions
+    de 40 × 40 cm (format 2D) ou 50 × 50 × 50 cm (format 3D). Livraison à charge de
+    l''artiste, retour assuré par la BILP, cachet d''exposition de 450 $.'
+  detection_confidence: 0.95
+  detection_method: heuristic
+  source_label: Semences manuelles (discovery/seeds.yml)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: 'La Biennale internationale du lin de Portneuf (BILP) propose une exposition
+    collective « Mécaniques » pour artistes de la relève (5 ans de pratique maximum).
+    Les œuvres doivent contenir au moins 50 % de lin et respecter les minima dimensionnels
+    : 40 × 40 cm (2D) ou 50 × 50 × 50 cm (3D). Un cachet d''exposition de 450 $ CAD
+    est versé. Pas de frais d''inscription. La BILP assure le retour des œuvres ;
+    la livraison reste aux frais de l''artiste. Deadline : 31 mars 2027.'
+  pour_qui: Artistes émergents (formation ou début de carrière, jusqu'à 5 ans de pratique
+    inclus) travaillant le lin comme matériau principal ou significatif.
+a_savoir:
+- 'Frais de livraison à charge de l''artiste (asymétrie : retour payé par BILP)'
+- Cachet modeste (450 $ CAD) pour une exposition
+- Critères de sélection du jury non énoncés
+- Délai de notification des résultats non communiqué
+- Visibilité et rayonnement de la restitution non détaillés
+organisme_details:
+  site_web: https://biennaledulin.com
+  adresse: null
+  ville: Deschambault-Grondines
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'synthese: ''Cachet d''exposition de 450 $ CAD est versé'''
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: 'prise_en_charge.hebergement_vernissage: false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: Non mentionné dans la fiche
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: partiel
+  justification: 'prise_en_charge: ''transport.pris_en_charge: true, details: Retour
+    assuré par la BILP ; livraison à charge de l''artiste'', production: false'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: 'a_savoir: ''Cachet modeste (450 $ CAD) pour une exposition'' — coût
+    de la vie local non fourni, durée de présence non précisée'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'a_savoir: ''Critères de sélection du jury non énoncés'''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: ''Délai de notification des résultats non communiqué'''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Non mentionné dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: partiel
+  justification: 'organisme: ''Biennale internationale du lin de Portneuf'', a_savoir:
+    ''Visibilité et rayonnement de la restitution non détaillés'''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: 'a_savoir: ''Aucun suivi alumni ou accompagnement ultérieur mentionné'''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

@@ -1,0 +1,170 @@
+uid: d07f84d5
+type: residence
+source_url: https://www.accioncultural.es/en/make-eindhoven-residency-2027
+fetched_at: '2026-11-18T20:05:26+00:00'
+score: 7
+status: bientot-fermee
+opportunite:
+  nom: Make Eindhoven Residency 2027
+  organisme: Make Eindhoven
+  lieu:
+    ville: Eindhoven
+    pays: Netherlands
+    territoire: null
+  nom_fr: Résidence Make Eindhoven 2027
+  affichage_titre: Make Eindhoven Residency 2027 [Résidence Make Eindhoven 2027]
+candidature:
+  date_limite: '2026-12-14'
+  date_limite_precision: day
+  langue_dossier: null
+  frais_inscription:
+    montant: null
+    devise: EUR
+  pieces_demandees:
+  - Application form
+  - Project description (maximum 1 A4 page)
+  - CV (maximum 2 A4 pages)
+  - Portfolio (maximum 10 pages/images in digital PDF format, up to 5 MB total)
+  url_candidature: https://www.makeeindhoven.nl/news/open-call-residency-for-spanish-artists/
+eligibilite:
+  disciplines:
+  - Visual Arts
+  - Architecture
+  - Design
+  niveau_carriere: confirmé·e
+  age_max: null
+  nationalite: Spanish nationality only
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: 12
+    dates: 2027-03-01 to 2027-05-28
+  hebergement: true
+  atelier: 24/7 access to Make Eindhoven workshops featuring metal casting, kiln-formed
+    glass, graphic techniques, and CAD/CAM technology with technical advice
+  remuneration:
+    montant: 3500
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: null
+    devise: EUR
+  restitution: null
+partenaires:
+- Make Eindhoven
+- Acción Cultural Española
+_meta:
+  extracted_confidence: 0.9
+  extracted_notes: Toutes les informations essentielles sont présentes et claires.
+    Critères de sélection du jury, délai de notification des résultats et modalités
+    de retour individualisé aux candidat·es non retenus·es non mentionnés.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:05:26+00:00'
+  source_lang: en
+  resume_fr: Acción Cultural Española collabore avec Make Eindhoven pour sélectionner
+    un professionnel (artiste, designer ou architecte) de nationalité espagnole pour
+    une résidence de 12 semaines (1er mars au 28 mai 2027) centrée sur la recherche
+    matérielle et l'innovation technique. Le programme offre un logement équipé, un
+    accès 24/7 aux ateliers, 1 000 € pour l'utilisation des équipements et matériaux,
+    et une allocation de 2 500 € (plus TVA) pour le voyage et la subsistence. Les
+    candidatures doivent être soumises avant le 14 décembre 2026 avec un formulaire,
+    une description de projet (maximum 1 page A4), un CV (maximum 2 pages A4) et un
+    portfolio (maximum 10 pages/images) en PDF.
+  detection_confidence: 0.9
+  detection_method: heuristic
+  source_label: Semences manuelles (discovery/seeds.yml)
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: Ce programme propose une résidence de 12 semaines (1er mars au 28 mai
+    2027) à Eindhoven pour un artiste, designer ou architecte professionnel de nationalité
+    espagnole. Make Eindhoven met à disposition un accès 24/7 à ses ateliers spécialisés
+    (fonderie, verre formé au four, techniques graphiques, CAD/CAM), un logement équipé
+    avec cuisine, une bicyclette, et jusqu'à 1 000 € de budget matériaux. Acción Cultural
+    Española verse 2 500 € pour voyage, subsistence et production. L'appel est ouvert
+    du 10 novembre au 14 décembre 2026.
+  pour_qui: Artistes, designers et architectes professionnels de nationalité espagnole
+    intéressés par la recherche matérielle, l'expérimentation et l'innovation technique.
+a_savoir:
+- Éligibilité restreinte strictement à la nationalité espagnole
+- Aucun critère de sélection explicite du jury publié
+- Aucun délai ou date annoncés pour la notification des résultats
+- Calendrier rigide imposé sans flexibilité possible (1er mars au 28 mai 2027)
+- Rémunération totale de 3 500 € (2 500 € subsistence/voyage + 1 000 € matériaux)
+  pour 12 semaines, soit ~292 €/semaine hors logement
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Eindhoven
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: 'remuneration: {montant: 3500, devise: EUR, periodicite: forfait}'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: 'hebergement: true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: oui
+  justification: 'atelier: 24/7 access to Make Eindhoven workshops featuring metal
+    casting, kiln-formed glass, graphic techniques, and CAD/CAM technology'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: 'voyage: {pris_en_charge: true}'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: 'a_savoir: Rémunération totale de 3 500 € pour 12 semaines, soit
+    ~292 €/semaine hors logement — correctif mais sans marge'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: non
+  justification: 'a_savoir: Aucun critère de sélection explicite du jury publié'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: 'a_savoir: Aucun délai ou date annoncés pour la notification des
+    résultats'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: Non mentionné dans la fiche
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: 'pour_qui: recherche matérielle, l''expérimentation et l''innovation
+    technique (aucune obligation de médiation mentionnée)'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: non
+  justification: 'a_savoir: Calendrier rigide imposé sans flexibilité possible (1er
+    mars au 28 mai 2027)'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: 'restitution: null'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: non
+  justification: Non mentionné dans la fiche
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - long séjour
+  bonus_score: 0

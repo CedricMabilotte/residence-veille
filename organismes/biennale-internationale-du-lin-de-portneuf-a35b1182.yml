@@ -1,0 +1,25 @@
+uid: biennale-internationale-du-lin-de-portneuf-a35b1182
+nom_canonique: Biennale internationale du lin de Portneuf
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://biennaledulin.com
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+opportunites_liees:
+- uid: de475b08
+  type: exposition
+  nom: Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
+ville: Deschambault-Grondines

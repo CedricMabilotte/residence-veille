@@ -24,6 +24,7 @@ _meta:
   last_updated: '2026-08-05'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 adresse: Place Jean Jaurès, 93380 Pierrefitte-sur-Seine
 ville: Pierrefitte-sur-Seine
 contact_email: espaceculturelutrillo@saintdenis.fr

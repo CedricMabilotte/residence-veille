@@ -1,4 +1,22 @@
 {
+ "accioncultural.es/en/make-eindhoven-residency-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "promoted"
+ },
+ "accioncultural.es/en/malba-writers-residence-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "accioncultural.es/en/residencies-2027": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
  "adagp.fr/fr/actualites/actualites-de-lorganisation-mondiale-de-la-propriete-intellectuelle-ompi": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-08-02",
@@ -413,6 +431,12 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
+ "anca.net.au/callout": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
  "ars.electronica.art/export/en/ecoc2028-ars-biologica-art-science-residency": {
   "fiche": "b7074aef",
   "first_seen": "2026-08-01",
@@ -486,6 +510,12 @@
  "artenda.net/tender-document/smx9f8d4zqpr": {
   "first_seen": "2026-09-04",
   "last_seen": "2026-09-04",
+  "status": "skipped"
+ },
+ "arthurdaleheritage.org/artist-residencies/weaving-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
   "status": "skipped"
  },
  "artistcommunities.org/directory/open-calls/2026-fall-residency-san-miguel-de-allende": {
@@ -1005,6 +1035,36 @@
   "last_seen": "2026-08-02",
   "status": "skipped"
  },
+ "artquest.org.uk/opportunities": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Artquest [rebond K]",
+  "status": "skipped"
+ },
+ "artquest.org.uk/opportunity/cove-park-awarded-residencies-2027-2028": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "artquest.org.uk/opportunity/francois-schneider-foundation-talents-contemporains": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "artquest.org.uk/opportunity/international-visual-arts-prize-idea-vila-damer": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "promoted"
+ },
+ "artquest.org.uk/recommend-an-opportunity": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Artquest [rebond K]",
+  "status": "skipped"
+ },
  "ateliersdart.com/action-economique/nos-prix-concours/concours-ateliers-dart-de-france": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-11-18",
@@ -1029,6 +1089,12 @@
   "first_seen": "2026-08-02",
   "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "biennaledulin.com/releve": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "promoted"
  },
  "candidats.salondemontrouge.fr/index.php": {
   "first_seen": "2026-08-02",
@@ -2933,6 +2999,96 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
+ "culture360.asef.org/opportunities/bounce-2027-for-circus-and-outdoor-arts-sectors-in-europe": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/bulgaria-15th-international-puppet-theatre-for-adults-festival": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/bulgaria-phodar-international-photo-festival-biennale-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/china-swatch-art-peace-hotel-artist-residency-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "promoted"
+ },
+ "culture360.asef.org/opportunities/earth-night-2027-call-for-event-organisers": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "skipped"
+ },
+ "culture360.asef.org/opportunities/editor-culture360aseforg": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "culture360.asef.org/opportunities/france-curatorial-research-fellowship-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/in-situ-platform-programme-3rd-call": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "promoted"
+ },
+ "culture360.asef.org/opportunities/japan-foundation-grants": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "promoted"
+ },
+ "culture360.asef.org/opportunities/japan-sado-island-galaxy-art-festival-2027": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "culture360.asef.org/opportunities/latvia-residency-for-european-capital-of-culture-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/malaysia-george-town-festival-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/netherlands-2027-residency-for-visual-and-performing-artists": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "culture360 [rebond K]",
+  "status": "below_threshold"
+ },
+ "culture360.asef.org/opportunities/residency-on-ai-and-cultural-memory-2027": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "culture360.asef.org/opportunities/switzerland-2027-site-responsive-residency-for-emerging-artists": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
  "curatorspace.com/members/opportunities/favourites": {
   "first_seen": "2026-05-22",
   "last_seen": "2026-11-18",
@@ -3564,6 +3720,18 @@
   "last_seen": "2026-11-18",
   "status": "skipped"
  },
+ "estellecreativearts.com/artist-in-residency-program": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "etn-net.org/berichte/open-call-call-for-participation-skb-artes-kunst-in-der-kartausebolzano-karthaus-schnals-itdeadline-20-11-2026.html": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
  "fiberartfever.com/en/adhesion-tarifs-fonctionnalites": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-11-18",
@@ -3881,6 +4049,12 @@
   "last_seen": "2026-11-18",
   "status": "archived"
  },
+ "kalanirvana.com/textile-india-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "promoted"
+ },
  "lainamac.fr/promotion/residence-dartistes": {
   "first_seen": "2026-08-02",
   "last_seen": "2026-11-18",
@@ -4142,6 +4316,54 @@
   "source": "La Métive — résidence pluridisciplinaire (Moutier-d'Ahun)",
   "status": "skipped"
  },
+ "laregion.fr/prix-occitanie-medicis": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "promoted"
+ },
+ "lavillette.com/en": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Villette [rebond K]",
+  "status": "skipped"
+ },
+ "lavillette.com/en/bars-restaurants": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Villette [rebond K]",
+  "status": "skipped"
+ },
+ "lavillette.com/en/interactive-map": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Villette [rebond K]",
+  "status": "skipped"
+ },
+ "lavillette.com/en/manifestations/100-lexpo-performances-25-26": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Villette [rebond K]",
+  "status": "skipped"
+ },
+ "lavillette.com/en/manifestations/100-lexpo-spectacles-25-26": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Villette [rebond K]",
+  "status": "skipped"
+ },
+ "lavillette.com/en/saison/25-en": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Villette [rebond K]",
+  "status": "skipped"
+ },
+ "lavillette.com/programmation": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "La Villette [rebond K]",
+  "status": "skipped"
+ },
  "lawayakacurrent.com/apply": {
   "fiche": "235efcae",
   "first_seen": "2026-08-01",
@@ -4157,6 +4379,12 @@
   "first_seen": "2026-08-02",
   "last_seen": "2026-11-18",
   "status": "skipped"
+ },
+ "layer.si/bien/en/kr/open-call-2027-studenti": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
  },
  "magcp.fr": {
   "first_seen": "2026-08-02",
@@ -4720,6 +4948,24 @@
   "last_seen": "2026-11-18",
   "status": "quarantined"
  },
+ "recursosculturales.com/aion-digital-art-prize": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "recursosculturales.com/belgrade-art-studio-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "recursosculturales.com/bienal-de-pintura-eusebio-sempere": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
  "resartis.org/listings": {
   "first_seen": "2026-08-05",
   "last_seen": "2026-08-05",
@@ -5241,6 +5487,204 @@
  "textileartinsider.com/support-our-work": {
   "first_seen": "2026-08-05",
   "last_seen": "2026-11-18",
+  "status": "skipped"
+ },
+ "textileartstriennialhungary.com/2025/08/25/felhivas-call-for-entries-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "textilesocietyofamerica.org/community": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "skipped"
+ },
+ "textilesocietyofamerica.org/opportunities/academic-research-survey-adult-creative-practitioners-18": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "skipped"
+ },
+ "textilesocietyofamerica.org/opportunities/arthurdale-weaving-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "below_threshold"
+ },
+ "textilesocietyofamerica.org/opportunities/assistant-professor-tenure-track-fiber": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "skipped"
+ },
+ "textilesocietyofamerica.org/opportunities/call-for-chapters-one-stitch-at-a-time-telling-stories-archiving-histories-and-threading-narratives-of-resistance-and-rebellion-through-embroidered-art-and-needlecraft": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "promoted"
+ },
+ "textilesocietyofamerica.org/opportunities/executive-director-craft-and-creative-economy-nonprofit": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "below_threshold"
+ },
+ "textilesocietyofamerica.org/opportunities/farm-studio-international-artist-residency-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "below_threshold"
+ },
+ "textilesocietyofamerica.org/opportunities/international-textile-and-fibre-art-exhibitions-scythia": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "promoted"
+ },
+ "textilesocietyofamerica.org/opportunities/mesoamerican-codex-painting-instructional-program": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "promoted"
+ },
+ "textilesocietyofamerica.org/opportunities/textile-india-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "below_threshold"
+ },
+ "textilesocietyofamerica.org/opportunities/the-estelle-center-for-creative-arts-2028-artist-in-residency-program": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Textile Society of America – Opportunities [rebond K]",
+  "status": "below_threshold"
+ },
+ "textilesocietyofamerica.org/submit-an-opportunity": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "themesh.art/convocatorias/alt-film-festival-alt-4a-edicion-festival-de-documentales-lgbt-de-america-latina": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/arcus-project-arcus-research-summer-winter": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/arroyo-arts-collective-summer-2027-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/arteles-creative-center-2-back-to-basics-thematic-residency-program-in-finland-summer-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/bardo-projektraum-open-call-bardo-curatorial-residency-2027": {
+  "error": "can only join an iterable",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "status": "error"
+ },
+ "themesh.art/convocatorias/dancehouse-lefkosia-on-bodies-festival": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/disenadora-de-vestuario": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/fabrica-2-interwoven-artist-residencies": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "Semences manuelles (discovery/seeds.yml)",
+  "status": "below_threshold"
+ },
+ "themesh.art/convocatorias/fundacion-mar-adentro-docente-activo": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/hangar-convocatoria-per-a-residencies-de-programa-2027%e2%80%9028-12-mesos-a-hangar-modalitat-sense-taller": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/haystack-mountain-school-of-crafts-haystack-open-studio-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/maquinas-simples-convocatoria-abierta-artes-escenicas-y-vivas-2027": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/museo-estudio-diego-rivera-enrique-gottdiener-1909-1986-expresion-y-sentimiento": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/patio-collective-convocatoria-nuevas-formas-de-habitar-el-espacio-cultural-el-deseo-disidente": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/plataforma-guadalajara-plataforma-residencias-6-a-y-7-a-generacion-de-residencias-artisticas": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/pontificia-universidad-catolica-de-chile-escuela-de-arte-profesor-a-asistente-jornada-completa": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/rayon-376-convocatoria-beca-workshop": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/teatro-claretiano-se-abre-el-telon-proyecto-2027-se-abre-el-telon": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/textielmuseum-your-next-internship-starts-here": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
+  "status": "skipped"
+ },
+ "themesh.art/convocatorias/theblanc-the-blanc-artist-residency": {
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18",
+  "source": "mesh (themesh.art) [rebond K]",
   "status": "skipped"
  },
  "transartists.org/cdn-cgi/l/email-protection": {

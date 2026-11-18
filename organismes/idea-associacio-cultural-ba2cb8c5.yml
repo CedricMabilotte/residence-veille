@@ -1,0 +1,23 @@
+uid: idea-associacio-cultural-ba2cb8c5
+nom_canonique: IDEA Associació Cultural
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.ideagc.com/en/idea-mundoarti/
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- prix
+opportunites_liees:
+- uid: 95c03a7f
+  type: prix
+  nom: International Visual Arts Prize IDEA – Vila d'Amer
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true

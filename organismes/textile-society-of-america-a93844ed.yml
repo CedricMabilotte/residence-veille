@@ -1,0 +1,32 @@
+uid: textile-society-of-america-a93844ed
+nom_canonique: Textile Society of America
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.scythiatextile.com
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- exposition
+- bourse
+opportunites_liees:
+- uid: b6a5485d
+  type: exposition
+  nom: 5th International Micro Textile and Fibre Art Exhibition "Scythia"
+- uid: 94804ece
+  type: bourse
+  nom: 'Call for Chapters: One Stitch at a Time: Telling Stories, Archiving Histories, and Threading Narratives of Resistance
+    and Rebellion through Embroidered Art and Needlecraft'
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: university-of-central-florida-english-department
+  occurrences: 1
+  nom_brut: University of Central Florida English Department
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+contact_email: scythiatextile@gmail.com

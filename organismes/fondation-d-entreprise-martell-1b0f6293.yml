@@ -5,9 +5,8 @@ pays: France
 type_organisme: fondation
 url_canonique: https://fondationdentreprisemartell.com
 urls_secondaires: []
-description_courte: Fondation d'entreprise à Cognac, programme de résidences « Création
-  & Transitions » (recherche, production, écriture/commissariat) en arts visuels
-  et SHS.
+description_courte: Fondation d'entreprise à Cognac, programme de résidences « Création & Transitions » (recherche, production,
+  écriture/commissariat) en arts visuels et SHS.
 disciplines_proposees:
 - arts visuels
 - sciences humaines et sociales
@@ -22,8 +21,7 @@ track_record:
     editions:
     - '2026'
     fiabilite_cycle: 0.4
-    fenetre_annuelle: appel repéré avec deadline août 2026 — cycle annuel probable,
-      à confirmer sur plusieurs éditions
+    fenetre_annuelle: appel repéré avec deadline août 2026 — cycle annuel probable, à confirmer sur plusieurs éditions
 partenaires_mentionnes: []
 pages_surveillees:
 - url: https://fondationdentreprisemartell.com/appel-a-projets/
@@ -33,4 +31,5 @@ _meta:
   last_updated: '2026-08-01'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 ville: Cognac

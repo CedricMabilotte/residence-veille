@@ -25147,5 +25147,427 @@ candidates:
     organisme_uid: villa-albertine-2a81d903
     page_reseau: https://villa-albertine.org/about/partners
     timestamp: '2026-09-07T11:11:05'
-last_updated: '2026-09-07T11:11:02'
-total_candidates: 1247
+- url: https://themesh.art/convocatorias/disenadora-de-vestuario/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Diseñadora de vestuario — Se busca diseñadora de vestuario. 🖤 Para nuestras producciones de eventos y el backstage
+      de nuestros desfiles. Trabajo pagado por [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Diseñadora de vestuario
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/textielmuseum-your-next-internship-starts-here/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Your (Next) Internship Starts Here — YOUR (NEXT) INTERNSHIP STARTS HERE – Want to gain hands-on experience, develop
+      your skills and discover what goes on behind [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Your (Next) Internship Starts Here
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/bardo-projektraum-open-call-bardo-curatorial-residency-2027/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: OPEN CALL — BARDO CURATORIAL RESIDENCY 2027 — OPEN CALL — BARDO CURATORIAL RESIDENCY 2027 Your project. Berlin.
+      A space to make it happen. Bardo Projektraum invites independent [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: OPEN CALL — BARDO CURATORIAL RESIDENCY 2027
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/alt-film-festival-alt-4a-edicion-festival-de-documentales-lgbt-de-america-latina/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: ALT* — 4a edición (Festival de documentales LGBT+ de América Latina) — 🃏Nuestra convocatoria para la 4a edición
+      ya abrió. ALT* es el primer festival de documentales LGBT+ de América Latina. Del [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: ALT* — 4a edición (Festival de documentales LGBT+ de América Latina)
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/arteles-creative-center-2-back-to-basics-thematic-residency-program-in-finland-summer-2027/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Back to Basics – Thematic residency program in Finland, Summer 2027 — Back to Basics &#8211; Thematic residency
+      program in Finland, Summer 2027 Residency program for artists, writers &#38; creative professionals Periods:&#160;1
+      [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Back to Basics – Thematic residency program in Finland, Summer 2027
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/museo-estudio-diego-rivera-enrique-gottdiener-1909-1986-expresion-y-sentimiento/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Enrique Gottdiener (1909-1986). Expresión y sentimiento — Enrique Gottdiener (1909-1986). Expresión y sentimiento
+      El Museo Casa Estudio Diego Rivera y Frida Kahlo presenta su nueva exposición temporal, [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Enrique Gottdiener (1909-1986). Expresión y sentimiento
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/fabrica-2-interwoven-artist-residencies/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Interwoven Artist Residencies — OPEN CALL &#124; Interwoven Artist Residencies &#8212; Take your practice across
+      borders. &#8212; Interwoven invites contemporary visual artists to apply [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Interwoven Artist Residencies
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/dancehouse-lefkosia-on-bodies-festival/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'On Bodies Festival — Open call for proposals 21st &#8211; 23rd of May 2027 &#124; On Bodies Festival This year’s
+      theme is Legacy: legacy [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: On Bodies Festival
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/maquinas-simples-convocatoria-abierta-artes-escenicas-y-vivas-2027/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: CONVOCATORIA ABIERTA | ARTES ESCÉNICAS Y VIVAS 2027 — **CONVOCATORIA ABIERTA &#124; ARTES ESCÉNICAS Y VIVAS 2027**
+      Máquinas Simples abre su convocatoria para integrar proyectos de artes escénicas y [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: CONVOCATORIA ABIERTA | ARTES ESCÉNICAS Y VIVAS 2027
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/hangar-convocatoria-per-a-residencies-de-programa-2027%e2%80%9028-12-mesos-a-hangar-modalitat-sense-taller/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Convocatòria per a residències de programa 2027‐28 (12 mesos) a Hangar | Modalitat sense taller — 📣 Convocatòria
+      per a residències de programa 2027‐28 (12 mesos) a Hangar &#124; Modalitat sense taller 📣 Per a la [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Convocatòria per a residències de programa 2027‐28 (12 mesos) a Hangar | Modalitat sense taller
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/fundacion-mar-adentro-docente-activo/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Docente Activo — #DocenteActivo2027 🌿 Únete a una experiencia de aprendizaje en la naturaleza inspirada en #EcosistemasDeCuidado
+      y forma parte de una red [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Docente Activo
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/arcus-project-arcus-research-summer-winter/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: ARCUS Research Summer & Winter — 「🌈OPEN CALL for ARCUS Research Summer &#38; Winter🌈 We are now accepting applications
+      for the ARCUS Research Summer 2027 and [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: ARCUS Research Summer & Winter
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/plataforma-guadalajara-plataforma-residencias-6-a-y-7-a-generacion-de-residencias-artisticas/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Plataforma Residencias: 6.a y 7.a generación de residencias artísticas — plataformagdl on November 16, 2026:
+      &#8220;🌀📣🗯️Plataforma abre la convocatoria para su 6.a y 7.a generación de residencias artísticas.🗯️📣🦾 Dirigida a [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: 'Plataforma Residencias: 6.a y 7.a generación de residencias artísticas'
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/rayon-376-convocatoria-beca-workshop/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Convocatoria Beca Workshop — rayon.376 on November 16, 2026: &#8220;Estamos muy agradecidos con @fotomecanica.mx
+      por hacer posible esta colaboración en la que estaremos dando [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Convocatoria Beca Workshop
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/pontificia-universidad-catolica-de-chile-escuela-de-arte-profesor-a-asistente-jornada-completa/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Profesor/a Asistente – Jornada completa — 📢 Concurso internacional &#124; Profesor/a Asistente – Jornada completa
+      📌 Descripción del cargo: El Instituto Interdisciplinario de Estética de la [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Profesor/a Asistente – Jornada completa
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/teatro-claretiano-se-abre-el-telon-proyecto-2027-se-abre-el-telon/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: ¡SE ABRE EL TELÓN! (Proyecto 2027 – Se abre el telón) — 🎭 ¡SE ABRE EL TELÓN! Esta campaña nace con muchas ganas
+      de acercar el teatro a más personas, impulsar nuevas [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: ¡SE ABRE EL TELÓN! (Proyecto 2027 – Se abre el telón)
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/theblanc-the-blanc-artist-residency/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'THE BLANC Artist Residency — theblanc_ny on November 16, 2026: &#8220;THE BLANC ARTIST RESIDENCY &#124; Applications
+      Now Open Located in the heart of Midtown Manhattan, [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: THE BLANC Artist Residency
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/arroyo-arts-collective-summer-2027-residency/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Summer 2027 Residency — Calling all writers and artists across disciplines: Spend a week in the High Desert
+      next summer with uninterrupted time and [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Summer 2027 Residency
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/haystack-mountain-school-of-crafts-haystack-open-studio-residency/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Haystack Open Studio Residency — haystack_school on November 16, 2026: &#8220;Ever wanted to participate in
+      Haystack’s Open Studio Residency program? Applications are now open through [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Haystack Open Studio Residency
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/patio-collective-convocatoria-nuevas-formas-de-habitar-el-espacio-cultural-el-deseo-disidente/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Convocatoria: Nuevas formas de habitar el espacio cultural / El deseo disidente — ABRIMOS CONVOCATORIA!! 🫧🫧
+      Desde PATIO Collective lanzamos una convocatoria abierta para participar en un ciclo de conversaciones sobre autogestión,
+      cultura [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: 'Convocatoria: Nuevas formas de habitar el espacio cultural / El deseo disidente'
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/turba-convocatoria-sudamericana-abierta-turba2027/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'CONVOCATORIA SUDAMERICANA ABIERTA – TURBA2027 — ¡CONVOCATORIA SUDAMERICANA ABIERTA! 💫 #TURBA2027 Dirigida a
+      artistas y elencos de Sudamérica (excepto Argentina), que desarrollen su labor en el [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: CONVOCATORIA SUDAMERICANA ABIERTA – TURBA2027
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/kampala-writes-litfest-kampala-writes-litfest/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Kampala Writes LitFest — We are growing our team for Kampala Writes LitFest! We are officially hiring for three
+      key roles: 1️⃣ Festival Curator [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Kampala Writes LitFest
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/dip-documental-intimidad-y-puesta-en-escena-dip-2027-convocatoria-abierta/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'DIP 2027: CONVOCATORIA ABIERTA — __dip________ on November 16, 2026: &#8220;👠👠 D̳I̳P̳ 2̳0̳2̳7 : ¡CONVOCATORIA
+      ABIERTA hasta el 20 de Diciembre! 👠👠 🌀EDICIÓN FRONTERA: online [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: 'DIP 2027: CONVOCATORIA ABIERTA'
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/mutek-call-for-projects-mutek-montreal-28th-edition-and-village-numerique-2027/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'Call for Projects: MUTEK Montréal 28th edition and Village Numérique 2027 — [CALL FOR PROJECTS] The Call for
+      Projects for the 28th edition of the MUTEK Montréal Festival, and the Village Numérique [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: 'Call for Projects: MUTEK Montréal 28th edition and Village Numérique 2027'
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/the-lab-is-hiring-technical-director-and-front-of-house-associate-positions/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: The Lab is hiring! Technical Director and Front-of-House Associate positions — The Lab is hiring! We’re looking
+      for a Technical Director (new position!) and Front-of-House Associates (entry-level!) to support our ever [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: The Lab is hiring! Technical Director and Front-of-House Associate positions
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/eat-escuela-experimental-de-arte-anudaciones-honduras-2027/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: ANUDACIONES HONDURAS | 2027 — ¡CONVOCATORIA ABIERTA! ANUDACIONES HONDURAS &#124; 2027 En su tercera edición,
+      ANUDACIONES se enfoca en profundizar en la comprensión y exploración [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: ANUDACIONES HONDURAS | 2027
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/la-dept-of-cultural-affairs-voices-of-la-youth-theatre-ensemble/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Voices of LA Youth Theatre Ensemble — DCA is seeking talented and experienced teaching artists for the inaugural
+      Voices of LA Youth Theatre Ensemble at Lankershim Arts [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Voices of LA Youth Theatre Ensemble
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/cape-breton-centre-for-craft-design-exhibitions-coordinator/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: Exhibitions Coordinator — Do you have a passion for the arts and bringing creative ideas to life? ✨ We’re looking
+      for a part-time [&#8230;]
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: Exhibitions Coordinator
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/cicek-gallery-open-call-artist-submissions/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: 'OPEN CALL | ARTIST SUBMISSIONS — cicekartgallery on November 14, 2026: &#8220;OPEN CALL &#124; ARTIST SUBMISSIONS
+      Cicek Gallery is delighted to welcome submissions from emerging artists [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: OPEN CALL | ARTIST SUBMISSIONS
+  suggested_action: follow_one_time
+- url: https://themesh.art/convocatorias/the-orchard-project-2027-submissions-are-open/
+  type: rss
+  found_from:
+  - source: 'RSS feed: mesh (themesh.art) [rebond K]'
+    context: '2027 submissions are open — 2027 submissions are open. And submitting is free. Three of our labs have open calls
+      this cycle: 🎭 Performance Lab: [&#8230;]'
+    timestamp: '2026-11-18T20:22:57'
+  seen_count: 1
+  domain: themesh.art
+  first_seen: '2026-11-18'
+  last_seen: '2026-11-18'
+  metadata:
+    title: 2027 submissions are open
+  suggested_action: follow_one_time
+last_updated: '2026-11-18T20:22:57'
+total_candidates: 1278

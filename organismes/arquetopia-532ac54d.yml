@@ -1,0 +1,25 @@
+uid: arquetopia-532ac54d
+nom_canonique: Arquetopia
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 62f915ac
+  type: residence
+  nom: Mesoamerican Codex Painting Instructional Program
+track_record: {}
+partenaires_mentionnes: []
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
+contact_email: info@arquetopia.org

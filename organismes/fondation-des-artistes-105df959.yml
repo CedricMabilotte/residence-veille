@@ -132,6 +132,7 @@ _meta:
   last_updated: '2026-08-04'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 ville: Nogent-sur-Marne
 adresse: 11 rue Berryer, 75008 Paris
 contact_email: visite@fondationdesartistes.fr

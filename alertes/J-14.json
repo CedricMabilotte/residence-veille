@@ -32,6 +32,14 @@
     "nom": "Casa Ceiba: 2027 Winter/Spring Interest Form"
   },
   {
+    "path": "appels/residence/62f915ac.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 11,
+    "type": "residence",
+    "uid": "62f915ac",
+    "nom": "Mesoamerican Codex Painting Instructional Program"
+  },
+  {
     "path": "appels/residence/671c5331.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 12,
@@ -94,6 +102,14 @@
     "type": "residence",
     "uid": "e2b0d67f",
     "nom": "Commande artistique 2027 – Création de deux sculptures pérennes à Maurepas"
+  },
+  {
+    "path": "appels/bourse/4045db43.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 13,
+    "type": "bourse",
+    "uid": "4045db43",
+    "nom": "Japan Foundation grants"
   },
   {
     "path": "appels/prix/57868eb1.yml",

@@ -1,0 +1,27 @@
+uid: make-eindhoven-3c221cf5
+nom_canonique: Make Eindhoven
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: d07f84d5
+  type: residence
+  nom: Make Eindhoven Residency 2027
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: accion-cultural-espanola
+  occurrences: 1
+  nom_brut: Acción Cultural Española
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Eindhoven

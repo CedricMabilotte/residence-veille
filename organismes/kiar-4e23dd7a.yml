@@ -1,0 +1,30 @@
+uid: kiar-4e23dd7a
+nom_canonique: KIAR
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: null
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 239df4ec
+  type: residence
+  nom: KIAR Textile India Residency
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: niift-odisha
+  occurrences: 1
+  nom_brut: NIIFT, Odisha
+- organisme_uid: sabyasachi-satpathy
+  occurrences: 1
+  nom_brut: Sabyasachi Satpathy
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Bhubaneswar

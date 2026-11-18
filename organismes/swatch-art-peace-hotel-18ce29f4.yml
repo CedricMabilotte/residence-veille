@@ -1,0 +1,27 @@
+uid: swatch-art-peace-hotel-18ce29f4
+nom_canonique: Swatch Art Peace Hotel
+acronymes: []
+pays: null
+type_organisme: null
+url_canonique: https://www.swatch-art-peace-hotel.com/en/artist-residency
+urls_secondaires: []
+description_courte: null
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: dca1c773
+  type: residence
+  nom: Swatch Art Peace Hotel artist residency
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: asia-europe-foundation
+  occurrences: 1
+  nom_brut: Asia-Europe Foundation
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+ville: Shanghai

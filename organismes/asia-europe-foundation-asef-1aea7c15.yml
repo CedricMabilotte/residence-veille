@@ -1,0 +1,27 @@
+uid: asia-europe-foundation-asef-1aea7c15
+nom_canonique: Asia-Europe Foundation (ASEF)
+acronymes: []
+pays: null
+type_organisme: fondation
+url_canonique: null
+urls_secondaires: []
+description_courte: Fondation promouvant les relations culturelles et les échanges entre l'Asie et l'Europe.
+disciplines_proposees: []
+types_opportunites_habituels:
+- residence
+opportunites_liees:
+- uid: 66247f3d
+  type: residence
+  nom: IN SITU Platform Programme 3rd call
+track_record: {}
+partenaires_mentionnes:
+- organisme_uid: la-strada-graz
+  occurrences: 1
+  nom_brut: La Strada Graz
+pages_surveillees: []
+_meta:
+  first_seen: '2026-11-18'
+  last_updated: '2026-11-18'
+  status: actif
+  nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'

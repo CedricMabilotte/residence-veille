@@ -1,0 +1,164 @@
+uid: 66247f3d
+type: residence
+source_url: https://culture360.asef.org/opportunities/in-situ-platform-programme-3rd-call
+fetched_at: '2026-11-18T20:40:49+00:00'
+score: 6
+status: bientot-fermee
+opportunite:
+  nom: IN SITU Platform Programme 3rd call
+  organisme: Asia-Europe Foundation (ASEF)
+  lieu:
+    ville: Graz
+    pays: Autriche
+    territoire: Europe
+  nom_fr: 3e appel à candidatures du programme IN SITU Platform
+  affichage_titre: IN SITU Platform Programme 3rd call [3e appel à candidatures du
+    programme IN SITU Platform]
+candidature:
+  date_limite: '2026-12-09'
+  date_limite_precision: day
+  langue_dossier:
+  - en
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://drive.google.com/file/d/1qjTiTVucBt_GBuPNP3FY6NOC0Z0Uul8Q/view
+eligibilite:
+  disciplines:
+  - Performing Arts
+  - Visual Arts
+  niveau_carriere: émergent·e
+  age_max: null
+  nationalite: Europe
+  residence_administrative: Europe
+conditions_residence:
+  duree:
+    semaines: null
+    dates: May to September 2027
+  hebergement: true
+  atelier: null
+  remuneration:
+    montant: 1500
+    devise: EUR
+    periodicite: forfait
+  voyage:
+    pris_en_charge: true
+    plafond: 300
+    devise: EUR
+  restitution: FOCUS event in summer 2028 at La Strada Graz, Austria
+partenaires:
+- La Strada Graz
+_meta:
+  extracted_confidence: 0.78
+  extracted_notes: Page descriptive mais informations limitées; application guidelines
+    externes (PDF). Certains détails (critères complets, pièces exactes, lieux spécifiques
+    des labs) ne sont pas visibles sur cette page.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T20:40:49+00:00'
+  source_lang: en
+  resume_fr: 'IN SITU lance son 3e appel à candidatures pour les artistes émergents
+    créant dans l''espace public. Environ 60 artistes européens auront accès à du
+    contenu en ligne de mars à juin 2027 et participeront à un lab immersif de mai
+    à septembre 2027. Les artistes sélectionnés reçoivent une aide à l''écriture de
+    1,500 EUR et un soutien au voyage jusqu''à 300 EUR. Environ 10 projets seront
+    soutenus avec des résidences de production, culminant avec un événement FOCUS
+    en été 2028 à La Strada Graz en Autriche. Date limite : 09 déc 2026.'
+  detection_confidence: 0.85
+  detection_method: claude
+  source_label: culture360 [rebond K]
+  last_status_check: '2026-11-18'
+analyse:
+  synthese: IN SITU est un programme de soutien aux artistes émergent·e·s créant dans
+    l'espace public. Environ 60 artistes européens accèdent à du contenu en ligne
+    (mars-juin 2027) et à des labs immersifs de 6 jours (mai-septembre 2027), avec
+    1 500 EUR de frais d'écriture, jusqu'à 300 EUR pour déplacements, plus hébergement
+    et repas couverts. Environ 10 projets sont ensuite soutenus en residencies de
+    production, culminant dans un événement FOCUS à Graz en été 2028.
+  pour_qui: Artistes émergent·e·s d'Europe créant des propositions artistiques pour
+    l'espace public ou des lieux non-conventionnels, dont le projet n'a pas encore
+    été présenté mais dépasse le stade de l'idée.
+a_savoir:
+- Support financier modeste pour le lab immersif (1 500 EUR) ; seulement ~10 projets
+  retenus pour residencies sur ~60 artistes acceptés
+- Critères de sélection détaillés non publiés sur cette page (renvoi à document externe)
+- Restitution prévue à horizon 2028, plus d'un an après les labs
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: null
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: oui
+  justification: '"montant": 1500, "devise": "EUR", "periodicite": "forfait"'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: oui
+  justification: '"hebergement": true'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: '"atelier": null — aucune mention explicite d''espace de travail
+    ou d''équipements fournis'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: oui
+  justification: '"pris_en_charge": true, "plafond": 300 + "accommodation included
+    in costs covered" + repas couverts'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: partiel
+  justification: '"montant": 1500 EUR + 300 EUR voyage + hébergement et repas couverts
+    pour 6 jours ; montant modeste mais frais de subsistance allégés'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: partiel
+  justification: '"dont le projet n''a pas encore été présenté mais dépasse le stade
+    de l''idée" (critères généraux énoncés, mais "Critères de sélection détaillés
+    non publiés sur cette page")'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: non
+  justification: Aucune date ou délai de notification figurant dans la fiche ; absence
+    totale de timeline
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: '"pieces_demandees": null — aucune information sur notification des
+    candidat·e·s non retenu·e·s'
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: oui
+  justification: '"Lab immersif" décrit dans analyse sans obligations de médiation
+    imposées, temps dédié à "la production/recherche de l''artiste"'
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: partiel
+  justification: '"dates": "May to September 2027" — fenêtre large de 5 mois, mais
+    flexibilité des dates individuelles non précisée'
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"restitution": "FOCUS event in summer 2028 at La Strada Graz, Austria"
+    — plateforme reconnue du réseau art contemporain européen'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: Absence totale de mention d'un suivi alumni, réseau d'accompagnement
+    ou support post-2028
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

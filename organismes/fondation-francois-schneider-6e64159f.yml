@@ -6,9 +6,8 @@ type_organisme: fondation
 url_canonique: https://www.fondationfrancoisschneider.org
 urls_secondaires:
 - https://talentscontemporains-terre.fondationfrancoisschneider.org
-description_courte: Fondation d'art contemporain, organise le concours d'acquisition
-  « Talents Contemporains » pour une installation pérenne dans les jardins de l'Abbaye
-  de Pontigny.
+description_courte: Fondation d'art contemporain, organise le concours d'acquisition « Talents Contemporains » pour une installation
+  pérenne dans les jardins de l'Abbaye de Pontigny.
 disciplines_proposees:
 - sculpture
 - installation extérieure
@@ -23,8 +22,7 @@ track_record:
     editions:
     - '2026'
     fiabilite_cycle: 0.4
-    fenetre_annuelle: appel repéré avec deadline août 2026 — cycle annuel probable
-      autour du thème changeant chaque édition
+    fenetre_annuelle: appel repéré avec deadline août 2026 — cycle annuel probable autour du thème changeant chaque édition
 partenaires_mentionnes: []
 pages_surveillees:
 - url: https://talentscontemporains-terre.fondationfrancoisschneider.org/inscription_individuel.php
@@ -34,4 +32,5 @@ _meta:
   last_updated: '2026-08-01'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 ville: Pontigny

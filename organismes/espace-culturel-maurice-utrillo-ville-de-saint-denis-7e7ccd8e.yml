@@ -2,7 +2,7 @@ uid: espace-culturel-maurice-utrillo-ville-de-saint-denis-7e7ccd8e
 nom_canonique: Espace culturel Maurice Utrillo - Ville de Saint-Denis
 acronymes: []
 pays: null
-type_organisme: null
+type_organisme: institution_publique
 url_canonique: null
 urls_secondaires: []
 description_courte: null
@@ -24,5 +24,6 @@ _meta:
   last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 ville: Pierrefitte-sur-Seine
 contact_email: espaceculturelutrillo@saintdenis.fr
