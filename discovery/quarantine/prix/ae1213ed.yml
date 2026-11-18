@@ -55,8 +55,8 @@ partenaires:
 - La Villette
 _meta:
   extracted_confidence: 0.35
-  extracted_notes: Texte annonçant le lauréat 2026, non un appel à candidatures. Conditions
-    de candidature, date limite et URL de soumission ne figurent pas dans cet article.
+  extracted_notes: Texte annonçant le lauréat 2026, non un appel à candidatures. Conditions de candidature, date limite et
+    URL de soumission ne figurent pas dans cet article.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T15:40:33+00:00'
   source_lang: fr
@@ -68,22 +68,33 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     erreur: page illisible
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.9
+    preuve:
+      url: https://www.adagp.fr/fr/soutien-la-creation-artistique/aides-directes-aux-artistes/les-revelations/page-revelation-arts-plastiques
+      citation: Le jury choisit un lauréat parmi les artistes présentés à 100% L'EXPO.
+    notes: 'Article annonçant le lauréat 2026 (Jordan Barré). Le prix Révélation Arts plastiques n''a pas de candidature directe
+      : le lauréat est choisi par un jury parmi les artistes exposés à 100% L''EXPO (La Villette). La voie d''entrée est donc
+      l''appel à candidatures de 100% L''EXPO : l''appel pour l''édition 2027 était ouvert du 8 avril au 8 juin 2026 (clos,
+      DNSEP de moins de 5 ans, mail candidature100expo@villette.com) ; l''appel pour 2028 devrait s''ouvrir à l''ouverture
+      de l''édition 2027 (avril 2027).'
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
 analyse:
-  synthese: La Révélation Arts plastiques est un prix créé par l'ADAGP depuis 2015,
-    désormais décerné en partenariat avec 100% L'EXPO à La Villette, Paris. Il récompense
-    annuellement un artiste émergent dans le domaine des arts plastiques avec une
-    dotation de 5 000 €. Le lauréat bénéficie d'une présentation dédiée aux cimaises
-    de l'ADAGP accompagnée d'un texte critique ou de documentation photographique.
-    L'ADAGP verse également une aide financière supplémentaire à tous les artistes
+  synthese: La Révélation Arts plastiques est un prix créé par l'ADAGP depuis 2015, désormais décerné en partenariat avec
+    100% L'EXPO à La Villette, Paris. Il récompense annuellement un artiste émergent dans le domaine des arts plastiques avec
+    une dotation de 5 000 €. Le lauréat bénéficie d'une présentation dédiée aux cimaises de l'ADAGP accompagnée d'un texte
+    critique ou de documentation photographique. L'ADAGP verse également une aide financière supplémentaire à tous les artistes
     participants.
-  pour_qui: Artistes émergents dans les arts plastiques, s'inscrivant dans la jeune
-    création contemporaine française.
+  pour_qui: Artistes émergents dans les arts plastiques, s'inscrivant dans la jeune création contemporaine française.
 a_savoir:
 - Cet article annonce le lauréat 2026, non un appel à candidatures.
-- Les conditions d'éligibilité, date limite et modalités de candidature ne sont pas
-  fournies dans ce texte.
-- Une aide financière supplémentaire est versée à tous les artistes exposants, au-delà
-  du prix principal décerné au lauréat.
+- Les conditions d'éligibilité, date limite et modalités de candidature ne sont pas fournies dans ce texte.
+- Une aide financière supplémentaire est versée à tous les artistes exposants, au-delà du prix principal décerné au lauréat.
 organisme_details:
   site_web: https://www.adagp.fr
   adresse: null

@@ -38,12 +38,10 @@ conditions_prix:
 partenaires: []
 _meta:
   extracted_confidence: 0.15
-  extracted_notes: 'ATTENTION : Ce contenu n''est PAS un appel à candidature mais
-    un rapport d''acquisitions DÉJÀ EFFECTUÉES. Le collège Photographie et images
-    animées du Cnap s''est réuni les 21 et 22 mai 2025 pour acquérir 65 œuvres de
-    22 artistes pour un budget de 374 970 EUR, enrichies de 5 donations. Aucune date
-    limite de candidature, critères d''éligibilité, jury ou processus de sélection
-    n''est mentionné.'
+  extracted_notes: 'ATTENTION : Ce contenu n''est PAS un appel à candidature mais un rapport d''acquisitions DÉJÀ EFFECTUÉES.
+    Le collège Photographie et images animées du Cnap s''est réuni les 21 et 22 mai 2025 pour acquérir 65 œuvres de 22 artistes
+    pour un budget de 374 970 EUR, enrichies de 5 donations. Aucune date limite de candidature, critères d''éligibilité, jury
+    ou processus de sélection n''est mentionné.'
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T13:59:25+00:00'
   source_lang: fr
@@ -55,19 +53,31 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     erreur: page illisible
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.85
+    preuve:
+      url: https://www.cnap.fr/acquisitions-et-commandes-photographie-et-images-animees-2025
+      citation: Acquisitions et commandes Photographie et images animées - 2025 (titre de la page)
+    notes: 'Compte rendu des acquisitions décidées par le collège Photographie et images animées du Cnap (réunion des 21-22
+      mai 2025, 65 œuvres, 374 970 €) : un bilan, pas un appel. cnap.fr bloque le fetch (robots), vérification impossible
+      au-delà du titre et du contenu déjà extrait dans la fiche. La procédure de proposition d''acquisition au Cnap existe
+      par ailleurs, mais n''est pas l''objet de cette page.'
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
 analyse:
-  synthese: Ce document rapporte les acquisitions et commandes effectuées par le Cnap
-    dans les domaines de la photographie et des images animées en 2025. Le collège
-    spécialisé a acquis 65 œuvres auprès de 22 artistes pour un budget de 374 970
-    EUR, auxquelles s'ajoutent 5 œuvres reçues en don. Les acquisitions incluent photographies
-    couleur et noir et blanc, vidéos, diaporamas sonores et installations sonores
-    provenant d'artistes nationaux et internationaux.
-  pour_qui: Ce rapport s'adresse aux artistes dont les œuvres ont déjà été sélectionnées
-    et acquises par le Cnap ; ce n'est pas un appel à candidature ouvert.
+  synthese: Ce document rapporte les acquisitions et commandes effectuées par le Cnap dans les domaines de la photographie
+    et des images animées en 2025. Le collège spécialisé a acquis 65 œuvres auprès de 22 artistes pour un budget de 374 970
+    EUR, auxquelles s'ajoutent 5 œuvres reçues en don. Les acquisitions incluent photographies couleur et noir et blanc, vidéos,
+    diaporamas sonores et installations sonores provenant d'artistes nationaux et internationaux.
+  pour_qui: Ce rapport s'adresse aux artistes dont les œuvres ont déjà été sélectionnées et acquises par le Cnap ; ce n'est
+    pas un appel à candidature ouvert.
 a_savoir:
 - Il s'agit d'un rapport d'acquisitions passées, non d'un appel à candidature.
-- Aucune date limite, processus de sélection, critères d'éligibilité ou modalités
-  de candidature ne sont détaillés.
+- Aucune date limite, processus de sélection, critères d'éligibilité ou modalités de candidature ne sont détaillés.
 organisme_details:
   site_web: null
   adresse: null

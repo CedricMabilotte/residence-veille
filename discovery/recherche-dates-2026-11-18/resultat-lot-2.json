@@ -1,0 +1,204 @@
+{
+ "lot": 2,
+ "fiches": [
+  {
+   "uid": "86e99f36",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.8,
+   "preuve": {
+    "url": "https://www.fondationdesartistes.fr/wp-content/uploads/2026/02/CP-QUILT-II.pdf",
+    "citation": "Les lauréat·e·x·s 2026, sélectionné·e·x·s par un jury composé de Delphine Paul"
+   },
+   "notes": "La page source est une présentation générale des partenariats de la Fondation avec les écoles d'art, sans modalités ni dates. Le programme Quilt (Ghost House / ésban) a déjà désigné ses lauréats 2026 (CP de février 2026 : Alix Di Jusco, Léa Garrigues, Won Ji, Laure Marc) ; l'appel, réservé aux alumni ésban des cinq dernières années, est géré côté école et aucune troisième édition 2026/2027 n'a été trouvée sur le web. À suivre via esban.fr plutôt que via cette page."
+  },
+  {
+   "uid": "13cffca0",
+   "verdict": "prochaine_edition",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": "2027-03",
+   "candidature_continue": false,
+   "url_candidature": "https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart/",
+   "confiance": 0.7,
+   "preuve": {
+    "url": "https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart/",
+    "citation": "entre le 10 août et le 11 septembre 2026 inclus (jusqu'à 23h59 – délai de rigueur)"
+   },
+   "notes": "Le PDF source est le règlement intérieur (pas de dates, renvoi au site). La page officielle de la mission donne la session d'automne 2026 : dépôt dématérialisé du 10 août au 11 septembre 2026, donc close au 18/11/2026. La commission se réunit deux fois par an ; le rythme observé (préinscription à compter du 2 mars 2026 pour le printemps 2026, selon le CP automne 2025) laisse attendre une session de printemps 2027 avec ouverture vers début mars 2027, non encore annoncée. Plateforme de dépôt : https://artistes.fondationdesartistes.fr/."
+  },
+  {
+   "uid": "8c656564",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.95,
+   "preuve": {
+    "url": "http://www.moly-sabata.com/a-propos/modalites-daccueil/",
+    "citation": "Depuis 1927, Moly-Sabata fonctionne sur invitation."
+   },
+   "notes": "Page de présentation d'une mission de la Fondation. Le site de Moly-Sabata confirme explicitement : « No application, but you are all welcome to visit us on appointment. » Les artistes sont invités par des lieux d'art d'Auvergne-Rhône-Alpes ou par Moly-Sabata ; deux prix (Département de l'Isère, salon Art-O-Rama) donnent aussi accès au programme, sans appel ouvert. Fiche à retirer de la veille ou à marquer « sur invitation »."
+  },
+  {
+   "uid": "c9d9dbea",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.85,
+   "preuve": {
+    "url": "https://www.fondationdesartistes.fr/missions/accompagner-le-grand-age",
+    "citation": "une invitation d'un artiste en résidence au sein de la maison de retraite est également organisée"
+   },
+   "notes": "Page institutionnelle décrivant l'EHPAD ; la résidence annuelle fonctionne par invitation, le seul dossier téléchargeable concerne l'admission des résidents âgés. Le programme annuel 2026 de la Fondation ne mentionne aucun appel pour cette résidence. La recherche web n'a trouvé aucun appel à candidatures passé ou présent pour cette résidence (seul appel voisin : résidence design graphique MABA/ESADHaR, dispositif distinct)."
+  },
+  {
+   "uid": "19395618",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": "2028",
+   "candidature_continue": false,
+   "url_candidature": "https://contextile.pt/en/contextile-2026-open-call-international-exhibition/",
+   "confiance": 0.85,
+   "preuve": {
+    "url": "https://biennialfoundation.org/2025/09/contextile-2026-open-call-international-exhibition/",
+    "citation": "All interested artists may apply with new creations or recent artworks, until the 7th March 2026"
+   },
+   "notes": "La page source annonce les 51 artistes sélectionnés (jury des 9-10 avril 2026, ouverture le 5 septembre 2026) : c'est une page de résultats. L'appel 2026 était clos le 7 mars 2026 (publié en septembre 2025). La biennale est bisannuelle (2022, 2024, 2026) : un appel pour 2028 est très probable vers septembre 2027 - mars 2028, mais rien n'est encore annoncé ; la page officielle de l'appel 2026 était en erreur serveur lors de la vérification."
+  },
+  {
+   "uid": "56a23acc",
+   "verdict": "date_limite",
+   "date_limite": "2026-11-24",
+   "date_limite_precision": "day",
+   "prochaine_edition": null,
+   "candidature_continue": true,
+   "url_candidature": "https://www.casanailha.org/patagonia-argentina-2027-session/",
+   "confiance": 0.7,
+   "preuve": {
+    "url": "https://resartis.org/open-call/patagonia-argentina-2027-multidisciplinary-program-2",
+    "citation": "We operate a rolling application process throughout the year with various deadlines."
+   },
+   "notes": "La fiche Res Artis affiche « Application deadline » 24 novembre 2026, mais l'hôte Casa Na Ilha (Ilhabela, Brésil) pratique une candidature au fil de l'eau (réponse sous 7 jours, formulaire sur demande par e-mail à info@casanailha.org, aucune date limite sur son propre site). Résidence payante : 2 980 USD pour 3 semaines (15 avril - 6 mai 2027), acompte 50 %, solde 60 jours avant l'arrivée (~mi-février 2027) ; la date du 24/11 semble être une échéance de publication Res Artis plutôt qu'une clôture réelle. Lien de la session mal routé depuis la page d'accueil de l'hôte (pointe vers la session Amazonie) ; l'URL correcte est celle indiquée."
+  }
+ ],
+ "rebonds": [
+  {
+   "nom": "European Textile Network (ETN) – Competitions",
+   "url_appels": "https://etn-net.org/competitions.html",
+   "url_site": "https://etn-net.org/",
+   "type": "reseau",
+   "deja_suivi": false,
+   "trouve_via": "19395618",
+   "couche": 1,
+   "pourquoi": "Réseau européen du textile (Haslach, AT) qui relaie des open calls textile en Europe (biennales BIEN SI, triennale Bulgarie, résidences Forssa FI, Haslach AT, Cromer UK) avec dates limites affichées ; une dizaine d'appels par an, dont plusieurs encore ouverts (20/11/2026, 21/12/2026).",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Magic Carpets (plateforme Creative Europe) – News #opencall",
+   "url_appels": "https://magiccarpets.eu/news/",
+   "url_site": "https://magiccarpets.eu/",
+   "type": "reseau",
+   "deja_suivi": false,
+   "trouve_via": "19395618 (partenaires Contextile / Ideias Emergentes)",
+   "couche": 1,
+   "pourquoi": "Plateforme de 15-17 organisations européennes qui publie des open calls de résidences pour artistes émergents (ex. résidence Jam Factory Art Center 2026) ; la page News se charge en JavaScript (« Load More »), quelques appels par an.",
+   "parser_suggere": "playwright"
+  },
+  {
+   "nom": "Biennale internationale du lin de Portneuf (Québec) – appel relève",
+   "url_appels": "https://biennaledulin.com/releve/",
+   "url_site": "https://biennaledulin.com/",
+   "type": "partenaire",
+   "deja_suivi": false,
+   "trouve_via": "19395618 (page partenaires Contextile)",
+   "couche": 1,
+   "pourquoi": "Biennale d'art actuel autour du lin ; appel aux artistes de la relève pour l'exposition « Mécaniques » (été 2027), date limite 31 mars 2027 ; un appel tous les deux ans.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Textile Society of America – Opportunities",
+   "url_appels": "https://textilesocietyofamerica.org/community/opportunities",
+   "url_site": "https://textilesocietyofamerica.org/",
+   "type": "annuaire",
+   "deja_suivi": false,
+   "trouve_via": "19395618 (recherche web Contextile)",
+   "couche": 1,
+   "pourquoi": "Rubrique Opportunities filtrable (Artist Residencies, Calls for Art, Jobs) relayant des appels textile internationaux dont Contextile ; fréquence mensuelle apparente.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Biennial Foundation – News (open calls de biennales)",
+   "url_appels": "https://biennialfoundation.org/news/",
+   "url_site": "https://biennialfoundation.org/",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "19395618",
+   "couche": 1,
+   "pourquoi": "Portail des biennales mondiales qui publie les open calls des biennales (Contextile 2022, 2026…) ; quelques appels par mois, utile pour les appels à exposition internationaux.",
+   "parser_suggere": "rss"
+  },
+  {
+   "nom": "Casa Na Ilha – sessions de résidence (Brésil, Amazonie, Patagonie)",
+   "url_appels": "https://www.casanailha.org/apply-now/",
+   "url_site": "https://casanailha.org/",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "56a23acc",
+   "couche": 1,
+   "pourquoi": "Hôte de la fiche Patagonie : résidences payantes multidisciplinaires mensuelles (Ilhabela 2026-2027, Amazonie août 2027, Patagonie avril 2027, ateliers d'écriture), candidature continue ; source directe plutôt que via Res Artis (déjà suivi).",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Ideias Emergentes – Edições / concours (Porto)",
+   "url_appels": "https://www.ideiasemergentes.pt/pt/edicoes/",
+   "url_site": "https://www.ideiasemergentes.pt/",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "19395618 (organisateur de Contextile)",
+   "couche": 1,
+   "pourquoi": "Producteur de Contextile, de la Trienal Internacional de Design da Covilhã et de concours (ex. Concurso Concentrico 2026 – Kisoko 2.0) ; quelques appels par an au Portugal, site en portugais.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Jam Factory Art Center (Lviv) – open call résidence 2026",
+   "url_appels": "https://jamfactory.ua",
+   "url_site": "https://jamfactory.ua",
+   "type": "partenaire",
+   "deja_suivi": false,
+   "trouve_via": "Magic Carpets (couche 2 depuis 19395618)",
+   "couche": 2,
+   "pourquoi": "Membre Magic Carpets publiant un appel annuel de résidence pour artistes émergents (relayé par Magic Carpets « Open Call for emerging artists: residency at Jam Factory Art Center 2026 ») ; page d'appels dédiée non vérifiée.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "ésban – École supérieure des beaux-arts de Nîmes (appel Quilt alumni)",
+   "url_appels": "https://www.esban.fr",
+   "url_site": "https://www.esban.fr",
+   "type": "partenaire",
+   "deja_suivi": false,
+   "trouve_via": "86e99f36",
+   "couche": 1,
+   "pourquoi": "L'appel Quilt (bourse 5 000 € + accompagnement, réservé aux alumni ésban des 5 dernières années) est diffusé côté école et non sur fondationdesartistes.fr ; un appel par an si le programme est reconduit ; page exacte non vérifiée.",
+   "parser_suggere": "deep_html"
+  }
+ ],
+ "journal": [
+  "Fondation des Artistes : les 4 fiches proviennent de pages « missions » purement descriptives ; seule la commission mécénat a une vraie page d'appel (aider-a-la-production-doeuvres-dart) avec dates, session automne 2026 close le 11/09/2026. Les PDF CP (Quilt II, commission printemps 26, automne 25, programme annuel 2026) ont été lus pour confirmer l'absence d'appel ouvert.",
+  "Moly-Sabata : fonctionne sur invitation (confirmé par deux pages du site) ; aucun appel à attendre.",
+  "Contextile : la page officielle de l'appel 2026 (contextile.pt/en/contextile-2026-open-call-international-exhibition/) renvoyait une erreur serveur ; date limite 7 mars 2026 prise via Biennial Foundation. Page partenaires = logos sans noms, noms déduits des domaines.",
+  "Casa Na Ilha : première URL de session (patagonia-2027-session) en erreur 4xx, la bonne est patagonia-argentina-2027-session. Contradiction entre la date Res Artis (24/11/2026) et le « rolling » de l'hôte : les deux sont notés.",
+  "Rebonds : magiccarpets.eu/news/ illisible sans JavaScript ; ETN competitions sans RSS détecté. Pages esban.fr et jamfactory.ua non ouvertes (temps limité), URL d'appels à préciser.",
+  "Temps passé : environ 35 minutes au total pour les 6 fiches et une couche de rebond (Magic Carpets -> Jam Factory)."
+ ]
+}

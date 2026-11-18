@@ -1,0 +1,189 @@
+{
+ "lot": 4,
+ "fiches": [
+  {
+   "uid": "17abfa82",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.95,
+   "preuve": {
+    "url": "https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel",
+    "citation": "L'organisation de l'événement sur place est à la charge de l'établissement."
+   },
+   "notes": "Offre de programmation « clé-en-main » (droits de diffusion d'œuvres numériques, kit de communication) destinée aux établissements du réseau culturel français à l'étranger, pas un appel à candidatures pour artistes. Aucune date limite ni formulaire sur la page. Les appels réellement liés (Escape, générations numériques 2026, Catalogue XR 2026) sont sur la plateforme IFprog et visent aussi les établissements, pas les artistes."
+  },
+  {
+   "uid": "966f8ed7",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026",
+    "citation": "L'appel à projets s'est déroulé en deux phases et est désormais clos."
+   },
+   "notes": "Page de présentation d'une saison culturelle (15 mai – 31 octobre 2026) ; l'appel à projets, destiné aux structures et clos depuis 2025 (commissions juin et décembre 2025, addenda jusqu'au 28 octobre 2026), est terminé et la saison elle-même est achevée au 18/11/2026. Événement unique, pas de prochaine édition. Le site saisonmediterranee2026.com est bloqué (robots) pour WebFetch."
+  },
+  {
+   "uid": "660d0fed",
+   "verdict": "prochaine_edition",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": "2027",
+   "candidature_continue": false,
+   "url_candidature": "https://ifprog.emundus.fr/fr/",
+   "confiance": 0.85,
+   "preuve": {
+    "url": "https://villakujoyama.jp/programme-de-residence/",
+    "citation": "Le prochain appel à candidatures pour les résidences en 2028 sera ouvert en 2027."
+   },
+   "notes": "L'appel pour les résidences 2027 est clos (lauréats 2027 annoncés le 18/09/2026 sur institutfrancais.com). Le site de la Villa annonce que l'appel pour les résidences 2028 ouvrira en 2027, sans mois précis ; les éditions précédentes ouvraient mi-janvier et fermaient mi/fin février (ex. 17 janvier – 19 février 2024 pour 2025, sur IFprog). Candidature via la plateforme IFprog (ifprog.emundus.fr) ; l'URL exacte de la campagne 2028 n'existe pas encore."
+  },
+  {
+   "uid": "8674cccc",
+   "verdict": "candidature_continue",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": true,
+   "url_candidature": "https://www.proyectoace.org/en/residencies/mural-painting",
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.proyectoace.org/en/faq/",
+    "citation": "the call is open year-round and applications can be submitted without a closing date."
+   },
+   "notes": "La FAQ précise que pour la Micro-Residency et le Palimpsest Mural Painting l'appel est ouvert toute l'année ; la page du programme dit aussi « Ongoing applications all year around ». La bannière « Open Call #4 — Deadline October 31, 2026 » concerne les résidences Production/Exploration (4 appels par an : 31 janv., 30 avr., 31 juil., 31 oct.). Résidence payante (frais d'inscription), pas de rémunération."
+  },
+  {
+   "uid": "d6cc1040",
+   "verdict": "date_limite",
+   "date_limite": "2027-01-31",
+   "date_limite_precision": "day",
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.proyectoace.org/en/residencies/",
+   "confiance": 0.7,
+   "preuve": {
+    "url": "https://www.proyectoace.org/en/faq/",
+    "citation": "There are 4 calls each year that receive applications."
+   },
+   "notes": "La source_url est une page de présentation de l'atelier de gravure ; le programme AIR (Production/Exploration Residencies) fonctionne par 4 appels annuels avec clôtures fixes aux 31 janvier, 30 avril, 31 juillet et 31 octobre (FAQ). L'Open Call #4 (31/10/2026) est clos au 18/11/2026 ; la prochaine clôture déduite du calendrier annuel est le 31 janvier 2027, mais le site n'affiche pas encore de bannière « Open Call #1 2027 » — d'où une confiance limitée. Un dernier créneau 2026 (24 nov. – 11 déc.) est aussi proposé « to fill the remaining places » sans date de clôture. Résidence payante."
+  }
+ ],
+ "rebonds": [
+  {
+   "nom": "IFprog — plateforme d'appels de l'Institut français",
+   "url_appels": "https://ifprog.emundus.fr/fr/",
+   "url_site": "https://ifprog.emundus.fr/",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "660d0fed",
+   "pourquoi": "Plateforme officielle de dépôt pour tous les appels de l'Institut français (Villa Kujoyama, Escape, Catalogue XR, ICC Immersion…) avec dates limites affichées ; renouvellement continu, 7 campagnes ouvertes au 18/11/2026, mais une partie vise les structures et non les artistes.",
+   "parser_suggere": "playwright"
+  },
+  {
+   "nom": "Institut français — Résidences du réseau diplomatique et culturel (villas du réseau)",
+   "url_appels": "https://www.institutfrancais.com/fr/programme/aide-projet/villas-programmes-residences-artistiques-du-reseau-diplomatique-culturel",
+   "url_site": "https://www.institutfrancais.com",
+   "type": "programme",
+   "deja_suivi": true,
+   "trouve_via": "17abfa82",
+   "pourquoi": "Plus de 80 programmes de résidences du réseau culturel à l'étranger ; l'article du 01/10/2026 liste 12 appels d'automne (Villa N'zuo, Ateliers du Nil, Villa Salammbô, Villa Al Qamar, Villa Annie Ernaux, Villa Sông, Nouveau Grand Tour NL, Villa Albertine…) avec dates limites d'octobre 2026 à janvier 2027 ; vague annuelle à l'automne.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Viva Villa — réseau des résidences d'artistes françaises à l'international",
+   "url_appels": "https://www.vivavilla.info/le-fonds-de-soutien/",
+   "url_site": "https://www.vivavilla.info/",
+   "type": "reseau",
+   "deja_suivi": false,
+   "trouve_via": "660d0fed",
+   "pourquoi": "Réseau Casa de Velázquez / Villa Médicis / Villa Kujoyama / Villa Albertine (+ invités Villa Hegra, Villa Swagatam, Villa Dufraine) ; fonds de soutien annuel pour les anciens lauréats et appel à commissaires ; un à deux appels par an.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Villa Médicis — Académie de France à Rome, programmes de résidence",
+   "url_appels": "https://villamedici.it/programmes-de-residences/",
+   "url_site": "https://www.villamedici.it/",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "Viva Villa (couche 2 via 660d0fed)",
+   "pourquoi": "Concours annuel des pensionnaires (12 mois) et une douzaine de Résidences Médicis courtes (toutes disciplines, arts plastiques Occitanie, métiers d'art, XR, Lagardère…) avec appels échelonnés dans l'année ; dates limites sur chaque sous-page.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Institut français du Japon — agenda culturel (appels AIR Kansai / Cité internationale des arts)",
+   "url_appels": "https://culture.institutfrancais.jp/fr/event/air-program-26-27",
+   "url_site": "https://culture.institutfrancais.jp/",
+   "type": "partenaire",
+   "deja_suivi": false,
+   "trouve_via": "660d0fed",
+   "pourquoi": "Appel annuel « Artist in Residence Program in Paris » (Kansai → Cité internationale des arts, clôture juin 2026 pour 2027), réservé aux artistes vivant au Kansai ; faible volume, pas de page agrégée d'appels repérée.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Villa Swagatam — Institut français en Inde",
+   "url_appels": "https://www.ifindia.in/villa-swagatam/residencies/",
+   "url_site": "https://www.ifindia.in/villa-swagatam/",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "Viva Villa (couche 2 via 660d0fed)",
+   "pourquoi": "Réseau de résidences en Inde pour artistes français (arts visuels, artisanat, littérature) ; appel annuel, page d'accueil sans date affichée au 18/11/2026.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "fundit.fr — portail d'appels à projets SHS et mobilité internationale",
+   "url_appels": "https://fundit.fr/fr/calls?mobility=international",
+   "url_site": "https://fundit.fr/fr",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "660d0fed",
+   "pourquoi": "Agrégateur orienté recherche (FMSH), mais relaie des résidences artistiques (Villa Kujoyama, fonds Viva Villa) avec fiches datées ; ~280 appels de mobilité, mise à jour continue, pertinence partielle pour les plasticien·nes.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Artcena — fil vie pro (appels à candidatures)",
+   "url_appels": "https://www.artcena.fr/fil-vie-pro",
+   "url_site": "https://www.artcena.fr",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "660d0fed",
+   "pourquoi": "Centre national des arts du cirque, de la rue et du théâtre ; son fil relaie des appels pluridisciplinaires (Villa Kujoyama 2027…) ; orienté spectacle vivant, pertinence partielle ; page bloquée à WebFetch (client_error), à vérifier.",
+   "parser_suggere": "playwright"
+  },
+  {
+   "nom": "afri-carrieres.com — opportunités pour artistes africains",
+   "url_appels": "https://afri-carrieres.com/opportunites/opportunites-pour-artistes/",
+   "url_site": "https://afri-carrieres.com/",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "660d0fed",
+   "pourquoi": "Agrégateur d'appels (résidences, bourses, prix) pour artistes africains ou liés à l'Afrique ; publication fréquente, fiabilité à vérifier (non visité).",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Artist Communities Alliance — fiche ´ace",
+   "url_appels": "https://artistcommunities.org/directory/organizations/ace",
+   "url_site": "https://artistcommunities.org",
+   "type": "annuaire",
+   "deja_suivi": true,
+   "trouve_via": "8674cccc",
+   "pourquoi": "Annuaire international de résidences, déjà suivi ; confirme l'appartenance de Proyecto´ace aux réseaux Res Artis et TransArtists (eux aussi déjà suivis).",
+   "parser_suggere": "html"
+  }
+ ],
+ "journal": [
+  "Institut français (17abfa82, 966f8ed7) : pages de présentation, aucun formulaire ; verdicts pas_un_appel clairs. Le site saisonmediterranee2026.com refuse WebFetch (robots_disallowed).",
+  "Villa Kujoyama (660d0fed) : appel 2027 clos, lauréats annoncés le 18/09/2026 ; villakujoyama.jp annonce l'appel 2028 « en 2027 » sans mois. Les éditions passées ouvraient en janvier-février ; à re-vérifier début janvier 2027 sur IFprog.",
+  "Proyecto´ace (8674cccc, d6cc1040) : la FAQ tranche entre résidences à candidature continue (mural, micro) et résidences à 4 clôtures fixes par an ; la date 2027-01-31 pour d6cc1040 est déduite du calendrier, pas encore affichée en bannière (confiance 0.7).",
+  "Rebonds : couche 2 suivie via Viva Villa (Villa Médicis, Villa Swagatam) ; artcena.fr bloqué (client_error) ; afri-carrieres non visité (temps). Les 3 réseaux cités par Proyecto´ace sont déjà suivis.",
+  "Temps total ~25 min, 5 fiches, 10 rebonds dont 2 déjà suivis."
+ ]
+}

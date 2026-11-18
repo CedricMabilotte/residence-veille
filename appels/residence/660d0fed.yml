@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.institutfrancais.com/fr/programme/residence-mobilite-professionnelle/residences-villa-kujoyama
 fetched_at: '2026-08-06T09:29:10+00:00'
 score: 6
-status: indetermine
+status: edition-a-venir
 opportunite:
   nom: Résidences à la Villa Kujoyama
   organisme: Institut français
@@ -18,7 +18,8 @@ candidature:
   - fr
   frais_inscription: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://ifprog.emundus.fr/fr/
+  prochaine_edition: '2027'
 eligibilite:
   disciplines:
   - Architecture
@@ -74,6 +75,21 @@ _meta:
   detection_method: claude
   source_label: Institut français — résidences internationales
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: prochaine_edition
+    confiance: 0.85
+    preuve:
+      url: https://villakujoyama.jp/programme-de-residence/
+      citation: Le prochain appel à candidatures pour les résidences en 2028 sera
+        ouvert en 2027.
+    notes: L'appel pour les résidences 2027 est clos (lauréats 2027 annoncés le 18/09/2026
+      sur institutfrancais.com). Le site de la Villa annonce que l'appel pour les
+      résidences 2028 ouvrira en 2027, sans mois précis ; les éditions précédentes
+      ouvraient mi-janvier et fermaient mi/fin février (ex. 17 janvier – 19 février
+      2024 pour 2025, sur IFprog). Candidature via la plateforme IFprog (ifprog.emundus.fr)
+      ; l'URL exacte de la campagne 2028 n'existe pas encore.
 analyse:
   synthese: La Villa Kujoyama est une résidence artistique française pluridisciplinaire
     implantée à Kyoto, Japon, accueillant environ 15 lauréats par an pour des séjours

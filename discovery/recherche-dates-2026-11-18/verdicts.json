@@ -1,0 +1,467 @@
+[
+ {
+  "uid": "ed8b9099",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad",
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf",
+   "citation": "Proposals for projects and collaborators may be submitted until 14 June 2026 at 11:59pm CEST."
+  },
+  "notes": "Appel clos le 14/06/2026 ; la résolution (lauréats) est publiée depuis août 2026 et le laboratoire se tient du 12 au 25 novembre 2026. Les LAB sont annuels depuis 2022 (appel à projets vers avril-juin), mais aucun LAB 6 n'est annoncé. Ce n'est pas un prix mais un laboratoire collaboratif : type à corriger si possible."
+ },
+ {
+  "uid": "f52a745f",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.medialab-matadero.es/convocatorias/convocatoria-de-proyectos-para-el-programa-investigacion-situada-25-26",
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.medialab-matadero.es/sites/default/files/2025-07/BASES%20PROY%20INVESTIGACION%2025-26_EN.pdf",
+   "citation": "To submit the application, the following online form must be properly completed before 17 September 2025 at 23:59 CET."
+  },
+  "notes": "Édition 2025-2026 close le 17/09/2025. L'édition suivante (Investigación Situada 2027) a déjà été publiée en juillet 2026 et close le 27/09/2026 (https://www.mataderomadrid.org/convocatorias/convocatoria-de-proyectos-de-investigacion-situada-2027). Appel annuel, prochaine ouverture probable été 2027, non annoncée."
+ },
+ {
+  "uid": "1a3f71ff",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+  "confiance": 0.95,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf",
+   "citation": "Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026."
+  },
+  "notes": "Appel clos le 07/04/2026, marqué « Resueltas » sur le site, résolution publiée en mai 2026. Troisième édition annuelle (appel publié en février) ; aucune édition 2027 publiée au 18/11/2026. Doublon de 56d7154d et 96722c2c (même appel, trois documents)."
+ },
+ {
+  "uid": "56d7154d",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+  "confiance": 0.95,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+   "citation": "Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026."
+  },
+  "notes": "La source est la résolution (liste des artistes sélectionnés) de l'appel Medioambiente 2026, pas l'appel lui-même. L'appel correspondant est clos depuis le 07/04/2026 (fiche 1a3f71ff). Fiche à fusionner/supprimer comme doublon."
+ },
+ {
+  "uid": "6ba8743c",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+   "citation": "Hasta 15 Octubre 2025 a las 14h."
+  },
+  "notes": "La source est la résolution du 27/11/2025 listant les sélectionnés des résidences artistes visuels 2026 (semestrales et trimestrales), pas les bases. L'appel correspondant est clos depuis le 15/10/2025 ; l'édition 2027 (10 résidences, clôture 11/09/2026) est elle aussi déjà résolue. Doublon des fiches c9b469ac et e3eef2e1."
+ },
+ {
+  "uid": "96722c2c",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+  "confiance": 0.95,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf",
+   "citation": "Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026."
+  },
+  "notes": "Bases complètes de l'appel Medioambiente 2026 : clôture 07/04/2026, résidence du 15/09 au 15/12/2026, appel résolu. Même appel que 1a3f71ff et 56d7154d ; conserver une seule fiche. Édition 2027 non annoncée (attendue février 2027 si le rythme annuel se maintient)."
+ },
+ {
+  "uid": "c9b469ac",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+   "citation": "Hasta 15 Octubre 2025 a las 14h."
+  },
+  "notes": "Appel 2026 clos le 15/10/2025 et résolu (résolution 27/11/2025). L'édition 2027 regroupe désormais semestrales et trimestrales dans un appel unique « Residencias para artistas visuales 2027 » (clôture 11/09/2026, déjà résolu le 11/2026). La prochaine ouverture (édition 2028) n'est pas annoncée ; rythme observé : publication en juillet, clôture en septembre."
+ },
+ {
+  "uid": "e3eef2e1",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-artistas-visuales-2026",
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-artistas-visuales-2026",
+   "citation": "Hasta 15 Octubre 2025 a las 14h."
+  },
+  "notes": "Appel 2026 clos le 15/10/2025 et résolu. L'édition 2027 (appel unique « Residencias para artistas visuales 2027 », clôture 11/09/2026, résolution publiée novembre 2026 : https://www.mataderomadrid.org/convocatorias/residencias-para-artistas-visuales-2027) est elle aussi close. Édition 2028 non annoncée."
+ },
+ {
+  "uid": "ea63cf12",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencia-para-proyectos-audiovisuales-en-fase-de-desarrollo",
+  "confiance": 0.85,
+  "preuve": {
+   "url": "https://www.mataderomadrid.org/convocatorias/residencia-para-proyectos-audiovisuales-en-fase-de-desarrollo",
+   "citation": "Del 15 de abril hasta el 2 de junio de 2026 las 14h (GMT+2)"
+  },
+  "notes": "Appel Cineteca x CRA clos le 02/06/2026, marqué « Resueltas », résolution publiée en juillet 2026 (residencia du 01/10 au 30/11/2026). La page liste présente une date contradictoire (« hasta 27 abril »), la fiche détaillée donne le 2 juin. Quatrième édition annuelle ; édition 2027 non annoncée. Cible audiovisuelle, marginale pour une veille arts plastiques."
+ },
+ {
+  "uid": "86e99f36",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.8,
+  "preuve": {
+   "url": "https://www.fondationdesartistes.fr/wp-content/uploads/2026/02/CP-QUILT-II.pdf",
+   "citation": "Les lauréat·e·x·s 2026, sélectionné·e·x·s par un jury composé de Delphine Paul"
+  },
+  "notes": "La page source est une présentation générale des partenariats de la Fondation avec les écoles d'art, sans modalités ni dates. Le programme Quilt (Ghost House / ésban) a déjà désigné ses lauréats 2026 (CP de février 2026 : Alix Di Jusco, Léa Garrigues, Won Ji, Laure Marc) ; l'appel, réservé aux alumni ésban des cinq dernières années, est géré côté école et aucune troisième édition 2026/2027 n'a été trouvée sur le web. À suivre via esban.fr plutôt que via cette page."
+ },
+ {
+  "uid": "13cffca0",
+  "verdict": "prochaine_edition",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": "2027-03",
+  "candidature_continue": false,
+  "url_candidature": "https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart/",
+  "confiance": 0.7,
+  "preuve": {
+   "url": "https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart/",
+   "citation": "entre le 10 août et le 11 septembre 2026 inclus (jusqu'à 23h59 – délai de rigueur)"
+  },
+  "notes": "Le PDF source est le règlement intérieur (pas de dates, renvoi au site). La page officielle de la mission donne la session d'automne 2026 : dépôt dématérialisé du 10 août au 11 septembre 2026, donc close au 18/11/2026. La commission se réunit deux fois par an ; le rythme observé (préinscription à compter du 2 mars 2026 pour le printemps 2026, selon le CP automne 2025) laisse attendre une session de printemps 2027 avec ouverture vers début mars 2027, non encore annoncée. Plateforme de dépôt : https://artistes.fondationdesartistes.fr/."
+ },
+ {
+  "uid": "8c656564",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.95,
+  "preuve": {
+   "url": "http://www.moly-sabata.com/a-propos/modalites-daccueil/",
+   "citation": "Depuis 1927, Moly-Sabata fonctionne sur invitation."
+  },
+  "notes": "Page de présentation d'une mission de la Fondation. Le site de Moly-Sabata confirme explicitement : « No application, but you are all welcome to visit us on appointment. » Les artistes sont invités par des lieux d'art d'Auvergne-Rhône-Alpes ou par Moly-Sabata ; deux prix (Département de l'Isère, salon Art-O-Rama) donnent aussi accès au programme, sans appel ouvert. Fiche à retirer de la veille ou à marquer « sur invitation »."
+ },
+ {
+  "uid": "c9d9dbea",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.85,
+  "preuve": {
+   "url": "https://www.fondationdesartistes.fr/missions/accompagner-le-grand-age",
+   "citation": "une invitation d'un artiste en résidence au sein de la maison de retraite est également organisée"
+  },
+  "notes": "Page institutionnelle décrivant l'EHPAD ; la résidence annuelle fonctionne par invitation, le seul dossier téléchargeable concerne l'admission des résidents âgés. Le programme annuel 2026 de la Fondation ne mentionne aucun appel pour cette résidence. La recherche web n'a trouvé aucun appel à candidatures passé ou présent pour cette résidence (seul appel voisin : résidence design graphique MABA/ESADHaR, dispositif distinct)."
+ },
+ {
+  "uid": "19395618",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": "2028",
+  "candidature_continue": false,
+  "url_candidature": "https://contextile.pt/en/contextile-2026-open-call-international-exhibition/",
+  "confiance": 0.85,
+  "preuve": {
+   "url": "https://biennialfoundation.org/2025/09/contextile-2026-open-call-international-exhibition/",
+   "citation": "All interested artists may apply with new creations or recent artworks, until the 7th March 2026"
+  },
+  "notes": "La page source annonce les 51 artistes sélectionnés (jury des 9-10 avril 2026, ouverture le 5 septembre 2026) : c'est une page de résultats. L'appel 2026 était clos le 7 mars 2026 (publié en septembre 2025). La biennale est bisannuelle (2022, 2024, 2026) : un appel pour 2028 est très probable vers septembre 2027 - mars 2028, mais rien n'est encore annoncé ; la page officielle de l'appel 2026 était en erreur serveur lors de la vérification."
+ },
+ {
+  "uid": "56a23acc",
+  "verdict": "date_limite",
+  "date_limite": "2026-11-24",
+  "date_limite_precision": "day",
+  "prochaine_edition": null,
+  "candidature_continue": true,
+  "url_candidature": "https://www.casanailha.org/patagonia-argentina-2027-session/",
+  "confiance": 0.7,
+  "preuve": {
+   "url": "https://resartis.org/open-call/patagonia-argentina-2027-multidisciplinary-program-2",
+   "citation": "We operate a rolling application process throughout the year with various deadlines."
+  },
+  "notes": "La fiche Res Artis affiche « Application deadline » 24 novembre 2026, mais l'hôte Casa Na Ilha (Ilhabela, Brésil) pratique une candidature au fil de l'eau (réponse sous 7 jours, formulaire sur demande par e-mail à info@casanailha.org, aucune date limite sur son propre site). Résidence payante : 2 980 USD pour 3 semaines (15 avril - 6 mai 2027), acompte 50 %, solde 60 jours avant l'arrivée (~mi-février 2027) ; la date du 24/11 semble être une échéance de publication Res Artis plutôt qu'une clôture réelle. Lien de la session mal routé depuis la page d'accueil de l'hôte (pointe vers la session Amazonie) ; l'URL correcte est celle indiquée."
+ },
+ {
+  "uid": "07e1d362",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://ensp-arles.com/les-formations/bourses-post-master-intelligence-artificielle-2026-2027/",
+  "confiance": 0.8,
+  "preuve": {
+   "url": "https://ensp-arles.com/wp-content/uploads/2026-2027_Post-Matser_IA_AAC_rev.pdf",
+   "citation": "le 13 septembre 2026 à minuit."
+  },
+  "notes": "La source ADAGP est un article annonçant les lauréats 2025-2026, mais l'appel officiel de l'édition suivante (Bourse ENSP sur l'Intelligence Artificielle 2026-2027, 3 bourses de 4 000 €, DNSEP 2022-2026, candidature par mail à candidatures-bourse-ia-2026@ensp-arles.fr) existe et est clos : le PDF donne une clôture au 13 septembre 2026, la page HTML de l'ENSP affiche un calendrier « Clôture des inscriptions 5 octobre 2025 » (incohérence probable de copier-coller). Aucune édition 2027-2028 annoncée ; le rythme est annuel (appels 2025 puis 2026), à revérifier vers juin-septembre 2027."
+ },
+ {
+  "uid": "ae1213ed",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.adagp.fr/fr/soutien-la-creation-artistique/aides-directes-aux-artistes/les-revelations/page-revelation-arts-plastiques",
+   "citation": "Le jury choisit un lauréat parmi les artistes présentés à 100% L'EXPO."
+  },
+  "notes": "Article annonçant le lauréat 2026 (Jordan Barré). Le prix Révélation Arts plastiques n'a pas de candidature directe : le lauréat est choisi par un jury parmi les artistes exposés à 100% L'EXPO (La Villette). La voie d'entrée est donc l'appel à candidatures de 100% L'EXPO : l'appel pour l'édition 2027 était ouvert du 8 avril au 8 juin 2026 (clos, DNSEP de moins de 5 ans, mail candidature100expo@villette.com) ; l'appel pour 2028 devrait s'ouvrir à l'ouverture de l'édition 2027 (avril 2027)."
+ },
+ {
+  "uid": "bcd3a041",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.95,
+  "preuve": {
+   "url": "https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video",
+   "citation": "destiné aux adhérents de l'ADAGP"
+  },
+  "notes": "Actualité du 20 avril 2026 présentant l'Atelier ADAGP (Scanlab, Fabrique, Cafèt') à travers six témoignages vidéo. C'est un service réservé aux adhérents, accessible sur réservation, pas une résidence ni un appel à candidatures. Fiche à retirer ou reclasser hors « résidence »."
+ },
+ {
+  "uid": "1b321056",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.85,
+  "preuve": {
+   "url": "https://www.cnap.fr/actualites/evenements/olga-boudin-pour-qui-brille-le-soleil",
+   "citation": "Olga Boudin, Pour qui brille le soleil (titre de la page, rubrique actualites/evenements)"
+  },
+  "notes": "Page d'agenda du Cnap présentant l'exposition d'Olga Boudin à La Tôlerie (Clermont-Ferrand, 16 mai - 11 juillet 2026) dans le cadre du programme Suite 2026 ; pas un appel. cnap.fr est interdit au fetch (robots), la citation est le titre/URL de la page ; la fiche d'origine confirmait déjà la nature d'exposition. Aucun appel « Suite 2027 » trouvé sur le web ouvert."
+ },
+ {
+  "uid": "07e3edad",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.85,
+  "preuve": {
+   "url": "https://www.cnap.fr/acquisitions-et-commandes-photographie-et-images-animees-2025",
+   "citation": "Acquisitions et commandes Photographie et images animées - 2025 (titre de la page)"
+  },
+  "notes": "Compte rendu des acquisitions décidées par le collège Photographie et images animées du Cnap (réunion des 21-22 mai 2025, 65 œuvres, 374 970 €) : un bilan, pas un appel. cnap.fr bloque le fetch (robots), vérification impossible au-delà du titre et du contenu déjà extrait dans la fiche. La procédure de proposition d'acquisition au Cnap existe par ailleurs, mais n'est pas l'objet de cette page."
+ },
+ {
+  "uid": "dd63bde1",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://new.pollen-monflanquin.com/wp-content/uploads/2026/10/Appel-a-candidature-2023-corrige-1.pdf",
+  "confiance": 0.8,
+  "preuve": {
+   "url": "https://new.pollen-monflanquin.com/wp-content/uploads/2026/10/Appel-a-candidature-2023-corrige-1.pdf",
+   "citation": "POUR UNE RÉSIDENCE DE SEPTEMBRE A DECEMBRE 2027"
+  },
+  "notes": "La page /residences est bloquée (robots) ; le site actif est new.pollen-monflanquin.com, qui publie en page d'accueil un PDF (nom de fichier trompeur « 2023 », téléversé en octobre 2026) : appel pour la résidence de septembre à décembre 2027, allocation 3 600 €, dossier par mail à candidatures@pollen-monflanquin.com « au plus tard le 31 octobre 2026 à minuit ». Donc clos au 18/11/2026, sans appel suivant annoncé ; Pollen lance un appel à peu près chaque année (printemps/automne), à revérifier au printemps et à l'automne 2027. Ne pas candidater sans vérifier : l'intitulé du PDF est ambigu."
+ },
+ {
+  "uid": "17abfa82",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.95,
+  "preuve": {
+   "url": "https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel",
+   "citation": "L'organisation de l'événement sur place est à la charge de l'établissement."
+  },
+  "notes": "Offre de programmation « clé-en-main » (droits de diffusion d'œuvres numériques, kit de communication) destinée aux établissements du réseau culturel français à l'étranger, pas un appel à candidatures pour artistes. Aucune date limite ni formulaire sur la page. Les appels réellement liés (Escape, générations numériques 2026, Catalogue XR 2026) sont sur la plateforme IFprog et visent aussi les établissements, pas les artistes."
+ },
+ {
+  "uid": "966f8ed7",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.institutfrancais.com/fr/programme/aide-projet/saison-mediterranee-2026",
+   "citation": "L'appel à projets s'est déroulé en deux phases et est désormais clos."
+  },
+  "notes": "Page de présentation d'une saison culturelle (15 mai – 31 octobre 2026) ; l'appel à projets, destiné aux structures et clos depuis 2025 (commissions juin et décembre 2025, addenda jusqu'au 28 octobre 2026), est terminé et la saison elle-même est achevée au 18/11/2026. Événement unique, pas de prochaine édition. Le site saisonmediterranee2026.com est bloqué (robots) pour WebFetch."
+ },
+ {
+  "uid": "660d0fed",
+  "verdict": "prochaine_edition",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": "2027",
+  "candidature_continue": false,
+  "url_candidature": "https://ifprog.emundus.fr/fr/",
+  "confiance": 0.85,
+  "preuve": {
+   "url": "https://villakujoyama.jp/programme-de-residence/",
+   "citation": "Le prochain appel à candidatures pour les résidences en 2028 sera ouvert en 2027."
+  },
+  "notes": "L'appel pour les résidences 2027 est clos (lauréats 2027 annoncés le 18/09/2026 sur institutfrancais.com). Le site de la Villa annonce que l'appel pour les résidences 2028 ouvrira en 2027, sans mois précis ; les éditions précédentes ouvraient mi-janvier et fermaient mi/fin février (ex. 17 janvier – 19 février 2024 pour 2025, sur IFprog). Candidature via la plateforme IFprog (ifprog.emundus.fr) ; l'URL exacte de la campagne 2028 n'existe pas encore."
+ },
+ {
+  "uid": "8674cccc",
+  "verdict": "candidature_continue",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": true,
+  "url_candidature": "https://www.proyectoace.org/en/residencies/mural-painting",
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.proyectoace.org/en/faq/",
+   "citation": "the call is open year-round and applications can be submitted without a closing date."
+  },
+  "notes": "La FAQ précise que pour la Micro-Residency et le Palimpsest Mural Painting l'appel est ouvert toute l'année ; la page du programme dit aussi « Ongoing applications all year around ». La bannière « Open Call #4 — Deadline October 31, 2026 » concerne les résidences Production/Exploration (4 appels par an : 31 janv., 30 avr., 31 juil., 31 oct.). Résidence payante (frais d'inscription), pas de rémunération."
+ },
+ {
+  "uid": "d6cc1040",
+  "verdict": "date_limite",
+  "date_limite": "2027-01-31",
+  "date_limite_precision": "day",
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": "https://www.proyectoace.org/en/residencies/",
+  "confiance": 0.7,
+  "preuve": {
+   "url": "https://www.proyectoace.org/en/faq/",
+   "citation": "There are 4 calls each year that receive applications."
+  },
+  "notes": "La source_url est une page de présentation de l'atelier de gravure ; le programme AIR (Production/Exploration Residencies) fonctionne par 4 appels annuels avec clôtures fixes aux 31 janvier, 30 avril, 31 juillet et 31 octobre (FAQ). L'Open Call #4 (31/10/2026) est clos au 18/11/2026 ; la prochaine clôture déduite du calendrier annuel est le 31 janvier 2027, mais le site n'affiche pas encore de bannière « Open Call #1 2027 » — d'où une confiance limitée. Un dernier créneau 2026 (24 nov. – 11 déc.) est aussi proposé « to fill the remaining places » sans date de clôture. Résidence payante."
+ },
+ {
+  "uid": "5e45e170",
+  "verdict": "candidature_continue",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": true,
+  "url_candidature": "https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725",
+  "confiance": 0.7,
+  "preuve": {
+   "url": "https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725",
+   "citation": "Applications will be considered on a rolling basis."
+  },
+  "notes": "Annonce payante (£100/mois + 20 % de commission) d'une galerie commerciale de Putney Exchange ; « Deadline: n/a », candidatures au fil de l'eau, et le profil CuratorSpace de la galerie la classe encore dans « Current opportunities » au 18/11/2026. Incertitude : la page officielle bobcatgallery.co.uk/apply-to-exhibit est bloquée (robots) et la galerie publie surtout des expositions virtuelles ponctuelles (Equinox, clos le 26/07/2026) ; une version antérieure du même appel (fiche 8435) porte une date passée (16/09/2024)."
+ },
+ {
+  "uid": "cc40d764",
+  "verdict": "candidature_continue",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": true,
+  "url_candidature": "https://www.anca.net.au/apply-for-a-studio",
+  "confiance": 0.9,
+  "preuve": {
+   "url": "https://www.anca.net.au/apply-for-a-studio",
+   "citation": "Applications are welcome at any time."
+  },
+  "notes": "Location d'ateliers à Canberra (baux de 3 ans, 410 à 1 223 AUD/mois), candidature permanente avec liste d'attente ; la fiche CuratorSpace est fermée (« This opportunity is currently unable to accept submissions ») mais le site officiel ANCA accepte les demandes en continu. À noter, hors fiche : ANCA lance un appel distinct pour sa programmation galerie 2027, gratuit, clôturé le 30/11/2026 (https://www.anca.net.au/callout ; « Applications must be submitted by 11:59 on 30 November 2026. »)."
+ },
+ {
+  "uid": "e57f2fc5",
+  "verdict": "expiree",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.75,
+  "preuve": {
+   "url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+   "citation": "This opportunity is currently unable to accept submissions."
+  },
+  "notes": "Zine féministe sur Instagram (@aura.zine, curatrice Erin Shields) ; la fiche 6198 est fermée sans date et la fiche précédente (4893) indique une deadline au 21/11/2020 dépassée. Aucun site ni appel plus récent trouvé ; il s'agit d'un micro-projet amateur sans intérêt pour la veille."
+ },
+ {
+  "uid": "18e2d639",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.95,
+  "preuve": {
+   "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-asia",
+   "citation": "Our guide to cross-border mobility for artists and cultural workers from and travelling to Asia."
+  },
+  "notes": "Guide de financement (2016, deux PDF « outgoing »/« incoming ») recensant des dispositifs réguliers de mobilité vers/depuis l'Asie, publié par On the Move avec l'ASEF : ressource documentaire, pas un appel. Le guide lui-même exclut les programmes ponctuels (« only lists regular opportunities that are accessible online »)."
+ },
+ {
+  "uid": "0144555c",
+  "verdict": "pas_un_appel",
+  "date_limite": null,
+  "date_limite_precision": null,
+  "prochaine_edition": null,
+  "candidature_continue": false,
+  "url_candidature": null,
+  "confiance": 0.95,
+  "preuve": {
+   "url": "https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf",
+   "citation": "Intended as a frame of reference, this charter sets out commitments that must be upheld."
+  },
+  "notes": "« Charter of the VILLAS and residency programmes of France's cultural network abroad » (Institut français / MEAE / ministère de la Culture) : document normatif fixant les standards des résidences du réseau (logement, atelier, un mois minimum, allocation). Aucune résidence nommée, aucune date : à supprimer de la base des appels."
+ }
+]

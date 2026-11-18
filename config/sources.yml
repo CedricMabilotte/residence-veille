@@ -595,3 +595,65 @@ sources:
     max_pages: 10
     min_interval_days: 21
     peak_months: [1, 2, 3]
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # K. Rebonds réseaux retenus le 2026-11-18 (9 agents, 2 couches) — voir
+  #    discovery/suggestions-reseaux-2026-11-18.yml pour les réserves et la couche 2.
+  #    Intervalles longs (14-30 j) : la veille est hebdomadaire et ces sites sont
+  #    des agrégateurs larges à filtrer ; types best-effort, à revalider par probe_source.py.
+  # ───────────────────────────────────────────────────────────────────────────
+  - label: "Recursos Culturales [rebond K]"
+    # Flux RSS 2.0 valide (20 items) très actif, billets détaillés avec date limite et lien officiel ; bruit important (musique, théâtre, littérature) à fil
+    url: "https://www.recursosculturales.com/feed/"
+    type: rss
+    min_interval_days: 14
+  - label: "Artquest [rebond K]"
+    # Agrégateur de l'University of the Arts London dédié aux plasticien·nes, dates limites explicites, 20 filtres de discipline, HTML paginé lisible ; reco
+    url: "https://artquest.org.uk/opportunities/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+  - label: "mesh (themesh.art) [rebond K]"
+    # Flux RSS WordPress valide (30 items) dont les descriptions contiennent les dates limites ; forte proportion de résidences et appels arts visuels, mais
+    url: "https://themesh.art/convocatorias/feed/"
+    type: rss
+    min_interval_days: 14
+  - label: "La Villette [rebond K]"
+    # Appel annuel très pertinent (exposition de jeunes diplômé·es DNSEP, contrat 350 € + prise en charge production/transport, passerelle vers la Révélatio
+    url: "https://www.lavillette.com/en/?p=57100"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 30
+  - label: "culture360 [rebond K]"
+    # Liste HTML paginée (?page=1..3) avec date limite, type (Grant/Open Call/Residency), pays et filtre discipline « Visual Arts » ; fiches détaillées avec
+    url: "https://culture360.asef.org/opportunities/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+  - label: "Textile Society of America – Opportunities [rebond K]"
+    # Déjà listé parmi les rebonds de la première vague ; WordPress en HTML statique, dates libellées « Deadline: … » uniformes, annonces publiées par les o
+    url: "https://textilesocietyofamerica.org/community/opportunities"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+  - label: "Villa Médicis [rebond K]"
+    # Déjà listé parmi les rebonds de la première vague ; page en HTML statique listant tous les programmes avec mention « appel ouvert », dotations claires
+    url: "https://villamedici.it/programmes-de-residences/"
+    type: deep_html
+    max_pages: 15
+    min_interval_days: 14
+  - label: "European Textile Network (ETN) [rebond K]"
+    # Agrégateur spécialisé art textile/fibre, deadline dans le titre de chaque entrée (format JJ.MM.AAAA), HTML Contao statique facile à parser, lien vers 
+    url: "https://etn-net.org/competitions.html"
+    type: html
+    min_interval_days: 14
+  - label: "Biennial Foundation [rebond K]"
+    # Flux RSS WordPress valide ; les open calls (biennales, programmes de soutien, directeurs artistiques) se repèrent par le mot-clé « open call » dans le
+    url: "https://biennialfoundation.org/feed/"
+    type: rss
+    min_interval_days: 14
+  - label: "HIAP [rebond K]"
+    # Résidences internationales dotées (ex. 1 350 €/mois + voyage + matériel) ; la liste /open-calls/ exige JavaScript (« JavaScript is required for this c
+    url: "https://www.hiap.fi/feed/"
+    type: rss
+    min_interval_days: 14

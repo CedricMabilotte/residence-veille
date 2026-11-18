@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827
 fetched_at: '2026-11-18T16:44:33+00:00'
 score: 6
-status: indetermine
+status: ouverte-continue
 opportunite:
   nom: Visual Art Studio Space - Canberra, Australia
   organisme: ANCA Inc
@@ -26,6 +26,7 @@ candidature:
   - Financial referee report
   - Professional referee report
   url_candidature: https://www.curatorspace.com/opportunities/detail/visual-art-studio-space--canberra-australia/1827
+  candidature_continue: true
 eligibilite:
   disciplines:
   - Visual arts
@@ -69,6 +70,21 @@ _meta:
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: candidature_continue
+    confiance: 0.9
+    preuve:
+      url: https://www.anca.net.au/apply-for-a-studio
+      citation: Applications are welcome at any time.
+    notes: 'Location d''ateliers à Canberra (baux de 3 ans, 410 à 1 223 AUD/mois),
+      candidature permanente avec liste d''attente ; la fiche CuratorSpace est fermée
+      (« This opportunity is currently unable to accept submissions ») mais le site
+      officiel ANCA accepte les demandes en continu. À noter, hors fiche : ANCA lance
+      un appel distinct pour sa programmation galerie 2027, gratuit, clôturé le 30/11/2026
+      (https://www.anca.net.au/callout ; « Applications must be submitted by 11:59
+      on 30 November 2026. »).'
 analyse:
   synthese: ANCA offers professional visual arts studios in Canberra for artists working
     in all mediums, ranging from 32 to 100 square meters. Studios include sink, lighting,

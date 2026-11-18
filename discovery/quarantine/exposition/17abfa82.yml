@@ -42,11 +42,10 @@ partenaires:
 - Réseau culturel français
 _meta:
   extracted_confidence: 0.3
-  extracted_notes: Ce document décrit une offre de programmation de contenus numériques
-    à destination des établissements du réseau culturel français, et non un appel
-    à candidature pour artistes individuels. Les établissements organisent et financent
-    l'événement sur place. L'absence quasi-totale de conditions de candidature, de
-    dates limites et de processus de sélection rend l'extraction difficile.
+  extracted_notes: Ce document décrit une offre de programmation de contenus numériques à destination des établissements du
+    réseau culturel français, et non un appel à candidature pour artistes individuels. Les établissements organisent et financent
+    l'événement sur place. L'absence quasi-totale de conditions de candidature, de dates limites et de processus de sélection
+    rend l'extraction difficile.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T14:18:59+00:00'
   source_lang: fr
@@ -54,19 +53,31 @@ _meta:
   detection_method: heuristic
   source_label: Institut français — résidences internationales
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.95
+    preuve:
+      url: https://www.institutfrancais.com/fr/programme/offre-contenus/offres-creation-numerique-cle-main-reseau-culturel
+      citation: L'organisation de l'événement sur place est à la charge de l'établissement.
+    notes: Offre de programmation « clé-en-main » (droits de diffusion d'œuvres numériques, kit de communication) destinée
+      aux établissements du réseau culturel français à l'étranger, pas un appel à candidatures pour artistes. Aucune date
+      limite ni formulaire sur la page. Les appels réellement liés (Escape, générations numériques 2026, Catalogue XR 2026)
+      sont sur la plateforme IFprog et visent aussi les établissements, pas les artistes.
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
 analyse:
-  synthese: 'L''Institut français propose au réseau culturel une offre de programmation
-    « clé-en-main » mettant en avant la création numérique française. Il fournit des
-    droits de diffusion non commerciale, les fichiers des œuvres et un kit de communication
-    complet pour des présentations in situ. Cette offre couvre trois domaines : la
-    série courte digitale (Binge), le catalogue XR et une exposition numérique (Escape,
-    générations numériques). L''organisation et le financement de l''événement restent
-    entièrement à la charge de l''établissement accueillant.'
-  pour_qui: Les établissements du réseau culturel français à l'étranger et leurs partenaires
-    souhaitant intégrer de la création numérique française à leur programmation.
+  synthese: 'L''Institut français propose au réseau culturel une offre de programmation « clé-en-main » mettant en avant la
+    création numérique française. Il fournit des droits de diffusion non commerciale, les fichiers des œuvres et un kit de
+    communication complet pour des présentations in situ. Cette offre couvre trois domaines : la série courte digitale (Binge),
+    le catalogue XR et une exposition numérique (Escape, générations numériques). L''organisation et le financement de l''événement
+    restent entièrement à la charge de l''établissement accueillant.'
+  pour_qui: Les établissements du réseau culturel français à l'étranger et leurs partenaires souhaitant intégrer de la création
+    numérique française à leur programmation.
 a_savoir:
-- Ce n'est pas un appel à candidature pour artistes, mais une offre de programmation
-  pour institutions du réseau culturel.
+- Ce n'est pas un appel à candidature pour artistes, mais une offre de programmation pour institutions du réseau culturel.
 - Les établissements doivent organiser et financer entièrement l'événement sur place.
 - Les droits de diffusion sont non commerciaux à l'étranger uniquement.
 organisme_details:

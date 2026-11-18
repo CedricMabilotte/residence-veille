@@ -1,0 +1,1320 @@
+_doc: 'Rebonds repérés le 2026-11-18 par 9 agents (vague 1 : depuis les 31 fiches sans date ; vague 2 : qualification
+  des rebonds + couche 2). verdict retenir = ajouté à sources.yml section K ; reserve = à activer quand un appel
+  s''ouvre ou après probe_source.py ; ecarter = raison donnée.'
+date: '2026-11-18'
+vague1_rebonds:
+- nom: Medialab Matadero — Convocatorias
+  url_appels: https://www.medialab-matadero.es/convocatorias
+  url_site: https://www.medialab-matadero.es
+  type: programme
+  deja_suivi: false
+  trouve_via: ed8b9099
+  pourquoi: Liste propre des appels Medialab (LAB projets/collaborateurs, Investigación Situada) avec date de fin
+    et statut « Plazo cerrado/abierto » ; 2 à 3 appels par an, art-science-technologie, ouverts à l'international
+    ; version EN sur /en/convocatorias.
+  parser_suggere: html
+- nom: Intermediae — Convocatorias
+  url_appels: https://www.intermediae.es/convocatorias
+  url_site: https://www.intermediae.es
+  type: programme
+  deja_suivi: false
+  trouve_via: Matadero Madrid (centre de résidences)
+  pourquoi: Appels annuels « Intermediae Distribuido » (projets culturels participatifs, Madrid) et appels ponctuels
+    de vidéo-art ; faible volume (1 à 2 par an), peu prioritaire.
+  parser_suggere: html
+- nom: Comunidad de Madrid — Ayudas, concursos y selección de proyectos de artes visuales
+  url_appels: https://www.comunidad.madrid/node/76471
+  url_site: https://www.comunidad.madrid
+  type: programme
+  deja_suivi: false
+  trouve_via: recherche web depuis les fiches Matadero (couche 2)
+  pourquoi: Page régionale regroupant les ayudas a la creación en artes visuales (5 000-15 000 €), Circuitos de
+    Artes Plásticas (jeunes artistes), Fotocanal, Fotolibro<40, Se busca comisario/a ; plusieurs appels par an pour
+    artistes individuels résidant à Madrid.
+  parser_suggere: deep_html
+- nom: Acción Cultural Española (AC/E) — Residencias et PICE
+  url_appels: https://www.accioncultural.es/en/residencies
+  url_site: https://www.accioncultural.es
+  type: programme
+  deja_suivi: false
+  trouve_via: recherche web agrégateurs espagnols (couche 2)
+  pourquoi: Résidences internationales pour artistes espagnols (Make Eindhoven, MALBA REM, CAPACETE, WIELS…) publiées
+    « au fil de l'eau » avec fenêtres de candidature, plus appels PICE (réservés aux institutions) sur /en/calls-for-entry
+    ; 5 à 10 fenêtres par an.
+  parser_suggere: deep_html
+- nom: Recursos Culturales — Convocatorias y oportunidades
+  url_appels: https://www.recursosculturales.com/convocatorias-y-oportunidades/
+  url_site: https://www.recursosculturales.com
+  type: agregateur
+  deja_suivi: false
+  trouve_via: recherche web agrégateurs espagnols (couche 2)
+  pourquoi: Agrégateur hispanophone (Espagne + Amérique latine) de becas, premios, residencias, festivals toutes
+    disciplines ; plusieurs billets par semaine ; sous-section concours-prix sur /secciones/concursos-premios/ ;
+    WordPress donc flux /feed/ probable.
+  parser_suggere: rss
+- nom: mesh (themesh.art) — Oportunidades
+  url_appels: https://themesh.art/convocatorias
+  url_site: https://themesh.art
+  type: agregateur
+  deja_suivi: false
+  trouve_via: recherche web agrégateurs espagnols (couche 2)
+  pourquoi: Agrégateur bilingue ES/EN à dominante Mexique/Amérique latine mais relayant des résidences internationales
+    (Arteles, Bardo, Interwoven) ; 37 pages, publication quasi quotidienne partiellement automatisée (« mesh-bot
+    ») ; WordPress, flux /feed/ probable.
+  parser_suggere: rss
+- nom: CentroCentro (Ayuntamiento de Madrid) — programme de résidences
+  url_appels: https://diario.madrid.es/blog/notas-de-prensa/centrocentro-lanza-su-primer-programa-de-residencias-artisticas-para-impulsar-la-creacion-contemporanea/
+  url_site: https://www.centrocentro.org
+  type: programme
+  deja_suivi: false
+  trouve_via: Diario de Madrid (couche 2)
+  pourquoi: 'Nouveau programme (1re édition sept.-oct. 2026) : résidences d''un mois à l''étranger pour artistes
+    plasticiens de la Comunidad de Madrid avec 8 ans d''expérience ; page d''appels propre non localisée, à repérer
+    sur centrocentro.org.'
+  parser_suggere: playwright
+- nom: European Textile Network (ETN) – Competitions
+  url_appels: https://etn-net.org/competitions.html
+  url_site: https://etn-net.org/
+  type: reseau
+  deja_suivi: false
+  trouve_via: '19395618'
+  couche: 1
+  pourquoi: Réseau européen du textile (Haslach, AT) qui relaie des open calls textile en Europe (biennales BIEN
+    SI, triennale Bulgarie, résidences Forssa FI, Haslach AT, Cromer UK) avec dates limites affichées ; une dizaine
+    d'appels par an, dont plusieurs encore ouverts (20/11/2026, 21/12/2026).
+  parser_suggere: html
+- nom: 'Magic Carpets (plateforme Creative Europe) – News #opencall'
+  url_appels: https://magiccarpets.eu/news/
+  url_site: https://magiccarpets.eu/
+  type: reseau
+  deja_suivi: false
+  trouve_via: 19395618 (partenaires Contextile / Ideias Emergentes)
+  couche: 1
+  pourquoi: Plateforme de 15-17 organisations européennes qui publie des open calls de résidences pour artistes
+    émergents (ex. résidence Jam Factory Art Center 2026) ; la page News se charge en JavaScript (« Load More »),
+    quelques appels par an.
+  parser_suggere: playwright
+- nom: Biennale internationale du lin de Portneuf (Québec) – appel relève
+  url_appels: https://biennaledulin.com/releve/
+  url_site: https://biennaledulin.com/
+  type: partenaire
+  deja_suivi: false
+  trouve_via: 19395618 (page partenaires Contextile)
+  couche: 1
+  pourquoi: Biennale d'art actuel autour du lin ; appel aux artistes de la relève pour l'exposition « Mécaniques
+    » (été 2027), date limite 31 mars 2027 ; un appel tous les deux ans.
+  parser_suggere: html
+- nom: Textile Society of America – Opportunities
+  url_appels: https://textilesocietyofamerica.org/community/opportunities
+  url_site: https://textilesocietyofamerica.org/
+  type: annuaire
+  deja_suivi: false
+  trouve_via: 19395618 (recherche web Contextile)
+  couche: 1
+  pourquoi: Rubrique Opportunities filtrable (Artist Residencies, Calls for Art, Jobs) relayant des appels textile
+    internationaux dont Contextile ; fréquence mensuelle apparente.
+  parser_suggere: deep_html
+- nom: Biennial Foundation – News (open calls de biennales)
+  url_appels: https://biennialfoundation.org/news/
+  url_site: https://biennialfoundation.org/
+  type: agregateur
+  deja_suivi: false
+  trouve_via: '19395618'
+  couche: 1
+  pourquoi: Portail des biennales mondiales qui publie les open calls des biennales (Contextile 2022, 2026…) ; quelques
+    appels par mois, utile pour les appels à exposition internationaux.
+  parser_suggere: rss
+- nom: Casa Na Ilha – sessions de résidence (Brésil, Amazonie, Patagonie)
+  url_appels: https://www.casanailha.org/apply-now/
+  url_site: https://casanailha.org/
+  type: programme
+  deja_suivi: false
+  trouve_via: 56a23acc
+  couche: 1
+  pourquoi: 'Hôte de la fiche Patagonie : résidences payantes multidisciplinaires mensuelles (Ilhabela 2026-2027,
+    Amazonie août 2027, Patagonie avril 2027, ateliers d''écriture), candidature continue ; source directe plutôt
+    que via Res Artis (déjà suivi).'
+  parser_suggere: html
+- nom: Ideias Emergentes – Edições / concours (Porto)
+  url_appels: https://www.ideiasemergentes.pt/pt/edicoes/
+  url_site: https://www.ideiasemergentes.pt/
+  type: programme
+  deja_suivi: false
+  trouve_via: 19395618 (organisateur de Contextile)
+  couche: 1
+  pourquoi: Producteur de Contextile, de la Trienal Internacional de Design da Covilhã et de concours (ex. Concurso
+    Concentrico 2026 – Kisoko 2.0) ; quelques appels par an au Portugal, site en portugais.
+  parser_suggere: deep_html
+- nom: Jam Factory Art Center (Lviv) – open call résidence 2026
+  url_appels: https://jamfactory.ua
+  url_site: https://jamfactory.ua
+  type: partenaire
+  deja_suivi: false
+  trouve_via: Magic Carpets (couche 2 depuis 19395618)
+  couche: 2
+  pourquoi: 'Membre Magic Carpets publiant un appel annuel de résidence pour artistes émergents (relayé par Magic
+    Carpets « Open Call for emerging artists: residency at Jam Factory Art Center 2026 ») ; page d''appels dédiée
+    non vérifiée.'
+  parser_suggere: deep_html
+- nom: ésban – École supérieure des beaux-arts de Nîmes (appel Quilt alumni)
+  url_appels: https://www.esban.fr
+  url_site: https://www.esban.fr
+  type: partenaire
+  deja_suivi: false
+  trouve_via: 86e99f36
+  couche: 1
+  pourquoi: L'appel Quilt (bourse 5 000 € + accompagnement, réservé aux alumni ésban des 5 dernières années) est
+    diffusé côté école et non sur fondationdesartistes.fr ; un appel par an si le programme est reconduit ; page
+    exacte non vérifiée.
+  parser_suggere: deep_html
+- nom: ENSP Arles — bourses post-master et mentorat
+  url_appels: https://ensp-arles.com/les-formations/bourses-post-master-intelligence-artificielle-2026-2027/
+  url_site: https://ensp-arles.com
+  type: programme
+  deja_suivi: false
+  trouve_via: 07e1d362
+  pourquoi: L'école publie chaque année plusieurs appels post-diplôme pour jeunes diplômés d'écoles d'art (Bourse
+    IA 4 000 €, Bourse Éducation artistique et culturelle, Mentorat 2027 clos le 13 novembre 2026, tutorat technique
+    Dupon, AAC avec AMU), sous forme de pages « les-formations/… » et de PDF ; pas de page unique listant les appels,
+    il faut surveiller le menu et les PDF wp-content/uploads.
+  parser_suggere: deep_html
+- nom: La Villette — 100% L'EXPO (appel annuel jeune création)
+  url_appels: https://www.lavillette.com/en/?p=57100
+  url_site: https://www.lavillette.com
+  type: programme
+  deja_suivi: false
+  trouve_via: ae1213ed
+  pourquoi: Appel annuel à candidatures (avril-juin) pour l'exposition 100% L'EXPO réservée aux DNSEP de moins de
+    5 ans ; porte d'entrée vers la Révélation Arts plastiques ADAGP ; PDF d'appel publié sous /wp-content/uploads/files/…
+    (ex. 100_LEXPO_Appel-a-candidature_2027.pdf).
+  parser_suggere: deep_html
+- nom: artinfoland.com — agrégateur international d'opportunités
+  url_appels: https://artinfoland.com/opportunities/pollen-residency-open-call-2027-france/
+  url_site: https://artinfoland.com
+  type: agregateur
+  deja_suivi: false
+  trouve_via: dd63bde1
+  pourquoi: 'Agrégateur anglophone qui référence des appels français (Pollen 2027, Bourse IA ENSP 2026-2027) avec
+    fiches par organisateur, mais les dates, frais et lien officiel sont réservés aux abonnés : utile comme détecteur
+    de nouveaux appels, pas comme source de preuve.'
+  parser_suggere: html
+- nom: fundit.fr — portail d'appels à projets (SHS, dont art et histoire de l'art)
+  url_appels: https://fundit.fr/fr/calls
+  url_site: https://fundit.fr
+  type: agregateur
+  deja_suivi: false
+  trouve_via: 07e3edad
+  pourquoi: Portail d'appels à projets en sciences humaines qui relaie certains dispositifs du Cnap (soutien à la
+    recherche en théorie et critique d'art) ; marginal pour les plasticien·nes mais utile pour les bourses de recherche,
+    mobilité internationale et résidences de recherche ; pas de filtre arts visuels.
+  parser_suggere: html
+- nom: C-E-A — Association française des commissaires d'exposition
+  url_appels: https://c-e-a.asso.fr/
+  url_site: https://c-e-a.asso.fr
+  type: reseau
+  deja_suivi: false
+  trouve_via: recherche Cnap Suite (résultat web)
+  pourquoi: Association professionnelle des commissaires, publie un guide de bonnes pratiques des appels à candidature
+    (2025) et relaie des appels à commissariat/résidences curatoriales ; hors cœur de cible plasticien·nes, page
+    d'appels non identifiée (seul le PDF du guide a été consulté).
+  parser_suggere: html
+- nom: IFprog — plateforme d'appels de l'Institut français
+  url_appels: https://ifprog.emundus.fr/fr/
+  url_site: https://ifprog.emundus.fr/
+  type: programme
+  deja_suivi: false
+  trouve_via: 660d0fed
+  pourquoi: Plateforme officielle de dépôt pour tous les appels de l'Institut français (Villa Kujoyama, Escape,
+    Catalogue XR, ICC Immersion…) avec dates limites affichées ; renouvellement continu, 7 campagnes ouvertes au
+    18/11/2026, mais une partie vise les structures et non les artistes.
+  parser_suggere: playwright
+- nom: Viva Villa — réseau des résidences d'artistes françaises à l'international
+  url_appels: https://www.vivavilla.info/le-fonds-de-soutien/
+  url_site: https://www.vivavilla.info/
+  type: reseau
+  deja_suivi: false
+  trouve_via: 660d0fed
+  pourquoi: Réseau Casa de Velázquez / Villa Médicis / Villa Kujoyama / Villa Albertine (+ invités Villa Hegra,
+    Villa Swagatam, Villa Dufraine) ; fonds de soutien annuel pour les anciens lauréats et appel à commissaires
+    ; un à deux appels par an.
+  parser_suggere: html
+- nom: Villa Médicis — Académie de France à Rome, programmes de résidence
+  url_appels: https://villamedici.it/programmes-de-residences/
+  url_site: https://www.villamedici.it/
+  type: programme
+  deja_suivi: false
+  trouve_via: Viva Villa (couche 2 via 660d0fed)
+  pourquoi: Concours annuel des pensionnaires (12 mois) et une douzaine de Résidences Médicis courtes (toutes disciplines,
+    arts plastiques Occitanie, métiers d'art, XR, Lagardère…) avec appels échelonnés dans l'année ; dates limites
+    sur chaque sous-page.
+  parser_suggere: deep_html
+- nom: Institut français du Japon — agenda culturel (appels AIR Kansai / Cité internationale des arts)
+  url_appels: https://culture.institutfrancais.jp/fr/event/air-program-26-27
+  url_site: https://culture.institutfrancais.jp/
+  type: partenaire
+  deja_suivi: false
+  trouve_via: 660d0fed
+  pourquoi: Appel annuel « Artist in Residence Program in Paris » (Kansai → Cité internationale des arts, clôture
+    juin 2026 pour 2027), réservé aux artistes vivant au Kansai ; faible volume, pas de page agrégée d'appels repérée.
+  parser_suggere: html
+- nom: Villa Swagatam — Institut français en Inde
+  url_appels: https://www.ifindia.in/villa-swagatam/residencies/
+  url_site: https://www.ifindia.in/villa-swagatam/
+  type: programme
+  deja_suivi: false
+  trouve_via: Viva Villa (couche 2 via 660d0fed)
+  pourquoi: Réseau de résidences en Inde pour artistes français (arts visuels, artisanat, littérature) ; appel annuel,
+    page d'accueil sans date affichée au 18/11/2026.
+  parser_suggere: html
+- nom: Artcena — fil vie pro (appels à candidatures)
+  url_appels: https://www.artcena.fr/fil-vie-pro
+  url_site: https://www.artcena.fr
+  type: agregateur
+  deja_suivi: false
+  trouve_via: 660d0fed
+  pourquoi: Centre national des arts du cirque, de la rue et du théâtre ; son fil relaie des appels pluridisciplinaires
+    (Villa Kujoyama 2027…) ; orienté spectacle vivant, pertinence partielle ; page bloquée à WebFetch (client_error),
+    à vérifier.
+  parser_suggere: playwright
+- nom: afri-carrieres.com — opportunités pour artistes africains
+  url_appels: https://afri-carrieres.com/opportunites/opportunites-pour-artistes/
+  url_site: https://afri-carrieres.com/
+  type: agregateur
+  deja_suivi: false
+  trouve_via: 660d0fed
+  pourquoi: Agrégateur d'appels (résidences, bourses, prix) pour artistes africains ou liés à l'Afrique ; publication
+    fréquente, fiabilité à vérifier (non visité).
+  parser_suggere: html
+- nom: ANCA Gallery – Callout 2027
+  url_appels: https://www.anca.net.au/callout
+  url_site: https://www.anca.net.au
+  type: programme
+  deja_suivi: false
+  trouve_via: cc40d764
+  couche: 1
+  pourquoi: Appel annuel (vers novembre) à propositions d'exposition gratuites pour la galerie ANCA de Canberra,
+    ouvert aux artistes australiens ; page Squarespace avec PDF.
+  parser_suggere: html
+- nom: Artquest – Opportunities
+  url_appels: https://artquest.org.uk/opportunities/
+  url_site: https://artquest.org.uk
+  type: agregateur
+  deja_suivi: false
+  trouve_via: 5e45e170 (recherche réseau BobCat/ArtCan)
+  couche: 2
+  pourquoi: Agrégateur britannique d'opportunités rémunérées pour artistes plasticiens (résidences, bourses, prix,
+    expositions), majoritairement Royaume-Uni avec quelques internationales, mis à jour régulièrement avec filtres
+    par discipline.
+  parser_suggere: deep_html
+- nom: culture360 – ASEF (Asia-Europe Foundation)
+  url_appels: https://culture360.asef.org/opportunities/
+  url_site: https://culture360.asef.org
+  type: agregateur
+  deja_suivi: false
+  trouve_via: 18e2d639
+  couche: 1
+  pourquoi: Portail de l'ASEF listant bourses, appels et résidences Asie-Europe (plus de 1 100 résidences et 2 400
+    appels archivés), filtrable par pays et type, alimentation très fréquente.
+  parser_suggere: deep_html
+- nom: SWAN – Swedish Artist Residency Network
+  url_appels: https://www.swanresidencynetwork.com/find-a-residency
+  url_site: https://www.swanresidencynetwork.com
+  type: reseau
+  deja_suivi: false
+  trouve_via: 18e2d639 (membres On the Move)
+  couche: 2
+  pourquoi: Réseau des résidences suédoises toutes disciplines ; pas de page appels dédiée (appels relayés sur Instagram),
+    mais l'annuaire des résidences membres est un vivier de sources individuelles.
+  parser_suggere: html
+- nom: HIAP – Helsinki International Artist Programme
+  url_appels: https://www.hiap.fi/open-calls/
+  url_site: https://www.hiap.fi
+  type: programme
+  deja_suivi: false
+  trouve_via: 18e2d639 (membres On the Move)
+  couche: 2
+  pourquoi: Résidences à Helsinki (Suomenlinna, Cable Factory) attribuées principalement par appels ouverts internationaux,
+    quelques appels par an ; listings chargés en JavaScript.
+  parser_suggere: playwright
+- nom: Mobility Arts & Culture Austria
+  url_appels: https://mobility-arts-culture.at/information/sonstiges/ressourcen/
+  url_site: https://mobility-arts-culture.at
+  type: annuaire
+  deja_suivi: false
+  trouve_via: 18e2d639 (membres On the Move)
+  couche: 2
+  pourquoi: 'Point d''information mobilité autrichien (allemand) : ressources et liens vers financements de mobilité,
+    pas de flux d''appels direct ; intérêt faible, à vérifier.'
+  parser_suggere: html
+- nom: Villa Kujoyama (Kyoto)
+  url_appels: https://villakujoyama.jp/en/home/
+  url_site: https://villakujoyama.jp
+  type: programme
+  deja_suivi: false
+  trouve_via: 0144555c (via diplomatie.gouv.fr / Viva Villa)
+  couche: 2
+  pourquoi: Résidence annuelle de l'Institut français au Japon, appel à candidatures chaque hiver (lancement AAC
+    2026 en février 2025, lauréats 2027 publiés juillet 2026) ; page d'appel à repérer sur le site WordPress.
+  parser_suggere: deep_html
+- nom: Putney Exchange – Putney News (BobCat Gallery)
+  url_appels: https://putneyexchange.co.uk/putney_news/bobcat-gallery-returns-to-putney-exchange/
+  url_site: https://putneyexchange.co.uk
+  type: partenaire
+  deja_suivi: false
+  trouve_via: 5e45e170
+  couche: 1
+  pourquoi: Centre commercial hébergeant la galerie ; actualités locales seulement, pas une source d'appels ; signalé
+    pour mémoire, à ne pas suivre.
+  parser_suggere: html
+vague2_sources_qualifiees:
+- nom: Medialab Matadero — Convocatorias
+  url_appels: https://www.medialab-matadero.es/convocatorias
+  url_rss: null
+  domaine: medialab-matadero.es
+  type: programme
+  lecture: html
+  pertinence: 0.5
+  zone: Espagne (Madrid), ouvert à l'international
+  langue: es
+  frequence: '0,2 appel/mois approx. (2 à 3 par an : LAB projets, LAB collaborateurs, Investigación Situada)'
+  payant: false
+  verdict: reserve
+  raison: Tableau Drupal propre avec colonne « Finaliza el » et statut, mais aucun appel ouvert au 18/11/2026 et
+    les appels visent la recherche art-science-techno plutôt que les plasticien·nes au sens strict ; à surveiller
+    à faible fréquence.
+  parser_suggere: html
+  min_interval_days: 14
+- nom: Recursos Culturales — Convocatorias y oportunidades
+  url_appels: https://www.recursosculturales.com/convocatorias-y-oportunidades/
+  url_rss: https://www.recursosculturales.com/feed/
+  domaine: recursosculturales.com
+  type: agregateur
+  lecture: rss
+  pertinence: 0.6
+  zone: Espagne + Amérique latine, quelques appels internationaux
+  langue: es
+  frequence: 20 à 30 billets/mois (7 items le seul 16/11/2026), dont ~30 % arts visuels/photo
+  payant: false
+  verdict: retenir
+  raison: Flux RSS 2.0 valide (20 items) très actif, billets détaillés avec date limite et lien officiel ; bruit
+    important (musique, théâtre, littérature) à filtrer par mots-clés.
+  parser_suggere: rss
+  min_interval_days: 3
+- nom: Magic Carpets (plateforme Creative Europe) — News
+  url_appels: https://magiccarpets.eu/news/
+  url_rss: null
+  domaine: magiccarpets.eu
+  type: reseau
+  lecture: playwright
+  pertinence: 0.7
+  zone: 'Europe (15 membres : LT, PT, UA, HR, IT, RO, LV, RS, AT, GE, PL, EE, SE, MT, CZ)'
+  langue: en
+  frequence: 0,3 à 0,5 appel/mois, concentrés en février-mars (appels résidences 2026 clos les 23/02, 09/03 et 15/03/2026)
+  payant: false
+  verdict: reserve
+  raison: Résidences de qualité pour artistes émergents, mais la liste News ne se charge qu'en JavaScript (« Load
+    More ») et aucun appel n'est ouvert actuellement ; surveiller surtout en janvier-mars, ou via les sites membres.
+  parser_suggere: playwright
+  min_interval_days: 14
+- nom: Casa Na Ilha — Apply Now
+  url_appels: https://www.casanailha.org/apply-now/
+  url_rss: null
+  domaine: casanailha.org
+  type: programme
+  lecture: html
+  pertinence: 0.4
+  zone: Brésil (Ilhabela, Amazonie), Patagonie
+  langue: en
+  frequence: candidature continue, pas d'appel daté (5 sessions Ilhabela 2026-2027 affichées)
+  payant: true
+  verdict: ecarter
+  raison: Résidence payante (1 980 à 3 690 USD la session, aucune bourse, « There is NO fee to apply » mais acompte
+    50 %) sans date limite ; pages de sessions Amazonie/Patagonie renvoient une erreur client ; déjà couvert par
+    Res Artis.
+  parser_suggere: html
+  min_interval_days: 30
+- nom: ENSP Arles — bourses post-master et mentorat
+  url_appels: https://ensp-arles.com/les-formations/bourses-post-master-intelligence-artificielle-2026-2027/
+  url_rss: null
+  domaine: ensp-arles.com
+  type: programme
+  lecture: html
+  pertinence: 0.7
+  zone: France (Arles), jeunes diplômé·es d'écoles d'art
+  langue: fr
+  frequence: '0,3 appel/mois approx. (3 à 4 appels par an : bourse IA, bourse EAC, mentorat, tutorat)'
+  payant: false
+  verdict: reserve
+  raison: Bourses ADAGP/Culture Pro de 4 000 € intéressantes pour les jeunes diplômé·es photo, mais pas de page
+    listant les appels (pages « les-formations/… » + PDF) et la page IA 2026-2027 affiche encore les dates 2025
+    (« 5 octobre 2025 à minuit ») ; mentorat 2027 clos le 13/11/2026.
+  parser_suggere: deep_html
+  min_interval_days: 14
+- nom: IFprog — plateforme d'appels de l'Institut français
+  url_appels: https://ifprog.emundus.fr/fr/
+  url_rss: null
+  domaine: ifprog.emundus.fr
+  type: programme
+  lecture: html
+  pertinence: 0.3
+  zone: France / réseau culturel français à l'étranger
+  langue: fr
+  frequence: 1 à 2 campagnes/mois (7 ouvertes au 18/11/2026)
+  payant: false
+  verdict: reserve
+  raison: Les 7 campagnes ouvertes visent les postes du réseau, les entrepreneurs culturels (ICC Immersion) ou les
+    structures, aucune ne s'adresse directement aux plasticien·nes ; utile seulement pour détecter l'ouverture de
+    Villa Kujoyama / résidences artistes (liste rendue côté serveur, filtres en JS).
+  parser_suggere: html
+  min_interval_days: 7
+- nom: Villa Swagatam — Institut français en Inde
+  url_appels: https://www.ifindia.in/villa-swagatam/residencies/
+  url_rss: null
+  domaine: ifindia.in
+  type: programme
+  lecture: html
+  pertinence: 0.6
+  zone: Inde / Asie du Sud (pour artistes français) et France (pour artistes indiens)
+  langue: en
+  frequence: 1 appel/an (appel 2026 du 17 avril au 7 juin, 540 candidatures ; 4e édition août 2026-août 2027)
+  payant: false
+  verdict: reserve
+  raison: Réseau de 17 résidences (arts & crafts, littérature, arts vivants) ouvert aux artistes français, mais
+    appel annuel clos (31/05/2026) et page WordPress sans dates ni liens par résidence ; vérifier en avril 2027.
+  parser_suggere: html
+  min_interval_days: 30
+- nom: Artquest — Opportunities
+  url_appels: https://artquest.org.uk/opportunities/
+  url_rss: null
+  domaine: artquest.org.uk
+  type: agregateur
+  lecture: html
+  pertinence: 0.9
+  zone: Royaume-Uni majoritaire + Europe/international
+  langue: en
+  frequence: 15 à 25 opportunités/mois (18 en page 1 au 18/11/2026, pagination ?pg=2)
+  payant: false
+  verdict: retenir
+  raison: Agrégateur de l'University of the Arts London dédié aux plasticien·nes, dates limites explicites, 20 filtres
+    de discipline, HTML paginé lisible ; recouvre partiellement curatorspace et artinfoland déjà suivis.
+  parser_suggere: deep_html
+  min_interval_days: 7
+- nom: Villa Kujoyama (Kyoto)
+  url_appels: https://villakujoyama.jp/en/programme-de-residence-3/
+  url_rss: null
+  domaine: villakujoyama.jp
+  type: programme
+  lecture: html
+  pertinence: 0.8
+  zone: Japon (Kyoto), artistes français ou résidant en France depuis 5 ans
+  langue: en
+  frequence: 1 appel/an (« Applications closed. Next open call will be in 2027 » ; appel résidences 2028 « au début
+    de 2027 »)
+  payant: false
+  verdict: reserve
+  raison: Résidence majeure (4 à 6 mois, 17 disciplines dont arts visuels) mais un seul appel par an, actuellement
+    clos ; l'appel se dépose sur IFprog, donc surveiller IFprog ou cette page de janvier à mars.
+  parser_suggere: html
+  min_interval_days: 30
+- nom: Intermediae — Convocatorias
+  url_appels: https://www.intermediae.es/convocatorias
+  url_rss: null
+  domaine: intermediae.es
+  type: programme
+  lecture: html
+  pertinence: 0.3
+  zone: Madrid (Espagne)
+  langue: es
+  frequence: 0,1 à 0,2 appel/mois (1 à 2 par an)
+  payant: false
+  verdict: reserve
+  raison: Liste HTML lisible mais un seul appel récurrent (Intermediae Distribuido, projets participatifs de quartier)
+    plus un appel vidéo ponctuel en 2023 ; rien d'ouvert au 18 novembre 2026, intérêt plasticien marginal.
+  parser_suggere: html
+  min_interval_days: 30
+- nom: mesh (themesh.art) — Convocatorias
+  url_appels: https://themesh.art/convocatorias
+  url_rss: https://themesh.art/convocatorias/feed/
+  domaine: themesh.art
+  type: agregateur
+  lecture: rss
+  pertinence: 0.6
+  zone: International, dominante Amérique latine / Mexique, Espagne, Europe, États-Unis
+  langue: es/en
+  frequence: 300 à 500 appels/mois approx. (30 items publiés les 17 et 18 novembre 2026 ; 1 094 fiches, 37 pages)
+  payant: false
+  verdict: retenir
+  raison: Flux RSS WordPress valide (30 items) dont les descriptions contiennent les dates limites ; forte proportion
+    de résidences et appels arts visuels, mais mélangé à des offres d'emploi, spectacle vivant et cinéma, et les
+    fiches renvoient souvent vers Instagram sans URL source — filtrage par mots-clés indispensable.
+  parser_suggere: rss
+  min_interval_days: 1
+- nom: Biennale internationale du lin de Portneuf — appel relève
+  url_appels: https://biennaledulin.com/releve/
+  url_rss: null
+  domaine: biennaledulin.com
+  type: partenaire
+  lecture: html
+  pertinence: 0.7
+  zone: Québec (Canada)
+  langue: fr
+  frequence: 0,05 appel/mois (un appel tous les deux ans)
+  payant: false
+  verdict: reserve
+  raison: Page HTML statique claire avec un appel d'exposition textile ouvert jusqu'au 31 mars 2027, mais un seul
+    appel par biennale ; à suivre à faible fréquence.
+  parser_suggere: html
+  min_interval_days: 60
+- nom: Ideias Emergentes — Edições (Porto)
+  url_appels: https://www.ideiasemergentes.pt/pt/edicoes/
+  url_rss: null
+  domaine: ideiasemergentes.pt
+  type: programme
+  lecture: html
+  pertinence: 0.3
+  zone: Portugal (Porto, Guimarães, Covilhã)
+  langue: pt
+  frequence: moins de 0,1 appel/mois
+  payant: false
+  verdict: ecarter
+  raison: La page « edições » est un portfolio de réalisations (architecture, réhabilitation de maisons, expositions),
+    pas une liste d'appels ; le seul concours visible (Concurso Concentrico 2026 – Kisoko 2.0) n'affiche ni date
+    limite ni conditions ; les appels textiles passent par contextile.pt déjà suivi.
+  parser_suggere: deep_html
+  min_interval_days: 90
+- nom: La Villette — 100% L'EXPO
+  url_appels: https://www.lavillette.com/en/?p=57100
+  url_rss: null
+  domaine: lavillette.com
+  type: programme
+  lecture: html
+  pertinence: 0.8
+  zone: Paris (France)
+  langue: fr/en
+  frequence: 0,08 appel/mois (un appel par an, avril-juin)
+  payant: false
+  verdict: retenir
+  raison: Appel annuel très pertinent (exposition de jeunes diplômé·es DNSEP, contrat 350 € + prise en charge production/transport,
+    passerelle vers la Révélation ADAGP) ; l'appel 2027 est clos depuis le 8 juin 2026 et le prochain s'ouvrira
+    en avril 2027 ; le PDF d'appel est publié sous /wp-content/uploads/files/, à détecter via la page événement.
+  parser_suggere: deep_html
+  min_interval_days: 14
+- nom: Viva Villa — réseau des résidences françaises à l'étranger
+  url_appels: https://www.vivavilla.info/le-fonds-de-soutien/
+  url_rss: https://www.vivavilla.info/feed/
+  domaine: vivavilla.info
+  type: reseau
+  lecture: html
+  pertinence: 0.4
+  zone: France / international (Madrid, Rome, Kyoto, États-Unis, AlUla, Inde)
+  langue: fr
+  frequence: 0,1 à 0,2 appel/mois (fonds de soutien annuel + bourses curatoriales)
+  payant: false
+  verdict: reserve
+  raison: Le fonds de soutien s'adresse aux structures culturelles (centres d'art, festivals) et non directement
+    aux artistes ; pas de date limite affichée ; le flux RSS ne contient qu'un item (juillet 2025) ; les résidences
+    membres sont déjà suivies individuellement ; valeur surtout comme carnet d'adresses (page partenaires).
+  parser_suggere: html
+  min_interval_days: 30
+- nom: Artcena — fil vie pro
+  url_appels: https://www.artcena.fr/fil-vie-pro
+  url_rss: https://www.artcena.fr/rss.xml
+  domaine: artcena.fr
+  type: agregateur
+  lecture: bloque
+  pertinence: 0.3
+  zone: France
+  langue: fr
+  frequence: 20 à 30 actualités vie pro/mois approx. (env. 60 items RSS tous contenus du 27 octobre au 17 novembre
+    2026)
+  payant: false
+  verdict: reserve
+  raison: Pages HTML bloquées (client_error sur /fil-vie-pro, pagination et articles) mais flux RSS global /rss.xml
+    lisible, mélangeant critiques, replays et actualités vie pro (prix, aides, dispositifs) orientées cirque, rue
+    et théâtre ; ne retenir qu'avec filtre sur /fil-vie-pro/ et mots-clés pluridisciplinaires.
+  parser_suggere: rss
+  min_interval_days: 7
+- nom: culture360 — ASEF Opportunities
+  url_appels: https://culture360.asef.org/opportunities/
+  url_rss: null
+  domaine: culture360.asef.org
+  type: agregateur
+  lecture: html
+  pertinence: 0.8
+  zone: Asie-Europe, international
+  langue: en
+  frequence: '15 à 30 appels/mois approx. (16 opportunités actives sur la page 1, 3 pages actives ; archives : 1
+    124 résidences, 2 484 appels, 429 bourses)'
+  payant: false
+  verdict: retenir
+  raison: Liste HTML paginée (?page=1..3) avec date limite, type (Grant/Open Call/Residency), pays et filtre discipline
+    « Visual Arts » ; fiches détaillées avec dotation, éligibilité et lien source ; le flux /feed/ est mort (items
+    d'octobre 2014).
+  parser_suggere: deep_html
+  min_interval_days: 3
+- nom: Comunidad de Madrid — Ayudas, concursos y selección de proyectos de artes visuales
+  url_appels: https://www.comunidad.madrid/node/76471
+  url_rss: https://www.comunidad.madrid/gobierno/digitalizacion/sindicacion-contenidos-portal-comunidad-madrid
+  domaine: comunidad.madrid
+  type: programme
+  lecture: html
+  pertinence: 0.7
+  zone: Comunidad de Madrid (Espagne)
+  langue: es
+  frequence: '0,5 appel/mois approx. (5-6 dispositifs annuels : ayudas creación 5 000-15 000 €, Circuitos <35 ans
+    3 000 €, Fotocanal, Fotolibro<40, Se busca comisario/a, Red Itiner)'
+  payant: false
+  verdict: reserve
+  raison: 'Déjà listé dans les domaines suivis par la première vague (comunidad.madrid) ; page HTML statique fiable,
+    mais tous les appels sont réservés aux résidents de Madrid et sont actuellement clos (Circuitos 2026 : plazo
+    13/03-06/04/2026, Red Itiner 2027 cerrada) ; le RSS est à l''échelle du portail, pas de la rubrique.'
+  parser_suggere: deep_html
+  min_interval_days: 14
+- nom: CentroCentro (Ayuntamiento de Madrid) — Residencias
+  url_appels: https://www.centrocentro.org/residencias
+  url_rss: null
+  domaine: centrocentro.org
+  type: programme
+  lecture: html
+  pertinence: 0.6
+  zone: Madrid (Espagne) + destinations européennes
+  langue: es
+  frequence: '0,2-0,3 appel/mois approx. (1re édition 2026-2027 : 1 résidence internationale + 2 sessions madrilènes
+    de 3 mois en 2027)'
+  payant: false
+  verdict: reserve
+  raison: Programme neuf et crédible (artistes plasticiens, résidences d'un mois à l'étranger et 3 mois à Madrid
+    à l'Espacio Rafael Canogar), mais réservé aux résidents de Madrid pour le volet international et conditions
+    2027 non encore publiées (« Toda la información se publicará en la web del centro próximamente ») ; la page
+    /residencias se lit en HTML, à revisiter début 2027.
+  parser_suggere: html
+  min_interval_days: 14
+- nom: Textile Society of America – Opportunities
+  url_appels: https://textilesocietyofamerica.org/community/opportunities
+  url_rss: null
+  domaine: textilesocietyofamerica.org
+  type: annuaire
+  lecture: html
+  pertinence: 0.6
+  zone: International, dominante États-Unis
+  langue: en
+  frequence: 4-6 appels/mois approx. (11 annonces visibles, mélange résidences, calls for art, emplois, enquêtes)
+  payant: false
+  verdict: retenir
+  raison: 'Déjà listé parmi les rebonds de la première vague ; WordPress en HTML statique, dates libellées « Deadline:
+    … » uniformes, annonces publiées par les organisateurs (formulaire submit-an-opportunity) ; bonne source niche
+    textile/fibre, à filtrer (emplois, enquêtes, appels payants type marketplace).'
+  parser_suggere: deep_html
+  min_interval_days: 7
+- nom: Jam Factory Art Center (Lviv) – Résidences
+  url_appels: https://jamfactory.ua/projects-category/residencies/
+  url_rss: null
+  domaine: jamfactory.ua
+  type: partenaire
+  lecture: html
+  pertinence: 0.5
+  zone: Lviv (Ukraine)
+  langue: uk
+  frequence: 0,1-0,2 appel/mois approx. (1 open call Magic Carpets par an, publié en mars ; projets communautaires
+    locaux en juin)
+  payant: false
+  verdict: reserve
+  raison: Déjà listé parmi les rebonds de la première vague ; site en ukrainien (sélecteur EN) avec une catégorie
+    Résidences lisible en HTML, mais un seul appel international par an (Magic Carpets, publié le 20 mars 2026,
+    clos) et le programme Magic Carpets s'achève en 2026 ; à vérifier au printemps via magiccarpets.eu plutôt qu'ici.
+  parser_suggere: html
+  min_interval_days: 30
+- nom: artinfoland.com — agrégateur international d'opportunités
+  url_appels: https://artinfoland.com/opportunities
+  url_rss: null
+  domaine: artinfoland.com
+  type: agregateur
+  lecture: html
+  pertinence: 0.5
+  zone: International (plateforme basée à Melbourne)
+  langue: en
+  frequence: 20+ appels/mois approx. (agrégateur)
+  payant: true
+  verdict: ecarter
+  raison: 'Déjà listé parmi les rebonds de la première vague ; les dates limites, frais, éligibilité et lien officiel
+    sont réservés aux abonnés (« Fees, eligibility, dates and the official application page, unlocked on every listing
+    », 28,70 $/an ou 5 $/mois), la fiche Pollen 2027 n''affiche même pas l''organisme : aucune preuve exploitable
+    sans abonnement.'
+  parser_suggere: html
+  min_interval_days: 14
+- nom: Villa Médicis — Académie de France à Rome, programmes de résidence
+  url_appels: https://villamedici.it/programmes-de-residences/
+  url_rss: null
+  domaine: villamedici.it
+  type: programme
+  lecture: html
+  pertinence: 0.9
+  zone: Rome (Italie) ; candidats francophones, France et régions partenaires
+  langue: fr
+  frequence: 1 appel/mois approx. (concours des pensionnaires + 13 Résidences Médicis échelonnées, dont certaines
+    sans candidature directe)
+  payant: false
+  verdict: retenir
+  raison: 'Déjà listé parmi les rebonds de la première vague ; page en HTML statique listant tous les programmes
+    avec mention « appel ouvert », dotations claires (pensionnaires 12 mois ; Résidences Médicis 1 500 €/mois brut),
+    mais les dates limites ne figurent que dans les règlements PDF ou chez les partenaires (laregion.fr pour Occitanie)
+    : parser deep_html + suivi des sous-pages.'
+  parser_suggere: deep_html
+  min_interval_days: 7
+- nom: afri-carrieres.com — opportunités pour artistes africains
+  url_appels: https://afri-carrieres.com/type/appels/
+  url_rss: null
+  domaine: afri-carrieres.com
+  type: agregateur
+  lecture: html
+  pertinence: 0.2
+  zone: Afrique francophone, diaspora
+  langue: fr
+  frequence: 15-20 articles/mois toutes catégories, dont ≈1/mois lié aux industries créatives
+  payant: false
+  verdict: ecarter
+  raison: 'Déjà listé parmi les rebonds de la première vague ; WordPress généraliste (emplois, bourses d''études,
+    startups) sans rubrique arts visuels : la page « opportunités pour artistes » est un article daté du 28 janvier
+    2026 dont les 4 appels sont clos, et les 12 derniers articles de /type/appels/ n''en contiennent aucun pour
+    plasticien·nes ; les dates limites apparaissent en compte à rebours « J-X » sans année.'
+  parser_suggere: html
+  min_interval_days: 30
+- nom: SWAN – Swedish Artist Residency Network
+  url_appels: https://www.swanresidencynetwork.com/art
+  url_rss: null
+  domaine: swanresidencynetwork.com
+  type: reseau
+  lecture: playwright
+  pertinence: 0.4
+  zone: Suède
+  langue: en
+  frequence: 0 appel/mois (annuaire sans appels ; relais sur Instagram et newsletter)
+  payant: false
+  verdict: ecarter
+  raison: 'Déjà listé parmi les rebonds de la première vague ; site Wix (rendu JavaScript) sans page d''appels ni
+    dates, mais annuaire de 130 membres classés par discipline (catégorie Art : AIR Blekinge, Art Lab Gnesta, Baltic
+    Art Center, Gerlesborgsskolan…) à exploiter comme vivier de sources individuelles, pas comme source de veille.'
+  parser_suggere: playwright
+  min_interval_days: 90
+- nom: Acción Cultural Española (AC/E) — Residencias
+  url_appels: https://www.accioncultural.es/en/residencies
+  url_rss: null
+  domaine: accioncultural.es
+  type: programme
+  lecture: html
+  pertinence: 0.5
+  zone: Espagne (artistes espagnols) vers résidences internationales (NL, BE, BR, AR, FR, UK, MX, KR…)
+  langue: es/en
+  frequence: 1 à 2 appels/mois approx. (section « Open calls » ; ~13 résidences/an)
+  payant: false
+  verdict: reserve
+  raison: Résidences bien dotées (2 500 € + production, logement) mais réservées à la nationalité espagnole ; la
+    page liste les appels en HTML serveur, dates de fenêtre visibles sur la liste, deadline exacte sur la fiche
+    ; appels PICE /en/calls-for-entry s'adressent surtout aux institutions.
+  parser_suggere: deep_html
+  min_interval_days: 7
+- nom: European Textile Network (ETN) — Competitions / Open calls
+  url_appels: https://etn-net.org/competitions.html
+  url_rss: null
+  domaine: etn-net.org
+  type: reseau
+  lecture: html
+  pertinence: 0.9
+  zone: Europe (AT, SI, HU, IT, FI, SK, RO, PT, UK, UA…) + quelques appels US
+  langue: en
+  frequence: ~2 appels/mois (20 entrées sur la page 1 couvrant ~12 mois ; pagination serveur ?page=2…9)
+  payant: false
+  verdict: retenir
+  raison: Agrégateur spécialisé art textile/fibre, deadline dans le titre de chaque entrée (format JJ.MM.AAAA),
+    HTML Contao statique facile à parser, lien vers l'appel original et PDF ; complète Contextile/Fiber Art Fever
+    déjà suivis.
+  parser_suggere: html
+  min_interval_days: 7
+- nom: Biennial Foundation — News
+  url_appels: https://biennialfoundation.org/news/
+  url_rss: https://biennialfoundation.org/feed/
+  domaine: biennialfoundation.org
+  type: agregateur
+  lecture: rss
+  pertinence: 0.6
+  zone: Monde (biennales et triennales)
+  langue: en
+  frequence: ~1 open call/mois (6 open calls entre février et juin 2026 ; le reste = nominations et programmes)
+  payant: false
+  verdict: retenir
+  raison: Flux RSS WordPress valide ; les open calls (biennales, programmes de soutien, directeurs artistiques)
+    se repèrent par le mot-clé « open call » dans le titre, à filtrer car la majorité des items sont des annonces
+    de programme.
+  parser_suggere: rss
+  min_interval_days: 7
+- nom: ésban — École supérieure des beaux-arts de Nîmes
+  url_appels: https://www.esban.fr/actualites
+  url_rss: null
+  domaine: esban.fr
+  type: partenaire
+  lecture: bloque
+  pertinence: 0.2
+  zone: France (Occitanie ; alumni ésban)
+  langue: fr
+  frequence: ~1 appel/an (programme Quilt)
+  payant: false
+  verdict: ecarter
+  raison: Site interdit au fetch (robots_disallowed sur l'accueil et /actualites) ; le seul appel connu (Quilt II,
+    5 000 €, portage Ghost House + Fondation des Artistes) est réservé aux diplômé·es ésban et aucune page d'appels
+    n'a pu être vérifiée.
+  parser_suggere: playwright
+  min_interval_days: 30
+- nom: fund┋it — portail d'appels à projets SHS
+  url_appels: https://fundit.fr/fr/calls
+  url_rss: null
+  domaine: fundit.fr
+  type: agregateur
+  lecture: html
+  pertinence: 0.15
+  zone: France / international (recherche universitaire)
+  langue: fr/en
+  frequence: 367 appels actifs, mais quasi aucun en arts visuels (0 sur les 6 premiers, même avec filtre « arts
+    »)
+  payant: false
+  verdict: ecarter
+  raison: Portail de bourses de recherche en sciences humaines (fellowships postdoctoraux, bibliothèques, fondations)
+    ; échéances affichées en « N jours restants » sans date, « Afficher plus » en JS, pas de filtre arts plastiques
+    exploitable.
+  parser_suggere: playwright
+  min_interval_days: 30
+- nom: Institut français du Japon — agenda culturel (AIR Program Paris)
+  url_appels: https://culture.institutfrancais.jp/fr/event/air-program-26-27
+  url_rss: null
+  domaine: culture.institutfrancais.jp
+  type: partenaire
+  lecture: html
+  pertinence: 0.3
+  zone: Japon (Kansai) vers Paris (Cité internationale des arts)
+  langue: fr/en/ja
+  frequence: ~1 appel/an (clôture juin pour janvier suivant)
+  payant: false
+  verdict: ecarter
+  raison: Un seul appel annuel, réservé aux personnes vivant dans le Kansai (3 000 €, atelier Cité des arts, vols),
+    aujourd'hui clos (12 juin 2026) ; pas de page listant les appels, l'agenda mélange événements et appels.
+  parser_suggere: html
+  min_interval_days: 60
+- nom: ANCA Gallery — Exhibition Callout
+  url_appels: https://www.anca.net.au/callout
+  url_rss: null
+  domaine: anca.net.au
+  type: programme
+  lecture: html
+  pertinence: 0.4
+  zone: Australie (Canberra ; artistes locaux et interstate)
+  langue: en
+  frequence: 1 appel/an (novembre)
+  payant: false
+  verdict: reserve
+  raison: Appel annuel gratuit à propositions d'exposition (commission 20 % sur ventes, transport à charge) pour
+    un espace de 75 m² à Canberra ; date limite seulement dans le PDF Squarespace, ouvert aux artistes australiens
+    de facto, hors zone FR/EN/ES prioritaire.
+  parser_suggere: deep_html
+  min_interval_days: 30
+- nom: HIAP — Helsinki International Artist Programme — Open calls
+  url_appels: https://www.hiap.fi/open-calls/
+  url_rss: https://www.hiap.fi/feed/
+  domaine: hiap.fi
+  type: programme
+  lecture: playwright
+  pertinence: 0.8
+  zone: Finlande (Helsinki) ; appels internationaux et appels réservés aux artistes basés en Finlande
+  langue: en
+  frequence: 3 à 5 appels/an (2 appels Finlande-based clos 14/09/2026, Learning Materials international clos 26/10/2026)
+  payant: false
+  verdict: retenir
+  raison: Résidences internationales dotées (ex. 1 350 €/mois + voyage + matériel) ; la liste /open-calls/ exige
+    JavaScript (« JavaScript is required for this content ») mais les fiches /open-call/<slug>/ sont en HTML et
+    le flux RSS (news) annonce les appels ; aucun appel ouvert au 18/11/2026.
+  parser_suggere: playwright
+  min_interval_days: 14
+vague2_couche2_a_explorer:
+- nom: Kaunas Biennial (Kauno Bienalė) — Magic Carpets Open Call
+  url_appels: https://bienale.lt/2027/en/uncategorized/magic-carpets-open-call/
+  url_site: http://biennial.lt/
+  type: partenaire
+  trouve_via: magiccarpets.eu
+  couche: 2
+  pourquoi: Membre coordinateur de Magic Carpets ; sa page relaie chaque année les appels résidences du réseau (Riga,
+    Wrocław, Guimarães en 2026) en HTML lisible, contournant le JS de magiccarpets.eu.
+  deja_suivi: false
+- nom: Wrocław Institute of Culture
+  url_appels: https://magiccarpets.eu/open-call-for-artistic-residency-in-wroclaw/
+  url_site: https://instytutkultury.pl/
+  type: partenaire
+  trouve_via: magiccarpets.eu
+  couche: 2
+  pourquoi: Membre Magic Carpets publiant une résidence de recherche de 4 semaines (appel 2026 clos le 15/03/2026)
+    ; institution culturelle municipale avec d'autres programmes de résidence.
+  deja_suivi: false
+- nom: Unfinished Art Space (Malte)
+  url_appels: null
+  url_site: https://www.unfinishedartspace.org/
+  type: partenaire
+  trouve_via: magiccarpets.eu
+  couche: 2
+  pourquoi: Membre Magic Carpets, espace d'art contemporain nomade à Malte accueillant des résidences d'artistes
+    émergents.
+  deja_suivi: false
+- nom: Latitudo Art Projects (Rome)
+  url_appels: null
+  url_site: https://www.latitudo.net/en/art-projects-2/
+  type: partenaire
+  trouve_via: magiccarpets.eu
+  couche: 2
+  pourquoi: Membre Magic Carpets, structure romaine d'art public et de résidences.
+  deja_suivi: false
+- nom: Fondation François Schneider — Talents Contemporains
+  url_appels: https://www.fondationfrancoisschneider.org/concours-talents-contemporains/concours-talents-contemporains-leau-wattwiller/
+  url_site: https://www.fondationfrancoisschneider.org/
+  type: programme
+  trouve_via: artquest.org.uk
+  couche: 2
+  pourquoi: Concours annuel français pour plasticien·nes (7 x 15 000 €) repéré via Artquest ; source directe francophone
+    à suivre.
+  deja_suivi: false
+- nom: Cove Park — Residencies
+  url_appels: https://covepark.org/awarded-residencies-2027-2028/
+  url_site: https://covepark.org/
+  type: programme
+  trouve_via: artquest.org.uk
+  couche: 2
+  pourquoi: Centre de résidences écossais entièrement financé (775 £/semaine), appel biennal ouvert à l'international.
+  deja_suivi: false
+- nom: Le Bal (Paris)
+  url_appels: null
+  url_site: https://www.le-bal.fr/
+  type: partenaire
+  trouve_via: ensp-arles.com
+  couche: 2
+  pourquoi: Partenaire de l'ENSP ; lieu d'exposition image/photo publiant des appels (prix, bourses de production)
+    pour jeunes artistes.
+  deja_suivi: false
+- nom: Les Rencontres d'Arles
+  url_appels: null
+  url_site: https://www.rencontres-arles.com/
+  type: partenaire
+  trouve_via: ensp-arles.com
+  couche: 2
+  pourquoi: Partenaire de l'ENSP ; prix et appels annuels (Prix Découverte, Luma Rencontres Dummy Book Award) pour
+    photographes.
+  deja_suivi: false
+- nom: Fondation d'entreprise Neuflize OBC
+  url_appels: null
+  url_site: https://www.neuflizeobc.fr/fr/banque-des-patrimoines/notre-raison-d-etre/mecenat.html
+  type: partenaire
+  trouve_via: ensp-arles.com
+  couche: 2
+  pourquoi: Mécène de l'ENSP, soutient la photographie contemporaine (bourses, prix) ; à vérifier si des appels
+    directs existent.
+  deja_suivi: false
+- nom: Fondation Bettencourt Schueller
+  url_appels: null
+  url_site: https://www.fondationbs.org/
+  type: partenaire
+  trouve_via: villakujoyama.jp
+  couche: 2
+  pourquoi: Mécène principal de la Villa Kujoyama ; prix et programmes propres (métiers d'art) ; pertinence modérée
+    pour plasticien·nes.
+  deja_suivi: false
+- nom: Réseau Art Actuel (RCAAQ) — Appels de dossiers
+  url_appels: https://reseauartactuel.org/offres-et-appels/appels-de-dossiers/
+  url_site: https://reseauartactuel.org/
+  type: reseau
+  trouve_via: biennaledulin.com
+  couche: 2
+  pourquoi: Regroupement des centres d'artistes autogérés du Québec ; rubrique « Offres et appels » avec appels
+    de dossiers (ex. appel à projets arts numériques, maison Marcel-Saint-Pierre, Laval, publié le 13 novembre 2026).
+  deja_suivi: false
+- nom: CALQ — Conseil des arts et des lettres du Québec
+  url_appels: null
+  url_site: https://www.calq.gouv.qc.ca/
+  type: programme
+  trouve_via: biennaledulin.com
+  couche: 2
+  pourquoi: Agence québécoise de bourses aux artistes ; page des programmes/bourses à localiser.
+  deja_suivi: false
+- nom: Fondation Culture et Diversité
+  url_appels: null
+  url_site: https://www.fondationcultureetdiversite.org/
+  type: partenaire
+  trouve_via: lavillette.com
+  couche: 2
+  pourquoi: Partenaire de 100% L'EXPO ; programmes et bourses pour jeunes artistes à vérifier.
+  deja_suivi: false
+- nom: Villa Hégra (AlUla)
+  url_appels: null
+  url_site: https://www.villahegra.org/fr/
+  type: programme
+  trouve_via: vivavilla.info
+  couche: 2
+  pourquoi: Résidence franco-saoudienne membre invitée de Viva Villa 2026-2027 ; appels à résidence à localiser.
+  deja_suivi: false
+- nom: Poush
+  url_appels: null
+  url_site: https://poush.fr/fr
+  type: programme
+  trouve_via: vivavilla.info
+  couche: 2
+  pourquoi: Incubateur et résidence d'artistes (Aubervilliers), coproducteur du fonds de soutien Viva Villa 2026-2027
+    ; appels à candidatures ateliers à vérifier.
+  deja_suivi: false
+- nom: Ma Le Réseau (réseau des maisons des arts)
+  url_appels: null
+  url_site: https://www.ma-lereseau.org/
+  type: reseau
+  trouve_via: vivavilla.info
+  couche: 2
+  pourquoi: Réseau cité en coproduction du fonds de soutien ; relais potentiel d'appels à résidence.
+  deja_suivi: false
+- nom: CNEAI
+  url_appels: null
+  url_site: https://cneai.com/
+  type: programme
+  trouve_via: vivavilla.info
+  couche: 2
+  pourquoi: Centre national édition art image, coproducteur du fonds de soutien ; appels à résidence/édition possibles.
+  deja_suivi: false
+- nom: Artist in Residence KOBE (AiRK)
+  url_appels: null
+  url_site: https://culture360.asef.org/resources/artist-in-residence-kobe-airk/
+  type: programme
+  trouve_via: culture360.asef.org
+  couche: 2
+  pourquoi: Résidence japonaise référencée dans l'annuaire « Organisations » de culture360 ; site propre et page
+    d'appel à localiser.
+  deja_suivi: false
+- nom: ARCHAIVE (projet Europe créative)
+  url_appels: https://archaive.eu/news/international-open-call-for-artists/
+  url_site: null
+  type: programme
+  trouve_via: culture360.asef.org
+  couche: 2
+  pourquoi: Source originale de la résidence IA et mémoire culturelle (cachet 5 000 €) ; appels répétés probables
+    jusqu'en 2027.
+  deja_suivi: false
+- nom: 2200 (Suisse)
+  url_appels: null
+  url_site: https://2200.ch
+  type: programme
+  trouve_via: culture360.asef.org
+  couche: 2
+  pourquoi: Résidences in situ pour artistes émergents sur trois sites suisses, candidatures glissantes.
+  deja_suivi: false
+- nom: Karne Kunst (Bardo Projektraum)
+  url_appels: https://www.karnekunst.com/open-call-bardo-curatorial-residency-2027/
+  url_site: https://www.karnekunst.com
+  type: programme
+  trouve_via: themesh.art
+  couche: 2
+  pourquoi: Organisateur berlinois de la Bardo Curatorial Residency ; résidence payante (600 €/mois), à classer
+    en réserve.
+  deja_suivi: false
+- nom: Arteles Creative Center
+  url_appels: null
+  url_site: https://www.arteles.org
+  type: programme
+  trouve_via: themesh.art
+  couche: 2
+  pourquoi: Résidence finlandaise avec plusieurs programmes thématiques par an ; page d'appels à localiser sur le
+    site.
+  deja_suivi: false
+- nom: Rogue Artists' Studios (Manchester)
+  url_appels: null
+  url_site: https://www.rogueartistsstudios.co.uk
+  type: partenaire
+  trouve_via: centrocentro.org
+  couche: 2
+  pourquoi: Partenaire de la première résidence internationale CentroCentro (16 nov.-15 déc. 2026) ; grand ensemble
+    d'ateliers d'artistes à Manchester susceptible de publier ses propres appels (URL du site déduite du nom, non
+    vérifiée).
+  deja_suivi: false
+- nom: Académie des Beaux-Arts – programmes de résidence
+  url_appels: null
+  url_site: https://www.academiedesbeauxarts.fr/
+  type: partenaire
+  trouve_via: villamedici.it
+  couche: 2
+  pourquoi: Partenaire « programmes de résidence » de la Villa Médicis ; l'Académie gère ses propres prix et résidences
+    (Casa de Velázquez hors périmètre, prix de dessin, photographie, etc.) pour plasticien·nes.
+  deja_suivi: false
+- nom: Fondation Louis Roederer
+  url_appels: null
+  url_site: https://www.fondation-louisroederer.com/en/
+  type: partenaire
+  trouve_via: villamedici.it
+  couche: 2
+  pourquoi: Partenaire « programmes de résidence » de la Villa Médicis ; fondation active en photographie contemporaine
+    (prix, bourses), à vérifier pour des appels ouverts.
+  deja_suivi: false
+- nom: Fondation Jean-Luc Lagardère – bourses
+  url_appels: https://www.lagardere.com/fondation/page/les-bourses-de-la-fondation-jean-luc-lagardere/
+  url_site: https://www.lagardere.com/fondation/
+  type: programme
+  trouve_via: villamedici.it
+  couche: 2
+  pourquoi: Les boursiers de la Fondation Lagardère accèdent à la Résidence Médicis Lagardère (1 à 4 semaines) ;
+    la bourse elle-même est l'appel annuel à surveiller (toutes disciplines, dont photographie et arts visuels).
+  deja_suivi: false
+- nom: Baltic Art Center (BAC), Visby
+  url_appels: null
+  url_site: https://www.balticartcenter.com
+  type: partenaire
+  trouve_via: swanresidencynetwork.com
+  couche: 2
+  pourquoi: Membre SWAN catégorie Art ; centre de résidence d'art contemporain reconnu sur Gotland, publie ponctuellement
+    des open calls internationaux.
+  deja_suivi: false
+- nom: Art Lab Gnesta
+  url_appels: null
+  url_site: https://www.artlabgnesta.se
+  type: partenaire
+  trouve_via: swanresidencynetwork.com
+  couche: 2
+  pourquoi: Membre SWAN catégorie Art ; centre d'art et résidence à Gnesta (Suède) avec appels internationaux ponctuels.
+  deja_suivi: false
+- nom: AIR Värmland (Region Värmland)
+  url_appels: null
+  url_site: https://www.regionvarmland.se/regionvarmland/kultur/kulturutveckling/bild-och-form/air-varmland
+  type: programme
+  trouve_via: swanresidencynetwork.com
+  couche: 2
+  pourquoi: Membre SWAN catégorie Art ; programme régional de résidences arts visuels sur plusieurs communes du
+    Värmland, appels publics réguliers.
+  deja_suivi: false
+- nom: Gerlesborgsskolan
+  url_appels: null
+  url_site: https://www.gerlesborgsskolan.se/
+  type: partenaire
+  trouve_via: swanresidencynetwork.com
+  couche: 2
+  pourquoi: Membre SWAN catégorie Art ; école d'art et résidence sur la côte ouest suédoise, à vérifier pour des
+    appels internationaux.
+  deja_suivi: false
+- nom: Make Eindhoven (résidences design/art, NL)
+  url_appels: null
+  url_site: https://www.accioncultural.es/en/make-eindhoven-residency-2027
+  type: programme
+  trouve_via: accioncultural.es
+  couche: 2
+  pourquoi: Partenaire d'accueil de l'AC/E ; le formulaire de candidature est hébergé sur le site de Make Eindhoven,
+    qui pourrait publier d'autres appels ouverts hors nationalité espagnole.
+  deja_suivi: false
+- nom: Gasworks (Londres) — résidences internationales
+  url_appels: null
+  url_site: https://www.gasworks.org.uk
+  type: programme
+  trouve_via: accioncultural.es
+  couche: 2
+  pourquoi: Partenaire d'accueil AC/E (lauréate Gasworks 2026) ; programme de résidences internationales reconnu,
+    appels par pays partenaires.
+  deja_suivi: false
+- nom: EKWC — European Ceramic Work Centre (Oisterwijk, NL)
+  url_appels: null
+  url_site: https://ekwc.nl
+  type: programme
+  trouve_via: accioncultural.es
+  couche: 2
+  pourquoi: Partenaire d'accueil AC/E (EKWC 2026) ; centre de résidence céramique à appels réguliers pour plasticien·nes.
+  deja_suivi: false
+- nom: Domaine de Boisbuchet (Lessac, FR)
+  url_appels: null
+  url_site: https://www.boisbuchet.org
+  type: programme
+  trouve_via: accioncultural.es
+  couche: 2
+  pourquoi: Partenaire d'accueil AC/E (résidence Boisbuchet 2026) ; résidences art/design en France.
+  deja_suivi: false
+- nom: Südtiroler Künstlerbund (SKB Artes) — Ausschreibungen/Wettbewerbe
+  url_appels: https://www.kuenstlerbund.org/de/info/ausschreibungen-wettbewerbe-2
+  url_site: https://www.kuenstlerbund.org
+  type: reseau
+  trouve_via: etn-net.org
+  couche: 2
+  pourquoi: Page dédiée aux appels (Open Call Textil, Kaiser:in of the Year, Rookie of the Year, archives) ; association
+    d'artistes du Tyrol du Sud, DE/IT.
+  deja_suivi: false
+- nom: BIEN Textile Art Biennial / Layer (Kranj, SI)
+  url_appels: https://layer.si/bien/en/kr/open-call-2027-studenti/
+  url_site: https://layer.si/bien/en/
+  type: programme
+  trouve_via: etn-net.org
+  couche: 2
+  pourquoi: Biennale textile slovène avec open calls distincts (artistes, étudiants, résidence Kranj) ; page open
+    call 2027 artistes à vérifier.
+  deja_suivi: false
+- nom: Textile Arts Triennial Hungary (Cultural Foundation for the Textile Arts)
+  url_appels: https://textileartstriennialhungary.com/2025/08/25/felhivas-call-for-entries-2027/
+  url_site: https://textileartstriennialhungary.com
+  type: programme
+  trouve_via: etn-net.org
+  couche: 2
+  pourquoi: Triennale internationale (Szombathely) avec call for entries ; fréquence triennale, à suivre à faible
+    intervalle.
+  deja_suivi: false
+- nom: Textiles Zentrum Haslach (AT)
+  url_appels: null
+  url_site: https://www.textiles-zentrum-haslach.at
+  type: partenaire
+  trouve_via: etn-net.org
+  couche: 2
+  pourquoi: Hôte de l'ETN, résidence d'artistes annuelle (deadline mars) et marché des tisserands ; appels relayés
+    sur etn-net.org.
+  deja_suivi: false
+- nom: World Biennial Forum
+  url_appels: null
+  url_site: https://biennialforum.org
+  type: reseau
+  trouve_via: biennialfoundation.org
+  couche: 2
+  pourquoi: Réseau lié à la Biennial Foundation (navigation « Network ») ; faible probabilité d'appels aux artistes,
+    à vérifier.
+  deja_suivi: false
+- nom: Frame Contemporary Art Finland
+  url_appels: null
+  url_site: https://frame-finland.fi/en/
+  type: partenaire
+  trouve_via: hiap.fi
+  couche: 2
+  pourquoi: Agence finlandaise des arts visuels, partenaire HIAP ; publie des bourses de mobilité et appels (souvent
+    réservés aux artistes basés en Finlande).
+  deja_suivi: false
+- nom: Temple Bar Gallery + Studios (Dublin)
+  url_appels: null
+  url_site: http://www.templebargallery.com/
+  type: programme
+  trouve_via: hiap.fi
+  couche: 2
+  pourquoi: Échange de résidences internationales avec HIAP (2027) ; studios et résidences à Dublin avec appels
+    ouverts.
+  deja_suivi: false
+- nom: Tokyo Arts and Space (TOKAS)
+  url_appels: null
+  url_site: http://www.tokyoartsandspace.jp/english/index.html
+  type: programme
+  trouve_via: hiap.fi
+  couche: 2
+  pourquoi: Partenaire d'échange HIAP ; programme de résidences internationales à Tokyo avec open calls annuels.
+  deja_suivi: false
+- nom: Nordic Culture Point (Nordisk kulturkontakt)
+  url_appels: null
+  url_site: https://www.nkk.org/en/
+  type: programme
+  trouve_via: hiap.fi
+  couche: 2
+  pourquoi: Soutien HIAP ; programmes de mobilité et de résidence nordiques-baltes avec plusieurs sessions d'appels
+    par an.
+  deja_suivi: false
+- nom: Kyoto Art Center
+  url_appels: null
+  url_site: https://www.kac.or.jp
+  type: partenaire
+  trouve_via: culture.institutfrancais.jp
+  couche: 2
+  pourquoi: Co-organisateur de l'AIR Program Paris ; propose aussi son propre programme de résidences à Kyoto avec
+    appels internationaux.
+  deja_suivi: false

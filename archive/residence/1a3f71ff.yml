@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026
 fetched_at: '2026-05-22T14:54:17+00:00'
 score: 4
-status: indetermine
+status: expiree
 opportunite:
   nom: Residencias trimestrales para proyectos sobre el medioambiente 2026
   organisme: Matadero Madrid
@@ -12,8 +12,8 @@ opportunite:
     país: España
     territorio: null
   nom_fr: Résidences trimestrielles pour des projets sur l'environnement 2026
-  affichage_titre: Residencias trimestrales para proyectos sobre el medioambiente
-    2026 [Résidences trimestrielles pour des projets sur l'environnement 2026]
+  affichage_titre: Residencias trimestrales para proyectos sobre el medioambiente 2026 [Résidences trimestrielles pour des
+    projets sur l'environnement 2026]
 candidatura:
   date_limite: '2026-04-07'
   date_limite_precision: day
@@ -48,31 +48,36 @@ partenaires:
 - Matadero Madrid
 _meta:
   extracted_confidence: 0.85
-  extracted_notes: 'Convocatoria cerrada (estado: resuelta). Información extraída
-    de fuente oficial. Algunos detalles clave (montante exacto de remuneración, alojamiento,
-    cobertura de viajes) no especificados en el texto.'
+  extracted_notes: 'Convocatoria cerrada (estado: resuelta). Información extraída de fuente oficial. Algunos detalles clave
+    (montante exacto de remuneración, alojamiento, cobertura de viajes) no especificados en el texto.'
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T14:54:17+00:00'
   source_lang: es
-  resume_fr: Matadero Madrid lance une convocation pour 8 résidences artistiques destinées
-    à des artistes visuels résidant en Espagne, du 15 septembre au 15 décembre 2026.
-    Le programme offre un espace de travail, des ressources économiques et un accompagnement
-    professionnel. Au minimum 4 résidents doivent être basés à Madrid, jusqu'à 4 artistes
-    peuvent provenir du reste de l'Espagne. Les inscriptions sont ouvertes jusqu'au
-    7 avril.
+  resume_fr: Matadero Madrid lance une convocation pour 8 résidences artistiques destinées à des artistes visuels résidant
+    en Espagne, du 15 septembre au 15 décembre 2026. Le programme offre un espace de travail, des ressources économiques et
+    un accompagnement professionnel. Au minimum 4 résidents doivent être basés à Madrid, jusqu'à 4 artistes peuvent provenir
+    du reste de l'Espagne. Les inscriptions sont ouvertes jusqu'au 7 avril.
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: expiree
+    confiance: 0.95
+    preuve:
+      url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf
+      citation: Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026.
+    notes: Appel clos le 07/04/2026, marqué « Resueltas » sur le site, résolution publiée en mai 2026. Troisième édition annuelle
+      (appel publié en février) ; aucune édition 2027 publiée au 18/11/2026. Doublon de 56d7154d et 96722c2c (même appel,
+      trois documents).
 analyse:
-  synthese: 'Programa de residencias artísticas de 3 meses (15 septiembre - 15 diciembre
-    2026) en Matadero Madrid destinado a 8 artistas visuales residentes en España,
-    con al menos 4 de la Comunidad de Madrid y hasta 4 del resto de España. Ofrece
-    espacio de trabajo, recursos económicos, herramientas, seguimiento profesional,
-    acompañamiento institucional y visibilidad. Fecha límite de inscripción: 7 abril
-    2026.'
-  pour_qui: Artistas visuales y creadores contemporáneos residentes en España en cualquier
-    fase de su desarrollo profesional.
+  synthese: 'Programa de residencias artísticas de 3 meses (15 septiembre - 15 diciembre 2026) en Matadero Madrid destinado
+    a 8 artistas visuales residentes en España, con al menos 4 de la Comunidad de Madrid y hasta 4 del resto de España. Ofrece
+    espacio de trabajo, recursos económicos, herramientas, seguimiento profesional, acompañamiento institucional y visibilidad.
+    Fecha límite de inscripción: 7 abril 2026.'
+  pour_qui: Artistas visuales y creadores contemporáneos residentes en España en cualquier fase de su desarrollo profesional.
 a_savoir:
 - 'Convocatoria ya cerrada (estado: resuelta)'
 - Cantidad específica de remuneración no especificada
@@ -149,3 +154,5 @@ _interne_affinite:
   match: false
   signaux: []
   bonus_score: 0
+candidature:
+  url_candidature: https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026

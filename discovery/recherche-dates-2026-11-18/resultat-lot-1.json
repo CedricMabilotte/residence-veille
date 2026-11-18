@@ -1,0 +1,239 @@
+{
+ "lot": 1,
+ "fiches": [
+  {
+   "uid": "ed8b9099",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad",
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf",
+    "citation": "Proposals for projects and collaborators may be submitted until 14 June 2026 at 11:59pm CEST."
+   },
+   "notes": "Appel clos le 14/06/2026 ; la résolution (lauréats) est publiée depuis août 2026 et le laboratoire se tient du 12 au 25 novembre 2026. Les LAB sont annuels depuis 2022 (appel à projets vers avril-juin), mais aucun LAB 6 n'est annoncé. Ce n'est pas un prix mais un laboratoire collaboratif : type à corriger si possible."
+  },
+  {
+   "uid": "f52a745f",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.medialab-matadero.es/convocatorias/convocatoria-de-proyectos-para-el-programa-investigacion-situada-25-26",
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.medialab-matadero.es/sites/default/files/2025-07/BASES%20PROY%20INVESTIGACION%2025-26_EN.pdf",
+    "citation": "To submit the application, the following online form must be properly completed before 17 September 2025 at 23:59 CET."
+   },
+   "notes": "Édition 2025-2026 close le 17/09/2025. L'édition suivante (Investigación Situada 2027) a déjà été publiée en juillet 2026 et close le 27/09/2026 (https://www.mataderomadrid.org/convocatorias/convocatoria-de-proyectos-de-investigacion-situada-2027). Appel annuel, prochaine ouverture probable été 2027, non annoncée."
+  },
+  {
+   "uid": "1a3f71ff",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+   "confiance": 0.95,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf",
+    "citation": "Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026."
+   },
+   "notes": "Appel clos le 07/04/2026, marqué « Resueltas » sur le site, résolution publiée en mai 2026. Troisième édition annuelle (appel publié en février) ; aucune édition 2027 publiée au 18/11/2026. Doublon de 56d7154d et 96722c2c (même appel, trois documents)."
+  },
+  {
+   "uid": "56d7154d",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+   "confiance": 0.95,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+    "citation": "Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026."
+   },
+   "notes": "La source est la résolution (liste des artistes sélectionnés) de l'appel Medioambiente 2026, pas l'appel lui-même. L'appel correspondant est clos depuis le 07/04/2026 (fiche 1a3f71ff). Fiche à fusionner/supprimer comme doublon."
+  },
+  {
+   "uid": "6ba8743c",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+    "citation": "Hasta 15 Octubre 2025 a las 14h."
+   },
+   "notes": "La source est la résolution du 27/11/2025 listant les sélectionnés des résidences artistes visuels 2026 (semestrales et trimestrales), pas les bases. L'appel correspondant est clos depuis le 15/10/2025 ; l'édition 2027 (10 résidences, clôture 11/09/2026) est elle aussi déjà résolue. Doublon des fiches c9b469ac et e3eef2e1."
+  },
+  {
+   "uid": "96722c2c",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026",
+   "confiance": 0.95,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf",
+    "citation": "Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026."
+   },
+   "notes": "Bases complètes de l'appel Medioambiente 2026 : clôture 07/04/2026, résidence du 15/09 au 15/12/2026, appel résolu. Même appel que 1a3f71ff et 56d7154d ; conserver une seule fiche. Édition 2027 non annoncée (attendue février 2027 si le rythme annuel se maintient)."
+  },
+  {
+   "uid": "c9b469ac",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026",
+    "citation": "Hasta 15 Octubre 2025 a las 14h."
+   },
+   "notes": "Appel 2026 clos le 15/10/2025 et résolu (résolution 27/11/2025). L'édition 2027 regroupe désormais semestrales et trimestrales dans un appel unique « Residencias para artistas visuales 2027 » (clôture 11/09/2026, déjà résolu le 11/2026). La prochaine ouverture (édition 2028) n'est pas annoncée ; rythme observé : publication en juillet, clôture en septembre."
+  },
+  {
+   "uid": "e3eef2e1",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-artistas-visuales-2026",
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-artistas-visuales-2026",
+    "citation": "Hasta 15 Octubre 2025 a las 14h."
+   },
+   "notes": "Appel 2026 clos le 15/10/2025 et résolu. L'édition 2027 (appel unique « Residencias para artistas visuales 2027 », clôture 11/09/2026, résolution publiée novembre 2026 : https://www.mataderomadrid.org/convocatorias/residencias-para-artistas-visuales-2027) est elle aussi close. Édition 2028 non annoncée."
+  },
+  {
+   "uid": "ea63cf12",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://www.mataderomadrid.org/convocatorias/residencia-para-proyectos-audiovisuales-en-fase-de-desarrollo",
+   "confiance": 0.85,
+   "preuve": {
+    "url": "https://www.mataderomadrid.org/convocatorias/residencia-para-proyectos-audiovisuales-en-fase-de-desarrollo",
+    "citation": "Del 15 de abril hasta el 2 de junio de 2026 las 14h (GMT+2)"
+   },
+   "notes": "Appel Cineteca x CRA clos le 02/06/2026, marqué « Resueltas », résolution publiée en juillet 2026 (residencia du 01/10 au 30/11/2026). La page liste présente une date contradictoire (« hasta 27 abril »), la fiche détaillée donne le 2 juin. Quatrième édition annuelle ; édition 2027 non annoncée. Cible audiovisuelle, marginale pour une veille arts plastiques."
+  }
+ ],
+ "rebonds": [
+  {
+   "nom": "Matadero Madrid — Convocatorias",
+   "url_appels": "https://www.mataderomadrid.org/convocatorias",
+   "url_site": "https://www.mataderomadrid.org",
+   "type": "programme",
+   "deja_suivi": true,
+   "trouve_via": "1a3f71ff",
+   "pourquoi": "Page centrale de tous les appels Matadero (résidences artistes visuels, medioambiente, arte y educación, Cineteca, musique) ; 8 par page, 5 pages, filtres Activas/Cerradas/Resueltas, version EN sur /en/calls ; 6 à 10 appels par an.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Medialab Matadero — Convocatorias",
+   "url_appels": "https://www.medialab-matadero.es/convocatorias",
+   "url_site": "https://www.medialab-matadero.es",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "ed8b9099",
+   "pourquoi": "Liste propre des appels Medialab (LAB projets/collaborateurs, Investigación Situada) avec date de fin et statut « Plazo cerrado/abierto » ; 2 à 3 appels par an, art-science-technologie, ouverts à l'international ; version EN sur /en/convocatorias.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Intermediae — Convocatorias",
+   "url_appels": "https://www.intermediae.es/convocatorias",
+   "url_site": "https://www.intermediae.es",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "Matadero Madrid (centre de résidences)",
+   "pourquoi": "Appels annuels « Intermediae Distribuido » (projets culturels participatifs, Madrid) et appels ponctuels de vidéo-art ; faible volume (1 à 2 par an), peu prioritaire.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Comunidad de Madrid — Ayudas, concursos y selección de proyectos de artes visuales",
+   "url_appels": "https://www.comunidad.madrid/node/76471",
+   "url_site": "https://www.comunidad.madrid",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "recherche web depuis les fiches Matadero (couche 2)",
+   "pourquoi": "Page régionale regroupant les ayudas a la creación en artes visuales (5 000-15 000 €), Circuitos de Artes Plásticas (jeunes artistes), Fotocanal, Fotolibro<40, Se busca comisario/a ; plusieurs appels par an pour artistes individuels résidant à Madrid.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Acción Cultural Española (AC/E) — Residencias et PICE",
+   "url_appels": "https://www.accioncultural.es/en/residencies",
+   "url_site": "https://www.accioncultural.es",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "recherche web agrégateurs espagnols (couche 2)",
+   "pourquoi": "Résidences internationales pour artistes espagnols (Make Eindhoven, MALBA REM, CAPACETE, WIELS…) publiées « au fil de l'eau » avec fenêtres de candidature, plus appels PICE (réservés aux institutions) sur /en/calls-for-entry ; 5 à 10 fenêtres par an.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Recursos Culturales — Convocatorias y oportunidades",
+   "url_appels": "https://www.recursosculturales.com/convocatorias-y-oportunidades/",
+   "url_site": "https://www.recursosculturales.com",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "recherche web agrégateurs espagnols (couche 2)",
+   "pourquoi": "Agrégateur hispanophone (Espagne + Amérique latine) de becas, premios, residencias, festivals toutes disciplines ; plusieurs billets par semaine ; sous-section concours-prix sur /secciones/concursos-premios/ ; WordPress donc flux /feed/ probable.",
+   "parser_suggere": "rss"
+  },
+  {
+   "nom": "mesh (themesh.art) — Oportunidades",
+   "url_appels": "https://themesh.art/convocatorias",
+   "url_site": "https://themesh.art",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "recherche web agrégateurs espagnols (couche 2)",
+   "pourquoi": "Agrégateur bilingue ES/EN à dominante Mexique/Amérique latine mais relayant des résidences internationales (Arteles, Bardo, Interwoven) ; 37 pages, publication quasi quotidienne partiellement automatisée (« mesh-bot ») ; WordPress, flux /feed/ probable.",
+   "parser_suggere": "rss"
+  },
+  {
+   "nom": "CentroCentro (Ayuntamiento de Madrid) — programme de résidences",
+   "url_appels": "https://diario.madrid.es/blog/notas-de-prensa/centrocentro-lanza-su-primer-programa-de-residencias-artisticas-para-impulsar-la-creacion-contemporanea/",
+   "url_site": "https://www.centrocentro.org",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "Diario de Madrid (couche 2)",
+   "pourquoi": "Nouveau programme (1re édition sept.-oct. 2026) : résidences d'un mois à l'étranger pour artistes plasticiens de la Comunidad de Madrid avec 8 ans d'expérience ; page d'appels propre non localisée, à repérer sur centrocentro.org.",
+   "parser_suggere": "playwright"
+  },
+  {
+   "nom": "Diario de Madrid — notes de presse culture",
+   "url_appels": "https://diario.madrid.es/blog/notas-de-prensa/",
+   "url_site": "https://diario.madrid.es",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "recherche web (couche 2)",
+   "pourquoi": "Canal officiel de la Ville de Madrid qui annonce les ayudas a la creación y movilidad (3,8 M€ 2026-2027), les appels CentroCentro, Matadero, musique émergente ; bruit élevé (toutes thématiques municipales), filtrer sur « convocatoria » ; WordPress donc flux RSS.",
+   "parser_suggere": "rss"
+  }
+ ],
+ "journal": [
+  "Les 9 fiches concernent toutes Matadero Madrid / Medialab Matadero ; 3 d'entre elles (1a3f71ff, 56d7154d, 96722c2c) décrivent le même appel Medioambiente 2026 et 3 autres (6ba8743c, c9b469ac, e3eef2e1) les résidences artistes visuels 2026 : six doublons à fusionner.",
+  "Tous les PDF de bases ont été lus sans difficulté via WebFetch (les erreurs « page illisible » du recheck tiennent au script, pas aux sources). Les deux résolutions (56d7154d, 6ba8743c) sont des listes de lauréats, classées pas_un_appel.",
+  "Aucun appel Matadero actif au 18/11/2026 : le filtre status_announcement:active renvoie « Su búsqueda no obtuvo ningún resultado ». Les dates affichées « Abierta » sur la liste sont déjà passées ; la page liste contient des incohérences de dates (Medioambiente 20 fév. vs 7 avril, Cineteca 27 avril vs 2 juin) : se fier aux bases PDF.",
+  "Rythme observé Matadero, utile pour la veille : artistes visuels (appel unique 2027) publié juillet / clos mi-septembre ; medioambiente publié février / clos début avril ; Cineteca avril-juin ; LAB Medialab avril-juin ; Investigación Situada juillet-septembre.",
+  "Rebonds : pas de page partenaires/réseau sur mataderomadrid.org ni medialab-matadero.es (seuls liens vers les centres frères et le Ayuntamiento). Couche 2 obtenue par recherche web : Comunidad de Madrid, AC/E, Recursos Culturales, mesh, CentroCentro, Diario de Madrid. hablarenarte.com visité : pas de page d'appels, écarté. Temps total ~25 minutes."
+ ]
+}

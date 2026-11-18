@@ -3,19 +3,17 @@ type: prix
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf
 fetched_at: '2026-05-21T11:08:03+00:00'
 score: 4
-status: indetermine
+status: expiree
 opportunite:
-  nom: OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH
-    COLLABORATIVE PROTOTYPING LABORATORY
+  nom: OPEN CALL FOR PROJECTS AND COLLABORATORS FOR THE LAB 5 THE MECHANICS OF TRUTH COLLABORATIVE PROTOTYPING LABORATORY
   organisme: Medialab Matadero
   lieu:
     ville: Madrid
     pays: Espagne
-  nom_fr: CADRE RÉGLEMENTAIRE POUR L'APPEL OUVERT À PROJETS ET COLLABORATEURS DU LAB
-    5 LES MÉCANISMES DE LA VÉRITÉ, LABORATOIRE DE PROTOTYPAGE COLLABORATIF
-  affichage_titre: REGULATORY FRAMEWORK [CADRE RÉGLEMENTAIRE POUR L'APPEL OUVERT À
-    PROJETS ET COLLABORATEURS DU LAB 5 LES MÉCANISMES DE LA VÉRITÉ, LABORATOIRE DE
-    PROTOTYPAGE COLLABORATIF]
+  nom_fr: CADRE RÉGLEMENTAIRE POUR L'APPEL OUVERT À PROJETS ET COLLABORATEURS DU LAB 5 LES MÉCANISMES DE LA VÉRITÉ, LABORATOIRE
+    DE PROTOTYPAGE COLLABORATIF
+  affichage_titre: REGULATORY FRAMEWORK [CADRE RÉGLEMENTAIRE POUR L'APPEL OUVERT À PROJETS ET COLLABORATEURS DU LAB 5 LES
+    MÉCANISMES DE LA VÉRITÉ, LABORATOIRE DE PROTOTYPAGE COLLABORATIF]
 candidature:
   date_limite: null
   date_limite_precision: null
@@ -26,7 +24,7 @@ candidature:
     montant: null
     devise: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://www.mataderomadrid.org/convocatorias/convocatoria-lab-5-la-mecanica-de-la-verdad
 eligibilite:
   disciplines:
   - design
@@ -70,16 +68,13 @@ conditions_prix:
 jury_public: null
 partenaires: null
 analyse:
-  synthese: LAB 5 The Mechanics of Truth est un laboratoire de prototypage collaboratif
-    intensif de 2 semaines (12-25 novembre 2026) organisé par Medialab Matadero, acceptant
-    5 projets et 20 collaborateurs maximum. L'appel est ouvert mondialement à toute
-    discipline, sans restriction de nationalité ni de niveau de qualification. Les
-    participants développent collaborativement des projets explorant comment les technologies
-    façonnent la réalité partagée et l'impact démocratique. Les résultats seront présentés
-    lors du festival OpenLAB (26-28 novembre 2026).
-  pour_qui: Individus majeurs de toute discipline et provenance géographique possédant
-    un niveau d'anglais moyen-haut et intéressés par la création transdisciplinaire
-    collaborative en recherche artistique, science et technologie.
+  synthese: LAB 5 The Mechanics of Truth est un laboratoire de prototypage collaboratif intensif de 2 semaines (12-25 novembre
+    2026) organisé par Medialab Matadero, acceptant 5 projets et 20 collaborateurs maximum. L'appel est ouvert mondialement
+    à toute discipline, sans restriction de nationalité ni de niveau de qualification. Les participants développent collaborativement
+    des projets explorant comment les technologies façonnent la réalité partagée et l'impact démocratique. Les résultats seront
+    présentés lors du festival OpenLAB (26-28 novembre 2026).
+  pour_qui: Individus majeurs de toute discipline et provenance géographique possédant un niveau d'anglais moyen-haut et intéressés
+    par la création transdisciplinaire collaborative en recherche artistique, science et technologie.
 a_savoir:
 - Date limite de candidature absente du document
 - Aucune dotation financière, bourse ou rémunération mentionnée
@@ -146,19 +141,16 @@ criteres_programme:
   famille: debouche
 _meta:
   extracted_confidence: 0.55
-  extracted_notes: 'Document incomplet, s''arrête en milieu de phrase. Date limite
-    de candidature totalement absente. Programme de laboratoire collaboratif, pas
-    un concours/prix traditionnel. Schéma adapté (type prix fourni mais non applicable).
+  extracted_notes: 'Document incomplet, s''arrête en milieu de phrase. Date limite de candidature totalement absente. Programme
+    de laboratoire collaboratif, pas un concours/prix traditionnel. Schéma adapté (type prix fourni mais non applicable).
     Lieu confirmé: Madrid. Organisme: Medialab Matadero (part de Matadero Madrid).'
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-21T11:08:03+00:00'
   source_lang: en
-  resume_fr: LAB 5 The Mechanics of Truth est le cinquième laboratoire développé par
-    Medialab Matadero depuis 2022. L'appel international cherche à sélectionner 5
-    projets et un maximum de 20 collaborateurs pour son Laboratoire de Prototypage
-    Collaboratif. Ce séminaire intensif de 2 semaines se déroulera du 12 au 25 novembre
-    2026 (du lundi au samedi) aux installations de Medialab à Matadero Madrid, avec
-    une présentation publique du 26 au 28 novembre 2026. Une session de questions-réponses
+  resume_fr: LAB 5 The Mechanics of Truth est le cinquième laboratoire développé par Medialab Matadero depuis 2022. L'appel
+    international cherche à sélectionner 5 projets et un maximum de 20 collaborateurs pour son Laboratoire de Prototypage
+    Collaboratif. Ce séminaire intensif de 2 semaines se déroulera du 12 au 25 novembre 2026 (du lundi au samedi) aux installations
+    de Medialab à Matadero Madrid, avec une présentation publique du 26 au 28 novembre 2026. Une session de questions-réponses
     en ligne aura lieu le 28 mai 2026 à 18h.
   detection_confidence: 0.95
   detection_method: heuristic
@@ -168,6 +160,17 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     erreur: page illisible
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: expiree
+    confiance: 0.9
+    preuve:
+      url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/BASES%20CONVOCATORIA%20LAB5_EN.pdf
+      citation: Proposals for projects and collaborators may be submitted until 14 June 2026 at 11:59pm CEST.
+    notes: 'Appel clos le 14/06/2026 ; la résolution (lauréats) est publiée depuis août 2026 et le laboratoire se tient du
+      12 au 25 novembre 2026. Les LAB sont annuels depuis 2022 (appel à projets vers avril-juin), mais aucun LAB 6 n''est
+      annoncé. Ce n''est pas un prix mais un laboratoire collaboratif : type à corriger si possible.'
 _interne_affinite:
   match: false
   signaux: []

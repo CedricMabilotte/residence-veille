@@ -12,8 +12,8 @@ opportunite:
     pais: España
     territorio: Comunidad de Madrid
   nom_fr: Résolution Appel à candidatures Résidences Artistes Visuels 2026
-  affichage_titre: Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution
-    Appel à candidatures Résidences Artistes Visuels 2026]
+  affichage_titre: Resolucion Convocatoria Residencias Artistas Visuales 2026 [Résolution Appel à candidatures Résidences
+    Artistes Visuels 2026]
 candidature:
   date_limite: null
   date_limite_precision: null
@@ -22,7 +22,7 @@ candidature:
     montant: null
     devise: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026
 eligibilite:
   disciplines:
   - artes visuales
@@ -48,20 +48,16 @@ condiciones_residencia:
 partenaires: []
 _meta:
   extracted_confidence: 0.3
-  extracted_notes: Documento es una RESOLUCIÓN listando candidatos seleccionados (27-11-2025),
-    no la convocatoria original. Información sobre condiciones, fechas límite, remuneración
-    y requisitos de elegibilidad no está presente en este documento.
+  extracted_notes: Documento es una RESOLUCIÓN listando candidatos seleccionados (27-11-2025), no la convocatoria original.
+    Información sobre condiciones, fechas límite, remuneración y requisitos de elegibilidad no está presente en este documento.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-21T11:06:27+00:00'
   source_lang: es
-  resume_fr: Document officiel de Madrid Destino datant du 27 novembre 2025 annonçant
-    les résultats de sélection pour des résidences d'artistes visuels en 2026. La
-    Commission d'évaluation a retenu les lauréats parmi 152 candidatures pour 4 résidences
-    semestrales destinées aux artistes de la Communauté de Madrid, 121 candidatures
-    pour 4 résidences trimestrales pour artistes résidents en Espagne, et 35 candidatures
-    pour 2 résidences trimestrales pour artistes de la Communauté de Madrid. Les candidats
-    sélectionnés et leurs projets sont désignés, avec des suppléants pour les deux
-    premières catégories.
+  resume_fr: Document officiel de Madrid Destino datant du 27 novembre 2025 annonçant les résultats de sélection pour des
+    résidences d'artistes visuels en 2026. La Commission d'évaluation a retenu les lauréats parmi 152 candidatures pour 4
+    résidences semestrales destinées aux artistes de la Communauté de Madrid, 121 candidatures pour 4 résidences trimestrales
+    pour artistes résidents en Espagne, et 35 candidatures pour 2 résidences trimestrales pour artistes de la Communauté de
+    Madrid. Les candidats sélectionnés et leurs projets sont désignés, avec des suppléants pour les deux premières catégories.
   detection_confidence: 0.9166666666666666
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
@@ -70,20 +66,31 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     erreur: source PDF (non relue)
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.9
+    preuve:
+      url: https://www.mataderomadrid.org/convocatorias/residencias-semestrales-para-artistas-visuales-2026
+      citation: Hasta 15 Octubre 2025 a las 14h.
+    notes: La source est la résolution du 27/11/2025 listant les sélectionnés des résidences artistes visuels 2026 (semestrales
+      et trimestrales), pas les bases. L'appel correspondant est clos depuis le 15/10/2025 ; l'édition 2027 (10 résidences,
+      clôture 11/09/2026) est elle aussi déjà résolue. Doublon des fiches c9b469ac et e3eef2e1.
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
 analisis:
-  sintesis: Este documento es una resolución publicando los resultados de la VI Convocatoria
-    de Residencias del Centro de Residencias Artísticas de Matadero Madrid 2026. Se
-    seleccionaron cuatro residencias semestrales para artistas visuales de la Comunidad
-    de Madrid (de 152 candidaturas), cuatro residencias trimestrales para artistas
-    visuales residentes en España (de 121 candidaturas), y dos residencias trimestrales
-    para artistas visuales de la Comunidad de Madrid (de 35 candidaturas). La comisión
-    de valoración se reunió el 21 de noviembre de 2026.
+  sintesis: Este documento es una resolución publicando los resultados de la VI Convocatoria de Residencias del Centro de
+    Residencias Artísticas de Matadero Madrid 2026. Se seleccionaron cuatro residencias semestrales para artistas visuales
+    de la Comunidad de Madrid (de 152 candidaturas), cuatro residencias trimestrales para artistas visuales residentes en
+    España (de 121 candidaturas), y dos residencias trimestrales para artistas visuales de la Comunidad de Madrid (de 35 candidaturas).
+    La comisión de valoración se reunió el 21 de noviembre de 2026.
   para_quien: Artistas visuales residentes en la Comunidad de Madrid o en España.
 a_savoir:
-- Este documento contiene solo la resolución de selección, no la convocatoria original
-  con bases, fechas límite, frais, condiciones de alojamiento y remuneración.
-- Para obtener los detalles completos de las condiciones de residencia, consultar
-  las Bases de la Convocatoria original.
+- Este documento contiene solo la resolución de selección, no la convocatoria original con bases, fechas límite, frais, condiciones
+  de alojamiento y remuneración.
+- Para obtener los detalles completos de las condiciones de residencia, consultar las Bases de la Convocatoria original.
 organismo_detalles:
   site_web: null
   direccion: Calle Conde Duque, 9-11, Madrid (C.P. 28015)
@@ -99,12 +106,10 @@ criterios_programa:
   justificacion: Condiciones de alojamiento no especificadas en este documento.
 - id: atelier
   rempli: inconnu
-  justificacion: Provisión de espacio de trabajo no mencionada en este documento de
-    resolución.
+  justificacion: Provisión de espacio de trabajo no mencionada en este documento de resolución.
 - id: frais_pris_en_charge
   rempli: inconnu
-  justificacion: Cobertura de gastos de viaje o producción no especificada en este
-    documento.
+  justificacion: Cobertura de gastos de viaje o producción no especificada en este documento.
 _interne_affinite:
   match: false
   signaux: []

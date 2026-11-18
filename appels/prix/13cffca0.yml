@@ -3,7 +3,7 @@ type: prix
 source_url: https://www.fondationdesartistes.fr/wp-content/uploads/2026/03/Reglement-Interieur-de-la-commission-2026-1.pdf
 fetched_at: '2026-05-21T10:47:11+00:00'
 score: 4
-status: indetermine
+status: edition-a-venir
 opportunite:
   nom: Aides à la production d'œuvres d'art - Commission mécénat de la Fondation des
     Artistes
@@ -29,6 +29,7 @@ candidature:
   - Éléments d'information sur l'artiste et son parcours
   - Identification des besoins en production
   url_candidature: https://www.fondationdesartistes.fr
+  prochaine_edition: 2027-03
 eligibilite:
   disciplines:
   - arts plastiques
@@ -67,6 +68,22 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     erreur: page illisible
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: prochaine_edition
+    confiance: 0.7
+    preuve:
+      url: https://www.fondationdesartistes.fr/missions/aider-a-la-production-doeuvres-dart/
+      citation: entre le 10 août et le 11 septembre 2026 inclus (jusqu'à 23h59 – délai
+        de rigueur)
+    notes: 'Le PDF source est le règlement intérieur (pas de dates, renvoi au site).
+      La page officielle de la mission donne la session d''automne 2026 : dépôt dématérialisé
+      du 10 août au 11 septembre 2026, donc close au 18/11/2026. La commission se
+      réunit deux fois par an ; le rythme observé (préinscription à compter du 2 mars
+      2026 pour le printemps 2026, selon le CP automne 2025) laisse attendre une session
+      de printemps 2027 avec ouverture vers début mars 2027, non encore annoncée.
+      Plateforme de dépôt : https://artistes.fondationdesartistes.fr/.'
 analyse:
   synthese: La Fondation des Artistes propose des aides à la production d'œuvres d'art
     via une commission mécénat se réunissant deux fois par an (printemps et automne).

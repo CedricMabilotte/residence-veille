@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725
 fetched_at: '2026-05-22T14:59:36+00:00'
 score: 4
-status: indetermine
+status: ouverte-continue
 opportunite:
   nom: Show Your Work With BobCat Gallery in Putney
   organisme: BobCat Gallery
@@ -26,6 +26,7 @@ candidature:
   - High quality images for each artwork
   - 'Image files renamed with full captions: Artist Name_Title_Medium_Size_Price'
   url_candidature: https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725
+  candidature_continue: true
 eligibilite:
   disciplines:
   - Paintings
@@ -76,6 +77,21 @@ _meta:
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: candidature_continue
+    confiance: 0.7
+    preuve:
+      url: https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725
+      citation: Applications will be considered on a rolling basis.
+    notes: 'Annonce payante (£100/mois + 20 % de commission) d''une galerie commerciale
+      de Putney Exchange ; « Deadline: n/a », candidatures au fil de l''eau, et le
+      profil CuratorSpace de la galerie la classe encore dans « Current opportunities
+      » au 18/11/2026. Incertitude : la page officielle bobcatgallery.co.uk/apply-to-exhibit
+      est bloquée (robots) et la galerie publie surtout des expositions virtuelles
+      ponctuelles (Equinox, clos le 26/07/2026) ; une version antérieure du même appel
+      (fiche 8435) porte une date passée (16/09/2024).'
 analyse:
   synthese: BobCat Gallery offre l'opportunité d'exposer et de vendre ses œuvres pour
     une durée jusqu'à un mois dans une galerie commerciale à Londres. Chaque artiste

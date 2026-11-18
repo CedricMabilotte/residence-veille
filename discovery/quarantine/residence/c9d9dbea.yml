@@ -1,0 +1,156 @@
+uid: c9d9dbea
+type: residence
+source_url: https://www.fondationdesartistes.fr/missions/accompagner-le-grand-age
+fetched_at: '2026-05-22T14:06:15+00:00'
+score: 4
+status: indetermine
+opportunite:
+  nom: Maison nationale des artistes – EHPAD
+  organisme: Fondation des Artistes
+  lieu:
+    ville: Nogent
+    pays: France
+    territoire: Val-de-Marne
+candidature:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - peinture
+  - dessin
+  - musique
+  - écriture
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_residence:
+  duree:
+    semaines: null
+    dates: null
+  hebergement: true
+  atelier: Académie de peinture et de dessin, pianos, ateliers d'écriture, espace de conférences (Salle Guy-Loë)
+  remuneration: null
+  voyage: null
+  restitution: création d'une œuvre, d'une exposition ou d'une représentation
+partenaires:
+- Agence régionale de Santé du Val-de-Marne
+- Conseil départemental du Val-de-Marne
+- MABA
+- Bernard Chauveau Editions
+_meta:
+  extracted_confidence: 0.25
+  extracted_notes: Page institutionnelle décrivant un EHPAD, non un appel à candidatures classique. Une résidence artistique
+    annuelle est mentionnée mais sans modalités de candidature, date limite ou conditions d'éligibilité détaillées.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T14:06:15+00:00'
+  source_lang: fr
+  detection_confidence: 0.75
+  detection_method: claude
+  source_label: Fondation des Artistes
+  last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.85
+    preuve:
+      url: https://www.fondationdesartistes.fr/missions/accompagner-le-grand-age
+      citation: une invitation d'un artiste en résidence au sein de la maison de retraite est également organisée
+    notes: 'Page institutionnelle décrivant l''EHPAD ; la résidence annuelle fonctionne par invitation, le seul dossier téléchargeable
+      concerne l''admission des résidents âgés. Le programme annuel 2026 de la Fondation ne mentionne aucun appel pour cette
+      résidence. La recherche web n''a trouvé aucun appel à candidatures passé ou présent pour cette résidence (seul appel
+      voisin : résidence design graphique MABA/ESADHaR, dispositif distinct).'
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
+analyse:
+  synthese: La Maison nationale des artistes est un EHPAD fondé en 1945 qui accueille prioritairement des artistes en fin
+    de vie, proposant logement et activités culturelles. La Fondation des Artistes finance chaque année une résidence artistique
+    permettant la création collective d'une œuvre, d'une exposition ou d'une représentation. L'établissement met à disposition
+    une Académie de peinture et de dessin, des pianos pour les musiciens et des ateliers d'écriture. Un programme culturel
+    quotidien associe expositions monographiques ou collectives, concerts, lectures, conférences et projections. L'accès est
+    sans condition de revenus pour les artistes et écrivains ainsi que pour les habitants du Val-de-Marne confrontés à des
+    problèmes de dépendance.
+  pour_qui: Artistes et écrivains en fin de vie, prioritairement, ainsi que des habitants du Val-de-Marne souhaitant se retirer
+    ou confrontés à des problèmes de dépendance.
+a_savoir:
+- Ce n'est pas un appel à candidatures classique pour une résidence temporaire, mais la description d'une institution permanente.
+- Les modalités de candidature pour la résidence artistique annuelle ne sont pas détaillées dans ce document.
+- Aucune date limite de candidature, durée de résidence ou conditions d'éligibilité précisées pour la résidence.
+- Établissement privé à but non lucratif, agréé, conventionné et habilité à l'aide sociale depuis 1945.
+organisme_details:
+  site_web: null
+  adresse: null
+  ville: Nogent
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux:
+  - collectif
+  bonus_score: 0

@@ -34,8 +34,8 @@ conditions_residence:
     semaines: null
     dates: null
   hebergement: false
-  atelier: 'Trois espaces : Scanlab (numérisation haute résolution sur réservation),
-    Fabrique (six postes de travail numérique sur réservation), Cafèt'' (accès libre)'
+  atelier: 'Trois espaces : Scanlab (numérisation haute résolution sur réservation), Fabrique (six postes de travail numérique
+    sur réservation), Cafèt'' (accès libre)'
   remuneration:
     montant: null
     devise: null
@@ -48,8 +48,8 @@ conditions_residence:
 partenaires: []
 _meta:
   extracted_confidence: 0.1
-  extracted_notes: 'Document non pertinent : ceci est une présentation d''un service/atelier
-    existant, non un appel à candidature ou programme de résidence d''artiste.'
+  extracted_notes: 'Document non pertinent : ceci est une présentation d''un service/atelier existant, non un appel à candidature
+    ou programme de résidence d''artiste.'
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T15:41:08+00:00'
   source_lang: fr
@@ -57,15 +57,26 @@ _meta:
   detection_method: claude
   source_label: ADAGP — actualités (appels, bourses, prix)
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.95
+    preuve:
+      url: https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video
+      citation: destiné aux adhérents de l'ADAGP
+    notes: Actualité du 20 avril 2026 présentant l'Atelier ADAGP (Scanlab, Fabrique, Cafèt') à travers six témoignages vidéo.
+      C'est un service réservé aux adhérents, accessible sur réservation, pas une résidence ni un appel à candidatures. Fiche
+      à retirer ou reclasser hors « résidence ».
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
 analyse:
-  synthese: 'Ce document ne constitue pas un appel à candidature artistique. Il décrit
-    l''Atelier ADAGP, un espace collaboratif ouvert en juin 2025 réservé aux adhérents
-    de l''ADAGP, situé dans le 6e arrondissement de Paris. L''atelier propose trois
-    espaces : Scanlab pour numériser en haute résolution, Fabrique avec six postes
-    de travail numérique, et Cafèt'' pour les échanges. Aucune rémunération, allocation
-    ou hébergement n''est mentionné.'
-  pour_qui: Artistes-auteurs et ayants droit adhérents de l'ADAGP, toutes disciplines
-    confondues.
+  synthese: 'Ce document ne constitue pas un appel à candidature artistique. Il décrit l''Atelier ADAGP, un espace collaboratif
+    ouvert en juin 2025 réservé aux adhérents de l''ADAGP, situé dans le 6e arrondissement de Paris. L''atelier propose trois
+    espaces : Scanlab pour numériser en haute résolution, Fabrique avec six postes de travail numérique, et Cafèt'' pour les
+    échanges. Aucune rémunération, allocation ou hébergement n''est mentionné.'
+  pour_qui: Artistes-auteurs et ayants droit adhérents de l'ADAGP, toutes disciplines confondues.
 a_savoir:
 - Ceci n'est pas un appel à candidature ou un programme de résidence
 - Accès réservé exclusivement aux adhérents de l'ADAGP

@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.pollen-monflanquin.com/residences
 fetched_at: '2026-08-02T09:17:01+00:00'
 score: 4
-status: indetermine
+status: expiree
 opportunite:
   nom: Artistes en résidence à Pollen
   organisme: Pollen
@@ -17,7 +17,7 @@ candidature:
   langue_dossier: null
   frais_inscription: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://new.pollen-monflanquin.com/wp-content/uploads/2026/10/Appel-a-candidature-2023-corrige-1.pdf
 eligibilite:
   disciplines:
   - arts plastiques
@@ -35,10 +35,9 @@ conditions_residence:
 partenaires: []
 _meta:
   extracted_confidence: 0.15
-  extracted_notes: 'Contenu fragmentaire et s''arrête au milieu d''une phrase. Seules
-    informations accessibles : organisme depuis 1991, lieu géographique, disciplines
-    et ouverture aux artistes de toutes nationalités. Manquent : date limite, frais,
-    durée, hébergement, rémunération, modalités de candidature.'
+  extracted_notes: 'Contenu fragmentaire et s''arrête au milieu d''une phrase. Seules informations accessibles : organisme
+    depuis 1991, lieu géographique, disciplines et ouverture aux artistes de toutes nationalités. Manquent : date limite,
+    frais, durée, hébergement, rémunération, modalités de candidature.'
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-08-02T09:17:01+00:00'
   source_lang: fr
@@ -46,18 +45,29 @@ _meta:
   detection_method: heuristic
   source_label: Pollen — résidence (Monflanquin)
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: expiree
+    confiance: 0.8
+    preuve:
+      url: https://new.pollen-monflanquin.com/wp-content/uploads/2026/10/Appel-a-candidature-2023-corrige-1.pdf
+      citation: POUR UNE RÉSIDENCE DE SEPTEMBRE A DECEMBRE 2027
+    notes: 'La page /residences est bloquée (robots) ; le site actif est new.pollen-monflanquin.com, qui publie en page d''accueil
+      un PDF (nom de fichier trompeur « 2023 », téléversé en octobre 2026) : appel pour la résidence de septembre à décembre
+      2027, allocation 3 600 €, dossier par mail à candidatures@pollen-monflanquin.com « au plus tard le 31 octobre 2026 à
+      minuit ». Donc clos au 18/11/2026, sans appel suivant annoncé ; Pollen lance un appel à peu près chaque année (printemps/automne),
+      à revérifier au printemps et à l''automne 2027. Ne pas candidater sans vérifier : l''intitulé du PDF est ambigu.'
 analyse:
-  synthese: Pollen est une plateforme d'expérimentation artistique en Lot-et-Garonne
-    accueillant depuis 1991 des artistes plasticiens de toutes nationalités. Le programme
-    permet aux artistes de réaliser un projet spécifique ou de poursuivre une recherche
-    personnelle dans un lieu d'accomplissement et d'approfondissement du travail.
-    Les détails des conditions de résidence (durée, hébergement, rémunération, modalités
-    de candidature) ne sont pas disponibles dans le texte source.
-  pour_qui: Artistes plasticiens de toutes nationalités en quête d'un espace de production
-    et d'expérimentation pour un projet spécifique ou une recherche personnelle.
+  synthese: Pollen est une plateforme d'expérimentation artistique en Lot-et-Garonne accueillant depuis 1991 des artistes
+    plasticiens de toutes nationalités. Le programme permet aux artistes de réaliser un projet spécifique ou de poursuivre
+    une recherche personnelle dans un lieu d'accomplissement et d'approfondissement du travail. Les détails des conditions
+    de résidence (durée, hébergement, rémunération, modalités de candidature) ne sont pas disponibles dans le texte source.
+  pour_qui: Artistes plasticiens de toutes nationalités en quête d'un espace de production et d'expérimentation pour un projet
+    spécifique ou une recherche personnelle.
 a_savoir:
-- 'Contenu source incomplet : impossible de vérifier les conditions essentielles (durée
-  de résidence, hébergement, rémunération, date limite de candidature).'
+- 'Contenu source incomplet : impossible de vérifier les conditions essentielles (durée de résidence, hébergement, rémunération,
+  date limite de candidature).'
 organisme_details:
   site_web: https://www.pollen-monflanquin.com
   adresse: null

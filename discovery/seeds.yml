@@ -1,0 +1,278 @@
+_doc: 'Semences manuelles : URL d''appels repérées hors pipeline. watch.py les traite en tête de run (extraction
+  Claude, score, promotion) puis l''index des items vus les écarte. Ajouter : url, title, context (texte libre qui
+  aide l''extraction).'
+items:
+- url: https://etn-net.org/berichte/open-call-call-for-participation-skb-artes-kunst-in-der-kartausebolzano-karthaus-schnals-itdeadline-20-11-2026.html
+  title: Open Call TEXTIL 2027 — « UN-LIMITED WORLD – TEXTILE » (Bolzano) et « Textile Landscape – Textile Space
+    » (Karthaus)
+  context: 'Open Call TEXTIL 2027 — « UN-LIMITED WORLD – TEXTILE » (Bolzano) et « Textile Landscape – Textile Space
+    » (Karthaus) — Südtiroler Künstlerbund (SKB Artes) / Kulturverein Schnals. Type : exposition. Date limite :
+    2026-11-20 (« Deadline: 20.11.2026 » ; « Application Deadline 20 November »). Lieu : Bolzano / Karthaus (Schnals)
+    Italie. Conditions : Œuvres existantes ou projets nouveaux ; expositions 8 mai–octobre 2027 (Bolzano) et 18
+    juillet–18 août 2027 (Karthaus) ; frais, dotation et éligibilité internationale non précisés (voir PDF OPEN
+    CALL - ENG).. Repéré via etn-net.org.'
+  type_suggere: exposition
+  date_limite_reperee: '2026-11-20'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://artquest.org.uk/opportunity/francois-schneider-foundation-talents-contemporains/
+  title: Concours Talents Contemporains — L'eau
+  context: 'Concours Talents Contemporains — L''eau — Fondation François Schneider. Type : prix. Date limite : 2026-11-22
+    (« Deadline: 22/11/2026 » (champ date limite de la fiche Artquest)). Lieu : Wattwiller France. Conditions :
+    Jusqu''à 7 lauréats à 15 000 € chacun + acquisition de l''œuvre et exposition au centre d''art ; plasticien·nes
+    18+ de toute nationalité ; thème de l''eau ; frais non précisés (site officiel : fondationfrancoisschneider.org)..
+    Repéré via artquest.org.uk.'
+  type_suggere: prix
+  date_limite_reperee: '2026-11-22'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.estellecreativearts.com/artist-in-residency-program
+  title: Estelle Center for Creative Arts – 2028 Artist in Residency Program
+  context: 'Estelle Center for Creative Arts – 2028 Artist in Residency Program — The Estelle Center for Creative
+    Arts. Type : residence. Date limite : 2026-11-25 (« Deadline: Wednesday November 25, 2026 »). Lieu : La Veta
+    (Colorado) États-Unis. Conditions : 4 artistes sur 2 sessions de 3 semaines (janvier et février 2028) ; frais
+    de candidature 35 $ ; bourse de 500 $ versée en fin de programme, chambre privée et accès atelier 24h/24 ; ateliers
+    communautaires hebdomadaires et don d''une œuvre à l''exposition de novembre ; clôture anticipée à 60 candidatures..
+    Repéré via textilesocietyofamerica.org.'
+  type_suggere: residence
+  date_limite_reperee: '2026-11-25'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.anca.net.au/callout
+  title: ANCA Gallery 2027 Exhibition Callout
+  context: 'ANCA Gallery 2027 Exhibition Callout — ANCA Inc.. Type : exposition. Date limite : 2026-11-30 (« Applications
+    must be submitted by 11:59 on 30 November 2026. » (PDF ANCA Gallery 2027 Callout)). Lieu : Canberra (Dickson,
+    ACT) Australie. Conditions : Artistes, commissaires et praticiens locaux et interstate ; exposition gratuite
+    (« Exhibiting at ANCA Gallery is free »), commission 20 % sur ventes, transport/installation et permanences
+    du samedi à charge ; programme février–novembre 2027, 6 semaines par exposition.. Repéré via anca.net.au.'
+  type_suggere: exposition
+  date_limite_reperee: '2026-11-30'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.recursosculturales.com/bienal-de-pintura-eusebio-sempere/
+  title: XXX Bienal de Pintura « Eusebio Sempere » 2026
+  context: 'XXX Bienal de Pintura « Eusebio Sempere » 2026 — Ayuntamiento de Onil — Centro Cultural Eusebio Sempere.
+    Type : prix. Date limite : 2026-12-01 (« El plazo máximo de presentación será el 1 de diciembre de 2026 a las
+    23:59 horas »). Lieu : Onil (Alicante) Espagne. Conditions : Prix unique 4 000 € (acquisition) ; inscription
+    1,5 € via mundoarti.com ; artistes majeurs de toute nationalité, une œuvre 100x100 à 200x200 cm ; envoi/retour
+    à la charge de l''artiste.. Repéré via recursosculturales.com.'
+  type_suggere: prix
+  date_limite_reperee: '2026-12-01'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.accioncultural.es/en/malba-writers-residence-2027
+  title: MALBA Writers Residence 2027 (REM)
+  context: 'MALBA Writers Residence 2027 (REM) — MALBA — Museo de Arte Latinoamericano de Buenos Aires / AC/E. Type
+    : residence. Date limite : 2026-12-01 (« Until December 1, 2026. »). Lieu : Buenos Aires Argentine. Conditions
+    : Auteurs espagnols (3 livres publiés min., hors citoyens/résidents argentins) ; 5 semaines (avril–mai 2027)
+    ; vol, logement, 500 USD, assurance ; hors arts plastiques (littérature).. Repéré via accioncultural.es.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-01'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://culture360.asef.org/opportunities/residency-on-ai-and-cultural-memory-2027/
+  title: Residency on AI and cultural memory 2027 (ARCHAIVE)
+  context: 'Residency on AI and cultural memory 2027 (ARCHAIVE) — Projet européen ARCHAIVE (via culture360). Type
+    : residence. Date limite : 2026-12-07 (Deadline: 7 December 2026). Lieu :  Allemagne, Italie, Pays-Bas, Portugal
+    ou Espagne. Conditions : Cachet de 5 000 € par artiste, mentorat technique (10 h min.), accès aux archives ;
+    artistes en début ou milieu de carrière, ressortissant·es ou résident·es d''un pays Europe créative ; format
+    présentiel ou hybride en 2027 ; source : archaive.eu.. Repéré via culture360.asef.org.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-07'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://artquest.org.uk/opportunity/cove-park-awarded-residencies-2027-2028/
+  title: Cove Park Awarded Residencies 2027 & 2028
+  context: 'Cove Park Awarded Residencies 2027 & 2028 — Cove Park. Type : residence. Date limite : 2026-12-11 («
+    Deadline: 11/12/2026 » (champ date limite de la fiche Artquest)). Lieu : Cove (Argyll and Bute) Royaume-Uni
+    (Écosse). Conditions : Résidences entièrement financées de 2 semaines à 3 mois (mai 2027-déc. 2028) : 775 £/semaine,
+    hébergement, voyage, matériaux, accessibilité, visa ; toutes disciplines, tous stades de carrière, international
+    (officiel : covepark.org/awarded-residencies-2027-2028/).. Repéré via artquest.org.uk.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-11'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.accioncultural.es/en/make-eindhoven-residency-2027
+  title: Make Eindhoven Residency 2027
+  context: 'Make Eindhoven Residency 2027 — Make Eindhoven / Acción Cultural Española (AC/E). Type : residence.
+    Date limite : 2026-12-14 (« December 14, 2026 » (date limite de candidature, fiche AC/E)). Lieu : Eindhoven
+    Pays-Bas. Conditions : Nationalité espagnole ; artistes, designers, architectes ; 12 semaines (1er mars–28 mai
+    2027) ; 2 500 € voyage/subsistance/production + 1 000 € matériel + logement et vélo ; gratuit.. Repéré via accioncultural.es.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-14'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://themesh.art/convocatorias/fabrica-2-interwoven-artist-residencies/
+  title: Interwoven Artist Residencies
+  context: 'Interwoven Artist Residencies — Fabrica (Brighton). Type : residence. Date limite : 2026-12-15 (Deadline:
+    12 noon Tuesday 15 December 2026). Lieu : Brighton (et lieux partenaires) Irlande / France / Royaume-Uni. Conditions
+    : Artistes visuel·les contemporain·es, approches féministes, sociales ou décoloniales valorisées ; résidence
+    d''un mois en Irlande (3-30 mai 2027), en France (10 mai-6 juin 2027) ou à Brighton (3-30 juillet 2027) ; frais
+    et dotation non précisés ; candidature via le lien Instagram.. Repéré via themesh.art.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-15'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.laregion.fr/prix-occitanie-medicis
+  title: Prix Occitanie – Médicis 2027 (Résidence Médicis arts plastiques Occitanie)
+  context: 'Prix Occitanie – Médicis 2027 (Résidence Médicis arts plastiques Occitanie) — Région Occitanie / Académie
+    de France à Rome – Villa Médicis. Type : residence. Date limite : 2026-12-18 (« du 19 octobre au 18 décembre
+    2026 » (laregion.fr, page mise à jour le 17 novembre 2026) ; villamedici.it : « appel ouvert »). Lieu : Rome
+    Italie. Conditions : Résidence de 3 mois à la Villa Médicis (octobre-décembre 2027), hébergement et atelier
+    gratuits, bourse de 10 500 € versée par la Région Occitanie, exposition au CRAC Sète l''année suivante ; artistes
+    professionnels en arts plastiques et visuels résidant en Occitanie ou ayant un lien avec la région (naissance,
+    formation diplômante) ; gratuit.. Repéré via villamedici.it.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-18'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://layer.si/bien/en/kr/open-call-2027-studenti/
+  title: BIEN 2027 Textile Art Biennial — Textile School of Thought « Traces of Grace »
+  context: 'BIEN 2027 Textile Art Biennial — Textile School of Thought « Traces of Grace » — BIEN / Layer (Kranj,
+    Tržič, Jesenice, Škofja Loka). Type : exposition. Date limite : 2026-12-21 (« Application deadline: including
+    December 21, 2026 (until midnight CET) »). Lieu : Kranj Slovénie. Conditions : Étudiant·es et collectifs étudiants
+    du monde entier (avec mentor) ; candidature gratuite, envoi à charge, retour et assurance jusqu''à 999 € pris
+    en charge ; prix ETA (<29 ans) : résidence 2 semaines à Kranj ou 1 semaine à Lottozero (Prato).. Repéré via
+    etn-net.org.'
+  type_suggere: exposition
+  date_limite_reperee: '2026-12-21'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://culture360.asef.org/opportunities/japan-sado-island-galaxy-art-festival-2027/
+  title: Sado Island Galaxy Art Festival 2027 — appel à projets in situ
+  context: 'Sado Island Galaxy Art Festival 2027 — appel à projets in situ — Sado Island Galaxy Art Festival. Type
+    : residence. Date limite : 2026-12-22 (Deadline: 22 Dec 2026). Lieu : Île de Sado Japon. Conditions : Bourse
+    de production jusqu''à environ 2 000 000 JPY selon le projet, aide à l''hébergement et à la coordination ; toutes
+    nationalités, 18 ans et plus, individuel ou collectif ; œuvres spécifiques au site, propositions en résidence
+    acceptées ; 4 à 5 projets retenus ; source : sado-art.com.. Repéré via culture360.asef.org.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-22'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://culture360.asef.org/opportunities/switzerland-2027-site-responsive-residency-for-emerging-artists/
+  title: 2027 Site-responsive residency for emerging artists
+  context: '2027 Site-responsive residency for emerging artists — 2200 (2200.ch). Type : residence. Date limite
+    : 2026-12-31 (deadline: 31 Dec 2026 (en-tête) ; « Rolling deadline » (corps)). Lieu : Flims, col de la Furka,
+    Ponte Brolla Suisse. Conditions : Environ 3 mois sur place ; atelier, hébergement, allocation mensuelle de 500
+    CHF, aide au déplacement négociable ; artistes visuels émergents principalement ; frais de candidature non mentionnés.
+    Attention : le corps de la fiche indique « Rolling deadline », la date 31 Dec 2026 vient de l''en-tête culture360..
+    Repéré via culture360.asef.org.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-31'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.arthurdaleheritage.org/artist-residencies/weaving-residency/
+  title: Arthurdale Weaving Residency
+  context: 'Arthurdale Weaving Residency — Arthurdale Heritage. Type : residence. Date limite : 2026-12-31 (« Deadline:
+    Thursday December 31, 2026 »). Lieu : Arthurdale (Virginie-Occidentale, Appalaches) États-Unis. Conditions :
+    Résidence de 2 semaines (mars 2027) pour tisserand·es émergent·es d''Appalachie ; bourse de 1 000 $ ; logement
+    dans un cottage historique ; atelier de 2 h et présentation à l''Arthurdale Fiber Guild ; aucun frais mentionné..
+    Repéré via textilesocietyofamerica.org.'
+  type_suggere: residence
+  date_limite_reperee: '2026-12-31'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://themesh.art/convocatorias/arteles-creative-center-2-back-to-basics-thematic-residency-program-in-finland-summer-2027/
+  title: Back to Basics — résidence thématique été 2027
+  context: 'Back to Basics — résidence thématique été 2027 — Arteles Creative Center. Type : residence. Date limite
+    : 2027-01-07 (Application deadline: 7 January 2027). Lieu : Hämeenkyrö Finlande. Conditions : Séjours d''un
+    mois (29 jours) en juillet, août ou septembre 2027 ; artistes, écrivain·es et professionnel·les de la création
+    ; frais et dotation non indiqués sur la fiche (voir arteles.org).. Repéré via themesh.art.'
+  type_suggere: residence
+  date_limite_reperee: '2027-01-07'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://artquest.org.uk/opportunity/international-visual-arts-prize-idea-vila-damer/
+  title: International Visual Arts Prize IDEA — Vila d'Amer (1re édition)
+  context: 'International Visual Arts Prize IDEA — Vila d''Amer (1re édition) — IDEA Associació Cultural. Type :
+    prix. Date limite : 2027-01-10 (« Deadline: 10/01/2027 » (champ date limite de la fiche Artquest)). Lieu : Amer
+    (Catalogne) Espagne. Conditions : Deux prix d''acquisition 3 500 € et 1 500 € ; artistes 18+ de toute nationalité,
+    une œuvre originale (peinture, dessin, photo, gravure, collage…) ; frais non précisés (officiel : ideagc.com/en/idea-mundoarti/)..
+    Repéré via artquest.org.uk.'
+  type_suggere: prix
+  date_limite_reperee: '2027-01-10'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.accioncultural.es/en/residencies-2027
+  title: PICE Residencies 2027 (phase 1)
+  context: 'PICE Residencies 2027 (phase 1) — Acción Cultural Española (AC/E). Type : bourse. Date limite : 2027-01-12
+    (« Phase 1 : clôture le 12/01/2027 » ; fenêtre « 10 Sep 2026 - 5 Sep 2027 »). Lieu : Madrid Espagne. Conditions
+    : Programme PICE pour la présence internationale de créateurs espagnols ; trois phases de dépôt (12/01, 09/05,
+    05/09/2027) ; éligibilité (institutions vs individus) à vérifier dans BasesResidencias2027.pdf.. Repéré via
+    accioncultural.es.'
+  type_suggere: bourse
+  date_limite_reperee: '2027-01-12'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://themesh.art/convocatorias/bardo-projektraum-open-call-bardo-curatorial-residency-2027/
+  title: Bardo Curatorial Residency 2027
+  context: 'Bardo Curatorial Residency 2027 — Bardo Projektraum. Type : residence. Date limite : 2027-01-31 (Apply
+    in English or Spanish by 31 January 2027, 23:59 CET.). Lieu : Berlin Allemagne. Conditions : Payant : 600 €
+    par mois hors voyage et hébergement, une place boursière par période ; ouvert aux commissaires, chercheur·euses
+    et artistes à pratique curatoriale du monde entier ; guide sur karnekunst.com.. Repéré via themesh.art.'
+  type_suggere: residence
+  date_limite_reperee: '2027-01-31'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://textilesocietyofamerica.org/opportunities/international-textile-and-fibre-art-exhibitions-scythia
+  title: International Textile and Fibre Art Exhibition « Scythia » (micro-textile et fibre)
+  context: 'International Textile and Fibre Art Exhibition « Scythia » (micro-textile et fibre) — Scythia (Ivano-Frankivsk).
+    Type : exposition. Date limite : 2027-02-01 (« Deadline for entries is the 1st of February 2027 »). Lieu : Ivano-Frankivsk
+    Ukraine. Conditions : Exposition du 2 au 16 juin 2027 ; 2 œuvres par artiste ; frais et dotation non visibles
+    sur la fiche TSA (texte tronqué).. Repéré via textilesocietyofamerica.org.'
+  type_suggere: exposition
+  date_limite_reperee: '2027-02-01'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://textileartstriennialhungary.com/2025/08/25/felhivas-call-for-entries-2027/
+  title: International Triennial of Textile Arts 2027 — « Interwoven generation »
+  context: 'International Triennial of Textile Arts 2027 — « Interwoven generation » — Cultural Foundation for the
+    Textile Arts (Szombathely Gallery). Type : exposition. Date limite : 2027-02-08 (« Deadline: 08.02.2027 »).
+    Lieu : Szombathely Hongrie. Conditions : Œuvres fibre/textile 2024-2027, max 2,5 × 2,5 × 2,5 m ; catégories
+    Wall & Spatial Textiles, Textile Design (UE et international), Miniature Textiles (international) ; frais et
+    prix non précisés.. Repéré via etn-net.org.'
+  type_suggere: exposition
+  date_limite_reperee: '2027-02-08'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.recursosculturales.com/aion-digital-art-prize/
+  title: 2nd Aion Digital Art Prize
+  context: '2nd Aion Digital Art Prize — Aion Laboratory / Ise-Shima Art Company. Type : prix. Date limite : 2027-03-01
+    (« El plazo de inscripción finaliza el 1 de marzo de 2027 a las 23:59 GMT. »). Lieu : en ligne Japon. Conditions
+    : Grand Prix 50 000 JPY + jusqu''à 35 prix avec diplôme ; frais 3 000 JPY par œuvre ; tous âges et nationalités
+    ; arts numériques, vidéo, animation, son, RA/RV.. Repéré via recursosculturales.com.'
+  type_suggere: prix
+  date_limite_reperee: '2027-03-01'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://biennaledulin.com/releve/
+  title: Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027)
+  context: 'Appel aux artistes de la relève — exposition « Mécaniques » (BILP 2027) — Biennale internationale du
+    lin de Portneuf. Type : exposition. Date limite : 2027-03-31 (au plus tard le 31 mars 2027). Lieu : Deschambault-Grondines
+    (Québec) Canada. Conditions : Artistes ayant cinq années de pratique ou moins (étudiant·es inclus·es) ; œuvre
+    d''au moins 50 % de lin, 40 × 40 cm (2D) ou 50 × 50 × 50 cm (3D) ; pas de frais d''inscription mentionnés, livraison
+    à la charge de l''artiste, retour assuré par la BILP ; cachet d''exposition de 450 $.. Repéré via biennaledulin.com.'
+  type_suggere: exposition
+  date_limite_reperee: '2027-03-31'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://kalanirvana.com/textile-india-residency
+  title: KIAR Textile India Residency
+  context: 'KIAR Textile India Residency — KIAR / Kalanirvana. Type : residence. Date limite : 2027-04-10 (« Deadline:
+    Saturday April 10, 2027 »). Lieu : Bhubaneswar (Odisha) Inde. Conditions : Designers textile et mode, artistes
+    textile et fibre, chercheurs ; frais et dotation non indiqués sur la fiche TSA (résidence probablement payante,
+    à vérifier sur le site officiel).. Repéré via textilesocietyofamerica.org.'
+  type_suggere: residence
+  date_limite_reperee: '2027-04-10'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18
+- url: https://www.recursosculturales.com/belgrade-art-studio-residency/
+  title: Belgrade Art Studio Residency
+  context: 'Belgrade Art Studio Residency — Belgrade Art Studio. Type : residence. Date limite : 2027-12-31 (« Cierra
+    el 31 de diciembre del 2027 »). Lieu : Belgrade (Dorćol) Serbie. Conditions : Résidence payante (montant non
+    indiqué sur la page), candidature ouverte toute l''année ; artistes, commissaires, chercheurs 18+ sans restriction
+    de discipline ni nationalité ; anglais requis.. Repéré via recursosculturales.com.'
+  type_suggere: residence
+  date_limite_reperee: '2027-12-31'
+  ajoute_le: '2026-11-18'
+  origine: recherche agents 2026-11-18

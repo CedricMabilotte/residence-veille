@@ -1,0 +1,221 @@
+{
+ "lot": 5,
+ "fiches": [
+  {
+   "uid": "5e45e170",
+   "verdict": "candidature_continue",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": true,
+   "url_candidature": "https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725",
+   "confiance": 0.7,
+   "preuve": {
+    "url": "https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725",
+    "citation": "Applications will be considered on a rolling basis."
+   },
+   "notes": "Annonce payante (£100/mois + 20 % de commission) d'une galerie commerciale de Putney Exchange ; « Deadline: n/a », candidatures au fil de l'eau, et le profil CuratorSpace de la galerie la classe encore dans « Current opportunities » au 18/11/2026. Incertitude : la page officielle bobcatgallery.co.uk/apply-to-exhibit est bloquée (robots) et la galerie publie surtout des expositions virtuelles ponctuelles (Equinox, clos le 26/07/2026) ; une version antérieure du même appel (fiche 8435) porte une date passée (16/09/2024)."
+  },
+  {
+   "uid": "cc40d764",
+   "verdict": "candidature_continue",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": true,
+   "url_candidature": "https://www.anca.net.au/apply-for-a-studio",
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.anca.net.au/apply-for-a-studio",
+    "citation": "Applications are welcome at any time."
+   },
+   "notes": "Location d'ateliers à Canberra (baux de 3 ans, 410 à 1 223 AUD/mois), candidature permanente avec liste d'attente ; la fiche CuratorSpace est fermée (« This opportunity is currently unable to accept submissions ») mais le site officiel ANCA accepte les demandes en continu. À noter, hors fiche : ANCA lance un appel distinct pour sa programmation galerie 2027, gratuit, clôturé le 30/11/2026 (https://www.anca.net.au/callout ; « Applications must be submitted by 11:59 on 30 November 2026. »)."
+  },
+  {
+   "uid": "e57f2fc5",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.75,
+   "preuve": {
+    "url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "citation": "This opportunity is currently unable to accept submissions."
+   },
+   "notes": "Zine féministe sur Instagram (@aura.zine, curatrice Erin Shields) ; la fiche 6198 est fermée sans date et la fiche précédente (4893) indique une deadline au 21/11/2020 dépassée. Aucun site ni appel plus récent trouvé ; il s'agit d'un micro-projet amateur sans intérêt pour la veille."
+  },
+  {
+   "uid": "18e2d639",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.95,
+   "preuve": {
+    "url": "https://on-the-move.org/resources/funding/mobility-funding-guide-asia",
+    "citation": "Our guide to cross-border mobility for artists and cultural workers from and travelling to Asia."
+   },
+   "notes": "Guide de financement (2016, deux PDF « outgoing »/« incoming ») recensant des dispositifs réguliers de mobilité vers/depuis l'Asie, publié par On the Move avec l'ASEF : ressource documentaire, pas un appel. Le guide lui-même exclut les programmes ponctuels (« only lists regular opportunities that are accessible online »)."
+  },
+  {
+   "uid": "0144555c",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.95,
+   "preuve": {
+    "url": "https://site.cdn.institutfrancais.com/files/fichiers/charte_villas_residences_reseau_2.pdf",
+    "citation": "Intended as a frame of reference, this charter sets out commitments that must be upheld."
+   },
+   "notes": "« Charter of the VILLAS and residency programmes of France's cultural network abroad » (Institut français / MEAE / ministère de la Culture) : document normatif fixant les standards des résidences du réseau (logement, atelier, un mois minimum, allocation). Aucune résidence nommée, aucune date : à supprimer de la base des appels."
+  }
+ ],
+ "rebonds": [
+  {
+   "nom": "ANCA Gallery – Callout 2027",
+   "url_appels": "https://www.anca.net.au/callout",
+   "url_site": "https://www.anca.net.au",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "cc40d764",
+   "couche": 1,
+   "pourquoi": "Appel annuel (vers novembre) à propositions d'exposition gratuites pour la galerie ANCA de Canberra, ouvert aux artistes australiens ; page Squarespace avec PDF.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Artquest – Opportunities",
+   "url_appels": "https://artquest.org.uk/opportunities/",
+   "url_site": "https://artquest.org.uk",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "5e45e170 (recherche réseau BobCat/ArtCan)",
+   "couche": 2,
+   "pourquoi": "Agrégateur britannique d'opportunités rémunérées pour artistes plasticiens (résidences, bourses, prix, expositions), majoritairement Royaume-Uni avec quelques internationales, mis à jour régulièrement avec filtres par discipline.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "On the Move – Members (annuaire des membres du réseau)",
+   "url_appels": "https://on-the-move.org/network/members",
+   "url_site": "https://on-the-move.org",
+   "type": "annuaire",
+   "deja_suivi": true,
+   "trouve_via": "18e2d639",
+   "couche": 1,
+   "pourquoi": "Liste d'une cinquantaine de membres (réseaux de résidences, points d'information mobilité, fonds de mobilité) à exploiter comme vivier de nouvelles sources ; le domaine est suivi mais pas forcément cette page.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "culture360 – ASEF (Asia-Europe Foundation)",
+   "url_appels": "https://culture360.asef.org/opportunities/",
+   "url_site": "https://culture360.asef.org",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "18e2d639",
+   "couche": 1,
+   "pourquoi": "Portail de l'ASEF listant bourses, appels et résidences Asie-Europe (plus de 1 100 résidences et 2 400 appels archivés), filtrable par pays et type, alimentation très fréquente.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "SWAN – Swedish Artist Residency Network",
+   "url_appels": "https://www.swanresidencynetwork.com/find-a-residency",
+   "url_site": "https://www.swanresidencynetwork.com",
+   "type": "reseau",
+   "deja_suivi": false,
+   "trouve_via": "18e2d639 (membres On the Move)",
+   "couche": 2,
+   "pourquoi": "Réseau des résidences suédoises toutes disciplines ; pas de page appels dédiée (appels relayés sur Instagram), mais l'annuaire des résidences membres est un vivier de sources individuelles.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "HIAP – Helsinki International Artist Programme",
+   "url_appels": "https://www.hiap.fi/open-calls/",
+   "url_site": "https://www.hiap.fi",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "18e2d639 (membres On the Move)",
+   "couche": 2,
+   "pourquoi": "Résidences à Helsinki (Suomenlinna, Cable Factory) attribuées principalement par appels ouverts internationaux, quelques appels par an ; listings chargés en JavaScript.",
+   "parser_suggere": "playwright"
+  },
+  {
+   "nom": "Mobility Arts & Culture Austria",
+   "url_appels": "https://mobility-arts-culture.at/information/sonstiges/ressourcen/",
+   "url_site": "https://mobility-arts-culture.at",
+   "type": "annuaire",
+   "deja_suivi": false,
+   "trouve_via": "18e2d639 (membres On the Move)",
+   "couche": 2,
+   "pourquoi": "Point d'information mobilité autrichien (allemand) : ressources et liens vers financements de mobilité, pas de flux d'appels direct ; intérêt faible, à vérifier.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "¡Viva Villa! – réseau des résidences françaises à l'étranger (fonds de soutien)",
+   "url_appels": "https://www.vivavilla.info/le-fonds-de-soutien/",
+   "url_site": "https://www.vivavilla.info",
+   "type": "reseau",
+   "deja_suivi": false,
+   "trouve_via": "0144555c",
+   "couche": 1,
+   "pourquoi": "Réseau Casa de Velázquez / Villa Médicis / Villa Kujoyama / Villa Albertine (+ Villa Hegra, Villa Swagatam invitées) avec un appel à projets pluriannuel (2025-2027) de fonds de soutien à la création ; fréquence faible.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Villa Kujoyama (Kyoto)",
+   "url_appels": "https://villakujoyama.jp/en/home/",
+   "url_site": "https://villakujoyama.jp",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "0144555c (via diplomatie.gouv.fr / Viva Villa)",
+   "couche": 2,
+   "pourquoi": "Résidence annuelle de l'Institut français au Japon, appel à candidatures chaque hiver (lancement AAC 2026 en février 2025, lauréats 2027 publiés juillet 2026) ; page d'appel à repérer sur le site WordPress.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "Villa Médicis – Académie de France à Rome",
+   "url_appels": "https://villamedici.it/en/",
+   "url_site": "https://villamedici.it",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "0144555c (via diplomatie.gouv.fr / Viva Villa)",
+   "couche": 2,
+   "pourquoi": "Résidences annuelles (pensionnaires) et résidences courtes, appel à candidatures chaque automne/hiver ; page appels exacte à identifier sur le site.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "ARTCENA – Fil vie pro (appels du réseau culturel français à l'étranger)",
+   "url_appels": "https://www.artcena.fr/fil-vie-pro/residences-artistiques-appels-a-candidatures-du-reseau-culturel-francais-a-letranger",
+   "url_site": "https://www.artcena.fr",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "0144555c (recherche web)",
+   "couche": 1,
+   "pourquoi": "Centre national des arts du cirque, de la rue et du théâtre : relaie les appels de résidences du réseau culturel français à l'étranger (pluridisciplinaire, dont arts visuels) ; page refusée au fetch (client_error), à tester avec navigateur.",
+   "parser_suggere": "playwright"
+  },
+  {
+   "nom": "Putney Exchange – Putney News (BobCat Gallery)",
+   "url_appels": "https://putneyexchange.co.uk/putney_news/bobcat-gallery-returns-to-putney-exchange/",
+   "url_site": "https://putneyexchange.co.uk",
+   "type": "partenaire",
+   "deja_suivi": false,
+   "trouve_via": "5e45e170",
+   "couche": 1,
+   "pourquoi": "Centre commercial hébergeant la galerie ; actualités locales seulement, pas une source d'appels ; signalé pour mémoire, à ne pas suivre.",
+   "parser_suggere": "html"
+  }
+ ],
+ "journal": [
+  "5e45e170 : page officielle bobcatgallery.co.uk/apply-to-exhibit bloquée (robots_disallowed) ; verdict fondé sur CuratorSpace (fiche 8725 encore listée comme « current » sur le profil BobCatGallery) et sur l'article Putney Exchange qui renvoie à cette page d'inscription.",
+  "cc40d764 : CuratorSpace fermé mais site ANCA explicite (« Applications are welcome at any time ») ; découverte collatérale de l'appel galerie 2027 (clôture 30/11/2026) via PDF Squarespace après redirection.",
+  "e57f2fc5 : aucune trace web d'AURA hors deux fiches CuratorSpace (2020 et 6198) ; pas de site, compte Instagram @aura.zine non vérifié.",
+  "18e2d639 et 0144555c : documents de référence (guide, charte), classés pas_un_appel ; temps surtout consacré aux rebonds (membres On the Move, villas françaises).",
+  "Rebonds : artcena.fr refuse WebFetch (client_error) ; hiap.fi charge ses appels en JavaScript ; swanresidencynetwork.com n'a pas de page appels. Temps total ≈ 25 minutes."
+ ]
+}

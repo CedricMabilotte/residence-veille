@@ -16,6 +16,14 @@
     "nom": "Summer 2027 Byrdcliffe Communal Residency"
   },
   {
+    "path": "appels/residence/56a23acc.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 6,
+    "type": "residence",
+    "uid": "56a23acc",
+    "nom": "PATAGONIA ARGENTINA – 2027 multidisciplinary program"
+  },
+  {
     "path": "appels/residence/68c386a1.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 6,

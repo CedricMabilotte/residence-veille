@@ -420,6 +420,24 @@ def main():
     sources_not_reached: list[str] = []
     budget_hit = False
 
+    # Semences manuelles (2026-11-18) : discovery/seeds.yml liste des URL
+    # d'appels repérées hors pipeline (recherche par agents, suggestions). Elles
+    # passent par process_item comme n'importe quel item — extraction Claude,
+    # score, promotion — puis l'index des items vus les écarte aux runs suivants.
+    # Format : items: [{url, title, context?}]. Traitées en tête, avant le budget.
+    seeds_path = DISCOVERY_DIR / "seeds.yml"
+    if seeds_path.exists():
+        try:
+            seeds = (yaml.safe_load(seeds_path.read_text(encoding="utf-8")) or {}).get("items") or []
+        except Exception as e:
+            print(f"⚠  seeds.yml illisible : {e}")
+            seeds = []
+        pending = [s for s in seeds if s.get("url") and not seen_should_skip(seen, s["url"])]
+        if pending:
+            sources = [{"label": "Semences manuelles (discovery/seeds.yml)", "_seed_items": pending,
+                        "max_items_per_run": len(pending)}] + list(sources)
+            print(f"✓ semences : {len(pending)} URL à traiter sur {len(seeds)}")
+
     for src in sources:
         label = src.get("label", src.get("url", "?"))
         elapsed_min = (_dt.datetime.now(_dt.timezone.utc) - run_start).total_seconds() / 60
@@ -433,14 +451,15 @@ def main():
         print(f"━━ {label} ━━")
 
         # Throttle check (TTL + robots + cooldown erreurs)
-        ok, reason = throttle.should_fetch(src, state_path=throttle_state_path)
+        is_seed = "_seed_items" in src
+        ok, reason = (True, "") if is_seed else throttle.should_fetch(src, state_path=throttle_state_path)
         if not ok:
             print(f"  ⏸  Throttle : {reason}")
             continue
 
-        # Scrape via parser dispatcher
+        # Scrape via parser dispatcher (ou items fournis pour les semences)
         try:
-            items = parser_dispatch(src)
+            items = list(src["_seed_items"]) if is_seed else parser_dispatch(src)
         except Exception as e:
             print(f"  ✗ Scrape erreur : {e}")
             sources_stats.append({"label": label, "items": 0, "error": str(e)})
@@ -488,7 +507,8 @@ def main():
                 n_promoted += 1
 
         save_seen(seen)
-        throttle.record_fetch(src, success=True, doc_count=n_promoted, status_code=200, state_path=throttle_state_path)
+        if not is_seed:
+            throttle.record_fetch(src, success=True, doc_count=n_promoted, status_code=200, state_path=throttle_state_path)
 
         sources_stats.append({
             "label": label,

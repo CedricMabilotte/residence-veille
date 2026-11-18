@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.proyectoace.org/en/residencies/mural-painting
 fetched_at: '2026-11-18T17:24:11+00:00'
 score: 7
-status: indetermine
+status: ouverte-continue
 opportunite:
   nom: '[Palimpsest Project] Mural Painting Residency'
   organisme: Proyecto Ace
@@ -23,6 +23,7 @@ candidature:
     devise: null
   pieces_demandees: null
   url_candidature: https://www.proyectoace.org/en/residencies/mural-painting
+  candidature_continue: true
 eligibilite:
   disciplines:
   - mural painting
@@ -70,6 +71,21 @@ _meta:
   detection_method: heuristic
   source_label: Proyecto'ACE — résidences de production (Buenos Aires)
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: candidature_continue
+    confiance: 0.9
+    preuve:
+      url: https://www.proyectoace.org/en/faq/
+      citation: the call is open year-round and applications can be submitted without
+        a closing date.
+    notes: 'La FAQ précise que pour la Micro-Residency et le Palimpsest Mural Painting
+      l''appel est ouvert toute l''année ; la page du programme dit aussi « Ongoing
+      applications all year around ». La bannière « Open Call #4 — Deadline October
+      31, 2026 » concerne les résidences Production/Exploration (4 appels par an :
+      31 janv., 30 avr., 31 juil., 31 oct.). Résidence payante (frais d''inscription),
+      pas de rémunération.'
 analyse:
   synthese: The Palimpsest Project is a mural painting residency in Buenos Aires for
     emerging or career visual artists interested in muralism and/or urban art. Artists

@@ -1,0 +1,173 @@
+{
+ "lot": 3,
+ "fiches": [
+  {
+   "uid": "07e1d362",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://ensp-arles.com/les-formations/bourses-post-master-intelligence-artificielle-2026-2027/",
+   "confiance": 0.8,
+   "preuve": {
+    "url": "https://ensp-arles.com/wp-content/uploads/2026-2027_Post-Matser_IA_AAC_rev.pdf",
+    "citation": "le 13 septembre 2026 à minuit."
+   },
+   "notes": "La source ADAGP est un article annonçant les lauréats 2025-2026, mais l'appel officiel de l'édition suivante (Bourse ENSP sur l'Intelligence Artificielle 2026-2027, 3 bourses de 4 000 €, DNSEP 2022-2026, candidature par mail à candidatures-bourse-ia-2026@ensp-arles.fr) existe et est clos : le PDF donne une clôture au 13 septembre 2026, la page HTML de l'ENSP affiche un calendrier « Clôture des inscriptions 5 octobre 2025 » (incohérence probable de copier-coller). Aucune édition 2027-2028 annoncée ; le rythme est annuel (appels 2025 puis 2026), à revérifier vers juin-septembre 2027."
+  },
+  {
+   "uid": "ae1213ed",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.9,
+   "preuve": {
+    "url": "https://www.adagp.fr/fr/soutien-la-creation-artistique/aides-directes-aux-artistes/les-revelations/page-revelation-arts-plastiques",
+    "citation": "Le jury choisit un lauréat parmi les artistes présentés à 100% L'EXPO."
+   },
+   "notes": "Article annonçant le lauréat 2026 (Jordan Barré). Le prix Révélation Arts plastiques n'a pas de candidature directe : le lauréat est choisi par un jury parmi les artistes exposés à 100% L'EXPO (La Villette). La voie d'entrée est donc l'appel à candidatures de 100% L'EXPO : l'appel pour l'édition 2027 était ouvert du 8 avril au 8 juin 2026 (clos, DNSEP de moins de 5 ans, mail candidature100expo@villette.com) ; l'appel pour 2028 devrait s'ouvrir à l'ouverture de l'édition 2027 (avril 2027)."
+  },
+  {
+   "uid": "bcd3a041",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.95,
+   "preuve": {
+    "url": "https://www.adagp.fr/fr/actualites/atelier-adagp-six-artistes-temoignent-en-video",
+    "citation": "destiné aux adhérents de l'ADAGP"
+   },
+   "notes": "Actualité du 20 avril 2026 présentant l'Atelier ADAGP (Scanlab, Fabrique, Cafèt') à travers six témoignages vidéo. C'est un service réservé aux adhérents, accessible sur réservation, pas une résidence ni un appel à candidatures. Fiche à retirer ou reclasser hors « résidence »."
+  },
+  {
+   "uid": "1b321056",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.85,
+   "preuve": {
+    "url": "https://www.cnap.fr/actualites/evenements/olga-boudin-pour-qui-brille-le-soleil",
+    "citation": "Olga Boudin, Pour qui brille le soleil (titre de la page, rubrique actualites/evenements)"
+   },
+   "notes": "Page d'agenda du Cnap présentant l'exposition d'Olga Boudin à La Tôlerie (Clermont-Ferrand, 16 mai - 11 juillet 2026) dans le cadre du programme Suite 2026 ; pas un appel. cnap.fr est interdit au fetch (robots), la citation est le titre/URL de la page ; la fiche d'origine confirmait déjà la nature d'exposition. Aucun appel « Suite 2027 » trouvé sur le web ouvert."
+  },
+  {
+   "uid": "07e3edad",
+   "verdict": "pas_un_appel",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": null,
+   "confiance": 0.85,
+   "preuve": {
+    "url": "https://www.cnap.fr/acquisitions-et-commandes-photographie-et-images-animees-2025",
+    "citation": "Acquisitions et commandes Photographie et images animées - 2025 (titre de la page)"
+   },
+   "notes": "Compte rendu des acquisitions décidées par le collège Photographie et images animées du Cnap (réunion des 21-22 mai 2025, 65 œuvres, 374 970 €) : un bilan, pas un appel. cnap.fr bloque le fetch (robots), vérification impossible au-delà du titre et du contenu déjà extrait dans la fiche. La procédure de proposition d'acquisition au Cnap existe par ailleurs, mais n'est pas l'objet de cette page."
+  },
+  {
+   "uid": "dd63bde1",
+   "verdict": "expiree",
+   "date_limite": null,
+   "date_limite_precision": null,
+   "prochaine_edition": null,
+   "candidature_continue": false,
+   "url_candidature": "https://new.pollen-monflanquin.com/wp-content/uploads/2026/10/Appel-a-candidature-2023-corrige-1.pdf",
+   "confiance": 0.8,
+   "preuve": {
+    "url": "https://new.pollen-monflanquin.com/wp-content/uploads/2026/10/Appel-a-candidature-2023-corrige-1.pdf",
+    "citation": "POUR UNE RÉSIDENCE DE SEPTEMBRE A DECEMBRE 2027"
+   },
+   "notes": "La page /residences est bloquée (robots) ; le site actif est new.pollen-monflanquin.com, qui publie en page d'accueil un PDF (nom de fichier trompeur « 2023 », téléversé en octobre 2026) : appel pour la résidence de septembre à décembre 2027, allocation 3 600 €, dossier par mail à candidatures@pollen-monflanquin.com « au plus tard le 31 octobre 2026 à minuit ». Donc clos au 18/11/2026, sans appel suivant annoncé ; Pollen lance un appel à peu près chaque année (printemps/automne), à revérifier au printemps et à l'automne 2027. Ne pas candidater sans vérifier : l'intitulé du PDF est ambigu."
+  }
+ ],
+ "rebonds": [
+  {
+   "nom": "ENSP Arles — bourses post-master et mentorat",
+   "url_appels": "https://ensp-arles.com/les-formations/bourses-post-master-intelligence-artificielle-2026-2027/",
+   "url_site": "https://ensp-arles.com",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "07e1d362",
+   "pourquoi": "L'école publie chaque année plusieurs appels post-diplôme pour jeunes diplômés d'écoles d'art (Bourse IA 4 000 €, Bourse Éducation artistique et culturelle, Mentorat 2027 clos le 13 novembre 2026, tutorat technique Dupon, AAC avec AMU), sous forme de pages « les-formations/… » et de PDF ; pas de page unique listant les appels, il faut surveiller le menu et les PDF wp-content/uploads.",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "La Villette — 100% L'EXPO (appel annuel jeune création)",
+   "url_appels": "https://www.lavillette.com/en/?p=57100",
+   "url_site": "https://www.lavillette.com",
+   "type": "programme",
+   "deja_suivi": false,
+   "trouve_via": "ae1213ed",
+   "pourquoi": "Appel annuel à candidatures (avril-juin) pour l'exposition 100% L'EXPO réservée aux DNSEP de moins de 5 ans ; porte d'entrée vers la Révélation Arts plastiques ADAGP ; PDF d'appel publié sous /wp-content/uploads/files/… (ex. 100_LEXPO_Appel-a-candidature_2027.pdf).",
+   "parser_suggere": "deep_html"
+  },
+  {
+   "nom": "ADAGP — appels à candidature en cours (Révélations, résidences, bourses)",
+   "url_appels": "https://www.adagp.fr/fr/soutien-la-creation-artistique/aides-directes-aux-artistes/les-revelations",
+   "url_site": "https://www.adagp.fr",
+   "type": "programme",
+   "deja_suivi": true,
+   "trouve_via": "ae1213ed",
+   "pourquoi": "La page « Les Révélations » comporte une section « Appels à candidature en cours » et renvoie vers les résidences (Prisme ADAGP x Cité internationale des arts 2026), bourses et dotations (Temps de Recherche artistique) ; domaine déjà suivi mais ces pages structurelles sont plus fiables que la rubrique actualités (lauréats).",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "artinfoland.com — agrégateur international d'opportunités",
+   "url_appels": "https://artinfoland.com/opportunities/pollen-residency-open-call-2027-france/",
+   "url_site": "https://artinfoland.com",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "dd63bde1",
+   "pourquoi": "Agrégateur anglophone qui référence des appels français (Pollen 2027, Bourse IA ENSP 2026-2027) avec fiches par organisateur, mais les dates, frais et lien officiel sont réservés aux abonnés : utile comme détecteur de nouveaux appels, pas comme source de preuve.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "fundit.fr — portail d'appels à projets (SHS, dont art et histoire de l'art)",
+   "url_appels": "https://fundit.fr/fr/calls",
+   "url_site": "https://fundit.fr",
+   "type": "agregateur",
+   "deja_suivi": false,
+   "trouve_via": "07e3edad",
+   "pourquoi": "Portail d'appels à projets en sciences humaines qui relaie certains dispositifs du Cnap (soutien à la recherche en théorie et critique d'art) ; marginal pour les plasticien·nes mais utile pour les bourses de recherche, mobilité internationale et résidences de recherche ; pas de filtre arts visuels.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "Réseau Astre (art contemporain Nouvelle-Aquitaine)",
+   "url_appels": "http://reseau-astre.org/",
+   "url_site": "http://reseau-astre.org/",
+   "type": "reseau",
+   "deja_suivi": true,
+   "trouve_via": "dd63bde1",
+   "pourquoi": "Pollen indique « POLLEN EST MEMBRE DU RESEAU » Astre ; réseau régional des structures d'art contemporain de Nouvelle-Aquitaine qui relaie les appels de ses membres (résidences, expositions) ; déjà suivi.",
+   "parser_suggere": "html"
+  },
+  {
+   "nom": "C-E-A — Association française des commissaires d'exposition",
+   "url_appels": "https://c-e-a.asso.fr/",
+   "url_site": "https://c-e-a.asso.fr",
+   "type": "reseau",
+   "deja_suivi": false,
+   "trouve_via": "recherche Cnap Suite (résultat web)",
+   "pourquoi": "Association professionnelle des commissaires, publie un guide de bonnes pratiques des appels à candidature (2025) et relaie des appels à commissariat/résidences curatoriales ; hors cœur de cible plasticien·nes, page d'appels non identifiée (seul le PDF du guide a été consulté).",
+   "parser_suggere": "html"
+  }
+ ],
+ "journal": [
+  "cnap.fr (2 fiches) et www.pollen-monflanquin.com/residences sont interdits au WebFetch (robots_disallowed) : vérification des deux pages Cnap limitée au titre et aux notes existantes ; pour Pollen, contournement via le site actif new.pollen-monflanquin.com dont le PDF d'appel (nommé « 2023 » mais téléversé en 2026/10) donne la clôture du 31 octobre 2026 pour la résidence sept.-déc. 2027.",
+  "ENSP Arles : www.ensp-arles.fr redirige vers ensp-arles.com ; incohérence entre le PDF (clôture 13 septembre 2026) et la page HTML (calendrier 2025) — l'appel 2026-2027 est de toute façon clos.",
+  "100% L'EXPO : PDF d'appel 2027 lisible sur lavillette.com (8 avril - 8 juin 2026) ; la page ADAGP confirme que la Révélation Arts plastiques est choisie parmi les exposant·es, sans candidature directe.",
+  "Page nos-partenaires de Pollen en erreur serveur ; artinfoland paywall ; aucun appel « Suite 2027 » du Cnap trouvé. Temps total ≈ 25 minutes pour les 6 fiches."
+ ]
+}

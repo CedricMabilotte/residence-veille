@@ -1,0 +1,154 @@
+uid: 18e2d639
+type: bourse
+source_url: https://on-the-move.org/resources/funding/mobility-funding-guide-asia
+fetched_at: '2026-05-22T11:16:42+00:00'
+score: 4
+status: indetermine
+opportunite:
+  nom: Mobility Funding Guide to Asia
+  organisme: On the Move, in partnership with ASEF - Asia-Europe Foundation
+  lieu:
+    ville: null
+    pays: null
+  nom_fr: Guide de financement pour la mobilité en Asie
+  affichage_titre: Mobility Funding Guide to Asia [Guide de financement pour la mobilité en Asie]
+candidature:
+  date_limite: null
+  langue_dossier: []
+  frais_inscription: null
+  pieces_demandees: []
+  url_candidature: https://on-the-move.org/resources/funding/mobility-funding-guide-asia
+eligibilite:
+  disciplines: []
+  niveau_carriere: null
+  age_max: null
+  nationalite: Asian nationals and residents (outgoing opportunities); non-Asian nationals (incoming opportunities)
+  residence_administrative: null
+conditions_bourse:
+  montant:
+    montant: null
+    devise: EUR
+  finalite: mobilite
+  calendrier_usage: null
+  obligations_rendu: []
+partenaires:
+- ASEF - Asia-Europe Foundation
+_meta:
+  extracted_confidence: 0.15
+  extracted_notes: Ce document n'est pas une opportunité de financement spécifique mais un guide d'agrégation publié en 2016.
+    Il décrit un répertoire de ressources de financement pour la mobilité artistique en Asie, sans proposer lui-même une bourse
+    ou appel à candidature avec modalités d'inscription. La majorité des champs spécifiques (dates limites, montants, disciplines,
+    pièces requises) sont absents du texte source.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-22T11:16:42+00:00'
+  source_lang: en
+  resume_fr: 'Le guide, publié en 2016, recense les ressources de financement nationales, locales et internationales pour
+    les artistes et travailleurs culturels en mobilité vers ou depuis l''Asie. Il propose deux catégories d''opportunités
+    : les programmes pour les résidents asiatiques voyageant à l''étranger et ceux pour les étrangers se rendant en Asie.
+    Seules les opportunités régulières avec appels ouverts en ligne sont incluses, excluant les ressources disponibles hors
+    ligne ou les programmes ponctuels. Depuis 2011, On the Move a publié 60 guides similaires couvrant des pays ou régions
+    spécifiques.'
+  detection_confidence: 0.72
+  detection_method: claude
+  source_label: On-the-Move — Funding (EN/FR/ES)
+  last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    erreur: page illisible
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.95
+    preuve:
+      url: https://on-the-move.org/resources/funding/mobility-funding-guide-asia
+      citation: Our guide to cross-border mobility for artists and cultural workers from and travelling to Asia.
+    notes: 'Guide de financement (2016, deux PDF « outgoing »/« incoming ») recensant des dispositifs réguliers de mobilité
+      vers/depuis l''Asie, publié par On the Move avec l''ASEF : ressource documentaire, pas un appel. Le guide lui-même exclut
+      les programmes ponctuels (« only lists regular opportunities that are accessible online »).'
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
+analyse:
+  synthese: 'Ceci est un guide informationnel publié en 2016 par On the Move en partenariat avec l''ASEF, documentant les
+    ressources de financement pour la mobilité artistique en Asie. Il recense des opportunités nationales, locales et internationales
+    réparties en deux catégories : « outgoing » (artistes asiatiques voyageant à l''étranger) et « incoming » (artistes étrangers
+    voyageant en Asie). Le guide compile uniquement les opportunités régulières accessibles en ligne (résidences, formations,
+    collaborations, tournées). Il s''agit d''un agrégateur, non d''une opportunité de financement autonome.'
+  pour_qui: Artistes et travailleurs culturels d'Asie souhaitant voyager à l'étranger, ainsi que les professionnels d'autres
+    continents désireux de se rendre en Asie.
+a_savoir:
+- Ceci est un guide d'agrégation, pas une opportunité de candidature directe.
+- 'Publication de 2016 : les informations sur les financements agrégés peuvent être obsolètes.'
+- Les opportunités ponctuelles et celles accessibles uniquement hors ligne ne sont pas incluses dans ce répertoire.
+organisme_details:
+  site_web: https://on-the-move.org
+  adresse: null
+  ville: null
+  contact_email: mobility@on-the-move.org
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0

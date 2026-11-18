@@ -3,7 +3,7 @@ type: residence
 source_url: https://resartis.org/open-call/patagonia-argentina-2027-multidisciplinary-program-2
 fetched_at: '2026-08-05T08:22:32+00:00'
 score: 7
-status: indetermine
+status: bientot-fermee
 opportunite:
   nom: PATAGONIA ARGENTINA – 2027 multidisciplinary program
   organisme: Res Artis
@@ -15,13 +15,13 @@ opportunite:
   affichage_titre: PATAGONIA ARGENTINA – 2027 multidisciplinary program [PATAGONIA
     ARGENTINA – 2027 Programme multidisciplinaire]
 candidature:
-  date_limite: null
-  date_limite_precision: null
+  date_limite: '2026-11-24'
+  date_limite_precision: day
   langue_dossier:
   - en
   frais_inscription: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://www.casanailha.org/patagonia-argentina-2027-session/
 eligibilite:
   disciplines:
   - visual arts
@@ -75,6 +75,24 @@ _meta:
   detection_method: heuristic
   source_label: Res Artis — Open calls (EN)
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: date_limite
+    confiance: 0.7
+    preuve:
+      url: https://resartis.org/open-call/patagonia-argentina-2027-multidisciplinary-program-2
+      citation: We operate a rolling application process throughout the year with
+        various deadlines.
+    notes: 'La fiche Res Artis affiche « Application deadline » 24 novembre 2026,
+      mais l''hôte Casa Na Ilha (Ilhabela, Brésil) pratique une candidature au fil
+      de l''eau (réponse sous 7 jours, formulaire sur demande par e-mail à info@casanailha.org,
+      aucune date limite sur son propre site). Résidence payante : 2 980 USD pour
+      3 semaines (15 avril - 6 mai 2027), acompte 50 %, solde 60 jours avant l''arrivée
+      (~mi-février 2027) ; la date du 24/11 semble être une échéance de publication
+      Res Artis plutôt qu''une clôture réelle. Lien de la session mal routé depuis
+      la page d''accueil de l''hôte (pointe vers la session Amazonie) ; l''URL correcte
+      est celle indiquée.'
 analyse:
   synthese: 'Résidence de 3 semaines du 15 avril au 6 mai 2027 au bord du lac Moreno
     à Bariloche (Patagonie, Argentine), sur un domaine de 2.5 acres. Chaque artiste

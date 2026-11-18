@@ -1,0 +1,149 @@
+uid: '19395618'
+type: exposition
+source_url: https://contextile.pt/en/contextile-2026-selected-artists
+fetched_at: '2026-11-18T17:18:40+00:00'
+score: 6
+status: indetermine
+opportunite:
+  nom: Contextile 2026 – Contemporary Textile Art Biennial
+  organisme: Contextile
+  lieu:
+    ville: Guimarães
+    pays: Portugal
+  nom_fr: CONTEXTILE 2026
+  affichage_titre: CONTEXTILE 2026 [CONTEXTILE 2026]
+candidature:
+  date_limite: null
+  langue_dossier: null
+  frais_inscription: null
+  pieces_demandees: null
+  url_candidature: https://contextile.pt/en/contextile-2026-open-call-international-exhibition/
+eligibilite:
+  disciplines:
+  - contemporary textile art
+  niveau_carriere: null
+  age_max: null
+  nationalite: null
+  residence_administrative: null
+conditions_exposition:
+  lieux:
+  - Guimarães, Portugal
+  dates_exposition: '2026-09-05'
+  format: collective
+  prise_en_charge:
+    production: false
+    transport:
+      pris_en_charge: false
+      plafond: null
+      devise: EUR
+    per_diem: false
+    hebergement_vernissage: false
+partenaires:
+- Fondation Toms Pauli, Lausanne
+_meta:
+  extracted_confidence: 0.25
+  extracted_notes: Page d'annonce de résultats (artistes sélectionnés), non page d'appel à candidature active. Informations
+    très lacunaires sur conditions de participation réelle.
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-11-18T17:18:40+00:00'
+  source_lang: en
+  resume_fr: Contextile 2026 est une exposition internationale d'art textile contemporain ayant reçu 2.036 œuvres de 1.604
+    artistes provenant de 81 pays. Le jury a sélectionné 54 œuvres de 51 artistes représentant 27 pays selon des critères
+    de créativité, originalité et compétences techniques liées au textile. L'exposition s'ouvre le 5 septembre à Guimarães,
+    Portugal, autour du thème « By a Thread_Por um Fio ». Un prix d'acquisition et des mentions honorables seront remis à
+    l'ouverture.
+  detection_confidence: 0.7222222222222222
+  detection_method: heuristic
+  source_label: Contextile — Biennale d'art textile contemporain (PT)
+  last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.85
+    preuve:
+      url: https://biennialfoundation.org/2025/09/contextile-2026-open-call-international-exhibition/
+      citation: All interested artists may apply with new creations or recent artworks, until the 7th March 2026
+    notes: 'La page source annonce les 51 artistes sélectionnés (jury des 9-10 avril 2026, ouverture le 5 septembre 2026)
+      : c''est une page de résultats. L''appel 2026 était clos le 7 mars 2026 (publié en septembre 2025). La biennale est
+      bisannuelle (2022, 2024, 2026) : un appel pour 2028 est très probable vers septembre 2027 - mars 2028, mais rien n''est
+      encore annoncé ; la page officielle de l''appel 2026 était en erreur serveur lors de la vérification.'
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
+analyse:
+  synthese: Contextile 2026 est une biennale internationale d'art textile contemporain. L'édition 2026 a reçu 2 036 œuvres
+    de 1 604 artistes (81 pays). Un jury multidisciplinaire a sélectionné 54 œuvres de 51 artistes (27 pays) selon critères
+    de créativité, originalité et maîtrise technique. Les prix seront annoncés à l'ouverture le 5 septembre 2026 à Guimarães.
+  pour_qui: Artistes travaillant en textile contemporain, sans restriction apparente de nationalité ou niveau de carrière.
+a_savoir:
+- 'Page de résultats uniquement : ne contient pas l''appel à candidature actif'
+- 'Taux de sélection très compétitif : 51 artistes retenus sur 1 604 candidats (3,2%)'
+- 'Thème 2026 obligatoire : ''By a Thread_Por um Fio'''
+- 'Conditions de participation absentes : pas de détails sur frais, hébergement, durée résidence, prise en charge'
+organisme_details:
+  site_web: https://contextile.pt
+  adresse: null
+  ville: Guimarães
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: '"per_diem": false, mais aucune mention de rémunération, bourse ou dotation'
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: non
+  justification: '"hebergement_vernissage": false'
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: '"Conditions de participation absentes : pas de détails sur frais, hébergement, durée résidence, prise en
+    charge"'
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: non
+  justification: '"production": false, "transport": {"pris_en_charge": false}, "per_diem": false'
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: '"Pas d''information sur rétribution ou bourse" — aucune dotation chiffrée'
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: oui
+  justification: '"selon critères de créativité, originalité et maîtrise technique" et thème obligatoire "By a Thread_Por
+    um Fio"'
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: partiel
+  justification: '"Les prix seront annoncés à l''ouverture le 5 septembre 2026" mais pas de délai d''annonce de sélection
+    initial'
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: '"Conditions de participation absentes : pas de détails [...] prise en charge"'
+  poids: 1
+  famille: transparence_administrative
+- id: visibilite_restitution
+  rempli: oui
+  justification: '"Contextile 2026 est une biennale internationale d''art textile contemporain" avec partenaire "Fondation
+    Toms Pauli, Lausanne"'
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: '"Conditions de participation absentes"'
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: true
+  signaux:
+  - textile
+  - collectif
+  bonus_score: 1

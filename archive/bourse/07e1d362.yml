@@ -3,7 +3,7 @@ type: bourse
 source_url: https://www.adagp.fr/fr/actualites/ladagp-soutient-les-3-laureats-de-la-bourse-post-master-intelligence-artificielle-2025
 fetched_at: '2026-05-22T15:36:47+00:00'
 score: 4
-status: indetermine
+status: expiree
 opportunite:
   nom: Bourse Post-Master Intelligence Artificielle 2025-2026 de l'ENSP Arles
   organisme: École nationale supérieure de la photographie d'Arles
@@ -16,15 +16,14 @@ candidature:
   - français
   frais_inscription: null
   pieces_demandees: null
-  url_candidature: null
+  url_candidature: https://ensp-arles.com/les-formations/bourses-post-master-intelligence-artificielle-2026-2027/
 eligibilite:
   disciplines:
   - photographie
   - image
   - vidéo
   - intelligence artificielle
-  niveau_carriere: artistes récemment diplômés de deuxième cycle des écoles supérieures
-    d'art
+  niveau_carriere: artistes récemment diplômés de deuxième cycle des écoles supérieures d'art
   age_max: null
   nationalite: null
   residence_administrative: null
@@ -40,9 +39,8 @@ partenaires:
 - Ministère de la Culture
 _meta:
   extracted_confidence: 0.6
-  extracted_notes: Article annonçant les lauréats de la bourse 2025-2026, pas un appel
-    à candidature en cours. Conditions et modalités du programme non détaillées dans
-    le texte.
+  extracted_notes: Article annonçant les lauréats de la bourse 2025-2026, pas un appel à candidature en cours. Conditions
+    et modalités du programme non détaillées dans le texte.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T15:36:47+00:00'
   source_lang: fr
@@ -54,16 +52,26 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     erreur: page illisible
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: expiree
+    confiance: 0.8
+    preuve:
+      url: https://ensp-arles.com/wp-content/uploads/2026-2027_Post-Matser_IA_AAC_rev.pdf
+      citation: le 13 septembre 2026 à minuit.
+    notes: 'La source ADAGP est un article annonçant les lauréats 2025-2026, mais l''appel officiel de l''édition suivante
+      (Bourse ENSP sur l''Intelligence Artificielle 2026-2027, 3 bourses de 4 000 €, DNSEP 2022-2026, candidature par mail
+      à candidatures-bourse-ia-2026@ensp-arles.fr) existe et est clos : le PDF donne une clôture au 13 septembre 2026, la
+      page HTML de l''ENSP affiche un calendrier « Clôture des inscriptions 5 octobre 2025 » (incohérence probable de copier-coller).
+      Aucune édition 2027-2028 annoncée ; le rythme est annuel (appels 2025 puis 2026), à revérifier vers juin-septembre 2027.'
 analyse:
-  synthese: L'ENSP Arles propose un programme d'accompagnement post-diplôme explorant
-    les intersections entre l'intelligence artificielle et la création artistique.
-    Trois artistes lauréats reçoivent chacun 4000€ ainsi qu'un accompagnement professionnel
-    et une guidance artistique. Le programme s'adresse aux artistes récemment diplômés
-    de deuxième cycle des écoles supérieures d'art, soutenu par l'ADAGP et le ministère
-    de la Culture.
-  pour_qui: Artistes récemment diplômés de deuxième cycle des écoles supérieures d'art
-    intéressés par les enjeux artistiques de l'intelligence artificielle appliquée
-    à la photographie et l'image.
+  synthese: L'ENSP Arles propose un programme d'accompagnement post-diplôme explorant les intersections entre l'intelligence
+    artificielle et la création artistique. Trois artistes lauréats reçoivent chacun 4000€ ainsi qu'un accompagnement professionnel
+    et une guidance artistique. Le programme s'adresse aux artistes récemment diplômés de deuxième cycle des écoles supérieures
+    d'art, soutenu par l'ADAGP et le ministère de la Culture.
+  pour_qui: Artistes récemment diplômés de deuxième cycle des écoles supérieures d'art intéressés par les enjeux artistiques
+    de l'intelligence artificielle appliquée à la photographie et l'image.
 a_savoir:
 - Document annonçant les lauréats sélectionnés, pas un appel à candidature actif
 - 'Très limitée : seulement 3 places'

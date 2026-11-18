@@ -5,8 +5,7 @@ fetched_at: '2026-05-22T11:28:09+00:00'
 score: 4
 status: indetermine
 opportunite:
-  nom: Soutenir les écoles d'art - Programme d'accompagnement professionnel Quilt
-    (ESBAN Nîmes)
+  nom: Soutenir les écoles d'art - Programme d'accompagnement professionnel Quilt (ESBAN Nîmes)
   organisme: Fondation des Artistes
   lieu:
     ville: Nîmes
@@ -40,12 +39,10 @@ partenaires:
 - ESBAN (École Supérieure d'art et de design de Nîmes)
 _meta:
   extracted_confidence: 0.25
-  extracted_notes: 'Page descriptive des missions de la Fondation des Artistes, pas
-    un appel à candidatures formel. Seul le programme Quilt (ESBAN Nîmes) mentionne
-    une opportunité datée (2024/2025 et 2025/2026), mais sans date limite de candidature
-    visible. Pas d''URL de candidature identifiée. Information fragmentaire : pas
-    de détails sur le processus actuel de candidature, les critères de sélection détaillés,
-    ou les modalités de dépôt.'
+  extracted_notes: 'Page descriptive des missions de la Fondation des Artistes, pas un appel à candidatures formel. Seul le
+    programme Quilt (ESBAN Nîmes) mentionne une opportunité datée (2024/2025 et 2025/2026), mais sans date limite de candidature
+    visible. Pas d''URL de candidature identifiée. Information fragmentaire : pas de détails sur le processus actuel de candidature,
+    les critères de sélection détaillés, ou les modalités de dépôt.'
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T11:28:09+00:00'
   source_lang: fr
@@ -57,26 +54,35 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     confiance: 0.15
-    indice: Page de présentation générale des missions de la Fondation décrivant des
-      programmes d'accompagnement passés et en cours, sans modalités ni dates de candidature
-      pour la seconde session du Quilt
+    indice: Page de présentation générale des missions de la Fondation décrivant des programmes d'accompagnement passés et
+      en cours, sans modalités ni dates de candidature pour la seconde session du Quilt
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.8
+    preuve:
+      url: https://www.fondationdesartistes.fr/wp-content/uploads/2026/02/CP-QUILT-II.pdf
+      citation: Les lauréat·e·x·s 2026, sélectionné·e·x·s par un jury composé de Delphine Paul
+    notes: 'La page source est une présentation générale des partenariats de la Fondation avec les écoles d''art, sans modalités
+      ni dates. Le programme Quilt (Ghost House / ésban) a déjà désigné ses lauréats 2026 (CP de février 2026 : Alix Di Jusco,
+      Léa Garrigues, Won Ji, Laure Marc) ; l''appel, réservé aux alumni ésban des cinq dernières années, est géré côté école
+      et aucune troisième édition 2026/2027 n''a été trouvée sur le web. À suivre via esban.fr plutôt que via cette page.'
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
 analyse:
-  synthese: La Fondation des Artistes soutient les écoles d'art en France pour faciliter
-    la transition professionnelle des jeunes diplômés. Le programme Quilt de l'ESBAN
-    Nîmes (2024/2025 et 2025/2026) offre une bourse de 5 000 euros par artiste accompagnée
-    individuellement et collectivement. La première édition a soutenu 4 projets d'alumni
-    de l'école. La seconde session cible des projets artistiques impliquant le contexte
-    social et les communautés minorisées.
-  pour_qui: Jeunes artistes et designers diplômés des écoles d'art partenaires (particulièrement
-    alumni ESBAN Nîmes des 5 dernières années), prêts à développer leur projet professionnel
-    personnel.
+  synthese: La Fondation des Artistes soutient les écoles d'art en France pour faciliter la transition professionnelle des
+    jeunes diplômés. Le programme Quilt de l'ESBAN Nîmes (2024/2025 et 2025/2026) offre une bourse de 5 000 euros par artiste
+    accompagnée individuellement et collectivement. La première édition a soutenu 4 projets d'alumni de l'école. La seconde
+    session cible des projets artistiques impliquant le contexte social et les communautés minorisées.
+  pour_qui: Jeunes artistes et designers diplômés des écoles d'art partenaires (particulièrement alumni ESBAN Nîmes des 5
+    dernières années), prêts à développer leur projet professionnel personnel.
 a_savoir:
 - Pas de date limite de candidature indiquée sur cette page descriptive
 - Opportunité réservée aux alumni des écoles d'art partenaires
-- Bourse modérée (5 000 euros) associée à un accompagnement intensif (sessions + suivi
-  individuel)
-- 'Page en français, contenu fragmentaire : appel à candidature réel probablement
-  hébergé ailleurs'
+- Bourse modérée (5 000 euros) associée à un accompagnement intensif (sessions + suivi individuel)
+- 'Page en français, contenu fragmentaire : appel à candidature réel probablement hébergé ailleurs'
 organisme_details:
   site_web: https://www.fondationdesartistes.fr
   adresse: Hôtel Salomon de Rothschild, Paris (mentionné pour visites professionnelles)

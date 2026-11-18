@@ -1,0 +1,175 @@
+uid: ea63cf12
+type: residence
+source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/04/Bases%20convocatoria%20proyectos%20audiovisuales%20CINETECA.pdf
+fetched_at: '2026-05-20T11:06:21+00:00'
+score: 4
+status: expiree
+opportunite:
+  nom: IV CONVOCATORIA CONJUNTA ENTRE CINETECA Y EL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN
+    DE TRES (3) RESIDENCIAS PARA PROYECTOS AUDIOVISUALES EN FASE DE DESARROLLO
+  organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
+  lieu:
+    ciudad: Madrid
+    pais: España
+    territorio: Comunidad de Madrid
+  nom_fr: BASES RÉGULATRICES DU IVe APPEL À CANDIDATURES CONJOINT ENTRE CINÉMATHÈQUE ET LE CENTRE DE RÉSIDENCES ARTISTIQUES
+    DE MATADERO MADRID POUR L'ATTRIBUTION DE TROIS (3) RÉSIDENCES POUR PROJETS AUDIOVISUELS EN PHASE DE DÉVELOPPEMENT
+  affichage_titre: BASES DE LA CONVOCATORIA [BASES RÉGULATRICES DU IVe APPEL À CANDIDATURES CONJOINT ENTRE CINÉMATHÈQUE ET
+    LE CENTRE DE RÉSIDENCES ARTISTIQUES DE MATADERO MADRID POUR L'ATTRIBUTION DE TROIS (3) RÉSIDENCES POUR PROJETS AUDIOVISUELS
+    EN PHASE DE DÉVELOPPEMENT]
+candidatura:
+  date_limite: null
+  date_limite_precision: null
+  langue_dossier:
+  - es
+  - en
+  frais_inscription: null
+  pieces_demandees:
+  - Formulario de solicitud
+  - Documentación acreditativa de residencia en la Comunidad de Madrid
+  - Descripción del proyecto audiovisual
+  url_candidature: null
+eligibilite:
+  disciplines:
+  - cine independiente
+  - cine experimental
+  - cine de lo real
+  - audiovisual
+  nivel_carrera: todos
+  age_max: null
+  nationalite: española, de un estado miembro de la Unión Europea, o extracomunitaria siempre que ostente residencia legal
+    en España
+  residence_administrativa: Comunidad de Madrid
+conditions_residence:
+  duree:
+    semanas: 8
+    dates: 2026-10-01 a 2026-11-30
+  hebergement: null
+  atelier: Espacios de producción y recursos facilitados en el Centro de residencias artísticas
+  remuneration: null
+  viaje: null
+  restitution: null
+partenaires:
+- Cineteca Madrid
+- Centro de residencias artísticas de Matadero Madrid
+_meta:
+  extracted_confidence: 0.55
+  extracted_notes: 'Documento tronqué en la última página. Faltan elementos críticos: fecha límite de candidatura, cuantía
+    de remuneración, condiciones de alojamiento, cuotas de inscripción, URL de candidatura. Información disponible parcialmente
+    incompleta.'
+  extracted_by: claude-haiku-4-5
+  extracted_at: '2026-05-20T11:06:21+00:00'
+  source_lang: es
+  resume_fr: Matadero Madrid et Cineteca Madrid lancent un appel à candidatures pour l'attribution de trois (3) résidences
+    de deux mois, destinées aux créateurs audiovisuels indépendants résidant dans la Communidad de Madrid. Les résidences
+    se dérouleront du 1 octobre au 30 novembre 2026 et concernent les projets audiovisuels en phase initiale de recherche,
+    développement ou écriture, axés sur le cinéma indépendant, expérimental et le cinéma du réel. L'objectif est de soutenir
+    le développement professionnel du secteur audiovisuel indépendant en fournissant des ressources spatiales, économiques
+    et un accompagnement curatorial et de production.
+  detection_confidence: 0.9322033898305084
+  detection_method: heuristic
+  source_label: MATADERO Madrid — convocatorias
+  last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    erreur: source PDF (non relue)
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: expiree
+    confiance: 0.85
+    preuve:
+      url: https://www.mataderomadrid.org/convocatorias/residencia-para-proyectos-audiovisuales-en-fase-de-desarrollo
+      citation: Del 15 de abril hasta el 2 de junio de 2026 las 14h (GMT+2)
+    notes: Appel Cineteca x CRA clos le 02/06/2026, marqué « Resueltas », résolution publiée en juillet 2026 (residencia du
+      01/10 au 30/11/2026). La page liste présente une date contradictoire (« hasta 27 abril »), la fiche détaillée donne
+      le 2 juin. Quatrième édition annuelle ; édition 2027 non annoncée. Cible audiovisuelle, marginale pour une veille arts
+      plastiques.
+analyse:
+  synthese: Convocatoria de tres (3) residencias de dos meses (1 de octubre - 30 de noviembre 2026) para creadores audiovisuales
+    independientes en fase inicial de investigación, desarrollo o escritura de proyectos. Matadero Madrid proporciona espacios
+    de producción, acompañamiento curatorial y de producción para apoyar la creación cinematográfica independiente, experimental
+    y documental. Dirigida a residentes de la Comunidad de Madrid, de nacionalidad española, UE o con residencia legal en
+    España.
+  para_quien: Artistas audiovisuales, cineastas y creadores visuales independientes residentes en la Comunidad de Madrid cuyo
+    trabajo se enfoca en cine independiente, experimental y cine de lo real.
+a_savoir:
+- 'Restricción geográfica estricta: residencia administrativa obligatoria en Comunidad de Madrid'
+- Fecha límite de candidatura no especificada en el documento
+- Remuneración y condiciones de alojamiento no explicitadas
+- 'Exclusión: beneficiarios de residencia en Matadero Madrid en los 3 años anteriores'
+- Una única candidatura por solicitante
+- 'Documento incompleto: información truncada al final'
+organismo_details:
+  site_web: https://www.mataderomadrid.org
+  adress: Calle Conde Duque 9-11, 28015 Madrid
+  ciudad: Madrid
+  contact_email: null
+criteres_programme:
+- id: retribution
+  rempli: inconnu
+  justification: ''
+  poids: 3
+  famille: conditions_materielles
+- id: hebergement
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: atelier
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: frais_pris_en_charge
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: ratio_dotation_cout_vie
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: conditions_materielles
+- id: criteres_selection_publies
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: transparence_administrative
+- id: delai_reponse_annonce
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: retour_individualise
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: transparence_administrative
+- id: production_libre
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: qualite_temps
+- id: calendrier_flexible
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: qualite_temps
+- id: visibilite_restitution
+  rempli: inconnu
+  justification: ''
+  poids: 2
+  famille: debouche
+- id: suivi_apres_programme
+  rempli: inconnu
+  justification: ''
+  poids: 1
+  famille: debouche
+_interne_affinite:
+  match: false
+  signaux: []
+  bonus_score: 0
+candidature:
+  url_candidature: https://www.mataderomadrid.org/convocatorias/residencia-para-proyectos-audiovisuales-en-fase-de-desarrollo

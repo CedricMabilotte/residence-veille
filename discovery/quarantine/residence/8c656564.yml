@@ -45,9 +45,8 @@ conditions_residence:
 partenaires: []
 _meta:
   extracted_confidence: 0.15
-  extracted_notes: Page informative seulement. Mentionne que la résidence fonctionne
-    sur un système d'invitations depuis 1927, aucune modalité de candidature ouverte
-    n'est décrite. Pas d'informations sur conditions de résidence, rémunération, durée
+  extracted_notes: Page informative seulement. Mentionne que la résidence fonctionne sur un système d'invitations depuis 1927,
+    aucune modalité de candidature ouverte n'est décrite. Pas d'informations sur conditions de résidence, rémunération, durée
     ou frais.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T11:33:20+00:00'
@@ -56,18 +55,30 @@ _meta:
   detection_method: claude
   source_label: Fondation des Artistes
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: pas_un_appel
+    confiance: 0.95
+    preuve:
+      url: http://www.moly-sabata.com/a-propos/modalites-daccueil/
+      citation: Depuis 1927, Moly-Sabata fonctionne sur invitation.
+    notes: 'Page de présentation d''une mission de la Fondation. Le site de Moly-Sabata confirme explicitement : « No application,
+      but you are all welcome to visit us on appointment. » Les artistes sont invités par des lieux d''art d''Auvergne-Rhône-Alpes
+      ou par Moly-Sabata ; deux prix (Département de l''Isère, salon Art-O-Rama) donnent aussi accès au programme, sans appel
+      ouvert. Fiche à retirer de la veille ou à marquer « sur invitation ».'
+  quarantine_reason: pas un appel à candidature (recherche agents 2026-11-18)
+  quarantined_at: '2026-11-18'
+  quarantined_by: appliquer_verdicts.py
 analyse:
-  synthese: La résidence de Moly-Sabata, administrée par la Fondation des Artistes
-    depuis juillet 2025, s'adresse aux artistes plasticiens. Elle a été fondée en
-    1927 et repose depuis ses origines sur un système d'invitations. Cette page ne
-    contient aucune information sur les modalités pratiques d'accès, les conditions
-    de séjour, la rémunération, la durée ou les équipements fournis.
-  pour_qui: Artistes plasticiens sélectionnés sur invitation par la Fondation des
-    Artistes.
+  synthese: La résidence de Moly-Sabata, administrée par la Fondation des Artistes depuis juillet 2025, s'adresse aux artistes
+    plasticiens. Elle a été fondée en 1927 et repose depuis ses origines sur un système d'invitations. Cette page ne contient
+    aucune information sur les modalités pratiques d'accès, les conditions de séjour, la rémunération, la durée ou les équipements
+    fournis.
+  pour_qui: Artistes plasticiens sélectionnés sur invitation par la Fondation des Artistes.
 a_savoir:
 - Programme basé sur invitation uniquement, pas d'appel à candidature ouvert
-- Aucune information sur conditions pratiques (hébergement, durée, atelier, rémunération,
-  frais) disponible sur cette page
+- Aucune information sur conditions pratiques (hébergement, durée, atelier, rémunération, frais) disponible sur cette page
 organisme_details:
   site_web: https://www.moly-sabata.com/
   adresse: Hôtel Salomon de Rothschild, 11 rue Berryer, 75008 Paris

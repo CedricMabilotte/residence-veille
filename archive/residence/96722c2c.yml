@@ -3,11 +3,10 @@ type: residence
 source_url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf
 fetched_at: '2026-05-21T11:00:47+00:00'
 score: 4
-status: indetermine
+status: expiree
 opportunite:
-  nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA
-    LA ASIGNACIÓN DE OCHO (8) RESIDENCIAS DE PRODUCCIÓN ARTÍSTICA DE TRES MESES SOBRE
-    MEDIOAMBIENTE DIRIGIDAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA
+  nom: III CONVOCATORIA DEL CENTRO DE RESIDENCIAS ARTÍSTICAS DE MATADERO MADRID PARA LA ASIGNACIÓN DE OCHO (8) RESIDENCIAS
+    DE PRODUCCIÓN ARTÍSTICA DE TRES MESES SOBRE MEDIOAMBIENTE DIRIGIDAS A ARTISTAS VISUALES RESIDENTES EN ESPAÑA
   organisme: Madrid Destino, Cultura, Turismo y Negocio S.A.
   lieu:
     ville: Madrid
@@ -24,7 +23,7 @@ candidature:
     montant: null
     devise: null
   pieces_demandees: []
-  url_candidature: null
+  url_candidature: https://www.mataderomadrid.org/convocatorias/residencias-trimestrales-para-proyectos-sobre-el-medioambiente-2026
 eligibilite:
   disciplines:
   - artes visuales
@@ -37,8 +36,8 @@ conditions_residence:
     semaines: null
     dates: 15 de septiembre de 2026 - 15 de diciembre de 2026
   hebergement: null
-  atelier: Espacios de creación y acompañamiento a nivel de producción en el Centro
-    de residencias artísticas de Matadero Madrid
+  atelier: Espacios de creación y acompañamiento a nivel de producción en el Centro de residencias artísticas de Matadero
+    Madrid
   remuneration:
     montant: null
     devise: null
@@ -51,17 +50,15 @@ conditions_residence:
 partenaires: []
 _meta:
   extracted_confidence: 0.5
-  extracted_notes: 'Documento incompleto: se detiene a mitad de la sección 5. Faltan
-    secciones críticas sobre fecha límite, detalles de remuneración, hospedaje y cobertura
-    de viajes.'
+  extracted_notes: 'Documento incompleto: se detiene a mitad de la sección 5. Faltan secciones críticas sobre fecha límite,
+    detalles de remuneración, hospedaje y cobertura de viajes.'
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-21T11:00:47+00:00'
   source_lang: es
-  resume_fr: Matadero Madrid lance un appel à candidature pour 8 résidences de production
-    artistique de 3 mois centrées sur l'environnement. Les résidences s'adressent
-    à des artistes visuales résidents en Espagne. Elles se dérouleront du 15 septembre
-    au 15 décembre 2026. Elles proposent des espaces de création, des ressources économiques,
-    un accompagnement professionnel et une visibilité.
+  resume_fr: Matadero Madrid lance un appel à candidature pour 8 résidences de production artistique de 3 mois centrées sur
+    l'environnement. Les résidences s'adressent à des artistes visuales résidents en Espagne. Elles se dérouleront du 15 septembre
+    au 15 décembre 2026. Elles proposent des espaces de création, des ressources économiques, un accompagnement professionnel
+    et une visibilité.
   detection_confidence: 0.896551724137931
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
@@ -70,25 +67,30 @@ _meta:
     at: '2026-11-18'
     by: recheck_dates.py
     erreur: source PDF (non relue)
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: expiree
+    confiance: 0.95
+    preuve:
+      url: https://www.mataderomadrid.org/sites/default/files/media/document/2026/02/Bases%20medioambiente%202026%20DEF.pdf
+      citation: Todas las solicitudes deberán presentarse antes de las 14 h. del 7 de abril de 2026.
+    notes: 'Bases complètes de l''appel Medioambiente 2026 : clôture 07/04/2026, résidence du 15/09 au 15/12/2026, appel résolu.
+      Même appel que 1a3f71ff et 56d7154d ; conserver une seule fiche. Édition 2027 non annoncée (attendue février 2027 si
+      le rythme annuel se maintient).'
 analyse:
-  synthese: Matadero Madrid ofrece 8 residencias de producción artística de 3 meses,
-    del 15 de septiembre al 15 de diciembre de 2026, dirigidas a artistas visuales
-    residentes en España que trabajen sobre medioambiente. El programa proporciona
-    espacios de creación, recursos económicos, acompañamiento profesional y visibilidad
-    institucional. Se seleccionarán mínimo 4 artistas de la Comunidad de Madrid y
-    máximo 4 del resto de España.
-  para_quien: Artistas visuales individuales o colectivos residentes en España de
-    mayoría de edad, con nacionalidad española, de la Unión Europea o extranjeros
-    con residencia legal, que trabajen sobre cuestiones de medioambiente.
+  synthese: Matadero Madrid ofrece 8 residencias de producción artística de 3 meses, del 15 de septiembre al 15 de diciembre
+    de 2026, dirigidas a artistas visuales residentes en España que trabajen sobre medioambiente. El programa proporciona
+    espacios de creación, recursos económicos, acompañamiento profesional y visibilidad institucional. Se seleccionarán mínimo
+    4 artistas de la Comunidad de Madrid y máximo 4 del resto de España.
+  para_quien: Artistas visuales individuales o colectivos residentes en España de mayoría de edad, con nacionalidad española,
+    de la Unión Europea o extranjeros con residencia legal, que trabajen sobre cuestiones de medioambiente.
 a_savoir:
 - 'Documento incompleto: falta la fecha límite de presentación de candidaturas.'
-- 'Remuneración no cuantificada: solo se menciona ''recursos económicos'' sin montantes
-  ni periodicidad.'
+- 'Remuneración no cuantificada: solo se menciona ''recursos económicos'' sin montantes ni periodicidad.'
 - Detalles sobre hospedaje y cobertura de viajes no especificados.
-- 'Restricción de participación anterior: no pueden ser beneficiarios de residencia
-  en Matadero Madrid en los 3 años previos.'
-- 'Requisito de idiomas: se requiere permeabilidad al castellano e inglés para convivencia
-  con residentes internacionales.'
+- 'Restricción de participación anterior: no pueden ser beneficiarios de residencia en Matadero Madrid en los 3 años previos.'
+- 'Requisito de idiomas: se requiere permeabilidad al castellano e inglés para convivencia con residentes internacionales.'
 organisme_details:
   site_web: null
   adresse: Calle Conde Duque 9-11, 28015 Madrid

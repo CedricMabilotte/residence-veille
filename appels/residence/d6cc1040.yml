@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.proyectoace.org/en/who-we-are/our-house/printmaking-workshop
 fetched_at: '2026-11-18T17:22:40+00:00'
 score: 6
-status: indetermine
+status: ouverte
 opportunite:
   nom: Proyecto'ace Artist-in-Residence International Program
   organisme: Proyecto'ace Fundación'ace
@@ -14,15 +14,15 @@ opportunite:
   nom_fr: Atelier Espacio Plus d'informations
   affichage_titre: Espacio Workshop More information [Atelier Espacio Plus d'informations]
 candidature:
-  date_limite: null
-  date_limite_precision: null
+  date_limite: '2027-01-31'
+  date_limite_precision: day
   langue_dossier:
   - en
   frais_inscription:
     montant: null
     devise: null
   pieces_demandees: []
-  url_candidature: null
+  url_candidature: https://www.proyectoace.org/en/residencies/
 eligibilite:
   disciplines:
   - Intaglio
@@ -80,6 +80,22 @@ _meta:
   detection_method: heuristic
   source_label: Proyecto'ACE — résidences de production (Buenos Aires)
   last_status_check: '2026-11-18'
+  recherche_dates:
+    at: '2026-11-18'
+    by: agents de recherche (9 agents, 2 vagues)
+    verdict: date_limite
+    confiance: 0.7
+    preuve:
+      url: https://www.proyectoace.org/en/faq/
+      citation: There are 4 calls each year that receive applications.
+    notes: 'La source_url est une page de présentation de l''atelier de gravure ;
+      le programme AIR (Production/Exploration Residencies) fonctionne par 4 appels
+      annuels avec clôtures fixes aux 31 janvier, 30 avril, 31 juillet et 31 octobre
+      (FAQ). L''Open Call #4 (31/10/2026) est clos au 18/11/2026 ; la prochaine clôture
+      déduite du calendrier annuel est le 31 janvier 2027, mais le site n''affiche
+      pas encore de bannière « Open Call #1 2027 » — d''où une confiance limitée.
+      Un dernier créneau 2026 (24 nov. – 11 déc.) est aussi proposé « to fill the
+      remaining places » sans date de clôture. Résidence payante.'
 analyse:
   synthese: Proyecto'ace propose une résidence artistique internationale à Buenos
     Aires basée sur l'accès à un atelier de gravure professionnel (20 m × 4 m) équipé
