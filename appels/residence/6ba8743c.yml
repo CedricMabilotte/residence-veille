@@ -66,6 +66,10 @@ _meta:
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    erreur: source PDF (non relue)
 analisis:
   sintesis: Este documento es una resolución publicando los resultados de la VI Convocatoria
     de Residencias del Centro de Residencias Artísticas de Matadero Madrid 2026. Se

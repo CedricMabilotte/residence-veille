@@ -77,6 +77,10 @@ _meta:
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    erreur: source PDF (non relue)
 analyse:
   synthese: Convocatoria de tres (3) residencias de dos meses (1 de octubre - 30 de
     noviembre 2026) para creadores audiovisuales independientes en fase inicial de

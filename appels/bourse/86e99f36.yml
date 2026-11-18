@@ -53,6 +53,13 @@ _meta:
   detection_method: claude
   source_label: Fondation des Artistes
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    confiance: 0.15
+    indice: Page de présentation générale des missions de la Fondation décrivant des
+      programmes d'accompagnement passés et en cours, sans modalités ni dates de candidature
+      pour la seconde session du Quilt
 analyse:
   synthese: La Fondation des Artistes soutient les écoles d'art en France pour faciliter
     la transition professionnelle des jeunes diplômés. Le programme Quilt de l'ESBAN

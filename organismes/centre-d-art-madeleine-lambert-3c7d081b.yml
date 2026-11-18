@@ -24,6 +24,7 @@ _meta:
   last_updated: '2026-08-06'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 ville: Vénissieux
 contact_email: centredart@ville-venissieux.fr
 noms_alternatifs:

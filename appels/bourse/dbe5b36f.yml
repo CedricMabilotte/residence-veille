@@ -3,7 +3,7 @@ type: bourse
 source_url: https://villa-albertine.org/va/fr/professionals/etant-donnes-pour-lart-contemporain
 fetched_at: '2026-05-22T15:51:10+00:00'
 score: 4
-status: indetermine
+status: edition-a-venir
 opportunite:
   nom: Etant donnés pour l'Art contemporain
   organisme: Villa Albertine
@@ -18,6 +18,7 @@ candidature:
     devise: null
   pieces_demandees: null
   url_candidature: null
+  prochaine_edition: 2026-12
 eligibilite:
   disciplines:
   - arts visuels
@@ -54,6 +55,12 @@ _meta:
   detection_method: claude
   source_label: Villa Albertine — appels résidences (USA)
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    confiance: 0.85
+    indice: 'Cet appel à candidatures est désormais clôturé. Prochain appel à candidatures
+      : 1er décembre 2026'
 analyse:
   synthese: 'Etant donnés pour l''Art contemporain, créé en 1994 par Villa Albertine,
     l''Institut français et le Ministère de la Culture, soutient la circulation artistique

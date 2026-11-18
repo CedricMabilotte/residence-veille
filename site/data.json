@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T19:04:48.556080+00:00",
-  "n_ouvertes": 62,
+  "generated_at": "2026-11-18T19:22:06.045638+00:00",
+  "n_ouvertes": 60,
   "n_archive": 51,
   "opportunites": [
     {
@@ -4493,7 +4493,7 @@
       "source_url": "https://www.fondationdesartistes.fr/missions/attribuer-un-atelier",
       "fetched_at": "2026-05-22T14:03:35+00:00",
       "score": 4,
-      "status": "indetermine",
+      "status": "ouverte-continue",
       "opportunite": {
         "nom": "Attribuer des ateliers",
         "organisme": "Fondation des Artistes",
@@ -4513,7 +4513,8 @@
           "Dossier artistique",
           "Dossier administratif"
         ],
-        "url_candidature": null
+        "url_candidature": null,
+        "candidature_continue": true
       },
       "eligibilite": {
         "disciplines": [
@@ -6792,161 +6793,6 @@
       ]
     },
     {
-      "uid": "0c311ef8",
-      "type": "bourse",
-      "source_url": "https://www.fondationdesartistes.fr/missions/promouvoir-la-scene-francaise",
-      "fetched_at": "2026-05-22T11:32:19+00:00",
-      "score": 4,
-      "status": "indetermine",
-      "opportunite": {
-        "nom": "Résidence annuelle Fondation des Artistes à l'étranger",
-        "organisme": "Fondation des Artistes",
-        "lieu": {
-          "ville": "Salvador de Bahia",
-          "pays": "Brésil"
-        }
-      },
-      "candidature": {
-        "date_limite": null,
-        "langue_dossier": [
-          "fr"
-        ],
-        "frais_inscription": null,
-        "pieces_demandees": null,
-        "url_candidature": null
-      },
-      "eligibilite": {
-        "disciplines": [
-          "arts plastiques"
-        ],
-        "niveau_carriere": "artistes ayant séjourné à Moly-Sabata ou ayant présenté une candidature pour le Prix du Frac Bretagne – Art Norac",
-        "age_max": null,
-        "nationalite": "français ou résidant en France",
-        "residence_administrative": "France"
-      },
-      "conditions_bourse": {
-        "montant": {
-          "montant": null,
-          "devise": "EUR"
-        },
-        "finalite": "mobilite",
-        "calendrier_usage": "deux mois, chaque année pendant trois ans (2023-2026)",
-        "obligations_rendu": []
-      },
-      "partenaires": [
-        "Institut Sacatar",
-        "Fonderie Darling",
-        "MOCO Montpellier",
-        "Prix du Frac Bretagne",
-        "ADAGP",
-        "Trampoline",
-        "Ministère de la Culture",
-        "Ministère des Affaires étrangères"
-      ],
-      "analyse": {
-        "synthese": "La Fondation des Artistes finance depuis 2019 des résidences artistiques pour créateurs français à l'étranger. Depuis 2023, un accord avec l'Institut Sacatar au Brésil réserve chaque année deux séjours de deux mois, renouvelés pour trois années. Les résidences s'adressent aux artistes ayant séjourné à Moly-Sabata ou ayant présenté candidature au Prix du Frac Bretagne. La sélection se fait par jury. Le programme vise à promouvoir le rayonnement international et enrichir les pratiques par immersion dans un nouvel environnement.",
-        "pour_qui": "Artistes plasticiens français ou résidant en France, ayant une pratique confirmée et figurant parmi les candidats sélectionnés par jury."
-      },
-      "a_savoir": [
-        "Page de présentation générale — pas d'appel à candidature formel avec date limite identifiée",
-        "Programme de résidence lancé en 2019, accord Brésil depuis 2023 pour trois années",
-        "Sélection par jury constitué spécifiquement",
-        "Résidence isolée sur île (Itaparica, Baie de Tous les Saints) — environnement très particulier"
-      ],
-      "organisme_details": {
-        "site_web": "https://www.fondationdesartistes.fr/",
-        "adresse": "Hôtel Salomon de Rothschild, Paris",
-        "ville": "Nogent-sur-Marne",
-        "contact_email": "visite@fondationdesartistes.fr"
-      },
-      "criteres_programme": [
-        {
-          "id": "retribution",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 3,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "ratio_dotation_cout_vie",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "criteres_selection_publies",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 2,
-          "famille": "transparence_administrative"
-        },
-        {
-          "id": "delai_reponse_annonce",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 1,
-          "famille": "transparence_administrative"
-        },
-        {
-          "id": "retour_individualise",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 1,
-          "famille": "transparence_administrative"
-        },
-        {
-          "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 2,
-          "famille": "qualite_temps"
-        },
-        {
-          "id": "calendrier_flexible",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 1,
-          "famille": "qualite_temps"
-        },
-        {
-          "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 2,
-          "famille": "debouche"
-        },
-        {
-          "id": "suivi_apres_programme",
-          "rempli": "inconnu",
-          "justification": "",
-          "poids": 1,
-          "famille": "debouche"
-        }
-      ]
-    },
-    {
       "uid": "18e2d639",
       "type": "bourse",
       "source_url": "https://on-the-move.org/resources/funding/mobility-funding-guide-asia",
@@ -7086,174 +6932,6 @@
           "id": "suivi_apres_programme",
           "rempli": "inconnu",
           "justification": "",
-          "poids": 1,
-          "famille": "debouche"
-        }
-      ]
-    },
-    {
-      "uid": "32ccdf05",
-      "type": "bourse",
-      "source_url": "https://artenda.net/art-open-call-opportunity/stipend",
-      "fetched_at": "2026-11-18T18:47:13+00:00",
-      "score": 7,
-      "status": "indetermine",
-      "opportunite": {
-        "nom": "Art Fellowships - International Art Stipends 2026/2027",
-        "organisme": "Artenda",
-        "lieu": {
-          "ville": null,
-          "pays": null
-        },
-        "nom_fr": "Bourses Artistiques",
-        "affichage_titre": "Art Fellowships [Bourses Artistiques]"
-      },
-      "candidature": {
-        "date_limite": null,
-        "langue_dossier": [
-          "en",
-          "fr"
-        ],
-        "frais_inscription": null,
-        "pieces_demandees": null,
-        "url_candidature": "https://artenda.net/art-open-call-opportunity/stipend"
-      },
-      "eligibilite": {
-        "disciplines": [
-          "Curatorial",
-          "Digital",
-          "Painting",
-          "Drawing",
-          "Photography",
-          "Video",
-          "Printmaking",
-          "Installation",
-          "Performance",
-          "Sculpture",
-          "Textile Art",
-          "Ceramics",
-          "Sound",
-          "Literature"
-        ],
-        "niveau_carriere": null,
-        "age_max": null,
-        "nationalite": null,
-        "residence_administrative": null
-      },
-      "conditions_bourse": {
-        "montant": {
-          "montant": null,
-          "devise": "EUR"
-        },
-        "finalite": "formation",
-        "calendrier_usage": "Variable selon l'opportunité (3 mois à 2 ans)",
-        "obligations_rendu": []
-      },
-      "partenaires": [
-        "Les Rencontres d'Arles",
-        "Fabre Museum",
-        "Mophradat"
-      ],
-      "analyse": {
-        "synthese": "Plateforme Artenda proposant un répertoire de bourses artistiques internationales (2026/2027) couvrant multiples disciplines. Montants variant de 1,200 € à 70,000 $ selon l'opportunité, durées de 3 mois à 2 ans, dates limites de novembre 2026 à janvier 2027. Critères d'éligibilité strictement différents selon chaque bourse (résidence, niveau études, langue, expérience).",
-        "pour_qui": "Artistes, chercheurs et curateurs de tous niveaux, avec critères spécifiques variables par programme (étudiants exclus de certaines, anglophones ou arabophones pour d'autres, résidents de pays/régions spécifiques)."
-      },
-      "a_savoir": [
-        "Page de listing - non une opportunité unique",
-        "Contenu fortement corrompu pour plusieurs entrées",
-        "Conditions très hétérogènes : chaque bourse a ses propres critères",
-        "Pas d'informations sur délais de réponse ou retour aux candidats",
-        "Montants disparates : allant de très minimes à substantiels",
-        "Critères d'éligibilité restrictifs (résidence, langue, expérience) sur plusieurs bourses"
-      ],
-      "organisme_details": {
-        "site_web": "https://artenda.net",
-        "adresse": null,
-        "ville": null,
-        "contact_email": null
-      },
-      "criteres_programme": [
-        {
-          "id": "retribution",
-          "rempli": "oui",
-          "justification": "synthese: 'Montants variant de 1,200 € à 70,000 $ selon l'opportunité'",
-          "poids": 3,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "hebergement",
-          "rempli": "inconnu",
-          "justification": "conditions_bourse: pas de mention d'hébergement au niveau du listing",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "atelier",
-          "rempli": "inconnu",
-          "justification": "conditions_bourse: pas de mention d'espace de travail au niveau du listing",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "frais_pris_en_charge",
-          "rempli": "inconnu",
-          "justification": "a_savoir: 'Conditions très hétérogènes : chaque bourse a ses propres critères'",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "ratio_dotation_cout_vie",
-          "rempli": "inconnu",
-          "justification": "lieu: {ville: null, pays: null} — coût de vie du lieu d'accueil non évaluable",
-          "poids": 2,
-          "famille": "conditions_materielles"
-        },
-        {
-          "id": "criteres_selection_publies",
-          "rempli": "non",
-          "justification": "analyse: 'Seules conditions d'éligibilité énumérées, pas critères jury/sélection'",
-          "poids": 2,
-          "famille": "transparence_administrative"
-        },
-        {
-          "id": "delai_reponse_annonce",
-          "rempli": "non",
-          "justification": "a_savoir: 'Pas d'informations sur délais de réponse ou retour aux candidats'",
-          "poids": 1,
-          "famille": "transparence_administrative"
-        },
-        {
-          "id": "retour_individualise",
-          "rempli": "inconnu",
-          "justification": "candidature: pas de mention de notification aux non-retenu·es au niveau du listing",
-          "poids": 1,
-          "famille": "transparence_administrative"
-        },
-        {
-          "id": "production_libre",
-          "rempli": "inconnu",
-          "justification": "conditions_bourse.obligations_rendu: [] — obligations non détaillées au niveau du listing",
-          "poids": 2,
-          "famille": "qualite_temps"
-        },
-        {
-          "id": "calendrier_flexible",
-          "rempli": "partiel",
-          "justification": "calendrier_usage: 'Variable selon l'opportunité (3 mois à 2 ans)' mais rigidité possible intra-programme",
-          "poids": 1,
-          "famille": "qualite_temps"
-        },
-        {
-          "id": "visibilite_restitution",
-          "rempli": "inconnu",
-          "justification": "partenaires listés (Les Rencontres d'Arles, Fabre Museum, Mophradat) mais visibilité restitution non spécifiée",
-          "poids": 2,
-          "famille": "debouche"
-        },
-        {
-          "id": "suivi_apres_programme",
-          "rempli": "inconnu",
-          "justification": "conditions_bourse: pas de mention de suivi alumni ou accompagnement post-programme",
           "poids": 1,
           "famille": "debouche"
         }
@@ -7418,7 +7096,7 @@
       "source_url": "https://villa-albertine.org/va/fr/professionals/etant-donnes-pour-lart-contemporain",
       "fetched_at": "2026-05-22T15:51:10+00:00",
       "score": 4,
-      "status": "indetermine",
+      "status": "edition-a-venir",
       "opportunite": {
         "nom": "Etant donnés pour l'Art contemporain",
         "organisme": "Villa Albertine",
@@ -7435,7 +7113,8 @@
           "devise": null
         },
         "pieces_demandees": null,
-        "url_candidature": null
+        "url_candidature": null,
+        "prochaine_edition": "2026-12"
       },
       "eligibilite": {
         "disciplines": [

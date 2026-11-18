@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-18T19:09:40.581018+00:00",
+  "ended_at": "2026-11-18T19:09:40.618528+00:00",
+  "duration_sec": 0.03751,
+  "dry_run": false,
+  "claude_session_limit_hit": false,
+  "n_sources": 72,
+  "n_items_total": 0,
+  "n_promoted_total": 0,
+  "n_new_items": 0,
+  "n_seen_skipped": 0,
+  "budget_minutes": 60,
+  "budget_hit": false,
+  "sources_not_reached": [],
+  "sources_stats": [],
+  "logs": []
+}

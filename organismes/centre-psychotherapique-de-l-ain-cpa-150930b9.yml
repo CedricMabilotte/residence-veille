@@ -35,6 +35,7 @@ _meta:
   last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 ville: Bourg-en-Bresse
 contact_email: culture.nomad@orsac-cpa01.fr
 noms_alternatifs:

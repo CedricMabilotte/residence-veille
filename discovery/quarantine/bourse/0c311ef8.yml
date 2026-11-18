@@ -20,8 +20,8 @@ candidature:
 eligibilite:
   disciplines:
   - arts plastiques
-  niveau_carriere: artistes ayant séjourné à Moly-Sabata ou ayant présenté une candidature
-    pour le Prix du Frac Bretagne – Art Norac
+  niveau_carriere: artistes ayant séjourné à Moly-Sabata ou ayant présenté une candidature pour le Prix du Frac Bretagne –
+    Art Norac
   age_max: null
   nationalite: français ou résidant en France
   residence_administrative: France
@@ -43,10 +43,9 @@ partenaires:
 - Ministère des Affaires étrangères
 _meta:
   extracted_confidence: 0.35
-  extracted_notes: Page de présentation générale des missions, non appel à candidature
-    formel. Pas de date limite, formulaire ou frais d'inscription mentionnés. Informations
-    concernent les éditions 2023-2024. Texte décrit surtout l'historique et les lauréats
-    désignés, non les modalités actuelles de candidature.
+  extracted_notes: Page de présentation générale des missions, non appel à candidature formel. Pas de date limite, formulaire
+    ou frais d'inscription mentionnés. Informations concernent les éditions 2023-2024. Texte décrit surtout l'historique et
+    les lauréats désignés, non les modalités actuelles de candidature.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-05-22T11:32:19+00:00'
   source_lang: fr
@@ -54,23 +53,27 @@ _meta:
   detection_method: claude
   source_label: Fondation des Artistes
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    confiance: 0.7
+    indice: pour réserver, chaque année pendant trois ans, deux séjours de deux mois à deux artistes de la scène française
+  quarantine_reason: pas un appel à candidature (re-vérification des dates)
+  quarantined_at: '2026-11-18T19:10:45.814972+00:00'
+  quarantined_by: recheck_dates.py
 analyse:
-  synthese: La Fondation des Artistes finance depuis 2019 des résidences artistiques
-    pour créateurs français à l'étranger. Depuis 2023, un accord avec l'Institut Sacatar
-    au Brésil réserve chaque année deux séjours de deux mois, renouvelés pour trois
-    années. Les résidences s'adressent aux artistes ayant séjourné à Moly-Sabata ou
-    ayant présenté candidature au Prix du Frac Bretagne. La sélection se fait par
-    jury. Le programme vise à promouvoir le rayonnement international et enrichir
+  synthese: La Fondation des Artistes finance depuis 2019 des résidences artistiques pour créateurs français à l'étranger.
+    Depuis 2023, un accord avec l'Institut Sacatar au Brésil réserve chaque année deux séjours de deux mois, renouvelés pour
+    trois années. Les résidences s'adressent aux artistes ayant séjourné à Moly-Sabata ou ayant présenté candidature au Prix
+    du Frac Bretagne. La sélection se fait par jury. Le programme vise à promouvoir le rayonnement international et enrichir
     les pratiques par immersion dans un nouvel environnement.
-  pour_qui: Artistes plasticiens français ou résidant en France, ayant une pratique
-    confirmée et figurant parmi les candidats sélectionnés par jury.
+  pour_qui: Artistes plasticiens français ou résidant en France, ayant une pratique confirmée et figurant parmi les candidats
+    sélectionnés par jury.
 a_savoir:
-- Page de présentation générale — pas d'appel à candidature formel avec date limite
-  identifiée
+- Page de présentation générale — pas d'appel à candidature formel avec date limite identifiée
 - Programme de résidence lancé en 2019, accord Brésil depuis 2023 pour trois années
 - Sélection par jury constitué spécifiquement
-- Résidence isolée sur île (Itaparica, Baie de Tous les Saints) — environnement très
-  particulier
+- Résidence isolée sur île (Itaparica, Baie de Tous les Saints) — environnement très particulier
 organisme_details:
   site_web: https://www.fondationdesartistes.fr/
   adresse: Hôtel Salomon de Rothschild, Paris

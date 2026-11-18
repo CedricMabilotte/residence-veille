@@ -57,6 +57,11 @@ track_record:
     - '2027'
     fiabilite_cycle: 0.5
     fenetre_annuelle: 2027-04-23 → 2027-08-21
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-08-09 → 2027-12-07
 partenaires_mentionnes:
 - organisme_uid: institut-adam-mickiewicz
   occurrences: 3

@@ -107,3 +107,9 @@ cycles:
   prochain_estimee: '2027-10-08'
   fenetre_surveillance: 2027-08-09 → 2027-12-07
   url_a_surveiller: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite
+- organisme_uid: institut-francais-ministry-for-europe-and-foreign-affairs-mi-02342713
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-10-08'
+  fenetre_surveillance: 2027-08-09 → 2027-12-07
+  url_a_surveiller: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite

@@ -2,11 +2,17 @@ uid: dorland-mountain-arts-102ca49c
 nom_canonique: Dorland Mountain Arts
 acronymes: []
 pays: null
-type_organisme: null
+type_organisme: centre_art
 url_canonique: https://www.dorlandmountainarts.org
 urls_secondaires: []
-description_courte: null
-disciplines_proposees: []
+description_courte: Résidence d'artistes en Californie proposant des programmes de création et de résidence artistique.
+disciplines_proposees:
+- peinture
+- sculpture
+- dessin
+- céramique
+- photographie
+- installation
 types_opportunites_habituels:
 - residence
 opportunites_liees:
@@ -24,4 +30,5 @@ _meta:
   last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 ville: Temecula

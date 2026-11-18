@@ -66,6 +66,10 @@ _meta:
   detection_method: heuristic
   source_label: MATADERO Madrid — convocatorias
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    erreur: source PDF (non relue)
 analyse:
   synthese: Matadero Madrid ofrece 8 residencias de producción artística de 3 meses,
     del 15 de septiembre al 15 de diciembre de 2026, dirigidas a artistas visuales

@@ -21,6 +21,7 @@ _meta:
   last_updated: '2026-11-18'
   status: actif
   nouveaux_entrants: true
+  enrich_attempted_at: '2026-11-18'
 adresse: La Gouesnière (35350), Ille-et-Vilaine, Bretagne, France
 ville: La Gouesnière
 contact_email: expos@chateaudebonaban.fr

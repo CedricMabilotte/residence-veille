@@ -53,40 +53,44 @@ partenaires:
 - Mophradat
 _meta:
   extracted_confidence: 0.25
-  extracted_notes: Page d'agrégation listant de multiples bourses. Beaucoup de texte
-    corrompu empêche extraction précise. Pas une page d'appel unique.
+  extracted_notes: Page d'agrégation listant de multiples bourses. Beaucoup de texte corrompu empêche extraction précise.
+    Pas une page d'appel unique.
   extracted_by: claude-haiku-4-5
   extracted_at: '2026-11-18T18:47:13+00:00'
   source_lang: en
-  resume_fr: Page listant les appels à candidature pour des bourses et fellowships
-    artistiques nationales et internationales pour 2026/2027. Les opportunités couvrent
-    plusieurs domaines (curatoriat, photographie, peinture, vidéo, sculpture, etc.)
-    avec des montants variant de 1 000 € à 55 000 $ par an. Les candidatures affichent
-    des dates limites comprises entre le 30 novembre et le 14 décembre 2026, pour
-    des durées de 6 mois à 2 ans. Les positions sont localisées en France, Belgique,
-    États-Unis, Irlande et autres pays. Chaque opportunité définit des conditions
-    d'éligibilité spécifiques selon le profil et l'expérience des candidats.
+  resume_fr: Page listant les appels à candidature pour des bourses et fellowships artistiques nationales et internationales
+    pour 2026/2027. Les opportunités couvrent plusieurs domaines (curatoriat, photographie, peinture, vidéo, sculpture, etc.)
+    avec des montants variant de 1 000 € à 55 000 $ par an. Les candidatures affichent des dates limites comprises entre le
+    30 novembre et le 14 décembre 2026, pour des durées de 6 mois à 2 ans. Les positions sont localisées en France, Belgique,
+    États-Unis, Irlande et autres pays. Chaque opportunité définit des conditions d'éligibilité spécifiques selon le profil
+    et l'expérience des candidats.
   detection_confidence: 0.9428571428571428
   detection_method: heuristic
   source_label: Artenda — agrégateur international (filtrable par pays)
   last_status_check: '2026-11-18'
+  date_recheck:
+    at: '2026-11-18'
+    by: recheck_dates.py
+    confiance: 0.95
+    indice: Cette page est une agrégation de multiples appels à candidature distincts (Les Rencontres d'Arles, Fabre Museum,
+      Mophradat, etc.) avec des dates limites différentes, pas un seul appel unique
+  quarantine_reason: pas un appel à candidature (re-vérification des dates)
+  quarantined_at: '2026-11-18T19:09:52.902512+00:00'
+  quarantined_by: recheck_dates.py
 analyse:
-  synthese: Plateforme Artenda proposant un répertoire de bourses artistiques internationales
-    (2026/2027) couvrant multiples disciplines. Montants variant de 1,200 € à 70,000
-    $ selon l'opportunité, durées de 3 mois à 2 ans, dates limites de novembre 2026
-    à janvier 2027. Critères d'éligibilité strictement différents selon chaque bourse
-    (résidence, niveau études, langue, expérience).
-  pour_qui: Artistes, chercheurs et curateurs de tous niveaux, avec critères spécifiques
-    variables par programme (étudiants exclus de certaines, anglophones ou arabophones
-    pour d'autres, résidents de pays/régions spécifiques).
+  synthese: Plateforme Artenda proposant un répertoire de bourses artistiques internationales (2026/2027) couvrant multiples
+    disciplines. Montants variant de 1,200 € à 70,000 $ selon l'opportunité, durées de 3 mois à 2 ans, dates limites de novembre
+    2026 à janvier 2027. Critères d'éligibilité strictement différents selon chaque bourse (résidence, niveau études, langue,
+    expérience).
+  pour_qui: Artistes, chercheurs et curateurs de tous niveaux, avec critères spécifiques variables par programme (étudiants
+    exclus de certaines, anglophones ou arabophones pour d'autres, résidents de pays/régions spécifiques).
 a_savoir:
 - Page de listing - non une opportunité unique
 - Contenu fortement corrompu pour plusieurs entrées
 - 'Conditions très hétérogènes : chaque bourse a ses propres critères'
 - Pas d'informations sur délais de réponse ou retour aux candidats
 - 'Montants disparates : allant de très minimes à substantiels'
-- Critères d'éligibilité restrictifs (résidence, langue, expérience) sur plusieurs
-  bourses
+- Critères d'éligibilité restrictifs (résidence, langue, expérience) sur plusieurs bourses
 organisme_details:
   site_web: https://artenda.net
   adresse: null
@@ -105,62 +109,52 @@ criteres_programme:
   famille: conditions_materielles
 - id: atelier
   rempli: inconnu
-  justification: 'conditions_bourse: pas de mention d''espace de travail au niveau
-    du listing'
+  justification: 'conditions_bourse: pas de mention d''espace de travail au niveau du listing'
   poids: 2
   famille: conditions_materielles
 - id: frais_pris_en_charge
   rempli: inconnu
-  justification: 'a_savoir: ''Conditions très hétérogènes : chaque bourse a ses propres
-    critères'''
+  justification: 'a_savoir: ''Conditions très hétérogènes : chaque bourse a ses propres critères'''
   poids: 2
   famille: conditions_materielles
 - id: ratio_dotation_cout_vie
   rempli: inconnu
-  justification: 'lieu: {ville: null, pays: null} — coût de vie du lieu d''accueil
-    non évaluable'
+  justification: 'lieu: {ville: null, pays: null} — coût de vie du lieu d''accueil non évaluable'
   poids: 2
   famille: conditions_materielles
 - id: criteres_selection_publies
   rempli: non
-  justification: 'analyse: ''Seules conditions d''éligibilité énumérées, pas critères
-    jury/sélection'''
+  justification: 'analyse: ''Seules conditions d''éligibilité énumérées, pas critères jury/sélection'''
   poids: 2
   famille: transparence_administrative
 - id: delai_reponse_annonce
   rempli: non
-  justification: 'a_savoir: ''Pas d''informations sur délais de réponse ou retour
-    aux candidats'''
+  justification: 'a_savoir: ''Pas d''informations sur délais de réponse ou retour aux candidats'''
   poids: 1
   famille: transparence_administrative
 - id: retour_individualise
   rempli: inconnu
-  justification: 'candidature: pas de mention de notification aux non-retenu·es au
-    niveau du listing'
+  justification: 'candidature: pas de mention de notification aux non-retenu·es au niveau du listing'
   poids: 1
   famille: transparence_administrative
 - id: production_libre
   rempli: inconnu
-  justification: 'conditions_bourse.obligations_rendu: [] — obligations non détaillées
-    au niveau du listing'
+  justification: 'conditions_bourse.obligations_rendu: [] — obligations non détaillées au niveau du listing'
   poids: 2
   famille: qualite_temps
 - id: calendrier_flexible
   rempli: partiel
-  justification: 'calendrier_usage: ''Variable selon l''opportunité (3 mois à 2 ans)''
-    mais rigidité possible intra-programme'
+  justification: 'calendrier_usage: ''Variable selon l''opportunité (3 mois à 2 ans)'' mais rigidité possible intra-programme'
   poids: 1
   famille: qualite_temps
 - id: visibilite_restitution
   rempli: inconnu
-  justification: partenaires listés (Les Rencontres d'Arles, Fabre Museum, Mophradat)
-    mais visibilité restitution non spécifiée
+  justification: partenaires listés (Les Rencontres d'Arles, Fabre Museum, Mophradat) mais visibilité restitution non spécifiée
   poids: 2
   famille: debouche
 - id: suivi_apres_programme
   rempli: inconnu
-  justification: 'conditions_bourse: pas de mention de suivi alumni ou accompagnement
-    post-programme'
+  justification: 'conditions_bourse: pas de mention de suivi alumni ou accompagnement post-programme'
   poids: 1
   famille: debouche
 _interne_affinite:
