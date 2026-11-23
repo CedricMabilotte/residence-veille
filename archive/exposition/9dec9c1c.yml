@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280
 fetched_at: '2026-11-18T16:50:26+00:00'
 score: 6
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Monochrome 2027, International Photography Exhibition
   organisme: The Glasgow Gallery of Photography
@@ -71,7 +71,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
 analyse:
   synthese: Monochrome 2027 est un appel à candidature gratuit pour une exposition
     photographique collective annuelle accueillie par la Glasgow Gallery of Photography

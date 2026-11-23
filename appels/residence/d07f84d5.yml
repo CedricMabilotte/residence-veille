@@ -74,7 +74,7 @@ _meta:
   detection_confidence: 0.9
   detection_method: heuristic
   source_label: Semences manuelles (discovery/seeds.yml)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
 analyse:
   synthese: Ce programme propose une résidence de 12 semaines (1er mars au 28 mai
     2027) à Eindhoven pour un artiste, designer ou architecte professionnel de nationalité

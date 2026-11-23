@@ -3,7 +3,7 @@ type: exposition
 source_url: https://www.curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240
 fetched_at: '2026-11-18T16:55:53+00:00'
 score: 6
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: MATERIALITIES International Contemporary Art Exhibition | December 2026
   organisme: Galeria 5ª ao Sul
@@ -87,7 +87,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Curator Space — opportunities (EN)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
 analyse:
   synthese: Galeria 5ª ao Sul invites emerging and established artists worldwide to
     submit work for Materialities, an international contemporary art exhibition presented

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-23",
+  "n_candidates": 2,
+  "records": [
+    {
+      "uid": "408ccbd5",
+      "issue": "erreur: claude exit 1 — "
+    },
+    {
+      "uid": "75af3b59",
+      "issue": "erreur: claude exit 1 — "
+    }
+  ]
+}

@@ -13,7 +13,12 @@ opportunites_liees:
 - uid: 4f662363
   type: exposition
   nom: MATERIALITIES International Contemporary Art Exhibition | December 2026
-track_record: {}
+track_record:
+  exposition:
+    editions:
+    - '2026'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-09-21 → 2028-01-19
 partenaires_mentionnes:
 - organisme_uid: kunstmatrix
   occurrences: 1
@@ -27,7 +32,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-11-18'
-  last_updated: '2026-11-18'
+  last_updated: '2026-11-23'
   status: actif
   nouveaux_entrants: true
   enrich_attempted_at: '2026-11-18'

@@ -63,7 +63,7 @@ _meta:
   detection_confidence: 0.8888888888888888
   detection_method: heuristic
   source_label: Semences manuelles (discovery/seeds.yml)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
 analyse:
   synthese: 'International visual arts prize presented by IDEA Associació Cultural,
     offering two acquisition prizes of €3,500 and €1,500. Open to artists 18+ of any

@@ -55,7 +55,7 @@ _meta:
   detection_confidence: 0.75
   detection_method: heuristic
   source_label: Semences manuelles (discovery/seeds.yml)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
 analyse:
   synthese: Cove Park propose des résidences artistiques entièrement financées de
     2 semaines à 3 mois entre mai 2027 et décembre 2028. Le programme offre 775 £

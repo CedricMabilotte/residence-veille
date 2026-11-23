@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-11-23T16:47:18.887912+00:00",
+  "ended_at": "2026-11-23T16:47:48.151993+00:00",
+  "duration_sec": 29.264081,
+  "dry_run": false,
+  "claude_session_limit_hit": false,
+  "n_sources": 82,
+  "n_items_total": 1,
+  "n_promoted_total": 0,
+  "n_new_items": 0,
+  "n_seen_skipped": 1,
+  "budget_minutes": 60,
+  "budget_hit": false,
+  "sources_not_reached": [],
+  "sources_stats": [
+    {
+      "label": "e-flux — Announcements (EN)",
+      "items": 1,
+      "new_items": 0,
+      "promoted": 0
+    },
+    {
+      "label": "CNAP — flux RSS appels à projet (tous types)",
+      "items": 0,
+      "new_items": 0,
+      "promoted": 0
+    }
+  ],
+  "logs": []
+}

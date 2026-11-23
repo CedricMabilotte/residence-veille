@@ -66,7 +66,7 @@ _meta:
   detection_confidence: 0.9032258064516129
   detection_method: heuristic
   source_label: Semences manuelles (discovery/seeds.yml)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
   date_recheck:
     at: '2026-11-18'
     by: recheck_dates.py

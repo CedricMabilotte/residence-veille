@@ -113,3 +113,15 @@ cycles:
   prochain_estimee: '2027-10-08'
   fenetre_surveillance: 2027-08-09 → 2027-12-07
   url_a_surveiller: https://www.citeinternationaledesarts.fr/appels-a-candidature/institutfrancaisxcite
+- organisme_uid: galeria-5a-ao-sul-25ad7cfe
+  type: exposition
+  millesime_archive: 2026
+  prochain_estimee: '2027-11-20'
+  fenetre_surveillance: 2027-09-21 → 2028-01-19
+  url_a_surveiller: https://www.curatorspace.com/opportunities/detail/materialities--international-contemporary-art-exhibition--december/11240
+- organisme_uid: the-glasgow-gallery-of-photography-b866fc0d
+  type: exposition
+  millesime_archive: 2027
+  prochain_estimee: '2027-11-20'
+  fenetre_surveillance: 2027-09-21 → 2028-01-19
+  url_a_surveiller: https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280

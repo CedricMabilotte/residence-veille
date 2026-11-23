@@ -62,7 +62,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: heuristic
   source_label: Semences manuelles (discovery/seeds.yml)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
 analyse:
   synthese: 'La Biennale internationale du lin de Portneuf (BILP) propose une exposition
     collective « Mécaniques » pour artistes de la relève (5 ans de pratique maximum).

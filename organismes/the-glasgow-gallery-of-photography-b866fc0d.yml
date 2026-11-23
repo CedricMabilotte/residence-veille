@@ -23,13 +23,14 @@ track_record:
   exposition:
     editions:
     - '2026'
-    fiabilite_cycle: 0.5
-    fenetre_annuelle: 2027-03-23 → 2027-07-21
+    - '2027'
+    fiabilite_cycle: 0.7
+    fenetre_annuelle: 2027-09-21 → 2028-01-19
 partenaires_mentionnes: []
 pages_surveillees: []
 _meta:
   first_seen: '2026-05-22'
-  last_updated: '2026-11-18'
+  last_updated: '2026-11-23'
   status: actif
   nouveaux_entrants: true
 ville: Glasgow

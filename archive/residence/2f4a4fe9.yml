@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.artistcommunities.org/directory/open-calls/visual-arts-sounding-mountain
 fetched_at: '2026-11-18T18:22:40+00:00'
 score: 8
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Visual Arts - Sounding Like a Mountain
   organisme: Banff Centre for Arts & Creativity
@@ -92,7 +92,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: Artist Communities Alliance — Open Calls (international)
-  last_status_check: '2026-11-18'
+  last_status_check: '2026-11-23'
 analyse:
   synthese: Résidence artistique de 5 semaines au Banff Centre for Arts & Creativity
     pour artistes visuels de tous niveaux de carrière travaillant sur l'écologie acoustique
