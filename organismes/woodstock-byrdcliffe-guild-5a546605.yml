@@ -13,7 +13,12 @@ opportunites_liees:
 - uid: 2f71592e
   type: residence
   nom: Summer 2027 Byrdcliffe Communal Residency
-track_record: {}
+track_record:
+  residence:
+    editions:
+    - '2027'
+    fiabilite_cycle: 0.5
+    fenetre_annuelle: 2027-09-24 → 2028-01-22
 partenaires_mentionnes:
 - organisme_uid: pollock-krasner-foundation
   occurrences: 1
@@ -21,7 +26,7 @@ partenaires_mentionnes:
 pages_surveillees: []
 _meta:
   first_seen: '2026-11-18'
-  last_updated: '2026-11-18'
+  last_updated: '2026-11-24'
   status: actif
   nouveaux_entrants: true
 ville: Woodstock

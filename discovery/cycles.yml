@@ -125,3 +125,9 @@ cycles:
   prochain_estimee: '2027-11-20'
   fenetre_surveillance: 2027-09-21 → 2028-01-19
   url_a_surveiller: https://www.curatorspace.com/opportunities/detail/monochrome--international-photography-exhibition/11280
+- organisme_uid: woodstock-byrdcliffe-guild-5a546605
+  type: residence
+  millesime_archive: 2027
+  prochain_estimee: '2027-11-23'
+  fenetre_surveillance: 2027-09-24 → 2028-01-22
+  url_a_surveiller: https://www.artistcommunities.org/directory/open-calls/summer-2027-byrdcliffe-communal-residency

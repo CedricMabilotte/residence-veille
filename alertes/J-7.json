@@ -2,7 +2,7 @@
   {
     "path": "appels/residence/10daf613.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 7,
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "10daf613",
     "nom": "Prisme"
@@ -10,23 +10,15 @@
   {
     "path": "appels/residence/2d5ff03c.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 7,
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "2d5ff03c",
     "nom": "Spring Pops - April in Tennessee"
   },
   {
-    "path": "appels/residence/2f71592e.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 0,
-    "type": "residence",
-    "uid": "2f71592e",
-    "nom": "Summer 2027 Byrdcliffe Communal Residency"
-  },
-  {
     "path": "appels/residence/3fdff05e.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 3,
+    "days_to_deadline": 2,
     "type": "residence",
     "uid": "3fdff05e",
     "nom": "Aviário Studio Ceramics Residency - Winter/Spring 2027"
@@ -34,7 +26,7 @@
   {
     "path": "appels/residence/4595463f.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 7,
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "4595463f",
     "nom": "Casa Ceiba: 2027 Winter/Spring Interest Form"
@@ -42,7 +34,7 @@
   {
     "path": "appels/residence/56a23acc.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 1,
+    "days_to_deadline": 0,
     "type": "residence",
     "uid": "56a23acc",
     "nom": "PATAGONIA ARGENTINA – 2027 multidisciplinary program"
@@ -50,7 +42,7 @@
   {
     "path": "appels/residence/62f915ac.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 6,
+    "days_to_deadline": 5,
     "type": "residence",
     "uid": "62f915ac",
     "nom": "Mesoamerican Codex Painting Instructional Program"
@@ -58,7 +50,7 @@
   {
     "path": "appels/residence/671c5331.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 7,
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "671c5331",
     "nom": "Résidences DARKOUM 2027 au Maroc"
@@ -66,7 +58,7 @@
   {
     "path": "appels/residence/68c386a1.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 1,
+    "days_to_deadline": 0,
     "type": "residence",
     "uid": "68c386a1",
     "nom": "End of Year! Your Time at Dorland Mountain Arts"
@@ -74,7 +66,7 @@
   {
     "path": "appels/residence/7c45ed7c.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 7,
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "7c45ed7c",
     "nom": "Print Residency - Winter & Spring - Barcelona 2027 - La maldita Estampa"
@@ -82,7 +74,7 @@
   {
     "path": "appels/residence/85649e51.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 7,
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "85649e51",
     "nom": "La Porte Peinte: Open Call for July 2027"
@@ -90,7 +82,7 @@
   {
     "path": "appels/residence/8d30b622.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 6,
+    "days_to_deadline": 5,
     "type": "residence",
     "uid": "8d30b622",
     "nom": "Résidence d'artiste LAB 10+1 2027"
@@ -98,7 +90,7 @@
   {
     "path": "appels/residence/b137aba7.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 4,
+    "days_to_deadline": 3,
     "type": "residence",
     "uid": "b137aba7",
     "nom": "Artistes en résidence de la Casa de Velázquez 2027-2028"
@@ -106,23 +98,39 @@
   {
     "path": "appels/residence/b42481f7.yml",
     "status": "bientot-fermee",
-    "days_to_deadline": 7,
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "b42481f7",
     "nom": "Commande de création contemporaine 2027 – Art & Design au Château de Bonaban"
   },
   {
-    "path": "appels/residence/e2b0d67f.yml",
+    "path": "appels/residence/d271441c.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 7,
+    "type": "residence",
+    "uid": "d271441c",
+    "nom": "Résidence de recherche et de création 2027 – Les Factotum et Les Petites Écuries à Nantes"
+  },
+  {
+    "path": "appels/residence/e2b0d67f.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 6,
     "type": "residence",
     "uid": "e2b0d67f",
     "nom": "Commande artistique 2027 – Création de deux sculptures pérennes à Maurepas"
   },
   {
-    "path": "appels/prix/57868eb1.yml",
+    "path": "appels/bourse/4045db43.yml",
     "status": "bientot-fermee",
     "days_to_deadline": 7,
+    "type": "bourse",
+    "uid": "4045db43",
+    "nom": "Japan Foundation grants"
+  },
+  {
+    "path": "appels/prix/57868eb1.yml",
+    "status": "bientot-fermee",
+    "days_to_deadline": 6,
     "type": "prix",
     "uid": "57868eb1",
     "nom": "Commande artistique 2027 – Création d'une œuvre pour deux résidences du Science Park EPOPEA à Caen"

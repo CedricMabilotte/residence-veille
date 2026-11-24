@@ -69,7 +69,7 @@ _meta:
   detection_confidence: 0.8
   detection_method: claude
   source_label: Alternatif-Art — appels à candidature (FR)
-  last_status_check: '2026-11-23'
+  last_status_check: '2026-11-24'
 analyse:
   synthese: Appel annuel pour une exposition collective de 8 à 12 artistes en arts
     visuels autour de la thématique « Mémoire(s) et territoire ». Chaque participant

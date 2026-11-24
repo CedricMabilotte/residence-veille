@@ -177,7 +177,7 @@ _meta:
   detection_confidence: 0.875
   detection_method: heuristic
   source_label: Alternatif-Art — appels à candidature (FR)
-  last_status_check: '2026-11-23'
+  last_status_check: '2026-11-24'
 _interne_affinite:
   match: false
   signaux:

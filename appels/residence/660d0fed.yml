@@ -74,7 +74,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: Institut français — résidences internationales
-  last_status_check: '2026-11-23'
+  last_status_check: '2026-11-24'
   recherche_dates:
     at: '2026-11-18'
     by: agents de recherche (9 agents, 2 vagues)

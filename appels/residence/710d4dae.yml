@@ -56,7 +56,7 @@ _meta:
   detection_confidence: 0.75
   detection_method: heuristic
   source_label: ADAGP — actualités (appels, bourses, prix)
-  last_status_check: '2026-11-23'
+  last_status_check: '2026-11-24'
 analyse:
   synthese: 'Le programme Elles & Cité 2027 offre six résidences de trois mois à Paris
     aux femmes photographes en milieu de carrière. Les lauréates bénéficient d''une

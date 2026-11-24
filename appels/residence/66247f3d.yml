@@ -65,7 +65,7 @@ _meta:
   detection_confidence: 0.85
   detection_method: claude
   source_label: culture360 [rebond K]
-  last_status_check: '2026-11-23'
+  last_status_check: '2026-11-24'
 analyse:
   synthese: IN SITU est un programme de soutien aux artistes émergent·e·s créant dans
     l'espace public. Environ 60 artistes européens accèdent à du contenu en ligne

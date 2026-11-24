@@ -58,7 +58,7 @@ _meta:
   detection_confidence: 0.98
   detection_method: claude
   source_label: Semences manuelles (discovery/seeds.yml)
-  last_status_check: '2026-11-23'
+  last_status_check: '2026-11-24'
 analyse:
   synthese: Résidence de 3 mois à la Villa Médicis à Rome, destinée aux artistes en
     arts plastiques et visuels. Hébergement et atelier gratuits, bourse de 10 500

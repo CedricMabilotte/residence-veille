@@ -1,18 +1,1 @@
-[
-  {
-    "path": "appels/residence/d271441c.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 8,
-    "type": "residence",
-    "uid": "d271441c",
-    "nom": "Résidence de recherche et de création 2027 – Les Factotum et Les Petites Écuries à Nantes"
-  },
-  {
-    "path": "appels/bourse/4045db43.yml",
-    "status": "bientot-fermee",
-    "days_to_deadline": 8,
-    "type": "bourse",
-    "uid": "4045db43",
-    "nom": "Japan Foundation grants"
-  }
-]
+[]

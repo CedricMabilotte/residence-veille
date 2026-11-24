@@ -3,7 +3,7 @@ type: residence
 source_url: https://www.artistcommunities.org/directory/open-calls/summer-2027-byrdcliffe-communal-residency
 fetched_at: '2026-11-18T18:27:28+00:00'
 score: 7
-status: bientot-fermee
+status: expiree
 opportunite:
   nom: Summer 2027 Byrdcliffe Communal Residency
   organisme: Woodstock Byrdcliffe Guild
@@ -119,7 +119,7 @@ _meta:
   detection_confidence: 0.95
   detection_method: claude
   source_label: Artist Communities Alliance — Open Calls (international)
-  last_status_check: '2026-11-23'
+  last_status_check: '2026-11-24'
 analyse:
   synthese: 'Résidence artistique d''été de 4 semaines dans la colonie historique
     de Byrdcliffe, l''une des plus anciennes aux États-Unis. Accueille environ 30
